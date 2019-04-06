@@ -224,8 +224,8 @@ class WorldMap extends React.Component {
     L.control.layers({}, {
       Islands: L.tileLayer("islands/{z}/{x}/{y}.png",{}).addTo(map),
       Discoveries: L.tileLayer("disco/{z}/{x}/{y}.png",{}),
-      Names: L.tileLayer("names/{z}/{x}/{y}.png",{})
-
+      Names: L.tileLayer("names/{z}/{x}/{y}.png",{}),
+      Grid: L.tileLayer("grid/{z}/{x}/{y}.png",{}).addTo(map)
     }, {position: 'topright'}).addTo(map);
 
     map.setView([-128, 128], 2)
