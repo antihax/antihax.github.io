@@ -198,12 +198,13 @@ class WorldMap extends React.Component {
     this.forceTileReload()
     this.timer = setInterval(this.forceTileReload, 15000)
 
-    const baseLayer = L.tileLayer("tiles/{z}/{x}/{y}.png", {
+    const layerOpts = {
       maxZoom: 6,
       minZoom: 1,
       bounds: L.latLngBounds([0,0],[-256,256]),
       noWrap: true,
-    })
+    };
+    const baseLayer = L.tileLayer("tiles/{z}/{x}/{y}.png", layerOpts)
 
     const map = this.worldMap = L.map("worldmap", {
       crs: L.CRS.Simple,
@@ -222,10 +223,10 @@ class WorldMap extends React.Component {
       position:'topright'
     }).addTo(map);
     L.control.layers({}, {
-      Islands: L.tileLayer("islands/{z}/{x}/{y}.png",{}).addTo(map),
-      Discoveries: L.tileLayer("disco/{z}/{x}/{y}.png",{}),
-      Names: L.tileLayer("names/{z}/{x}/{y}.png",{}),
-      Grid: L.tileLayer("grid/{z}/{x}/{y}.png",{}).addTo(map)
+      Islands: L.tileLayer("islands/{z}/{x}/{y}.png",layerOpts).addTo(map),
+      Discoveries: L.tileLayer("disco/{z}/{x}/{y}.png",layerOpts),
+      Names: L.tileLayer("names/{z}/{x}/{y}.png",layerOpts),
+      Grid: L.tileLayer("grid/{z}/{x}/{y}.png",layerOpts).addTo(map)
     }, {position: 'topright'}).addTo(map);
 
     map.setView([-128, 128], 2)
