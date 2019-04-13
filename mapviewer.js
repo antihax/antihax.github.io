@@ -199,7 +199,8 @@ class WorldMap extends React.Component {
     this.timer = setInterval(this.forceTileReload, 15000)
 
     const layerOpts = {
-      maxZoom: 6,
+      maxZoom: 9,
+      maxNativeZoom: 6,
       minZoom: 1,
       bounds: L.latLngBounds([0,0],[-256,256]),
       noWrap: true,
