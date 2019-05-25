@@ -1,6 +1,6 @@
 if (!window) {
   // Only included for VS Code Intellisense
-  function require() { }
+  function require() {}
   const
     React = require("react"),
     ReactDOM = require("react-dom"),
@@ -91,13 +91,17 @@ class EntityMarker extends React.Component {
 
 class CommandMarker extends React.Component {
   componentDidMount() {
-    const { map, latlng, onClose } = this.props
+    const {
+      map,
+      latlng,
+      onClose
+    } = this.props
 
     this.marker =
       L.marker(latlng).addTo(map)
-        //.bindPopup("Enter command")
-        .openPopup()
-        .on("popupclose", onClose)
+      //.bindPopup("Enter command")
+      .openPopup()
+      .on("popupclose", onClose)
 
     // const [srv, x, y] = calcServerLocation(e.latlng)
     // console.log(`${srv}::${x},${y}::`)
@@ -112,7 +116,9 @@ class CommandMarker extends React.Component {
     this.props.map.removeLayer(this.marker)
   }
 
-  render() { return null }
+  render() {
+    return null
+  }
 }
 
 class ShipPath extends React.Component {
@@ -136,10 +142,14 @@ class ShipPath extends React.Component {
       this.props.map.removeLayer(this.line)
   }
 
-  render() { return null }
+  render() {
+    return null
+  }
 
   add() {
-    const { color = "red", map, path } = this.props
+    const {
+      color = "red", map, path
+    } = this.props
 
     if (!path || path.length < 2)
       return
@@ -168,9 +178,11 @@ class WorldMap extends React.Component {
           this.territoryLayer = L.tileLayer(config.url + "{z}/{x}/{y}.png?t={cachebuster}", {
             maxZoom: 6,
             minZoom: 1,
-            bounds: L.latLngBounds([0,0],[-256,256]),
+            bounds: L.latLngBounds([0, 0], [-256, 256]),
             noWrap: true,
-            cachebuster: function() { return Math.random(); }
+            cachebuster: function () {
+              return Math.random();
+            }
           })
 
           this.territoryLayer.addTo(this.worldMap)
@@ -194,41 +206,67 @@ class WorldMap extends React.Component {
   }
 
   componentDidMount() {
-
-    this.forceTileReload()
-    this.timer = setInterval(this.forceTileReload, 15000)
-
     const layerOpts = {
       maxZoom: 9,
       maxNativeZoom: 6,
       minZoom: 1,
-      bounds: L.latLngBounds([0,0],[-256,256]),
+      bounds: L.latLngBounds([0, 0], [-256, 256]),
       noWrap: true,
     };
     const baseLayer = L.tileLayer("tiles/{z}/{x}/{y}.png", layerOpts)
+
+    fetch('/json/islands.json', {
+        dataType: 'json'
+      })
+      .then(res => res.json())
+      .then(function (islands) {
+        for (var k in islands) {
+          if (islands[k].overrides.length > 0) {
+            var circle = new IslandCircle(unrealToLeaflet(islands[k].worldX, islands[k].worldY), {
+              radius: 1.5,
+              color: "#f00",
+              opacity: 0,
+              fillOpacity: 0.1
+            });
+            var html = "<ul class='split-ul'>";
+            for (var resource in islands[k].overrides) {
+              html += "<li>" + islands[k].overrides[resource] + "</li>";
+            }
+            html += "</ul>";
+            circle.bindPopup(html, {
+              showOnMouseOver: true,
+              autoPan: false,
+              keepInView: true,
+            });
+            map.IslandResources.addLayer(circle);
+          }
+        }
+      })
+      .catch(error => {
+        console.log("Islands: " + error)
+      });
+
 
     const map = this.worldMap = L.map("worldmap", {
       crs: L.CRS.Simple,
       layers: [baseLayer],
       zoomControl: false,
-     
     })
 
-   
-
-    map.entities = {}
-    map.entities.Bed = L.layerGroup()
-    map.entities.Ship = L.layerGroup().addTo(map)
+    map.IslandResources = L.layerGroup(layerOpts);
 
     L.control.zoom({
-      position:'topright'
+      position: 'topright'
     }).addTo(map);
     L.control.layers({}, {
-      Islands: L.tileLayer("islands/{z}/{x}/{y}.png",layerOpts).addTo(map),
-      Discoveries: L.tileLayer("disco/{z}/{x}/{y}.png",layerOpts),
-      Names: L.tileLayer("names/{z}/{x}/{y}.png",layerOpts),
-      Grid: L.tileLayer("grid/{z}/{x}/{y}.png",layerOpts).addTo(map)
-    }, {position: 'topright'}).addTo(map);
+      Islands: L.tileLayer("islands/{z}/{x}/{y}.png", layerOpts).addTo(map),
+      Discoveries: L.tileLayer("disco/{z}/{x}/{y}.png", layerOpts),
+      Names: L.tileLayer("names/{z}/{x}/{y}.png", layerOpts),
+      Grid: L.tileLayer("grid/{z}/{x}/{y}.png", layerOpts).addTo(map),
+      Resources: map.IslandResources.addTo(map),
+    }, {
+      position: 'topright'
+    }).addTo(map);
 
     map.setView([-128, 128], 2)
 
@@ -238,17 +276,23 @@ class WorldMap extends React.Component {
       map.on("contextmenu.hide", this.props.onContextMenuClose)
 
     map.on("zoomend", () => {
-        if (map.hasLayer(map.entities.Bed))
-          map.removeLayer(map.entities.Bed)
+      if (map.hasLayer(map.entities.Bed))
+        map.removeLayer(map.entities.Bed)
     })
   }
 
   render() {
-    const { entities, commandMarker, shipPath, color, onCancelCommand } = this.props
+    const {
+      entities,
+      commandMarker,
+      shipPath,
+      color,
+      onCancelCommand
+    } = this.props
 
-    return (
-      <div id="worldmap">
-        {Object.keys(entities).map(id => {
+    return ( <
+      div id = "worldmap" > {
+        Object.keys(entities).map(id => {
           let info = entities[id]
           if (info.ParentEntityID > 0) {
             info = Object.assign({}, info) // copy
@@ -256,24 +300,53 @@ class WorldMap extends React.Component {
             info.ServerYRelativeLocation += entities[info.ParentEntityID].ServerYRelativeLocation
           }
 
-          return (
-            <EntityMarker
-              key={info.EntityID}
-              info={info}
-              map={this.worldMap}
-              onPopupOpen={this.props.onPopupOpen}
-              onPopupClose={this.props.onPopupClose}
+          return ( <
+            EntityMarker key = {
+              info.EntityID
+            }
+            info = {
+              info
+            }
+            map = {
+              this.worldMap
+            }
+            onPopupOpen = {
+              this.props.onPopupOpen
+            }
+            onPopupClose = {
+              this.props.onPopupClose
+            }
             />
           )
         })
+      } {
+        commandMarker &&
+          <
+          CommandMarker map = {
+            this.worldMap
+          }
+        latlng = {
+          commandMarker
         }
-        {commandMarker &&
-          <CommandMarker map={this.worldMap} latlng={commandMarker} onClose={onCancelCommand} />
+        onClose = {
+          onCancelCommand
         }
-        {shipPath &&
-          <ShipPath map={this.worldMap} path={shipPath} color={color} />
+        />
+      } {
+        shipPath &&
+          <
+          ShipPath map = {
+            this.worldMap
+          }
+        path = {
+          shipPath
         }
-      </div>
+        color = {
+          color
+        }
+        />
+      } <
+      /div>
     )
   }
 }
@@ -382,17 +455,14 @@ function createEntityMarker(info, map) {
   }
 
   var infoPanel;
-  if (info.EntitySubType != "None")
-  {
-    infoPanel = 
+  if (info.EntitySubType != "None") {
+    infoPanel =
       `<strong>${info.EntityName}</strong><br>
       ${info.EntityType} - ${info.EntitySubType}</br>
       ${info.EntityID ? "EntityID " + info.EntityID : ""}</br>
       ${info.TribeID ? "TribeID " + info.TribeID : ""}
       <p>[${latlng[0]}, ${latlng[1]}]</p>`
-  }
-  else
-  {
+  } else {
     infoPanel =
       `<strong>${info.EntityName}</strong><br>
       ${info.EntityType}</br>
@@ -400,10 +470,10 @@ function createEntityMarker(info, map) {
       ${info.TribeID ? "TribeID " + info.TribeID : ""}
       <p>[${latlng[0]}, ${latlng[1]}]</p>`
   }
- 
-  const  marker=
-      L.marker(latlng, options)
-        .bindPopup(infoPanel)
+
+  const marker =
+    L.marker(latlng, options)
+    .bindPopup(infoPanel)
 
   marker.addTo(map.entities[info.EntityType])
   marker.remove = function () {
@@ -423,19 +493,27 @@ function splitCommand(text) {
     case 4:
       return {
         server: parts[1],
-        coords: parts[2].split(","),
-        command: parts[3],
+          coords: parts[2].split(","),
+          command: parts[3],
       }
 
-    case 1:
-      return { command: parts[0] }
+      case 1:
+        return {
+          command: parts[0]
+        }
 
-    case 0:
-      return { command: "" }
+        case 0:
+          return {
+            command: ""
+          }
   }
 
-  console.error("splitCommand: failed to parse:", { text })
-  return { command: "" }
+  console.error("splitCommand: failed to parse:", {
+    text
+  })
+  return {
+    command: ""
+  }
 }
 
 class CommandBar extends React.Component {
@@ -456,29 +534,51 @@ class CommandBar extends React.Component {
   }
 
   render() {
-    return (
-      <input
-        id="cmd"
-        className="CommandBar"
-        ref={el => this.input = el}
-        value={this.props.text}
-        placeholder={this.props.focused
-          ? "Enter Command (UP and DOWN for history. Hold SHIFT to maintain location. ESCAPE to clear text. ENTER to submit.)"
-          : "Command Console"
-        }
-        onChange={(e) => this.props.onChange(e.target.value)}
-        onKeyDown={this.handleKeyDown}
-        disabled={this.props.disabled}
-        onFocus={this.props.onFocus}
-        onBlur={this.props.onBlur}
+    return ( <
+      input id = "cmd"
+      className = "CommandBar"
+      ref = {
+        el => this.input = el
+      }
+      value = {
+        this.props.text
+      }
+      placeholder = {
+        this.props.focused ?
+        "Enter Command (UP and DOWN for history. Hold SHIFT to maintain location. ESCAPE to clear text. ENTER to submit.)" : "Command Console"
+      }
+      onChange = {
+        (e) => this.props.onChange(e.target.value)
+      }
+      onKeyDown = {
+        this.handleKeyDown
+      }
+      disabled = {
+        this.props.disabled
+      }
+      onFocus = {
+        this.props.onFocus
+      }
+      onBlur = {
+        this.props.onBlur
+      }
       />
     )
   }
 
   handleKeyDown(event) {
-    const { history, text } = this.props
-    const { buffer, historyIndex } = this.state
-    const { onChange, onSubmit } = this.props
+    const {
+      history,
+      text
+    } = this.props
+    const {
+      buffer,
+      historyIndex
+    } = this.state
+    const {
+      onChange,
+      onSubmit
+    } = this.props
 
     const next = (key, shiftPressed) => {
       if (historyIndex + 1 >= history.length)
@@ -508,9 +608,9 @@ class CommandBar extends React.Component {
         return
 
       const txt =
-        historyIndex == 0
-          ? buffer
-          : history[(history.length - 1) - (historyIndex - 1)]
+        historyIndex == 0 ?
+        buffer :
+        history[(history.length - 1) - (historyIndex - 1)]
 
       this.setState({
         historyIndex: historyIndex - 1,
@@ -571,28 +671,43 @@ class CommandBar extends React.Component {
         return
     }
 
-    this.setState({ historyIndex: -1 })
+    this.setState({
+      historyIndex: -1
+    })
   }
 }
 
-const listItem = (className) => (content, key) => (
-  <li className={className} key={key}>{content}</li>
+const listItem = (className) => (content, key) => ( <
+  li className = {
+    className
+  }
+  key = {
+    key
+  } > {
+    content
+  } < /li>
 )
 
 function History(props) {
   const classes = ["History", !props.visible ? "hidden" : ""]
 
   if (props.history.length == 0)
-    return (
-      <div className={classes.join(" ")}>
-        <em>No history.</em>
-      </div>
+    return ( <
+      div className = {
+        classes.join(" ")
+      } >
+      <
+      em > No history. < /em> < /
+      div >
     )
 
-  return (
-    <ol className={classes.join(" ")}>
-      {props.history.map(listItem("cmd"))}
-    </ol>
+  return ( <
+    ol className = {
+      classes.join(" ")
+    } > {
+      props.history.map(listItem("cmd"))
+    } <
+    /ol>
   )
 }
 
@@ -615,16 +730,22 @@ function Suggestions(props) {
   // const classes = ["History", !props.visible ? "hidden" : ""]
   const classes = ["Suggestions"]
 
-  return props.suggestions.length === 0
-    ? (
-      <div className={classes.join(" ")}>
-        <em>No matches.</em>
-      </div>
-    )
-    : (
-      <ol reversed className={classes.join(" ")}>
-        {props.suggestions.map(listItem("suggestion"))}
-      </ol>
+  return props.suggestions.length === 0 ?
+    ( <
+      div className = {
+        classes.join(" ")
+      } >
+      <
+      em > No matches. < /em> < /
+      div >
+    ) :
+    ( <
+      ol reversed className = {
+        classes.join(" ")
+      } > {
+        props.suggestions.map(listItem("suggestion"))
+      } <
+      /ol>
     )
 }
 
@@ -644,36 +765,67 @@ class CommandConsole extends React.Component {
   }
 
   render() {
-    const { history, historyOpen, sending, suggestions } = this.state
+    const {
+      history,
+      historyOpen,
+      sending,
+      suggestions
+    } = this.state
 
     const showHistory =
       historyOpen || splitCommand(this.props.text).command.length === 0
 
-    return (
-      <div id="cmdbar" className="CommandConsole">
-        {showHistory ?
-          <History
-            visible={this.props.focused}
-            history={history}
-          />
-          :
-          <Suggestions
-            visible={this.props.focused}
-            suggestions={suggestions}
-          />
+    return ( <
+      div id = "cmdbar"
+      className = "CommandConsole" > {
+        showHistory ?
+        <
+        History
+        visible = {
+          this.props.focused
         }
-        <CommandBar
-          text={this.props.text || ""}
-          history={showHistory ? history : suggestions.map(s => s.split(" ")[0])}
-          autocomplete={!showHistory}
-          disabled={sending}
-          focused={this.props.focused}
-          onBlur={this.props.onBlur}
-          onChange={this.handleCommandBarChange}
-          onFocus={this.props.onFocus}
-          onSubmit={this.handleCommandBarSubmit}
+        history = {
+          history
+        }
+        /> : <
+        Suggestions
+        visible = {
+          this.props.focused
+        }
+        suggestions = {
+          suggestions
+        }
         />
-      </div>
+      } <
+      CommandBar text = {
+        this.props.text || ""
+      }
+      history = {
+        showHistory ? history : suggestions.map(s => s.split(" ")[0])
+      }
+      autocomplete = {
+        !showHistory
+      }
+      disabled = {
+        sending
+      }
+      focused = {
+        this.props.focused
+      }
+      onBlur = {
+        this.props.onBlur
+      }
+      onChange = {
+        this.handleCommandBarChange
+      }
+      onFocus = {
+        this.props.onFocus
+      }
+      onSubmit = {
+        this.handleCommandBarSubmit
+      }
+      /> < /
+      div >
     )
   }
 
@@ -686,7 +838,9 @@ class CommandConsole extends React.Component {
           this.state.historyOpen || splitCommand(this.props.text).command.length === 0
 
         this.props.onChange(text)
-        this.setState({ historyOpen })
+        this.setState({
+          historyOpen
+        })
         return
     }
 
@@ -699,9 +853,13 @@ class CommandConsole extends React.Component {
   }
 
   handleCommandBarSubmit(cmd) {
-    const { history } = this.state
+    const {
+      history
+    } = this.state
 
-    this.setState({ sending: true })
+    this.setState({
+      sending: true
+    })
 
     return this.props.onSubmit(cmd)
       .then(() => {
@@ -710,7 +868,9 @@ class CommandConsole extends React.Component {
           history: [...history, cmd],
         })
       }, () => {
-        this.setState({ sending: false })
+        this.setState({
+          sending: false
+        })
       })
   }
 }
@@ -718,8 +878,10 @@ class CommandConsole extends React.Component {
 
 class TitleBar extends React.Component {
   render() {
-    return (
-      <div className="titlebar" id="TitleBar"><img src="atlaslogo128.png" className="atlastitlebaricon" /></div>
+    return ( <
+      div className = "titlebar"
+      id = "TitleBar" > < img src = "atlaslogo128.png"
+      className = "atlastitlebaricon" / > < /div>
     )
   }
 }
@@ -741,7 +903,7 @@ class App extends React.Component {
       commandConsoleEnabled: false
     }
 
- 
+
     this.checkCommandConsoleEnabled = this.checkCommandConsoleEnabled.bind(this);
 
     this.handleWorldMapCancelCommand = this.handleWorldMapCancelCommand.bind(this)
@@ -768,7 +930,9 @@ class App extends React.Component {
           return
 
         evt.preventDefault()
-        this.setState({ consoleFocused: true })
+        this.setState({
+          consoleFocused: true
+        })
       }
     }
 
@@ -780,65 +944,121 @@ class App extends React.Component {
 
   render() {
     const {
-      activeTribeColor, shipPath,
-      command, commandMarker, consoleFocused, entities,
-      notification, tribes,  commandConsoleEnabled,
+      activeTribeColor,
+      shipPath,
+      command,
+      commandMarker,
+      consoleFocused,
+      entities,
+      notification,
+      tribes,
+      commandConsoleEnabled,
     } = this.state
 
     let CommandConsoleComponent;
     if (commandConsoleEnabled) {
-      CommandConsoleComponent = <CommandConsole
-          text={command}
-          focused={consoleFocused}
-          onChange={this.handleCommandConsoleChange}
-          onSubmit={this.handleCommandConsoleSubmit}
-          onBlur={this.handleCommandConsoleBlur}
-          onFocus={this.handleCommandConsoleFocus}
-        />;
+      CommandConsoleComponent = < CommandConsole
+      text = {
+        command
+      }
+      focused = {
+        consoleFocused
+      }
+      onChange = {
+        this.handleCommandConsoleChange
+      }
+      onSubmit = {
+        this.handleCommandConsoleSubmit
+      }
+      onBlur = {
+        this.handleCommandConsoleBlur
+      }
+      onFocus = {
+        this.handleCommandConsoleFocus
+      }
+      />;
     } else {
       CommandConsoleComponent = null
     }
 
-    return (
-      <div className="App">
-        <TitleBar />
-        <WorldMap
-          entities={entities}
-          commandMarker={commandMarker}
-          shipPath={shipPath}
-          color={activeTribeColor}
-          onContextMenu={this.handleWorldMapContextMenu}
-          onContextMenuClose={this.handleWorldMapContextMenuClose}
-          onServerCommand={this.handleServerCommand}
-          onCancelCommand={this.handleWorldMapCancelCommand}
-          onPopupOpen={this.handleWorldMapPopupOpen}
-          onPopupClose={this.handleWorldMapPopupClose}
-        />
-        <div className={"notification " + (notification.type || "hidden")}>
-          {notification.msg}
-          <button className="close" onClick={() => this.setState({ notification: {} })}>Dismiss</button>
-        </div>
-        {CommandConsoleComponent}
-  
-      </div>
+    return ( <
+      div className = "App" >
+      <
+      TitleBar / >
+      <
+      WorldMap entities = {
+        entities
+      }
+      commandMarker = {
+        commandMarker
+      }
+      shipPath = {
+        shipPath
+      }
+      color = {
+        activeTribeColor
+      }
+      onContextMenu = {
+        this.handleWorldMapContextMenu
+      }
+      onContextMenuClose = {
+        this.handleWorldMapContextMenuClose
+      }
+      onServerCommand = {
+        this.handleServerCommand
+      }
+      onCancelCommand = {
+        this.handleWorldMapCancelCommand
+      }
+      onPopupOpen = {
+        this.handleWorldMapPopupOpen
+      }
+      onPopupClose = {
+        this.handleWorldMapPopupClose
+      }
+      /> <
+      div className = {
+        "notification " + (notification.type || "hidden")
+      } > {
+        notification.msg
+      } <
+      button className = "close"
+      onClick = {
+        () => this.setState({
+          notification: {}
+        })
+      } > Dismiss < /button> < /
+      div > {
+        CommandConsoleComponent
+      }
+
+      <
+      /div>
     )
   }
 
-  
+
 
   checkCommandConsoleEnabled() {
-    fetch("command", { method: "POST", body: ""})
-      .then(res => { 
+    fetch("command", {
+        method: "POST",
+        body: ""
+      })
+      .then(res => {
         console.log(res);
         if (res.status == 405) {
-          this.setState({commandConsoleEnabled: false});
+          this.setState({
+            commandConsoleEnabled: false
+          });
         } else {
-          this.setState({commandConsoleEnabled: true});
+          this.setState({
+            commandConsoleEnabled: true
+          });
         }
       });
   }
 
- 
+
 
   handleCommandConsoleChange(command) {
     let commandMarker = null
@@ -852,11 +1072,15 @@ class App extends React.Component {
   }
 
   handleCommandConsoleBlur() {
-    this.setState({ consoleFocused: false })
+    this.setState({
+      consoleFocused: false
+    })
   }
 
   handleCommandConsoleFocus() {
-    this.setState({ consoleFocused: true })
+    this.setState({
+      consoleFocused: true
+    })
   }
 
   handleCommandConsoleSubmit(cmd) {
@@ -869,9 +1093,9 @@ class App extends React.Component {
     })
 
     return fetch("command", {
-      method: "POST",
-      body: cmd,
-    })
+        method: "POST",
+        body: cmd,
+      })
       .then(res => {
         if (!res.ok) {
           this.setState({
@@ -894,7 +1118,9 @@ class App extends React.Component {
   }
 
   handleWorldMapCancelCommand() {
-    this.setState({ commandMarker: null })
+    this.setState({
+      commandMarker: null
+    })
   }
 
   handleWorldMapContextMenu(evt) {
@@ -910,13 +1136,15 @@ class App extends React.Component {
   }
 
   handleWorldMapContextMenuClose(evt) {
-    this.setState({commandMarker: null});
+    this.setState({
+      commandMarker: null
+    });
   }
 
-  handleServerCommand(evt,cmd,bAutoSubmit) {
+  handleServerCommand(evt, cmd, bAutoSubmit) {
     const srvloc = calcServerLocation(evt.latlng)
     const loc = locationAsString(srvloc)
-    
+
     let text = splitCommand(this.state.command).command
     if (cmd)
       text = cmd
@@ -935,7 +1163,7 @@ class App extends React.Component {
         consoleFocused: true,
       })
     }
-  
+
   }
 
   handleWorldMapPopupClose(evt) {
@@ -947,7 +1175,9 @@ class App extends React.Component {
     if (!info || info.EntityType !== "Ship")
       return
 
-    this.setState({ shipPath: [] })
+    this.setState({
+      shipPath: []
+    })
   }
 
   handleWorldMapPopupOpen(evt) {
@@ -971,7 +1201,83 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(
-  <App refresh={5 * 1000 /* 5 seconds */} />,
+ReactDOM.render( <
+  App refresh = {
+    5 * 1000 /* 5 seconds */
+  }
+  />,
   document.getElementById("app")
 )
+
+function scaleAtlasToLeaflet(e) {
+  return (e + 100) * (1.28);
+}
+
+function scaleLeafletToAtlas(e) {
+  return (e / 1.28);
+}
+
+function unrealToLeaflet(x, y) {
+  const unreal = 21000000;
+  var lat = ((x / unreal) * 256),
+    long = -((y / unreal) * 256);
+  return [long, lat];
+}
+
+class IslandCircle extends L.Circle {
+  constructor(latlng, options) {
+    super(latlng, options)
+    this.Island = null
+    this.bindPopup = this.bindPopup.bind(this)
+    this._popupMouseOut = this._popupMouseOut.bind(this)
+    this._getParent = this._getParent.bind(this)
+  }
+  bindPopup(htmlContent, options) {
+    if (options && options.showOnMouseOver) {
+      L.Marker.prototype.bindPopup.apply(this, [htmlContent, options]);
+      this.off("click", this.openPopup, this);
+      this.on("mouseover", function (e) {
+        var target = e.originalEvent.fromElement || e.originalEvent.relatedTarget;
+        var parent = this._getParent(target, "leaflet-popup");
+        if (parent == this._popup._container)
+          return true;
+        GlobalSelectedIsland = this.Island
+        this.openPopup();
+      }, this);
+      this.on("mouseout", function (e) {
+        var target = e.originalEvent.toElement || e.originalEvent.relatedTarget;
+        if (this._getParent(target, "leaflet-popup")) {
+          L.DomEvent.on(this._popup._container, "mouseout", this._popupMouseOut, this);
+          return true;
+        }
+        this.closePopup();
+        GlobalSelectedIsland = null
+      }, this);
+    }
+  }
+  _popupMouseOut(e) {
+    L.DomEvent.off(this._popup, "mouseout", this._popupMouseOut, this);
+    var target = e.toElement || e.relatedTarget;
+    if (this._getParent(target, "leaflet-popup"))
+      return true;
+    if (target == this._path)
+      return true;
+    this.closePopup();
+    GlobalSelectedIsland = null;
+  }
+  _getParent(element, className) {
+    if (element == null)
+      return false;
+    var parent = element.parentNode;
+    while (parent != null) {
+      if (parent.className && L.DomUtil.hasClass(parent, className))
+        return parent;
+      parent = parent.parentNode;
+    }
+    return false;
+  }
+}
+
+function escapeHTML(unsafe_str) {
+  return unsafe_str.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/\"/g, '"').replace(/\'/g, '\'');
+}
