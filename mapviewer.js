@@ -50,6 +50,38 @@ class WorldMap extends React.Component {
     map.IslandTerritories = L.layerGroup(layerOpts);
     map.IslandResources = L.layerGroup(layerOpts);
 
+    var SearchBox = L.Control.extend({
+      onAdd: function () {
+        var element = document.createElement("input");
+        element.id = "searchBox";
+        element.onchange = function (ev) {
+          var search = document.getElementById("searchBox").value.toLowerCase();
+          map.IslandResources.eachLayer(function (layer) {
+            if (search !== "" && layer.overrides.find(function (element) {
+                return element.toLowerCase().includes(search);
+              }))
+              layer.setStyle({
+                radius: 1.5,
+                color: "#f00",
+                opacity: 1,
+                fillOpacity: 1,
+              })
+            else
+              layer.setStyle({
+                radius: 1.5,
+                color: "#f00",
+                opacity: 0,
+                fillOpacity: 0.1,
+              })
+          })
+
+        };
+        return element;
+      }
+    });
+    (new SearchBox).addTo(map);
+    var input = document.getElementById("searchBox");
+
     // Add Layer Control
     L.control.layers({}, {
       Islands: L.tileLayer("islands/{z}/{x}/{y}.png", layerOpts).addTo(map),
@@ -91,8 +123,9 @@ class WorldMap extends React.Component {
               radius: 1.5,
               color: "#f00",
               opacity: 0,
-              fillOpacity: 0.1
+              fillOpacity: 0.1,
             });
+            circle.overrides = islands[k].overrides;
             var html = "<ul class='split-ul'>";
             for (var resource in islands[k].overrides) {
               html += "<li>" + islands[k].overrides[resource] + "</li>";
@@ -110,22 +143,6 @@ class WorldMap extends React.Component {
       .catch(error => {
         console.log(error)
       });
-
-    var gj = L.geoJson(false, {
-      onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.popupContent);
-      },
-      pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, {
-          radius: 8,
-          fillColor: "#ff4400",
-          color: "#000",
-          weight: 1,
-          opacity: 1,
-          fillOpacity: 0.8
-        });
-      }
-    }).addTo(map);
 
     L.Control.MousePosition = L.Control.extend({
       options: {
@@ -215,8 +232,8 @@ class App extends React.Component {
         () => this.setState({
           notification: {}
         })
-      } > Dismiss < /button> <
-      /div> <
+      } > Dismiss < /button> < /
+      div > <
       /div>
     )
   }
