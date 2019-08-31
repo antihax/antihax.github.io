@@ -169,9 +169,9 @@ class WorldMap extends React.Component {
       },
 
       _onMouseMove: function (e) {
-        var lng = L.Util.formatNum(scaleLeafletToAtlas(e.latlng.lng), 2);
-        var lat = -L.Util.formatNum(scaleLeafletToAtlas(-e.latlng.lat), 2);
-        var value = lng + this.options.separator + lat + " / " + e.latlng.lng + this.options.separator + e.latlng.lat;
+        var lng = L.Util.formatNum(scaleLeafletToAtlas(e.latlng.lng)-100, 2);
+        var lat = L.Util.formatNum(100-scaleLeafletToAtlas(-e.latlng.lat), 2);
+        var value = lng + this.options.separator + lat ;
         var prefixAndValue = this.options.prefix + ' ' + value;
         this._container.innerHTML = prefixAndValue;
       }
