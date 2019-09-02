@@ -57,7 +57,9 @@ class WorldMap extends React.Component {
         element.onchange = function (ev) {
           var search = document.getElementById("searchBox").value.toLowerCase();
           map.IslandResources.eachLayer(function (layer) {
-            if (search !== "" && layer.overrides.find(function (element) {
+            if (search !== "" && layer.animals.find(function (element) {
+                return element.toLowerCase().includes(search);
+              }) || layer.resources.find(function (element) {
                 return element.toLowerCase().includes(search);
               }))
               layer.setStyle({
@@ -117,20 +119,36 @@ class WorldMap extends React.Component {
       })
       .then(res => res.json())
       .then(function (islands) {
-        for (var k in islands) {
-          if (islands[k].overrides.length > 0) {
+        for (let k in islands) {
+          if (islands[k].animals || islands[k].resources) {
             var circle = new IslandCircle(unrealToLeaflet(islands[k].worldX, islands[k].worldY), {
               radius: 1.5,
               color: "#f00",
               opacity: 0,
               fillOpacity: 0.1,
             });
-            circle.overrides = islands[k].overrides;
+
+            circle.animals = islands[k].animals;
+            
             var html = "<ul class='split-ul'>";
-            for (var resource in islands[k].overrides) {
-              html += "<li>" + islands[k].overrides[resource] + "</li>";
+            for (let resource in islands[k].animals.sort()) {
+              html += "<li>" + islands[k].animals[resource] + "</li>";
             }
             html += "</ul>";
+            if (islands[k].resources) {
+              var resources = [];
+              for (let key in islands[k].resources) {
+                if (key.length > 0)
+                  resources.push(key);
+              }
+              resources.sort();
+              circle.resources = resources;
+              html += "<ul class='split-ul'>";
+              resources.forEach(function(v) {
+                html += "<li>" + v + " (" + islands[k].resources[v] + ")</li>";
+              });
+              html += "</ul>";
+            }
             circle.bindPopup(html, {
               showOnMouseOver: true,
               autoPan: false,
@@ -169,9 +187,9 @@ class WorldMap extends React.Component {
       },
 
       _onMouseMove: function (e) {
-        var lng = L.Util.formatNum(scaleLeafletToAtlas(e.latlng.lng)-100, 2);
-        var lat = L.Util.formatNum(100-scaleLeafletToAtlas(-e.latlng.lat), 2);
-        var value = lng + this.options.separator + lat ;
+        var lng = L.Util.formatNum(scaleLeafletToAtlas(e.latlng.lng) - 100, 2);
+        var lat = L.Util.formatNum(100 - scaleLeafletToAtlas(-e.latlng.lat), 2);
+        var value = lng + this.options.separator + lat;
         var prefixAndValue = this.options.prefix + ' ' + value;
         this._container.innerHTML = prefixAndValue;
       }
