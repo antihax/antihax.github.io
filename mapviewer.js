@@ -57,11 +57,15 @@ class WorldMap extends React.Component {
         element.onchange = function (ev) {
           var search = document.getElementById("searchBox").value.toLowerCase();
           map.IslandResources.eachLayer(function (layer) {
-            if (search !== "" && layer.animals.find(function (element) {
-                return element.toLowerCase().includes(search);
-              }) || layer.resources.find(function (element) {
-                return element.toLowerCase().includes(search);
-              }))
+            if (search !== "" &&
+              (
+                layer.animals.find(function (element) {
+                  return element.toLowerCase().includes(search);
+                }) ||
+                layer.resources.find(function (element) {
+                  return element.toLowerCase().includes(search);
+                }))
+            )
               layer.setStyle({
                 radius: 1.5,
                 color: "#f00",
@@ -128,23 +132,25 @@ class WorldMap extends React.Component {
               fillOpacity: 0.1,
             });
 
-            circle.animals = islands[k].animals;
+            circle.animals = [];
+            circle.resources = [];
+            circle.animals= islands[k].animals.slice();
 
             var html = "<ul class='split-ul'>";
-            for (let resource in islands[k].animals.sort()) {
-              html += "<li>" + islands[k].animals[resource] + "</li>";
+            for (let resource in circle.animals.sort()) {
+              html += "<li>" + circle.animals[resource] + "</li>";
             }
             html += "</ul>";
             if (islands[k].resources) {
               var resources = [];
               for (let key in islands[k].resources) {
-                if (key.length > 0)
-                  resources.push(key);
+                if (key.length > 2)
+                circle.resources.push(key);
               }
-              resources.sort();
-              circle.resources = resources;
+              circle.resources.sort();
+ 
               html += "<ul class='split-ul'>";
-              resources.forEach(function (v) {
+              circle.resources.forEach(function (v) {
                 html += "<li>" + v + " (" + islands[k].resources[v] + ")</li>";
               });
               html += "</ul>";
