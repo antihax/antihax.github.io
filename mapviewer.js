@@ -49,7 +49,7 @@ class WorldMap extends React.Component {
 
     map.IslandTerritories = L.layerGroup(layerOpts);
     map.IslandResources = L.layerGroup(layerOpts);
-
+    map.Discoveries = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
       onAdd: function () {
         var element = document.createElement("input");
@@ -87,7 +87,7 @@ class WorldMap extends React.Component {
     // Add Layer Control
     L.control.layers({}, {
       Islands: L.tileLayer("islands/{z}/{x}/{y}.png", layerOpts).addTo(map),
-      Discoveries: L.tileLayer("disco/{z}/{x}/{y}.png", layerOpts),
+      Discoveries: map.Discoveries,
       Names: L.tileLayer("names/{z}/{x}/{y}.png", layerOpts),
       Grid: L.tileLayer("grid/{z}/{x}/{y}.png", layerOpts).addTo(map),
       Resources: map.IslandResources.addTo(map),
@@ -129,7 +129,7 @@ class WorldMap extends React.Component {
             });
 
             circle.animals = islands[k].animals;
-            
+
             var html = "<ul class='split-ul'>";
             for (let resource in islands[k].animals.sort()) {
               html += "<li>" + islands[k].animals[resource] + "</li>";
@@ -144,7 +144,7 @@ class WorldMap extends React.Component {
               resources.sort();
               circle.resources = resources;
               html += "<ul class='split-ul'>";
-              resources.forEach(function(v) {
+              resources.forEach(function (v) {
                 html += "<li>" + v + " (" + islands[k].resources[v] + ")</li>";
               });
               html += "</ul>";
@@ -155,6 +155,24 @@ class WorldMap extends React.Component {
               keepInView: true,
             });
             map.IslandResources.addLayer(circle);
+          }
+          if (islands[k].discoveries) {
+            for (let disco in islands[k].discoveries) {
+              var d = islands[k].discoveries[disco];
+              var circle = new IslandCircle(GPStoLeaflet(d.long, d.lat), {
+                radius: .05,
+                color: "#000000",
+                opacity: 0.5,
+                fillOpacity: 0.5,
+              });
+              circle.disco = d;
+              circle.bindPopup(`${d.name}: ${d.long.toFixed(2)} / ${d.lat.toFixed(2)}`, {
+                showOnMouseOver: true,
+                autoPan: false,
+                keepInView: true,
+              });
+              map.Discoveries.addLayer(circle);
+            }
           }
         }
       })
@@ -263,6 +281,13 @@ function scaleAtlasToLeaflet(e) {
 
 function scaleLeafletToAtlas(e) {
   return (e / 1.28);
+}
+
+function GPStoLeaflet(x, y) {
+  var long = (y - 100) * 1.28,
+    lat = (100 + x) * 1.28;
+
+  return [long, lat];
 }
 
 function unrealToLeaflet(x, y) {
