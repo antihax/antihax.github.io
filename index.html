@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css"
-    />
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
-    ></script>
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js"
-    ></script>
+
+<head>
+    <title>ATLAS - Discovery and Resource Map</title>
+    <meta property="og:title" content="ATLAS - Discovery and Resource Map" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="//antihax.github.io/og.png" />
+    <meta property="og:description" content="ATLAS map with discoveries and searchable resource information for each island." />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.8.6/umd/react.production.min.js"></script>
@@ -29,24 +21,23 @@
     <link rel="stylesheet" href="style.css" />
     <script src="config.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-2043836-5">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2043836-5">
     </script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-      gtag("config", "UA-2043836-5");
+        gtag("config", "UA-2043836-5");
     </script>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="app"></div>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <script type="text/babel" src="mapviewer.js"></script>
-  </body>
+</body>
+
 </html>
