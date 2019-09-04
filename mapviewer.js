@@ -159,6 +159,7 @@ class WorldMap extends React.Component {
               showOnMouseOver: true,
               autoPan: false,
               keepInView: true,
+              maxWidth : 560,
             });
             map.IslandResources.addLayer(circle);
           }
