@@ -92,7 +92,6 @@ class WorldMap extends React.Component {
     L.control.layers({}, {
       Islands: L.tileLayer("islands/{z}/{x}/{y}.png", layerOpts).addTo(map),
       Discoveries: map.Discoveries,
-      Names: L.tileLayer("names/{z}/{x}/{y}.png", layerOpts),
       Grid: L.tileLayer("grid/{z}/{x}/{y}.png", layerOpts).addTo(map),
       Resources: map.IslandResources.addTo(map),
     }, {
