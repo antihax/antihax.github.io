@@ -47,6 +47,12 @@ class WorldMap extends React.Component {
       position: 'topright'
     }).addTo(map);
 
+    var extraLife = L.easyButton('<img src="180529.svg" height=63 width=63>', function (btn, map) {
+      window.location.href = 'https://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=47725';
+    }, "I've signed up for #EXTRALIFE to raise money for sick and injured kids at my local children's hospital. I need YOUR help to reach my fundraising goal #ForTheKids!").addTo(map);
+    extraLife.button.style.width = '75px';
+    extraLife.button.style.height = '75px';
+
     map.IslandTerritories = L.layerGroup(layerOpts);
     map.IslandResources = L.layerGroup(layerOpts);
     map.Discoveries = L.layerGroup(layerOpts);
