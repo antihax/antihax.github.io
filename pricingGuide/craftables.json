@@ -1,0 +1,1336 @@
+{
+  "Craftables": {
+    "Aberrant Helmet Skin": { "Gold Coin": 1.0 },
+    "Agate": { "Flint": 40.0, "Gold Coin": 150.0 },
+    "Agedwood": { "Gold Coin": 50.0, "Wood": 50.0 },
+    "Air Conditioner": {
+      "Crystal": 15.0,
+      "Electronics": 15.0,
+      "Metal Ingot": 80.0,
+      "Polymer": 5.0
+    },
+    "Ale": { "Water": 1.0, "Wheat or Maize": 5.0 },
+    "Alizarin Red Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Amethyst": { "Crystal": 15.0, "Gold Coin": 150.0 },
+    "Anthracite": { "Coal": 25.0, "Gold Coin": 50.0 },
+    "Army of the Damned Chestplate Skin": { "Gold Coin": 1000.0 },
+    "Army of the Damned Gauntlets Skin": { "Gold Coin": 1000.0 },
+    "Army of the Damned Greaves Skin": { "Gold Coin": 1000.0 },
+    "Army of the Damned Helmet Skin": { "Gold Coin": 1000.0 },
+    "Army of the Damned Pants Skin": { "Gold Coin": 1000.0 },
+    "Arrow of the Damned": { "Fibers": 3.0, "Flint": 1.0, "Thatch": 1.0 },
+    "Aubergine Brown Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Axe Figure Head": { "Gold Coin": 800.0 },
+    "Ballista Bolt": { "Fibers": 16.0, "Metal": 16.0, "Wood": 32.0 },
+    "Bamboo": { "Fibers": 50.0, "Gold Coin": 150.0 },
+    "Bandana Skin": { "Gold Coin": 30.0 },
+    "Bar Shot": {
+      "Fibers": 10.0,
+      "Flint": 6.0,
+      "Gunpowder": 15.0,
+      "Metal": 12.0
+    },
+    "Bark": { "Gold Coin": 50.0, "Thatch": 50.0 },
+    "Basalt": { "Flint": 40.0, "Gold Coin": 50.0 },
+    "Base Bed": { "Wood": 0.0 },
+    "Base Ceiling Structure": { "Wood": 5.0 },
+    "Base Egg Kibble": { "Fiber": 3.0, "Mejoberry": 2.0, "Water": 1.0 },
+    "Base Intake Pipe": { "Stone": 1.0 },
+    "Base Ladder Structure": { "Wood": 5.0 },
+    "Base Sign Structure": { "Wood": 5.0 },
+    "Bee Hive": {
+      "Cementing Paste": 1.0,
+      "Flint": 1.0,
+      "Metal Ingot": 1.0,
+      "Stone": 1.0,
+      "Thatch": 4.0,
+      "Wood": 2.0
+    },
+    "Beef Buns": {
+      "Chili": 5.0,
+      "Cooked Meat": 3.0,
+      "Cooking Herbs": 3.0,
+      "Salt": 1.0,
+      "Wheat or Maize": 10.0
+    },
+    "Berry Tea": { "Berry": 5.0, "Water": 1.0 },
+    "Bio Toxin": { "Narcotic": 12.0 },
+    "Black Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Blackberry Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Blackcurrant Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Blasting Powder": {
+      "Crystal": 1.0,
+      "Flint": 2.0,
+      "Gem": 1.0,
+      "Organic Paste": 1.0,
+      "Salt": 1.0
+    },
+    "Blubber": { "Gold Coin": 50.0, "Oil": 30.0 },
+    "Blue Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Blue Whale Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Bone Wheel": { "Gold Coin": 500.0 },
+    "Bookshelf": { "Fibers": 36.0, "Thatch": 52.0, "Wood": 80.0 },
+    "Boulder": { "Metal": 6.0, "Stone": 22.0 },
+    "Brick Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Bright Red Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Bronze Figure Head": { "Gold Coin": 800.0 },
+    "Brown Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Bubble N' Squeak": {
+      "Cooked Meat": 3.0,
+      "Cooking Herbs": 3.0,
+      "Vegetable": 3.0,
+      "Wheat or Maize": 10.0
+    },
+    "Buoy": { "Fibers": 26.0, "Thatch": 20.0, "Wood": 36.0 },
+    "Calcite": { "Crystal": 15.0, "Gold Coin": 50.0 },
+    "Campfire": { "Flint": 1.0, "Stone": 6.0, "Thatch": 8.0, "Wood": 3.0 },
+    "Canister Shot": { "Gunpowder": 6.0, "Metal": 7.0 },
+    "Cantaloupe Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Canvas Base": { "Fiber": 4.0, "Hide": 1.0, "Wood": 2.0 },
+    "Celery Soup": {
+      "Celery": 3.0,
+      "Cooked Fish": 3.0,
+      "Salt": 1.0,
+      "Water": 2.0
+    },
+    "Cementing Paste": { "Chitin/Keratin": 4.0, "Stone": 8.0 },
+    "Cerulean Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Chalcedony": { "Flint": 40.0, "Gold Coin": 50.0 },
+    "Charcoal": { "Wood": 1.0 },
+    "Chateau Green Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Chert": { "Flint": 40.0, "Gold Coin": 50.0 },
+    "Cloth Atlantean Chestplate Skin": { "Gold Coin": 200.0 },
+    "Cloth Atlantean Gauntlets Skin": { "Gold Coin": 200.0 },
+    "Cloth Atlantean Greaves Skin": { "Gold Coin": 200.0 },
+    "Cloth Atlantean Helmet Skin": { "Gold Coin": 200.0 },
+    "Cloth Atlantean Pants Skin": { "Gold Coin": 200.0 },
+    "Cloth Cyclops Chestplate Skin": { "Gold Coin": 100.0 },
+    "Cloth Cyclops Gauntlets Skin": { "Gold Coin": 100.0 },
+    "Cloth Cyclops Greaves Skin": { "Gold Coin": 100.0 },
+    "Cloth Cyclops Helmet Skin": { "Gold Coin": 100.0 },
+    "Cloth Cyclops Pants Skin": { "Gold Coin": 100.0 },
+    "Cloth Hydra Chestplate Skin": { "Gold Coin": 200.0 },
+    "Cloth Hydra Gauntlets Skin": { "Gold Coin": 200.0 },
+    "Cloth Hydra Greaves Skin": { "Gold Coin": 200.0 },
+    "Cloth Hydra Helmet Skin": { "Gold Coin": 200.0 },
+    "Cloth Hydra Pants Skin": { "Gold Coin": 200.0 },
+    "Cobalt": { "Gold Coin": 50.0, "Metal": 25.0 },
+    "Cobalt Ingot": { "Coal": 1.0, "Cobalt": 2.0, "Salt": 1.0 },
+    "Common Accordion": {
+      "Fibers": 18.0,
+      "Keratinoid": 12.0,
+      "Metal": 10.0,
+      "Wood": 16.0
+    },
+    "Common Balista Turret": {
+      "Alloy": 98.0,
+      "Fibers": 200.0,
+      "Stone": 180.0,
+      "Thatch": 140.0,
+      "Wood": 420.0
+    },
+    "Common Blackjack": { "Fibers": 8.0, "Keratinoid": 10.0, "Wood": 6.0 },
+    "Common Bola": { "Fibers": 36.0, "Stone": 9.0, "Thatch": 10.0 },
+    "Common Catapult Turret": {
+      "Alloy": 140.0,
+      "Hide": 70.0,
+      "Stone": 340.0,
+      "Thatch": 90.0,
+      "Wood": 400.0
+    },
+    "Common Dinghy Ship Hangar": {
+      "Fibers": 80.0,
+      "Hide": 28.0,
+      "Metal": 14.0,
+      "Wood": 210.0
+    },
+    "Common DivingAttachment": {
+      "Fibers": 140.0,
+      "Hide": 46.0,
+      "Metal": 62.0,
+      "Wood": 260.0
+    },
+    "Common Food Larder": {
+      "Fibers": 20.0,
+      "Metal": 8.0,
+      "Thatch": 10.0,
+      "Wood": 100.0
+    },
+    "Common Lantern": { "Flint": 1.0, "Stone": 1.0, "Wood": 1.0 },
+    "Common Large Cannon": {
+      "Alloy": 48.0,
+      "Fibers": 24.0,
+      "Hide": 35.0,
+      "Wood": 78.0
+    },
+    "Common Large Handling Sail": {
+      "Fibers": 1080.0,
+      "Hide": 200.0,
+      "Metal": 80.0,
+      "Wood": 512.0
+    },
+    "Common Large Shipyard": {
+      "Fibers": 1000.0,
+      "Stone": 500.0,
+      "Thatch": 2000.0,
+      "Wood": 4000.0
+    },
+    "Common Large Speed Sail": {
+      "Fibers": 1080.0,
+      "Hide": 200.0,
+      "Metal": 80.0,
+      "Wood": 512.0
+    },
+    "Common Large Stone Gate": {
+      "Alloy": 116.0,
+      "Fibers": 180.0,
+      "Stone": 630.0,
+      "Thatch": 210.0,
+      "Wood": 315.0
+    },
+    "Common Large Stone Gateway": {
+      "Alloy": 184.0,
+      "Fibers": 314.0,
+      "Stone": 840.0,
+      "Thatch": 315.0,
+      "Wood": 420.0
+    },
+    "Common Large Stone Wall": {
+      "Alloy": 240.0,
+      "Fibers": 394.0,
+      "Stone": 1176.0,
+      "Thatch": 420.0,
+      "Wood": 588.0
+    },
+    "Common Large Weight Sail": {
+      "Fibers": 1080.0,
+      "Hide": 200.0,
+      "Metal": 80.0,
+      "Wood": 512.0
+    },
+    "Common Large Wood Gate": {
+      "Fibers": 210.0,
+      "Metal": 90.0,
+      "Thatch": 420.0,
+      "Wood": 630.0
+    },
+    "Common Large Wood Gateway": {
+      "Fibers": 420.0,
+      "Metal": 126.0,
+      "Thatch": 630.0,
+      "Wood": 840.0
+    },
+    "Common Large Wood Gunport ": {
+      "Fibers": 1540.0,
+      "Metal": 24.0,
+      "Thatch": 1320.0,
+      "Wood": 1540.0
+    },
+    "Common Large Wood Plank": {
+      "Fibers": 1540.0,
+      "Metal": 24.0,
+      "Thatch": 1320.0,
+      "Wood": 1540.0
+    },
+    "Common Large Wood Ship Deck": {
+      "Fibers": 400.0,
+      "Thatch": 650.0,
+      "Wood": 860.0
+    },
+    "Common Large Wood Wall": {
+      "Fibers": 504.0,
+      "Metal": 172.0,
+      "Thatch": 840.0,
+      "Wood": 1176.0
+    },
+    "Common Medium Handling Sail": {
+      "Fibers": 432.0,
+      "Hide": 62.0,
+      "Metal": 28.0,
+      "Wood": 196.0
+    },
+    "Common Medium Speed Sail": {
+      "Fibers": 432.0,
+      "Hide": 62.0,
+      "Metal": 28.0,
+      "Wood": 196.0
+    },
+    "Common Medium Stone Gate": {
+      "Alloy": 40.0,
+      "Fibers": 48.0,
+      "Stone": 180.0,
+      "Thatch": 60.0,
+      "Wood": 90.0
+    },
+    "Common Medium Stone Gateway": {
+      "Alloy": 66.0,
+      "Fibers": 90.0,
+      "Stone": 240.0,
+      "Thatch": 90.0,
+      "Wood": 120.0
+    },
+    "Common Medium Weight Sail": {
+      "Fibers": 432.0,
+      "Hide": 62.0,
+      "Metal": 28.0,
+      "Wood": 196.0
+    },
+    "Common Medium Wood Gate": {
+      "Fibers": 60.0,
+      "Metal": 30.0,
+      "Thatch": 120.0,
+      "Wood": 180.0
+    },
+    "Common Medium Wood Gateway": {
+      "Fibers": 120.0,
+      "Metal": 42.0,
+      "Thatch": 180.0,
+      "Wood": 320.0
+    },
+    "Common Medium Wood Gunport": {
+      "Fibers": 408.0,
+      "Metal": 6.0,
+      "Thatch": 360.0,
+      "Wood": 432.0
+    },
+    "Common Medium Wood Plank": {
+      "Fibers": 408.0,
+      "Metal": 6.0,
+      "Thatch": 360.0,
+      "Wood": 432.0
+    },
+    "Common Medium Wood Ship Deck": {
+      "Fibers": 94.0,
+      "Thatch": 176.0,
+      "Wood": 246.0
+    },
+    "Common Metal Cliff Platform": {
+      "Hide": 660.0,
+      "Keratinoid": 800.0,
+      "Metal": 1270.0,
+      "Stone": 820.0,
+      "Wood": 550.0
+    },
+    "Common Mortar": {
+      "Alloy": 52.0,
+      "Fibers": 16.0,
+      "Hide": 22.0,
+      "Wood": 48.0
+    },
+    "Common Music Weapon": { "Stone": 10.0 },
+    "Common Puckle": {
+      "Alloy": 48.0,
+      "Fibers": 28.0,
+      "Hide": 22.0,
+      "Wood": 42.0
+    },
+    "Common Ship Ammunition Container": {
+      "Fibers": 40.0,
+      "Metal": 8.0,
+      "Thatch": 60.0,
+      "Wood": 120.0
+    },
+    "Common Ship Cannon": {
+      "Alloy": 28.0,
+      "Fibers": 14.0,
+      "Hide": 20.0,
+      "Wood": 42.0
+    },
+    "Common Ship Cargo Rack": {
+      "Fibers": 286.0,
+      "Hide": 72.0,
+      "Metal": 68.0,
+      "Wood": 352.0
+    },
+    "Common Ship Deck Base": { "Wood": 1.0 },
+    "Common Ship Gunport Base": { "Wood": 1.0 },
+    "Common Ship Plank Base": { "Wood": 1.0 },
+    "Common Ship Resources Box": {
+      "Fibers": 60.0,
+      "Metal": 12.0,
+      "Thatch": 50.0,
+      "Wood": 100.0
+    },
+    "Common Ship Spikes Base": { "Fiber": 30.0, "Hide": 10.0, "Wood": 40.0 },
+    "Common Shipyard": { "Wood": 5.0 },
+    "Common Small Handling Sail": {
+      "Fibers": 115.0,
+      "Hide": 28.0,
+      "Wood": 84.0
+    },
+    "Common Small Shipyard": {
+      "Fibers": 240.0,
+      "Stone": 105.0,
+      "Thatch": 420.0,
+      "Wood": 840.0
+    },
+    "Common Small Speed Sail": { "Fibers": 115.0, "Hide": 28.0, "Wood": 84.0 },
+    "Common Small Stone Gate": {
+      "Alloy": 28.0,
+      "Fibers": 36.0,
+      "Stone": 104.0,
+      "Thatch": 36.0,
+      "Wood": 52.0
+    },
+    "Common Small Stone Gateway": {
+      "Alloy": 44.0,
+      "Fibers": 70.0,
+      "Stone": 140.0,
+      "Thatch": 52.0,
+      "Wood": 70.0
+    },
+    "Common Small Weight Sail": { "Fibers": 115.0, "Hide": 28.0, "Wood": 84.0 },
+    "Common Small Wood Gate": {
+      "Fibers": 34.0,
+      "Metal": 20.0,
+      "Thatch": 72.0,
+      "Wood": 98.0
+    },
+    "Common Small Wood Gateway": {
+      "Fibers": 70.0,
+      "Metal": 26.0,
+      "Thatch": 104.0,
+      "Wood": 180.0
+    },
+    "Common Small Wood Plank": { "Fibers": 50.0, "Thatch": 60.0, "Wood": 65.0 },
+    "Common Small Wood Ship Deck": {
+      "Fibers": 40.0,
+      "Thatch": 105.0,
+      "Wood": 70.0
+    },
+    "Common Stone Ceiling": {
+      "Fibers": 15.0,
+      "Metal": 15.0,
+      "Stone": 40.0,
+      "Thatch": 30.0,
+      "Wood": 20.0
+    },
+    "Common Stone Cliff Platform": {
+      "Hide": 440.0,
+      "Metal": 160.0,
+      "Organic Paste": 40.0,
+      "Stone": 1100.0,
+      "Thatch": 320.0,
+      "Wood": 640.0
+    },
+    "Common Stone Door": {
+      "Fibers": 15.0,
+      "Metal": 15.0,
+      "Stone": 40.0,
+      "Thatch": 30.0,
+      "Wood": 20.0
+    },
+    "Common Stone Fence Support": {
+      "Fibers": 15.0,
+      "Metal": 15.0,
+      "Stone": 40.0,
+      "Thatch": 30.0,
+      "Wood": 20.0
+    },
+    "Common Stone Floor": {
+      "Fibers": 15.0,
+      "Metal": 15.0,
+      "Stone": 40.0,
+      "Thatch": 30.0,
+      "Wood": 20.0
+    },
+    "Common Stone Pillar": {
+      "Fibers": 15.0,
+      "Metal": 15.0,
+      "Stone": 40.0,
+      "Thatch": 30.0,
+      "Wood": 20.0
+    },
+    "Common Stone Roof": {
+      "Fibers": 15.0,
+      "Metal": 15.0,
+      "Stone": 30.0,
+      "Thatch": 30.0,
+      "Wood": 15.0
+    },
+    "Common Stone Staircase": {
+      "Fibers": 15.0,
+      "Metal": 15.0,
+      "Stone": 30.0,
+      "Thatch": 30.0,
+      "Wood": 15.0
+    },
+    "Common Stone Wall": {
+      "Fibers": 15.0,
+      "Metal": 15.0,
+      "Stone": 35.0,
+      "Thatch": 30.0,
+      "Wood": 20.0
+    },
+    "Common Swivel Gun": {
+      "Alloy": 12.0,
+      "Fibers": 120.0,
+      "Hide": 20.0,
+      "Stone": 100.0,
+      "Wood": 18.0
+    },
+    "Common Thatch Ceiling": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
+    "Common Thatch Door": { "Fibers": 7.0, "Thatch": 16.0, "Wood": 4.0 },
+    "Common Thatch Floor": { "Fibers": 9.0, "Thatch": 20.0, "Wood": 6.0 },
+    "Common Thatch Roof": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
+    "Common Thatch Wall": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
+    "Common Tiny Shipyard": {
+      "Fibers": 160.0,
+      "Stone": 70.0,
+      "Thatch": 280.0,
+      "Wood": 560.0
+    },
+    "Common Torpedo Launcher": {
+      "Alloy": 824.0,
+      "Fibers": 518.0,
+      "Hide": 432.0,
+      "Mythos": 646.0,
+      "Wood": 960.0
+    },
+    "Common Wide Medium Stone Gate": {
+      "Alloy": 78.0,
+      "Fibers": 138.0,
+      "Stone": 462.0,
+      "Thatch": 172.0,
+      "Wood": 266.0
+    },
+    "Common Wide Medium Stone Gateway": {
+      "Alloy": 148.0,
+      "Fibers": 206.0,
+      "Stone": 620.0,
+      "Thatch": 224.0,
+      "Wood": 300.0
+    },
+    "Common Wide Medium Wood Gate": {
+      "Fibers": 172.0,
+      "Metal": 62.0,
+      "Thatch": 322.0,
+      "Wood": 462.0
+    },
+    "Common Wide Medium Wood Gateway": {
+      "Fibers": 308.0,
+      "Metal": 94.0,
+      "Thatch": 480.0,
+      "Wood": 620.0
+    },
+    "Common Wood Ceiling": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Common Wood Cliff Platform": {
+      "Hide": 440.0,
+      "Metal": 120.0,
+      "Stone": 1100.0,
+      "Thatch": 320.0,
+      "Wood": 640.0
+    },
+    "Common Wood Door": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Common Wood Fence Support": {
+      "Fibers": 20.0,
+      "Thatch": 60.0,
+      "Wood": 40.0
+    },
+    "Common Wood Floor": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Common Wood Gun Mount": {
+      "Fibers": 12.0,
+      "Stone": 8.0,
+      "Thatch": 12.0,
+      "Wood": 40.0
+    },
+    "Common Wood Hull Gunport Base": { "Wood": 1.0 },
+    "Common Wood Hull Plank Base": { "Wood": 1.0 },
+    "Common Wood Pillar": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Common Wood Roof": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Common Wood Ship Deck Base": { "Wood": 1.0 },
+    "Common Wood Ship Spikes": { "Fiber": 30.0, "Hide": 10.0, "Wood": 40.0 },
+    "Common Wood Staircase": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Common Wood Wall": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Common Wooden Platform": { "Wood": 5.0 },
+    "Conifer Green Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Cooked Fish": { "Fish Meat": 1.0 },
+    "Cooked Meat": { "Animal Meat": 1.0 },
+    "Cooked Prime Animal Meat": { "Prime Animal Meat": 1.0 },
+    "Cooked Prime Fish Meat": { "Prime Fish Meat": 1.0 },
+    "Cooking Pot": {
+      "Flint": 8.0,
+      "Stone": 40.0,
+      "Thatch": 15.0,
+      "Wood": 10.0
+    },
+    "Copper": { "Gold Coin": 50.0, "Metal": 25.0 },
+    "Copper Ingot": { "Copper": 2.0, "Saps": 1.0, "Wood": 1.0 },
+    "Coquina": { "Gold Coin": 50.0, "Stone": 50.0 },
+    "Cotton": { "Fibers": 50.0, "Gold Coin": 50.0 },
+    "Crab Wheel": { "Gold Coin": 250.0 },
+    "Creme Brulee": {
+      "Egg!": 5.0,
+      "Elderberry": 3.0,
+      "Milk": 1.0,
+      "Salt": 1.0,
+      "Saps": 10.0
+    },
+    "Crew Resources Silo": {
+      "Fibers": 300.0,
+      "Metal": 250.0,
+      "Thatch": 350.0,
+      "Wood": 420.0
+    },
+    "Crossbow Bolt": {
+      "Fibers": 3.0,
+      "Flint": 1.0,
+      "Hide": 2.0,
+      "Thatch": 3.0
+    },
+    "Crude Oil": { "Gold Coin": 50.0, "Oil": 30.0 },
+    "Custom Flag": { "Fibers": 60.0, "Thatch": 26.0, "Wood": 42.0 },
+    "Cyan Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Cyclops Tame Token": { "Gold Coin": 25000.0 },
+    "Dark Draught": {
+      "Blackberry": 20.0,
+      "Kala Namak": 3.0,
+      "Mint": 5.0,
+      "Saps": 5.0,
+      "Water": 1.0,
+      "Wheat or Maize": 5.0
+    },
+    "Dark Pink Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Dark Violet Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Darkwood": { "Gold Coin": 50.0, "Wood": 50.0 },
+    "Diamond": { "Gem": 15.0, "Gold Coin": 50.0 },
+    "Dragon Figure Head": { "Gold Coin": 800.0 },
+    "Dragon's Tongue Delight": {
+      "Beet": 5.0,
+      "Berry": 10.0,
+      "Chili": 5.0,
+      "Cooking Herbs": 20.0,
+      "Lime": 5.0,
+      "Marrow": 1.0,
+      "Saps": 10.0,
+      "Water": 1.0,
+      "Wheat or Maize": 20.0
+    },
+    "Drake Tame Token": { "Gold Coin": 40000.0 },
+    "Electrical Cable Intersection": { "Metal Ingot": 2.0 },
+    "Electrical Generator": { "Electronics": 10.0, "Metal Ingot": 25.0 },
+    "Electrical Outlet": {
+      "Electronics": 3.0,
+      "Metal Ingot": 5.0,
+      "Wood": 15.0
+    },
+    "Electronics": { "Metal Ingot": 1.0, "Silica Pearls": 3.0 },
+    "Emerald": { "Gem": 15.0, "Gold Coin": 50.0 },
+    "Explosive Barrel": {
+      "Blasting Powder": 100.0,
+      "Flint": 6.0,
+      "Metal": 20.0,
+      "Wood": 80.0
+    },
+    "Eye Patch Skin": { "Gold Coin": 150.0 },
+    "Feeding Trough": {
+      "Fibers": 60.0,
+      "Metal": 8.0,
+      "Thatch": 80.0,
+      "Wood": 140.0
+    },
+    "Fire Elemental Tame Token": { "Gold Coin": 30000.0 },
+    "Fire Gel": { "Flint": 3.0, "Organic Paste": 2.0 },
+    "Fish 'n Chips": {
+      "Cooked Fish": 5.0,
+      "Pepper": 1.0,
+      "Salt": 5.0,
+      "Vegetable": 5.0,
+      "Wheat or Maize": 10.0
+    },
+    "Fish Oil": { "Gold Coin": 50.0, "Oil": 30.0 },
+    "Flake Salt": { "Gold Coin": 50.0, "Salt": 40.0 },
+    "Flame Arrow": { "Fire Gel": 4.0, "Stone Arrow": 1.0 },
+    "Flare Gun": {
+      "Fibers": 6.0,
+      "Flint": 2.0,
+      "Gunpowder": 10.0,
+      "Wood": 4.0
+    },
+    "Flint": { "Stone": 2.0 },
+    "Forest Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Forge": {
+      "Fibers": 40.0,
+      "Flint": 5.0,
+      "Hide": 65.0,
+      "Metal": 20.0,
+      "Stone": 125.0,
+      "Wood": 20.0
+    },
+    "Fronds": { "Gold Coin": 50.0, "Thatch": 50.0 },
+    "Fur Cyclops Chestplate Skin": { "Gold Coin": 500.0 },
+    "Fur Cyclops Gauntlets Skin": { "Gold Coin": 500.0 },
+    "Fur Cyclops Greaves Skin": { "Gold Coin": 500.0 },
+    "Fur Cyclops Helmet Skin": { "Gold Coin": 500.0 },
+    "Fur Cyclops Pants Skin": { "Gold Coin": 500.0 },
+    "Fur Hydra Chestplate Skin": { "Gold Coin": 800.0 },
+    "Fur Hydra Gauntlets Skin": { "Gold Coin": 800.0 },
+    "Fur Hydra Greaves Skin": { "Gold Coin": 800.0 },
+    "Fur Hydra Helmet Skin": { "Gold Coin": 800.0 },
+    "Fur Hydra Pants Skin": { "Gold Coin": 800.0 },
+    "Garnet": { "Gem": 15.0, "Gold Coin": 50.0 },
+    "Gasoline": { "Hide": 5.0, "Oil": 6.0 },
+    "Generic Consumable": { "Wood": 0.0 },
+    "Generic Saddle": { "Fibers": 28.0, "Hide": 26.0 },
+    "Generic Weapon": { "Stone": 10.0 },
+    "Gibbet": { "Fibers": 36.0, "Hide": 22.0, "Metal": 40.0, "Wood": 40.0 },
+    "Gold Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Gold Figure Head": { "Gold Coin": 800.0 },
+    "Granite": { "Gold Coin": 50.0, "Stone": 50.0 },
+    "Grape Shot": { "Gunpowder": 5.0, "Metal": 6.0 },
+    "Graphite": { "Coal": 25.0, "Gold Coin": 50.0 },
+    "Green Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Grenade": {
+      "Blasting Powder": 8.0,
+      "Coal": 10.0,
+      "Fibers": 15.0,
+      "Keratinoid": 6.0,
+      "Metal": 6.0
+    },
+    "Grill": {
+      "Crystal": 4.0,
+      "Fibers": 40.0,
+      "Flint": 30.0,
+      "Hide": 65.0,
+      "Metal": 20.0,
+      "Stone": 180.0,
+      "Wood": 20.0
+    },
+    "Grog": { "Saps": 5.0, "Water": 1.0 },
+    "Gunpowder": { "Coal": 1.0, "Flint": 2.0 },
+    "Handcuffs": { "Fibers": 30.0, "Hide": 26.0, "Metal": 12.0 },
+    "Hanging Noose": { "Fibers": 120.0, "Thatch": 20.0 },
+    "Hardtack": { "Water": 1.0, "Wheat or Maize": 5.0 },
+    "Harpoon": { "Fibers": 112.0, "Metal": 28.0, "Wood": 46.0 },
+    "Heavy Atlantean Chestplate Skin": { "Gold Coin": 800.0 },
+    "Heavy Atlantean Gauntlets Skin": { "Gold Coin": 800.0 },
+    "Heavy Atlantean Greaves Skin": { "Gold Coin": 800.0 },
+    "Heavy Atlantean Helmet Skin": { "Gold Coin": 800.0 },
+    "Heavy Atlantean Pants Skin": { "Gold Coin": 800.0 },
+    "Heavy Cyclops Chestplate Skin": { "Gold Coin": 600.0 },
+    "Heavy Cyclops Gauntlets Skin": { "Gold Coin": 600.0 },
+    "Heavy Cyclops Greaves Skin": { "Gold Coin": 600.0 },
+    "Heavy Cyclops Helmet Skin": { "Gold Coin": 600.0 },
+    "Heavy Cyclops Pants Skin": { "Gold Coin": 600.0 },
+    "Heavy Hydra Chestplate Skin": { "Gold Coin": 600.0 },
+    "Heavy Hydra Gauntlets Skin": { "Gold Coin": 600.0 },
+    "Heavy Hydra Greaves Skin": { "Gold Coin": 600.0 },
+    "Heavy Hydra Helmet Skin": { "Gold Coin": 600.0 },
+    "Heavy Hydra Pants Skin": { "Gold Coin": 600.0 },
+    "Hemp": { "Fibers": 50.0, "Gold Coin": 50.0 },
+    "Herkimer": { "Crystal": 15.0, "Gold Coin": 50.0 },
+    "Hide Atlantean Chestplate Skin": { "Gold Coin": 600.0 },
+    "Hide Atlantean Gauntlets Skin": { "Gold Coin": 600.0 },
+    "Hide Atlantean Greaves Skin": { "Gold Coin": 600.0 },
+    "Hide Atlantean Helmet Skin": { "Gold Coin": 600.0 },
+    "Hide Atlantean Pants Skin": { "Gold Coin": 600.0 },
+    "Hide Cyclops Chestplate Skin": { "Gold Coin": 400.0 },
+    "Hide Cyclops Gauntlets Skin": { "Gold Coin": 400.0 },
+    "Hide Cyclops Greaves Skin": { "Gold Coin": 400.0 },
+    "Hide Cyclops Helmet Skin": { "Gold Coin": 400.0 },
+    "Hide Cyclops Pants Skin": { "Gold Coin": 400.0 },
+    "Hide Hydra Chestplate Skin": { "Gold Coin": 400.0 },
+    "Hide Hydra Gauntlets Skin": { "Gold Coin": 400.0 },
+    "Hide Hydra Greaves Skin": { "Gold Coin": 400.0 },
+    "Hide Hydra Helmet Skin": { "Gold Coin": 400.0 },
+    "Hide Hydra Pants Skin": { "Gold Coin": 400.0 },
+    "Hot Cocoa": {
+      "Cocoa": 5.0,
+      "Milk or Water": 1.0,
+      "Mint": 3.0,
+      "Salt": 1.0,
+      "Saps": 3.0
+    },
+    "Human": { "Metal": 6.0, "Stone": 22.0 },
+    "Hydra Wheel": { "Gold Coin": 500.0 },
+    "Ice Box": {
+      "Fibers": 26.0,
+      "Keratinoid": 60.0,
+      "Metal": 18.0,
+      "Organic Paste": 12.0,
+      "Thatch": 38.0,
+      "Wood": 64.0
+    },
+    "Inclined Electrical Cable": { "Metal Ingot": 2.0 },
+    "Indigo Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Iodine": { "Gold Coin": 50.0, "Salt": 40.0 },
+    "Iridium": { "Gold Coin": 150.0, "Metal": 25.0 },
+    "Iridium Ingot": { "Crystal": 1.0, "Flint": 1.0, "Iridium": 2.0 },
+    "Iron": { "Gold Coin": 50.0, "Metal": 25.0 },
+    "Iron Ingot": { "Coal": 1.0, "Iron": 2.0, "Wood": 1.0 },
+    "Ironwood": { "Gold Coin": 150.0, "Wood": 50.0 },
+    "Jute": { "Fibers": 50.0, "Gold Coin": 50.0 },
+    "Kala Namak": { "Gold Coin": 150.0, "Salt": 40.0 },
+    "Kibble (Argentavis Egg)": {
+      "Argentavis Egg": 1.0,
+      "Citronal": 1.0,
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Water": 1.0
+    },
+    "Kibble (Bronto Egg)": {
+      "Bronto Egg": 1.0,
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Rockarrot": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Carno Egg)": {
+      "Carno Egg": 1.0,
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Savoroot": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Dimetrodon Egg)": {
+      "Citronal": 1.0,
+      "Dimetrodon Egg": 1.0,
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Water": 1.0
+    },
+    "Kibble (Dimorph Egg)": {
+      "Dimorph Egg": 1.0,
+      "Fiber": 3.0,
+      "Longrass": 1.0,
+      "Mejoberry": 2.0,
+      "Water": 1.0
+    },
+    "Kibble (Dodo Egg)": {
+      "Dodo Egg": 1.0,
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Rockarrot": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Ichthyornis Egg)": {
+      "Fiber": 3.0,
+      "Ichthyornis Egg": 1.0,
+      "Mejoberry": 2.0,
+      "Rare Flower": 1.0,
+      "Savoroot": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Kairuku Egg)": {
+      "Fiber": 3.0,
+      "Kairuku Egg": 1.0,
+      "Mejoberry": 2.0,
+      "Savoroot": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Kentrosaurus Egg)": {
+      "Ammonite Bile": 1.0,
+      "Fiber": 3.0,
+      "Golden Hesperornis Egg": 1.0,
+      "Kentro Egg": 1.0,
+      "Mejoberry": 2.0,
+      "Water": 1.0
+    },
+    "Kibble (Pachy Egg)": {
+      "Citronal": 1.0,
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Pachycephalosaurus Egg": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Pegomastax Egg)": {
+      "Citronal": 1.0,
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Pegomastax Egg": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Pelagornis Egg)": {
+      "Chitin": 10.0,
+      "Citronal": 1.0,
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Pelagornis Egg": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Pteranodon Egg)": {
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Pteranodon Egg": 1.0,
+      "Rockarrot": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Quetzal Egg)": {
+      "Fiber": 120.0,
+      "Mejoberry": 100.0,
+      "Quetzal Egg": 1.0,
+      "Rockarrot": 3.0,
+      "Water": 1.0
+    },
+    "Kibble (Raptor Egg)": {
+      "Fiber": 3.0,
+      "Longrass": 1.0,
+      "Mejoberry": 2.0,
+      "Raptor Egg": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Spino Egg)": {
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Savoroot": 1.0,
+      "Spino Egg": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Terror Bird Egg)": {
+      "Citronal": 1.0,
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Terror Bird Egg": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Titanboa Egg)": {
+      "Fiber": 3.0,
+      "Longrass": 1.0,
+      "Mejoberry": 2.0,
+      "Titanboa Egg": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Trike Egg)": {
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Savoroot": 1.0,
+      "Trike Egg": 1.0,
+      "Water": 1.0
+    },
+    "Kibble (Troodon Egg)": {
+      "Fiber": 3.0,
+      "Mejoberry": 2.0,
+      "Rockarrot": 2.0,
+      "Savoroot": 1.0,
+      "Troodon Egg": 1.0,
+      "Water": 1.0
+    },
+    "Kraken Wheel": { "Gold Coin": 750.0 },
+    "Lamppost": { "Crystal": 10.0, "Electronics": 2.0, "Metal Ingot": 5.0 },
+    "Large Cannon Ball": { "Flint": 1.0, "Gunpowder": 14.0, "Metal": 14.0 },
+    "Large Crop Plot": { "Stone": 80.0, "Wood": 80.0 },
+    "Large Junk Sail Skin": { "Gold Coin": 1000.0 },
+    "Large Storage Box": { "Fibers": 30.0, "Thatch": 70.0, "Wood": 80.0 },
+    "Left Hook Hand Skin": { "Gold Coin": 150.0 },
+    "Left Pegleg Skin": { "Gold Coin": 150.0 },
+    "Lever": { "Gem": 12.0, "Keratinoid": 26.0, "Metal": 16.0, "Wood": 46.0 },
+    "Lieutenant Command Podium": {
+      "Fibers": 14.0,
+      "Thatch": 18.0,
+      "Wood": 30.0
+    },
+    "Light Sea Green Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Lighthouse": {
+      "Crystal": 16.0,
+      "Gem": 4.0,
+      "Stone": 650.0,
+      "Thatch": 260.0,
+      "Wood": 200.0
+    },
+    "Lightwood": { "Gold Coin": 50.0, "Wood": 50.0 },
+    "Lignite": { "Coal": 25.0, "Gold Coin": 50.0 },
+    "Limestone": { "Gold Coin": 50.0, "Stone": 50.0 },
+    "Lion Figure Head": { "Gold Coin": 1000.0 },
+    "Liquid Flame": {
+      "Fire Gel": 12.0,
+      "Gunpowder": 22.0,
+      "Metal": 20.0,
+      "Mineral Oil": 4.0
+    },
+    "Loom": {
+      "Fibers": 120.0,
+      "Keratinoid": 65.0,
+      "Metal": 20.0,
+      "Stone": 20.0,
+      "Wood": 98.0
+    },
+    "Madang Green Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Magenta Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Mango Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Marble": { "Gold Coin": 150.0, "Stone": 50.0 },
+    "Medium Cannon Ball": { "Flint": 1.0, "Gunpowder": 12.0, "Metal": 10.0 },
+    "Medium Crop Plot": { "Stone": 40.0, "Wood": 40.0 },
+    "Medium Junk Sail Skin": { "Gold Coin": 600.0 },
+    "Metal Ingot": { "Metal": 2.0 },
+    "Mineral Gray Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Mineral Oil": { "Gold Coin": 150.0, "Oil": 30.0 },
+    "Minni Ball": { "Flint": 1.0, "Gunpowder": 3.0, "Metal": 2.0 },
+    "Monarch's Cake": {
+      "Cooking Herbs": 1.0,
+      "Egg!": 2.0,
+      "Potato": 3.0,
+      "Saps": 3.0,
+      "Wheat or Maize": 15.0
+    },
+    "Mortar Shot": { "Blasting Powder": 8.0, "Gunpowder": 18.0, "Metal": 32.0 },
+    "Mortar and Pestle": { "Hide": 15.0, "Stone": 65.0 },
+    "Mud Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Napa Brown Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Naptha": { "Gold Coin": 50.0, "Oil": 30.0 },
+    "Narcotic": { "Narcoberry": 5.0 },
+    "Navy Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Nitre": { "Coal": 25.0, "Gold Coin": 50.0 },
+    "Note": { "Fibers": 20.0, "Thatch": 8.0 },
+    "Obara Stew": {
+      "Medicinal Herb": 5.0,
+      "Rodent": 1.0,
+      "Salt": 1.0,
+      "Vegetable": 10.0,
+      "Water": 2.0
+    },
+    "Obsidian": { "Flint": 40.0, "Gold Coin": 50.0 },
+    "Octopus Figure Head": { "Gold Coin": 800.0 },
+    "Officer's Boots Skin": { "Gold Coin": 100.0 },
+    "Officer's Coat Skin": { "Gold Coin": 100.0 },
+    "Officer's Gloves Skin": { "Gold Coin": 100.0 },
+    "Officer's Hat Skin": { "Gold Coin": 100.0 },
+    "Officer's Pants Skin": { "Gold Coin": 100.0 },
+    "Oil": { "Hesperornis Egg": 1.0 },
+    "Oil Jar": {
+      "Crystal": 5.0,
+      "Fire Gel": 12.0,
+      "Oil": 15.0,
+      "Organic Paste": 10.0
+    },
+    "Olive Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Opal": { "Gem": 15.0, "Gold Coin": 50.0 },
+    "Orange Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Orange Peel Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Organic Paste": { "Fibers": 2.0, "Saps": 1.0 },
+    "Organic Paste (Coral)": { "Berry": 2.0, "Coral": 1.0 },
+    "Orient Blue Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Paco Brown Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Paint": { "Berry": 5.0, "Water": 1.0 },
+    "Painting Canvas": { "Fiber": 4.0, "Hide": 1.0, "Wood": 2.0 },
+    "Parchment Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Pearl": { "Crystal": 15.0, "Gold Coin": 50.0 },
+    "Peat": { "Coal": 25.0, "Gold Coin": 150.0 },
+    "Pegasus Figure Head": { "Gold Coin": 800.0 },
+    "Pink Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Pink Salt": { "Gold Coin": 50.0, "Salt": 40.0 },
+    "Player Shop": {
+      "Gem": 60.0,
+      "Gold Coin": 70.0,
+      "Metal": 96.0,
+      "Stone": 110.0,
+      "Thatch": 134.0,
+      "Wood": 240.0
+    },
+    "Pohutukawa Red Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Polymer": { "Cementing Paste": 2.0, "Obsidian": 2.0 },
+    "Pork Pie": {
+      "Cooked Meat": 5.0,
+      "Cooking Herbs": 3.0,
+      "Potato": 3.0,
+      "Salt": 1.0,
+      "Wheat or Maize": 10.0
+    },
+    "Portable Rope Ladder": {
+      "Fibers": 180.0,
+      "Organic Paste": 20.0,
+      "Thatch": 140.0
+    },
+    "Poseidon Figure Head": { "Gold Coin": 800.0 },
+    "Preserving Bag": { "Fibers": 110.0, "Saps": 30.0, "Thatch": 68.0 },
+    "Preserving Salt": { "Flint": 1.0, "Salt": 1.0 },
+    "Puckle Bullet": { "Flint": 1.0, "Gunpowder": 3.0, "Metal": 2.0 },
+    "Pudding": {
+      "Egg!": 3.0,
+      "Milk": 1.0,
+      "Rice": 3.0,
+      "Salt": 1.0,
+      "Saps": 5.0,
+      "Sea Grapes": 10.0
+    },
+    "Purple Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Quartz": { "Crystal": 15.0, "Gold Coin": 50.0 },
+    "Radiolarite": { "Flint": 40.0, "Gold Coin": 50.0 },
+    "Reaper's Regard": {
+      "Acerolla": 5.0,
+      "Cooked Fish": 10.0,
+      "Cooking Herbs": 10.0,
+      "Lignonberry": 5.0,
+      "Salt": 3.0,
+      "Sea Grapes": 5.0,
+      "Syrup": 3.0,
+      "Vegetable": 20.0,
+      "Water": 1.0
+    },
+    "Red Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Reeds": { "Gold Coin": 50.0, "Thatch": 50.0 },
+    "Refrigerator": {
+      "Crystal": 25.0,
+      "Electronics": 10.0,
+      "Metal Ingot": 120.0,
+      "Polymer": 15.0
+    },
+    "Remote Keypad": {
+      "Cementing Paste": 1.0,
+      "Electronics": 25.0,
+      "Metal Ingot": 2.0
+    },
+    "Right Hook Hand Skin": { "Gold Coin": 150.0 },
+    "Right Pegleg Skin": { "Gold Coin": 150.0 },
+    "Rock Elemental Tame Token": { "Gold Coin": 30000.0 },
+    "Rock Salt": { "Gold Coin": 50.0, "Salt": 40.0 },
+    "Roots": { "Gold Coin": 50.0, "Thatch": 50.0 },
+    "Rope Ladder": { "Fibers": 60.0, "Thatch": 40.0 },
+    "Rosemary Chicken": {
+      "Carrot": 3.0,
+      "Cooked Meat": 3.0,
+      "Cooking Herbs": 3.0,
+      "Salt": 1.0
+    },
+    "Royalty Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Ruby": { "Gem": 15.0, "Gold Coin": 150.0 },
+    "Rushes": { "Gold Coin": 50.0, "Thatch": 50.0 },
+    "Salted Fish": { "Fish Meat": 1.0, "Preserving Salt": 1.0 },
+    "Salted Meat": { "Animal Meat": 1.0, "Preserving Salt": 1.0 },
+    "Salted Prime Fish": { "Preserving Salt": 1.0, "Prime Fish Meat": 1.0 },
+    "Salted Prime Meat": { "Preserving Salt": 1.0, "Prime Animal Meat": 1.0 },
+    "Sandstone": { "Gold Coin": 50.0, "Stone": 50.0 },
+    "Sea Salt": { "Gold Coin": 50.0, "Salt": 40.0 },
+    "Seaweed": { "Fibers": 50.0, "Gold Coin": 50.0 },
+    "Selective Yellow Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Settlement War Declaration": {
+      "Crystal": 1500.0,
+      "Gem": 1500.0,
+      "Gold Coin": 40000.0
+    },
+    "Sextant": { "Crystal": 6.0, "Gem": 12.0, "Metal": 14.0, "Wood": 9.0 },
+    "Shale Oil": { "Gold Coin": 50.0, "Oil": 30.0 },
+    "Shalimar Yellow Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Shark Wheel": { "Gold Coin": 250.0 },
+    "Ship Steering Wheel": { "Fibers": 14.0, "Thatch": 18.0, "Wood": 40.0 },
+    "ShipHangarBase": { "Wood": 5.0 },
+    "Shrunken Head Stew": {
+      "Cooked Meat": 5.0,
+      "Rosemary": 10.0,
+      "Salt": 1.0,
+      "Saps": 3.0,
+      "Vegetable": 10.0
+    },
+    "Silk": { "Fibers": 50.0, "Gold Coin": 50.0 },
+    "Silver": { "Gold Coin": 50.0, "Metal": 25.0 },
+    "Silver Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Silver Figure Head": { "Gold Coin": 800.0 },
+    "Silver Ingot": { "Gem": 1.0, "Keratinoid": 1.0, "Silver": 2.0 },
+    "Simple Bed": {
+      "Fibers": 30.0,
+      "Hide": 40.0,
+      "Thatch": 120.0,
+      "Wood": 25.0
+    },
+    "Simple Bullet": { "Flint": 1.0, "Gunpowder": 2.0, "Metal": 1.0 },
+    "Simple Shot": { "Gunpowder": 3.0, "Keratinoid": 1.0, "Metal": 4.0 },
+    "Sky Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Slate": { "Gold Coin": 50.0, "Stone": 50.0 },
+    "Slate Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Small Crop Plot": { "Stone": 20.0, "Wood": 20.0 },
+    "Small Junk Sail Skin": { "Gold Coin": 300.0 },
+    "Smithy": {
+      "Fibers": 40.0,
+      "Flint": 5.0,
+      "Hide": 65.0,
+      "Metal": 20.0,
+      "Stone": 125.0,
+      "Wood": 20.0
+    },
+    "Snow White Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Soap": { "Oil": 2.0, "Organic Paste": 3.0, "Water": 1.0 },
+    "Softwood": { "Gold Coin": 50.0, "Wood": 50.0 },
+    "Song of the Sea": {
+      "Acai": 10.0,
+      "Beans": 10.0,
+      "Iodine": 5.0,
+      "Onion": 10.0,
+      "Poppy": 5.0,
+      "Potato": 5.0
+    },
+    "Sparkpowder": { "Flint": 2.0, "Stone": 1.0 },
+    "Spear": { "Fibers": 14.0, "Flint": 3.0, "Wood": 12.0 },
+    "Spear Bolt": { "Fibers": 10.0, "Metal": 12.0, "Wood": 16.0 },
+    "Spiced Rum": {
+      "Chili": 3.0,
+      "Cooking Herbs": 10.0,
+      "Saps": 5.0,
+      "Water": 1.0,
+      "Wheat": 10.0
+    },
+    "Spicy Roll": {
+      "Cooked Meat": 5.0,
+      "Rice": 10.0,
+      "Salt": 1.0,
+      "Turmeric": 3.0,
+      "Vegetable": 20.0
+    },
+    "Spike Shot": { "Blasting Powder": 5.0, "Gunpowder": 9.0, "Metal": 16.0 },
+    "Spyglass": { "Crystal": 2.0, "Fibers": 10.0, "Hide": 10.0, "Metal": 2.0 },
+    "Stimulant": { "Sparkpowder": 2.0, "Stimberry": 5.0 },
+    "Stone Arrow": { "Fibers": 3.0, "Flint": 1.0, "Thatch": 1.0 },
+    "Stone Figure Head": { "Gold Coin": 800.0 },
+    "Stone Water Reservoir": {
+      "Hide": 5.0,
+      "Metal": 4.0,
+      "Organic Paste": 12.0,
+      "Stone": 30.0
+    },
+    "Storage Box": { "Fibers": 26.0, "Thatch": 40.0, "Wood": 44.0 },
+    "Straight Electrical Cable": { "Metal Ingot": 2.0 },
+    "Straw": { "Fibers": 50.0, "Gold Coin": 50.0 },
+    "Strongwood": { "Gold Coin": 50.0, "Wood": 50.0 },
+    "Stuffed & Baked Fish": {
+      "Cooked Fish": 5.0,
+      "Cooking Herbs": 5.0,
+      "Pepper": 5.0,
+      "Salt": 1.0,
+      "Wheat or Maize": 15.0
+    },
+    "Sulfur": { "Coal": 25.0, "Gold Coin": 50.0 },
+    "Sunstone": { "Gem": 15.0, "Gold Coin": 50.0 },
+    "Swamp Purple Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Sweet Vegetable Cake": {
+      "Fiber": 25.0,
+      "Giant Bee Honey": 2.0,
+      "Longrass": 2.0,
+      "Rockarrot": 2.0,
+      "Sap": 4.0,
+      "Savoroot": 2.0,
+      "Stimulant": 4.0,
+      "Water": 1.0
+    },
+    "Tan Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Tangerine Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Tannery": {
+      "Fibers": 40.0,
+      "Hide": 35.0,
+      "Keratinoid": 40.0,
+      "Metal": 20.0,
+      "Wood": 120.0
+    },
+    "Tara'Nosti Treat": {
+      "Blackberry": 10.0,
+      "Egg!": 5.0,
+      "Mint": 5.0,
+      "Salt": 3.0,
+      "Saps": 5.0,
+      "Schisandra": 10.0,
+      "Strawberry": 10.0,
+      "Wheat": 20.0
+    },
+    "Taxation Bank": {
+      "Gem": 60.0,
+      "Metal": 80.0,
+      "Stone": 100.0,
+      "Thatch": 50.0,
+      "Wood": 120.0
+    },
+    "Tellurite": { "Crystal": 15.0, "Gold Coin": 50.0 },
+    "Test Bear Saddle Skin": { "Gold Coin": 200.0 },
+    "Thatch": { "Wood": 1.0 },
+    "Throwing Knives": {
+      "Flint": 3.0,
+      "Metal": 6.0,
+      "Saps": 2.0,
+      "Stone": 2.0
+    },
+    "Tier 2 Saddle": { "Fibers": 32.0, "Hide": 50.0, "Organic Paste": 18.0 },
+    "Tier 3 Saddle": {
+      "Fibers": 52.0,
+      "Hide": 80.0,
+      "Metal": 12.0,
+      "Organic Paste": 32.0
+    },
+    "Tin": { "Gold Coin": 50.0, "Metal": 25.0 },
+    "Tin Ingot": { "Thatch": 1.0, "Tin": 2.0, "Wood": 1.0 },
+    "Top Hat Skin": { "Gold Coin": 50.0 },
+    "Torpedo": {
+      "Alloy": 135.0,
+      "Blasting Powder": 540.0,
+      "Gunpowder": 865.0,
+      "Mythos": 64.0
+    },
+    "Traditional Figure Head": { "Gold Coin": 500.0 },
+    "Training Dummy": { "Fibers": 68.0, "Thatch": 84.0, "Wood": 62.0 },
+    "Twigs": { "Gold Coin": 150.0, "Thatch": 50.0 },
+    "Unthinkable Delicacy": {
+      "Berry": 50.0,
+      "Cooked Prime Animal Meat": 10.0,
+      "Cooking Herbs": 50.0,
+      "Milk or Water": 1.0,
+      "Mythos": 10.0,
+      "Salt": 5.0,
+      "Saps": 10.0,
+      "Vegetable": 50.0,
+      "Wheat or Maize": 50.0
+    },
+    "Vertical Electrical Cable": { "Metal Ingot": 2.0 },
+    "Wall Hook Base": {
+      "Flint": 1.0,
+      "Stone": 1.0,
+      "Thatch": 8.0,
+      "Wood": 3.0
+    },
+    "Wardrums": {
+      "Fibers": 150.0,
+      "Hide": 110.0,
+      "Thatch": 130.0,
+      "Wood": 180.0
+    },
+    "Water Barrel": {
+      "Fibers": 25.0,
+      "Keratinoid": 12.0,
+      "Metal": 5.0,
+      "Water Barrel": 1.0,
+      "Wood": 60.0
+    },
+    "Water Pipe System": {
+      "Keratinoid": 12.0,
+      "Metal": 3.0,
+      "Organic Paste": 10.0,
+      "Stone": 14.0
+    },
+    "Water Reservoir": { "Fibers": 16.0, "Hide": 5.0, "Stone": 30.0 },
+    "Watercourse Green Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Wetwood": { "Gold Coin": 50.0, "Wood": 50.0 },
+    "White Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Wood Canvas": { "Fibers": 12.0, "Hide": 2.0, "Wood": 4.0 },
+    "Wood Elevator System": {
+      "Keratinoid": 32.0,
+      "Metal": 18.0,
+      "Thatch": 60.0,
+      "Wood": 80.0
+    },
+    "Wood Figure Head": { "Gold Coin": 800.0 },
+    "Wood Ladder": { "Fibers": 20.0, "Thatch": 10.0, "Wood": 30.0 },
+    "Wood Wall Hook": {
+      "Flint": 3.0,
+      "Metal": 4.0,
+      "Thatch": 8.0,
+      "Wood": 12.0
+    },
+    "Wooden Billboard": { "Fibers": 25.0, "Thatch": 30.0, "Wood": 40.0 },
+    "Wooden Chair": { "Fibers": 14.0, "Thatch": 18.0, "Wood": 30.0 },
+    "Wooden Ladder": { "Fiber": 4.0, "Thatch": 7.0, "Wood": 4.0 },
+    "Wooden Sign": { "Fibers": 12.0, "Thatch": 5.0, "Wood": 18.0 },
+    "Wooden Table": { "Fibers": 60.0, "Thatch": 36.0, "Wood": 60.0 },
+    "Wooden Tree Platform": {
+      "Cementing Paste": 600.0,
+      "Fiber": 600.0,
+      "Metal Ingot": 200.0,
+      "Wood": 1600.0
+    },
+    "Wooden Wall Sign": { "Fibers": 12.0, "Thatch": 5.0, "Wood": 18.0 },
+    "Yellow Coloring": { "Berry": 5.0, "Water": 1.0 },
+    "Zip-Line Anchor": {
+      "Common Grappling Hook (Broken)": 1.0,
+      "Organic Paste": 5.0,
+      "Stone Arrow": 1.0
+    },
+    "Zip-Line Motor Attachment Skin": {
+      "Crystal": 10.0,
+      "Gem": 30.0,
+      "Metal": 42.0
+    }
+  }
+}
