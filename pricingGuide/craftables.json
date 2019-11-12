@@ -129,6 +129,34 @@
       "Thatch": 140.0,
       "Wood": 420.0
     },
+    "Carbine": {
+        "Alloy": 65.0,
+        "Flint": 3.0,
+        "Hide": 32.0,
+        "Oil": 20.0,
+        "Wood": 85.0
+      },   
+      "Flintlock": {
+        "Flint": 16.0,
+        "Hide": 18.0,
+        "Metal": 36.0,
+        "Oil": 8.0,
+        "Wood": 22.0
+      },  
+      "Revolver": {
+        "Alloy": 22.0,
+        "Flint": 24.0,
+        "Hide": 20.0,
+        "Oil": 12.0,
+        "Wood": 20.0
+      },        
+      "Sword": {
+        "Fiber": 12.0,
+        "Hide": 6.0,
+        "Metal": 28.0,
+        "Wood": 4.0
+      },     
+      
     "Common Blackjack": { "Fibers": 8.0, "Keratinoid": 10.0, "Wood": 6.0 },
     "Common Bola": { "Fibers": 36.0, "Stone": 9.0, "Thatch": 10.0 },
     "Common Catapult Turret": {
