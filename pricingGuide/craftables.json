@@ -151,7 +151,7 @@
         "Wood": 20.0
       },        
       "Sword": {
-        "Fiber": 12.0,
+        "Fibers": 12.0,
         "Hide": 6.0,
         "Metal": 28.0,
         "Wood": 4.0
