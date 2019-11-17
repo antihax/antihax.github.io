@@ -149,20 +149,20 @@
       "Thatch": 140.0,
       "Wood": 420.0
     },
-    "Common Base Boots Clothing (Broken)": { "Fiber": 5.0 },
-    "Common Base Club (Broken)": { "Stone": 10.0 },
-    "Common Base Gloves Clothing (Broken)": { "Fiber": 5.0 },
-    "Common Base Hat Clothing (Broken)": { "Fiber": 5.0 },
-    "Common Base Hatchet (Broken)": {
+    "Common Base Boots Clothing": { "Fiber": 5.0 },
+    "Common Base Club": { "Stone": 10.0 },
+    "Common Base Gloves Clothing": { "Fiber": 5.0 },
+    "Common Base Hat Clothing": { "Fiber": 5.0 },
+    "Common Base Hatchet": {
       "Flint": 1.0,
       "Thatch": 1.0,
       "Wood": 1.0
     },
-    "Common Base Pants Clothing (Broken)": { "Fiber": 5.0 },
-    "Common Base Pick (Broken)": { "Stone": 1.0, "Thatch": 1.0, "Wood": 1.0 },
-    "Common Base Shirt Clothing (Broken)": { "Fiber": 5.0 },
+    "Common Base Pants Clothing": { "Fiber": 5.0 },
+    "Common Base Pick": { "Stone": 1.0, "Thatch": 1.0, "Wood": 1.0 },
+    "Common Base Shirt Clothing": { "Fiber": 5.0 },
     "Common Blackjack": { "Fibers": 8.0, "Keratinoid": 10.0, "Wood": 6.0 },
-    "Common Blunderbuss (Broken)": {
+    "Common Blunderbuss": {
       "Flint": 3.0,
       "Hide": 45.0,
       "Metal": 80.0,
@@ -170,9 +170,9 @@
       "Wood": 30.0
     },
     "Common Bola": { "Fibers": 36.0, "Stone": 9.0, "Thatch": 10.0 },
-    "Common Bow (Broken)": { "Fibers": 60.0, "Hide": 6.0, "Wood": 22.0 },
-    "Common Brass Knuckles (Broken)": { "Keratinoid": 20.0, "Metal": 12.0 },
-    "Common Carbine (Broken)": {
+    "Common Bow": { "Fibers": 60.0, "Hide": 6.0, "Wood": 22.0 },
+    "Common Brass Knuckles": { "Keratinoid": 20.0, "Metal": 12.0 },
+    "Common Carbine": {
       "Alloy": 65.0,
       "Flint": 3.0,
       "Hide": 32.0,
@@ -186,24 +186,24 @@
       "Thatch": 90.0,
       "Wood": 400.0
     },
-    "Common Climbing Pick (Broken)": {
+    "Common Climbing Pick": {
       "Fibers": 12.0,
       "Hide": 4.0,
       "Metal": 8.0,
       "Wood": 8.0
     },
-    "Common Cloth Boots (Broken)": { "Fibers": 10.0, "Hide": 2.0 },
-    "Common Cloth Gloves (Broken)": { "Fibers": 15.0, "Hide": 2.0 },
-    "Common Cloth Hat (Broken)": { "Fibers": 30.0 },
-    "Common Cloth Pants (Broken)": { "Fibers": 50.0, "Hide": 5.0 },
-    "Common Cloth Shirt (Broken)": { "Fibers": 35.0, "Hide": 8.0 },
-    "Common Crossbow (Broken)": {
+    "Common Cloth Boots": { "Fibers": 10.0, "Hide": 2.0 },
+    "Common Cloth Gloves": { "Fibers": 15.0, "Hide": 2.0 },
+    "Common Cloth Hat": { "Fibers": 30.0 },
+    "Common Cloth Pants": { "Fibers": 50.0, "Hide": 5.0 },
+    "Common Cloth Shirt": { "Fibers": 35.0, "Hide": 8.0 },
+    "Common Crossbow": {
       "Fibers": 46.0,
       "Keratinoid": 8.0,
       "Metal": 14.0,
       "Wood": 32.0
     },
-    "Common Crossbow of the Damned (Broken)": {
+    "Common Crossbow of the Damned": {
       "Fibers": 46.0,
       "Keratinoid": 8.0,
       "Metal": 14.0,
@@ -221,17 +221,17 @@
       "Metal": 62.0,
       "Wood": 260.0
     },
-    "Common Fishing Net (Broken)": {
+    "Common Fishing Net": {
       "Fibers": 96.0,
       "Thatch": 48.0,
       "Wood": 16.0
     },
-    "Common Fishing Rod (Broken)": {
+    "Common Fishing Rod": {
       "Fibers": 50.0,
       "Thatch": 24.0,
       "Wood": 16.0
     },
-    "Common Flintlock (Broken)": {
+    "Common Flintlock": {
       "Flint": 16.0,
       "Hide": 18.0,
       "Metal": 36.0,
@@ -244,62 +244,62 @@
       "Thatch": 10.0,
       "Wood": 100.0
     },
-    "Common Fur Boots (Broken)": {
+    "Common Fur Boots": {
       "Fibers": 14.0,
       "Hide": 20.0,
       "Keratinoid": 20.0,
       "Organic Paste": 12.0
     },
-    "Common Fur Cap (Broken)": {
+    "Common Fur Cap": {
       "Fibers": 23.0,
       "Hide": 36.0,
       "Keratinoid": 36.0,
       "Organic Paste": 16.0
     },
-    "Common Fur Chestpiece (Broken)": {
+    "Common Fur Chestpiece": {
       "Fibers": 28.0,
       "Hide": 38.0,
       "Keratinoid": 38.0,
       "Organic Paste": 14.0
     },
-    "Common Fur Gauntlets (Broken)": {
+    "Common Fur Gauntlets": {
       "Fibers": 15.0,
       "Hide": 20.0,
       "Keratinoid": 20.0,
       "Organic Paste": 14.0
     },
-    "Common Fur Leggings (Broken)": {
+    "Common Fur Leggings": {
       "Fibers": 32.0,
       "Hide": 40.0,
       "Keratinoid": 40.0,
       "Organic Paste": 16.0
     },
-    "Common Generic Armor (Broken)": { "Fiber": 5.0 },
-    "Common Generic Weapon (Broken)": { "Stone": 10.0 },
-    "Common Grappling Hook (Broken)": {
+    "Common Generic Armor": { "Fiber": 5.0 },
+    "Common Generic Weapon": { "Stone": 10.0 },
+    "Common Grappling Hook": {
       "Fibers": 160.0,
       "Hide": 4.0,
       "Metal": 16.0,
       "Wood": 2.0
     },
-    "Common Hatchet (Broken)": {
+    "Common Hatchet": {
       "Fibers": 15.0,
       "Flint": 3.0,
       "Stone": 1.0,
       "Wood": 3.0
     },
-    "Common Heavy Shield (Broken)": {
+    "Common Heavy Shield": {
       "Fibers": 24.0,
       "Hide": 16.0,
       "Metal": 36.0,
       "Wood": 20.0
     },
-    "Common Hide Boots (Broken)": { "Fibers": 5.0, "Hide": 12.0 },
-    "Common Hide Gloves (Broken)": { "Fibers": 4.0, "Hide": 12.0 },
-    "Common Hide Hat (Broken)": { "Fibers": 6.0, "Hide": 18.0 },
-    "Common Hide Pants (Broken)": { "Fibers": 10.0, "Hide": 25.0 },
-    "Common Hide Shirt (Broken)": { "Fibers": 8.0, "Hide": 22.0 },
-    "Common Hydra Revolver (Broken)": {
+    "Common Hide Boots": { "Fibers": 5.0, "Hide": 12.0 },
+    "Common Hide Gloves": { "Fibers": 4.0, "Hide": 12.0 },
+    "Common Hide Hat": { "Fibers": 6.0, "Hide": 18.0 },
+    "Common Hide Pants": { "Fibers": 10.0, "Hide": 25.0 },
+    "Common Hide Shirt": { "Fibers": 8.0, "Hide": 22.0 },
+    "Common Hydra Revolver": {
       "Alloy": 22.0,
       "Flint": 24.0,
       "Hide": 20.0,
@@ -307,7 +307,7 @@
       "Wood": 20.0
     },
     "Common Lantern": { "Flint": 1.0, "Stone": 1.0, "Wood": 1.0 },
-    "Common Lantern (Broken)": {
+    "Common Lantern": {
       "Crystal": 8.0,
       "Flint": 5.0,
       "Metal": 4.0,
@@ -400,7 +400,7 @@
       "Thatch": 840.0,
       "Wood": 1176.0
     },
-    "Common Mace of the Damned (Broken)": {
+    "Common Mace of the Damned": {
       "Fibers": 8.0,
       "Hide": 12.0,
       "Metal": 32.0,
@@ -474,18 +474,18 @@
       "Stone": 820.0,
       "Wood": 550.0
     },
-    "Common Metal Hatchet (Broken)": {
+    "Common Metal Hatchet": {
       "Hide": 10.0,
       "Metal": 8.0,
       "Wood": 1.0
     },
-    "Common Metal Pick (Broken)": { "Fibers": 15.0, "Metal": 4.0, "Wood": 3.0 },
-    "Common Metal Shield (Broken)": {
+    "Common Metal Pick": { "Fibers": 15.0, "Metal": 4.0, "Wood": 3.0 },
+    "Common Metal Shield": {
       "Cementing Paste": 20.0,
       "Hide": 15.0,
       "Metal Ingot": 80.0
     },
-    "Common Metal Sickle (Broken)": {
+    "Common Metal Sickle": {
       "Hide": 16.0,
       "Metal": 18.0,
       "Wood": 4.0
@@ -497,33 +497,33 @@
       "Wood": 48.0
     },
     "Common Music Weapon": { "Stone": 10.0 },
-    "Common Pike (Broken)": {
+    "Common Pike": {
       "Fibers": 24.0,
       "Hide": 20.0,
       "Metal": 18.0,
       "Wood": 18.0
     },
-    "Common Plate Boots (Broken)": {
+    "Common Plate Boots": {
       "Fibers": 9.0,
       "Keratinoid": 11.0,
       "Metal": 15.0
     },
-    "Common Plate Gloves (Broken)": {
+    "Common Plate Gloves": {
       "Fibers": 10.0,
       "Keratinoid": 12.0,
       "Metal": 16.0
     },
-    "Common Plate Helmet (Broken)": {
+    "Common Plate Helmet": {
       "Fibers": 12.0,
       "Keratinoid": 18.0,
       "Metal": 22.0
     },
-    "Common Plate Pants (Broken)": {
+    "Common Plate Pants": {
       "Fibers": 14.0,
       "Keratinoid": 26.0,
       "Metal": 6.0
     },
-    "Common Plate Shirt (Broken)": {
+    "Common Plate Shirt": {
       "Fibers": 16.0,
       "Keratinoid": 24.0,
       "Metal": 28.0
@@ -534,7 +534,7 @@
       "Hide": 22.0,
       "Wood": 42.0
     },
-    "Common Repair Hammer (Broken)": {
+    "Common Repair Hammer": {
       "Fibers": 22.0,
       "Thatch": 14.0,
       "Wood": 18.0
@@ -568,7 +568,7 @@
     },
     "Common Ship Spikes Base": { "Fiber": 30.0, "Hide": 10.0, "Wood": 40.0 },
     "Common Shipyard": { "Wood": 5.0 },
-    "Common Shovel (Broken)": { "Metal": 6.0, "Thatch": 10.0, "Wood": 18.0 },
+    "Common Shovel": { "Metal": 6.0, "Thatch": 10.0, "Wood": 18.0 },
     "Common Small Handling Sail": {
       "Fibers": 115.0,
       "Hide": 28.0,
@@ -614,7 +614,7 @@
       "Thatch": 105.0,
       "Wood": 70.0
     },
-    "Common Spear Launcher (Broken)": {
+    "Common Spear Launcher": {
       "Fibers": 56.0,
       "Hide": 22.0,
       "Keratinoid": 18.0,
@@ -658,7 +658,7 @@
       "Thatch": 30.0,
       "Wood": 20.0
     },
-    "Common Stone Pick (Broken)": { "Fibers": 2.0, "Stone": 6.0, "Wood": 6.0 },
+    "Common Stone Pick": { "Fibers": 2.0, "Stone": 6.0, "Wood": 6.0 },
     "Common Stone Pillar": {
       "Fibers": 15.0,
       "Metal": 15.0,
@@ -694,13 +694,13 @@
       "Stone": 100.0,
       "Wood": 18.0
     },
-    "Common Sword (Broken)": {
+    "Common Sword": {
       "Fibers": 12.0,
       "Hide": 6.0,
       "Metal": 28.0,
       "Wood": 4.0
     },
-    "Common Sword of the Damned (Broken)": {
+    "Common Sword of the Damned": {
       "Fibers": 12.0,
       "Hide": 6.0,
       "Metal": 28.0,
@@ -717,7 +717,7 @@
       "Thatch": 280.0,
       "Wood": 560.0
     },
-    "Common Torch (Broken)": {
+    "Common Torch": {
       "Flint": 1.0,
       "Stone": 1.0,
       "Thatch": 10.0,
@@ -730,7 +730,7 @@
       "Mythos": 646.0,
       "Wood": 960.0
     },
-    "Common Two-Handed Mace (Broken)": {
+    "Common Two-Handed Mace": {
       "Fibers": 8.0,
       "Hide": 12.0,
       "Metal": 32.0,
@@ -792,7 +792,7 @@
     "Common Wood Staircase": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
     "Common Wood Wall": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
     "Common Wooden Platform": { "Wood": 5.0 },
-    "Common Wooden Shield (Broken)": {
+    "Common Wooden Shield": {
       "Fibers": 24.0,
       "Hide": 12.0,
       "Wood": 40.0
@@ -1667,7 +1667,7 @@
     "Wooden Wall Sign": { "Fibers": 12.0, "Thatch": 5.0, "Wood": 18.0 },
     "Yellow Coloring": { "Berry": 5.0, "Water": 1.0 },
     "Zip-Line Anchor": {
-      "Common Grappling Hook (Broken)": 1.0,
+      "Common Grappling Hook": 1.0,
       "Organic Paste": 5.0,
       "Stone Arrow": 1.0
     },
