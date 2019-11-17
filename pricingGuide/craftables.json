@@ -136,485 +136,485 @@
     "Cloth Shirt": { "Fibers": 35.0, "Hide": 15.0 },
     "Cobalt": { "Gold Coin": 50.0, "Metal": 25.0 },
     "Cobalt Ingot": { "Coal": 1.0, "Cobalt": 2.0, "Salt": 1.0 },
-    "Common Accordion": {
+    "Accordion": {
       "Fibers": 18.0,
       "Keratinoid": 12.0,
       "Metal": 10.0,
       "Wood": 16.0
     },
-    "Common Balista Turret": {
+    "Balista Turret": {
       "Alloy": 98.0,
       "Fibers": 200.0,
       "Stone": 180.0,
       "Thatch": 140.0,
       "Wood": 420.0
     },
-    "Common Base Boots Clothing": { "Fiber": 5.0 },
-    "Common Base Club": { "Stone": 10.0 },
-    "Common Base Gloves Clothing": { "Fiber": 5.0 },
-    "Common Base Hat Clothing": { "Fiber": 5.0 },
-    "Common Base Hatchet": {
+    "Base Boots Clothing": { "Fiber": 5.0 },
+    "Base Club": { "Stone": 10.0 },
+    "Base Gloves Clothing": { "Fiber": 5.0 },
+    "Base Hat Clothing": { "Fiber": 5.0 },
+    "Base Hatchet": {
       "Flint": 1.0,
       "Thatch": 1.0,
       "Wood": 1.0
     },
-    "Common Base Pants Clothing": { "Fiber": 5.0 },
-    "Common Base Pick": { "Stone": 1.0, "Thatch": 1.0, "Wood": 1.0 },
-    "Common Base Shirt Clothing": { "Fiber": 5.0 },
-    "Common Blackjack": { "Fibers": 8.0, "Keratinoid": 10.0, "Wood": 6.0 },
-    "Common Blunderbuss": {
+    "Base Pants Clothing": { "Fiber": 5.0 },
+    "Base Pick": { "Stone": 1.0, "Thatch": 1.0, "Wood": 1.0 },
+    "Base Shirt Clothing": { "Fiber": 5.0 },
+    "Blackjack": { "Fibers": 8.0, "Keratinoid": 10.0, "Wood": 6.0 },
+    "Blunderbuss": {
       "Flint": 3.0,
       "Hide": 45.0,
       "Metal": 80.0,
       "Oil": 15.0,
       "Wood": 30.0
     },
-    "Common Bola": { "Fibers": 36.0, "Stone": 9.0, "Thatch": 10.0 },
-    "Common Bow": { "Fibers": 60.0, "Hide": 6.0, "Wood": 22.0 },
-    "Common Brass Knuckles": { "Keratinoid": 20.0, "Metal": 12.0 },
-    "Common Carbine": {
+    "Bola": { "Fibers": 36.0, "Stone": 9.0, "Thatch": 10.0 },
+    "Bow": { "Fibers": 60.0, "Hide": 6.0, "Wood": 22.0 },
+    "Brass Knuckles": { "Keratinoid": 20.0, "Metal": 12.0 },
+    "Carbine": {
       "Alloy": 65.0,
       "Flint": 3.0,
       "Hide": 32.0,
       "Oil": 20.0,
       "Wood": 85.0
     },
-    "Common Catapult Turret": {
+    "Catapult Turret": {
       "Alloy": 140.0,
       "Hide": 70.0,
       "Stone": 340.0,
       "Thatch": 90.0,
       "Wood": 400.0
     },
-    "Common Climbing Pick": {
+    "Climbing Pick": {
       "Fibers": 12.0,
       "Hide": 4.0,
       "Metal": 8.0,
       "Wood": 8.0
     },
-    "Common Cloth Boots": { "Fibers": 10.0, "Hide": 2.0 },
-    "Common Cloth Gloves": { "Fibers": 15.0, "Hide": 2.0 },
-    "Common Cloth Hat": { "Fibers": 30.0 },
-    "Common Cloth Pants": { "Fibers": 50.0, "Hide": 5.0 },
-    "Common Cloth Shirt": { "Fibers": 35.0, "Hide": 8.0 },
-    "Common Crossbow": {
+    "Cloth Boots": { "Fibers": 10.0, "Hide": 2.0 },
+    "Cloth Gloves": { "Fibers": 15.0, "Hide": 2.0 },
+    "Cloth Hat": { "Fibers": 30.0 },
+    "Cloth Pants": { "Fibers": 50.0, "Hide": 5.0 },
+    "Cloth Shirt": { "Fibers": 35.0, "Hide": 8.0 },
+    "Crossbow": {
       "Fibers": 46.0,
       "Keratinoid": 8.0,
       "Metal": 14.0,
       "Wood": 32.0
     },
-    "Common Crossbow of the Damned": {
+    "Crossbow of the Damned": {
       "Fibers": 46.0,
       "Keratinoid": 8.0,
       "Metal": 14.0,
       "Wood": 32.0
     },
-    "Common Dinghy Ship Hangar": {
+    "Dinghy Ship Hangar": {
       "Fibers": 80.0,
       "Hide": 28.0,
       "Metal": 14.0,
       "Wood": 210.0
     },
-    "Common DivingAttachment": {
+    "DivingAttachment": {
       "Fibers": 140.0,
       "Hide": 46.0,
       "Metal": 62.0,
       "Wood": 260.0
     },
-    "Common Fishing Net": {
+    "Fishing Net": {
       "Fibers": 96.0,
       "Thatch": 48.0,
       "Wood": 16.0
     },
-    "Common Fishing Rod": {
+    "Fishing Rod": {
       "Fibers": 50.0,
       "Thatch": 24.0,
       "Wood": 16.0
     },
-    "Common Flintlock": {
+    "Flintlock": {
       "Flint": 16.0,
       "Hide": 18.0,
       "Metal": 36.0,
       "Oil": 8.0,
       "Wood": 22.0
     },
-    "Common Food Larder": {
+    "Food Larder": {
       "Fibers": 20.0,
       "Metal": 8.0,
       "Thatch": 10.0,
       "Wood": 100.0
     },
-    "Common Fur Boots": {
+    "Fur Boots": {
       "Fibers": 14.0,
       "Hide": 20.0,
       "Keratinoid": 20.0,
       "Organic Paste": 12.0
     },
-    "Common Fur Cap": {
+    "Fur Cap": {
       "Fibers": 23.0,
       "Hide": 36.0,
       "Keratinoid": 36.0,
       "Organic Paste": 16.0
     },
-    "Common Fur Chestpiece": {
+    "Fur Chestpiece": {
       "Fibers": 28.0,
       "Hide": 38.0,
       "Keratinoid": 38.0,
       "Organic Paste": 14.0
     },
-    "Common Fur Gauntlets": {
+    "Fur Gauntlets": {
       "Fibers": 15.0,
       "Hide": 20.0,
       "Keratinoid": 20.0,
       "Organic Paste": 14.0
     },
-    "Common Fur Leggings": {
+    "Fur Leggings": {
       "Fibers": 32.0,
       "Hide": 40.0,
       "Keratinoid": 40.0,
       "Organic Paste": 16.0
     },
-    "Common Generic Armor": { "Fiber": 5.0 },
-    "Common Generic Weapon": { "Stone": 10.0 },
-    "Common Grappling Hook": {
+    "Generic Armor": { "Fiber": 5.0 },
+    "Generic Weapon": { "Stone": 10.0 },
+    "Grappling Hook": {
       "Fibers": 160.0,
       "Hide": 4.0,
       "Metal": 16.0,
       "Wood": 2.0
     },
-    "Common Hatchet": {
+    "Hatchet": {
       "Fibers": 15.0,
       "Flint": 3.0,
       "Stone": 1.0,
       "Wood": 3.0
     },
-    "Common Heavy Shield": {
+    "Heavy Shield": {
       "Fibers": 24.0,
       "Hide": 16.0,
       "Metal": 36.0,
       "Wood": 20.0
     },
-    "Common Hide Boots": { "Fibers": 5.0, "Hide": 12.0 },
-    "Common Hide Gloves": { "Fibers": 4.0, "Hide": 12.0 },
-    "Common Hide Hat": { "Fibers": 6.0, "Hide": 18.0 },
-    "Common Hide Pants": { "Fibers": 10.0, "Hide": 25.0 },
-    "Common Hide Shirt": { "Fibers": 8.0, "Hide": 22.0 },
-    "Common Hydra Revolver": {
+    "Hide Boots": { "Fibers": 5.0, "Hide": 12.0 },
+    "Hide Gloves": { "Fibers": 4.0, "Hide": 12.0 },
+    "Hide Hat": { "Fibers": 6.0, "Hide": 18.0 },
+    "Hide Pants": { "Fibers": 10.0, "Hide": 25.0 },
+    "Hide Shirt": { "Fibers": 8.0, "Hide": 22.0 },
+    "Hydra Revolver": {
       "Alloy": 22.0,
       "Flint": 24.0,
       "Hide": 20.0,
       "Oil": 12.0,
       "Wood": 20.0
     },
-    "Common Lantern": { "Flint": 1.0, "Stone": 1.0, "Wood": 1.0 },
-    "Common Lantern": {
+    "Lantern": { "Flint": 1.0, "Stone": 1.0, "Wood": 1.0 },
+    "Lantern": {
       "Crystal": 8.0,
       "Flint": 5.0,
       "Metal": 4.0,
       "Oil": 4.0,
       "Stone": 6.0
     },
-    "Common Large Cannon": {
+    "Large Cannon": {
       "Alloy": 48.0,
       "Fibers": 24.0,
       "Hide": 35.0,
       "Wood": 78.0
     },
-    "Common Large Handling Sail": {
+    "Large Handling Sail": {
       "Fibers": 1080.0,
       "Hide": 200.0,
       "Metal": 80.0,
       "Wood": 512.0
     },
-    "Common Large Shipyard": {
+    "Large Shipyard": {
       "Fibers": 1000.0,
       "Stone": 500.0,
       "Thatch": 2000.0,
       "Wood": 4000.0
     },
-    "Common Large Speed Sail": {
+    "Large Speed Sail": {
       "Fibers": 1080.0,
       "Hide": 200.0,
       "Metal": 80.0,
       "Wood": 512.0
     },
-    "Common Large Stone Gate": {
+    "Large Stone Gate": {
       "Alloy": 116.0,
       "Fibers": 180.0,
       "Stone": 630.0,
       "Thatch": 210.0,
       "Wood": 315.0
     },
-    "Common Large Stone Gateway": {
+    "Large Stone Gateway": {
       "Alloy": 184.0,
       "Fibers": 314.0,
       "Stone": 840.0,
       "Thatch": 315.0,
       "Wood": 420.0
     },
-    "Common Large Stone Wall": {
+    "Large Stone Wall": {
       "Alloy": 240.0,
       "Fibers": 394.0,
       "Stone": 1176.0,
       "Thatch": 420.0,
       "Wood": 588.0
     },
-    "Common Large Weight Sail": {
+    "Large Weight Sail": {
       "Fibers": 1080.0,
       "Hide": 200.0,
       "Metal": 80.0,
       "Wood": 512.0
     },
-    "Common Large Wood Gate": {
+    "Large Wood Gate": {
       "Fibers": 210.0,
       "Metal": 90.0,
       "Thatch": 420.0,
       "Wood": 630.0
     },
-    "Common Large Wood Gateway": {
+    "Large Wood Gateway": {
       "Fibers": 420.0,
       "Metal": 126.0,
       "Thatch": 630.0,
       "Wood": 840.0
     },
-    "Common Large Wood Gunport ": {
+    "Large Wood Gunport ": {
       "Fibers": 1540.0,
       "Metal": 24.0,
       "Thatch": 1320.0,
       "Wood": 1540.0
     },
-    "Common Large Wood Plank": {
+    "Large Wood Plank": {
       "Fibers": 1540.0,
       "Metal": 24.0,
       "Thatch": 1320.0,
       "Wood": 1540.0
     },
-    "Common Large Wood Ship Deck": {
+    "Large Wood Ship Deck": {
       "Fibers": 400.0,
       "Thatch": 650.0,
       "Wood": 860.0
     },
-    "Common Large Wood Wall": {
+    "Large Wood Wall": {
       "Fibers": 504.0,
       "Metal": 172.0,
       "Thatch": 840.0,
       "Wood": 1176.0
     },
-    "Common Mace of the Damned": {
+    "Mace of the Damned": {
       "Fibers": 8.0,
       "Hide": 12.0,
       "Metal": 32.0,
       "Wood": 16.0
     },
-    "Common Medium Handling Sail": {
+    "Medium Handling Sail": {
       "Fibers": 432.0,
       "Hide": 62.0,
       "Metal": 28.0,
       "Wood": 196.0
     },
-    "Common Medium Speed Sail": {
+    "Medium Speed Sail": {
       "Fibers": 432.0,
       "Hide": 62.0,
       "Metal": 28.0,
       "Wood": 196.0
     },
-    "Common Medium Stone Gate": {
+    "Medium Stone Gate": {
       "Alloy": 40.0,
       "Fibers": 48.0,
       "Stone": 180.0,
       "Thatch": 60.0,
       "Wood": 90.0
     },
-    "Common Medium Stone Gateway": {
+    "Medium Stone Gateway": {
       "Alloy": 66.0,
       "Fibers": 90.0,
       "Stone": 240.0,
       "Thatch": 90.0,
       "Wood": 120.0
     },
-    "Common Medium Weight Sail": {
+    "Medium Weight Sail": {
       "Fibers": 432.0,
       "Hide": 62.0,
       "Metal": 28.0,
       "Wood": 196.0
     },
-    "Common Medium Wood Gate": {
+    "Medium Wood Gate": {
       "Fibers": 60.0,
       "Metal": 30.0,
       "Thatch": 120.0,
       "Wood": 180.0
     },
-    "Common Medium Wood Gateway": {
+    "Medium Wood Gateway": {
       "Fibers": 120.0,
       "Metal": 42.0,
       "Thatch": 180.0,
       "Wood": 320.0
     },
-    "Common Medium Wood Gunport": {
+    "Medium Wood Gunport": {
       "Fibers": 408.0,
       "Metal": 6.0,
       "Thatch": 360.0,
       "Wood": 432.0
     },
-    "Common Medium Wood Plank": {
+    "Medium Wood Plank": {
       "Fibers": 408.0,
       "Metal": 6.0,
       "Thatch": 360.0,
       "Wood": 432.0
     },
-    "Common Medium Wood Ship Deck": {
+    "Medium Wood Ship Deck": {
       "Fibers": 94.0,
       "Thatch": 176.0,
       "Wood": 246.0
     },
-    "Common Metal Cliff Platform": {
+    "Metal Cliff Platform": {
       "Hide": 660.0,
       "Keratinoid": 800.0,
       "Metal": 1270.0,
       "Stone": 820.0,
       "Wood": 550.0
     },
-    "Common Metal Hatchet": {
+    "Metal Hatchet": {
       "Hide": 10.0,
       "Metal": 8.0,
       "Wood": 1.0
     },
-    "Common Metal Pick": { "Fibers": 15.0, "Metal": 4.0, "Wood": 3.0 },
-    "Common Metal Shield": {
+    "Metal Pick": { "Fibers": 15.0, "Metal": 4.0, "Wood": 3.0 },
+    "Metal Shield": {
       "Cementing Paste": 20.0,
       "Hide": 15.0,
       "Metal Ingot": 80.0
     },
-    "Common Metal Sickle": {
+    "Metal Sickle": {
       "Hide": 16.0,
       "Metal": 18.0,
       "Wood": 4.0
     },
-    "Common Mortar": {
+    "Mortar": {
       "Alloy": 52.0,
       "Fibers": 16.0,
       "Hide": 22.0,
       "Wood": 48.0
     },
-    "Common Music Weapon": { "Stone": 10.0 },
-    "Common Pike": {
+    "Music Weapon": { "Stone": 10.0 },
+    "Pike": {
       "Fibers": 24.0,
       "Hide": 20.0,
       "Metal": 18.0,
       "Wood": 18.0
     },
-    "Common Plate Boots": {
+    "Plate Boots": {
       "Fibers": 9.0,
       "Keratinoid": 11.0,
       "Metal": 15.0
     },
-    "Common Plate Gloves": {
+    "Plate Gloves": {
       "Fibers": 10.0,
       "Keratinoid": 12.0,
       "Metal": 16.0
     },
-    "Common Plate Helmet": {
+    "Plate Helmet": {
       "Fibers": 12.0,
       "Keratinoid": 18.0,
       "Metal": 22.0
     },
-    "Common Plate Pants": {
+    "Plate Pants": {
       "Fibers": 14.0,
       "Keratinoid": 26.0,
       "Metal": 6.0
     },
-    "Common Plate Shirt": {
+    "Plate Shirt": {
       "Fibers": 16.0,
       "Keratinoid": 24.0,
       "Metal": 28.0
     },
-    "Common Puckle": {
+    "Puckle": {
       "Alloy": 48.0,
       "Fibers": 28.0,
       "Hide": 22.0,
       "Wood": 42.0
     },
-    "Common Repair Hammer": {
+    "Repair Hammer": {
       "Fibers": 22.0,
       "Thatch": 14.0,
       "Wood": 18.0
     },
-    "Common Ship Ammunition Container": {
+    "Ship Ammunition Container": {
       "Fibers": 40.0,
       "Metal": 8.0,
       "Thatch": 60.0,
       "Wood": 120.0
     },
-    "Common Ship Cannon": {
+    "Ship Cannon": {
       "Alloy": 28.0,
       "Fibers": 14.0,
       "Hide": 20.0,
       "Wood": 42.0
     },
-    "Common Ship Cargo Rack": {
+    "Ship Cargo Rack": {
       "Fibers": 286.0,
       "Hide": 72.0,
       "Metal": 68.0,
       "Wood": 352.0
     },
-    "Common Ship Deck Base": { "Wood": 1.0 },
-    "Common Ship Gunport Base": { "Wood": 1.0 },
-    "Common Ship Plank Base": { "Wood": 1.0 },
-    "Common Ship Resources Box": {
+    "Ship Deck Base": { "Wood": 1.0 },
+    "Ship Gunport Base": { "Wood": 1.0 },
+    "Ship Plank Base": { "Wood": 1.0 },
+    "Ship Resources Box": {
       "Fibers": 60.0,
       "Metal": 12.0,
       "Thatch": 50.0,
       "Wood": 100.0
     },
-    "Common Ship Spikes Base": { "Fiber": 30.0, "Hide": 10.0, "Wood": 40.0 },
-    "Common Shipyard": { "Wood": 5.0 },
-    "Common Shovel": { "Metal": 6.0, "Thatch": 10.0, "Wood": 18.0 },
-    "Common Small Handling Sail": {
+    "Ship Spikes Base": { "Fiber": 30.0, "Hide": 10.0, "Wood": 40.0 },
+    "Shipyard": { "Wood": 5.0 },
+    "Shovel": { "Metal": 6.0, "Thatch": 10.0, "Wood": 18.0 },
+    "Small Handling Sail": {
       "Fibers": 115.0,
       "Hide": 28.0,
       "Wood": 84.0
     },
-    "Common Small Shipyard": {
+    "Small Shipyard": {
       "Fibers": 240.0,
       "Stone": 105.0,
       "Thatch": 420.0,
       "Wood": 840.0
     },
-    "Common Small Speed Sail": { "Fibers": 115.0, "Hide": 28.0, "Wood": 84.0 },
-    "Common Small Stone Gate": {
+    "Small Speed Sail": { "Fibers": 115.0, "Hide": 28.0, "Wood": 84.0 },
+    "Small Stone Gate": {
       "Alloy": 28.0,
       "Fibers": 36.0,
       "Stone": 104.0,
       "Thatch": 36.0,
       "Wood": 52.0
     },
-    "Common Small Stone Gateway": {
+    "Small Stone Gateway": {
       "Alloy": 44.0,
       "Fibers": 70.0,
       "Stone": 140.0,
       "Thatch": 52.0,
       "Wood": 70.0
     },
-    "Common Small Weight Sail": { "Fibers": 115.0, "Hide": 28.0, "Wood": 84.0 },
-    "Common Small Wood Gate": {
+    "Small Weight Sail": { "Fibers": 115.0, "Hide": 28.0, "Wood": 84.0 },
+    "Small Wood Gate": {
       "Fibers": 34.0,
       "Metal": 20.0,
       "Thatch": 72.0,
       "Wood": 98.0
     },
-    "Common Small Wood Gateway": {
+    "Small Wood Gateway": {
       "Fibers": 70.0,
       "Metal": 26.0,
       "Thatch": 104.0,
       "Wood": 180.0
     },
-    "Common Small Wood Plank": { "Fibers": 50.0, "Thatch": 60.0, "Wood": 65.0 },
-    "Common Small Wood Ship Deck": {
+    "Small Wood Plank": { "Fibers": 50.0, "Thatch": 60.0, "Wood": 65.0 },
+    "Small Wood Ship Deck": {
       "Fibers": 40.0,
       "Thatch": 105.0,
       "Wood": 70.0
     },
-    "Common Spear Launcher": {
+    "Spear Launcher": {
       "Fibers": 56.0,
       "Hide": 22.0,
       "Keratinoid": 18.0,
@@ -622,14 +622,14 @@
       "Organic Paste": 38.0,
       "Wood": 40.0
     },
-    "Common Stone Ceiling": {
+    "Stone Ceiling": {
       "Fibers": 15.0,
       "Metal": 15.0,
       "Stone": 40.0,
       "Thatch": 30.0,
       "Wood": 20.0
     },
-    "Common Stone Cliff Platform": {
+    "Stone Cliff Platform": {
       "Hide": 440.0,
       "Metal": 160.0,
       "Organic Paste": 40.0,
@@ -637,162 +637,162 @@
       "Thatch": 320.0,
       "Wood": 640.0
     },
-    "Common Stone Door": {
+    "Stone Door": {
       "Fibers": 15.0,
       "Metal": 15.0,
       "Stone": 40.0,
       "Thatch": 30.0,
       "Wood": 20.0
     },
-    "Common Stone Fence Support": {
+    "Stone Fence Support": {
       "Fibers": 15.0,
       "Metal": 15.0,
       "Stone": 40.0,
       "Thatch": 30.0,
       "Wood": 20.0
     },
-    "Common Stone Floor": {
+    "Stone Floor": {
       "Fibers": 15.0,
       "Metal": 15.0,
       "Stone": 40.0,
       "Thatch": 30.0,
       "Wood": 20.0
     },
-    "Common Stone Pick": { "Fibers": 2.0, "Stone": 6.0, "Wood": 6.0 },
-    "Common Stone Pillar": {
+    "Stone Pick": { "Fibers": 2.0, "Stone": 6.0, "Wood": 6.0 },
+    "Stone Pillar": {
       "Fibers": 15.0,
       "Metal": 15.0,
       "Stone": 40.0,
       "Thatch": 30.0,
       "Wood": 20.0
     },
-    "Common Stone Roof": {
+    "Stone Roof": {
       "Fibers": 15.0,
       "Metal": 15.0,
       "Stone": 30.0,
       "Thatch": 30.0,
       "Wood": 15.0
     },
-    "Common Stone Staircase": {
+    "Stone Staircase": {
       "Fibers": 15.0,
       "Metal": 15.0,
       "Stone": 30.0,
       "Thatch": 30.0,
       "Wood": 15.0
     },
-    "Common Stone Wall": {
+    "Stone Wall": {
       "Fibers": 15.0,
       "Metal": 15.0,
       "Stone": 35.0,
       "Thatch": 30.0,
       "Wood": 20.0
     },
-    "Common Swivel Gun": {
+    "Swivel Gun": {
       "Alloy": 12.0,
       "Fibers": 120.0,
       "Hide": 20.0,
       "Stone": 100.0,
       "Wood": 18.0
     },
-    "Common Sword": {
+    "Sword": {
       "Fibers": 12.0,
       "Hide": 6.0,
       "Metal": 28.0,
       "Wood": 4.0
     },
-    "Common Sword of the Damned": {
+    "Sword of the Damned": {
       "Fibers": 12.0,
       "Hide": 6.0,
       "Metal": 28.0,
       "Wood": 4.0
     },
-    "Common Thatch Ceiling": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
-    "Common Thatch Door": { "Fibers": 7.0, "Thatch": 16.0, "Wood": 4.0 },
-    "Common Thatch Floor": { "Fibers": 9.0, "Thatch": 20.0, "Wood": 6.0 },
-    "Common Thatch Roof": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
-    "Common Thatch Wall": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
-    "Common Tiny Shipyard": {
+    "Thatch Ceiling": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
+    "Thatch Door": { "Fibers": 7.0, "Thatch": 16.0, "Wood": 4.0 },
+    "Thatch Floor": { "Fibers": 9.0, "Thatch": 20.0, "Wood": 6.0 },
+    "Thatch Roof": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
+    "Thatch Wall": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
+    "Tiny Shipyard": {
       "Fibers": 160.0,
       "Stone": 70.0,
       "Thatch": 280.0,
       "Wood": 560.0
     },
-    "Common Torch": {
+    "Torch": {
       "Flint": 1.0,
       "Stone": 1.0,
       "Thatch": 10.0,
       "Wood": 3.0
     },
-    "Common Torpedo Launcher": {
+    "Torpedo Launcher": {
       "Alloy": 824.0,
       "Fibers": 518.0,
       "Hide": 432.0,
       "Mythos": 646.0,
       "Wood": 960.0
     },
-    "Common Two-Handed Mace": {
+    "Two-Handed Mace": {
       "Fibers": 8.0,
       "Hide": 12.0,
       "Metal": 32.0,
       "Wood": 16.0
     },
-    "Common Wide Medium Stone Gate": {
+    "Wide Medium Stone Gate": {
       "Alloy": 78.0,
       "Fibers": 138.0,
       "Stone": 462.0,
       "Thatch": 172.0,
       "Wood": 266.0
     },
-    "Common Wide Medium Stone Gateway": {
+    "Wide Medium Stone Gateway": {
       "Alloy": 148.0,
       "Fibers": 206.0,
       "Stone": 620.0,
       "Thatch": 224.0,
       "Wood": 300.0
     },
-    "Common Wide Medium Wood Gate": {
+    "Wide Medium Wood Gate": {
       "Fibers": 172.0,
       "Metal": 62.0,
       "Thatch": 322.0,
       "Wood": 462.0
     },
-    "Common Wide Medium Wood Gateway": {
+    "Wide Medium Wood Gateway": {
       "Fibers": 308.0,
       "Metal": 94.0,
       "Thatch": 480.0,
       "Wood": 620.0
     },
-    "Common Wood Ceiling": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
-    "Common Wood Cliff Platform": {
+    "Wood Ceiling": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Wood Cliff Platform": {
       "Hide": 440.0,
       "Metal": 120.0,
       "Stone": 1100.0,
       "Thatch": 320.0,
       "Wood": 640.0
     },
-    "Common Wood Door": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
-    "Common Wood Fence Support": {
+    "Wood Door": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Wood Fence Support": {
       "Fibers": 20.0,
       "Thatch": 60.0,
       "Wood": 40.0
     },
-    "Common Wood Floor": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
-    "Common Wood Gun Mount": {
+    "Wood Floor": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Wood Gun Mount": {
       "Fibers": 12.0,
       "Stone": 8.0,
       "Thatch": 12.0,
       "Wood": 40.0
     },
-    "Common Wood Hull Gunport Base": { "Wood": 1.0 },
-    "Common Wood Hull Plank Base": { "Wood": 1.0 },
-    "Common Wood Pillar": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
-    "Common Wood Roof": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
-    "Common Wood Ship Deck Base": { "Wood": 1.0 },
-    "Common Wood Ship Spikes": { "Fiber": 30.0, "Hide": 10.0, "Wood": 40.0 },
-    "Common Wood Staircase": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
-    "Common Wood Wall": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
-    "Common Wooden Platform": { "Wood": 5.0 },
-    "Common Wooden Shield": {
+    "Wood Hull Gunport Base": { "Wood": 1.0 },
+    "Wood Hull Plank Base": { "Wood": 1.0 },
+    "Wood Pillar": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Wood Roof": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Wood Ship Deck Base": { "Wood": 1.0 },
+    "Wood Ship Spikes": { "Fiber": 30.0, "Hide": 10.0, "Wood": 40.0 },
+    "Wood Staircase": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Wood Wall": { "Fibers": 20.0, "Thatch": 60.0, "Wood": 40.0 },
+    "Wooden Platform": { "Wood": 5.0 },
+    "Wooden Shield": {
       "Fibers": 24.0,
       "Hide": 12.0,
       "Wood": 40.0
@@ -1667,7 +1667,7 @@
     "Wooden Wall Sign": { "Fibers": 12.0, "Thatch": 5.0, "Wood": 18.0 },
     "Yellow Coloring": { "Berry": 5.0, "Water": 1.0 },
     "Zip-Line Anchor": {
-      "Common Grappling Hook": 1.0,
+      "Grappling Hook": 1.0,
       "Organic Paste": 5.0,
       "Stone Arrow": 1.0
     },
