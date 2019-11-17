@@ -711,9 +711,6 @@
     "Common Thatch Floor": { "Fibers": 9.0, "Thatch": 20.0, "Wood": 6.0 },
     "Common Thatch Roof": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
     "Common Thatch Wall": { "Fibers": 8.0, "Thatch": 18.0, "Wood": 5.0 },
-    "Common This is the incorrect primalitem for the blackjack- see PrimalItem_\nWeaponWoodenClub (Broken)": {
-      "Stone": 10.0
-    },
     "Common Tiny Shipyard": {
       "Fibers": 160.0,
       "Stone": 70.0,
