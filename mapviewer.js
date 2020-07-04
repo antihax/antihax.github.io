@@ -133,7 +133,7 @@ class WorldMap extends React.Component {
 
             circle.animals = [];
             circle.resources = [];
-            circle.animals= islands[k].animals.slice();
+            circle.animals = islands[k].animals.slice();
 
             var html = "<ul class='split-ul'>";
             for (let resource in circle.animals.sort()) {
@@ -144,10 +144,10 @@ class WorldMap extends React.Component {
               var resources = [];
               for (let key in islands[k].resources) {
                 if (key.length > 2)
-                circle.resources.push(key);
+                  circle.resources.push(key);
               }
               circle.resources.sort();
- 
+
               html += "<ul class='split-ul'>";
               circle.resources.forEach(function (v) {
                 html += "<li>" + v + " (" + islands[k].resources[v] + ")</li>";
@@ -158,7 +158,7 @@ class WorldMap extends React.Component {
               showOnMouseOver: true,
               autoPan: false,
               keepInView: true,
-              maxWidth : 560,
+              maxWidth: 560,
             });
             map.IslandResources.addLayer(circle);
           }
@@ -219,6 +219,40 @@ class WorldMap extends React.Component {
       }
     });
 
+    L.Control.TeleportPosition = L.Control.extend({
+      options: {
+        position: 'bottomright',
+        separator: ' : ',
+        emptyString: 'Click map for TP command',
+        lngFirst: false,
+        numDigits: 5,
+        lngFormatter: undefined,
+        latFormatter: undefined,
+        prefix: ""
+      },
+
+      onAdd: function (map) {
+        this._container = L.DomUtil.create('div', 'leaflet-control-mouseposition');
+        L.DomEvent.disableClickPropagation(this._container);
+        map.on('click', this._onMouseClick, this);
+        this._container.innerHTML = this.options.emptyString;
+        return this._container;
+      },
+
+      onRemove: function (map) {
+        map.off('click', this._onMouseClick)
+      },
+
+      _onMouseClick: function (e) {
+        var x = ccc(e.latlng.lng, -e.latlng.lat);
+        var lng = L.Util.formatNum(scaleLeafletToAtlas(e.latlng.lng) - 100, 2);
+        var lat = L.Util.formatNum(100 - scaleLeafletToAtlas(-e.latlng.lat), 2);
+        var value = `TP ${x[0]} ${x[1]} ${x[2]}  10000`;
+
+        this._container.innerHTML = value;
+      }
+    });
+
     L.Map.mergeOptions({
       positionControl: false
     });
@@ -227,6 +261,8 @@ class WorldMap extends React.Component {
       if (this.options.positionControl) {
         this.positionControl = new L.Control.MousePosition();
         this.addControl(this.positionControl);
+        this.teleportControl = new L.Control.TeleportPosition();
+        this.addControl(this.teleportControl);
       }
     });
 
@@ -234,6 +270,12 @@ class WorldMap extends React.Component {
       return new L.Control.MousePosition(options);
     };
     L.control.mousePosition().addTo(map);
+
+    L.control.teleportPosition = function (options) {
+      return new L.Control.TeleportPosition(options);
+    };
+    L.control.teleportPosition().addTo(map);
+
   }
 
   render() {
@@ -301,6 +343,21 @@ function unrealToLeaflet(x, y) {
   var lat = ((x / unreal) * 256),
     long = -((y / unreal) * 256);
   return [long, lat];
+}
+
+function constraint(value, minRange, maxRange, minVal, maxVal) {
+  return (((value - minVal) / (maxVal - minVal)) * (maxRange - minRange) + minRange);
+}
+
+function ccc(x, y) {
+  var precision = (256 / config.ServersX);
+  var gridXName = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O'];
+  var gridX = gridXName[Math.floor(x / precision)];
+  var gridY = Math.floor(y / precision) + 1;
+  var localX = constraint(x % precision, -700000, 700000, 0, precision).toFixed(0);
+  var localY = constraint(y % precision, -700000, 700000, 0, precision).toFixed(0);
+
+  return [gridX + gridY, localX, localY];
 }
 
 // Get local URI for requests
