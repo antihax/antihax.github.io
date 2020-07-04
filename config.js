@@ -1,4 +1,4 @@
 const config = {
-    ServersX: 15,
-    ServersY: 15,
+    ServersX: 11,
+    ServersY: 11,
 }
