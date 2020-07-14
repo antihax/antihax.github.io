@@ -50,6 +50,7 @@ class WorldMap extends React.Component {
     map.IslandTerritories = L.layerGroup(layerOpts);
     map.IslandResources = L.layerGroup(layerOpts);
     map.Discoveries = L.layerGroup(layerOpts);
+    map.Treasure = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
       onAdd: function () {
         var element = document.createElement("input");
@@ -92,6 +93,7 @@ class WorldMap extends React.Component {
     L.control.layers({}, {
       Islands: L.tileLayer("islands/{z}/{x}/{y}.png", layerOpts).addTo(map),
       Discoveries: map.Discoveries,
+      Treasure: map.Treasure,
       Grid: L.tileLayer("grid/{z}/{x}/{y}.png", layerOpts).addTo(map),
       Resources: map.IslandResources.addTo(map),
     }, {
@@ -161,6 +163,18 @@ class WorldMap extends React.Component {
               maxWidth: 560,
             });
             map.IslandResources.addLayer(circle);
+          }
+          if (islands[k].treasureMapSpawnPoints) {
+            for (let spawn in islands[k].treasureMapSpawnPoints) {
+              let d = islands[k].treasureMapSpawnPoints[spawn].split(" ");
+              var circle = new IslandCircle(unrealToLeaflet(islands[k].worldX + parseFloat(d[0]), islands[k].worldY + parseFloat(d[1])), {
+                radius: .05,
+                color: "#00FF00",
+                opacity: 0.5,
+                fillOpacity: 0.5,
+              });
+              map.Treasure.addLayer(circle);
+            }
           }
           if (islands[k].discoveries) {
             for (let disco in islands[k].discoveries) {
