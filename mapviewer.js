@@ -167,6 +167,8 @@ class WorldMap extends React.Component {
           if (islands[k].treasureMapSpawnPoints) {
             for (let spawn in islands[k].treasureMapSpawnPoints) {
               let d = islands[k].treasureMapSpawnPoints[spawn].split(" ");
+              // Rotate the vector
+              d = rotateVector2D(d, islands[k].rotation);
               var circle = new IslandCircle(unrealToLeaflet(islands[k].worldX + parseFloat(d[0]), islands[k].worldY + parseFloat(d[1])), {
                 radius: .05,
                 color: "#00FF00",
@@ -602,4 +604,17 @@ class IslandCircle extends L.Circle {
 
 function escapeHTML(unsafe_str) {
   return unsafe_str.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/\"/g, '"').replace(/\'/g, '\'');
+}
+
+function rotateVector2D(vec, ang) {
+  if (ang == 0) {
+    return vec;
+  }
+
+  ang = ang * (Math.PI / 180);
+  var cos = Math.cos(ang);
+  var sin = Math.sin(ang);
+  var r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos, vec[0]);
+
+  return r;
 }
