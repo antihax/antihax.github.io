@@ -50,6 +50,7 @@ class WorldMap extends React.Component {
     map.IslandTerritories = L.layerGroup(layerOpts);
     map.IslandResources = L.layerGroup(layerOpts);
     map.Discoveries = L.layerGroup(layerOpts);
+    map.Ships = L.layerGroup(layerOpts);
     map.Treasure = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
       onAdd: function () {
@@ -92,10 +93,12 @@ class WorldMap extends React.Component {
     // Add Layer Control
     L.control.layers({}, {
       Islands: L.tileLayer("islands/{z}/{x}/{y}.png", layerOpts).addTo(map),
+      Grid: L.tileLayer("grid/{z}/{x}/{y}.png", layerOpts).addTo(map),
+
       Discoveries: map.Discoveries,
       Treasure: map.Treasure,
-      Grid: L.tileLayer("grid/{z}/{x}/{y}.png", layerOpts).addTo(map),
       Resources: map.IslandResources.addTo(map),
+      Ships: map.Ships.addTo(map),
     }, {
       position: 'topright'
     }).addTo(map);
@@ -118,6 +121,33 @@ class WorldMap extends React.Component {
         html: labelText
       })
     }
+
+    fetch('json/shipPaths.json', {
+        dataType: 'json'
+      })
+      .then(res => res.json())
+      .then(function (paths) {
+        paths.forEach(path => {
+          var pathing = [];
+          pathing.push('M', unrealToLeaflet(path.Nodes[0].worldX, path.Nodes[0].worldY))
+          path.Nodes.shift();
+          path.Nodes.forEach(n => {
+            var center = [n.worldX, n.worldY];
+            var next = rotateVector2DAroundAxis([n.worldX + n.controlPointsDistance, n.worldY], center, n.rotation);
+            var previous = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
+            pathing.push('C', unrealToLeafletArray(center), unrealToLeafletArray(previous), unrealToLeafletArray(next))
+          })
+          pathing.push('Z')
+
+          var p = L.curve(pathing, {
+            color: 'red'
+          }).addTo(map);
+          map.Ships.addLayer(p)
+        })
+      })
+      .catch(error => {
+        console.log(error)
+      });
 
     fetch('json/islands.json', {
         dataType: 'json'
@@ -354,12 +384,20 @@ function GPStoLeaflet(x, y) {
   return [long, lat];
 }
 
+
 function unrealToLeaflet(x, y) {
   const unreal = 15400000;
   var lat = ((x / unreal) * 256),
     long = -((y / unreal) * 256);
   return [long, lat];
 }
+
+
+function unrealToLeafletArray(a) {
+  return unrealToLeaflet(a[0], a[1]);
+}
+
+
 
 function constraint(value, minRange, maxRange, minVal, maxVal) {
   return (((value - minVal) / (maxVal - minVal)) * (maxRange - minRange) + minRange);
@@ -615,6 +653,24 @@ function rotateVector2D(vec, ang) {
   var cos = Math.cos(ang);
   var sin = Math.sin(ang);
   var r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos, vec[0]);
+
+  return r;
+}
+
+function rotateVector2DAroundAxis(vec, axis, ang) {
+  ang = ang * (Math.PI / 180);
+  var cos = Math.cos(ang);
+  var sin = Math.sin(ang);
+
+  // Translate to axis
+  vec[0] -= axis[0];
+  vec[1] -= axis[1];
+
+  var r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos);
+
+  // Translate back to world
+  r[0] += axis[0];
+  r[1] += axis[1];
 
   return r;
 }
