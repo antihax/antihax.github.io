@@ -129,18 +129,28 @@ class WorldMap extends React.Component {
       .then(function (paths) {
         paths.forEach(path => {
           var pathing = [];
-          pathing.push('M', unrealToLeaflet(path.Nodes[0].worldX, path.Nodes[0].worldY))
+
+          var n = path.Nodes[0];
+          var center = [n.worldX, n.worldY];
+          var previous = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
+          var next = rotateVector2DAroundAxis([n.worldX + n.controlPointsDistance, n.worldY], center, n.rotation);
+          
+          pathing.push('M', unrealToLeaflet(n.worldX, n.worldY))
+          pathing.push('C', unrealToLeafletArray(next), unrealToLeafletArray(previous), unrealToLeafletArray(center))
 
           path.Nodes.push(path.Nodes.shift());
           for (var i = 0; i < path.Nodes.length; i++) {
             var n = path.Nodes[i];
             var center = [n.worldX, n.worldY];
-            var next = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
-            pathing.push('S', unrealToLeafletArray(next), unrealToLeafletArray(center))
+            var previous = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
+
+            pathing.push('S', unrealToLeafletArray(previous), unrealToLeafletArray(center))
+
           }
 
           var p = L.curve(pathing, {
-            color: 'red'
+            color: 'red',
+            dashArray: '10',
           }).addTo(map);
           map.Ships.addLayer(p)
         })
