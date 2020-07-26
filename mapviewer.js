@@ -130,14 +130,14 @@ class WorldMap extends React.Component {
         paths.forEach(path => {
           var pathing = [];
           pathing.push('M', unrealToLeaflet(path.Nodes[0].worldX, path.Nodes[0].worldY))
-          path.Nodes.shift();
-          path.Nodes.forEach(n => {
+
+          path.Nodes.push(path.Nodes.shift());
+          for (var i = 0; i < path.Nodes.length; i++) {
+            var n = path.Nodes[i];
             var center = [n.worldX, n.worldY];
-            var next = rotateVector2DAroundAxis([n.worldX + n.controlPointsDistance, n.worldY], center, n.rotation);
-            var previous = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
-            pathing.push('C', unrealToLeafletArray(center), unrealToLeafletArray(previous), unrealToLeafletArray(next))
-          })
-          pathing.push('Z')
+            var next = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
+            pathing.push('S', unrealToLeafletArray(next), unrealToLeafletArray(center))
+          }
 
           var p = L.curve(pathing, {
             color: 'red'
