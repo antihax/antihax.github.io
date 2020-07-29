@@ -1,16 +1,16 @@
 {
 	"Berry": [
 		{
-			"Schisandra": 128
-		},
-		{
 			"Bilberry": 86
 		},
 		{
-			"Elderberry": 108
+			"Schisandra": 128
 		},
 		{
 			"Acerolla": 115
+		},
+		{
+			"Elderberry": 108
 		},
 		{
 			"Acai": 104
@@ -19,10 +19,10 @@
 			"Blackberry": 70
 		},
 		{
-			"Arctic Raspberry": 77
+			"Lignonberry": 34
 		},
 		{
-			"Lignonberry": 34
+			"Arctic Raspberry": 77
 		},
 		{
 			"Sea Grapes": 54
@@ -85,10 +85,10 @@
 			"Cilantro": 108
 		},
 		{
-			"Mint": 83
+			"Oregano": 69
 		},
 		{
-			"Oregano": 69
+			"Mint": 83
 		},
 		{
 			"Rosemary": 14
@@ -194,35 +194,35 @@
 	],
 	"BAD": [
 		{
+			"Chick Pea Seed": 13
+		},
+		{
 			"Bean Seed": 13
 		},
 		{
-			"Beet Seed": 13
-		},
-		{
-			"Chick Pea Seed": 13
+			"Carrot Seed": 13
 		},
 		{
 			"Cactus Seed": 13
 		},
 		{
-			"Carrot Seed": 13
+			"Beet Seed": 13
 		}
 	],
 	"Coral": [
 		{
-			"Brain Coral": 9
+			"Fire Coral": 9
 		},
 		{
-			"Fire Coral": 9
+			"Brain Coral": 9
 		}
 	],
 	"Vegetable": [
 		{
-			"Wild Chili": 14
+			"Wild Cactus": 54
 		},
 		{
-			"Wild Cactus": 54
+			"Wild Chili": 14
 		},
 		{
 			"Wild Beans": 70
@@ -234,16 +234,16 @@
 			"Wild Carrot": 56
 		},
 		{
-			"Wild Pepper": 48
-		},
-		{
 			"Wheatgrass": 37
 		},
 		{
-			"Wild Greens": 14
+			"Wild Pepper": 48
 		},
 		{
 			"Wild Potato": 55
+		},
+		{
+			"Wild Greens": 14
 		},
 		{
 			"Celery": 10
@@ -270,42 +270,42 @@
 			"Wild Turnip": 45
 		},
 		{
-			"Wild Beet": 15
+			"Wild Maize": 16
 		},
 		{
-			"Wild Maize": 16
+			"Wild Beet": 15
 		}
 	],
 	"Base": [
 		{
-			"Flint": 32
-		},
-		{
 			"Thatch": 23
 		},
 		{
-			"Salt": 4
-		},
-		{
-			"Crystal": 16
-		},
-		{
-			"Fibers": 29
-		},
-		{
-			"Wood": 23
-		},
-		{
-			"Stone": 32
-		},
-		{
-			"Metal": 28
+			"Flint": 32
 		},
 		{
 			"Coal": 16
 		},
 		{
+			"Salt": 4
+		},
+		{
 			"Saps": 12
+		},
+		{
+			"Stone": 32
+		},
+		{
+			"Wood": 23
+		},
+		{
+			"Metal": 28
+		},
+		{
+			"Fibers": 29
+		},
+		{
+			"Crystal": 16
 		}
 	],
 	"Metal": [
@@ -364,10 +364,10 @@
 	],
 	"Gem": [
 		{
-			"Opal": 86
+			"Emerald": 43
 		},
 		{
-			"Emerald": 43
+			"Opal": 86
 		},
 		{
 			"Ruby": 5
@@ -387,16 +387,16 @@
 			"Pink Salt": 31
 		},
 		{
-			"Rock Salt": 16
-		},
-		{
 			"Flake Salt": 34
 		},
 		{
-			"Sea Salt": 30
+			"Rock Salt": 16
 		},
 		{
 			"Iodine": 41
+		},
+		{
+			"Sea Salt": 30
 		},
 		{
 			"Kala Namak": 2
