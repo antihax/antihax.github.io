@@ -177,7 +177,7 @@ class WorldMap extends React.Component {
             circle.resources = [];
             circle.animals = islands[k].animals.slice();
 
-            var html = "<ul class='split-ul'>";
+            var html = `<b>${islands[k].name} - ${islands[k].id}</b><ul class='split-ul'>`;
             for (let resource in circle.animals.sort()) {
               html += "<li>" + circle.animals[resource] + "</li>";
             }
