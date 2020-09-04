@@ -51,6 +51,7 @@ class WorldMap extends React.Component {
     map.IslandResources = L.layerGroup(layerOpts);
     map.Discoveries = L.layerGroup(layerOpts);
     map.Ships = L.layerGroup(layerOpts);
+    map.Stones = L.layerGroup(layerOpts);
     map.Treasure = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
       onAdd: function () {
@@ -99,6 +100,7 @@ class WorldMap extends React.Component {
       Treasure: map.Treasure,
       Resources: map.IslandResources.addTo(map),
       Ships: map.Ships.addTo(map),
+      Stones: map.Stones.addTo(map),
     }, {
       position: 'topright'
     }).addTo(map);
@@ -121,6 +123,28 @@ class WorldMap extends React.Component {
         html: labelText
       })
     }
+
+    fetch('json/stones.json', {
+      dataType: 'json'
+    })
+    .then(res => res.json())
+    .then(function (stones) {
+      stones.forEach(d => {
+        var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+          color: "#000000",
+        });
+        pin.bindPopup(`${d.name}: ${d.long.toFixed(2)} / ${d.lat.toFixed(2)}`, {
+          showOnMouseOver: true,
+          autoPan: false,
+          keepInView: true,
+        });
+
+       map.Stones.addLayer(pin)
+      })
+    })
+    .catch(error => {
+      console.log(error)
+    });
 
     fetch('json/shipPaths.json', {
         dataType: 'json'
