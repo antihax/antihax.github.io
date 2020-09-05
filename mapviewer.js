@@ -154,6 +154,24 @@ class WorldMap extends React.Component {
       iconAnchor: [16, 16],
     });
 
+    var meanWhaleIcon = L.icon({
+      iconUrl: 'icons/MeanWhale.svg',
+      iconSize: [32, 32],
+      iconAnchor: [16, 16],
+    });
+
+    var gentleWhaleIcon = L.icon({
+      iconUrl: 'icons/GentleWhale.svg',
+      iconSize: [32, 32],
+      iconAnchor: [16, 16],
+    });
+
+    var giantSquidIcon = L.icon({
+      iconUrl: 'icons/GiantSquid.svg',
+      iconSize: [32, 32],
+      iconAnchor: [16, 16],
+    });
+
     var stoneIcon = L.icon({
       iconUrl: 'icons/Stone.svg',
       iconSize: [32, 32],
@@ -177,6 +195,18 @@ class WorldMap extends React.Component {
           } else if (d.name === "Yeti") {
             var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
               icon: yetiIcon,
+            });
+          }else if (d.name === "GiantSquid") {
+            var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+              icon: giantSquidIcon,
+            });
+          }else if (d.name === "GentleWhale") {
+            var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+              icon: gentleWhaleIcon,
+            });
+          }else if (d.name === "MeanWhale") {
+            var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+              icon: meanWhaleIcon,
             });
           }
 
