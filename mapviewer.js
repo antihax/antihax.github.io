@@ -50,6 +50,7 @@ class WorldMap extends React.Component {
     map.IslandTerritories = L.layerGroup(layerOpts);
     map.IslandResources = L.layerGroup(layerOpts);
     map.Discoveries = L.layerGroup(layerOpts);
+    map.Bosses = L.layerGroup(layerOpts);
     map.Ships = L.layerGroup(layerOpts);
     map.Stones = L.layerGroup(layerOpts);
     map.Treasure = L.layerGroup(layerOpts);
@@ -99,11 +100,22 @@ class WorldMap extends React.Component {
       Discoveries: map.Discoveries,
       Treasure: map.Treasure,
       Resources: map.IslandResources.addTo(map),
+      Bosses: map.Bosses.addTo(map),
       Ships: map.Ships.addTo(map),
       Stones: map.Stones.addTo(map),
     }, {
       position: 'topright'
     }).addTo(map);
+
+    map.on('zoomend', function () {
+      if (map.getZoom() < 5) {
+        map.removeLayer(map.Bosses);
+        map.removeLayer(map.Stones);
+      } else {
+        map.addLayer(map.Bosses);
+        map.addLayer(map.Stones);
+      }
+    });
 
     map.setView([-128, 128], 2)
 
@@ -124,27 +136,73 @@ class WorldMap extends React.Component {
       })
     }
 
-    fetch('json/stones.json', {
-      dataType: 'json'
-    })
-    .then(res => res.json())
-    .then(function (stones) {
-      stones.forEach(d => {
-        var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
-          color: "#000000",
-        });
-        pin.bindPopup(`${d.name}: ${d.long.toFixed(2)} / ${d.lat.toFixed(2)}`, {
-          showOnMouseOver: true,
-          autoPan: false,
-          keepInView: true,
-        });
-
-       map.Stones.addLayer(pin)
-      })
-    })
-    .catch(error => {
-      console.log(error)
+    var hydraIcon = L.icon({
+      iconUrl: 'icons/Hydra.svg',
+      iconSize: [32, 32],
+      iconAnchor: [16, 16],
     });
+
+    var drakeIcon = L.icon({
+      iconUrl: 'icons/Drake.svg',
+      iconSize: [32, 32],
+      iconAnchor: [16, 16],
+    });
+
+    var stoneIcon = L.icon({
+      iconUrl: 'icons/Stone.svg',
+      iconSize: [32, 32],
+      iconAnchor: [16, 16], 
+    });
+
+    fetch('json/bosses.json', {
+        dataType: 'json'
+      })
+      .then(res => res.json())
+      .then(function (bosses) {
+        bosses.forEach(d => {
+          if (d.name === "Drake") {
+            var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+              icon: drakeIcon,
+            });
+          } else {
+            var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+              icon: hydraIcon,
+            });
+          }
+          pin.bindPopup(`${d.name}: ${d.long.toFixed(2)} / ${d.lat.toFixed(2)}`, {
+            showOnMouseOver: true,
+            autoPan: true,
+            keepInView: true,
+          });
+
+          map.Bosses.addLayer(pin)
+        })
+      })
+      .catch(error => {
+        console.log(error)
+      });
+
+    fetch('json/stones.json', {
+        dataType: 'json'
+      })
+      .then(res => res.json())
+      .then(function (stones) {
+        stones.forEach(d => {
+          var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+            icon: stoneIcon,
+          });
+          pin.bindPopup(`${d.name}: ${d.long.toFixed(2)} / ${d.lat.toFixed(2)}`, {
+            showOnMouseOver: true,
+            autoPan: true,
+            keepInView: true,
+          });
+
+          map.Stones.addLayer(pin)
+        })
+      })
+      .catch(error => {
+        console.log(error)
+      });
 
     fetch('json/shipPaths.json', {
         dataType: 'json'
@@ -158,7 +216,7 @@ class WorldMap extends React.Component {
           var center = [n.worldX, n.worldY];
           var previous = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
           var next = rotateVector2DAroundAxis([n.worldX + n.controlPointsDistance, n.worldY], center, n.rotation);
-          
+
           pathing.push('M', unrealToLeaflet(n.worldX, n.worldY))
           pathing.push('C', unrealToLeafletArray(next), unrealToLeafletArray(previous), unrealToLeafletArray(center))
 
@@ -167,9 +225,7 @@ class WorldMap extends React.Component {
             var n = path.Nodes[i];
             var center = [n.worldX, n.worldY];
             var previous = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
-
             pathing.push('S', unrealToLeafletArray(previous), unrealToLeafletArray(center))
-
           }
 
           var p = L.curve(pathing, {
