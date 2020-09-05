@@ -142,6 +142,12 @@ class WorldMap extends React.Component {
       iconAnchor: [16, 16],
     });
 
+    var yetiIcon = L.icon({
+      iconUrl: 'icons/Yeti.svg',
+      iconSize: [32, 32],
+      iconAnchor: [16, 16],
+    });
+
     var drakeIcon = L.icon({
       iconUrl: 'icons/Drake.svg',
       iconSize: [32, 32],
@@ -151,7 +157,7 @@ class WorldMap extends React.Component {
     var stoneIcon = L.icon({
       iconUrl: 'icons/Stone.svg',
       iconSize: [32, 32],
-      iconAnchor: [16, 16], 
+      iconAnchor: [16, 16],
     });
 
     fetch('json/bosses.json', {
@@ -164,11 +170,16 @@ class WorldMap extends React.Component {
             var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
               icon: drakeIcon,
             });
-          } else {
+          } else if (d.name === "Hydra") {
             var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
               icon: hydraIcon,
             });
+          } else if (d.name === "Yeti") {
+            var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+              icon: yetiIcon,
+            });
           }
+
           pin.bindPopup(`${d.name}: ${d.long.toFixed(2)} / ${d.lat.toFixed(2)}`, {
             showOnMouseOver: true,
             autoPan: true,
