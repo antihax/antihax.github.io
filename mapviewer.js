@@ -100,20 +100,36 @@ class WorldMap extends React.Component {
       Discoveries: map.Discoveries,
       Treasure: map.Treasure,
       Resources: map.IslandResources.addTo(map),
-      Bosses: map.Bosses.addTo(map),
+      Bosses: map.Bosses,
       Ships: map.Ships.addTo(map),
-      Stones: map.Stones.addTo(map),
+      Stones: map.Stones,
     }, {
       position: 'topright'
     }).addTo(map);
 
+    var stickyLayers = {};
+    map.on('overlayadd', function (e) {
+      stickyLayers[e.name] = true;
+    });
+
+    map.on('overlayremove', function (e) {
+      stickyLayers[e.name] = false;
+    });
+
     map.on('zoomend', function () {
       if (map.getZoom() < 5) {
-        map.removeLayer(map.Bosses);
-        map.removeLayer(map.Stones);
+        if (!stickyLayers["Bosses"]) map.removeLayer(map.Bosses);
+        if (!stickyLayers["Stones"]) map.removeLayer(map.Stones);
       } else {
-        map.addLayer(map.Bosses);
-        map.addLayer(map.Stones);
+        if (!stickyLayers["Bosses"]) { 
+          map.addLayer(map.Bosses);
+          stickyLayers["Bosses"] = false;
+        }
+
+        if (!stickyLayers["Stones"]) { 
+          map.addLayer(map.Stones);
+          stickyLayers["Stones"] = false;
+         }
       }
     });
 
