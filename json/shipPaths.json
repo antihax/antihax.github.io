@@ -1,28 +1,23 @@
 [
    {
-      "isLooping" : false,
-      "AutoSpawnEveryUTCInterval" : 21600,
-      "autoSpawn" : true,
-      "AutoSpawnShipClass" : "",
-      "PathId" : 1,
       "Nodes" : [
          {
-            "worldY" : 3032603.75,
-            "rotation" : 237.475113,
             "worldX" : 7820236,
-            "controlPointsDistance" : 293003.281
+            "controlPointsDistance" : 293003.281,
+            "rotation" : 237.475113,
+            "worldY" : 3032603.75
          },
          {
             "worldX" : 4191560.5,
-            "controlPointsDistance" : 430189,
             "rotation" : -175.593842,
-            "worldY" : 3953336.75
+            "worldY" : 3953336.75,
+            "controlPointsDistance" : 430189
          },
          {
-            "controlPointsDistance" : 481079.4,
             "worldX" : 1974224.75,
             "worldY" : 2539335.25,
-            "rotation" : -81.8486
+            "rotation" : -81.8486,
+            "controlPointsDistance" : 481079.4
          },
          {
             "worldY" : 2345336.25,
@@ -32,141 +27,143 @@
          },
          {
             "controlPointsDistance" : 369837.219,
-            "worldX" : 4386226,
             "rotation" : -340.267578,
-            "worldY" : 2199335.75
+            "worldY" : 2199335.75,
+            "worldX" : 4386226
          },
          {
             "controlPointsDistance" : 586707.4,
-            "worldX" : 7803563,
+            "rotation" : -388.281738,
             "worldY" : 2109336.25,
-            "rotation" : -388.281738
+            "worldX" : 7803563
          },
          {
             "worldX" : 9294228,
             "controlPointsDistance" : 454225.938,
-            "rotation" : -211.492035,
-            "worldY" : 3171336.25
+            "worldY" : 3171336.25,
+            "rotation" : -211.492035
          }
       ],
-      "PathName" : "NW Ship Path"
+      "AutoSpawnShipClass" : "",
+      "AutoSpawnEveryUTCInterval" : 21600,
+      "PathName" : "NW Ship Path",
+      "PathId" : 1,
+      "isLooping" : false,
+      "autoSpawn" : true
    },
    {
+      "autoSpawn" : true,
+      "AutoSpawnEveryUTCInterval" : 21600,
       "PathName" : "NE Ship Path",
+      "PathId" : 2,
+      "isLooping" : false,
       "AutoSpawnShipClass" : "",
       "Nodes" : [
          {
+            "worldX" : 13192448,
             "rotation" : -29.3095436,
             "worldY" : 9477116,
-            "controlPointsDistance" : 638353.938,
-            "worldX" : 13192448
+            "controlPointsDistance" : 638353.938
          },
          {
-            "worldX" : 12972449,
-            "controlPointsDistance" : 737770.75,
+            "worldY" : 7289781,
             "rotation" : -92.88986,
-            "worldY" : 7289781
+            "controlPointsDistance" : 737770.75,
+            "worldX" : 12972449
          },
          {
-            "worldX" : 13624449,
-            "controlPointsDistance" : 1076965.88,
+            "worldY" : 3100224.5,
             "rotation" : 307.786743,
-            "worldY" : 3100224.5
+            "controlPointsDistance" : 1076965.88,
+            "worldX" : 13624449
          },
          {
-            "worldX" : 12040448,
             "controlPointsDistance" : 546223,
+            "rotation" : -237.573029,
             "worldY" : 2389113.5,
-            "rotation" : -237.573029
+            "worldX" : 12040448
          },
          {
-            "rotation" : 57.0020638,
-            "worldY" : 5353780.5,
+            "worldX" : 11844449,
             "controlPointsDistance" : 664854.063,
-            "worldX" : 11844449
+            "rotation" : 57.0020638,
+            "worldY" : 5353780.5
          },
          {
+            "controlPointsDistance" : 523568.469,
             "rotation" : 91.90588,
             "worldY" : 7252227,
-            "worldX" : 11768448,
-            "controlPointsDistance" : 523568.469
-         }
-      ],
-      "PathId" : 2,
-      "AutoSpawnEveryUTCInterval" : 21600,
-      "autoSpawn" : true,
-      "isLooping" : false
-   },
-   {
-      "AutoSpawnEveryUTCInterval" : 21600,
-      "autoSpawn" : true,
-      "isLooping" : false,
-      "PathName" : "SW ShipPath",
-      "AutoSpawnShipClass" : "",
-      "PathId" : 3,
-      "Nodes" : [
-         {
-            "controlPointsDistance" : 438803.281,
-            "worldX" : 3481337.5,
-            "rotation" : -3.56397247,
-            "worldY" : 5903781
-         },
-         {
-            "controlPointsDistance" : 452033.9,
-            "worldX" : 3387113.5,
-            "rotation" : 142.90271,
-            "worldY" : 9477337
-         },
-         {
-            "worldX" : 3371115.25,
-            "controlPointsDistance" : 499883.219,
-            "worldY" : 13494003,
-            "rotation" : -222.168991
-         },
-         {
-            "controlPointsDistance" : 599499.2,
-            "worldX" : 1665337.13,
-            "rotation" : -101.757576,
-            "worldY" : 11887781
-         },
-         {
-            "controlPointsDistance" : 741848.063,
-            "worldX" : 1979113,
-            "worldY" : 9861337,
-            "rotation" : -51.1545525
-         },
-         {
-            "controlPointsDistance" : 474724.781,
-            "worldX" : 1683114.13,
-            "worldY" : 7262001,
-            "rotation" : 274.8604
+            "worldX" : 11768448
          }
       ]
    },
    {
       "autoSpawn" : true,
       "AutoSpawnEveryUTCInterval" : 21600,
+      "PathId" : 3,
+      "PathName" : "SW ShipPath",
       "isLooping" : false,
-      "PathId" : 4,
+      "Nodes" : [
+         {
+            "worldY" : 5903781,
+            "rotation" : -3.56397247,
+            "controlPointsDistance" : 438803.281,
+            "worldX" : 3481337.5
+         },
+         {
+            "worldX" : 3387113.5,
+            "worldY" : 9477337,
+            "rotation" : 142.90271,
+            "controlPointsDistance" : 452033.9
+         },
+         {
+            "controlPointsDistance" : 499883.219,
+            "worldY" : 13494003,
+            "rotation" : -222.168991,
+            "worldX" : 3371115.25
+         },
+         {
+            "worldX" : 1665337.13,
+            "controlPointsDistance" : 599499.2,
+            "rotation" : -101.757576,
+            "worldY" : 11887781
+         },
+         {
+            "worldX" : 1979113,
+            "controlPointsDistance" : 741848.063,
+            "worldY" : 9861337,
+            "rotation" : -51.1545525
+         },
+         {
+            "worldY" : 7262001,
+            "rotation" : 274.8604,
+            "controlPointsDistance" : 474724.781,
+            "worldX" : 1683114.13
+         }
+      ],
+      "AutoSpawnShipClass" : ""
+   },
+   {
+      "autoSpawn" : true,
       "AutoSpawnShipClass" : "",
       "Nodes" : [
          {
-            "rotation" : -232.9027,
-            "worldY" : 11760226,
             "worldX" : 8561782,
-            "controlPointsDistance" : 439986.4
+            "controlPointsDistance" : 439986.4,
+            "rotation" : -232.9027,
+            "worldY" : 11760226
          },
          {
-            "rotation" : 126.0024,
-            "worldY" : 11996892,
             "controlPointsDistance" : 322475.344,
+            "worldY" : 11996892,
+            "rotation" : 126.0024,
             "worldX" : 6833335
          },
          {
-            "rotation" : 34.2022438,
-            "worldY" : 13571781,
+            "worldX" : 6178665.5,
             "controlPointsDistance" : 670207.9,
-            "worldX" : 6178665.5
+            "worldY" : 13571781,
+            "rotation" : 34.2022438
          },
          {
             "worldY" : 12888226,
@@ -175,146 +172,149 @@
             "worldX" : 9081782
          },
          {
-            "worldY" : 13268892,
-            "rotation" : -19.7195034,
             "worldX" : 12281336,
-            "controlPointsDistance" : 498702
+            "controlPointsDistance" : 498702,
+            "worldY" : 13268892,
+            "rotation" : -19.7195034
          },
          {
             "controlPointsDistance" : 311025.4,
-            "worldX" : 13282671,
             "worldY" : 12099781,
-            "rotation" : -112.619865
+            "rotation" : -112.619865,
+            "worldX" : 13282671
          }
       ],
-      "PathName" : "SE Ship Path"
+      "AutoSpawnEveryUTCInterval" : 21600,
+      "isLooping" : false,
+      "PathName" : "SE Ship Path",
+      "PathId" : 4
    },
    {
       "autoSpawn" : true,
+      "PathName" : "Ghost ShipPath",
       "AutoSpawnEveryUTCInterval" : 21600,
+      "PathId" : 5,
       "isLooping" : false,
       "Nodes" : [
          {
-            "worldY" : 9006893,
-            "rotation" : 133.2584,
             "controlPointsDistance" : 743094.8,
+            "rotation" : 133.2584,
+            "worldY" : 9006893,
             "worldX" : 9199560
          },
          {
             "worldY" : 9517337,
             "rotation" : -173.796555,
-            "worldX" : 7285337.5,
-            "controlPointsDistance" : 530994.25
+            "controlPointsDistance" : 530994.25,
+            "worldX" : 7285337.5
          },
          {
             "worldX" : 6040448,
-            "controlPointsDistance" : 507390.5,
             "rotation" : -115.374214,
-            "worldY" : 8644671
+            "worldY" : 8644671,
+            "controlPointsDistance" : 507390.5
          },
          {
-            "controlPointsDistance" : 774452.938,
             "worldX" : 6103559.5,
             "worldY" : 6598892,
-            "rotation" : -58.1204033
+            "rotation" : -58.1204033,
+            "controlPointsDistance" : 774452.938
          },
          {
-            "worldY" : 5885336,
+            "worldX" : 7725337.5,
             "rotation" : 0.405197144,
-            "controlPointsDistance" : 497603.781,
-            "worldX" : 7725337.5
+            "worldY" : 5885336,
+            "controlPointsDistance" : 497603.781
          },
          {
-            "rotation" : 53.2292633,
-            "worldY" : 6532669.5,
             "controlPointsDistance" : 659484.4,
+            "worldY" : 6532669.5,
+            "rotation" : 53.2292633,
             "worldX" : 9232449
          }
       ],
-      "AutoSpawnShipClass" : "Blueprint'/Game/Atlas/ShipPaths/PathFollowingGhostShip_BP.PathFollowingGhostShip_BP'",
-      "PathId" : 5,
-      "PathName" : "Ghost ShipPath"
+      "AutoSpawnShipClass" : "Blueprint'/Game/Atlas/ShipPaths/PathFollowingGhostShip_BP.PathFollowingGhostShip_BP'"
    },
    {
       "autoSpawn" : true,
       "AutoSpawnEveryUTCInterval" : 0,
       "isLooping" : false,
+      "PathName" : "Lawless Ship Path",
+      "PathId" : 6,
+      "AutoSpawnShipClass" : "",
       "Nodes" : [
          {
-            "worldX" : 5121336.5,
-            "controlPointsDistance" : 583882.8,
             "rotation" : -47.602562,
-            "worldY" : 5070003
+            "worldY" : 5070003,
+            "controlPointsDistance" : 583882.8,
+            "worldX" : 5121336.5
          },
          {
             "worldY" : 4736003,
             "rotation" : -0.21988678,
-            "worldX" : 7264002.5,
-            "controlPointsDistance" : 719665.8
+            "controlPointsDistance" : 719665.8,
+            "worldX" : 7264002.5
          },
          {
-            "rotation" : 11.8214893,
             "worldY" : 4736003.5,
+            "rotation" : 11.8214893,
             "controlPointsDistance" : 728329.063,
             "worldX" : 9829337
          },
          {
-            "rotation" : -265.630432,
             "worldY" : 6587337,
-            "worldX" : 10764003,
-            "controlPointsDistance" : 510618.8
+            "rotation" : -265.630432,
+            "controlPointsDistance" : 510618.8,
+            "worldX" : 10764003
          },
          {
+            "controlPointsDistance" : 570153.438,
             "rotation" : 59.40503,
             "worldY" : 7736671,
-            "worldX" : 10617341,
-            "controlPointsDistance" : 570153.438
+            "worldX" : 10617341
          },
          {
-            "worldY" : 9566006,
+            "controlPointsDistance" : 801553.25,
             "rotation" : 88.78579,
-            "worldX" : 10652004,
-            "controlPointsDistance" : 801553.25
+            "worldY" : 9566006,
+            "worldX" : 10652004
          },
          {
+            "worldX" : 8712004,
             "rotation" : 181.7899,
             "worldY" : 10776006,
-            "controlPointsDistance" : 579985.6,
-            "worldX" : 8712004
+            "controlPointsDistance" : 579985.6
          },
          {
-            "worldX" : 7536892.5,
-            "controlPointsDistance" : 394597.563,
             "rotation" : -236.891418,
-            "worldY" : 10856004
+            "worldY" : 10856004,
+            "controlPointsDistance" : 394597.563,
+            "worldX" : 7536892.5
          },
          {
-            "controlPointsDistance" : 372432.5,
             "worldX" : 6488447,
+            "worldY" : 10682449,
             "rotation" : -94.50862,
-            "worldY" : 10682449
+            "controlPointsDistance" : 372432.5
          },
          {
             "controlPointsDistance" : 336300.969,
-            "worldX" : 5149334,
             "worldY" : 10298674,
-            "rotation" : 257.183044
+            "rotation" : 257.183044,
+            "worldX" : 5149334
          },
          {
-            "worldY" : 8112006,
             "rotation" : -73.30076,
-            "worldX" : 4913778.5,
-            "controlPointsDistance" : 483273.6
+            "worldY" : 8112006,
+            "controlPointsDistance" : 483273.6,
+            "worldX" : 4913778.5
          },
          {
-            "rotation" : -55.5937042,
-            "worldY" : 6699337.5,
             "worldX" : 4902669,
+            "worldY" : 6699337.5,
+            "rotation" : -55.5937042,
             "controlPointsDistance" : 467894.25
          }
-      ],
-      "AutoSpawnShipClass" : "",
-      "PathId" : 6,
-      "PathName" : "Lawless Ship Path"
+      ]
    }
 ]
