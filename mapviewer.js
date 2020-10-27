@@ -51,6 +51,7 @@ class WorldMap extends React.Component {
     map.IslandResources = L.layerGroup(layerOpts);
     map.Discoveries = L.layerGroup(layerOpts);
     map.Bosses = L.layerGroup(layerOpts);
+    map.ControlPoints = L.layerGroup(layerOpts);
     map.Ships = L.layerGroup(layerOpts);
     map.Stones = L.layerGroup(layerOpts);
     map.Treasure = L.layerGroup(layerOpts);
@@ -99,6 +100,7 @@ class WorldMap extends React.Component {
 
       Discoveries: map.Discoveries,
       Treasure: map.Treasure,
+      ControlPoints: map.ControlPoints.addTo(map),
       Resources: map.IslandResources.addTo(map),
       Bosses: map.Bosses,
       Ships: map.Ships.addTo(map),
@@ -151,6 +153,12 @@ class WorldMap extends React.Component {
         html: labelText
       })
     }
+
+    var CPIcon = L.icon({
+      iconUrl: 'icons/lighthouse.svg',
+      iconSize: [16, 16],
+      iconAnchor: [16, 16],
+    });
 
     var hydraIcon = L.icon({
       iconUrl: 'icons/Hydra.svg',
@@ -302,6 +310,21 @@ class WorldMap extends React.Component {
       .then(res => res.json())
       .then(function (islands) {
         for (let k in islands) {
+
+          if (islands[k].isControlPoint) {
+            var pin = new L.Marker(unrealToLeaflet(islands[k].worldX, islands[k].worldY), {
+              icon: CPIcon,
+            });
+            pin.bindPopup(`Control Point`, {
+              showOnMouseOver: true,
+              autoPan: true,
+              keepInView: true,
+            });
+  
+            map.ControlPoints.addLayer(pin)
+            continue;
+          }
+
           if (islands[k].animals || islands[k].resources) {
             var circle = new IslandCircle(unrealToLeaflet(islands[k].worldX, islands[k].worldY), {
               radius: 1.5,
