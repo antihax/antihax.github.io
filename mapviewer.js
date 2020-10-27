@@ -100,7 +100,7 @@ class WorldMap extends React.Component {
 
       Discoveries: map.Discoveries,
       Treasure: map.Treasure,
-      ControlPoints: map.ControlPoints.addTo(map),
+      ControlPoints: map.ControlPoints,
       Resources: map.IslandResources.addTo(map),
       Bosses: map.Bosses,
       Ships: map.Ships.addTo(map),
