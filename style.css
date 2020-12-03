@@ -2,21 +2,26 @@
     box-sizing: border-box
 }
 
-html,body,#app,.App,#worldmap {
+html,
+body,
+#app,
+.App,
+#worldmap {
     height: 100%;
     margin: 0
 }
 
 .leaflet-container .leaflet-control-mouseposition {
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(255, 255, 255, .7);
     box-shadow: 0 0 5px #bbb;
     padding: 0 5px;
     margin: 0;
     color: #333;
-    font: 11px/1.5 "Helvetica Neue",Arial,Helvetica,sans-serif
+    font: 11px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif
 }
 
-ol.Suggestions,ol.History {
+ol.Suggestions,
+ol.History {
     padding-left: 2em
 }
 
@@ -50,10 +55,10 @@ ol.Suggestions,ol.History {
 
 .info {
     padding: 6px 8px;
-    font: 14px/16px Arial,Helvetica,sans-serif;
+    font: 14px/16px Arial, Helvetica, sans-serif;
     background: #fff;
-    background: rgba(255,255,255,.8);
-    box-shadow: 0 0 15px rgba(0,0,0,.2);
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
     border-radius: 5px
 }
 
@@ -128,4 +133,45 @@ ol.Suggestions,ol.History {
     column-count: 3;
     padding: 0;
     list-style-type: none
+}
+
+.leaflet-control-measure {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.leaflet-bar-part-top-and-bottom {
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+    border-bottom: none;
+}
+
+.leaflet-touch .leaflet-bar-part-top-and-bottom {
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+    border-bottom: none;
+}
+
+.leaflet-control-measure-on .leaflet-control-measure {
+    box-shadow: 0 0 8px rgba(10, 10, 10, 1.0);
+}
+
+.leaflet-measure-tooltip {
+    font: 9px/1.25 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 5px #BBB;
+    margin: 0;
+    padding: 2px;
+    width: auto !important;
+    height: auto !important;
+    white-space: nowrap;
+}
+
+.leaflet-measure-tooltip-total {
+    font-weight: bold;
+}
+
+.leaflet-measure-tooltip-difference {
+    color: #777;
 }

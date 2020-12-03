@@ -93,6 +93,15 @@ class WorldMap extends React.Component {
     (new SearchBox).addTo(map);
     var input = document.getElementById("searchBox");
 
+
+    var measureControl = new L.Control.Measure({
+      formatDistance: function (val) {
+        return Math.round(val * 0.0312131900552604 ) + 'm';
+      }
+    });
+    measureControl.addTo(map);
+
+
     // Add Layer Control
     L.control.layers({}, {
       Islands: L.tileLayer("islands/{z}/{x}/{y}.png", layerOpts).addTo(map),
