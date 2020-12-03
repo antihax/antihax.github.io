@@ -95,9 +95,9 @@ class WorldMap extends React.Component {
 
 
     var measureControl = new L.Control.Measure({
-      formatDistance: function (val) {
-        return Math.round(val * 0.0312131900552604 ) + 'm';
-      }
+      /*formatDistance: function (val) {
+        return Math.round( val * 0.0312131900552604 ) + 'm';
+      }*/
     });
     measureControl.addTo(map);
 
