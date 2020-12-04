@@ -46,7 +46,10 @@
     }
 
     function calcItemPrices() {
-        $.each(craftables, function (item, ingredients) {
+        $.each(craftables, function (item, ing) {
+            var ingredients = ing.Ingredients;
+            console.log(ingredients);
+
             item = sanitizeName(item);
             if (knownIngredients(ingredients, prices) === true) {
                 itemPrices[item] = 0;
@@ -74,11 +77,11 @@
     }
 
     function loadCraftables() {
-        $.getJSON("craftables.json", function (d) {
+        $.getJSON("../json/craftables.json", function (d) {
             craftables = d.Craftables;
-            $.each(craftables, function (k, v) {
+            $.each(craftables, function (k, ing) {
                 k = sanitizeName(k);
-                if (knownIngredients(v, prices) === true) {
+                if (knownIngredients(ing.Ingredients, prices) === true) {
                     $('#items').append(`<tr><td>${k}</td><td id="v_${k}">0</td></tr>`);
                 }
             });

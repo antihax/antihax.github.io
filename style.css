@@ -141,6 +141,12 @@ ol.History {
     line-height: 21px;
 }
 
+.leaflet-control-pin {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
 .leaflet-bar-part-top-and-bottom {
     -webkit-border-radius: 4px 4px 4px 4px;
     border-radius: 4px 4px 4px 4px;

@@ -11,17 +11,22 @@ let islands = JSON.parse(rawdata);
 rawdata = fs.readFileSync('./json/resourceTypes.json');
 let types = JSON.parse(rawdata);
 
-var home = islands[292];
+var home = islands[79];
+//var home2 = islands[189];
+//var home3 = islands[395];
 
 home.types = {};
 for (var island in islands) {
     var i = islands[island];
     if (i.name.includes("Trench") || i.name.includes("PVE") || i.name.includes("Cave"))
         continue;
-    var dist = distance(home.worldX, home.worldY, i.worldX, i.worldY)
+
+    var dist = distance(home.worldX, home.worldY, i.worldX, i.worldY);
+  //  var dist2 = distance(home2.worldX, home2.worldY, i.worldX, i.worldY);
+    //var dist3 = distance(home3.worldX, home3.worldY, i.worldX, i.worldY);
 
     for (var type in types) {
-        if (hasType(i.resources, type)) {
+        if (hasType(i.resources, type) && types[type] != "Base"  && types[type] != "Berry"  && types[type] != "Vegetable"  && types[type] != "Herb" && types[type] != "Herb") {
             if (!home.types[type] || home.types[type].distance > dist) {
                 home.types[type] = {
                     distance: dist,

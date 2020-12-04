@@ -132,15 +132,15 @@ class WorldMap extends React.Component {
         if (!stickyLayers["Bosses"]) map.removeLayer(map.Bosses);
         if (!stickyLayers["Stones"]) map.removeLayer(map.Stones);
       } else {
-        if (!stickyLayers["Bosses"]) { 
+        if (!stickyLayers["Bosses"]) {
           map.addLayer(map.Bosses);
           stickyLayers["Bosses"] = false;
         }
 
-        if (!stickyLayers["Stones"]) { 
+        if (!stickyLayers["Stones"]) {
           map.addLayer(map.Stones);
           stickyLayers["Stones"] = false;
-         }
+        }
       }
     });
 
@@ -229,15 +229,15 @@ class WorldMap extends React.Component {
             var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
               icon: yetiIcon,
             });
-          }else if (d.name === "GiantSquid") {
+          } else if (d.name === "GiantSquid") {
             var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
               icon: giantSquidIcon,
             });
-          }else if (d.name === "GentleWhale") {
+          } else if (d.name === "GentleWhale") {
             var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
               icon: gentleWhaleIcon,
             });
-          }else if (d.name === "MeanWhale") {
+          } else if (d.name === "MeanWhale") {
             var pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
               icon: meanWhaleIcon,
             });
@@ -250,7 +250,25 @@ class WorldMap extends React.Component {
           });
 
           map.Bosses.addLayer(pin)
-        })
+        
+        });
+
+        var krakenSpawn = L.circle([-128,128], {
+          radius: 1.68,
+          interactive: true,
+          color: "red",
+          fillOpacity: 0,
+        }).bindPopup("Kraken Spawn Area");
+        var krakenWall = L.circle([-128,128], {
+          radius: 2.35,
+          interactive: true,
+          color: "blue",
+          fillOpacity: 0,
+        }).bindPopup("Kraken Border Wall");
+        map.Bosses.addLayer(krakenWall);
+        map.Bosses.addLayer(krakenSpawn);
+
+
       })
       .catch(error => {
         console.log(error)
@@ -329,7 +347,7 @@ class WorldMap extends React.Component {
               autoPan: true,
               keepInView: true,
             });
-  
+
             map.ControlPoints.addLayer(pin)
             continue;
           }
@@ -473,7 +491,9 @@ class WorldMap extends React.Component {
         var lng = L.Util.formatNum(scaleLeafletToAtlas(e.latlng.lng) - 100, 2);
         var lat = L.Util.formatNum(100 - scaleLeafletToAtlas(-e.latlng.lat), 2);
         var value = `TP ${x[0]} ${x[1]} ${x[2]}  10000`;
-
+        if (top.location != location) {
+          top.location.href = document.location.href ;
+        }
         this._container.innerHTML = value;
       }
     });
@@ -562,7 +582,6 @@ function GPStoLeaflet(x, y) {
 
   return [long, lat];
 }
-
 
 function unrealToLeaflet(x, y) {
   const unreal = 15400000;

@@ -14,15 +14,27 @@ let types = JSON.parse(rawdata);
 for (var island in islands) {
     var i = islands[island];
     i.types = {};
-    /*if (contains(i.resources, ["Quartz", "Herkimer", "Crystal", "Pearl", "Calcite", "Tellurite", "Amethyst"]))
-        if (contains(i.resources, ["Opal", "Diamond", "Gem", "Garnet", "Ruby", "Sunstone", "Emerald"]))
-            if (contains(i.resources, ["Sugar", "Sugars", "Gum", "Honey", "Saps", "Sap", "Nectar", "Sugarcane", "Syrup", "Resin"]))
-                if (contains(i.resources, ["Flake Salt", "Salt", "Pink Salt", "Iodine", "Rock Salt", "Kala Namak", "Sea Salt"]))
-                    if (contains(i.resources, ["Iridium", "Tin", "Silver", "Copper", "Cobalt", "Iron"]))
-                        if (contains(i.resources, ["Mineral Oil", "Crude Oil", "Shale Oil", "Naptha"]))
-                           // if (!i.animals.includes("Snake") && !i.animals.includes("GiantSnake"))*/
-    if (i.claimable !== 1)
+    // if (!contains(i.resources, ["Honey"]))
+    //     continue;
+/*
+    if (!contains(i.resources, ["Quartz", "Herkimer", "Crystal", "Pearl", "Calcite", "Tellurite", "Amethyst"]))
         continue;
+    if (!contains(i.resources, ["Opal", "Diamond", "Gem", "Garnet", "Ruby", "Sunstone", "Emerald"]))
+        continue;
+
+    if (!contains(i.resources, ["Sugar", "Sugars", "Gum", "Honey", "Saps", "Sap", "Nectar", "Sugarcane", "Syrup", "Resin"]))
+        continue;
+
+    if (!contains(i.resources, ["Mineral Oil", "Crude Oil", "Shale Oil", "Naptha"]))
+        continue;
+
+     if (contains(i.resources, ["Flake Salt", "Salt", "Pink Salt", "Iodine", "Rock Salt", "Kala Namak", "Sea Salt"]))
+         if (contains(i.resources, ["Iridium", "Tin", "Silver", "Copper", "Cobalt", "Iron"]))
+             if (contains(i.resources, ["Mineral Oil", "Crude Oil", "Shale Oil", "Naptha"]))
+                 // if (!i.animals.includes("Snake") && !i.animals.includes("GiantSnake"))*/
+
+   /* if (i.claimable !== 1)
+        continue;*/
 
     for (var type in types) {
         if (hasType(i.resources, type))
@@ -31,9 +43,11 @@ for (var island in islands) {
             else
                 i.types[types[type]] = 1;
     }
-    var count = i.types["Wood"] + i.types["Thatch"] + i.types["Fiber"] ;
-    if (count >= 5 && (i.types["Coal"] > 0 || i.types["Oil"]) > 0)
-        console.log(count, i.grid, i.name, i.types, i.discoveries);
+    var count = i.types["Wood"] + i.types["Thatch"] + i.types["Metal"] + i.types["Fiber"];
+    //if (count >= 7)
+      //  console.log(count, i.grid, i.name, i.types, i.discoveries);
+    if (!i.types["Fiber"] )
+        console.log(count, i.grid, i.name, i.types, i.discoveries);        
 }
 
 function sleep(ms) {
@@ -42,13 +56,13 @@ function sleep(ms) {
 
 async function demo() {
 
-    await sleep(20000);
+    await sleep(200000000);
 
 
     // Sleep in loop
     for (let i = 0; i < 50; i++) {
         if (i === 3)
-            await sleep(2000);
+            await sleep(200000000);
 
     }
 }

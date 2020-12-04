@@ -16,8 +16,6 @@ L.Control.Measure = L.Control.extend({
     //  weather to use keyboard control for this plugin
     keyboard: true,
     //  shortcut to activate measure
-    activeKeyCode: 'M'.charCodeAt(0),
-    //  shortcut to cancel measure, defaults to 'Esc'
     cancelKeyCode: 27,
     //  line color
     lineColor: 'black',
@@ -41,7 +39,7 @@ L.Control.Measure = L.Control.extend({
   onAdd: function (map) {
     var className = 'leaflet-control-zoom leaflet-bar leaflet-control'
     var container = L.DomUtil.create('div', className)
-    this._createButton('&#8674;', 'Measure',
+    this._createButton('&#8674;', 'Warehouse Planner / Measure',
       'leaflet-control-measure leaflet-bar-part leaflet-bar-part-top-and-bottom',
       container, this._toggleMeasure, this)
 
@@ -171,7 +169,6 @@ L.Control.Measure = L.Control.extend({
 
       this._updateTooltipPosition(e.latlng)
       var distance = getDistance(e.latlng, this._lastPoint)
-      console.log(e.latlng, this._lastPoint, distance)
       this._updateTooltipDistance(distance)
 
       this._distance += distance
@@ -194,6 +191,11 @@ L.Control.Measure = L.Control.extend({
     if (this._layerPaintPath) {
       this._layerPaintPath.addLatLng(e.latlng)
     }
+
+    this._lastPoint = L.circle(e.latlng, {
+      radius: 0.748,
+      interactive: false,
+    }).addTo(this._layerPaint);    
 
     if (this._lastPoint) {
       if (this._lastCircle) {
@@ -284,11 +286,6 @@ L.Control.Measure = L.Control.extend({
   _onKeyDown: function (e) {
     // key control
     switch (e.keyCode) {
-      case this.options.activeKeyCode:
-        if (!this._measuring) {
-          this._toggleMeasure()
-        }
-        break
       case this.options.cancelKeyCode:
         //  if measuring, cancel measuring
         if (this._measuring) {
