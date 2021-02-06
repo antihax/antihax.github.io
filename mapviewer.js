@@ -250,16 +250,16 @@ class WorldMap extends React.Component {
           });
 
           map.Bosses.addLayer(pin)
-        
+
         });
 
-        var krakenSpawn = L.circle([-128,128], {
+        var krakenSpawn = L.circle([-128, 128], {
           radius: 1.68,
           interactive: true,
           color: "red",
           fillOpacity: 0,
         }).bindPopup("Kraken Spawn Area");
-        var krakenWall = L.circle([-128,128], {
+        var krakenWall = L.circle([-128, 128], {
           radius: 2.35,
           interactive: true,
           color: "blue",
@@ -492,7 +492,7 @@ class WorldMap extends React.Component {
         var lat = L.Util.formatNum(100 - scaleLeafletToAtlas(-e.latlng.lat), 2);
         var value = `TP ${x[0]} ${x[1]} ${x[2]}  10000`;
         if (top.location != location) {
-          top.location.href = document.location.href ;
+          top.location.href = document.location.href;
         }
         this._container.innerHTML = value;
       }
@@ -584,18 +584,16 @@ function GPStoLeaflet(x, y) {
 }
 
 function unrealToLeaflet(x, y) {
-  const unreal = 15400000;
-  var lat = ((x / unreal) * 256),
-    long = -((y / unreal) * 256);
+  const unrealx = 1400000 * config.ServersX;
+  const unrealy = 1400000 * config.ServersY;
+  var long = -((y / unrealy) * 256),
+    lat = ((x / unrealx) * 256);
   return [long, lat];
 }
-
 
 function unrealToLeafletArray(a) {
   return unrealToLeaflet(a[0], a[1]);
 }
-
-
 
 function constraint(value, minRange, maxRange, minVal, maxVal) {
   return (((value - minVal) / (maxVal - minVal)) * (maxRange - minRange) + minRange);
