@@ -53,7 +53,7 @@ class WorldMap extends React.Component {
     map.Discoveries = L.layerGroup(layerOpts);
     map.Bosses = L.layerGroup(layerOpts);
     map.ControlPoints = L.layerGroup(layerOpts);
-    map.Ships = L.layerGroup(layerOpts);
+    map.Ships = L.layerGroup(layerOpts).addTo(map);
     map.Stones = L.layerGroup(layerOpts);
     map.Treasure = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
@@ -96,9 +96,6 @@ class WorldMap extends React.Component {
 
 
     var measureControl = new L.Control.Measure({
-      /*formatDistance: function (val) {
-        return Math.round( val * 0.0312131900552604 ) + 'm';
-      }*/
     });
     measureControl.addTo(map);
 
