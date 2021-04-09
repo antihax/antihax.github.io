@@ -14,10 +14,9 @@ let types = JSON.parse(rawdata);
 for (var island in islands) {
     var i = islands[island];
     i.types = {};
-    
 
-    // if (!contains(i.resources, ["Silk", "Bamboo"]))
-    //    continue;
+    if (!contains(i.resources, ["Twigs", "Reeds", "Ironwood", "Iridium", "Cobalt"]))
+        continue;
     /* if (!contains(i.resources, ["Opal", "Diamond", "Gem", "Garnet", "Ruby", "Sunstone", "Emerald"]))
          continue;
 
@@ -42,8 +41,8 @@ for (var island in islands) {
             else
                 i.types[types[type]] = 1;
     }
-    var count = i.types["Flint"] + i.types["Stone"] + i.types["Thatch"] + i.types["Metal"] + i.types["Fiber"];
-    if (count >= 8)
+    var count = i.types["Stone"] + i.types["Thatch"] + i.types["Metal"] + i.types["Fiber"];
+    if (count >= 6 && i.types["Fiber"] > 2)
         console.log(count, "\t", i.resources["Maps"], "\t", i.grid, "\t", i.name);
 
 }

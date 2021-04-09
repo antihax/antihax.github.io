@@ -47,6 +47,7 @@ class WorldMap extends React.Component {
       position: 'topright'
     }).addTo(map);
 
+    map.Islands = L.layerGroup(layerOpts);
     map.IslandTerritories = L.layerGroup(layerOpts);
     map.IslandResources = L.layerGroup(layerOpts);
     map.Discoveries = L.layerGroup(layerOpts);
@@ -104,15 +105,14 @@ class WorldMap extends React.Component {
 
     // Add Layer Control
     L.control.layers({}, {
-      Islands: L.tileLayer("islands/{z}/{x}/{y}.png", layerOpts).addTo(map),
       Grid: L.tileLayer("grid/{z}/{x}/{y}.png", layerOpts).addTo(map),
-
       Discoveries: map.Discoveries,
       Treasure: map.Treasure,
       ControlPoints: map.ControlPoints,
+      Islands: map.Islands.addTo(map),
       Resources: map.IslandResources.addTo(map),
       Bosses: map.Bosses,
-      Ships: map.Ships.addTo(map),
+      Ships: map.Ships,
       Stones: map.Stones,
     }, {
       position: 'topright'
@@ -267,8 +267,6 @@ class WorldMap extends React.Component {
         }).bindPopup("Kraken Border Wall");
         map.Bosses.addLayer(krakenWall);
         map.Bosses.addLayer(krakenSpawn);
-
-
       })
       .catch(error => {
         console.log(error)
@@ -337,9 +335,9 @@ class WorldMap extends React.Component {
       .then(res => res.json())
       .then(function (islands) {
         for (let k in islands) {
-
-          if (islands[k].isControlPoint) {
-            var pin = new L.Marker(unrealToLeaflet(islands[k].worldX, islands[k].worldY), {
+          var island = islands[k];
+          if (island.isControlPoint) {
+            var pin = new L.Marker(unrealToLeaflet(island.worldX, island.worldY), {
               icon: CPIcon,
             });
             pin.bindPopup(`Control Point`, {
@@ -352,8 +350,8 @@ class WorldMap extends React.Component {
             continue;
           }
 
-          if (islands[k].animals || islands[k].resources) {
-            var circle = new IslandCircle(unrealToLeaflet(islands[k].worldX, islands[k].worldY), {
+          if (island.animals || island.resources) {
+            var circle = new IslandCircle(unrealToLeaflet(island.worldX, island.worldY), {
               radius: 1.5,
               color: "#f00",
               opacity: 0,
@@ -362,16 +360,16 @@ class WorldMap extends React.Component {
 
             circle.animals = [];
             circle.resources = [];
-            circle.animals = islands[k].animals.slice();
+            circle.animals = island.animals.slice();
 
-            var html = `<b>${islands[k].name} - ${islands[k].id}</b><ul class='split-ul'>`;
+            var html = `<b>${island.name} - ${island.id}</b><ul class='split-ul'>`;
             for (let resource in circle.animals.sort()) {
               html += "<li>" + circle.animals[resource] + "</li>";
             }
             html += "</ul>";
-            if (islands[k].resources) {
+            if (island.resources) {
               var resources = [];
-              for (let key in islands[k].resources) {
+              for (let key in island.resources) {
                 if (key.length > 2)
                   circle.resources.push(key);
               }
@@ -379,7 +377,7 @@ class WorldMap extends React.Component {
 
               html += "<ul class='split-ul'>";
               circle.resources.forEach(function (v) {
-                html += "<li>" + v + " (" + islands[k].resources[v] + ")</li>";
+                html += "<li>" + v + " (" + island.resources[v] + ")</li>";
               });
               html += "</ul>";
             }
@@ -390,14 +388,37 @@ class WorldMap extends React.Component {
               maxWidth: 560,
             });
             map.IslandResources.addLayer(circle);
+
+            var center = unrealToLeaflet(island.worldX, island.worldY),
+              offsets = unrealToLeaflet(island.islandWidth, island.islandHeight),
+              islandBounds = rotatePoints(center, [
+                [center[0] - (offsets[0] / 2), center[1] - (offsets[1] / 2)], // Top left
+                [center[0] - (offsets[0] / 2), center[1] + (offsets[1] / 2)], // Top right
+                [center[0] + (offsets[0] / 2), center[1] - (offsets[1] / 2)] //  Bottom left
+              ], island.rotation);
+
+            var islandImage = L.imageOverlay.rotated("islandImages/" + island.name + ".png",
+              L.latLng(islandBounds[0]),
+              L.latLng(islandBounds[1]),
+              L.latLng(islandBounds[2]), {
+                opacity: 1,
+                interactive: true
+              });
+            map.Islands.addLayer(islandImage);
           }
-          if (islands[k].treasureMapSpawnPoints) {
-            for (let spawn in islands[k].treasureMapSpawnPoints) {
-              let d = islands[k].treasureMapSpawnPoints[spawn].split(" ");
-              // Rotate the vector
-              d = rotateVector2D(d, islands[k].rotation);
-              var circle = new IslandCircle(unrealToLeaflet(islands[k].worldX + parseFloat(d[0]), islands[k].worldY + parseFloat(d[1])), {
-                radius: .05,
+
+
+          if (island.treasureMapSpawnPoints) {
+            var center = unrealToLeaflet(island.worldX, island.worldY);
+            const points = rotatePoints(center,
+              island.treasureMapSpawnPoints.map(x => {
+                var coords = x.split(" ").map(x => parseFloat(x));
+                return unrealToLeaflet(island.worldX + coords[0], island.worldY + coords[1])
+              }), island.rotation);
+
+            for (var spawn in points) {
+              var circle = new IslandCircle(points[spawn], {
+                radius: .03,
                 color: "#00FF00",
                 opacity: 0.5,
                 fillOpacity: 0.5,
@@ -405,9 +426,9 @@ class WorldMap extends React.Component {
               map.Treasure.addLayer(circle);
             }
           }
-          if (islands[k].discoveries) {
-            for (let disco in islands[k].discoveries) {
-              var d = islands[k].discoveries[disco];
+          if (island.discoveries) {
+            for (let disco in island.discoveries) {
+              var d = island.discoveries[disco];
               var circle = new IslandCircle(GPStoLeaflet(d.long, d.lat), {
                 radius: .05,
                 color: "#000000",
@@ -589,6 +610,37 @@ function unrealToLeaflet(x, y) {
   var long = -((y / unrealy) * 256),
     lat = ((x / unrealx) * 256);
   return [long, lat];
+}
+
+function rotateVector2DAroundAxis(vec, axis, ang) {
+  ang = ang * (Math.PI / 180);
+  var cos = Math.cos(ang);
+  var sin = Math.sin(ang);
+
+  // Translate to axis
+  vec[0] -= axis[0];
+  vec[1] -= axis[1];
+
+  var r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos);
+
+  // Translate back to world
+  r[0] += axis[0];
+  r[1] += axis[1];
+
+  return r;
+}
+
+function rotatePoints(center, points, yaw) {
+  var res = []
+  var angle = yaw * (Math.PI / 180)
+  for (var i = 0; i < points.length; i++) {
+    var p = points[i]
+    var p2 = [p[0] - center[0], p[1] - center[1]]
+    var p3 = [Math.cos(angle) * p2[0] - Math.sin(angle) * p2[1], Math.sin(angle) * p2[0] + Math.cos(angle) * p2[1]]
+    var p4 = [p3[0] + center[0], p3[1] + center[1]]
+    res.push(p4)
+  }
+  return res
 }
 
 function unrealToLeafletArray(a) {
@@ -838,35 +890,4 @@ class IslandCircle extends L.Circle {
 
 function escapeHTML(unsafe_str) {
   return unsafe_str.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/\"/g, '"').replace(/\'/g, '\'');
-}
-
-function rotateVector2D(vec, ang) {
-  if (ang == 0) {
-    return vec;
-  }
-
-  ang = ang * (Math.PI / 180);
-  var cos = Math.cos(ang);
-  var sin = Math.sin(ang);
-  var r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos, vec[0]);
-
-  return r;
-}
-
-function rotateVector2DAroundAxis(vec, axis, ang) {
-  ang = ang * (Math.PI / 180);
-  var cos = Math.cos(ang);
-  var sin = Math.sin(ang);
-
-  // Translate to axis
-  vec[0] -= axis[0];
-  vec[1] -= axis[1];
-
-  var r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos);
-
-  // Translate back to world
-  r[0] += axis[0];
-  r[1] += axis[1];
-
-  return r;
 }
