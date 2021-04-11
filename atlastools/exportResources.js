@@ -8,9 +8,13 @@ rawdata = fs.readFileSync('./json/resourceTypes.json');
 let resourceTypes = JSON.parse(rawdata);
 let types = {};
 var resources = {};
+var animals = {};
 
 for (var island in islands) {
     var i = islands[island];
+    for (var animal in i.animals) {
+        animals[i.animals[animal]] = "";
+    }
     for (var resource in i.resources) {
         resource = resource.replace(/ \(Rock\)/g, '');
         if (!resources[resource])
@@ -39,6 +43,8 @@ for (var type in types) {
         }
     }
 }
+
+fs.writeFileSync('./json/animalCheck.json', JSON.stringify(animals, null, "\t"));
 
 fs.writeFileSync('./json/resourceCheck.json', JSON.stringify(types, null, "\t"));
 

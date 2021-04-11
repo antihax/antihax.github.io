@@ -26,21 +26,14 @@ class WorldMap extends React.Component {
 
     const baseLayer = L.tileLayer("tiles/{z}/{x}/{y}.png", layerOpts)
 
-    const map = this.worldMap = L.map("worldmap", {
+    var map = this.worldMap = L.map("worldmap", {
       crs: L.CRS.Simple,
       layers: [baseLayer],
       zoomControl: false,
       attributionControl: false,
     })
 
-    // Remove features after 5 minutes
-    setInterval(function () {
-      map.eachLayer(function (layer) {
-        if (layer.feature && new Date - layer.feature.properties.created > 15 * 60 * 1000) {
-          map.removeLayer(layer)
-        }
-      });
-    }, 1000);
+    map._originalBounds = layerOpts.bounds;
 
     // Add zoom control
     L.control.zoom({
@@ -48,6 +41,10 @@ class WorldMap extends React.Component {
     }).addTo(map);
 
     map.Islands = L.layerGroup(layerOpts);
+    map.Grid = new L.AtlasGrid({
+      xticks: config.ServersX,
+      yticks: config.ServersY
+    }).addTo(map);
     map.IslandTerritories = L.layerGroup(layerOpts);
     map.IslandResources = L.layerGroup(layerOpts);
     map.Discoveries = L.layerGroup(layerOpts);
@@ -94,15 +91,12 @@ class WorldMap extends React.Component {
     (new SearchBox).addTo(map);
     var input = document.getElementById("searchBox");
 
-
-    var measureControl = new L.Control.Measure({
-    });
+    var measureControl = new L.Control.Measure({});
     measureControl.addTo(map);
-
 
     // Add Layer Control
     L.control.layers({}, {
-      Grid: L.tileLayer("grid/{z}/{x}/{y}.png", layerOpts).addTo(map),
+      Grid: map.Grid,
       Discoveries: map.Discoveries,
       Treasure: map.Treasure,
       ControlPoints: map.ControlPoints,
@@ -331,6 +325,8 @@ class WorldMap extends React.Component {
       })
       .then(res => res.json())
       .then(function (islands) {
+        map._islands = islands;
+
         for (let k in islands) {
           var island = islands[k];
           if (island.isControlPoint) {
@@ -357,13 +353,35 @@ class WorldMap extends React.Component {
 
             circle.animals = [];
             circle.resources = [];
+            circle.biomes = [];
             circle.animals = island.animals.slice();
 
-            var html = `<b>${island.name} - ${island.id}</b><ul class='split-ul'>`;
+            if (island.biomes) {
+              let seen = {};
+              for (let key in island.biomes) {
+                let biome = island.biomes[key];
+                let k = biome.name + biome.temp[0] + biome.temp[1];
+                if (!seen[k] && !biome.name.includes("At Land") && !biome.name.includes("Ocean Water")) {
+                  seen[k] = 1;
+                  circle.biomes.push(island.biomes[key]);
+                }
+              }
+              circle.biomes.sort();
+            }
+
+            var html = `<b>${island.name} - ${island.id}</b><br>`;
+
+            for (let b in circle.biomes.sort()) {
+              let biome = circle.biomes[b];
+              html += `${biome.name} [Min: ${biome.temp[0].toFixed()}  Max: ${biome.temp[1].toFixed()}]<br>`;
+            }
+
+            html += `<ul class='split-ul'>`;
             for (let resource in circle.animals.sort()) {
               html += "<li>" + circle.animals[resource] + "</li>";
             }
             html += "</ul>";
+
             if (island.resources) {
               var resources = [];
               for (let key in island.resources) {
@@ -403,7 +421,6 @@ class WorldMap extends React.Component {
               });
             map.Islands.addLayer(islandImage);
           }
-
 
           if (island.treasureMapSpawnPoints) {
             var center = unrealToLeaflet(island.worldX, island.worldY);
@@ -508,7 +525,7 @@ class WorldMap extends React.Component {
         var x = ccc(e.latlng.lng, -e.latlng.lat);
         var lng = L.Util.formatNum(scaleLeafletToAtlas(e.latlng.lng) - 100, 2);
         var lat = L.Util.formatNum(100 - scaleLeafletToAtlas(-e.latlng.lat), 2);
-        var value = `TP ${x[0]} ${x[1]} ${x[2]}  10000`;
+        var value = `cheat TP ${x[0]} ${x[1]} ${x[2]} 10000`;
         if (top.location != location) {
           top.location.href = document.location.href;
         }
@@ -602,8 +619,8 @@ function GPStoLeaflet(x, y) {
 }
 
 function unrealToLeaflet(x, y) {
-  const unrealx = 1400000 * config.ServersX;
-  const unrealy = 1400000 * config.ServersY;
+  const unrealx = config.GridSize * config.ServersX;
+  const unrealy = config.GridSize * config.ServersY;
   var long = -((y / unrealy) * 256),
     lat = ((x / unrealx) * 256);
   return [long, lat];
