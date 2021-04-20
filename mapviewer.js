@@ -24,7 +24,7 @@ class WorldMap extends React.Component {
       noWrap: true,
     };
 
-    const baseLayer = L.tileLayer("tiles/{z}/{x}/{y}.png", layerOpts)
+    const baseLayer = L.tileLayer("tiles/{z}/{x}/{y}.webp", layerOpts)
 
     var map = this.worldMap = L.map("worldmap", {
       crs: L.CRS.Simple,
@@ -412,7 +412,7 @@ class WorldMap extends React.Component {
                 [center[0] + (offsets[0] / 2), center[1] - (offsets[1] / 2)] //  Bottom left
               ], island.rotation);
 
-            var islandImage = L.imageOverlay.rotated("islandImages/" + island.name + ".png",
+            var islandImage = L.imageOverlay.rotated("islandImages/" + island.name + ".webp",
               L.latLng(islandBounds[0]),
               L.latLng(islandBounds[1]),
               L.latLng(islandBounds[2]), {
