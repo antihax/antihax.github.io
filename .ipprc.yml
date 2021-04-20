@@ -1,0 +1,12 @@
+input: tiles
+output: tiles
+
+pipeline:
+  - pipe:
+      resolve: "@ipp/compress"
+      module: CompressPipe
+    then:      
+      - pipe: convert
+        options:
+          format: webp
+        save: "[source.name].webp"

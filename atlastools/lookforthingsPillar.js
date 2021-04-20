@@ -14,10 +14,13 @@ let types = JSON.parse(rawdata);
 for (var island in islands) {
     var i = islands[island];
     i.types = {};
-    if (!containsLike(i.meshes, ["Vertical"]))
+    if (containsLike(i.meshes, ["Vertical"]))
         continue;
 
-    console.log(island);
+    if (i.meshes)
+        continue;
+
+    console.log(island, i);
 
 }
 

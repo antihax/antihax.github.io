@@ -1,9 +1,7 @@
 'use strict';
-require('tty')
+
 const fs = require('fs');
-const {
-    nextTick
-} = require('process');
+
 
 let rawdata = fs.readFileSync('./json/islands.json');
 let islands = JSON.parse(rawdata);
