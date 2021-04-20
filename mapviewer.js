@@ -52,7 +52,6 @@ class WorldMap extends React.Component {
     map.ControlPoints = L.layerGroup(layerOpts);
     map.Ships = L.layerGroup(layerOpts).addTo(map);
     map.Stones = L.layerGroup(layerOpts);
-    map.Treasure = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
       onAdd: function () {
         var element = document.createElement("input");
@@ -98,7 +97,6 @@ class WorldMap extends React.Component {
     L.control.layers({}, {
       Grid: map.Grid,
       Discoveries: map.Discoveries,
-      Treasure: map.Treasure,
       ControlPoints: map.ControlPoints,
       Islands: map.Islands.addTo(map),
       Resources: map.IslandResources.addTo(map),
@@ -422,24 +420,6 @@ class WorldMap extends React.Component {
             map.Islands.addLayer(islandImage);
           }
 
-          if (island.treasureMapSpawnPoints) {
-            var center = unrealToLeaflet(island.worldX, island.worldY);
-            const points = rotatePoints(center,
-              island.treasureMapSpawnPoints.map(x => {
-                var coords = x.split(" ").map(x => parseFloat(x));
-                return unrealToLeaflet(island.worldX + coords[0], island.worldY + coords[1])
-              }), island.rotation);
-
-            for (var spawn in points) {
-              var circle = new IslandCircle(points[spawn], {
-                radius: .03,
-                color: "#00FF00",
-                opacity: 0.5,
-                fillOpacity: 0.5,
-              });
-              map.Treasure.addLayer(circle);
-            }
-          }
           if (island.discoveries) {
             for (let disco in island.discoveries) {
               var d = island.discoveries[disco];
