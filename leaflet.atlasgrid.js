@@ -60,7 +60,7 @@ L.AtlasGrid = L.LayerGroup.extend({
 
         for (let x = 0; x < this.options.xticks; x++) {
             for (let y = 0; y < this.options.yticks; y++) {
-                let tooltip = L.marker([bounds.getWest() - (xTickSize * x), bounds.getNorth() - (yTickSize * y)], {
+                let tooltip = L.marker([bounds.getWest() + (yTickSize * y), bounds.getNorth() + (xTickSize * x)], {
                     icon: L.divIcon({
                         className: 'leaflet-grid-marker',
                         iconAnchor: [-2, -2]
@@ -68,7 +68,7 @@ L.AtlasGrid = L.LayerGroup.extend({
                     clickable: false
                 });
                 this.addLayer(tooltip);
-                const grid = String.fromCharCode(65 + y) + (x + 1);
+                const grid = String.fromCharCode(65 + x) + (y + 1);
 
                 let color = "white";
                 let dropcolor = "black";
