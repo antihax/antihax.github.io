@@ -1,16 +1,16 @@
 {
 	"Berry": [
 		{
-			"Schisandra": 125
-		},
-		{
 			"Bilberry": 86
 		},
 		{
-			"Acerolla": 107
+			"Schisandra": 125
 		},
 		{
 			"Acai": 104
+		},
+		{
+			"Acerolla": 107
 		},
 		{
 			"Elderberry": 108
@@ -73,16 +73,16 @@
 	],
 	"Herb": [
 		{
-			"Poppy": 11
-		},
-		{
 			"Parsley": 30
 		},
 		{
-			"Turmeric": 60
+			"Poppy": 11
 		},
 		{
 			"Cilantro": 103
+		},
+		{
+			"Turmeric": 60
 		},
 		{
 			"Mint": 83
@@ -194,19 +194,24 @@
 	],
 	"BAD": [
 		{
-			"Chick Pea Seed": 11
+			"Bean Seed": 11
 		},
 		{
-			"Carrot Seed": 11
+			"Beet Seed": 11
 		},
 		{
 			"Cactus Seed": 11
 		},
 		{
-			"Bean Seed": 11
+			"Carrot Seed": 11
 		},
 		{
-			"Beet Seed": 11
+			"Chick Pea Seed": 11
+		}
+	],
+	"Special": [
+		{
+			"FreshWater": 116
 		}
 	],
 	"Coral": [
@@ -231,13 +236,13 @@
 			"Wild Rice": 60
 		},
 		{
+			"Wheatgrass": 37
+		},
+		{
 			"Wild Carrot": 56
 		},
 		{
 			"Wild Pepper": 48
-		},
-		{
-			"Wheatgrass": 37
 		},
 		{
 			"Wild Greens": 14
@@ -278,34 +283,34 @@
 	],
 	"Base": [
 		{
-			"Salt": 4
+			"Coal": 16
 		},
 		{
 			"Crystal": 16
 		},
 		{
-			"Flint": 32
+			"Fibers": 27
 		},
 		{
-			"Stone": 32
+			"Flint": 32
 		},
 		{
 			"Metal": 28
 		},
 		{
-			"Wood": 21
-		},
-		{
-			"Coal": 16
+			"Salt": 4
 		},
 		{
 			"Saps": 12
 		},
 		{
-			"Fibers": 27
+			"Stone": 32
 		},
 		{
 			"Thatch": 21
+		},
+		{
+			"Wood": 21
 		}
 	],
 	"Metal": [
@@ -393,10 +398,10 @@
 			"Rock Salt": 13
 		},
 		{
-			"Sea Salt": 28
+			"Iodine": 38
 		},
 		{
-			"Iodine": 38
+			"Sea Salt": 28
 		},
 		{
 			"Kala Namak": 2
@@ -423,9 +428,6 @@
 		}
 	],
 	"Ignore": [
-		{
-			"Treasure Spawns": 613
-		},
 		{
 			"Maps": 353
 		}
