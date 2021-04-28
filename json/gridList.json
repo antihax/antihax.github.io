@@ -2,269 +2,744 @@
 	"A1": {
 		"animals": [],
 		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"Eastern Tundra",
+			"Tundra At Land",
+			"Tundra Ocean Water"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"A10": {
-		"animals": [],
+		"animals": [
+			"Seagull"
+		],
 		"biomes": [
-			"Temperate At Land",
-			"Temperate Ocean Water",
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
 			"Western Temperate"
 		],
+		"forceServerRules": 3,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Acai",
+			"Coconut",
+			"Fronds",
+			"Marble",
+			"Silk",
+			"Strongwood",
+			"Wild Beans",
+			"Wild Maize",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"A11": {
 		"animals": [],
 		"biomes": [
-			"Eastern Tropics",
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Ocean Water",
+			"Western Tundra"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1
 	},
 	"A2": {
-		"animals": [],
-		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+		"animals": [
+			"Bear",
+			"Bee",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 3,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
+		"resources": [
+			"Celery",
+			"Chamomile",
+			"Fronds",
+			"Hemp",
+			"Iron (Rock)",
+			"Licorice",
+			"Maps",
+			"Mint",
+			"Oregano",
+			"Radiolarite (Rock)",
+			"Rushes",
+			"Schisandra",
+			"Slate (Rock)",
+			"Strawberry",
+			"Strongwood",
+			"Sulfur",
+			"Sunstone",
+			"Tellurite",
+			"Wetwood",
+			"Wild Carrot",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"A3": {
 		"animals": [],
 		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"At Land",
+			"Eastern Temperate",
+			"Ocean Water",
+			"Western Temperate"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"A4": {
 		"animals": [],
 		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"At Land",
+			"Central Low Desert",
+			"Ocean Water"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"A5": {
 		"animals": [],
 		"biomes": [
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Equator",
+			"Ocean Water"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1
 	},
 	"A6": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tropics",
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+		"animals": [
+			"Seagull"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Equator",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 3,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Acai",
+			"Coconut",
+			"Fronds",
+			"Marble",
+			"Silk",
+			"Strongwood",
+			"Wild Beans",
+			"Wild Maize",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"A7": {
-		"animals": [],
-		"biomes": [
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+		"animals": [
+			"Ant",
+			"CarrierTurtle",
+			"Catfish",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Horse",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Vulture",
+			"Wolf"
 		],
+		"biomes": [
+			"At Land",
+			"Equator",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Aloe",
+			"Basalt",
+			"Basalt (Rock)",
+			"Basil",
+			"Cobalt",
+			"FreshWater",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Graphite",
+			"Gum",
+			"Iron (Rock)",
+			"Jute",
+			"Lime",
+			"Maps",
+			"Radiolarite (Rock)",
+			"Sea Grapes",
+			"Strongwood",
+			"Thyme"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"A8": {
-		"animals": [],
-		"biomes": [
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+		"animals": [
+			"Ant",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Ostrich",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Tiger",
+			"Turtle"
 		],
+		"biomes": [
+			"At Land",
+			"Equator",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Aloe",
+			"Chert",
+			"Chert (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Elderberry",
+			"Fronds",
+			"Hemp",
+			"Honey",
+			"Iron",
+			"Iron (Rock)",
+			"Lightwood",
+			"Lime",
+			"Maps",
+			"Marble",
+			"Marble (Rock)",
+			"Nitre",
+			"Reeds",
+			"Rushes",
+			"Shale Oil",
+			"Strongwood",
+			"Wild Beans"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"A9": {
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Chicken",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
 		"biomes": [
-			"Temperate At Land",
-			"Temperate Ocean Water",
+			"At Land",
+			"Eastern Temperate",
+			"Ocean Water",
 			"Western Temperate"
 		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Celery",
+			"FreshWater",
+			"Fronds",
+			"Hemp",
+			"Iron (Rock)",
+			"Maps",
+			"Radiolarite (Rock)",
+			"Rushes",
+			"Schisandra",
+			"Slate",
+			"Slate (Rock)",
+			"Strawberry",
+			"Strongwood",
+			"Sulfur",
+			"Sunstone",
+			"Syrup",
+			"Tellurite",
+			"Tin",
+			"Wetwood",
+			"Wild Onion",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"B1": {
 		"animals": [],
 		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"At Land",
+			"Eastern Tropics",
+			"Eastern Tundra",
+			"Ocean Water"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"B10": {
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Cow",
+			"Giraffe",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
+		],
 		"biomes": [
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Temperate At Land",
-			"Temperate Ocean Water",
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
 			"Western Temperate"
 		],
+		"forceServerRules": 3,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Bark",
+			"Chalcedony",
+			"Chalcedony (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Crude Oil",
+			"Elderberry",
+			"Fronds",
+			"Garnet",
+			"Herkimer",
+			"Honey",
+			"Iridium",
+			"Iron (Rock)",
+			"Limestone",
+			"Limestone (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Sugarcane",
+			"Sugars",
+			"Turmeric",
+			"Wild Beans",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"B11": {
-		"animals": [],
-		"biomes": [
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+		"animals": [
+			"Penguin",
+			"Seagull",
+			"Wolf"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Tundra",
+			"Ocean Water",
+			"Polar"
+		],
+		"forceServerRules": 3,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Basalt",
+			"Basalt (Rock)",
+			"Chalcedony (Rock)",
+			"Chert (Rock)",
+			"Copper (Rock)",
+			"Crude Oil",
+			"Emerald",
+			"Granite (Rock)",
+			"Maps",
+			"Nitre",
+			"Obsidian",
+			"Roots",
+			"Sandstone",
+			"Sandstone (Rock)",
+			"Silver",
+			"Tin (Rock)",
+			"Wetwood"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"B2": {
-		"animals": [],
-		"biomes": [
-			"Central High Desert",
-			"Central Low Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
+		"animals": [
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Chicken",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
-		"serverCustomDatas2": ",1,1,0,",
+		"resources": [
+			"Celery",
+			"Chamomile",
+			"FreshWater",
+			"Fronds",
+			"Hemp",
+			"Iron (Rock)",
+			"Maps",
+			"Mint",
+			"Oregano",
+			"Radiolarite (Rock)",
+			"Rushes",
+			"Schisandra",
+			"Slate (Rock)",
+			"Strawberry",
+			"Strongwood",
+			"Sulfur",
+			"Sunstone",
+			"Syrup",
+			"Tellurite",
+			"Tin",
+			"Wetwood",
+			"Wild Carrot",
+			"Wild Onion",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"B3": {
-		"animals": [],
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Horse",
+			"Lion",
+			"Olfend",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture",
+			"Wolf"
+		],
 		"biomes": [
+			"At Land",
 			"Central High Desert",
 			"Central Low Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
+			"Ocean Water"
 		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
-		"serverCustomDatas2": ",1,1,0,",
+		"resources": [
+			"Agedwood",
+			"Basalt (Rock)",
+			"Bilberry",
+			"Calcite",
+			"Chert (Rock)",
+			"Cotton",
+			"Flake Salt",
+			"Granite",
+			"Granite (Rock)",
+			"Graphite",
+			"Iron (Rock)",
+			"Jute",
+			"Maps",
+			"Parsley",
+			"Poppy",
+			"Roots",
+			"Sandstone (Rock)",
+			"Wild Cactus",
+			"Wild Chili"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"B4": {
-		"animals": [],
-		"biomes": [
-			"Central Low Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
+		"animals": [
+			"Anglerfish",
+			"Crab",
+			"Eel",
+			"Jellyfish",
+			"Marlin",
+			"Seahorse",
+			"Shark",
+			"Squid"
 		],
+		"biomes": [
+			"At Land",
+			"Central High Desert",
+			"Central Low Desert",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
-		"serverCustomDatas2": ",1,1,0,",
+		"resources": [
+			"Agate",
+			"Brain Coral",
+			"Fire Coral",
+			"Iridium",
+			"Marble",
+			"Mineral Oil",
+			"Seaweed"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"B5": {
-		"animals": [],
-		"biomes": [
-			"Eastern Temperate",
-			"Equator",
-			"Equator (Freeport)",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+		"animals": [
+			"Ant",
+			"Bear",
+			"CarrierTurtle",
+			"Catfish",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Vulture"
 		],
+		"biomes": [
+			"At Land",
+			"Central Low Desert",
+			"Equator",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
+		"resources": [
+			"Acerolla",
+			"Basalt (Rock)",
+			"Basil",
+			"Cocoa",
+			"FreshWater",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Gum",
+			"Honey",
+			"Iron (Rock)",
+			"Jute",
+			"Maps",
+			"Opal",
+			"Quartz",
+			"Sea Grapes",
+			"Silver",
+			"Straw",
+			"Strongwood",
+			"Sulfur",
+			"Thyme",
+			"Wild Chick Peas"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"B6": {
-		"animals": [],
-		"biomes": [
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Temperate At Land",
-			"Temperate Ocean Water"
+		"animals": [
+			"Seagull"
 		],
+		"biomes": [
+			"At Land",
+			"Central Low Desert",
+			"Eastern Temperate",
+			"Eastern Tropics",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Acai",
+			"Coconut",
+			"Fronds",
+			"Marble",
+			"Silk",
+			"Strongwood",
+			"Wild Beans",
+			"Wild Maize",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"B7": {
-		"animals": [],
-		"biomes": [
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+		"animals": [
+			"Ant",
+			"Catfish",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Ostrich",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Tiger",
+			"Turtle"
 		],
+		"biomes": [
+			"At Land",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Aloe",
+			"Chalcedony (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Elderberry",
+			"FreshWater",
+			"Fronds",
+			"Garnet",
+			"Hemp",
+			"Herkimer",
+			"Honey",
+			"Iridium",
+			"Iron (Rock)",
+			"Lightwood",
+			"Lignite",
+			"Lime",
+			"Limestone (Rock)",
+			"Maps",
+			"Reeds",
+			"Rushes",
+			"Shale Oil",
+			"Strongwood",
+			"Sugars",
+			"Wild Beans",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"B8": {
 		"animals": [],
 		"biomes": [
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Eastern Tropics",
+			"Eastern Tropics (Freeport)",
+			"Ocean Water"
 		],
-		"name": "",
-		"resources": [],
+		"forceServerRules": 4,
+		"name": "Freeport",
+		"resources": [
+			"Basalt (Rock)",
+			"Granite (Rock)",
+			"Iron (Rock)",
+			"Thatch",
+			"Wood"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"B9": {
 		"animals": [],
 		"biomes": [
+			"At Land",
 			"Eastern Temperate",
-			"Temperate At Land",
-			"Temperate Ocean Water",
+			"Eastern Temperate Mountain Peak",
+			"Ocean Water",
 			"Western Temperate"
 		],
+		"forceServerRules": 1,
 		"name": "",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1
@@ -272,327 +747,955 @@
 	"C1": {
 		"animals": [],
 		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"At Land",
+			"Eastern Tundra",
+			"Ocean Water"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"C10": {
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Chicken",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
 		"biomes": [
+			"At Land",
 			"Eastern Temperate",
-			"Eastern Tropics",
-			"Temperate At Land",
-			"Temperate Ocean Water",
+			"Ocean Water",
 			"Western Temperate"
 		],
+		"forceServerRules": 3,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Celery",
+			"Chamomile",
+			"FreshWater",
+			"Fronds",
+			"Hemp",
+			"Iron (Rock)",
+			"Maps",
+			"Mint",
+			"Oregano",
+			"Radiolarite (Rock)",
+			"Rushes",
+			"Schisandra",
+			"Slate (Rock)",
+			"Strawberry",
+			"Strongwood",
+			"Sulfur",
+			"Sunstone",
+			"Syrup",
+			"Tellurite",
+			"Tin",
+			"Wetwood",
+			"Wild Carrot",
+			"Wild Onion",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"C11": {
-		"animals": [],
-		"biomes": [
-			"Eastern Temperate",
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+		"animals": [
+			"Penguin",
+			"Seagull",
+			"Wolf"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Tundra",
+			"Ocean Water",
+			"Polar"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Basalt",
+			"Basalt (Rock)",
+			"Chalcedony (Rock)",
+			"Chert (Rock)",
+			"Copper (Rock)",
+			"Crude Oil",
+			"Emerald",
+			"Granite (Rock)",
+			"Maps",
+			"Nitre",
+			"Obsidian",
+			"Roots",
+			"Sandstone",
+			"Sandstone (Rock)",
+			"Silver",
+			"Tin (Rock)",
+			"Wetwood"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"C2": {
-		"animals": [],
-		"biomes": [
-			"Central High Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
+		"animals": [
+			"Bear",
+			"Bee",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
-		"serverCustomDatas2": ",1,1,0,",
+		"resources": [
+			"Chamomile",
+			"Chert",
+			"Chert (Rock)",
+			"Fronds",
+			"Hemp",
+			"Iron",
+			"Iron (Rock)",
+			"Maps",
+			"Marble",
+			"Marble (Rock)",
+			"Mint",
+			"Nitre",
+			"Opal",
+			"Oregano",
+			"Quartz",
+			"Rushes",
+			"Schisandra",
+			"Strawberry",
+			"Strongwood",
+			"Syrup",
+			"Wetwood",
+			"Wild Carrot",
+			"Wild Onion",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"C3": {
-		"animals": [],
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture"
+		],
 		"biomes": [
+			"At Land",
 			"Central High Desert",
 			"Central Low Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
+			"Ocean Water"
 		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
-		"serverCustomDatas2": ",1,1,0,",
+		"resources": [
+			"Agedwood",
+			"Basalt",
+			"Basalt (Rock)",
+			"Bilberry",
+			"Chert (Rock)",
+			"Copper",
+			"Flake Salt",
+			"Granite (Rock)",
+			"Graphite",
+			"Iron (Rock)",
+			"Jute",
+			"Maps",
+			"Parsley",
+			"Roots",
+			"Sandstone (Rock)",
+			"Sugars",
+			"Wild Cactus",
+			"Wild Chili"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"C4": {
-		"animals": [],
-		"biomes": [
-			"Central Low Desert",
-			"Central Low Desert (Freeport)",
-			"Desert At Land",
-			"Desert Ocean Water",
-			"Eastern Tropics",
-			"Eastern Tropics (Freeport)"
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Horse",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture",
+			"Wolf"
 		],
-		"name": "Western Desert Freeport",
+		"biomes": [
+			"At Land",
+			"Central High Desert",
+			"Central Low Desert",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
 		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Anthracite",
 			"Basalt (Rock)",
-			"Granite (Rock)",
-			"Iron (Rock)",
-			"Thatch",
-			"Wood"
+			"Bilberry",
+			"Chert (Rock)",
+			"Cilantro",
+			"Copper (Rock)",
+			"Coquina",
+			"Elderberry",
+			"Flake Salt",
+			"Hemp",
+			"Herkimer",
+			"Iodine",
+			"Jute",
+			"Maps",
+			"Roots",
+			"Rushes",
+			"Sandstone (Rock)",
+			"Straw",
+			"Turmeric",
+			"Wetwood",
+			"Wild Cactus",
+			"Wild Chick Peas"
 		],
 		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
 		"serverCustomDatas2": ",1,1,0,",
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"C5": {
-		"animals": [],
-		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+		"animals": [
+			"Ant",
+			"Bear",
+			"CarrierTurtle",
+			"Catfish",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Giraffe",
+			"Horse",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Vulture",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
+		"biomes": [
+			"At Land",
+			"Equator",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acerolla",
+			"Aloe",
+			"Basalt",
+			"Basalt (Rock)",
+			"Cobalt",
+			"FreshWater",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Gum",
+			"Iodine",
+			"Iron (Rock)",
+			"Jute",
+			"Lime",
+			"Maps",
+			"Quartz",
+			"Radiolarite (Rock)",
+			"Sea Grapes",
+			"Sea Salt",
+			"Strongwood",
+			"Thyme",
+			"Wild Chick Peas"
+		],
 		"serverCustomDatas1": ",RainIntervalMultiplier,",
 		"serverCustomDatas2": ",0.36,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"C6": {
-		"animals": [],
-		"biomes": [
-			"Eastern Temperate",
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Cow",
+			"Giraffe",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
+		"biomes": [
+			"At Land",
+			"Central Low Desert",
+			"Eastern Tropics",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Bark",
+			"Chert",
+			"Chert (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Crude Oil",
+			"Elderberry",
+			"Fronds",
+			"Honey",
+			"Iron",
+			"Iron (Rock)",
+			"Maps",
+			"Marble",
+			"Marble (Rock)",
+			"Opal",
+			"Quartz",
+			"Silk",
+			"Strongwood",
+			"Sugarcane",
+			"Turmeric",
+			"Wild Beans",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"C7": {
-		"animals": [],
-		"biomes": [
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+		"animals": [
+			"Seagull"
 		],
-		"name": "Lawless Region",
-		"resources": [],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Equator",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Basalt (Rock)",
+			"Coconut",
+			"Copper",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Iron (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"C8": {
-		"animals": [],
-		"biomes": [
-			"Eastern Temperate",
-			"Eastern Tropics",
-			"Temperate At Land",
-			"Temperate Ocean Water"
+		"animals": [
+			"Seagull"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Equator",
+			"Ocean Water"
+		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Acai",
+			"Basalt (Rock)",
+			"Coconut",
+			"Copper",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Iron (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"C9": {
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Catfish",
+			"Chicken",
+			"Cow",
+			"Giraffe",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
+		],
 		"biomes": [
+			"At Land",
 			"Eastern Temperate",
 			"Eastern Tropics",
-			"Temperate At Land",
-			"Temperate Ocean Water",
+			"Ocean Water",
 			"Western Temperate"
 		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Bark",
+			"Chalcedony",
+			"Chalcedony (Rock)",
+			"Cilantro",
+			"Crude Oil",
+			"FreshWater",
+			"Fronds",
+			"Garnet",
+			"Herkimer",
+			"Honey",
+			"Iridium",
+			"Iron (Rock)",
+			"Limestone",
+			"Limestone (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Sugarcane",
+			"Turmeric"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"D1": {
 		"animals": [],
 		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"At Land",
+			"Central Tundra",
+			"Ocean Water",
+			"Polar"
 		],
+		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"D10": {
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Bee",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
 		"biomes": [
-			"Temperate At Land",
-			"Temperate Ocean Water",
+			"At Land",
+			"Eastern Temperate",
+			"Ocean Water",
 			"Western Temperate"
 		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Chamomile",
+			"Fronds",
+			"Hemp",
+			"Iron (Rock)",
+			"Maps",
+			"Mint",
+			"Oregano",
+			"Radiolarite (Rock)",
+			"Rushes",
+			"Schisandra",
+			"Slate",
+			"Slate (Rock)",
+			"Strawberry",
+			"Strongwood",
+			"Sulfur",
+			"Sunstone",
+			"Tellurite",
+			"Tin",
+			"Wetwood",
+			"Wild Carrot",
+			"Wild Onion",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"D11": {
 		"animals": [],
 		"biomes": [
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Eastern Tundra",
+			"Ocean Water"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1
 	},
 	"D2": {
-		"animals": [],
-		"biomes": [
-			"Central High Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
+		"animals": [
+			"Seagull"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
-		"serverCustomDatas2": ",1,1,0,",
+		"resources": [
+			"Hemp",
+			"Iron (Rock)",
+			"Radiolarite (Rock)",
+			"Rushes",
+			"Schisandra",
+			"Slate",
+			"Slate (Rock)",
+			"Sunstone",
+			"Wetwood",
+			"Wild Carrot",
+			"Wild Onion"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"D3": {
-		"animals": [],
-		"biomes": [
-			"Central Low Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
+		"animals": [
+			"Bee",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Turtle"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Blackberry",
+			"Calcite",
+			"Chert (Rock)",
+			"Hemp",
+			"Maps",
+			"Mint",
+			"Oregano",
+			"Rushes",
+			"Schisandra",
+			"Silk",
+			"Silver",
+			"Silver (Rock)",
+			"Slate (Rock)",
+			"Softwood",
+			"Sulfur",
+			"Syrup"
+		],
 		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
 		"serverCustomDatas2": ",1,1,0,",
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"D4": {
-		"animals": [],
-		"biomes": [
-			"Central High Desert",
-			"Central Low Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
+		"animals": [
+			"Bee",
+			"Catfish",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Tiger",
+			"Turtle"
 		],
-		"name": "Lawless Region",
-		"resources": [],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Agate (Rock)",
+			"Amethyst",
+			"Anthracite",
+			"Bamboo",
+			"Blackberry",
+			"Coquina",
+			"Coquina (Rock)",
+			"FreshWater",
+			"Hemp",
+			"Iron (Rock)",
+			"Maps",
+			"Mint",
+			"Rushes",
+			"Schisandra",
+			"Softwood",
+			"Syrup",
+			"Wheatgrass"
+		],
 		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
 		"serverCustomDatas2": ",1,1,0,",
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"D5": {
-		"animals": [],
-		"biomes": [
-			"Central Low Desert",
-			"Temperate At Land",
-			"Temperate Ocean Water"
+		"animals": [
+			"Ant",
+			"Bear",
+			"CarrierTurtle",
+			"Catfish",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Giraffe",
+			"Horse",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Vulture",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
+		"biomes": [
+			"At Land",
+			"Equator",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acerolla",
+			"Basil",
+			"Chalcedony (Rock)",
+			"Cocoa",
+			"FreshWater",
+			"Fronds",
+			"Gum",
+			"Honey",
+			"Iron (Rock)",
+			"Jute",
+			"Limestone",
+			"Limestone (Rock)",
+			"Maps",
+			"Opal",
+			"Quartz",
+			"Sea Grapes",
+			"Silver",
+			"Straw",
+			"Strongwood",
+			"Sulfur",
+			"Thyme",
+			"Wild Chick Peas"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"D6": {
-		"animals": [],
-		"biomes": [
-			"Central Low Desert",
-			"Temperate At Land",
-			"Temperate Ocean Water"
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Giraffe",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverIslandPointsMultiplier": 1.5
-	},
-	"D7": {
-		"animals": [],
 		"biomes": [
-			"Central Low Desert",
+			"At Land",
 			"Eastern Temperate",
 			"Eastern Temperate Mountain Peak",
 			"Eastern Tropics",
-			"Temperate At Land",
-			"Temperate Ocean Water"
+			"Ocean Water"
 		],
-		"name": "Lawless Region",
-		"resources": [],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Agedwood",
+			"Bark",
+			"Basalt (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Copper",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Honey",
+			"Iron (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Sugarcane",
+			"Turmeric",
+			"Wild Beans"
+		],
+		"serverIslandPointsMultiplier": 1.5
+	},
+	"D7": {
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Horse",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture",
+			"Wolf"
+		],
+		"biomes": [
+			"At Land",
+			"Central High Desert",
+			"Central Low Desert",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Arctic Raspberry",
+			"Bean Seed",
+			"Beet Seed",
+			"Bilberry",
+			"Blackberry",
+			"Cactus Seed",
+			"Carrot Seed",
+			"Chert",
+			"Chert (Rock)",
+			"Chick Pea Seed",
+			"Cilantro",
+			"Cobalt",
+			"Coconut",
+			"Copper (Rock)",
+			"Coquina",
+			"Elderberry",
+			"Fibers",
+			"Flake Salt",
+			"Fronds",
+			"Hemp",
+			"Jute",
+			"Lignonberry",
+			"Maps",
+			"Roots",
+			"Sandstone (Rock)",
+			"Schisandra",
+			"Sea Grapes",
+			"Straw",
+			"Strawberry",
+			"Strongwood",
+			"Sugars",
+			"Turmeric"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"D8": {
 		"animals": [],
 		"biomes": [
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Eastern Tropics",
-			"Temperate At Land",
-			"Temperate Ocean Water"
+			"At Land",
+			"Central High Desert",
+			"Ocean Water"
 		],
-		"name": "Lawless Region",
+		"forceServerRules": 1,
+		"name": "",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"D9": {
 		"animals": [],
 		"biomes": [
+			"At Land",
 			"Eastern Temperate",
-			"Eastern Temperate (Freeport)",
 			"Eastern Tropics",
-			"Temperate At Land",
-			"Temperate Ocean Water"
+			"Ocean Water",
+			"Western Temperate"
 		],
-		"name": "Southern Temperate Freeport",
-		"resources": [
-			"Basalt (Rock)",
-			"Granite (Rock)",
-			"Iron (Rock)",
-			"Thatch",
-			"Wood"
-		],
-		"serverIslandPointsMultiplier": 1.5
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1
 	},
 	"E1": {
 		"animals": [],
 		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"At Land",
+			"Ocean Water",
+			"Polar"
 		],
+		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"E10": {
-		"animals": [],
-		"biomes": [
-			"Eastern Temperate",
-			"Temperate At Land",
-			"Temperate Ocean Water"
+		"animals": [
+			"Bear",
+			"Bee",
+			"Chicken",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Pig",
+			"Rabbit",
+			"Seagull",
+			"Sheep",
+			"Wolf"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Chamomile",
+			"Hemp",
+			"Iron (Rock)",
+			"Maps",
+			"Mint",
+			"Oregano",
+			"Radiolarite (Rock)",
+			"Rushes",
+			"Schisandra",
+			"Slate",
+			"Slate (Rock)",
+			"Strawberry",
+			"Sulfur",
+			"Sunstone",
+			"Tellurite",
+			"Tin",
+			"Wetwood",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"E11": {
 		"animals": [],
 		"biomes": [
-			"Eastern Temperate",
-			"Temperate At Land",
-			"Temperate Ocean Water"
+			"At Land",
+			"Central Tundra",
+			"Eastern Tundra",
+			"Ocean Water"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1
@@ -600,214 +1703,754 @@
 	"E2": {
 		"animals": [],
 		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"At Land",
+			"Central Tundra",
+			"Eastern Tundra",
+			"Ocean Water",
+			"Polar"
 		],
+		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"E3": {
-		"animals": [],
-		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+		"animals": [
+			"Bear",
+			"CaveBat",
+			"Chicken",
+			"Cow",
+			"Crow",
+			"Gorgon",
+			"Horse",
+			"Hydra",
+			"Leatherwing",
+			"Lion",
+			"Razortooth",
+			"RockElemental",
+			"Seagull",
+			"ShieldHorn",
+			"Spider",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
+		"biomes": [
+			"Eastern Tundra",
+			"Tundra At Land",
+			"Tundra Ocean Water"
+		],
+		"forceServerRules": 5,
+		"name": "Golden Age Ruins",
+		"resources": [
+			"Arctic Raspberry",
+			"Bilberry",
+			"Chalcedony",
+			"Chalcedony (Rock)",
+			"Cotton",
+			"FreshWater",
+			"Granite",
+			"Granite (Rock)",
+			"Pink Salt",
+			"Resin",
+			"Roots",
+			"Silver",
+			"Silver (Rock)",
+			"Softwood",
+			"Wetwood",
+			"Wild Potato"
+		],
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,RainChanceForSnow",
+		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"E4": {
-		"animals": [],
-		"biomes": [
-			"Desert At Land",
-			"Desert Ocean Water",
-			"Equator"
+		"animals": [
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Cod",
+			"Crow",
+			"Cyclops",
+			"Hydra",
+			"Leatherwing",
+			"Rattlesnake",
+			"Razortooth",
+			"RockElemental",
+			"Seagull",
+			"ShieldHorn",
+			"Spider",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
-		"serverCustomDatas2": ",1,1,0,",
-		"serverIslandPointsMultiplier": 1.5
-	},
-	"E5": {
-		"animals": [],
-		"biomes": [
-			"Central High Desert",
-			"Desert At Land",
-			"Desert Ocean Water",
-			"Eastern Tropics"
-		],
-		"name": "Golden Age Ruins",
-		"resources": [],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,",
-		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,",
-		"serverIslandPointsMultiplier": 1
-	},
-	"E6": {
-		"animals": [],
-		"biomes": [
-			"Central Low Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
-		],
-		"name": "Golden Age Ruins",
-		"resources": [],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,",
-		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,",
-		"serverIslandPointsMultiplier": 1
-	},
-	"E7": {
-		"animals": [],
 		"biomes": [
 			"Temperate At Land",
 			"Temperate Ocean Water",
 			"Western Temperate"
 		],
+		"forceServerRules": 2,
 		"name": "Golden Age Ruins",
-		"resources": [],
+		"resources": [
+			"Celery",
+			"Emerald",
+			"FreshWater",
+			"Granite",
+			"Granite (Rock)",
+			"Hemp",
+			"Iron (Rock)",
+			"Opal",
+			"Radiolarite (Rock)",
+			"Rushes",
+			"Slate (Rock)",
+			"Syrup",
+			"Wetwood"
+		],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21",
+		"serverIslandPointsMultiplier": 1
+	},
+	"E5": {
+		"animals": [
+			"Ant",
+			"Catfish",
+			"Chicken",
+			"Cobra",
+			"Crocodile",
+			"Crow",
+			"Cyclops",
+			"Draco",
+			"Elephant",
+			"Gorgon",
+			"Leatherwing",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Razortooth",
+			"Scorpion",
+			"Seagull",
+			"ShieldHorn",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Wolf"
+		],
+		"biomes": [
+			"Equator",
+			"Equatorial At Land",
+			"Equatorial Ocean Water"
+		],
+		"forceServerRules": 5,
+		"name": "Golden Age Ruins",
+		"resources": [
+			"Aloe",
+			"Chalcedony (Rock)",
+			"Chert (Rock)",
+			"Cobalt (Rock)",
+			"Coquina (Rock)",
+			"FreshWater",
+			"Fronds",
+			"Iron (Rock)",
+			"Jute",
+			"Limestone",
+			"Limestone (Rock)",
+			"Sea Grapes",
+			"Strongwood"
+		],
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,RainIntervalMultiplier,",
+		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,",
+		"serverIslandPointsMultiplier": 1
+	},
+	"E6": {
+		"animals": [
+			"Ant",
+			"Bear",
+			"CarrierTurtle",
+			"Catfish",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Vulture"
+		],
+		"biomes": [
+			"At Land",
+			"Equator",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acerolla",
+			"Basalt (Rock)",
+			"Basil",
+			"FreshWater",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Gum",
+			"Honey",
+			"Iron (Rock)",
+			"Jute",
+			"Maps",
+			"Opal",
+			"Quartz",
+			"Roots",
+			"Sea Grapes",
+			"Silver",
+			"Straw",
+			"Strongwood",
+			"Sulfur",
+			"Thyme",
+			"Wild Chick Peas"
+		],
+		"serverIslandPointsMultiplier": 1
+	},
+	"E7": {
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture"
+		],
+		"biomes": [
+			"At Land",
+			"Central Low Desert",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Bilberry",
+			"Chert (Rock)",
+			"Cilantro",
+			"Copper (Rock)",
+			"Elderberry",
+			"Flake Salt",
+			"Granite",
+			"Graphite",
+			"Hemp",
+			"Herkimer",
+			"Iodine",
+			"Jute",
+			"Maps",
+			"Pink Salt",
+			"Roots",
+			"Sandstone (Rock)",
+			"Straw",
+			"Turmeric",
+			"Wild Cactus",
+			"Wild Chick Peas"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"E8": {
 		"animals": [],
 		"biomes": [
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Temperate At Land",
-			"Temperate Ocean Water"
+			"At Land",
+			"Central Low Desert",
+			"Ocean Water"
 		],
-		"name": "Lawless Region",
+		"forceServerRules": 1,
+		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1
 	},
 	"E9": {
 		"animals": [],
 		"biomes": [
+			"At Land",
 			"Eastern Temperate",
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
+			"Eastern Temperate (Freeport)",
+			"Eastern Tropics",
+			"Eastern Tropics (Freeport)",
+			"Ocean Water"
 		],
-		"name": "Lawless Region",
-		"resources": [],
+		"forceServerRules": 4,
+		"name": "Freeport",
+		"resources": [
+			"Basalt (Rock)",
+			"Granite (Rock)",
+			"Iron (Rock)",
+			"Thatch",
+			"Wood"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"F1": {
 		"animals": [],
 		"biomes": [
-			"Eastern Tropics",
-			"Equator",
-			"Tropical At Land",
-			"Tropical Ocean Water"
+			"At Land",
+			"Ocean Water",
+			"Polar"
 		],
+		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"F10": {
 		"animals": [],
 		"biomes": [
+			"At Land",
 			"Eastern Temperate",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+			"Eastern Temperate Mountain Peak",
+			"Eastern Tundra",
+			"Ocean Water",
+			"Western Tundra"
 		],
+		"forceServerRules": 1,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"F11": {
 		"animals": [],
 		"biomes": [
-			"Eastern Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+			"At Land",
+			"Ocean Water",
+			"Polar"
 		],
+		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"F2": {
 		"animals": [],
 		"biomes": [
-			"Equator",
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
+			"At Land",
+			"Central Tundra",
+			"Ocean Water",
+			"Polar"
 		],
+		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"F3": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tropics",
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+		"animals": [
+			"Bear",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Draco",
+			"Gorgon",
+			"Horse",
+			"Leatherwing",
+			"Lion",
+			"Razortooth",
+			"RockElemental",
+			"Scorpion",
+			"Seagull",
+			"ShieldHorn",
+			"Spider",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
+		"biomes": [
+			"Tundra At Land",
+			"Tundra Ocean Water",
+			"Western Tundra"
+		],
+		"forceServerRules": 5,
+		"name": "Golden Age Ruins",
+		"resources": [
+			"Arctic Raspberry",
+			"Basalt (Rock)",
+			"FreshWater",
+			"Granite (Rock)",
+			"Graphite",
+			"Iron",
+			"Iron (Rock)",
+			"Lignonberry",
+			"Radiolarite",
+			"Roots",
+			"Rushes",
+			"Sandstone",
+			"Softwood",
+			"Wetwood",
+			"Wild Potato"
+		],
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,RainChanceForSnow",
+		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"F4": {
-		"animals": [],
-		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+		"animals": [
+			"Bear",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Draco",
+			"Gorgon",
+			"Horse",
+			"Leatherwing",
+			"Lion",
+			"Razortooth",
+			"RockElemental",
+			"Scorpion",
+			"Seagull",
+			"ShieldHorn",
+			"Spider",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",RainIntervalMultiplier,",
-		"serverCustomDatas2": ",0.36,",
+		"biomes": [
+			"Tundra At Land",
+			"Tundra Ocean Water",
+			"Western Tundra"
+		],
+		"forceServerRules": 5,
+		"name": "Central Maw",
+		"resources": [
+			"Arctic Raspberry",
+			"Basalt (Rock)",
+			"FreshWater",
+			"Granite (Rock)",
+			"Graphite",
+			"Iron",
+			"Iron (Rock)",
+			"Lignonberry",
+			"Radiolarite",
+			"Roots",
+			"Rushes",
+			"Sandstone",
+			"Softwood",
+			"Wetwood",
+			"Wild Potato"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"F5": {
-		"animals": [],
-		"biomes": [
-			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+		"animals": [
+			"Anglerfish",
+			"Crab",
+			"Eel",
+			"Jellyfish",
+			"Marlin",
+			"Seahorse",
+			"Shark",
+			"Squid"
 		],
+		"biomes": [
+			"Central Low Desert",
+			"Desert At Land",
+			"Desert Ocean Water"
+		],
+		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
-		"resources": [],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,RainIntervalMultiplier,",
-		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,",
+		"resources": [
+			"Agate",
+			"Brain Coral",
+			"Fire Coral",
+			"Iridium",
+			"Marble",
+			"Mineral Oil",
+			"Seaweed"
+		],
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,",
+		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"F6": {
 		"animals": [],
 		"biomes": [
+			"At Land",
 			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"Ocean Water"
 		],
-		"name": "Central Maw",
+		"forceServerRules": 2,
+		"name": "",
 		"resources": [],
-		"serverCustomDatas1": "DisableFog,DisableHeatCold,DisableRain,NPCShipNumMult,FloatsamEnabled,DisableClaimFlags,TreasureBottlesEnabled,RainIntervalMultiplier,",
-		"serverCustomDatas2": "1,1,1,0,0,1,0,0.36,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"F7": {
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture"
+		],
+		"biomes": [
+			"At Land",
+			"Central Low Desert",
+			"Ocean Water"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Anthracite",
+			"Arctic Raspberry",
+			"Bean Seed",
+			"Beet Seed",
+			"Bilberry",
+			"Blackberry",
+			"Cactus Seed",
+			"Carrot Seed",
+			"Chert",
+			"Chert (Rock)",
+			"Chick Pea Seed",
+			"Cilantro",
+			"Cobalt",
+			"Coconut",
+			"Copper (Rock)",
+			"Coquina",
+			"Elderberry",
+			"Fibers",
+			"Flake Salt",
+			"Fronds",
+			"Honey",
+			"Iodine",
+			"Jute",
+			"Lignonberry",
+			"Maps",
+			"Roots",
+			"Sandstone (Rock)",
+			"Schisandra",
+			"Sea Grapes",
+			"Straw",
+			"Strawberry",
+			"Strongwood",
+			"Sugars",
+			"Turmeric",
+			"Wild Cactus",
+			"Wild Chick Peas"
+		],
+		"serverIslandPointsMultiplier": 1
+	},
+	"F8": {
+		"animals": [
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Chicken",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
+		"biomes": [
+			"At Land",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Celery",
+			"FreshWater",
+			"Fronds",
+			"Hemp",
+			"Iron (Rock)",
+			"Maps",
+			"Radiolarite (Rock)",
+			"Rushes",
+			"Schisandra",
+			"Slate",
+			"Slate (Rock)",
+			"Strawberry",
+			"Strongwood",
+			"Sulfur",
+			"Sunstone",
+			"Syrup",
+			"Tellurite",
+			"Tin",
+			"Wetwood",
+			"Wild Onion",
+			"Wild Pepper"
+		],
+		"serverIslandPointsMultiplier": 1.5
+	},
+	"F9": {
+		"animals": [
+			"Ant",
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle"
+		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Blackberry",
+			"Calcite",
+			"FreshWater",
+			"Hemp",
+			"Iron (Rock)",
+			"Maps",
+			"Mint",
+			"Nitre",
+			"Obsidian",
+			"Obsidian (Rock)",
+			"Oregano",
+			"Ruby",
+			"Rushes",
+			"Sandstone (Rock)",
+			"Schisandra",
+			"Silver",
+			"Softwood",
+			"Syrup",
+			"Wheatgrass",
+			"Wild Carrot",
+			"Wild Pepper"
+		],
+		"serverIslandPointsMultiplier": 1
+	},
+	"G1": {
+		"animals": [],
+		"biomes": [
+			"At Land",
+			"Ocean Water",
+			"Polar"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1
+	},
+	"G10": {
+		"animals": [],
+		"biomes": [
+			"At Land",
+			"Ocean Water",
+			"Polar"
+		],
+		"forceServerRules": 3,
+		"name": "",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1
+	},
+	"G11": {
+		"animals": [],
+		"biomes": [
+			"At Land",
+			"Ocean Water",
+			"Polar"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1
+	},
+	"G2": {
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
+		"biomes": [
+			"At Land",
+			"Central Tundra",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Arctic Raspberry",
+			"Bark",
+			"Chert",
+			"Chert (Rock)",
+			"Cotton",
+			"Elderberry",
+			"Garlic",
+			"Granite (Rock)",
+			"Graphite",
+			"Iron",
+			"Iron (Rock)",
+			"Lightwood",
+			"Maps",
+			"Marble",
+			"Marble (Rock)",
+			"Obsidian (Rock)",
+			"Opal",
+			"Silver (Rock)",
+			"Wild Cactus",
+			"Wild Potato",
+			"Wild Turnip"
+		],
+		"serverIslandPointsMultiplier": 1
+	},
+	"G3": {
 		"animals": [],
 		"biomes": [
 			"Eastern Temperate",
@@ -816,104 +2459,11 @@
 			"Temperate At Land",
 			"Temperate Ocean Water"
 		],
+		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21",
-		"serverIslandPointsMultiplier": 1
-	},
-	"F8": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tundra",
-			"Polar",
-			"Tundra At Land",
-			"Tundra Ocean Water"
-		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
-		"serverIslandPointsMultiplier": 1.5
-	},
-	"F9": {
-		"animals": [],
-		"biomes": [
-			"Eastern Temperate",
-			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Western Temperate"
-		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverIslandPointsMultiplier": 1
-	},
-	"G1": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
-		"serverIslandPointsMultiplier": 1
-	},
-	"G10": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
-		"serverIslandPointsMultiplier": 1
-	},
-	"G11": {
-		"animals": [],
-		"biomes": [
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Polar",
-			"Tundra At Land",
-			"Tundra Ocean Water"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
-		"serverIslandPointsMultiplier": 1
-	},
-	"G2": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
-		"serverIslandPointsMultiplier": 1
-	},
-	"G3": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water"
-		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"G4": {
@@ -921,382 +2471,1331 @@
 		"biomes": [
 			"Eastern Tropics",
 			"Tropical At Land",
-			"Tropical Ocean Water"
-		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
-		"serverIslandPointsMultiplier": 1.5
-	},
-	"G5": {
-		"animals": [],
-		"biomes": [
-			"Tropical At Land",
 			"Tropical Ocean Water",
 			"Western Tropics"
 		],
+		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,ChanceForCold,",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0,",
 		"serverIslandPointsMultiplier": 1
 	},
+	"G5": {
+		"animals": [],
+		"biomes": [
+			"Central High Desert",
+			"Desert At Land",
+			"Desert Ocean Water"
+		],
+		"forceServerRules": 5,
+		"name": "Golden Age Ruins",
+		"resources": [],
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,",
+		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,",
+		"serverIslandPointsMultiplier": 1
+	},
 	"G6": {
 		"animals": [],
 		"biomes": [
-			"Tundra At Land",
-			"Tundra Ocean Water",
-			"Western Tundra"
+			"At Land",
+			"Equator",
+			"Equator (Freeport)",
+			"Ocean Water"
 		],
-		"name": "Golden Age Ruins",
+		"forceServerRules": 2,
+		"name": "",
 		"resources": [],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"G7": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+		"animals": [
+			"Ant",
+			"Catfish",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Horse",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture",
+			"Wolf"
 		],
-		"name": "Golden Age Ruins",
-		"resources": [],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,.5",
+		"biomes": [
+			"At Land",
+			"Central High Desert",
+			"Central Low Desert",
+			"Ocean Water"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Agedwood",
+			"Basalt",
+			"Basalt (Rock)",
+			"Bilberry",
+			"Calcite",
+			"Chert (Rock)",
+			"Copper",
+			"Flake Salt",
+			"FreshWater",
+			"Granite",
+			"Granite (Rock)",
+			"Graphite",
+			"Honey",
+			"Iron (Rock)",
+			"Jute",
+			"Maps",
+			"Parsley",
+			"Poppy",
+			"Roots",
+			"Sandstone (Rock)",
+			"Schisandra",
+			"Sugars",
+			"Wild Cactus",
+			"Wild Chili"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"G8": {
 		"animals": [],
 		"biomes": [
-			"Eastern Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+			"At Land",
+			"Central Low Desert",
+			"Central Low Desert (Freeport)",
+			"Eastern Tropics",
+			"Eastern Tropics (Freeport)",
+			"Ocean Water"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
-		"serverIslandPointsMultiplier": 1.5
+		"forceServerRules": 4,
+		"name": "Freeport",
+		"resources": [
+			"Basalt (Rock)",
+			"Granite (Rock)",
+			"Iron (Rock)",
+			"Thatch",
+			"Wood"
+		],
+		"serverIslandPointsMultiplier": 1
 	},
 	"G9": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+		"animals": [
+			"Ant",
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Agate",
+			"Agate (Rock)",
+			"Anthracite",
+			"Bamboo",
+			"Blackberry",
+			"Cobalt",
+			"Coquina",
+			"Coquina (Rock)",
+			"FreshWater",
+			"Hemp",
+			"Iron (Rock)",
+			"Maps",
+			"Mint",
+			"Oregano",
+			"Rushes",
+			"Schisandra",
+			"Silk",
+			"Softwood",
+			"Syrup",
+			"Wheatgrass",
+			"Wild Onion"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"H1": {
 		"animals": [],
 		"biomes": [
-			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water"
+			"At Land",
+			"Central Tundra",
+			"Eastern Tundra",
+			"Ocean Water"
 		],
+		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"H10": {
 		"animals": [],
 		"biomes": [
+			"At Land",
+			"Eastern Temperate Mountain Peak",
+			"Ocean Water",
 			"Polar",
-			"Polar At Land",
-			"Polar Ocean Water"
+			"Western Tundra"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,RainChanceForSnow",
-		"serverCustomDatas2": ",1,1.25,0.33,1.35,0,1",
 		"serverIslandPointsMultiplier": 1
 	},
 	"H11": {
 		"animals": [],
 		"biomes": [
-			"Central Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+			"At Land",
+			"Ocean Water",
+			"Polar"
 		],
+		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"H2": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
+		"animals": [
+			"Bee",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Turtle"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
+		"resources": [
+			"Blackberry",
+			"Calcite",
+			"Chert (Rock)",
+			"Hemp",
+			"Maps",
+			"Mint",
+			"Ruby",
+			"Rushes",
+			"Silver",
+			"Silver (Rock)",
+			"Slate (Rock)",
+			"Softwood",
+			"Sulfur",
+			"Wild Onion",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"H3": {
-		"animals": [],
+		"animals": [
+			"Seagull"
+		],
 		"biomes": [
+			"At Land",
 			"Eastern Tropics",
-			"Eastern Tropics (Freeport)",
-			"Tropical At Land",
-			"Tropical Ocean Water"
+			"Ocean Water",
+			"Western Tropics"
 		],
-		"name": "Northern Tropical Freeport",
+		"forceServerRules": 2,
+		"name": "",
 		"resources": [
-			"Basalt (Rock)",
-			"Granite (Rock)",
-			"Iron (Rock)",
-			"Thatch",
-			"Wood"
+			"Acai",
+			"Coconut",
+			"Fronds",
+			"Marble",
+			"Silk",
+			"Strongwood",
+			"Wild Beans",
+			"Wild Maize",
+			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"H4": {
 		"animals": [],
 		"biomes": [
+			"At Land",
 			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water"
+			"Ocean Water",
+			"Western Tropics"
 		],
-		"name": "Lawless Region",
+		"forceServerRules": 2,
+		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"H5": {
-		"animals": [],
-		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Horse",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
+		"biomes": [
+			"At Land",
+			"Central High Desert",
+			"Central Low Desert",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Anthracite",
+			"Basalt (Rock)",
+			"Bilberry",
+			"Chert (Rock)",
+			"Cilantro",
+			"Copper (Rock)",
+			"Coquina",
+			"Elderberry",
+			"Flake Salt",
+			"Hemp",
+			"Herkimer",
+			"Iodine",
+			"Jute",
+			"Maps",
+			"Roots",
+			"Rushes",
+			"Sandstone (Rock)",
+			"Straw",
+			"Turmeric",
+			"Wetwood",
+			"Wild Cactus",
+			"Wild Chick Peas"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"H6": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tropics",
-			"Eastern Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+		"animals": [
+			"Ant",
+			"Bear",
+			"CarrierTurtle",
+			"Catfish",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Vulture"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
+		"biomes": [
+			"At Land",
+			"Equator",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acerolla",
+			"Basalt (Rock)",
+			"Basil",
+			"Cocoa",
+			"FreshWater",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Gum",
+			"Honey",
+			"Iron (Rock)",
+			"Jute",
+			"Maps",
+			"Opal",
+			"Quartz",
+			"Roots",
+			"Sea Grapes",
+			"Silver",
+			"Strongwood",
+			"Sulfur",
+			"Thyme",
+			"Wild Chick Peas"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"H7": {
-		"animals": [],
-		"biomes": [
-			"Central Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+		"animals": [
+			"Ant",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Ostrich",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Tiger",
+			"Turtle"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Aloe",
+			"Basalt",
+			"Basalt (Rock)",
+			"Calcite",
+			"Cilantro",
+			"Copper",
+			"Elderberry",
+			"Emerald",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Graphite",
+			"Hemp",
+			"Iron (Rock)",
+			"Lightwood",
+			"Maps",
+			"Reeds",
+			"Rushes",
+			"Silver",
+			"Strongwood",
+			"Sugars",
+			"Wild Beans",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"H8": {
 		"animals": [],
 		"biomes": [
-			"Eastern Tundra",
-			"Polar",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Tropics"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Aloe",
+			"Basalt",
+			"Basalt (Rock)",
+			"Calcite",
+			"Cilantro",
+			"Coconut",
+			"Copper",
+			"Elderberry",
+			"Emerald",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Graphite",
+			"Hemp",
+			"Honey",
+			"Iron (Rock)",
+			"Lightwood",
+			"Lime",
+			"Maps",
+			"Reeds",
+			"Rushes",
+			"Strongwood",
+			"Sugars",
+			"Wild Beans",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"H9": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+		"animals": [
+			"Bear",
+			"Catfish",
+			"Chicken",
+			"Cow",
+			"Giraffe",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Bark",
+			"Chalcedony",
+			"Chalcedony (Rock)",
+			"Cilantro",
+			"Crude Oil",
+			"FreshWater",
+			"Fronds",
+			"Garnet",
+			"Herkimer",
+			"Honey",
+			"Iridium",
+			"Iron (Rock)",
+			"Limestone",
+			"Limestone (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Sugarcane",
+			"Turmeric"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"I1": {
 		"animals": [],
 		"biomes": [
-			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water"
+			"At Land",
+			"Eastern Tundra",
+			"Ocean Water",
+			"Polar"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"I10": {
 		"animals": [
 			"Bear",
+			"Chicken",
+			"Cobra",
+			"Cow",
 			"Crow",
-			"Penguin",
+			"Horse",
+			"Lion",
+			"Pig",
 			"Rabbit",
 			"Seagull",
-			"Wolf",
-			"Yeti"
+			"Sheep",
+			"Wolf"
 		],
 		"biomes": [
-			"Polar",
-			"Polar At Land",
-			"Polar Ocean Water"
+			"At Land",
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak",
+			"Eastern Tundra",
+			"Ocean Water",
+			"Western Tundra"
 		],
+		"forceServerRules": 1,
 		"name": "",
 		"resources": [
+			"Arctic Raspberry",
+			"Bilberry",
 			"Chert",
 			"Chert (Rock)",
+			"Cotton",
+			"Garlic",
 			"Iron",
 			"Iron (Rock)",
 			"Maps",
 			"Marble",
 			"Marble (Rock)",
-			"Naptha",
+			"Nitre",
 			"Opal",
-			"Quartz",
+			"Pink Salt",
+			"Resin",
 			"Roots",
-			"Wetwood"
+			"Softwood",
+			"Wetwood",
+			"Wild Potato",
+			"Wild Turnip"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,RainChanceForSnow",
-		"serverCustomDatas2": ",1,1.25,0.33,1.35,0,1",
 		"serverIslandPointsMultiplier": 1
 	},
 	"I11": {
 		"animals": [],
 		"biomes": [
-			"Tundra At Land",
-			"Tundra Ocean Water",
-			"Western Tundra"
+			"At Land",
+			"Central Tundra",
+			"Ocean Water"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"I2": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water"
+		"animals": [
+			"Ant",
+			"Bear",
+			"Bee",
+			"Cobra",
+			"Cow",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Turtle"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
+		"resources": [
+			"Agate (Rock)",
+			"Amethyst",
+			"Anthracite",
+			"Bamboo",
+			"Blackberry",
+			"Cobalt",
+			"Coquina",
+			"Coquina (Rock)",
+			"Iron (Rock)",
+			"Maps",
+			"Mint",
+			"Oregano",
+			"Rushes",
+			"Schisandra",
+			"Silk",
+			"Softwood",
+			"Syrup",
+			"Wheatgrass",
+			"Wild Carrot",
+			"Wild Onion",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"I3": {
-		"animals": [],
-		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Giraffe",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
+		"resources": [
+			"Acai",
+			"Agedwood",
+			"Bark",
+			"Basalt (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Copper",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Honey",
+			"Iron (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Sugarcane",
+			"Turmeric",
+			"Wild Beans"
+		],
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"I4": {
 		"animals": [],
 		"biomes": [
+			"At Land",
 			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water",
+			"Ocean Water",
 			"Western Tropics"
 		],
+		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1.5
 	},
 	"I5": {
-		"animals": [],
-		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Horse",
+			"Lion",
+			"Olfend",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
+		"biomes": [
+			"At Land",
+			"Central High Desert",
+			"Central Low Desert",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Anthracite",
+			"Arctic Raspberry",
+			"Basalt (Rock)",
+			"Bean Seed",
+			"Beet Seed",
+			"Bilberry",
+			"Blackberry",
+			"Cactus Seed",
+			"Carrot Seed",
+			"Chert",
+			"Chert (Rock)",
+			"Chick Pea Seed",
+			"Cilantro",
+			"Cobalt",
+			"Coconut",
+			"Copper (Rock)",
+			"Coquina",
+			"Elderberry",
+			"Fibers",
+			"Fronds",
+			"Honey",
+			"Jute",
+			"Lignonberry",
+			"Maps",
+			"Roots",
+			"Rushes",
+			"Sandstone (Rock)",
+			"Schisandra",
+			"Sea Grapes",
+			"Straw",
+			"Strawberry",
+			"Strongwood",
+			"Sugars",
+			"Turmeric",
+			"Wetwood",
+			"Wild Chick Peas"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"I6": {
 		"animals": [],
 		"biomes": [
-			"Central Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+			"At Land",
+			"Equator",
+			"Ocean Water"
 		],
-		"name": "Lawless Region",
+		"forceServerRules": 2,
+		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"I7": {
-		"animals": [],
-		"biomes": [
-			"Central Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+		"animals": [
+			"Bear",
+			"Catfish",
+			"Chicken",
+			"Cow",
+			"Giraffe",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
 		],
-		"name": "Lawless Region",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Agedwood",
+			"Bark",
+			"Basalt (Rock)",
+			"Calcite",
+			"Cilantro",
+			"Coconut",
+			"Copper",
+			"Elderberry",
+			"Emerald",
+			"FreshWater",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Honey",
+			"Iron (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Turmeric",
+			"Wild Beans"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"I8": {
+		"animals": [
+			"Seagull"
+		],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Basalt (Rock)",
+			"Coconut",
+			"Copper",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Iron (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Wild Rice"
+		],
+		"serverIslandPointsMultiplier": 1.5
+	},
+	"I9": {
+		"animals": [
+			"Ant",
+			"CarrierTurtle",
+			"Catfish",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Horse",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Vulture",
+			"Wolf"
+		],
+		"biomes": [
+			"At Land",
+			"Equator",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Aloe",
+			"Basalt",
+			"Basalt (Rock)",
+			"Basil",
+			"Cobalt",
+			"FreshWater",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Graphite",
+			"Gum",
+			"Iron (Rock)",
+			"Jute",
+			"Lime",
+			"Maps",
+			"Radiolarite (Rock)",
+			"Sea Grapes",
+			"Strongwood",
+			"Thyme"
+		],
+		"serverIslandPointsMultiplier": 1
+	},
+	"J1": {
 		"animals": [],
 		"biomes": [
+			"At Land",
+			"Eastern Tundra",
+			"Ocean Water"
+		],
+		"forceServerRules": 3,
+		"name": "",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1
+	},
+	"J10": {
+		"animals": [],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak",
+			"Ocean Water",
+			"Western Tundra"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1
+	},
+	"J11": {
+		"animals": [],
+		"biomes": [
+			"At Land",
+			"Ocean Water",
+			"Polar",
+			"Western Tundra"
+		],
+		"forceServerRules": 3,
+		"name": "",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1
+	},
+	"J2": {
+		"animals": [
+			"Ant",
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle"
+		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Blackberry",
+			"FreshWater",
+			"Hemp",
+			"Iron (Rock)",
+			"Maps",
+			"Mint",
+			"Oregano",
+			"Radiolarite (Rock)",
+			"Rushes",
+			"Schisandra",
+			"Slate",
+			"Slate (Rock)",
+			"Softwood",
+			"Sulfur",
+			"Syrup",
+			"Tellurite"
+		],
+		"serverIslandPointsMultiplier": 1
+	},
+	"J3": {
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Giraffe",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
+		],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Equator",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Agedwood",
+			"Bark",
+			"Basalt (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Copper",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Honey",
+			"Iron (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Sugarcane",
+			"Turmeric",
+			"Wild Beans"
+		],
+		"serverIslandPointsMultiplier": 1
+	},
+	"J4": {
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Giraffe",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
+		],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Agedwood",
+			"Bark",
+			"Basalt (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Copper",
+			"Fronds",
+			"Granite",
+			"Granite (Rock)",
+			"Honey",
+			"Iron (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Sugarcane",
+			"Turmeric",
+			"Wild Beans"
+		],
+		"serverIslandPointsMultiplier": 1
+	},
+	"J5": {
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Horse",
+			"Lion",
+			"Olfend",
+			"Ostrich",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture",
+			"Wolf"
+		],
+		"biomes": [
+			"At Land",
+			"Central High Desert",
+			"Central Low Desert",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Agedwood",
+			"Basalt",
+			"Basalt (Rock)",
+			"Bilberry",
+			"Chert (Rock)",
+			"Copper",
+			"Flake Salt",
+			"FreshWater",
+			"Granite",
+			"Granite (Rock)",
+			"Honey",
+			"Iron (Rock)",
+			"Jute",
+			"Maps",
+			"Parsley",
+			"Roots",
+			"Sandstone (Rock)",
+			"Schisandra",
+			"Sugars",
+			"Wild Cactus",
+			"Wild Chili"
+		],
+		"serverIslandPointsMultiplier": 1.5
+	},
+	"J6": {
+		"animals": [],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Equator",
+			"Ocean Water"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1
+	},
+	"J7": {
+		"animals": [
+			"Ant",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Ostrich",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Tiger",
+			"Turtle"
+		],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 2,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Aloe",
+			"Chert",
+			"Chert (Rock)",
+			"Cilantro",
+			"Elderberry",
+			"Fronds",
+			"Hemp",
+			"Iron",
+			"Iron (Rock)",
+			"Lightwood",
+			"Maps",
+			"Marble",
+			"Marble (Rock)",
+			"Nitre",
+			"Opal",
+			"Quartz",
+			"Reeds",
+			"Rushes",
+			"Silver",
+			"Strongwood",
+			"Sugars",
+			"Wild Beans",
+			"Wild Rice"
+		],
+		"serverIslandPointsMultiplier": 1
+	},
+	"J8": {
+		"animals": [
+			"Ant",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Ostrich",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Tiger",
+			"Turtle"
+		],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Temperate",
+			"Western Tropics"
+		],
+		"forceServerRules": 1,
+		"name": "",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Aloe",
+			"Chert",
+			"Chert (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Elderberry",
+			"Fronds",
+			"Hemp",
+			"Honey",
+			"Iron",
+			"Iron (Rock)",
+			"Lightwood",
+			"Lime",
+			"Maps",
+			"Marble",
+			"Marble (Rock)",
+			"Nitre",
+			"Reeds",
+			"Rushes",
+			"Shale Oil",
+			"Strongwood",
+			"Wild Beans"
+		],
+		"serverIslandPointsMultiplier": 1
+	},
+	"J9": {
+		"animals": [],
+		"biomes": [
+			"At Land",
 			"Eastern Tropics",
 			"Eastern Tropics (Freeport)",
-			"Tundra At Land",
-			"Tundra Ocean Water",
+			"Ocean Water",
 			"Western Tundra",
 			"Western Tundra (Freeport)"
 		],
-		"name": "Eastern Tundra Freeport",
+		"forceServerRules": 4,
+		"name": "Freeport",
 		"resources": [
 			"Basalt (Rock)",
 			"Granite (Rock)",
@@ -1304,333 +3803,251 @@
 			"Thatch",
 			"Wood"
 		],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
-		"serverIslandPointsMultiplier": 1.5
-	},
-	"I9": {
-		"animals": [],
-		"biomes": [
-			"Polar",
-			"Polar At Land",
-			"Polar Ocean Water"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,RainChanceForSnow",
-		"serverCustomDatas2": ",1,1.25,0.33,1.35,0,1",
-		"serverIslandPointsMultiplier": 1.5
-	},
-	"J1": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
-		"serverIslandPointsMultiplier": 1
-	},
-	"J10": {
-		"animals": [],
-		"biomes": [
-			"Polar",
-			"Polar At Land",
-			"Polar Ocean Water"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,RainChanceForSnow",
-		"serverCustomDatas2": ",1,1.25,0.33,1.35,0,1",
-		"serverIslandPointsMultiplier": 1
-	},
-	"J11": {
-		"animals": [],
-		"biomes": [
-			"Tundra At Land",
-			"Tundra Ocean Water",
-			"Western Tundra"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
-		"serverIslandPointsMultiplier": 1
-	},
-	"J2": {
-		"animals": [],
-		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
-		"serverIslandPointsMultiplier": 1
-	},
-	"J3": {
-		"animals": [],
-		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
-		"serverIslandPointsMultiplier": 1
-	},
-	"J4": {
-		"animals": [],
-		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
-		"serverIslandPointsMultiplier": 1
-	},
-	"J5": {
-		"animals": [],
-		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
-		"serverIslandPointsMultiplier": 1.5
-	},
-	"J6": {
-		"animals": [],
-		"biomes": [
-			"Central Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
-		"serverIslandPointsMultiplier": 1
-	},
-	"J7": {
-		"animals": [],
-		"biomes": [
-			"Central Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
-		"serverIslandPointsMultiplier": 1
-	},
-	"J8": {
-		"animals": [],
-		"biomes": [
-			"Polar",
-			"Polar At Land",
-			"Polar Ocean Water"
-		],
-		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,RainChanceForSnow",
-		"serverCustomDatas2": ",1,1.25,0.33,1.35,0,1",
-		"serverIslandPointsMultiplier": 1
-	},
-	"J9": {
-		"animals": [
-			"Bear",
-			"Crow",
-			"Penguin",
-			"Rabbit",
-			"Seagull",
-			"Wolf",
-			"Yeti"
-		],
-		"biomes": [
-			"Polar",
-			"Polar At Land",
-			"Polar Ocean Water"
-		],
-		"name": "",
-		"resources": [
-			"Chert",
-			"Chert (Rock)",
-			"Iron",
-			"Iron (Rock)",
-			"Maps",
-			"Marble",
-			"Marble (Rock)",
-			"Naptha",
-			"Opal",
-			"Quartz",
-			"Roots",
-			"Wetwood"
-		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,RainChanceForSnow",
-		"serverCustomDatas2": ",1,1.25,0.33,1.35,0,1",
 		"serverIslandPointsMultiplier": 1
 	},
 	"K1": {
 		"animals": [],
 		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
+			"At Land",
+			"Eastern Tundra",
+			"Ocean Water"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"K10": {
 		"animals": [],
 		"biomes": [
-			"Tundra At Land",
-			"Tundra Ocean Water",
-			"Western Tundra"
+			"At Land",
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak",
+			"Ocean Water",
+			"Western Temperate"
 		],
+		"forceServerRules": 1,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"K11": {
 		"animals": [],
 		"biomes": [
-			"Tundra At Land",
-			"Tundra Ocean Water",
+			"At Land",
+			"Ocean Water",
+			"Polar",
 			"Western Tundra"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"K2": {
-		"animals": [],
-		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
+		"animals": [
+			"Seagull"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Temperate",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"forceServerRules": 3,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
+		"resources": [
+			"Acai",
+			"Coconut",
+			"Fronds",
+			"Marble",
+			"Silk",
+			"Strongwood",
+			"Wild Beans",
+			"Wild Maize",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"K3": {
 		"animals": [],
 		"biomes": [
-			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
+			"At Land",
+			"Eastern Temperate",
+			"Ocean Water",
+			"Western Temperate"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"K4": {
-		"animals": [],
+		"animals": [
+			"Seagull"
+		],
 		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
 			"Western Tropics"
 		],
+		"forceServerRules": 3,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
+		"resources": [
+			"Acai",
+			"Coconut",
+			"Fronds",
+			"Marble",
+			"Silk",
+			"Strongwood",
+			"Wild Beans",
+			"Wild Maize",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"K5": {
 		"animals": [],
 		"biomes": [
-			"Tropical At Land",
-			"Tropical Ocean Water",
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
 			"Western Tropics"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",ChanceForCold,",
-		"serverCustomDatas2": ",0,",
 		"serverIslandPointsMultiplier": 1
 	},
 	"K6": {
 		"animals": [],
 		"biomes": [
-			"Tundra At Land",
-			"Tundra Ocean Water",
-			"Western Tundra"
+			"At Land",
+			"Equator",
+			"Ocean Water",
+			"Western Tropics"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"K7": {
 		"animals": [],
 		"biomes": [
-			"Eastern Temperate Mountain Peak",
-			"Polar",
-			"Tundra At Land",
-			"Tundra Ocean Water",
-			"Western Tundra"
+			"At Land",
+			"Ocean Water",
+			"Western Tropics"
 		],
+		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
 		"serverIslandPointsMultiplier": 1
 	},
 	"K8": {
-		"animals": [],
-		"biomes": [
-			"Eastern Temperate Mountain Peak",
-			"Tundra At Land",
-			"Tundra Ocean Water",
-			"Western Tundra"
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Cow",
+			"Giraffe",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
 		],
+		"biomes": [
+			"At Land",
+			"Eastern Tropics",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
+		"resources": [
+			"Acai",
+			"Agedwood",
+			"Bark",
+			"Chalcedony",
+			"Chalcedony (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Crude Oil",
+			"Elderberry",
+			"Fronds",
+			"Iridium",
+			"Iron (Rock)",
+			"Limestone",
+			"Limestone (Rock)",
+			"Maps",
+			"Silk",
+			"Strongwood",
+			"Turmeric",
+			"Wild Beans",
+			"Wild Rice"
+		],
 		"serverIslandPointsMultiplier": 1
 	},
 	"K9": {
-		"animals": [],
-		"biomes": [
-			"Polar",
-			"Tundra At Land",
-			"Tundra Ocean Water",
-			"Western Tundra"
+		"animals": [
+			"Ant",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Ostrich",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Tiger",
+			"Turtle"
 		],
+		"biomes": [
+			"At Land",
+			"Ocean Water",
+			"Western Tropics"
+		],
+		"forceServerRules": 1,
 		"name": "",
-		"resources": [],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
+		"resources": [
+			"Acai",
+			"Acerolla",
+			"Aloe",
+			"Chert",
+			"Chert (Rock)",
+			"Cilantro",
+			"Coconut",
+			"Elderberry",
+			"Fronds",
+			"Hemp",
+			"Honey",
+			"Iron",
+			"Iron (Rock)",
+			"Lightwood",
+			"Lime",
+			"Maps",
+			"Marble",
+			"Marble (Rock)",
+			"Nitre",
+			"Reeds",
+			"Rushes",
+			"Shale Oil",
+			"Strongwood",
+			"Wild Beans"
+		],
 		"serverIslandPointsMultiplier": 1
 	}
 }

@@ -97,11 +97,32 @@ L.AtlasGrid = L.LayerGroup.extend({
                         color = "Green"
                         dropcolor = "White"
                         break
+                    case "Tropics":
+                        color = "Green"
+                        dropcolor = "White"
+                        break
+
                     default:
                         color = "White";
                 }
 
-                let text = `<div><div class="leaflet-grid-header">${grid}</div> <div style="color: ${color}; text-shadow: 1px 1px ${dropcolor}" class="leaflet-grid-subheader">${findGlobalBiome(grids[grid].biomes)}</div>`
+                let serverType = "&#9760;";
+                switch (grids[grid].forceServerRules) {
+                    case 1: // Lawless
+                        serverType = ""
+                        break;                    
+                    case 2: // Lawless claim
+                        serverType = "&#9760;"
+                        break;
+                    case 3: // island claim
+                        serverType = "&#9813;"
+                        break;
+                    case 4:
+                        serverType = "&#9774;"
+                    default:
+                }
+
+                let text = `<div><div class="leaflet-grid-header">${grid}</div> <div class="leaflet-grid-icon">${serverType}</div> <div style="color: ${color}; text-shadow: 1px 1px ${dropcolor}" class="leaflet-grid-subheader">${findGlobalBiome(grids[grid].biomes)}</div>`
                 tooltip._icon.innerHTML = text
             }
         }
@@ -115,9 +136,22 @@ L.atlasgrid = function (options) {
 };
 
 function findGlobalBiome(list) {
-    for (var x in list) {
+    for (let x in list) {
         if (list[x].includes(" Ocean Water"))
             return list[x].replace(" Ocean Water", "");
+
+        let name = list[x];
+        name = name.replace("Western ", "");
+        name = name.replace("Eastern ", "");
+        name = name.replace("Central ", "");
+        name = name.replace("At Land", "");
+        name = name.replace("Ocean Water", "");
+        name = name.replace(" Mountain Peak", "");
+        name = name.replace("High ", "");
+        name = name.replace("Low ", "");
+        name = name.trim();
+        if (name)
+            return name;
     }
     return false;
 }

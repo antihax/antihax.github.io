@@ -3,7 +3,7 @@
 const fs = require('fs');
 
 
-let rawdata = fs.readFileSync('./json/islands.json');
+let rawdata = fs.readFileSync('./json/islandExtended.json');
 let islands = JSON.parse(rawdata);
 
 rawdata = fs.readFileSync('./json/resourceTypes.json');
@@ -14,6 +14,9 @@ for (var island in islands) {
     i.types = {};
 
     if (!i.maps)
+        continue;
+
+    if (!Object.keys(i.assets).includes("Silk02"))
         continue;
 
     /* if (!contains(i.resources, ["Mineral Oil", "Crude Oil", "Shale Oil", "Naptha"]))
@@ -52,8 +55,9 @@ for (var island in islands) {
             }
     }
     var count = i.types["Stone"] + i.types["Thatch"] + i.types["Metal"] + i.types["Fiber"];
-    if (totalTypes >= 14 && count > 5)
-        console.log(count, "\t", totalTypes, "\t", i.animals.length, "\t", i.resources["Maps"], "\t", i.maps[4][2], "\t", i.grid, "\t", i.name);
+    //if (i.types["Metal"] > 2 && Object.keys(i.assets).length < 75 && Object.keys(i.assets).length > 60 && i.animals.length >11)
+    console.log( i.name, i.grid);
+    //console.dir(i.assets)
 }
 
 function sleep(ms) {

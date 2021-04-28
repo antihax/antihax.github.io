@@ -218,3 +218,18 @@ ol.History {
     color: white;
     text-shadow: 1px 1px black;
 }
+
+.leaflet-grid-icon {
+    font: 12px/1 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: inline;
+    font-weight: normal;
+    vertical-align: top;
+    padding: 0px;
+    opacity: 0.6;
+    width: auto !important;
+    height: auto !important;
+    white-space: nowrap;
+    color: white;
+    text-shadow: 1px 1px black;
+}
