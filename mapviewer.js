@@ -372,6 +372,9 @@ class WorldMap extends React.Component {
               let biome = circle.biomes[b];
               html += `${biome.name} [Min: ${biome.temp[0].toFixed()}  Max: ${biome.temp[1].toFixed()}]<br>`;
             }
+            if (circle.biomes.length == 0) {
+              html += `<font color="red"><b>NO BIOMES - NO BREEDING</b></font><br>`;
+            }
 
             html += `<ul class='split-ul'>`;
             for (let resource in circle.animals.sort()) {
