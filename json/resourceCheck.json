@@ -1,435 +1,326 @@
 {
 	"Berry": [
 		{
-			"Bilberry": 86
+			"Blackberry": 133
 		},
 		{
-			"Schisandra": 125
+			"Arctic Raspberry": 34
 		},
 		{
-			"Acai": 104
+			"Lignonberry": 59
 		},
 		{
-			"Acerolla": 107
+			"Schisandra": 61
 		},
 		{
-			"Elderberry": 108
+			"Sea Grapes": 82
 		},
 		{
-			"Blackberry": 68
+			"Elderberry": 93
 		},
 		{
-			"Arctic Raspberry": 75
+			"Acai": 58
 		},
 		{
-			"Lignonberry": 32
+			"Acerolla": 61
 		},
 		{
-			"Sea Grapes": 49
+			"Strawberry": 28
 		},
 		{
-			"Strawberry": 47
+			"Bilberry": 49
 		}
 	],
 	"Flint": [
 		{
-			"Agate": 21
+			"Basalt": 496
 		},
 		{
-			"Chalcedony": 56
+			"Chert": 55
 		},
 		{
-			"Chert": 224
+			"Radiolarite": 49
 		},
 		{
-			"Radiolarite": 114
+			"Chalcedony": 38
 		},
 		{
-			"Basalt": 213
-		},
-		{
-			"Obsidian": 55
+			"Obsidian": 15
 		}
 	],
 	"Wood": [
 		{
-			"Softwood": 105
+			"Wetwood": 139
 		},
 		{
-			"Wetwood": 115
+			"Agedwood": 100
 		},
 		{
-			"Agedwood": 78
+			"Darkwood": 79
 		},
 		{
-			"Strongwood": 152
+			"Softwood": 286
 		},
 		{
-			"Lightwood": 57
+			"Strongwood": 94
 		},
 		{
-			"Ironwood": 1
+			"Lightwood": 49
 		}
 	],
 	"Herb": [
 		{
-			"Parsley": 30
+			"Oregano": 74
 		},
 		{
-			"Poppy": 11
+			"Poppy": 16
 		},
 		{
-			"Cilantro": 103
+			"Rosemary": 37
 		},
 		{
-			"Turmeric": 60
+			"Parsley": 27
 		},
 		{
-			"Mint": 83
+			"Licorice": 19
 		},
 		{
-			"Oregano": 69
+			"Mint": 51
 		},
 		{
-			"Garlic": 56
+			"Aloe": 89
 		},
 		{
-			"Rosemary": 14
+			"Cilantro": 146
 		},
 		{
-			"Aloe": 45
+			"Turmeric": 20
 		},
 		{
-			"Thyme": 46
+			"Thyme": 53
 		},
 		{
-			"Basil": 33
+			"Basil": 17
 		},
 		{
-			"Yarrow": 20
+			"Garlic": 38
 		},
 		{
-			"Chamomile": 35
+			"Yarrow": 25
 		},
 		{
-			"Licorice": 1
+			"Chamomile": 21
 		}
 	],
 	"Crystal": [
 		{
-			"Herkimer": 35
+			"Calcite": 72
 		},
 		{
-			"Calcite": 62
+			"Quartz": 140
 		},
 		{
-			"Quartz": 74
+			"Herkimer": 24
 		},
 		{
-			"Amethyst": 5
-		},
-		{
-			"Tellurite": 54
+			"Tellurite": 6
 		}
 	],
 	"Coal": [
 		{
-			"Nitre": 79
+			"Sulfur": 34
 		},
 		{
-			"Sulfur": 81
+			"Nitre": 129
 		},
 		{
-			"Graphite": 65
+			"Lignite": 64
 		},
 		{
-			"Anthracite": 15
+			"Peat": 36
 		},
 		{
-			"Lignite": 12
+			"Graphite": 41
+		},
+		{
+			"Anthracite": 18
 		}
 	],
 	"Fiber": [
 		{
-			"Seaweed": 9
+			"Straw": 362
 		},
 		{
-			"Cotton": 78
+			"Cotton": 37
 		},
 		{
-			"Jute": 86
+			"Jute": 142
 		},
 		{
-			"Hemp": 142
+			"Hemp": 64
 		},
 		{
-			"Silk": 79
+			"Bamboo": 53
 		},
 		{
-			"Straw": 23
-		},
-		{
-			"Bamboo": 8
+			"Silk": 22
 		}
 	],
 	"Thatch": [
 		{
-			"Rushes": 159
+			"Bark": 359
 		},
 		{
-			"Roots": 122
+			"Roots": 65
 		},
 		{
-			"Fronds": 154
+			"Reeds": 24
 		},
 		{
-			"Reeds": 41
+			"Twigs": 279
 		},
 		{
-			"Bark": 70
+			"Fronds": 109
 		},
 		{
-			"Twigs": 7
+			"Rushes": 25
 		}
 	],
-	"BAD": [
-		{
-			"Bean Seed": 11
-		},
-		{
-			"Beet Seed": 11
-		},
-		{
-			"Cactus Seed": 11
-		},
-		{
-			"Carrot Seed": 11
-		},
-		{
-			"Chick Pea Seed": 11
-		}
-	],
-	"Special": [
-		{
-			"FreshWater": 116
-		}
-	],
-	"Coral": [
-		{
-			"Brain Coral": 9
-		},
-		{
-			"Fire Coral": 9
-		}
-	],
+	"BAD": [],
+	"Coral": [],
 	"Vegetable": [
 		{
-			"Wild Cactus": 53
+			"Coconut": 105
 		},
 		{
-			"Wild Chili": 14
+			"Olives": 32
 		},
 		{
-			"Wild Beans": 68
+			"Cocoa": 27
 		},
 		{
-			"Wild Rice": 60
+			"Wild Rice": 47
 		},
 		{
-			"Wheatgrass": 37
+			"Lime": 17
 		},
 		{
-			"Wild Carrot": 56
-		},
-		{
-			"Wild Pepper": 48
-		},
-		{
-			"Wild Greens": 14
-		},
-		{
-			"Wild Potato": 55
-		},
-		{
-			"Celery": 10
-		},
-		{
-			"Wild Onion": 55
-		},
-		{
-			"Coconut": 83
-		},
-		{
-			"Wild Chick Peas": 51
-		},
-		{
-			"Cocoa": 30
-		},
-		{
-			"Olives": 23
-		},
-		{
-			"Lime": 30
-		},
-		{
-			"Wild Turnip": 45
-		},
-		{
-			"Wild Beet": 13
-		},
-		{
-			"Wild Maize": 12
+			"Celery": 14
 		}
 	],
 	"Base": [
 		{
-			"Coal": 16
+			"Fibers": 16
 		},
 		{
-			"Crystal": 16
+			"Flint": 33
 		},
 		{
-			"Fibers": 27
+			"Stone": 17
 		},
 		{
-			"Flint": 32
+			"Thatch": 9
 		},
 		{
-			"Metal": 28
-		},
-		{
-			"Salt": 4
-		},
-		{
-			"Saps": 12
-		},
-		{
-			"Stone": 32
-		},
-		{
-			"Thatch": 21
-		},
-		{
-			"Wood": 21
+			"Wood": 9
 		}
 	],
 	"Metal": [
 		{
-			"Iridium": 34
+			"Iron": 533
 		},
 		{
-			"Silver": 75
+			"Copper": 47
 		},
 		{
-			"Copper": 101
+			"Tin": 38
 		},
 		{
-			"Cobalt": 38
+			"Cobalt": 23
 		},
 		{
-			"Iron": 404
+			"Silver": 53
 		},
 		{
-			"Tin": 72
+			"Iridium": 25
 		}
 	],
 	"Stone": [
 		{
-			"Marble": 166
+			"Limestone": 461
 		},
 		{
-			"Granite": 237
+			"Slate": 345
 		},
 		{
-			"Sandstone": 81
+			"Coquina": 81
 		},
 		{
-			"Coquina": 44
+			"Marble": 26
 		},
 		{
-			"Limestone": 51
+			"Granite": 95
 		},
 		{
-			"Slate": 154
+			"Sandstone": 43
 		}
 	],
 	"Oil": [
 		{
-			"Mineral Oil": 9
-		},
-		{
-			"Crude Oil": 32
-		},
-		{
-			"Shale Oil": 12
-		},
-		{
-			"Naptha": 20
+			"Crude Oil": 67
 		}
 	],
 	"Gem": [
 		{
-			"Emerald": 43
+			"Opal": 52
 		},
 		{
-			"Opal": 85
+			"Ruby": 18
 		},
 		{
-			"Ruby": 5
-		},
-		{
-			"Garnet": 15
-		},
-		{
-			"Sunstone": 30
-		},
-		{
-			"Diamond": 1
+			"Emerald": 32
 		}
 	],
 	"Salt": [
 		{
-			"Pink Salt": 31
+			"Iodine": 44
 		},
 		{
-			"Flake Salt": 30
+			"Sea Salt": 26
 		},
 		{
-			"Rock Salt": 13
+			"Flake Salt": 26
 		},
 		{
-			"Iodine": 38
+			"Rock Salt": 16
 		},
 		{
-			"Sea Salt": 28
-		},
-		{
-			"Kala Namak": 2
+			"Kala Namak": 27
 		}
 	],
 	"Sugar": [
 		{
-			"Sugarcane": 21
+			"Resin": 368
 		},
 		{
-			"Resin": 42
+			"Honey": 57
 		},
 		{
-			"Honey": 80
+			"Syrup": 39
 		},
 		{
-			"Syrup": 71
+			"Sugarcane": 30
 		},
 		{
-			"Sugars": 55
+			"Sugars": 44
 		},
 		{
-			"Gum": 35
+			"Gum": 32
 		}
 	],
 	"Ignore": [
 		{
-			"Maps": 353
+			"Maps": 367
 		}
 	]
 }

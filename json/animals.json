@@ -57,7 +57,7 @@
                 "Animal Meat",
                 "Cementing Paste",
                 "Chitin",
-                "Animal Meat",
+                "Insect Meat",
                 "Organic Paste"
             ],
             "tameConsumeInterval": 15.0
@@ -154,13 +154,15 @@
                 "WesternTundra",
                 "Polar",
                 "CentralTundra",
+                "WesternTropics",
                 "EasternTropics",
                 "WesternTemperate",
                 "EasternTemperate",
                 "EasternTundra",
                 "WesternTundra",
                 "Polar",
-                "CentralTundra"
+                "CentralTundra",
+                "WesternTropics"
             ],
             "canBeTamed": false,
             "deathInventoryChance": 0.0,
@@ -194,7 +196,7 @@
             "requiredAffinityPerBaseLevel": 22.5,
             "resources": [
                 "Chitin",
-                "Animal Meat",
+                "Insect Meat",
                 "Honey"
             ],
             "tameConsumeInterval": 15.0
@@ -294,7 +296,13 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "breedingBiomes": [
-                "Equatorial"
+                "Equatorial",
+                "EasternTemperate",
+                "WesternTemperate",
+                "EasternTropics",
+                "WesternTropics",
+                "HighDesert",
+                "LowDesert"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -394,7 +402,8 @@
                 "Equatorial",
                 "Polar",
                 "HighDesert",
-                "CentralTundra"
+                "CentralTundra",
+                "EasternTemperate"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -490,16 +499,13 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "WesternTropics",
-                "EasternTundra",
-                "WesternTundra",
                 "Equatorial",
                 "HighDesert",
                 "LowDesert",
-                "CentralTundra"
+                "EasternTropics",
+                "WesternTropics",
+                "WesternTemperate",
+                "EasternTemperate"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -541,11 +547,20 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "canBeTamed": false,
+            "breedingBiomes": [
+                "WesternTropics",
+                "HighDesert",
+                "LowDesert",
+                "EasternTropics",
+                "EasternTemperate",
+                "WesternTemperate",
+                "Temperate"
+            ],
+            "canBeTamed": true,
             "deathInventoryChance": 1.0,
             "maxTemperatureToBreed": 0.0,
             "minTemperatureToBreed": 0.0,
-            "requiredAffinity": 2000.0,
+            "requiredAffinity": 2500.0,
             "requiredAffinityPerBaseLevel": 75.0,
             "resources": [
                 "Scale",
@@ -738,7 +753,11 @@
                 "WesternTropics",
                 "Equatorial",
                 "HighDesert",
-                "LowDesert"
+                "LowDesert",
+                "EasternTropics",
+                "EasternTemperate",
+                "WesternTemperate",
+                "Temperate"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -888,8 +907,11 @@
                 "EasternTropics",
                 "WesternTropics",
                 "Equatorial",
-                "Polar",
-                "HighDesert"
+                "HighDesert",
+                "LowDesert",
+                "WesternTemperate",
+                "EasternTemperate",
+                "Temperate"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 1.0,
@@ -941,7 +963,9 @@
                 "Equatorial",
                 "HighDesert",
                 "LowDesert",
-                "CentralTundra"
+                "CentralTundra",
+                "WesternTemperate",
+                "Temperate"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -1155,10 +1179,11 @@
                 "EasternTemperate",
                 "EasternTundra",
                 "WesternTundra",
-                "Polar",
                 "HighDesert",
                 "LowDesert",
-                "CentralTundra"
+                "CentralTundra",
+                "WesternTropics",
+                "Equatorial"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.30000001192092896,
@@ -1349,7 +1374,8 @@
                 "WesternTundra",
                 "Equatorial",
                 "Polar",
-                "HighDesert"
+                "HighDesert",
+                "WesternTemperate"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -1391,7 +1417,11 @@
             "babyTwinsChance": 0.10000000149011612,
             "breedingBiomes": [
                 "HighDesert",
-                "LowDesert"
+                "LowDesert",
+                "EasternTemperate",
+                "WesternTemperate",
+                "Temperate",
+                "Equatorial"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -1415,7 +1445,12 @@
             "breedingBiomes": [
                 "WesternTropics",
                 "HighDesert",
-                "LowDesert"
+                "LowDesert",
+                "EasternTropics",
+                "Equatorial",
+                "EasternTemperate",
+                "WesternTemperate",
+                "Temperate"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -1480,7 +1515,10 @@
                 "WesternTropics",
                 "WesternTundra",
                 "Equatorial",
-                "HighDesert"
+                "HighDesert",
+                "WesternTemperate",
+                "LowDesert",
+                "EasternTundra"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -1521,7 +1559,13 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "breedingBiomes": [
-                "Polar"
+                "Polar",
+                "EasternTemperate",
+                "WesternTemperate",
+                "Temperate",
+                "EasternTundra",
+                "WesternTundra",
+                "CentralTundra"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -1619,7 +1663,9 @@
                 "WesternTundra",
                 "Polar",
                 "HighDesert",
-                "CentralTundra"
+                "CentralTundra",
+                "WesternTropics",
+                "LowDesert"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.009999999776482582,
@@ -1667,7 +1713,8 @@
                 "WesternTundra",
                 "Equatorial",
                 "HighDesert",
-                "LowDesert"
+                "LowDesert",
+                "WesternTropics"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -1693,7 +1740,12 @@
             "breedingBiomes": [
                 "WesternTropics",
                 "HighDesert",
-                "LowDesert"
+                "LowDesert",
+                "Equatorial",
+                "EasternTemperate",
+                "WesternTemperate",
+                "Temperate",
+                "EasternTropics"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 1.0,
@@ -1832,7 +1884,7 @@
                 "Keratinoid",
                 "Animal Meat",
                 "Carapace",
-                "Animal Meat",
+                "Insect Meat",
                 "Organic Paste"
             ],
             "tameConsumeInterval": 15.0
@@ -1907,7 +1959,7 @@
                 "Fish Meat",
                 "Fish Oil",
                 "Skin",
-                "Prime Fish Meat"
+                "Prime Shark Meat"
             ],
             "tameConsumeInterval": 15.0
         },
@@ -1928,7 +1980,7 @@
                 "Fish Meat",
                 "Fish Oil",
                 "Skin",
-                "Prime Fish Meat"
+                "Prime Shark Meat"
             ],
             "tameConsumeInterval": 15.0
         },
@@ -1977,7 +2029,8 @@
                 "WesternTundra",
                 "Equatorial",
                 "HighDesert",
-                "LowDesert"
+                "LowDesert",
+                "WesternTropics"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -1996,15 +2049,18 @@
         },
         "Snowman": {
             "XPperHit": false,
-            "babyGestationMultiplier": 1.2000000476837158,
+            "babyGestationMultiplier": 1.2999999523162842,
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "Polar"
+            ],
             "canBeTamed": false,
             "deathInventoryChance": 1.0,
-            "maxTemperatureToBreed": 0.0,
-            "minTemperatureToBreed": 0.0,
-            "requiredAffinity": 4600.0,
+            "maxTemperatureToBreed": 3.0,
+            "minTemperatureToBreed": -14.0,
+            "requiredAffinity": 2500.0,
             "requiredAffinityPerBaseLevel": 75.0,
             "resources": [
                 "Fur",
@@ -2015,15 +2071,18 @@
         },
         "Snowmanharacter_BP_Hard": {
             "XPperHit": false,
-            "babyGestationMultiplier": 1.2000000476837158,
+            "babyGestationMultiplier": 1.2999999523162842,
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "Polar"
+            ],
             "canBeTamed": false,
             "deathInventoryChance": 1.0,
-            "maxTemperatureToBreed": 0.0,
-            "minTemperatureToBreed": 0.0,
-            "requiredAffinity": 4600.0,
+            "maxTemperatureToBreed": 3.0,
+            "minTemperatureToBreed": -14.0,
+            "requiredAffinity": 2500.0,
             "requiredAffinityPerBaseLevel": 75.0,
             "resources": [
                 "Fur",
@@ -2035,14 +2094,24 @@
         "Spider": {
             "XP": 2.0,
             "XPperHit": true,
-            "babyGestationMultiplier": 1.0,
+            "babyGestationMultiplier": 1.5872999429702759,
             "babyGestationSpeed": 3.4722223062999547e-05,
-            "babyTripletsChance": 0.019999999552965164,
-            "babyTwinsChance": 0.10000000149011612,
-            "canBeTamed": false,
+            "babyTripletsChance": 0.5,
+            "babyTwinsChance": 0.5,
+            "breedingBiomes": [
+                "EasternTropics",
+                "WesternTropics",
+                "EasternTemperate",
+                "WesternTemperate",
+                "Temperate",
+                "Equatorial",
+                "LowDesert",
+                "HighDesert"
+            ],
+            "canBeTamed": true,
             "deathInventoryChance": 0.30000001192092896,
-            "maxTemperatureToBreed": 0.0,
-            "minTemperatureToBreed": 0.0,
+            "maxTemperatureToBreed": 31.0,
+            "minTemperatureToBreed": 20.0,
             "requiredAffinity": 4000.0,
             "requiredAffinityPerBaseLevel": 120.0,
             "resources": [
@@ -2146,7 +2215,9 @@
                 "EasternTundra",
                 "WesternTundra",
                 "Equatorial",
-                "HighDesert"
+                "HighDesert",
+                "WesternTemperate",
+                "LowDesert"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.30000001192092896,
@@ -2254,7 +2325,9 @@
             "breedingBiomes": [
                 "Equatorial",
                 "HighDesert",
-                "LowDesert"
+                "LowDesert",
+                "EasternTemperate",
+                "WesternTemperate"
             ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
@@ -2304,15 +2377,18 @@
         "Yeti": {
             "XP": 20.0,
             "XPperHit": true,
-            "babyGestationMultiplier": 1.2000000476837158,
+            "babyGestationMultiplier": 1.2999999523162842,
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "canBeTamed": false,
+            "breedingBiomes": [
+                "Polar"
+            ],
+            "canBeTamed": true,
             "deathInventoryChance": 1.0,
-            "maxTemperatureToBreed": 0.0,
-            "minTemperatureToBreed": 0.0,
-            "requiredAffinity": 4600.0,
+            "maxTemperatureToBreed": 3.0,
+            "minTemperatureToBreed": -14.0,
+            "requiredAffinity": 2500.0,
             "requiredAffinityPerBaseLevel": 75.0,
             "resources": [
                 "Fur",
@@ -2324,15 +2400,18 @@
         "Yetiharacter_BP_SnowCave": {
             "XP": 20.0,
             "XPperHit": true,
-            "babyGestationMultiplier": 1.2000000476837158,
+            "babyGestationMultiplier": 1.2999999523162842,
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "Polar"
+            ],
             "canBeTamed": false,
             "deathInventoryChance": 1.0,
-            "maxTemperatureToBreed": 0.0,
-            "minTemperatureToBreed": 0.0,
-            "requiredAffinity": 4600.0,
+            "maxTemperatureToBreed": 3.0,
+            "minTemperatureToBreed": -14.0,
+            "requiredAffinity": 2500.0,
             "requiredAffinityPerBaseLevel": 75.0,
             "resources": [
                 "Fur",
@@ -2344,15 +2423,18 @@
         "Yetiharacter_BP_SnowCave_Minion": {
             "XP": 5.0,
             "XPperHit": true,
-            "babyGestationMultiplier": 1.2000000476837158,
+            "babyGestationMultiplier": 1.2999999523162842,
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "Polar"
+            ],
             "canBeTamed": false,
             "deathInventoryChance": 1.0,
-            "maxTemperatureToBreed": 0.0,
-            "minTemperatureToBreed": 0.0,
-            "requiredAffinity": 4600.0,
+            "maxTemperatureToBreed": 3.0,
+            "minTemperatureToBreed": -14.0,
+            "requiredAffinity": 2500.0,
             "requiredAffinityPerBaseLevel": 75.0,
             "resources": [
                 "Fur",
@@ -2364,15 +2446,18 @@
         "Yetiharacter_BP_SnowCave_Minion_Hard": {
             "XP": 7.5,
             "XPperHit": true,
-            "babyGestationMultiplier": 1.2000000476837158,
+            "babyGestationMultiplier": 1.2999999523162842,
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "Polar"
+            ],
             "canBeTamed": false,
             "deathInventoryChance": 1.0,
-            "maxTemperatureToBreed": 0.0,
-            "minTemperatureToBreed": 0.0,
-            "requiredAffinity": 4600.0,
+            "maxTemperatureToBreed": 3.0,
+            "minTemperatureToBreed": -14.0,
+            "requiredAffinity": 2500.0,
             "requiredAffinityPerBaseLevel": 75.0,
             "resources": [
                 "Fur",

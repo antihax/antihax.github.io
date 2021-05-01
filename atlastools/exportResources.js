@@ -29,7 +29,6 @@ for (var island in islands) {
     }
 }
 
-
 for (var type in resourceTypes) {
     types[resourceTypes[type]] = new Array();
 }
