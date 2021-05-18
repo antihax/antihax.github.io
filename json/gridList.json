@@ -2,25 +2,53 @@
 	"A1": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Eastern Tundra",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"A10": {
 		"animals": [
 			"Seagull"
 		],
 		"biomes": [
-			"At Land",
-			"Eastern Tropics",
+			"Western Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Eastern Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [
@@ -38,19 +66,52 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"A11": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Eastern Tundra",
+			"Western Tundra",
 			"Ocean Water",
-			"Western Tundra"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"A2": {
 		"animals": [
@@ -70,11 +131,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
-			"Eastern Temperate",
+			"Western Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Eastern Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [
@@ -105,56 +174,139 @@
 			"Twigs",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"A3": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Western Temperate",
 			"Eastern Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"A4": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"High Desert",
 			"Central Low Desert",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"A5": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Equatorial",
 			"Equator",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"A6": {
 		"animals": [
 			"Seagull"
 		],
 		"biomes": [
-			"At Land",
+			"Eastern Tropical",
+			"Western Tropics",
 			"Eastern Tropics",
-			"Equator",
 			"Ocean Water",
-			"Western Tropics"
+			"At Land",
+			"Equator"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [
@@ -172,7 +324,19 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"A7": {
 		"animals": [
@@ -200,11 +364,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Western Tropical",
+			"Western Tropics",
 			"Equator",
 			"Ocean Water",
-			"Western Tropics"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -231,7 +404,19 @@
 			"Thyme",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"A8": {
 		"animals": [
@@ -254,11 +439,20 @@
 			"Turtle"
 		],
 		"biomes": [
-			"At Land",
+			"Western Tropical",
 			"Equator",
 			"Ocean Water",
+			"At Land",
 			"Western Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -291,7 +485,19 @@
 			"Straw",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"A9": {
 		"animals": [
@@ -313,11 +519,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
 			"Eastern Temperate",
+			"Western Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -347,20 +561,52 @@
 			"Syrup",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"B1": {
 		"animals": [],
 		"biomes": [
-			"At Land",
-			"Eastern Tropics",
 			"Eastern Tundra",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land",
+			"Eastern Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"B10": {
 		"animals": [
@@ -380,11 +626,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Western Temperate",
 			"Eastern Tropics",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [
@@ -425,7 +679,19 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"B11": {
 		"animals": [
@@ -434,11 +700,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
 			"Eastern Tundra",
 			"Ocean Water",
+			"At Land",
 			"Polar"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [
@@ -460,7 +734,19 @@
 			"Slate",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"B2": {
 		"animals": [
@@ -482,12 +768,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
-			"Eastern Temperate",
+			"Western Temperate",
 			"Eastern Tropics",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Eastern Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -526,7 +820,19 @@
 			"Twigs",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"B3": {
 		"animals": [
@@ -550,11 +856,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
-			"Central High Desert",
+			"High Desert",
 			"Central Low Desert",
-			"Ocean Water"
+			"Central High Desert",
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -584,7 +899,19 @@
 			"Straw",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"B4": {
 		"animals": [
@@ -598,15 +925,36 @@
 			"Squid"
 		],
 		"biomes": [
-			"At Land",
+			"High Desert",
 			"Central High Desert",
-			"Central Low Desert",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land",
+			"Central Low Desert"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"B5": {
 		"animals": [
@@ -635,11 +983,20 @@
 			"Vulture"
 		],
 		"biomes": [
-			"At Land",
-			"Central Low Desert",
+			"Equatorial",
 			"Equator",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land",
+			"Central Low Desert"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -672,19 +1029,40 @@
 			"Strongwood",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"B6": {
 		"animals": [
 			"Seagull"
 		],
 		"biomes": [
-			"At Land",
-			"Central Low Desert",
-			"Eastern Temperate",
+			"Eastern Tropical",
 			"Eastern Tropics",
-			"Ocean Water"
+			"Central Low Desert",
+			"Ocean Water",
+			"At Land",
+			"Eastern Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -702,7 +1080,19 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"B7": {
 		"animals": [
@@ -726,10 +1116,19 @@
 			"Turtle"
 		],
 		"biomes": [
-			"At Land",
+			"Western Tropical",
+			"Western Tropics",
 			"Ocean Water",
-			"Western Tropics"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -766,51 +1165,124 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"B8": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Western Tropical",
 			"Eastern Tropics",
 			"Eastern Tropics (Freeport)",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 4,
 		"name": "Freeport",
 		"resources": [
 			"Thatch",
 			"Wood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"B9": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Ocean Water",
-			"Western Temperate",
 			"Western Tropics",
-			"Western Tropics (Freeport)"
+			"Western Tropics (Freeport)",
+			"Western Temperate",
+			"Ocean Water",
+			"At Land",
+			"Eastern Temperate Mountain Peak"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"C1": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Eastern Tundra",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"C10": {
 		"animals": [
@@ -832,11 +1304,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
-			"Eastern Temperate",
+			"Western Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Eastern Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [
@@ -875,7 +1355,19 @@
 			"Twigs",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"C11": {
 		"animals": [
@@ -884,11 +1376,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
 			"Eastern Tundra",
+			"Polar",
 			"Ocean Water",
-			"Polar"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -910,7 +1410,19 @@
 			"Slate",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"C2": {
 		"animals": [
@@ -930,11 +1442,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
-			"Eastern Temperate",
+			"Western Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Eastern Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -971,7 +1491,19 @@
 			"Twigs",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"C3": {
 		"animals": [
@@ -991,11 +1523,20 @@
 			"Vulture"
 		],
 		"biomes": [
-			"At Land",
+			"High Desert",
 			"Central High Desert",
 			"Central Low Desert",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -1028,7 +1569,19 @@
 			"Sugars",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"C4": {
 		"animals": [
@@ -1050,11 +1603,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"High Desert",
 			"Central High Desert",
-			"Central Low Desert",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land",
+			"Central Low Desert"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -1088,7 +1650,19 @@
 		],
 		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
 		"serverCustomDatas2": ",1,1,0,",
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"C5": {
 		"animals": [
@@ -1119,10 +1693,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Equatorial",
 			"Equator",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -1159,7 +1742,19 @@
 		],
 		"serverCustomDatas1": ",RainIntervalMultiplier,",
 		"serverCustomDatas2": ",0.36,",
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"C6": {
 		"animals": [
@@ -1179,11 +1774,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
-			"Central Low Desert",
+			"Eastern Tropical",
 			"Eastern Tropics",
-			"Ocean Water"
+			"Central Low Desert",
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -1224,19 +1828,40 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"C7": {
 		"animals": [
 			"Seagull"
 		],
 		"biomes": [
-			"At Land",
+			"Western Tropical",
+			"Western Tropics",
 			"Eastern Tropics",
-			"Equator",
 			"Ocean Water",
-			"Western Tropics"
+			"At Land",
+			"Equator"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -1258,20 +1883,41 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"C8": {
 		"animals": [
 			"Seagull"
 		],
 		"biomes": [
-			"At Land",
-			"Eastern Tropics",
+			"Western Tropical",
 			"Equator",
+			"Eastern Tropics",
 			"Ocean Water",
+			"At Land",
 			"Western Tropics",
 			"Western Tropics (Freeport)"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -1293,7 +1939,19 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"C9": {
 		"animals": [
@@ -1314,12 +1972,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
 			"Eastern Temperate",
-			"Eastern Tropics",
+			"Western Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Eastern Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -1348,20 +2014,52 @@
 			"Straw",
 			"Sugarcane"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"D1": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Central Tundra",
+			"Polar",
 			"Ocean Water",
-			"Polar"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Central Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"D10": {
 		"animals": [
@@ -1381,11 +2079,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
 			"Eastern Temperate",
+			"Western Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -1417,30 +2123,70 @@
 			"Strawberry",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"D11": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Eastern Tundra",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"D2": {
 		"animals": [
 			"Seagull"
 		],
 		"biomes": [
-			"At Land",
+			"Western Temperate",
 			"Eastern Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -1461,7 +2207,19 @@
 			"Straw",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"D3": {
 		"animals": [
@@ -1479,11 +2237,19 @@
 			"Turtle"
 		],
 		"biomes": [
-			"At Land",
+			"Western Temperate",
 			"Eastern Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -1519,7 +2285,19 @@
 		],
 		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
 		"serverCustomDatas2": ",1,1,0,",
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"D4": {
 		"animals": [
@@ -1541,13 +2319,21 @@
 			"Turtle"
 		],
 		"biomes": [
-			"At Land",
+			"Western Temperate",
 			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
 			"Eastern Tropics",
+			"Eastern Temperate Mountain Peak",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -1580,7 +2366,19 @@
 		],
 		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,",
 		"serverCustomDatas2": ",1,1,0,",
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"D5": {
 		"animals": [
@@ -1611,10 +2409,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Equatorial",
 			"Equator",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -1647,7 +2454,19 @@
 			"Strongwood",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"D6": {
 		"animals": [
@@ -1665,12 +2484,21 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Eastern Tropical",
 			"Eastern Temperate",
 			"Eastern Temperate Mountain Peak",
 			"Eastern Tropics",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -1698,7 +2526,19 @@
 			"Turmeric",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"D7": {
 		"animals": [
@@ -1720,11 +2560,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"High Desert",
 			"Central High Desert",
-			"Central Low Desert",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land",
+			"Central Low Desert"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -1758,7 +2607,19 @@
 			"Sugars",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"D8": {
 		"animals": [
@@ -1778,11 +2639,20 @@
 			"Vulture"
 		],
 		"biomes": [
-			"At Land",
+			"Low Desert",
 			"Central High Desert",
-			"Central Low Desert",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land",
+			"Central Low Desert"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -1810,33 +2680,85 @@
 			"Sugars",
 			"Thyme"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Low Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"D9": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Eastern Temperate",
 			"Eastern Tropics",
 			"Ocean Water",
+			"At Land",
 			"Western Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"E1": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Polar",
 			"Ocean Water",
-			"Polar"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Polar",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"E10": {
 		"animals": [
@@ -1853,12 +2775,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
 			"Eastern Temperate",
+			"Western Temperate",
 			"Eastern Temperate Mountain Peak",
 			"Ocean Water",
-			"Western Temperate"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -1886,34 +2816,86 @@
 			"Strawberry",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"E11": {
 		"animals": [],
 		"biomes": [
-			"At Land",
-			"Central Tundra",
 			"Eastern Tundra",
-			"Ocean Water"
+			"Central Tundra",
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"E2": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Central Tundra",
 			"Eastern Tundra",
 			"Ocean Water",
+			"At Land",
 			"Polar"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Central Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"E3": {
 		"animals": [
@@ -1936,9 +2918,17 @@
 		],
 		"biomes": [
 			"Eastern Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water"
+			"Tundra Ocean Water",
+			"Tundra At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1.959999918937683,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"resources": [
@@ -1954,7 +2944,19 @@
 		],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,RainChanceForSnow",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,.5",
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0.5,
+			"levelMinOveride": 0,
+			"levelMultiplier": 2,
+			"levelOffset": 0,
+			"spawnLimits": [
+				59.20000076293945,
+				5000,
+				3600
+			]
+		}
 	},
 	"E4": {
 		"animals": [
@@ -1975,10 +2977,18 @@
 			"Wolf"
 		],
 		"biomes": [
-			"Temperate At Land",
+			"Western Temperate",
 			"Temperate Ocean Water",
-			"Western Temperate"
+			"Temperate At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1.959999918937683,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"resources": [
@@ -1998,7 +3008,19 @@
 		],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21",
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0.5,
+			"levelMinOveride": 0,
+			"levelMultiplier": 2,
+			"levelOffset": 0,
+			"spawnLimits": [
+				59.20000076293945,
+				5000,
+				3600
+			]
+		}
 	},
 	"E5": {
 		"animals": [
@@ -2028,10 +3050,19 @@
 			"Wolf"
 		],
 		"biomes": [
+			"Equatorial",
 			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"Equatorial Ocean Water",
+			"Equatorial At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1.959999918937683,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"resources": [
@@ -2051,7 +3082,19 @@
 		],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,RainIntervalMultiplier,",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,",
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0.5,
+			"levelMinOveride": 0,
+			"levelMultiplier": 2,
+			"levelOffset": 0,
+			"spawnLimits": [
+				59.20000076293945,
+				5000,
+				3600
+			]
+		}
 	},
 	"E6": {
 		"animals": [
@@ -2080,10 +3123,19 @@
 			"Vulture"
 		],
 		"biomes": [
-			"At Land",
+			"Equatorial",
 			"Equator",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -2115,7 +3167,19 @@
 			"Strongwood",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"E7": {
 		"animals": [
@@ -2135,10 +3199,19 @@
 			"Vulture"
 		],
 		"biomes": [
-			"At Land",
+			"High Desert",
 			"Central Low Desert",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -2167,86 +3240,219 @@
 			"Schisandra",
 			"Straw"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"E8": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Low Desert",
 			"Central Low Desert",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Low Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"E9": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Eastern Temperate",
 			"Eastern Temperate (Freeport)",
 			"Eastern Tropics",
-			"Eastern Tropics (Freeport)",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land",
+			"Eastern Tropics (Freeport)"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 4,
 		"name": "Freeport",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"F1": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Polar",
 			"Ocean Water",
-			"Polar"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Polar",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"F10": {
 		"animals": [],
 		"biomes": [
-			"At Land",
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Eastern Tundra",
+			"Western Tundra",
 			"Ocean Water",
-			"Western Tundra"
+			"At Land",
+			"Eastern Tundra",
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"F11": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Polar",
 			"Ocean Water",
-			"Polar"
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Polar",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"F2": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Central Tundra",
 			"Ocean Water",
+			"At Land",
 			"Polar"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Central Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"F3": {
 		"animals": [
@@ -2270,10 +3476,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"Tundra At Land",
+			"Eastern Tundra",
 			"Tundra Ocean Water",
+			"Tundra At Land",
 			"Western Tundra"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1.959999918937683,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"resources": [
@@ -2293,7 +3508,19 @@
 		],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,RainChanceForSnow",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,.5",
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0.5,
+			"levelMinOveride": 0,
+			"levelMultiplier": 2,
+			"levelOffset": 0,
+			"spawnLimits": [
+				59.20000076293945,
+				5000,
+				3600
+			]
+		}
 	},
 	"F4": {
 		"animals": [
@@ -2317,10 +3544,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"Tundra At Land",
+			"Eastern Tundra",
 			"Tundra Ocean Water",
+			"Tundra At Land",
 			"Western Tundra"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 5,
 		"name": "Central Maw",
 		"resources": [
@@ -2338,7 +3574,19 @@
 			"Straw",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "EndBoss",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"F5": {
 		"animals": [
@@ -2352,28 +3600,70 @@
 			"Squid"
 		],
 		"biomes": [
-			"Central Low Desert",
+			"High Desert",
+			"Desert Ocean Water",
 			"Desert At Land",
-			"Desert Ocean Water"
+			"Central Low Desert"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1.959999918937683,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,",
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0.5,
+			"levelMinOveride": 0,
+			"levelMultiplier": 2,
+			"levelOffset": 0,
+			"spawnLimits": [
+				59.20000076293945,
+				5000,
+				3600
+			]
+		}
 	},
 	"F6": {
 		"animals": [],
 		"biomes": [
+			"Equatorial",
+			"Ocean Water",
 			"At Land",
-			"Equator",
-			"Ocean Water"
+			"Equator"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"F7": {
 		"animals": [
@@ -2393,10 +3683,19 @@
 			"Vulture"
 		],
 		"biomes": [
-			"At Land",
+			"Low Desert",
 			"Central Low Desert",
-			"Ocean Water"
+			"Ocean Water",
+			"At Land"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -2429,7 +3728,19 @@
 			"Thyme",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Low Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"F8": {
 		"animals": [
@@ -2451,10 +3762,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Eastern Temperate",
 			"Ocean Water",
+			"At Land",
 			"Western Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -2484,7 +3804,19 @@
 			"Syrup",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"F9": {
 		"animals": [
@@ -2509,12 +3841,20 @@
 			"Turtle"
 		],
 		"biomes": [
-			"At Land",
 			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
 			"Ocean Water",
+			"At Land",
+			"Eastern Temperate Mountain Peak",
 			"Western Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -2549,31 +3889,84 @@
 			"Syrup",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"G1": {
 		"animals": [],
 		"biomes": [
+			"Polar",
 			"At Land",
-			"Ocean Water",
-			"Polar"
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Polar",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"G10": {
 		"animals": [],
 		"biomes": [
+			"Eastern Tundra",
+			"Polar",
 			"At Land",
-			"Ocean Water",
-			"Polar"
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"G11": {
 		"animals": [
@@ -2586,10 +3979,18 @@
 			"Yeti"
 		],
 		"biomes": [
+			"Polar",
 			"At Land",
-			"Ocean Water",
-			"Polar"
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -2611,7 +4012,19 @@
 			"Slate",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Polar",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"G2": {
 		"animals": [
@@ -2629,10 +4042,18 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
 			"Central Tundra",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -2666,65 +4087,161 @@
 			"Wetwood",
 			"Yarrow"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Central Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"G3": {
 		"animals": [],
 		"biomes": [
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Eastern Tropics",
+			"Western Temperate",
 			"Temperate At Land",
-			"Temperate Ocean Water"
+			"Temperate Ocean Water",
+			"Eastern Temperate",
+			"Eastern Tropics",
+			"Eastern Temperate Mountain Peak"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1.959999918937683,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21",
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0.5,
+			"levelMinOveride": 0,
+			"levelMultiplier": 2,
+			"levelOffset": 0,
+			"spawnLimits": [
+				59.20000076293945,
+				5000,
+				3600
+			]
+		}
 	},
 	"G4": {
 		"animals": [],
 		"biomes": [
+			"Eastern Tropical",
+			"Western Tropics",
 			"Eastern Tropics",
 			"Tropical At Land",
-			"Tropical Ocean Water",
-			"Western Tropics"
+			"Tropical Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1.959999918937683,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,ChanceForCold,",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0,",
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0.5,
+			"levelMinOveride": 0,
+			"levelMultiplier": 2,
+			"levelOffset": 0,
+			"spawnLimits": [
+				59.20000076293945,
+				5000,
+				3600
+			]
+		}
 	},
 	"G5": {
 		"animals": [],
 		"biomes": [
+			"High Desert",
 			"Central High Desert",
 			"Desert At Land",
 			"Desert Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1.959999918937683,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,",
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0.5,
+			"levelMinOveride": 0,
+			"levelMultiplier": 2,
+			"levelOffset": 0,
+			"spawnLimits": [
+				59.20000076293945,
+				5000,
+				3600
+			]
+		}
 	},
 	"G6": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Equatorial",
 			"Equator",
 			"Equator (Freeport)",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"G7": {
 		"animals": [
@@ -2747,11 +4264,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
-			"Central High Desert",
+			"Low Desert",
 			"Central Low Desert",
-			"Ocean Water"
+			"At Land",
+			"Ocean Water",
+			"Central High Desert"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -2789,22 +4315,55 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Low Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"G8": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Low Desert",
 			"Central Low Desert",
 			"Central Low Desert (Freeport)",
 			"Eastern Tropics",
 			"Eastern Tropics (Freeport)",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 4,
 		"name": "Freeport",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Low Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"G9": {
 		"animals": [
@@ -2829,11 +4388,19 @@
 			"Turtle"
 		],
 		"biomes": [
-			"At Land",
 			"Eastern Temperate",
+			"At Land",
 			"Ocean Water",
 			"Western Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -2862,46 +4429,119 @@
 			"Syrup",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"H1": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Central Tundra",
 			"Eastern Tundra",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Central Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"H10": {
 		"animals": [],
 		"biomes": [
-			"At Land",
-			"Eastern Temperate Mountain Peak",
-			"Ocean Water",
+			"Eastern Tundra",
 			"Polar",
-			"Western Tundra"
+			"At Land",
+			"Ocean Water",
+			"Western Tundra",
+			"Eastern Temperate Mountain Peak"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"H11": {
 		"animals": [],
 		"biomes": [
+			"Polar",
 			"At Land",
-			"Ocean Water",
-			"Polar"
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Polar",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"H2": {
 		"animals": [
@@ -2919,13 +4559,21 @@
 			"Turtle"
 		],
 		"biomes": [
-			"At Land",
+			"Western Temperate",
+			"Eastern Tropics",
 			"Eastern Temperate",
 			"Eastern Temperate Mountain Peak",
-			"Eastern Tropics",
-			"Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -2956,18 +4604,39 @@
 			"Twigs",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"H3": {
 		"animals": [
 			"Seagull"
 		],
 		"biomes": [
-			"At Land",
+			"Eastern Tropical",
 			"Eastern Tropics",
-			"Ocean Water",
-			"Western Tropics"
+			"Western Tropics",
+			"At Land",
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -2985,20 +4654,53 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"H4": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Eastern Tropical",
+			"Western Tropics",
 			"Eastern Tropics",
-			"Ocean Water",
-			"Western Tropics"
+			"At Land",
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"H5": {
 		"animals": [
@@ -3020,11 +4722,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
-			"Central High Desert",
+			"High Desert",
 			"Central Low Desert",
+			"Central High Desert",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -3054,7 +4765,19 @@
 			"Straw",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"H6": {
 		"animals": [
@@ -3083,10 +4806,19 @@
 			"Vulture"
 		],
 		"biomes": [
-			"At Land",
+			"Equatorial",
 			"Equator",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -3118,7 +4850,19 @@
 			"Strongwood",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"H7": {
 		"animals": [
@@ -3141,11 +4885,20 @@
 			"Turtle"
 		],
 		"biomes": [
+			"Western Tropical",
+			"Western Tropics",
 			"At Land",
-			"Eastern Tropics",
 			"Ocean Water",
-			"Western Tropics"
+			"Eastern Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -3178,16 +4931,37 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"H8": {
 		"animals": [],
 		"biomes": [
+			"Western Tropical",
+			"Western Tropics",
 			"At Land",
-			"Eastern Tropics",
 			"Ocean Water",
-			"Western Tropics"
+			"Eastern Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -3223,7 +4997,19 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"H9": {
 		"animals": [
@@ -3244,11 +5030,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Eastern Temperate",
 			"Eastern Tropics",
+			"At Land",
 			"Ocean Water",
 			"Western Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -3277,20 +5072,52 @@
 			"Straw",
 			"Sugarcane"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"I1": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Eastern Tundra",
+			"At Land",
 			"Ocean Water",
 			"Polar"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"I10": {
 		"animals": [
@@ -3308,13 +5135,21 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Western Tundra",
 			"Eastern Temperate",
 			"Eastern Temperate Mountain Peak",
-			"Eastern Tundra",
+			"At Land",
 			"Ocean Water",
-			"Western Tundra"
+			"Eastern Tundra"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -3345,19 +5180,52 @@
 			"Straw",
 			"Turnip"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"I11": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Eastern Tundra",
 			"Central Tundra",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"I2": {
 		"animals": [
@@ -3376,11 +5244,19 @@
 			"Turtle"
 		],
 		"biomes": [
+			"Western Temperate",
 			"At Land",
-			"Eastern Temperate",
 			"Ocean Water",
-			"Western Temperate"
+			"Eastern Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -3419,7 +5295,19 @@
 			"Twigs",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"I3": {
 		"animals": [
@@ -3437,10 +5325,19 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Eastern Tropical",
 			"Eastern Tropics",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -3468,20 +5365,53 @@
 			"Turmeric",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"I4": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Eastern Tropical",
+			"Western Tropics",
 			"Eastern Tropics",
-			"Ocean Water",
-			"Western Tropics"
+			"At Land",
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"I5": {
 		"animals": [
@@ -3505,11 +5435,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
-			"Central High Desert",
+			"High Desert",
 			"Central Low Desert",
+			"Central High Desert",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -3544,19 +5483,52 @@
 			"Twigs",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"I6": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Equatorial",
 			"Equator",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"I7": {
 		"animals": [
@@ -3577,11 +5549,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Eastern Tropical",
 			"Eastern Tropics",
+			"At Land",
 			"Ocean Water",
 			"Western Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -3613,18 +5594,39 @@
 			"Strongwood",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"I8": {
 		"animals": [
 			"Seagull"
 		],
 		"biomes": [
-			"At Land",
+			"Western Tropical",
 			"Eastern Tropics",
-			"Ocean Water",
-			"Western Tropics"
+			"Western Tropics",
+			"At Land",
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -3646,7 +5648,19 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"I9": {
 		"animals": [
@@ -3674,11 +5688,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Western Tropical",
 			"Equator",
-			"Ocean Water",
-			"Western Tropics"
+			"Western Tropics",
+			"At Land",
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -3705,46 +5728,119 @@
 			"Thyme",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"J1": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Eastern Tundra",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"J10": {
 		"animals": [],
 		"biomes": [
+			"Western Tundra",
 			"At Land",
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
 			"Ocean Water",
-			"Western Tundra"
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"J11": {
 		"animals": [],
 		"biomes": [
+			"Eastern Tundra",
+			"Polar",
 			"At Land",
 			"Ocean Water",
-			"Polar",
 			"Western Tundra"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"J2": {
 		"animals": [
@@ -3769,11 +5865,20 @@
 			"Turtle"
 		],
 		"biomes": [
-			"At Land",
+			"Western Temperate",
 			"Eastern Temperate",
 			"Eastern Temperate Mountain Peak",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -3804,7 +5909,19 @@
 			"Twigs",
 			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"J3": {
 		"animals": [
@@ -3822,12 +5939,21 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"Eastern Tropical",
 			"Eastern Tropics",
-			"Equator",
+			"Western Tropics",
+			"At Land",
 			"Ocean Water",
-			"Western Tropics"
+			"Equator"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -3855,7 +5981,19 @@
 			"Turmeric",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"J4": {
 		"animals": [
@@ -3873,11 +6011,20 @@
 			"Wolf"
 		],
 		"biomes": [
+			"Eastern Tropical",
+			"Western Tropics",
 			"At Land",
-			"Eastern Tropics",
 			"Ocean Water",
-			"Western Tropics"
+			"Eastern Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -3905,7 +6052,19 @@
 			"Turmeric",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"J5": {
 		"animals": [
@@ -3927,11 +6086,20 @@
 			"Wolf"
 		],
 		"biomes": [
-			"At Land",
+			"High Desert",
 			"Central High Desert",
 			"Central Low Desert",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -3966,20 +6134,53 @@
 			"Sugars",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1.5
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "High Desert",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"J6": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Equatorial",
 			"Eastern Tropics",
 			"Equator",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"J7": {
 		"animals": [
@@ -4002,11 +6203,20 @@
 			"Turtle"
 		],
 		"biomes": [
-			"At Land",
+			"Eastern Tropical",
 			"Eastern Tropics",
-			"Ocean Water",
-			"Western Tropics"
+			"Western Tropics",
+			"At Land",
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
@@ -4043,7 +6253,19 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"J8": {
 		"animals": [
@@ -4066,12 +6288,21 @@
 			"Turtle"
 		],
 		"biomes": [
-			"At Land",
-			"Eastern Tropics",
-			"Ocean Water",
+			"Western Tropical",
+			"Western Tropics",
 			"Western Temperate",
-			"Western Tropics"
+			"At Land",
+			"Ocean Water",
+			"Eastern Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -4104,76 +6335,177 @@
 			"Straw",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"J9": {
 		"animals": [],
 		"biomes": [
-			"At Land",
-			"Eastern Tropics",
-			"Eastern Tropics (Freeport)",
-			"Ocean Water",
 			"Western Tundra",
-			"Western Tundra (Freeport)"
+			"Western Tundra (Freeport)",
+			"At Land",
+			"Ocean Water",
+			"Eastern Tropics",
+			"Eastern Tropics (Freeport)"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 4,
 		"name": "Freeport",
 		"resources": [
 			"Flint (Rock)",
 			"Stone (Rock)"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"K1": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Eastern Tundra",
+			"At Land",
 			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"K10": {
 		"animals": [],
 		"biomes": [
-			"At Land",
 			"Eastern Temperate",
 			"Eastern Temperate Mountain Peak",
+			"At Land",
 			"Ocean Water",
 			"Western Temperate"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"K11": {
 		"animals": [],
 		"biomes": [
+			"Eastern Tundra",
+			"Polar",
 			"At Land",
 			"Ocean Water",
-			"Polar",
 			"Western Tundra"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tundra",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"K2": {
 		"animals": [
 			"Seagull"
 		],
 		"biomes": [
-			"At Land",
-			"Eastern Temperate",
+			"Western Temperate",
 			"Eastern Tropics",
-			"Ocean Water",
-			"Western Temperate"
+			"Eastern Temperate",
+			"At Land",
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [
@@ -4191,31 +6523,72 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"K3": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Western Temperate",
 			"Eastern Temperate",
-			"Ocean Water",
-			"Western Temperate"
+			"At Land",
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"K4": {
 		"animals": [
 			"Seagull"
 		],
 		"biomes": [
+			"Eastern Tropical",
+			"Western Tropics",
 			"At Land",
-			"Eastern Tropics",
 			"Ocean Water",
-			"Western Tropics"
+			"Eastern Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [
@@ -4233,45 +6606,120 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"K5": {
 		"animals": [],
 		"biomes": [
+			"Eastern Tropical",
+			"Western Tropics",
 			"At Land",
-			"Eastern Tropics",
 			"Ocean Water",
-			"Western Tropics"
+			"Eastern Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"K6": {
 		"animals": [],
 		"biomes": [
-			"At Land",
+			"Equatorial",
 			"Equator",
-			"Ocean Water",
-			"Western Tropics"
+			"Western Tropics",
+			"At Land",
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Equatorial",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"K7": {
 		"animals": [],
 		"biomes": [
+			"Eastern Tropical",
+			"Western Tropics",
 			"At Land",
-			"Ocean Water",
-			"Western Tropics"
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 3,
 		"name": "",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				3600
+			]
+		}
 	},
 	"K8": {
 		"animals": [
@@ -4291,11 +6739,20 @@
 			"Wolf"
 		],
 		"biomes": [
+			"Western Tropical",
+			"Western Tropics",
 			"At Land",
-			"Eastern Tropics",
 			"Ocean Water",
-			"Western Tropics"
+			"Eastern Tropics"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -4325,7 +6782,19 @@
 			"Twigs",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	},
 	"K9": {
 		"animals": [
@@ -4348,10 +6817,19 @@
 			"Turtle"
 		],
 		"biomes": [
+			"Western Tropical",
+			"Western Tropics",
 			"At Land",
-			"Ocean Water",
-			"Western Tropics"
+			"Ocean Water"
 		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
 		"forceServerRules": 1,
 		"name": "",
 		"resources": [
@@ -4384,6 +6862,18 @@
 			"Straw",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		}
 	}
 }
