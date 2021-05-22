@@ -412,14 +412,14 @@ class WorldMap extends React.Component {
                 [center[0] + (offsets[0] / 2), center[1] - (offsets[1] / 2)] //  Bottom left
               ], island.rotation);
 
-            var islandImage = L.imageOverlay.rotated("islandImages/" + island.name + ".webp",
+           /* var islandImage = L.imageOverlay.rotated("islandImages/" + island.name + ".webp",
               L.latLng(islandBounds[0]),
               L.latLng(islandBounds[1]),
               L.latLng(islandBounds[2]), {
                 opacity: 1,
                 interactive: true
               });
-            map.Islands.addLayer(islandImage);
+            map.Islands.addLayer(islandImage);*/
           }
 
           if (island.discoveries) {

@@ -16,8 +16,14 @@ for (var island in islands) {
     if (!i.maps)
         continue;
 
-    if (!Object.keys(i.assets).includes("Silk02"))
+    if (!i.grid.includes("K") && !i.grid.includes("1"))
         continue;
+
+        
+    if (!contains(i.resources, [ "Rushes"]))
+        continue;
+
+
 
     /* if (!contains(i.resources, ["Mineral Oil", "Crude Oil", "Shale Oil", "Naptha"]))
          continue;
@@ -55,8 +61,8 @@ for (var island in islands) {
             }
     }
     var count = i.types["Stone"] + i.types["Thatch"] + i.types["Metal"] + i.types["Fiber"];
-    //if (i.types["Metal"] > 2 && Object.keys(i.assets).length < 75 && Object.keys(i.assets).length > 60 && i.animals.length >11)
-    console.log( i.name, i.grid);
+   // if (count > 10)
+        console.log(count, i.name, i.grid);
     //console.dir(i.assets)
 }
 
