@@ -40,7 +40,7 @@ class WorldMap extends React.Component {
       position: 'topright'
     }).addTo(map);
 
-    map.Islands = L.layerGroup(layerOpts);
+    //map.Islands = L.layerGroup(layerOpts);
     map.Grid = new L.AtlasGrid({
       xticks: config.ServersX,
       yticks: config.ServersY
@@ -98,7 +98,7 @@ class WorldMap extends React.Component {
       Grid: map.Grid,
       Discoveries: map.Discoveries,
       ControlPoints: map.ControlPoints,
-      Islands: map.Islands.addTo(map),
+      //Islands: map.Islands.addTo(map),
       Resources: map.IslandResources.addTo(map),
       Bosses: map.Bosses,
       Ships: map.Ships,
