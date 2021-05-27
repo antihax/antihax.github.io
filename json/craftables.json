@@ -1,5 +1,14 @@
 {
     "Craftables": {
+        "": {
+            "Ingredients": {
+                "Fibers": 150.0,
+                "Metal": 100.0,
+                "Stone": 600.0,
+                "Thatch": 100.0,
+                "Wood": 250.0
+            }
+        },
         "Aberrant Helmet Skin": {
             "Ingredients": {
                 "Gold Coin": 1.0
@@ -98,11 +107,29 @@
                 "Gold Coin": 1000.0
             }
         },
+        "Army of the Damned Pylon": {
+            "Ingredients": {
+                "Fibers": 150.0,
+                "Hide": 300.0,
+                "Stone": 200.0,
+                "Thatch": 100.0,
+                "Wood": 600.0
+            }
+        },
         "Arrow of the Damned": {
             "Ingredients": {
                 "Fibers": 3.0,
                 "Flint": 1.0,
                 "Thatch": 1.0
+            }
+        },
+        "Atlantean Spire": {
+            "Ingredients": {
+                "Crystal": 500.0,
+                "Fibers": 100.0,
+                "Stone": 600.0,
+                "Thatch": 150.0,
+                "Wood": 300.0
             }
         },
         "Aubergine Brown Coloring": {
@@ -1662,6 +1689,15 @@
             "Ingredients": {
                 "Berry": 5.0,
                 "Water": 1.0
+            }
+        },
+        "Industrial Generator": {
+            "Ingredients": {
+                "Fibers": 150.0,
+                "Metal": 100.0,
+                "Stone": 600.0,
+                "Thatch": 100.0,
+                "Wood": 250.0
             }
         },
         "Iodine": {
@@ -4498,6 +4534,7 @@
     "Foods": {
         "Acai": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4519,6 +4556,7 @@
         },
         "Acerolla": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4540,6 +4578,7 @@
         },
         "Ale": {
             "SpoilTime": 0.0,
+            "Type": "Alcohol Based",
             "Weight": 0.07000000029802322,
             "stats": {
                 "VitaminA": {
@@ -4556,6 +4595,7 @@
         },
         "Aloe": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4572,6 +4612,7 @@
         },
         "Amarberry": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4586,8 +4627,21 @@
                 }
             }
         },
+        "AnglerGel": {
+            "SpoilTime": 0.0,
+            "Type": "",
+            "Weight": 0.00699999975040555,
+            "stats": {
+                "Food": {
+                    "add": 8.0,
+                    "addOverTime": true,
+                    "addOverTimeSpeed": 1.0
+                }
+            }
+        },
         "Animal Meat": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4609,6 +4663,7 @@
         },
         "Archaeopteryx Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -4630,6 +4685,7 @@
         },
         "Arctic Raspberry": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4651,6 +4707,7 @@
         },
         "Argentavis Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 8.399999618530273,
             "stats": {
                 "Food": {
@@ -4672,6 +4729,7 @@
         },
         "Azulberry": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4688,6 +4746,7 @@
         },
         "Basil": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4704,6 +4763,7 @@
         },
         "Beans": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4725,6 +4785,7 @@
         },
         "Beef Buns": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4746,6 +4807,7 @@
         },
         "Beet": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4762,6 +4824,7 @@
         },
         "Berry": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4783,6 +4846,7 @@
         },
         "Berry Seed": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.00699999975040555,
             "stats": {
                 "Food": {
@@ -4794,6 +4858,7 @@
         },
         "Berry Tea": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "VitaminA": {
@@ -4810,6 +4875,7 @@
         },
         "Bilberry": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4831,6 +4897,7 @@
         },
         "Bingleberry": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4847,6 +4914,7 @@
         },
         "Bio Toxin": {
             "SpoilTime": 2700.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Health": {
@@ -4863,6 +4931,7 @@
         },
         "Blackberry": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4884,6 +4953,7 @@
         },
         "Bronto Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 14.0,
             "stats": {
                 "Food": {
@@ -4900,6 +4970,7 @@
         },
         "Bubble N' Squeak": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4921,6 +4992,7 @@
         },
         "Cactus": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4935,8 +5007,21 @@
                 }
             }
         },
+        "Canteen": {
+            "SpoilTime": 0.0,
+            "Type": "",
+            "Weight": 1.399999976158142,
+            "stats": {
+                "Water": {
+                    "add": 100.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
+                }
+            }
+        },
         "Carno Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 8.399999618530273,
             "stats": {
                 "Food": {
@@ -4958,6 +5043,7 @@
         },
         "Carrot": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4974,6 +5060,7 @@
         },
         "Celery": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -4990,6 +5077,7 @@
         },
         "Celery Soup": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5011,6 +5099,7 @@
         },
         "Chamomile": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5027,6 +5116,7 @@
         },
         "Chick Peas": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5043,6 +5133,7 @@
         },
         "Chicken Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 0.699999988079071,
             "stats": {
                 "Food": {
@@ -5059,6 +5150,7 @@
         },
         "Chili": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5075,6 +5167,7 @@
         },
         "Cilantro": {
             "SpoilTime": 600.0,
+            "Type": "Herb",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5091,6 +5184,7 @@
         },
         "Citronal": {
             "SpoilTime": 300.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5107,6 +5201,7 @@
         },
         "Cocoa": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5123,6 +5218,7 @@
         },
         "Coconut": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5139,6 +5235,7 @@
         },
         "Coffee": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5160,6 +5257,7 @@
         },
         "Coffee Bean": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5176,6 +5274,7 @@
         },
         "Cooked Fish": {
             "SpoilTime": 900.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5192,6 +5291,7 @@
         },
         "Cooked Meat": {
             "SpoilTime": 900.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5208,6 +5308,7 @@
         },
         "Cooked Prime Animal Meat": {
             "SpoilTime": 900.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5224,6 +5325,7 @@
         },
         "Cooked Prime Fish Meat": {
             "SpoilTime": 900.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5240,6 +5342,7 @@
         },
         "Cooking Herbs": {
             "SpoilTime": 600.0,
+            "Type": "Herb",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5256,6 +5359,7 @@
         },
         "Creme Brulee": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5277,6 +5381,7 @@
         },
         "Crow Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
                 "Food": {
@@ -5293,6 +5398,7 @@
         },
         "Crustacean Meat": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5314,6 +5420,7 @@
         },
         "Dark Draught": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5340,6 +5447,7 @@
         },
         "Delicacy": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "VitaminA": {
@@ -5366,6 +5474,7 @@
         },
         "Dimetrodon Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 10.5,
             "stats": {
                 "Food": {
@@ -5387,6 +5496,7 @@
         },
         "Dimorph Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 3.5,
             "stats": {
                 "Food": {
@@ -5408,6 +5518,7 @@
         },
         "Dodo Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -5429,6 +5540,7 @@
         },
         "Dragon's Tongue Delight": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5450,6 +5562,7 @@
         },
         "Dried Tentacle": {
             "SpoilTime": 0.0,
+            "Type": "Meat",
             "Weight": 0.08500000089406967,
             "stats": {
                 "Food": {
@@ -5466,6 +5579,7 @@
         },
         "Earthworms": {
             "SpoilTime": 3600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5487,6 +5601,7 @@
         },
         "Edible Greens": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5503,6 +5618,7 @@
         },
         "Egg!": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.199999809265137,
             "stats": {
                 "Food": {
@@ -5519,6 +5635,7 @@
         },
         "Elderberry": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5540,6 +5657,7 @@
         },
         "Feces": {
             "SpoilTime": 5000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -5556,6 +5674,7 @@
         },
         "Fertilized Achaeopteryx Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -5577,6 +5696,7 @@
         },
         "Fertilized Angler Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -5598,6 +5718,7 @@
         },
         "Fertilized Chicken Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 0.699999988079071,
             "stats": {
                 "Food": {
@@ -5614,6 +5735,7 @@
         },
         "Fertilized Crocodile Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 0.699999988079071,
             "stats": {
                 "Food": {
@@ -5630,6 +5752,7 @@
         },
         "Fertilized Crow Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
                 "Food": {
@@ -5646,6 +5769,7 @@
         },
         "Fertilized Dimorph Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 3.5,
             "stats": {
                 "Food": {
@@ -5667,6 +5791,7 @@
         },
         "Fertilized Dodo Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -5688,6 +5813,7 @@
         },
         "Fertilized Eel Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -5709,6 +5835,7 @@
         },
         "Fertilized Gallimimus Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 3.5,
             "stats": {
                 "Food": {
@@ -5730,6 +5857,7 @@
         },
         "Fertilized Grand Tortugar Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 7.0,
             "stats": {
                 "Food": {
@@ -5746,6 +5874,7 @@
         },
         "Fertilized Kairuku Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -5767,6 +5896,7 @@
         },
         "Fertilized Ostrich Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -5783,6 +5913,7 @@
         },
         "Fertilized Oviraptor Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -5804,6 +5935,7 @@
         },
         "Fertilized Parrot Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
                 "Food": {
@@ -5820,6 +5952,7 @@
         },
         "Fertilized Pelagornis Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
                 "Food": {
@@ -5841,6 +5974,7 @@
         },
         "Fertilized Penguin Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 1.1200000047683716,
             "stats": {
                 "Food": {
@@ -5857,6 +5991,7 @@
         },
         "Fertilized Pteranodon Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
                 "Food": {
@@ -5878,6 +6013,7 @@
         },
         "Fertilized Razortooth Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
                 "Food": {
@@ -5894,6 +6030,7 @@
         },
         "Fertilized Sarco Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 10.5,
             "stats": {
                 "Food": {
@@ -5915,6 +6052,7 @@
         },
         "Fertilized Seagull Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
                 "Food": {
@@ -5931,6 +6069,7 @@
         },
         "Fertilized Shieldhorn Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 3.8499999046325684,
             "stats": {
                 "Food": {
@@ -5947,6 +6086,7 @@
         },
         "Fertilized Spider Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 0.699999988079071,
             "stats": {
                 "Food": {
@@ -5963,6 +6103,7 @@
         },
         "Fertilized Trike Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 6.299999713897705,
             "stats": {
                 "Food": {
@@ -5984,6 +6125,7 @@
         },
         "Fertilized Turtle Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -6005,6 +6147,7 @@
         },
         "Fertilized Tusoteuthis Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -6026,6 +6169,7 @@
         },
         "Fertilized Vulture Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 1.1200000047683716,
             "stats": {
                 "Food": {
@@ -6042,6 +6186,7 @@
         },
         "Fertilized Yutyrannus Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 10.5,
             "stats": {
                 "Food": {
@@ -6063,6 +6208,7 @@
         },
         "Fertilizer": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Health": {
@@ -6074,6 +6220,7 @@
         },
         "Fish 'n Chips": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6095,6 +6242,7 @@
         },
         "Fish Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.199999809265137,
             "stats": {
                 "Food": {
@@ -6116,6 +6264,7 @@
         },
         "Fish Meat": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6137,6 +6286,7 @@
         },
         "Fruit": {
             "SpoilTime": 300.0,
+            "Type": "Fruit",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6158,6 +6308,7 @@
         },
         "Gallimimus Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 3.5,
             "stats": {
                 "Food": {
@@ -6179,6 +6330,7 @@
         },
         "Garlic": {
             "SpoilTime": 600.0,
+            "Type": "Herb",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6195,6 +6347,7 @@
         },
         "Giant Bee Honey": {
             "SpoilTime": 1200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6211,6 +6364,7 @@
         },
         "Giganotosaurus Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 28.0,
             "stats": {
                 "Food": {
@@ -6232,6 +6386,7 @@
         },
         "Golden Hesperornis Egg": {
             "SpoilTime": 1800.0,
+            "Type": "",
             "Weight": 4.199999809265137,
             "stats": {
                 "Food": {
@@ -6253,6 +6408,7 @@
         },
         "Grand Tortugar Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 7.0,
             "stats": {
                 "Food": {
@@ -6269,6 +6425,7 @@
         },
         "Green Algae": {
             "SpoilTime": 600.0,
+            "Type": "Herb",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6285,6 +6442,7 @@
         },
         "Grog": {
             "SpoilTime": 0.0,
+            "Type": "Alcohol Based",
             "Weight": 0.07000000029802322,
             "stats": {
                 "VitaminB": {
@@ -6301,6 +6459,7 @@
         },
         "Hardtack": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6317,6 +6476,7 @@
         },
         "Hesperornis Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -6338,6 +6498,7 @@
         },
         "Hot Cocoa": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6364,6 +6525,7 @@
         },
         "Human Feces": {
             "SpoilTime": 2500.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Health": {
@@ -6375,6 +6537,7 @@
         },
         "Human Meat": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6391,6 +6554,7 @@
         },
         "Ice": {
             "SpoilTime": 300.0,
+            "Type": "",
             "Weight": 1.0499999523162842,
             "stats": {
                 "VitaminD": {
@@ -6405,8 +6569,33 @@
                 }
             }
         },
+        "Iced Canteen": {
+            "SpoilTime": 480.0,
+            "Type": "",
+            "Weight": 1.399999976158142,
+            "stats": {
+                "Water": {
+                    "add": 100.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
+                }
+            }
+        },
+        "Iced Water Jar": {
+            "SpoilTime": 240.0,
+            "Type": "",
+            "Weight": 3.5,
+            "stats": {
+                "Water": {
+                    "add": 100.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
+                }
+            }
+        },
         "Ichthyornis Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
                 "Food": {
@@ -6428,6 +6617,7 @@
         },
         "Innards": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6449,6 +6639,7 @@
         },
         "Insect Meat": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6470,6 +6661,7 @@
         },
         "Kairuku Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -6491,6 +6683,7 @@
         },
         "Kentro Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.549999713897705,
             "stats": {
                 "Food": {
@@ -6512,6 +6705,7 @@
         },
         "Kibble (Argentavis Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6523,6 +6717,7 @@
         },
         "Kibble (Bronto Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6534,6 +6729,7 @@
         },
         "Kibble (Carno Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6545,6 +6741,7 @@
         },
         "Kibble (Dimetrodon Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6556,6 +6753,7 @@
         },
         "Kibble (Dimorph Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6567,6 +6765,7 @@
         },
         "Kibble (Dodo Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6578,6 +6777,7 @@
         },
         "Kibble (Ichthyornis Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6589,6 +6789,7 @@
         },
         "Kibble (Kairuku Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6600,6 +6801,7 @@
         },
         "Kibble (Kentrosaurus Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6611,6 +6813,7 @@
         },
         "Kibble (Pachy Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6622,6 +6825,7 @@
         },
         "Kibble (Pegomastax Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6633,6 +6837,7 @@
         },
         "Kibble (Pelagornis Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6644,6 +6849,7 @@
         },
         "Kibble (Pteranodon Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6655,6 +6861,7 @@
         },
         "Kibble (Quetzal Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6666,6 +6873,7 @@
         },
         "Kibble (Raptor Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6677,6 +6885,7 @@
         },
         "Kibble (Spino Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6688,6 +6897,7 @@
         },
         "Kibble (Terror Bird Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6699,6 +6909,7 @@
         },
         "Kibble (Titanboa Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6710,6 +6921,7 @@
         },
         "Kibble (Trike Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6721,6 +6933,7 @@
         },
         "Kibble (Troodon Egg)": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6732,6 +6945,7 @@
         },
         "Large Creature Feces": {
             "SpoilTime": 10000.0,
+            "Type": "",
             "Weight": 2.799999952316284,
             "stats": {
                 "Health": {
@@ -6743,6 +6957,7 @@
         },
         "Licorice": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6759,6 +6974,7 @@
         },
         "Lignonberry": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6780,6 +6996,7 @@
         },
         "Lime": {
             "SpoilTime": 300.0,
+            "Type": "Fruit",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6796,6 +7013,7 @@
         },
         "Longrass": {
             "SpoilTime": 300.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6812,6 +7030,7 @@
         },
         "Maize": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6828,6 +7047,7 @@
         },
         "Marrow": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6844,6 +7064,7 @@
         },
         "Meats": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6860,6 +7081,7 @@
         },
         "Medicinal Herb": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6876,6 +7098,7 @@
         },
         "Medium Creature Feces": {
             "SpoilTime": 5000.0,
+            "Type": "",
             "Weight": 1.0499999523162842,
             "stats": {
                 "Health": {
@@ -6887,6 +7110,7 @@
         },
         "Mejoberry": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6903,6 +7127,7 @@
         },
         "Milk": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "VitaminD": {
@@ -6919,6 +7144,7 @@
         },
         "Milk or Water": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "VitaminD": {
@@ -6935,6 +7161,7 @@
         },
         "Mint": {
             "SpoilTime": 600.0,
+            "Type": "Herb",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6951,6 +7178,7 @@
         },
         "Monarch's Cake": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6972,6 +7200,7 @@
         },
         "Narcoberry": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -6988,6 +7217,7 @@
         },
         "Narcotic": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Health": {
@@ -7004,6 +7234,7 @@
         },
         "Obara Stew": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7025,6 +7256,7 @@
         },
         "Olives": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7041,6 +7273,7 @@
         },
         "Onion": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7057,6 +7290,7 @@
         },
         "Oregano": {
             "SpoilTime": 600.0,
+            "Type": "Herb",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7073,6 +7307,7 @@
         },
         "Organic Polymer": {
             "SpoilTime": 1800.0,
+            "Type": "",
             "Weight": 0.17499999701976776,
             "stats": {
                 "Health": {
@@ -7084,6 +7319,7 @@
         },
         "Ostrich Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -7100,6 +7336,7 @@
         },
         "Oviraptor Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -7121,6 +7358,7 @@
         },
         "Pachycephalosaurus Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
                 "Food": {
@@ -7142,6 +7380,7 @@
         },
         "Parrot Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
                 "Food": {
@@ -7158,6 +7397,7 @@
         },
         "Parsley": {
             "SpoilTime": 600.0,
+            "Type": "Herb",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7174,6 +7414,7 @@
         },
         "Pegomastax Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -7195,6 +7436,7 @@
         },
         "Pelagornis Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
                 "Food": {
@@ -7216,6 +7458,7 @@
         },
         "Penguin Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 1.1200000047683716,
             "stats": {
                 "Food": {
@@ -7232,6 +7475,7 @@
         },
         "Pepper": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7248,6 +7492,7 @@
         },
         "Plant Species X Seed": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.00699999975040555,
             "stats": {
                 "Food": {
@@ -7259,6 +7504,7 @@
         },
         "Poppy": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7275,6 +7521,7 @@
         },
         "Pork Pie": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7296,6 +7543,7 @@
         },
         "Potato": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7312,6 +7560,7 @@
         },
         "Prime Animal Meat": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7328,6 +7577,7 @@
         },
         "Prime Fish Meat": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7344,6 +7594,7 @@
         },
         "Prime Shark Meat": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7360,6 +7611,7 @@
         },
         "Pteranodon Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
                 "Food": {
@@ -7381,6 +7633,7 @@
         },
         "Pudding": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7402,6 +7655,7 @@
         },
         "Pulminoscorpius Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 6.299999713897705,
             "stats": {
                 "Food": {
@@ -7423,6 +7677,7 @@
         },
         "Quetzal Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 8.399999618530273,
             "stats": {
                 "Food": {
@@ -7444,6 +7699,7 @@
         },
         "Raptor Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
                 "Food": {
@@ -7465,6 +7721,7 @@
         },
         "Rare Flower": {
             "SpoilTime": 259200.0,
+            "Type": "",
             "Weight": 0.10500000417232513,
             "stats": {
                 "Food": {
@@ -7476,6 +7733,7 @@
         },
         "Razortooth Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
                 "Food": {
@@ -7492,6 +7750,7 @@
         },
         "Reaper's Regard": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7513,6 +7772,7 @@
         },
         "Red Algae": {
             "SpoilTime": 600.0,
+            "Type": "Herb",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7529,6 +7789,7 @@
         },
         "Rice": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7545,6 +7806,7 @@
         },
         "Rockarrot": {
             "SpoilTime": 300.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7561,6 +7823,7 @@
         },
         "Rodent": {
             "SpoilTime": 300.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7577,6 +7840,7 @@
         },
         "Rosemary": {
             "SpoilTime": 600.0,
+            "Type": "Herb",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7593,6 +7857,7 @@
         },
         "Rosemary Chicken": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7614,6 +7879,7 @@
         },
         "Rotten Meat": {
             "SpoilTime": 600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7630,6 +7896,7 @@
         },
         "Salted Fish": {
             "SpoilTime": 3600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7651,6 +7918,7 @@
         },
         "Salted Meat": {
             "SpoilTime": 3600.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7672,6 +7940,7 @@
         },
         "Salted Prime Fish": {
             "SpoilTime": 1200.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7693,6 +7962,7 @@
         },
         "Salted Prime Meat": {
             "SpoilTime": 1200.0,
+            "Type": "Meat",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7714,6 +7984,7 @@
         },
         "Sarco Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 10.5,
             "stats": {
                 "Food": {
@@ -7735,6 +8006,7 @@
         },
         "Savoroot": {
             "SpoilTime": 300.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7751,6 +8023,7 @@
         },
         "Schisandra": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7772,6 +8045,7 @@
         },
         "Sea Grapes": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7793,6 +8067,7 @@
         },
         "Seagull Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
                 "Food": {
@@ -7809,6 +8084,7 @@
         },
         "Shieldhorn Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 3.8499999046325684,
             "stats": {
                 "Food": {
@@ -7825,6 +8101,7 @@
         },
         "Shrunken Head Stew": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7846,6 +8123,7 @@
         },
         "Small Creature Feces": {
             "SpoilTime": 3000.0,
+            "Type": "",
             "Weight": 0.21000000834465027,
             "stats": {
                 "Health": {
@@ -7857,6 +8135,7 @@
         },
         "Soap": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Health": {
@@ -7868,6 +8147,7 @@
         },
         "Song of the Sea": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7889,6 +8169,7 @@
         },
         "Spiced Rum": {
             "SpoilTime": 0.0,
+            "Type": "Alcoholic",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7915,6 +8196,7 @@
         },
         "Spicy Roll": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7941,6 +8223,7 @@
         },
         "Spino Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 8.399999618530273,
             "stats": {
                 "Food": {
@@ -7962,6 +8245,7 @@
         },
         "Spirulina": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -7978,6 +8262,7 @@
         },
         "Squid Tentacle": {
             "SpoilTime": 900.0,
+            "Type": "Meat",
             "Weight": 0.17000000178813934,
             "stats": {
                 "Food": {
@@ -7994,6 +8279,7 @@
         },
         "Stimberry": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8020,6 +8306,7 @@
         },
         "Stimulant": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Torpidity": {
@@ -8036,6 +8323,7 @@
         },
         "Strawberry": {
             "SpoilTime": 600.0,
+            "Type": "Berry",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8057,6 +8345,7 @@
         },
         "Stuffed & Baked Fish": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8083,6 +8372,7 @@
         },
         "Super Test Meat": {
             "SpoilTime": 60.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8094,6 +8384,7 @@
         },
         "Super Veggie Seed": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.00699999975040555,
             "stats": {
                 "Food": {
@@ -8105,6 +8396,7 @@
         },
         "Sweet Vegetable Cake": {
             "SpoilTime": 4800.0,
+            "Type": "",
             "Weight": 4.199999809265137,
             "stats": {
                 "Food": {
@@ -8121,6 +8413,7 @@
         },
         "Tara'Nosti Treat": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8142,6 +8435,7 @@
         },
         "Terror Bird Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
                 "Food": {
@@ -8163,6 +8457,7 @@
         },
         "Thyme": {
             "SpoilTime": 600.0,
+            "Type": "Herb",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8179,6 +8474,7 @@
         },
         "Tintoberry": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8195,6 +8491,7 @@
         },
         "Titanboa Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 14.0,
             "stats": {
                 "Food": {
@@ -8211,6 +8508,7 @@
         },
         "Trike Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 6.299999713897705,
             "stats": {
                 "Food": {
@@ -8232,6 +8530,7 @@
         },
         "Troodon Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -8253,6 +8552,7 @@
         },
         "Turmeric": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8269,6 +8569,7 @@
         },
         "Turnip": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8285,6 +8586,7 @@
         },
         "Turtle Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
                 "Food": {
@@ -8306,6 +8608,7 @@
         },
         "Unthinkable Delicacy": {
             "SpoilTime": 36000.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8342,6 +8645,7 @@
         },
         "Vegetable": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8363,6 +8667,7 @@
         },
         "Veggie Seed": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.0279999990016222,
             "stats": {
                 "Food": {
@@ -8374,6 +8679,7 @@
         },
         "Vulture Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 1.1200000047683716,
             "stats": {
                 "Food": {
@@ -8390,6 +8696,7 @@
         },
         "Water": {
             "SpoilTime": 0.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "VitaminD": {
@@ -8404,8 +8711,33 @@
                 }
             }
         },
+        "Water Jar": {
+            "SpoilTime": 0.0,
+            "Type": "",
+            "Weight": 3.5,
+            "stats": {
+                "Water": {
+                    "add": 100.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
+                }
+            }
+        },
+        "Waterskin": {
+            "SpoilTime": 0.0,
+            "Type": "",
+            "Weight": 0.21000000834465027,
+            "stats": {
+                "Water": {
+                    "add": 100.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
+                }
+            }
+        },
         "Wheat": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8422,6 +8754,7 @@
         },
         "Wheat or Maize": {
             "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8438,6 +8771,7 @@
         },
         "Wheatgrass": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8454,6 +8788,7 @@
         },
         "Wild Beans": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8470,6 +8805,7 @@
         },
         "Wild Beet": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8486,6 +8822,7 @@
         },
         "Wild Cactus": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8502,6 +8839,7 @@
         },
         "Wild Carrot": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8518,6 +8856,7 @@
         },
         "Wild Chick Peas": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8534,6 +8873,7 @@
         },
         "Wild Chili": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8550,6 +8890,7 @@
         },
         "Wild Greens": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8566,6 +8907,7 @@
         },
         "Wild Maize": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8582,6 +8924,7 @@
         },
         "Wild Onion": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8598,6 +8941,7 @@
         },
         "Wild Pepper": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8614,6 +8958,7 @@
         },
         "Wild Potato": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8630,6 +8975,7 @@
         },
         "Wild Rice": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8646,6 +8992,7 @@
         },
         "Wild Turnip": {
             "SpoilTime": 300.0,
+            "Type": "Wild Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8662,6 +9009,7 @@
         },
         "Yarrow": {
             "SpoilTime": 600.0,
+            "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8678,6 +9026,7 @@
         },
         "Yutyrannus Egg": {
             "SpoilTime": 691200.0,
+            "Type": "",
             "Weight": 10.5,
             "stats": {
                 "Food": {
