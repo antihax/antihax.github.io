@@ -241,20 +241,20 @@ class WorldMap extends React.Component {
           map.Bosses.addLayer(pin)
         });
 
-       /* var krakenSpawn = L.circle([-128, 128], {
+        var krakenSpawn = L.circle([-81.454545454545454545454545454546, 128], {
           radius: 1.68,
           interactive: true,
           color: "red",
           fillOpacity: 0,
         }).bindPopup("Kraken Spawn Area");
-        var krakenWall = L.circle([-128, 128], {
+        var krakenWall = L.circle([-81.454545454545454545454545454546, 128], {
           radius: 2.35,
           interactive: true,
           color: "blue",
           fillOpacity: 0,
         }).bindPopup("Kraken Border Wall");
         map.Bosses.addLayer(krakenWall);
-        map.Bosses.addLayer(krakenSpawn);*/
+        map.Bosses.addLayer(krakenSpawn);
       })
       .catch(error => {
         console.log(error)
@@ -412,14 +412,14 @@ class WorldMap extends React.Component {
                 [center[0] + (offsets[0] / 2), center[1] - (offsets[1] / 2)] //  Bottom left
               ], island.rotation);
 
-           /* var islandImage = L.imageOverlay.rotated("islandImages/" + island.name + ".webp",
-              L.latLng(islandBounds[0]),
-              L.latLng(islandBounds[1]),
-              L.latLng(islandBounds[2]), {
-                opacity: 1,
-                interactive: true
-              });
-            map.Islands.addLayer(islandImage);*/
+            /* var islandImage = L.imageOverlay.rotated("islandImages/" + island.name + ".webp",
+               L.latLng(islandBounds[0]),
+               L.latLng(islandBounds[1]),
+               L.latLng(islandBounds[2]), {
+                 opacity: 1,
+                 interactive: true
+               });
+             map.Islands.addLayer(islandImage);*/
           }
 
           if (island.discoveries) {
