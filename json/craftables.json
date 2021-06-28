@@ -22,6 +22,14 @@
                 "Wood": 16.0
             }
         },
+        "Advanced Shipyard": {
+            "Ingredients": {
+                "Fibers": 1000.0,
+                "Stone": 500.0,
+                "Thatch": 2000.0,
+                "Wood": 4000.0
+            }
+        },
         "Agate": {
             "Ingredients": {
                 "Flint": 40.0,
@@ -1249,6 +1257,27 @@
                 "Oil": 6.0
             }
         },
+        "General Gunport Module": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
+            }
+        },
+        "General Rowing Module": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
+            }
+        },
+        "General Tile Module": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
+            }
+        },
         "Generic Armor": {
             "Ingredients": {
                 "Fiber": 5.0
@@ -1402,6 +1431,17 @@
                 "Fibers": 112.0,
                 "Metal": 28.0,
                 "Wood": 46.0
+            }
+        },
+        "Harpoon Launcher": {
+            "Ingredients": {
+                "Cementing Paste": 60.0,
+                "Fiber": 60.0,
+                "Hide": 25.0,
+                "Metal Ingot": 120.0,
+                "Obsidian": 50.0,
+                "Polymer": 30.0,
+                "Wood": 40.0
             }
         },
         "Hatchet": {
@@ -2530,6 +2570,12 @@
                 "Wood": 48.0
             }
         },
+        "Mortar Ship": {
+            "Ingredients": {
+                "Gold Coin": 22000.0,
+                "Gunpowder": 200.0
+            }
+        },
         "Mortar Shot": {
             "Ingredients": {
                 "Blasting Powder": 8.0,
@@ -3602,6 +3648,7 @@
             "Ingredients": {
                 "Acai": 10.0,
                 "Beans": 10.0,
+                "Cooked Prime Fish Meat": 10.0,
                 "Iodine": 5.0,
                 "Onion": 10.0,
                 "Poppy": 5.0,
@@ -4137,6 +4184,11 @@
             "Ingredients": {
                 "Berry": 20.0,
                 "Stone Arrow": 1.0
+            }
+        },
+        "Tranq Spear Bolt": {
+            "Ingredients": {
+                "Ballista Bolt": 1.0
             }
         },
         "Twigs": {
@@ -7034,7 +7086,7 @@
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
-                    "add": 1.0,
+                    "add": 5.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
@@ -8741,7 +8793,7 @@
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
-                    "add": 1.0,
+                    "add": 5.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
@@ -8775,7 +8827,7 @@
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
-                    "add": 3.0,
+                    "add": 5.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
@@ -8911,7 +8963,7 @@
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
-                    "add": 3.0,
+                    "add": 5.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },

@@ -739,24 +739,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "EasternTundra",
-                "WesternTundra",
-                "Polar",
-                "CentralTundra",
-                "WesternTropics",
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "EasternTundra",
-                "WesternTundra",
-                "Polar",
-                "CentralTundra",
-                "WesternTropics"
-            ],
             "canBeTamed": false,
             "deathInventoryChance": 0.0,
             "food": [
@@ -1488,15 +1470,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "Equatorial",
-                "EasternTemperate",
-                "WesternTemperate",
-                "EasternTropics",
-                "WesternTropics",
-                "HighDesert",
-                "LowDesert"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -1659,17 +1632,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "WesternTropics",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "HighDesert",
-                "LowDesert"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -2088,18 +2050,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "WesternTropics",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "Polar",
-                "HighDesert",
-                "CentralTundra",
-                "EasternTemperate"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -2549,15 +2499,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "Equatorial",
-                "HighDesert",
-                "LowDesert",
-                "EasternTropics",
-                "WesternTropics",
-                "WesternTemperate",
-                "EasternTemperate"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -2660,15 +2601,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "WesternTropics",
-                "HighDesert",
-                "LowDesert",
-                "EasternTropics",
-                "EasternTemperate",
-                "WesternTemperate",
-                "Temperate"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 1.0,
             "food": [
@@ -2814,21 +2746,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "WesternTropics",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "Polar",
-                "HighDesert",
-                "LowDesert",
-                "CentralTundra",
-                "Temperate",
-                "Tropics"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -3882,16 +3799,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "WesternTropics",
-                "Equatorial",
-                "HighDesert",
-                "LowDesert",
-                "EasternTropics",
-                "EasternTemperate",
-                "WesternTemperate",
-                "Temperate"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -4592,16 +4499,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTropics",
-                "Equatorial",
-                "HighDesert",
-                "LowDesert",
-                "WesternTemperate",
-                "EasternTemperate",
-                "Temperate"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 1.0,
             "food": [
@@ -4801,19 +4698,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "HighDesert",
-                "LowDesert",
-                "CentralTundra",
-                "WesternTemperate",
-                "Temperate"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -5736,18 +5620,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "EasternTundra",
-                "WesternTundra",
-                "HighDesert",
-                "LowDesert",
-                "CentralTundra",
-                "WesternTropics",
-                "Equatorial"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.30000001192092896,
             "food": [
@@ -6817,17 +6689,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "EasternTemperate",
-                "WesternTropics",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "Polar",
-                "HighDesert",
-                "WesternTemperate"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -6940,14 +6801,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "HighDesert",
-                "LowDesert",
-                "EasternTemperate",
-                "WesternTemperate",
-                "Temperate",
-                "Equatorial"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -7007,16 +6860,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "WesternTropics",
-                "HighDesert",
-                "LowDesert",
-                "EasternTropics",
-                "Equatorial",
-                "EasternTemperate",
-                "WesternTemperate",
-                "Temperate"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -7248,17 +7091,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "EasternTemperate",
-                "WesternTropics",
-                "WesternTundra",
-                "Equatorial",
-                "HighDesert",
-                "WesternTemperate",
-                "LowDesert",
-                "EasternTundra"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -7377,15 +7209,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "Polar",
-                "EasternTemperate",
-                "WesternTemperate",
-                "Temperate",
-                "EasternTundra",
-                "WesternTundra",
-                "CentralTundra"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -7607,16 +7430,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "WesternTropics",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "CentralTundra"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -7742,18 +7555,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.03999999910593033,
             "babyTwinsChance": 0.20000000298023224,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "EasternTundra",
-                "WesternTundra",
-                "Polar",
-                "HighDesert",
-                "CentralTundra",
-                "WesternTropics",
-                "LowDesert"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.009999999776482582,
             "food": [
@@ -7950,17 +7751,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "HighDesert",
-                "LowDesert",
-                "WesternTropics"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -8100,16 +7890,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "WesternTropics",
-                "HighDesert",
-                "LowDesert",
-                "Equatorial",
-                "EasternTemperate",
-                "WesternTemperate",
-                "Temperate",
-                "EasternTropics"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 1.0,
             "food": [
@@ -8645,19 +8425,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "WesternTropics",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "Polar",
-                "HighDesert",
-                "LowDesert",
-                "CentralTundra"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -9122,17 +8889,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "WesternTropics",
-                "EasternTundra",
-                "WesternTundra",
-                "HighDesert",
-                "LowDesert",
-                "CentralTundra"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -9187,7 +8943,7 @@
             ],
             "foodPreference": "Herbivore",
             "maxTemperatureToBreed": 31.0,
-            "minTemperatureToBreed": 14.0,
+            "minTemperatureToBreed": 12.0,
             "requiredAffinity": 750.0,
             "requiredAffinityPerBaseLevel": 37.5,
             "resources": [
@@ -9204,17 +8960,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "HighDesert",
-                "LowDesert",
-                "WesternTropics"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -9264,9 +9009,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "Polar"
-            ],
             "canBeTamed": false,
             "deathInventoryChance": 1.0,
             "food": [
@@ -9314,9 +9056,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "Polar"
-            ],
             "canBeTamed": false,
             "deathInventoryChance": 1.0,
             "food": [
@@ -9365,16 +9104,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.5,
             "babyTwinsChance": 0.5,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTropics",
-                "EasternTemperate",
-                "WesternTemperate",
-                "Temperate",
-                "Equatorial",
-                "LowDesert",
-                "HighDesert"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.30000001192092896,
             "food": [
@@ -9705,17 +9434,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "EasternTemperate",
-                "WesternTropics",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "HighDesert",
-                "WesternTemperate",
-                "LowDesert"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.30000001192092896,
             "food": [
@@ -10283,13 +10001,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "Equatorial",
-                "HighDesert",
-                "LowDesert",
-                "EasternTemperate",
-                "WesternTemperate"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.0,
             "food": [
@@ -10331,19 +10042,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "EasternTropics",
-                "WesternTemperate",
-                "EasternTemperate",
-                "WesternTropics",
-                "EasternTundra",
-                "WesternTundra",
-                "Equatorial",
-                "Polar",
-                "HighDesert",
-                "LowDesert",
-                "CentralTundra"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 0.30000001192092896,
             "food": [
@@ -10482,9 +10180,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "Polar"
-            ],
             "canBeTamed": true,
             "deathInventoryChance": 1.0,
             "food": [
@@ -10539,9 +10234,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "Polar"
-            ],
             "canBeTamed": false,
             "deathInventoryChance": 1.0,
             "food": [
@@ -10590,9 +10282,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "Polar"
-            ],
             "canBeTamed": false,
             "deathInventoryChance": 1.0,
             "food": [
@@ -10641,9 +10330,6 @@
             "babyGestationSpeed": 3.4722223062999547e-05,
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
-            "breedingBiomes": [
-                "Polar"
-            ],
             "canBeTamed": false,
             "deathInventoryChance": 1.0,
             "food": [
