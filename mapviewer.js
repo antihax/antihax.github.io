@@ -24,7 +24,7 @@ class WorldMap extends React.Component {
       noWrap: true,
     };
 
-    const baseLayer = L.tileLayer("tiles/{z}/{x}/{y}.webp", layerOpts)
+    const baseLayer = L.tileLayer("tiles/{z}/{x}/{y}.png", layerOpts)
 
     var map = this.worldMap = L.map("worldmap", {
       crs: L.CRS.Simple,

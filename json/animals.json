@@ -1462,6 +1462,23 @@
             "requiredAffinityPerBaseLevel": 150.0,
             "tameConsumeInterval": 15.0
         },
+        "Broadsider_BP": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "CarrierTurtle": {
             "XP": 2.0,
             "XPperHit": true,
@@ -2726,8 +2743,8 @@
                 }
             ],
             "foodPreference": "Carnivore",
-            "maxTemperatureToBreed": 0.0,
-            "minTemperatureToBreed": 0.0,
+            "maxTemperatureToBreed": 47.0,
+            "minTemperatureToBreed": 30.0,
             "requiredAffinity": 2500.0,
             "requiredAffinityPerBaseLevel": 75.0,
             "resources": [

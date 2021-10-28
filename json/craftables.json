@@ -90,6 +90,13 @@
                 "Organic Paste": 2.0
             }
         },
+        "Armor Patch Kit": {
+            "Ingredients": {
+                "Fibers": 100.0,
+                "Metal": 200.0,
+                "Thatch": 120.0
+            }
+        },
         "Army of the Damned Chestplate Skin": {
             "Ingredients": {
                 "Gold Coin": 1000.0
@@ -122,6 +129,16 @@
                 "Stone": 200.0,
                 "Thatch": 100.0,
                 "Wood": 600.0
+            }
+        },
+        "Army of the Damned Smithy": {
+            "Ingredients": {
+                "Fibers": 40.0,
+                "Flint": 5.0,
+                "Hide": 65.0,
+                "Metal": 20.0,
+                "Stone": 125.0,
+                "Wood": 20.0
             }
         },
         "Arrow of the Damned": {
@@ -351,6 +368,12 @@
             "Ingredients": {
                 "Berry": 5.0,
                 "Water": 1.0
+            }
+        },
+        "Broadsider": {
+            "Ingredients": {
+                "Dried Tentacle": 50.0,
+                "Gold Coin": 22000.0
             }
         },
         "Bronze Figure Head": {
@@ -671,14 +694,6 @@
             "Ingredients": {
                 "Berry": 5.0,
                 "Water": 1.0
-            }
-        },
-        "Conrol point gun": {
-            "Ingredients": {
-                "Flint": 1.0,
-                "Stone": 6.0,
-                "Thatch": 8.0,
-                "Wood": 3.0
             }
         },
         "Cooked Fish": {
@@ -1141,6 +1156,13 @@
                 "Thatch": 50.0
             }
         },
+        "Front Middle": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
+            }
+        },
         "Fur Boots": {
             "Ingredients": {
                 "Fibers": 14.0,
@@ -1358,6 +1380,22 @@
                 "Hide": 4.0,
                 "Metal": 16.0,
                 "Wood": 2.0
+            }
+        },
+        "Grave Digger": {
+            "Ingredients": {
+                "Fibers": 40.0,
+                "Flint": 50.0,
+                "Hide": 65.0,
+                "Keratinoid": 50.0,
+                "Stone": 125.0,
+                "Wood": 150.0
+            }
+        },
+        "Gravestone": {
+            "Ingredients": {
+                "Stone": 65.0,
+                "Wood": 15.0
             }
         },
         "Green Coloring": {
@@ -1776,6 +1814,16 @@
             "Ingredients": {
                 "Gold Coin": 150.0,
                 "Wood": 50.0
+            }
+        },
+        "Jack O' Lantern": {
+            "Ingredients": {
+                "Fibers": 50.0
+            }
+        },
+        "Jack O' Lantern Helment Skin": {
+            "Ingredients": {
+                "Gold Coin": 200.0
             }
         },
         "Jute": {
@@ -2371,6 +2419,14 @@
                 "Wood": 450.0
             }
         },
+        "Mechanic's Hammer": {
+            "Ingredients": {
+                "Fibers": 22.0,
+                "Metal": 10.0,
+                "Thatch": 14.0,
+                "Wood": 6.0
+            }
+        },
         "Medium Cannon Ball": {
             "Ingredients": {
                 "Flint": 1.0,
@@ -2523,6 +2579,13 @@
                 "Hide": 16.0,
                 "Metal": 18.0,
                 "Wood": 4.0
+            }
+        },
+        "Middle Rear": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
             }
         },
         "Mine": {
@@ -3134,6 +3197,12 @@
                 "Gold Coin": 200.0
             }
         },
+        "Scarecrow": {
+            "Ingredients": {
+                "Thatch": 65.0,
+                "Wood": 15.0
+            }
+        },
         "Schooner": {
             "Ingredients": {
                 "Fibers": 332.0,
@@ -3456,6 +3525,13 @@
                 "Gunpowder": 3.0,
                 "Keratinoid": 1.0,
                 "Metal": 4.0
+            }
+        },
+        "Single Gunport Module": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
             }
         },
         "Sky Coloring": {
@@ -3965,6 +4041,13 @@
                 "Wood": 4.0
             }
         },
+        "Tame Cargo Module": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
+            }
+        },
         "Tan Coloring": {
             "Ingredients": {
                 "Berry": 5.0,
@@ -4191,6 +4274,12 @@
                 "Ballista Bolt": 1.0
             }
         },
+        "Turtle Ship": {
+            "Ingredients": {
+                "Chitin": 150.0,
+                "Gold Coin": 22000.0
+            }
+        },
         "Twigs": {
             "Ingredients": {
                 "Gold Coin": 150.0,
@@ -4198,6 +4287,14 @@
             }
         },
         "Two-Handed Mace": {
+            "Ingredients": {
+                "Fibers": 8.0,
+                "Hide": 12.0,
+                "Metal": 32.0,
+                "Wood": 16.0
+            }
+        },
+        "Two-Handed Scythe": {
             "Ingredients": {
                 "Fibers": 8.0,
                 "Hide": 12.0,
@@ -4478,6 +4575,14 @@
                 "Wood": 12.0
             }
         },
+        "Wood Wall Planter Box": {
+            "Ingredients": {
+                "Flint": 3.0,
+                "Metal": 4.0,
+                "Thatch": 8.0,
+                "Wood": 12.0
+            }
+        },
         "Wooden Billboard": {
             "Ingredients": {
                 "Fibers": 25.0,
@@ -4505,6 +4610,14 @@
                 "Fiber": 2.0,
                 "Thatch": 3.0,
                 "Wood": 10.0
+            }
+        },
+        "Wooden Hanging Planter": {
+            "Ingredients": {
+                "Flint": 3.0,
+                "Metal": 4.0,
+                "Thatch": 8.0,
+                "Wood": 12.0
             }
         },
         "Wooden Ladder": {
@@ -5056,6 +5169,18 @@
                     "add": 5.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 1.0
+                }
+            }
+        },
+        "Candy Corn": {
+            "SpoilTime": 600.0,
+            "Type": "",
+            "Weight": 0.07000000029802322,
+            "stats": {
+                "Food": {
+                    "add": 1.5,
+                    "addOverTime": true,
+                    "addOverTimeSpeed": 3.0
                 }
             }
         },
