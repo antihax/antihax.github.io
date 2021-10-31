@@ -50,7 +50,7 @@ class WorldMap extends React.Component {
     map.Discoveries = L.layerGroup(layerOpts);
     map.Bosses = L.layerGroup(layerOpts);
     map.ControlPoints = L.layerGroup(layerOpts);
-    map.Ships = L.layerGroup(layerOpts).addTo(map);
+    map.Ships = L.layerGroup(layerOpts);
     map.Stones = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
       onAdd: function () {
@@ -241,13 +241,13 @@ class WorldMap extends React.Component {
           map.Bosses.addLayer(pin)
         });
 
-        var krakenSpawn = L.circle([-81.454545454545454545454545454546, 128], {
+        var krakenSpawn = L.circle([-104.7272727272727, 81.454545454545454545454545454546], {
           radius: 1.68,
           interactive: true,
           color: "red",
           fillOpacity: 0,
         }).bindPopup("Kraken Spawn Area");
-        var krakenWall = L.circle([-81.454545454545454545454545454546, 128], {
+        var krakenWall = L.circle([-104.7272727272727, 81.454545454545454545454545454546], {
           radius: 2.35,
           interactive: true,
           color: "blue",
@@ -309,7 +309,7 @@ class WorldMap extends React.Component {
           var p = L.curve(pathing, {
             color: 'red',
             dashArray: '10',
-          }).addTo(map);
+          });
           map.Ships.addLayer(p)
         })
       })
@@ -471,8 +471,12 @@ class WorldMap extends React.Component {
       },
 
       _onMouseMove: function (e) {
-        var lng = L.Util.formatNum(scaleLeafletToAtlas(e.latlng.lng) - 100, 2);
-        var lat = L.Util.formatNum(100 - scaleLeafletToAtlas(-e.latlng.lat), 2);
+
+        //var long = ((y - 100) * 0.3636363636363636) * 1.28  ,
+        //lat = ((100 + x) * 0.3636363636363636) * 1.28 ;
+
+        var lng = L.Util.formatNum((scaleLeafletToAtlas(e.latlng.lng) / 0.3636363636363636) - 100, 2);
+        var lat = L.Util.formatNum(100 - (scaleLeafletToAtlas(-e.latlng.lat) / 0.3636363636363636), 2);
         var value = lng + this.options.separator + lat;
         var prefixAndValue = this.options.prefix + ' ' + value;
         this._container.innerHTML = prefixAndValue;
@@ -593,9 +597,10 @@ function scaleLeafletToAtlas(e) {
   return (e / 1.28);
 }
 
+// temporary hack due to GPS now going -100 to 450 etc.
 function GPStoLeaflet(x, y) {
-  var long = (y - 100) * 1.28,
-    lat = (100 + x) * 1.28;
+  var long = ((y - 100) * 0.3636363636363636) * 1.28  ,
+    lat = ((100 + x) * 0.3636363636363636) * 1.28 ;
 
   return [long, lat];
 }
