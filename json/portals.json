@@ -1,0 +1,532 @@
+[
+	{
+		"Nodes": [
+			{
+				"PortalName": "Southwest Perpetual Portal",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 5830994.5,
+				"worldY": 6843005.5
+			},
+			{
+				"PortalName": "Southwest Perpetual Portal Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 4870333.5,
+				"worldY": 7510058
+			}
+		],
+		"PathId": 5,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Northern Perpetual Portal",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 11933059,
+				"worldY": 58320.3
+			},
+			{
+				"PortalName": "Northern Perpetual Portal Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 3544672.25,
+				"worldY": 14628916
+			}
+		],
+		"PathId": 6,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Damaged Portal 4",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_Gem_BASE.PrimalItemResource_Gem_BASE": 50
+				},
+				"rotation": 0,
+				"worldX": 14179483,
+				"worldY": 12392228
+			},
+			{
+				"PortalName": "Damaged Portal 4 Exit 3",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 14985069,
+				"worldY": 14241537
+			},
+			{
+				"PortalName": "Damaged Portal 4 Exit 2",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 14638377,
+				"worldY": 14520555
+			},
+			{
+				"PortalName": "Damaged Portal 4.1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 14148254,
+				"worldY": 14498496
+			}
+		],
+		"PathId": 7,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Damaged Portal 1 Entry",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_Gem_BASE.PrimalItemResource_Gem_BASE": 50
+				},
+				"rotation": 0,
+				"worldX": 14670036,
+				"worldY": 2226876.5
+			},
+			{
+				"PortalName": "Damaged Portal 1 Exit 3",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 4558873.5,
+				"worldY": 10472841
+			},
+			{
+				"PortalName": "Damaged Portal 1 Exit1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 5319272.5,
+				"worldY": 10291803
+			},
+			{
+				"PortalName": "Damaged Portal 1 Exit 2",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 4353738.5,
+				"worldY": 11065591
+			}
+		],
+		"PathId": 8,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Damaged Portal 2",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_Gem_BASE.PrimalItemResource_Gem_BASE": 50
+				},
+				"rotation": 0,
+				"worldX": 2164821.5,
+				"worldY": 10044581
+			},
+			{
+				"PortalName": "Damaged Portal 2 Exit 3",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 12867125,
+				"worldY": 4971638
+			},
+			{
+				"PortalName": "Damaged Portal 2 Exit 1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 13266428,
+				"worldY": 4578419
+			},
+			{
+				"PortalName": "Damaged Portal 2 Exit 2",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 13655755,
+				"worldY": 4737392.5
+			}
+		],
+		"PathId": 9,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Damaged Portal 3",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_Gem_BASE.PrimalItemResource_Gem_BASE": 50
+				},
+				"rotation": 0,
+				"worldX": 4931645.5,
+				"worldY": 12877589
+			},
+			{
+				"PortalName": "Damaged Portal 3 Exit 2",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 13342327,
+				"worldY": 1659537.75
+			},
+			{
+				"PortalName": "Damaged Portal 3 Exit 3",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 13026344,
+				"worldY": 1743461.25
+			},
+			{
+				"PortalName": "Damaged Portal 3 Exit 1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 13854744,
+				"worldY": 1936069.75
+			}
+		],
+		"PathId": 10,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Central Portal",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 10519795,
+				"worldY": 3566164.25
+			},
+			{
+				"PortalName": "Central Portal Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 5168387,
+				"worldY": 6411720
+			}
+		],
+		"PathId": 11,
+		"PathName": "",
+		"PathPortalType": 2,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Antarctic Perpetual Portal 1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 194822,
+				"worldY": 10441696
+			},
+			{
+				"PortalName": "Antarctic Perpetual Portal 1 Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 8701321,
+				"worldY": 13135847
+			}
+		],
+		"PathId": 13,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Antarctic Perpetual Portal 2",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 10597665,
+				"worldY": 12400015
+			},
+			{
+				"PortalName": "Antarctic Perpetual Portal 2 Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 10540248,
+				"worldY": 13022939
+			}
+		],
+		"PathId": 14,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Damaged Portal 5",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_Gem_BASE.PrimalItemResource_Gem_BASE": 50
+				},
+				"rotation": 0,
+				"worldX": 10091538,
+				"worldY": 15242108
+			},
+			{
+				"PortalName": "Damaged Portal 5 Exit 1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 9643497,
+				"worldY": 5407035
+			},
+			{
+				"PortalName": "Damaged Portal 5 Exit 3",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 8490021,
+				"worldY": 5204262
+			},
+			{
+				"PortalName": "Damaged Portal 5 Exit 2",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 9375098,
+				"worldY": 4847376.5
+			}
+		],
+		"PathId": 15,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "East-West Perpetual Portal",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 10087646,
+				"worldY": 8713081
+			},
+			{
+				"PortalName": "East-West Perptual Portal Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 6260236.5,
+				"worldY": 10686974
+			}
+		],
+		"PathId": 16,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "PortalNode_17_0",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 13326852,
+				"worldY": 6813161.5
+			},
+			{
+				"PortalName": "PortalNode_17_1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 11913272,
+				"worldY": 10097141
+			}
+		],
+		"PathId": 17,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Maw Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 4625517,
+				"worldY": 6404077
+			},
+			{
+				"PortalName": "Maw Exit.1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 10065269,
+				"worldY": 3563568.5
+			}
+		],
+		"PathId": 23,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Damaged Portal 6",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_Gem_BASE.PrimalItemResource_Gem_BASE": 50
+				},
+				"rotation": 0,
+				"worldX": 14763473,
+				"worldY": 7696933.5
+			},
+			{
+				"PortalName": "Damaged Portal 6 Exit 1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 8164049.5,
+				"worldY": 3936026
+			},
+			{
+				"PortalName": "Damaged Portal 6 Exit 2",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 7553040.5,
+				"worldY": 3848428
+			},
+			{
+				"PortalName": "Damaged Portal 6 Exit 3",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 7109207,
+				"worldY": 3965225.75
+			}
+		],
+		"PathId": 25,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Damaged Portal 7",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_Gem_BASE.PrimalItemResource_Gem_BASE": 50
+				},
+				"rotation": 0,
+				"worldX": 735987.8,
+				"worldY": 12882782
+			},
+			{
+				"PortalName": "Damaged Portal 7 Exit 1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 1102072.5,
+				"worldY": 12399583
+			},
+			{
+				"PortalName": "Damaged Portal 7 Exit 2",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 621489.7,
+				"worldY": 12304629
+			},
+			{
+				"PortalName": "Damaged Portal Exit 3",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 194094.125,
+				"worldY": 12399797
+			}
+		],
+		"PathId": 26,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Pathfinder Portal 1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 677588.6,
+				"worldY": 2154202.75
+			},
+			{
+				"PortalName": "Pathfinder Portal 1 Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 6312145,
+				"worldY": 4941117.5
+			}
+		],
+		"PathId": 31,
+		"PathName": "",
+		"PathPortalType": 3,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Pathfinder Portal 2",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 2086955.5,
+				"worldY": 2141225.25
+			},
+			{
+				"PortalName": "Pathfinder Portal 2 Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 6291381,
+				"worldY": 3706322.75
+			}
+		],
+		"PathId": 32,
+		"PathName": "",
+		"PathPortalType": 3,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Pathfinder Portal 3",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 3504108.75,
+				"worldY": 2129545
+			},
+			{
+				"PortalName": "Pathfinder Portal 3 Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 7685176,
+				"worldY": 2137331
+			}
+		],
+		"PathId": 33,
+		"PathName": "",
+		"PathPortalType": 3,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Pathfinder Portal 4",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 4891414.5,
+				"worldY": 2139927
+			},
+			{
+				"PortalName": "Pathfinder Portal 4 Exit",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 6318634.5,
+				"worldY": 2145117.75
+			}
+		],
+		"PathId": 34,
+		"PathName": "",
+		"PathPortalType": 3,
+		"isLooping": false
+	}
+]

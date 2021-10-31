@@ -50,6 +50,7 @@ class WorldMap extends React.Component {
     map.Discoveries = L.layerGroup(layerOpts);
     map.Bosses = L.layerGroup(layerOpts);
     map.ControlPoints = L.layerGroup(layerOpts);
+    map.Portals = L.layerGroup(layerOpts);
     map.Ships = L.layerGroup(layerOpts);
     map.Stones = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
@@ -100,6 +101,7 @@ class WorldMap extends React.Component {
       ControlPoints: map.ControlPoints,
       //Islands: map.Islands.addTo(map),
       Resources: map.IslandResources.addTo(map),
+      Portals: map.Portals,
       Bosses: map.Bosses,
       Ships: map.Ships,
       Stones: map.Stones,
@@ -200,7 +202,26 @@ class WorldMap extends React.Component {
       iconAnchor: [16, 16],
     });
 
-    fetch('json/bosses.json', {
+    fetch('json/portals.json', {
+        dataType: 'json'
+      })
+      .then(res => res.json())
+      .then(function (portals) {
+        portals.forEach(d => {
+          pin.bindPopup(`${d.name}: ${d.long.toFixed(2)} / ${d.lat.toFixed(2)}`, {
+            showOnMouseOver: true,
+            autoPan: true,
+            keepInView: true,
+          });
+
+          map.Portals.addLayer(pin)
+        });
+      })
+      .catch(error => {
+        console.log(error)
+      });
+
+      fetch('json/bosses.json', {
         dataType: 'json'
       })
       .then(res => res.json())
@@ -259,7 +280,7 @@ class WorldMap extends React.Component {
       .catch(error => {
         console.log(error)
       });
-
+      
     fetch('json/stones.json', {
         dataType: 'json'
       })
@@ -281,6 +302,8 @@ class WorldMap extends React.Component {
       .catch(error => {
         console.log(error)
       });
+
+
 
     fetch('json/shipPaths.json', {
         dataType: 'json'
@@ -306,9 +329,18 @@ class WorldMap extends React.Component {
             pathing.push('S', unrealToLeafletArray(previous), unrealToLeafletArray(center))
           }
 
+          let color = "yellow";
+          let opacity = 0.5;
+          console.log(path)
+          if (path.PathName.includes("Ghost")) {
+            color = "darkred";
+            opacity = 1;
+          }
+            
           var p = L.curve(pathing, {
-            color: 'red',
+            color: color,
             dashArray: '10',
+            opacity: opacity,
           });
           map.Ships.addLayer(p)
         })
@@ -471,10 +503,6 @@ class WorldMap extends React.Component {
       },
 
       _onMouseMove: function (e) {
-
-        //var long = ((y - 100) * 0.3636363636363636) * 1.28  ,
-        //lat = ((100 + x) * 0.3636363636363636) * 1.28 ;
-
         var lng = L.Util.formatNum((scaleLeafletToAtlas(e.latlng.lng) / 0.3636363636363636) - 100, 2);
         var lat = L.Util.formatNum(100 - (scaleLeafletToAtlas(-e.latlng.lat) / 0.3636363636363636), 2);
         var value = lng + this.options.separator + lat;
@@ -804,9 +832,10 @@ function getIslandIcon(Island) {
   else
     return "HUD_Peace_Icon.png";
 }
+
 var GlobalSelectedIsland = null;
 var GlobalPriortyQueue = new PriorityQueue();
-setInterval(updateIsland, 1000)
+setInterval(updateIsland, 1000);
 
 function updateIsland() {
   while (!GlobalPriortyQueue.isEmpty()) {

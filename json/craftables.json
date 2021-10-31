@@ -9,6 +9,27 @@
                 "Wood": 250.0
             }
         },
+        "1Tier Monument": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
+            }
+        },
+        "1Tier Monument Floor": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
+            }
+        },
+        "1Tier Monument Framework": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
+            }
+        },
         "Aberrant Helmet Skin": {
             "Ingredients": {
                 "Gold Coin": 1.0
@@ -131,14 +152,23 @@
                 "Wood": 600.0
             }
         },
+        "Army of the Damned Ritual Pedistal": {
+            "Ingredients": {
+                "Cursed Bone Chips": 50.0,
+                "Cursed Wood": 100.0,
+                "Stone": 100.0
+            }
+        },
         "Army of the Damned Smithy": {
             "Ingredients": {
-                "Fibers": 40.0,
-                "Flint": 5.0,
-                "Hide": 65.0,
-                "Metal": 20.0,
-                "Stone": 125.0,
-                "Wood": 20.0
+                "Cursed Wood": 60.0,
+                "Metal": 100.0
+            }
+        },
+        "Army of the Damned Song Stone": {
+            "Ingredients": {
+                "Cursed Bone Chips": 50.0,
+                "Stone": 200.0
             }
         },
         "Arrow of the Damned": {
@@ -146,6 +176,12 @@
                 "Fibers": 3.0,
                 "Flint": 1.0,
                 "Thatch": 1.0
+            }
+        },
+        "Astronomy Room": {
+            "Ingredients": {
+                "Stone": 200.0,
+                "Wood": 400.0
             }
         },
         "Atlantean Spire": {
@@ -213,6 +249,14 @@
             "Ingredients": {
                 "Flint": 40.0,
                 "Gold Coin": 50.0
+            }
+        },
+        "Basic Shipyard": {
+            "Ingredients": {
+                "Fibers": 500.0,
+                "Stone": 250.0,
+                "Thatch": 1000.0,
+                "Wood": 2000.0
             }
         },
         "Bee Hive": {
@@ -372,8 +416,11 @@
         },
         "Broadsider": {
             "Ingredients": {
-                "Dried Tentacle": 50.0,
-                "Gold Coin": 22000.0
+                "Fibers": 5000.0,
+                "Gold Coin": 375.0,
+                "Metal": 42.0,
+                "Thatch": 5000.0,
+                "Wood": 6250.0
             }
         },
         "Bronze Figure Head": {
@@ -413,6 +460,32 @@
                 "Fibers": 26.0,
                 "Thatch": 20.0,
                 "Wood": 36.0
+            }
+        },
+        "Burial Mound": {
+            "Ingredients": {
+                "Crystal": 200.0,
+                "Cursed Bone Chips": 400.0,
+                "Cursed Wood": 500.0,
+                "Stone": 3000.0,
+                "Wood": 800.0
+            }
+        },
+        "Burial Mound Foundation": {
+            "Ingredients": {
+                "Crystal": 200.0,
+                "Cursed Bone Chips": 500.0,
+                "Cursed Wood": 1000.0,
+                "Stone": 2500.0,
+                "Wood": 800.0
+            }
+        },
+        "Burial Mound Framework": {
+            "Ingredients": {
+                "Cursed Wood": 200.0,
+                "Fibers": 400.0,
+                "Stone": 500.0,
+                "Wood": 800.0
             }
         },
         "Calcite": {
@@ -482,6 +555,15 @@
                 "Metal": 68.0,
                 "Thatch": 85.0,
                 "Wood": 450.0
+            }
+        },
+        "Carrack": {
+            "Ingredients": {
+                "Fibers": 4400.0,
+                "Gold Coin": 300.0,
+                "Metal": 24.0,
+                "Thatch": 4400.0,
+                "Wood": 5500.0
             }
         },
         "Catapult Turret": {
@@ -690,10 +772,27 @@
                 "Water": 1.0
             }
         },
+        "Cog": {
+            "Ingredients": {
+                "Fibers": 400.0,
+                "Gold Coin": 50.0,
+                "Metal": 4.0,
+                "Thatch": 400.0,
+                "Wood": 500.0
+            }
+        },
         "Conifer Green Coloring": {
             "Ingredients": {
                 "Berry": 5.0,
                 "Water": 1.0
+            }
+        },
+        "Conrol point gun": {
+            "Ingredients": {
+                "Flint": 1.0,
+                "Stone": 6.0,
+                "Thatch": 8.0,
+                "Wood": 3.0
             }
         },
         "Cooked Fish": {
@@ -814,6 +913,68 @@
             "Ingredients": {
                 "Fibers": 10.0,
                 "Stone": 1.0
+            }
+        },
+        "Culinary Studies": {
+            "Ingredients": {
+                "Flint": 200.0,
+                "Metal": 400.0,
+                "Stone": 500.0,
+                "Wood": 800.0
+            }
+        },
+        "Cursed Boots": {
+            "Ingredients": {
+                "Cursed Bone Chips": 30.0,
+                "Metal": 30.0
+            }
+        },
+        "Cursed Gloves": {
+            "Ingredients": {
+                "Cursed Bone Chips": 30.0,
+                "Metal": 30.0
+            }
+        },
+        "Cursed Grog": {
+            "Ingredients": {
+                "Saps": 5.0,
+                "Water": 1.0
+            }
+        },
+        "Cursed Helmet": {
+            "Ingredients": {
+                "Cursed Bone Chips": 30.0,
+                "Metal": 30.0
+            }
+        },
+        "Cursed Pants": {
+            "Ingredients": {
+                "Cursed Bone Chips": 30.0,
+                "Metal": 25.0
+            }
+        },
+        "Cursed Shirt": {
+            "Ingredients": {
+                "Cursed Bone Chips": 35.0,
+                "Metal": 15.0
+            }
+        },
+        "Cursed Temple": {
+            "Ingredients": {
+                "Crystal": 2000.0,
+                "Cursed Bone Chips": 15000.0,
+                "Cursed Wood": 10000.0,
+                "Stone": 10000.0,
+                "Wood": 5000.0
+            }
+        },
+        "Cursed Temple Foundation": {
+            "Ingredients": {
+                "Crystal": 500.0,
+                "Cursed Bone Chips": 1500.0,
+                "Cursed Wood": 1500.0,
+                "Stone": 4000.0,
+                "Wood": 2000.0
             }
         },
         "Custom Flag": {
@@ -1001,6 +1162,15 @@
             "Ingredients": {
                 "Gem": 15.0,
                 "Gold Coin": 50.0
+            }
+        },
+        "Equipables Studies": {
+            "Ingredients": {
+                "Flint": 250.0,
+                "Hide": 125.0,
+                "Metal": 600.0,
+                "Stone": 300.0,
+                "Wood": 400.0
             }
         },
         "Explosive Barrel": {
@@ -1384,12 +1554,12 @@
         },
         "Grave Digger": {
             "Ingredients": {
-                "Fibers": 40.0,
-                "Flint": 50.0,
-                "Hide": 65.0,
-                "Keratinoid": 50.0,
+                "Fibers": 320.0,
+                "Hide": 100.0,
+                "Metal": 360.0,
                 "Stone": 125.0,
-                "Wood": 150.0
+                "Thatch": 400.0,
+                "Wood": 1200.0
             }
         },
         "Gravestone": {
@@ -1480,6 +1650,16 @@
                 "Obsidian": 50.0,
                 "Polymer": 30.0,
                 "Wood": 40.0
+            }
+        },
+        "Harrier Ship": {
+            "Ingredients": {
+                "Fibers": 2000.0,
+                "Gold Coin": 150.0,
+                "Gunpowder": 100.0,
+                "Metal": 15.0,
+                "Thatch": 2000.0,
+                "Wood": 2500.0
             }
         },
         "Hatchet": {
@@ -2344,6 +2524,14 @@
                 "Wood": 16.0
             }
         },
+        "Macuahuitl": {
+            "Ingredients": {
+                "Fibers": 12.0,
+                "Hide": 6.0,
+                "Metal": 28.0,
+                "Wood": 4.0
+            }
+        },
         "Madang Green Coloring": {
             "Ingredients": {
                 "Berry": 5.0,
@@ -2359,7 +2547,11 @@
         "Majestic Kraken": {
             "Ingredients": {
                 "Dried Tentacle": 50.0,
-                "Gold Coin": 22000.0
+                "Fibers": 5000.0,
+                "Gold Coin": 22000.0,
+                "Metal": 30.0,
+                "Thatch": 5000.0,
+                "Wood": 6250.0
             }
         },
         "Mammoth Saddle": {
@@ -2635,8 +2827,12 @@
         },
         "Mortar Ship": {
             "Ingredients": {
-                "Gold Coin": 22000.0,
-                "Gunpowder": 200.0
+                "Fibers": 1600.0,
+                "Gold Coin": 100.0,
+                "Gunpowder": 200.0,
+                "Metal": 12.0,
+                "Thatch": 1600.0,
+                "Wood": 2000.0
             }
         },
         "Mortar Shot": {
@@ -3047,8 +3243,12 @@
         },
         "Ramming Galley": {
             "Ingredients": {
-                "Gold Coin": 22000.0,
-                "Rhino Horn": 75.0
+                "Fibers": 2400.0,
+                "Gold Coin": 200.0,
+                "Metal": 18.0,
+                "Rhino Horn": 50.0,
+                "Thatch": 2400.0,
+                "Wood": 3000.0
             }
         },
         "Reaper's Regard": {
@@ -3122,6 +3322,16 @@
             "Ingredients": {
                 "Gold Coin": 50.0,
                 "Salt": 40.0
+            }
+        },
+        "Room Smithy": {
+            "Ingredients": {
+                "Fibers": 40.0,
+                "Flint": 5.0,
+                "Hide": 65.0,
+                "Metal": 20.0,
+                "Stone": 125.0,
+                "Wood": 20.0
             }
         },
         "Roots": {
@@ -3966,6 +4176,13 @@
                 "Wood": 50.0
             }
         },
+        "Strucutre Studies": {
+            "Ingredients": {
+                "Flint": 200.0,
+                "Stone": 750.0,
+                "Wood": 250.0
+            }
+        },
         "Stuffed & Baked Fish": {
             "Ingredients": {
                 "Cooked Fish": 5.0,
@@ -4182,6 +4399,20 @@
                 "Organic Paste": 32.0
             }
         },
+        "Tier Two Monument": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
+            }
+        },
+        "Tier Two Monument Floor": {
+            "Ingredients": {
+                "Fibers": 20.0,
+                "Thatch": 60.0,
+                "Wood": 40.0
+            }
+        },
         "Tin": {
             "Ingredients": {
                 "Gold Coin": 50.0,
@@ -4274,10 +4505,20 @@
                 "Ballista Bolt": 1.0
             }
         },
+        "Transient tracker": {
+            "Ingredients": {
+                "Crystal": 10.0,
+                "Gold Coin": 20.0
+            }
+        },
         "Turtle Ship": {
             "Ingredients": {
-                "Chitin": 150.0,
-                "Gold Coin": 22000.0
+                "Chitin": 0.0,
+                "Fibers": 4400.0,
+                "Gold Coin": 375.0,
+                "Metal": 72.0,
+                "Thatch": 4400.0,
+                "Wood": 5500.0
             }
         },
         "Twigs": {
@@ -4318,6 +4559,39 @@
         "Vertical Electrical Cable": {
             "Ingredients": {
                 "Metal Ingot": 2.0
+            }
+        },
+        "Vessel Studies": {
+            "Ingredients": {
+                "Fibers": 120.0,
+                "Hide": 235.0,
+                "Wood": 500.0
+            }
+        },
+        "VooDoo Totem": {
+            "Ingredients": {
+                "Crystal": 200.0,
+                "Cursed Bone Chips": 400.0,
+                "Cursed Wood": 500.0,
+                "Stone": 3000.0,
+                "Wood": 800.0
+            }
+        },
+        "VooDoo Totem Foundation": {
+            "Ingredients": {
+                "Crystal": 200.0,
+                "Cursed Bone Chips": 500.0,
+                "Cursed Wood": 1000.0,
+                "Stone": 2500.0,
+                "Wood": 800.0
+            }
+        },
+        "VooDoo Totem Framework": {
+            "Ingredients": {
+                "Cursed Wood": 200.0,
+                "Fibers": 400.0,
+                "Stone": 500.0,
+                "Wood": 800.0
             }
         },
         "Wall Hook Base": {
@@ -4707,15 +4981,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -4729,15 +4998,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -4746,15 +5010,15 @@
             "Type": "Alcohol Based",
             "Weight": 0.07000000029802322,
             "stats": {
+                "Stamina": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
+                },
                 "VitaminA": {
                     "add": 2.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
-                },
-                "Water": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
                 }
             }
         },
@@ -4768,10 +5032,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -4785,10 +5049,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "Water": {
-                    "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -4815,14 +5079,14 @@
                     "addOverTimeSpeed": 5.0
                 },
                 "Health": {
-                    "add": -5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminB": {
-                    "add": 2.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -4837,14 +5101,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -4858,15 +5117,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -4881,14 +5135,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 55.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 55.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -4902,10 +5151,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -4919,10 +5168,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -4936,15 +5185,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 4.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "VitaminB": {
-                    "add": 1.0,
+                "Health": {
+                    "add": 0.0,
                     "addOverTime": false,
-                    "addOverTimeSpeed": 5.0
+                    "addOverTimeSpeed": 0.0
+                },
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -4953,18 +5202,18 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
-                "Food": {
-                    "add": 50.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 30.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
+                },
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 },
                 "VitaminA": {
                     "add": 50.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 360.0
-                },
-                "VitaminB": {
-                    "add": 10.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 360.0
                 }
@@ -4980,10 +5229,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -4997,15 +5246,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5026,15 +5270,15 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
+                "Stamina": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
+                },
                 "VitaminA": {
                     "add": 2.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
-                },
-                "Water": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
                 }
             }
         },
@@ -5048,15 +5292,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5070,10 +5309,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -5083,9 +5322,9 @@
             "Weight": 0.07000000029802322,
             "stats": {
                 "Health": {
-                    "add": -30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 8.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "Torpidity": {
                     "add": 80.0,
@@ -5104,15 +5343,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5121,10 +5355,10 @@
             "Type": "",
             "Weight": 14.0,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -5138,18 +5372,18 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
-                "Food": {
-                    "add": 50.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 30.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
+                },
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 },
                 "VitaminA": {
                     "add": 65.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
-                },
-                "VitaminC": {
-                    "add": 10.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 300.0
                 }
@@ -5165,10 +5399,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5207,14 +5441,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 55.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 55.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5228,10 +5457,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5245,10 +5474,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5257,18 +5486,18 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
-                "Food": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 30.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
+                },
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 },
                 "VitaminB": {
                     "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
-                },
-                "VitaminC": {
-                    "add": 25.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 300.0
                 }
@@ -5284,10 +5513,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -5301,10 +5530,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5313,10 +5542,10 @@
             "Type": "",
             "Weight": 0.699999988079071,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -5335,10 +5564,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5352,10 +5581,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -5369,10 +5598,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "Water": {
-                    "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -5386,10 +5615,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5403,10 +5632,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5420,15 +5649,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 60.0
                 },
-                "VitaminA": {
+                "Health": {
                     "add": 0.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 60.0
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "Water": {
-                    "add": 15.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 60.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.2891945871788317e-43
                 }
             }
         },
@@ -5442,10 +5671,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5459,10 +5688,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
                 },
-                "VitaminD": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5476,10 +5705,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
                 },
-                "VitaminB": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5493,10 +5722,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "VitaminB": {
-                    "add": 15.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -5510,10 +5739,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "VitaminD": {
-                    "add": 15.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -5527,10 +5756,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -5544,15 +5773,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 50.0
                 },
-                "VitaminA": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminD": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -5561,10 +5790,10 @@
             "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -5584,14 +5813,31 @@
                     "addOverTimeSpeed": 5.0
                 },
                 "Health": {
-                    "add": -5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminD": {
-                    "add": 4.0,
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
+                }
+            }
+        },
+        "Cursed Grog": {
+            "SpoilTime": 0.0,
+            "Type": "Alcohol Based",
+            "Weight": 0.07000000029802322,
+            "stats": {
+                "Stamina": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
+                },
+                "VitaminB": {
+                    "add": 2.0,
                     "addOverTime": true,
-                    "addOverTimeSpeed": 10.0
+                    "addOverTimeSpeed": 100.0
                 }
             }
         },
@@ -5605,20 +5851,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 60.0
                 },
-                "VitaminB": {
-                    "add": 32.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Health": {
+                    "add": 6.116667796777827e-42,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminC": {
-                    "add": 12.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
-                },
-                "Water": {
-                    "add": 15.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 60.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -5627,22 +5868,17 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
+                "Health": {
+                    "add": 6.118069095242151e-42,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
+                },
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
+                },
                 "VitaminA": {
-                    "add": 12.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 500.0
-                },
-                "VitaminB": {
-                    "add": 12.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 900.0
-                },
-                "VitaminC": {
-                    "add": 12.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 500.0
-                },
-                "VitaminD": {
                     "add": 12.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 500.0
@@ -5660,14 +5896,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5682,14 +5913,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5704,14 +5930,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5725,15 +5946,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 50.0
                 },
-                "VitaminA": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3600.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminB": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3600.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -5747,10 +5968,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "VitaminD": {
-                    "add": 2.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -5765,14 +5986,14 @@
                     "addOverTimeSpeed": 5.0
                 },
                 "Health": {
-                    "add": -1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminB": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -5786,10 +6007,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -5798,10 +6019,10 @@
             "Type": "",
             "Weight": 4.199999809265137,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -5820,15 +6041,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5837,15 +6053,15 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
-                "Food": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
                 "Health": {
                     "add": -1000.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 20.0
+                },
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 7.286752014489049e-44
                 }
             }
         },
@@ -5860,14 +6076,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5882,14 +6093,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5898,10 +6104,10 @@
             "Type": "",
             "Weight": 0.699999988079071,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -5915,10 +6121,10 @@
             "Type": "",
             "Weight": 0.699999988079071,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -5932,10 +6138,10 @@
             "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -5955,14 +6161,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5977,14 +6178,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -5999,14 +6195,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6021,14 +6212,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6037,10 +6223,10 @@
             "Type": "",
             "Weight": 7.0,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -6060,14 +6246,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6076,10 +6257,10 @@
             "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -6099,14 +6280,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6115,10 +6291,10 @@
             "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -6138,14 +6314,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6154,10 +6325,10 @@
             "Type": "",
             "Weight": 1.1200000047683716,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -6177,14 +6348,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6193,10 +6359,10 @@
             "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -6216,14 +6382,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6232,10 +6393,10 @@
             "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -6249,10 +6410,10 @@
             "Type": "",
             "Weight": 3.8499999046325684,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -6266,10 +6427,10 @@
             "Type": "",
             "Weight": 0.699999988079071,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -6289,14 +6450,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 45.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 45.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6311,14 +6467,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6333,14 +6484,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6349,10 +6495,10 @@
             "Type": "",
             "Weight": 1.1200000047683716,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -6372,14 +6518,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6405,15 +6546,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 50.0
                 },
-                "VitaminC": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminD": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -6428,14 +6569,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 100.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 100.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6450,14 +6586,14 @@
                     "addOverTimeSpeed": 5.0
                 },
                 "Health": {
-                    "add": -5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminD": {
-                    "add": 2.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -6471,15 +6607,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6494,14 +6625,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6515,10 +6641,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -6532,10 +6658,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
                 },
-                "Health": {
-                    "add": 8.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Stamina": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -6550,14 +6676,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 150.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 120.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6572,14 +6693,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6588,10 +6704,10 @@
             "Type": "",
             "Weight": 7.0,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -6610,10 +6726,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -6622,15 +6738,15 @@
             "Type": "Alcohol Based",
             "Weight": 0.07000000029802322,
             "stats": {
+                "Stamina": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
+                },
                 "VitaminB": {
                     "add": 2.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
-                },
-                "Water": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
                 }
             }
         },
@@ -6644,10 +6760,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
                 },
-                "VitaminA": {
-                    "add": 2.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -6662,14 +6778,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6683,20 +6794,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 60.0
                 },
-                "VitaminB": {
-                    "add": 12.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Health": {
+                    "add": 6.119470393706476e-42,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminD": {
-                    "add": 32.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
-                },
-                "Water": {
-                    "add": 15.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 60.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -6722,10 +6828,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "Health": {
-                    "add": -5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -6734,13 +6840,13 @@
             "Type": "",
             "Weight": 1.0499999523162842,
             "stats": {
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.2891945871788317e-43
+                },
                 "VitaminD": {
                     "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 10.0
-                },
-                "Water": {
-                    "add": 2.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 10.0
                 }
@@ -6781,14 +6887,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6803,14 +6904,14 @@
                     "addOverTimeSpeed": 5.0
                 },
                 "Health": {
-                    "add": -5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminB": {
-                    "add": 4.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 10.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -6825,14 +6926,14 @@
                     "addOverTimeSpeed": 5.0
                 },
                 "Health": {
-                    "add": -5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminB": {
-                    "add": 2.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -6847,14 +6948,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -6869,14 +6965,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 55.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 55.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -7142,10 +7233,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -7159,15 +7250,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -7181,10 +7267,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -7198,10 +7284,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "Water": {
-                    "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -7215,10 +7301,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -7232,10 +7318,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "Health": {
-                    "add": -5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -7249,10 +7335,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "Health": {
-                    "add": -5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -7266,10 +7352,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -7295,10 +7381,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -7307,15 +7393,15 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.2891945871788317e-43
+                },
                 "VitaminD": {
                     "add": 5.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 10.0
-                },
-                "Water": {
-                    "add": 8.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 60.0
                 }
             }
         },
@@ -7324,15 +7410,15 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.2891945871788317e-43
+                },
                 "VitaminD": {
                     "add": 5.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 10.0
-                },
-                "Water": {
-                    "add": 8.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 60.0
                 }
             }
         },
@@ -7346,10 +7432,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -7363,15 +7449,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 50.0
                 },
-                "VitaminC": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminD": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -7385,10 +7471,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "Torpidity": {
-                    "add": 7.5,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 7.286752014489049e-44
                 }
             }
         },
@@ -7397,10 +7483,10 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
-                "Health": {
-                    "add": 8.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 16.0
+                "Stamina": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "Torpidity": {
                     "add": 40.0,
@@ -7414,18 +7500,18 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
-                "Food": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 30.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
+                },
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 },
                 "VitaminA": {
                     "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
-                },
-                "VitaminC": {
-                    "add": 25.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 300.0
                 }
@@ -7441,10 +7527,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -7458,10 +7544,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -7475,10 +7561,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -7499,10 +7585,10 @@
             "Type": "",
             "Weight": 2.0999999046325684,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -7522,14 +7608,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 30.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -7544,14 +7625,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -7560,10 +7636,10 @@
             "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -7582,10 +7658,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -7600,14 +7676,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -7622,14 +7693,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -7638,10 +7704,10 @@
             "Type": "",
             "Weight": 1.1200000047683716,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -7660,10 +7726,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -7689,10 +7755,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -7706,15 +7772,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 60.0
                 },
-                "VitaminA": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminB": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -7728,10 +7794,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -7745,10 +7811,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "VitaminB": {
-                    "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -7762,10 +7828,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "VitaminD": {
-                    "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -7779,10 +7845,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "VitaminD": {
-                    "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -7797,14 +7863,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -7818,15 +7879,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 50.0
                 },
-                "VitaminC": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminD": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -7841,14 +7902,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 45.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 45.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -7863,14 +7919,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -7885,14 +7936,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -7913,10 +7959,10 @@
             "Type": "",
             "Weight": 4.900000095367432,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -7935,15 +7981,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 50.0
                 },
-                "VitaminA": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3600.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminB": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3600.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -7957,10 +8003,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -7974,10 +8020,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -7991,10 +8037,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "Water": {
-                    "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -8008,10 +8054,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "Health": {
-                    "add": -25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -8025,10 +8071,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -8042,15 +8088,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 50.0
                 },
-                "VitaminA": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminD": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8064,10 +8110,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "Health": {
-                    "add": -5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Oxygen": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -8081,15 +8127,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
                 },
-                "VitaminD": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "Water": {
-                    "add": -3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8103,15 +8149,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
                 },
-                "VitaminB": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "Water": {
-                    "add": -3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8125,15 +8171,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
                 },
-                "VitaminD": {
-                    "add": 9.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "Water": {
-                    "add": -3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8147,15 +8193,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 6.0
                 },
-                "VitaminB": {
-                    "add": 9.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "Water": {
-                    "add": -3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8170,14 +8216,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8191,10 +8232,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "Water": {
-                    "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -8208,15 +8249,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8230,15 +8266,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8247,10 +8278,10 @@
             "Type": "",
             "Weight": 0.8400000333786011,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -8264,10 +8295,10 @@
             "Type": "",
             "Weight": 3.8499999046325684,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -8286,15 +8317,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 50.0
                 },
-                "VitaminA": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminB": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8332,15 +8363,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 50.0
                 },
-                "VitaminA": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3600.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminB": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3600.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8354,20 +8385,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 60.0
                 },
-                "VitaminB": {
-                    "add": 12.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
+                "Health": {
+                    "add": 6.118069095242151e-42,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminC": {
-                    "add": 32.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 300.0
-                },
-                "Water": {
-                    "add": -20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 60.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8381,20 +8407,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 60.0
                 },
-                "VitaminA": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 10.0
-                },
-                "VitaminD": {
-                    "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 10.0
-                },
-                "Water": {
-                    "add": 5.0,
+                "Health": {
+                    "add": 6.119470393706476e-42,
                     "addOverTime": false,
-                    "addOverTimeSpeed": 60.0
+                    "addOverTimeSpeed": 0.0
+                },
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8409,14 +8430,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 55.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 55.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8430,10 +8446,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -8447,10 +8463,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
                 },
-                "VitaminD": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 5.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 }
             }
         },
@@ -8464,20 +8480,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "Stamina": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Torpidity": {
-                    "add": -10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
-                },
-                "Water": {
-                    "add": -10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 6.105457409063228e-42,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8486,15 +8492,15 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
+                "Stamina": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
+                },
                 "Torpidity": {
                     "add": -40.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 5.0
-                },
-                "Water": {
-                    "add": -15.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 15.0
                 }
             }
         },
@@ -8508,15 +8514,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8530,20 +8531,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 60.0
                 },
-                "VitaminB": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 10.0
-                },
-                "VitaminD": {
-                    "add": 10.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 10.0
-                },
-                "Water": {
-                    "add": 5.0,
+                "Health": {
+                    "add": 6.119470393706476e-42,
                     "addOverTime": false,
-                    "addOverTimeSpeed": 60.0
+                    "addOverTimeSpeed": 0.0
+                },
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8582,9 +8578,9 @@
                     "addOverTimeSpeed": 6.0
                 },
                 "Health": {
-                    "add": 10.0,
+                    "add": 0.0,
                     "addOverTime": false,
-                    "addOverTimeSpeed": 0.0
+                    "addOverTimeSpeed": 1.1210387714598537e-44
                 }
             }
         },
@@ -8598,15 +8594,15 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 50.0
                 },
-                "VitaminA": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3600.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 },
-                "VitaminB": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3600.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.0436202645135027e-42
                 }
             }
         },
@@ -8621,14 +8617,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 35.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8642,10 +8633,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -8659,10 +8650,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -8671,10 +8662,10 @@
             "Type": "",
             "Weight": 14.0,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -8694,14 +8685,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 45.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 45.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8716,14 +8702,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8737,10 +8718,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8754,10 +8735,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 5.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -8772,14 +8753,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 20.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 25.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8793,36 +8769,21 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 900.0
                 },
-                "VitaminA": {
-                    "add": 100.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 900.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.0
                 },
-                "VitaminB": {
-                    "add": 100.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 900.0
-                },
-                "VitaminC": {
-                    "add": 100.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 900.0
-                },
-                "VitaminD": {
-                    "add": 100.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 900.0
-                },
-                "Water": {
-                    "add": 200.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 900.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.165319802932518e-41
                 }
             }
         },
         "Vegetable": {
-            "SpoilTime": 300.0,
-            "Type": "Wild Vegetable",
+            "SpoilTime": 8640.0,
+            "Type": "Vegetable",
             "Weight": 0.07000000029802322,
             "stats": {
                 "Food": {
@@ -8830,15 +8791,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminC": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
-                },
-                "Water": {
-                    "add": 0.20000000298023224,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         },
@@ -8859,10 +8815,10 @@
             "Type": "",
             "Weight": 1.1200000047683716,
             "stats": {
-                "Food": {
-                    "add": 3.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 3.923635700109488e-44
                 },
                 "VitaminA": {
                     "add": 3.0,
@@ -8876,15 +8832,15 @@
             "Type": "",
             "Weight": 0.07000000029802322,
             "stats": {
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.2891945871788317e-43
+                },
                 "VitaminD": {
                     "add": 5.0,
                     "addOverTime": true,
                     "addOverTimeSpeed": 10.0
-                },
-                "Water": {
-                    "add": 8.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 60.0
                 }
             }
         },
@@ -8922,10 +8878,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -8939,10 +8895,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -8956,10 +8912,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -8973,10 +8929,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -8990,10 +8946,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9007,10 +8963,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9024,10 +8980,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9041,10 +8997,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9058,10 +9014,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9075,10 +9031,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9092,10 +9048,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9109,10 +9065,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9126,10 +9082,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9143,10 +9099,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9160,10 +9116,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9177,10 +9133,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 1.0
+                "Torpidity": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 1.7376100957627732e-43
                 }
             }
         },
@@ -9194,10 +9150,10 @@
                     "addOverTime": true,
                     "addOverTimeSpeed": 3.0
                 },
-                "VitaminA": {
-                    "add": 1.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 3.0
+                "Health": {
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 8.407790785948902e-44
                 }
             }
         },
@@ -9212,14 +9168,9 @@
                     "addOverTimeSpeed": 4.0
                 },
                 "Health": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
-                },
-                "Stamina": {
-                    "add": 80.0,
-                    "addOverTime": true,
-                    "addOverTimeSpeed": 4.0
+                    "add": 0.0,
+                    "addOverTime": false,
+                    "addOverTimeSpeed": 0.0
                 }
             }
         }

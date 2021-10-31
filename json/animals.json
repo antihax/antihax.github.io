@@ -9144,7 +9144,7 @@
                 },
                 {
                     "affinityOverride": 87.5,
-                    "foodEffectivenessMultiplier": 7.5,
+                    "foodEffectivenessMultiplier": 5.0,
                     "name": "Insect Meat",
                     "weight": 0.07000000029802322
                 }
