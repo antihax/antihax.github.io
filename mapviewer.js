@@ -1,5 +1,5 @@
 if (!window) {
-  function require() {}
+  function require() { }
   const
     React = require("react"),
     ReactDOM = require("react-dom"),
@@ -154,10 +154,33 @@ class WorldMap extends React.Component {
       })
     }
 
+    var Portal1Icon = L.icon({
+      iconUrl: 'icons/Portal1.svg',
+      iconSize: [16, 16],
+      iconAnchor: [8, 8],
+    });
+
+    var Portal2Icon = L.icon({
+      iconUrl: 'icons/Portal2.svg',
+      iconSize: [16, 16],
+      iconAnchor: [8, 8],
+    });
+    var Portal3Icon = L.icon({
+      iconUrl: 'icons/Portal3.svg',
+      iconSize: [16, 16],
+      iconAnchor: [8, 8],
+    });
+
+    var Portal4Icon = L.icon({
+      iconUrl: 'icons/Portal4.svg',
+      iconSize: [12, 12],
+      iconAnchor: [6, 6],
+    });    
+
     var CPIcon = L.icon({
       iconUrl: 'icons/lighthouse.svg',
       iconSize: [16, 16],
-      iconAnchor: [16, 16],
+      iconAnchor: [8, 8],
     });
 
     var hydraIcon = L.icon({
@@ -203,27 +226,72 @@ class WorldMap extends React.Component {
     });
 
     fetch('json/portals.json', {
-        dataType: 'json'
-      })
+      dataType: 'json'
+    })
       .then(res => res.json())
       .then(function (portals) {
         portals.forEach(d => {
-          pin.bindPopup(`${d.name}: ${d.long.toFixed(2)} / ${d.lat.toFixed(2)}`, {
-            showOnMouseOver: true,
-            autoPan: true,
-            keepInView: true,
-          });
+          let first, firstPin = null
+          let icon = Portal1Icon
 
-          map.Portals.addLayer(pin)
+          console.log(d)
+          switch (d.PathPortalType) {
+            case 0: icon = Portal1Icon; break;
+            case 1: icon = Portal2Icon; break;
+            case 2: icon = Portal3Icon; break;
+            case 3: icon = Portal4Icon; break;
+          }
+
+          d.Nodes.forEach(node => {
+            let pin = new L.Marker(unrealToLeaflet(node.worldX, node.worldY), {
+              icon: icon,
+              portalID: d.PathId,
+              portalType: d.PathPortalType,
+            });
+            pin.bindPopup(node.PortalName + " " +  d.PathPortalType, {
+              showOnMouseOver: true,
+              autoPan: true,
+              keepInView: true,
+            });
+            pin.on({
+              'mouseover': (e) => {
+                e.target.firstPin.lines.forEach(line => {
+                  console.log(line)
+                  line.setStyle({ opacity: 1 })
+                })
+              },
+              'mouseout': (e) => {
+                e.target.firstPin.lines.forEach(line => {
+                  line.setStyle({ opacity: 0.1 })
+                })
+              }
+            })
+            map.Portals.addLayer(pin)
+            if (first == null) {
+              first = node
+              pin.lines = []
+              pin.firstPin = pin
+              firstPin = pin
+            } else {
+              var pl = L.polyline(
+                [unrealToLeaflet(node.worldX, node.worldY),
+                unrealToLeaflet(first.worldX, first.worldY)],
+                { color: 'red', opacity: 0.1 }
+              );
+              firstPin.lines.push(pl)
+              pin.firstPin = firstPin
+              map.Portals.addLayer(pl)
+            }
+          })
         });
       })
       .catch(error => {
         console.log(error)
       });
 
-      fetch('json/bosses.json', {
-        dataType: 'json'
-      })
+    fetch('json/bosses.json', {
+      dataType: 'json'
+    })
       .then(res => res.json())
       .then(function (bosses) {
         bosses.forEach(d => {
@@ -280,10 +348,10 @@ class WorldMap extends React.Component {
       .catch(error => {
         console.log(error)
       });
-      
+
     fetch('json/stones.json', {
-        dataType: 'json'
-      })
+      dataType: 'json'
+    })
       .then(res => res.json())
       .then(function (stones) {
         stones.forEach(d => {
@@ -306,8 +374,8 @@ class WorldMap extends React.Component {
 
 
     fetch('json/shipPaths.json', {
-        dataType: 'json'
-      })
+      dataType: 'json'
+    })
       .then(res => res.json())
       .then(function (paths) {
         paths.forEach(path => {
@@ -331,12 +399,11 @@ class WorldMap extends React.Component {
 
           let color = "yellow";
           let opacity = 0.5;
-          console.log(path)
           if (path.PathName.includes("Ghost")) {
             color = "darkred";
             opacity = 1;
           }
-            
+
           var p = L.curve(pathing, {
             color: color,
             dashArray: '10',
@@ -350,8 +417,8 @@ class WorldMap extends React.Component {
       });
 
     fetch('json/islands.json', {
-        dataType: 'json'
-      })
+      dataType: 'json'
+    })
       .then(res => res.json())
       .then(function (islands) {
         map._islands = islands;
@@ -403,9 +470,6 @@ class WorldMap extends React.Component {
             for (let b in circle.biomes.sort()) {
               let biome = circle.biomes[b];
               html += `${biome.name} [Min: ${biome.temp[0].toFixed()}  Max: ${biome.temp[1].toFixed()}]<br>`;
-            }
-            if (circle.biomes.length == 0) {
-              html += `<font color="red"><b>NO BIOMES - NO BREEDING</b></font><br>`;
             }
 
             html += `<ul class='split-ul'>`;
@@ -573,351 +637,351 @@ class WorldMap extends React.Component {
   }
 
   render() {
-    return ( <
-      div id = "worldmap" > < /div>
-    )
+    return (<
+      div id="worldmap" > < /div>
+      )
   }
 }
 
-class App extends React.Component {
-  constructor(props) {
-    super(props)
+      class App extends React.Component {
+        constructor(props) {
+        super(props)
 
     this.state = {
-      notification: {},
-      entities: {},
-      tribes: {},
+        notification: { },
+      entities: { },
+      tribes: { },
       sending: false,
     }
   }
 
-  render() {
+      render() {
     const {
-      notification
-    } = this.state
-    return ( <
-      div className = "App" >
-      <
-      WorldMap / >
-      <
-      div className = {
-        "notification " + (notification.type || "hidden")
-      } > {
-        notification.msg
-      } <
-      button className = "close"
-      onClick = {
-        () => this.setState({
-          notification: {}
-        })
-      } > Dismiss < /button> < /
+        notification
+      } = this.state
+      return ( <
+      div className="App" >
+        <
+          WorldMap />
+        <
+      div className={
+            "notification " + (notification.type || "hidden")
+          } > {
+            notification.msg
+          } <
+            button className="close"
+            onClick={
+              () => this.setState({
+                notification: {}
+              })
+            } > Dismiss < /button> < /
       div > <
       /div>
-    )
+            )
   }
 }
 
-function scaleAtlasToLeaflet(e) {
+            function scaleAtlasToLeaflet(e) {
   return (e + 100) * (1.28);
 }
 
-function scaleLeafletToAtlas(e) {
+            function scaleLeafletToAtlas(e) {
   return (e / 1.28);
 }
 
-// temporary hack due to GPS now going -100 to 450 etc.
-function GPStoLeaflet(x, y) {
+            // temporary hack due to GPS now going -100 to 450 etc.
+            function GPStoLeaflet(x, y) {
   var long = ((y - 100) * 0.3636363636363636) * 1.28  ,
-    lat = ((100 + x) * 0.3636363636363636) * 1.28 ;
+            lat = ((100 + x) * 0.3636363636363636) * 1.28 ;
 
-  return [long, lat];
+            return [long, lat];
 }
 
-function unrealToLeaflet(x, y) {
+            function unrealToLeaflet(x, y) {
   const unrealx = config.GridSize * config.ServersX;
-  const unrealy = config.GridSize * config.ServersY;
-  var long = -((y / unrealy) * 256),
-    lat = ((x / unrealx) * 256);
-  return [long, lat];
+            const unrealy = config.GridSize * config.ServersY;
+            var long = -((y / unrealy) * 256),
+            lat = ((x / unrealx) * 256);
+            return [long, lat];
 }
 
-function rotateVector2DAroundAxis(vec, axis, ang) {
-  ang = ang * (Math.PI / 180);
-  var cos = Math.cos(ang);
-  var sin = Math.sin(ang);
+            function rotateVector2DAroundAxis(vec, axis, ang) {
+              ang = ang * (Math.PI / 180);
+            var cos = Math.cos(ang);
+            var sin = Math.sin(ang);
 
-  // Translate to axis
-  vec[0] -= axis[0];
-  vec[1] -= axis[1];
+            // Translate to axis
+            vec[0] -= axis[0];
+            vec[1] -= axis[1];
 
-  var r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos);
+            var r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos);
 
-  // Translate back to world
-  r[0] += axis[0];
-  r[1] += axis[1];
+            // Translate back to world
+            r[0] += axis[0];
+            r[1] += axis[1];
 
-  return r;
+            return r;
 }
 
-function rotatePoints(center, points, yaw) {
+            function rotatePoints(center, points, yaw) {
   var res = []
-  var angle = yaw * (Math.PI / 180)
-  for (var i = 0; i < points.length; i++) {
+            var angle = yaw * (Math.PI / 180)
+            for (var i = 0; i < points.length; i++) {
     var p = points[i]
-    var p2 = [p[0] - center[0], p[1] - center[1]]
-    var p3 = [Math.cos(angle) * p2[0] - Math.sin(angle) * p2[1], Math.sin(angle) * p2[0] + Math.cos(angle) * p2[1]]
-    var p4 = [p3[0] + center[0], p3[1] + center[1]]
-    res.push(p4)
+            var p2 = [p[0] - center[0], p[1] - center[1]]
+            var p3 = [Math.cos(angle) * p2[0] - Math.sin(angle) * p2[1], Math.sin(angle) * p2[0] + Math.cos(angle) * p2[1]]
+            var p4 = [p3[0] + center[0], p3[1] + center[1]]
+            res.push(p4)
   }
-  return res
+            return res
 }
 
-function unrealToLeafletArray(a) {
+            function unrealToLeafletArray(a) {
   return unrealToLeaflet(a[0], a[1]);
 }
 
-function constraint(value, minRange, maxRange, minVal, maxVal) {
+            function constraint(value, minRange, maxRange, minVal, maxVal) {
   return (((value - minVal) / (maxVal - minVal)) * (maxRange - minRange) + minRange);
 }
 
-function ccc(x, y) {
+            function ccc(x, y) {
   var precision = (256 / config.ServersX);
-  var gridXName = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O'];
-  var gridX = gridXName[Math.floor(x / precision)];
-  var gridY = Math.floor(y / precision) + 1;
-  var localX = constraint(x % precision, -700000, 700000, 0, precision).toFixed(0);
-  var localY = constraint(y % precision, -700000, 700000, 0, precision).toFixed(0);
+            var gridXName = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O'];
+            var gridX = gridXName[Math.floor(x / precision)];
+            var gridY = Math.floor(y / precision) + 1;
+            var localX = constraint(x % precision, -700000, 700000, 0, precision).toFixed(0);
+            var localY = constraint(y % precision, -700000, 700000, 0, precision).toFixed(0);
 
-  return [gridX + gridY, localX, localY];
+            return [gridX + gridY, localX, localY];
 }
 
-// Get local URI for requests
-function getLocalURI() {
+            // Get local URI for requests
+            function getLocalURI() {
   var loc = window.location,
-    new_uri;
-  if (loc.protocol === "https:") {
-    new_uri = "wss:";
+            new_uri;
+            if (loc.protocol === "https:") {
+              new_uri = "wss:";
   } else {
-    new_uri = "ws:";
+              new_uri = "ws:";
   }
-  new_uri += "//" + loc.host;
-  return new_uri;
+            new_uri += "//" + loc.host;
+            return new_uri;
 }
 
-ReactDOM.render( <
-  App refresh = {
-    5 * 1000 /* 5 seconds */
-  }
-  />,
-  document.getElementById("app")
-)
+            ReactDOM.render( <
+              App refresh={
+                5 * 1000 /* 5 seconds */
+              }
+            />,
+            document.getElementById("app")
+            )
 
-class QElement {
-  constructor(element, priority) {
-    this.element = element;
-    this.priority = priority;
+            class QElement {
+              constructor(element, priority) {
+              this.element = element;
+            this.priority = priority;
   }
 }
-class PriorityQueue {
-  constructor() {
-    this.items = [];
+            class PriorityQueue {
+              constructor() {
+              this.items = [];
   }
-  enqueue(element, priority) {
+            enqueue(element, priority) {
     var qElement = new QElement(element, priority);
-    var contain = false;
-    for (var i = 0; i < this.items.length; i++) {
+            var contain = false;
+            for (var i = 0; i < this.items.length; i++) {
       if (this.items[i].priority > qElement.priority) {
-        this.items.splice(i, 0, qElement);
-        contain = true;
-        break;
+              this.items.splice(i, 0, qElement);
+            contain = true;
+            break;
       }
     }
-    if (!contain) {
-      this.items.push(qElement);
+            if (!contain) {
+              this.items.push(qElement);
     }
   }
-  dequeue() {
+            dequeue() {
     return this.items.shift();
   }
-  front() {
+            front() {
     return this.items[0];
   }
-  isEmpty() {
+            isEmpty() {
     return this.items.length == 0;
   }
-  clear() {
-    this.items = []
-  }
+            clear() {
+              this.items = []
+            }
 }
 
-function formatSeconds(InTime) {
+            function formatSeconds(InTime) {
   var Days = 0
-  var Hours = Math.floor(InTime / 3600);
-  var Minutes = Math.floor((InTime % 3600) / 60);
-  var Seconds = Math.floor((InTime % 3600) % 60);
+            var Hours = Math.floor(InTime / 3600);
+            var Minutes = Math.floor((InTime % 3600) / 60);
+            var Seconds = Math.floor((InTime % 3600) % 60);
   if (Hours >= 24) {
-    Days = Math.floor(Hours / 24);
-    Hours = Hours - (Days * 24)
+              Days = Math.floor(Hours / 24);
+            Hours = Hours - (Days * 24)
   }
   if (Days > 0)
-    return Days + "d:" + Hours + "h:" + Minutes + "n:" + Seconds + "s";
+            return Days + "d:" + Hours + "h:" + Minutes + "n:" + Seconds + "s";
   else if (Hours > 0)
-    return Hours + "h:" + Minutes + "m:" + Seconds + "s";
+            return Hours + "h:" + Minutes + "m:" + Seconds + "s";
   else if (Minutes > 0)
-    return Minutes + "m:" + Seconds + "s";
-  else
-    return Seconds + "s";
+            return Minutes + "m:" + Seconds + "s";
+            else
+            return Seconds + "s";
 }
 
-function getWarState(Island) {
+            function getWarState(Island) {
   var now = Math.floor(Date.now() / 1000)
   if (now >= Island.WarStartUTC && now < Island.WarEndUTC) {
-    Island.bWar = true;
-    Island.WarNextUpdateSec = Island.WarEndUTC - now;
-    return "AT WAR! ENDS IN " + formatSeconds(Island.WarNextUpdateSec)
+              Island.bWar = true;
+            Island.WarNextUpdateSec = Island.WarEndUTC - now;
+            return "AT WAR! ENDS IN " + formatSeconds(Island.WarNextUpdateSec)
   } else if (now < Island.WarStartUTC) {
-    Island.bWar = false;
-    Island.WarNextUpdateSec = Island.WarStartUTC - now;
-    return "WAR BEGINS IN " + formatSeconds(Island.WarNextUpdateSec)
+              Island.bWar = false;
+            Island.WarNextUpdateSec = Island.WarStartUTC - now;
+            return "WAR BEGINS IN " + formatSeconds(Island.WarNextUpdateSec)
   } else if (now < Island.WarEndUTC + 5 * 24 * 3600) {
-    Island.bWar = false;
-    Island.WarNextUpdateSec = Island.WarEndUTC + 5 * 24 * 3600 - now;
-    return "CAN DECLARE WAR IN " + formatSeconds(Island.WarNextUpdateSec)
+              Island.bWar = false;
+            Island.WarNextUpdateSec = Island.WarEndUTC + 5 * 24 * 3600 - now;
+            return "CAN DECLARE WAR IN " + formatSeconds(Island.WarNextUpdateSec)
   } else {
-    Island.bWar = false;
-    Island.WarNextUpdateSec = Number.MAX_SAFE_INTEGER;
-    return "War can be declared on this settlement."
+              Island.bWar = false;
+            Island.WarNextUpdateSec = Number.MAX_SAFE_INTEGER;
+            return "War can be declared on this settlement."
   }
 }
 
-function getPeaceState(Island) {
+            function getPeaceState(Island) {
   var now = new Date();
-  var CombatStartSeconds = Island.CombatPhaseStartTime;
-  var CombatEndSeconds = (CombatStartSeconds + 32400) % 86400;
-  var CurrentDaySeconds = (3600 * now.getUTCHours()) + (60 * now.getUTCMinutes()) + now.getUTCSeconds();
+            var CombatStartSeconds = Island.CombatPhaseStartTime;
+            var CombatEndSeconds = (CombatStartSeconds + 32400) % 86400;
+            var CurrentDaySeconds = (3600 * now.getUTCHours()) + (60 * now.getUTCMinutes()) + now.getUTCSeconds();
   if (CombatEndSeconds > CombatStartSeconds) {
     if (CurrentDaySeconds < CombatStartSeconds) {
-      Island.bCombat = false;
-      Island.CombatNextUpdateSec = CombatStartSeconds - CurrentDaySeconds;
-      return "In Peace Phase. " + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
+              Island.bCombat = false;
+            Island.CombatNextUpdateSec = CombatStartSeconds - CurrentDaySeconds;
+            return "In Peace Phase. " + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
     } else if (CurrentDaySeconds >= CombatStartSeconds && CurrentDaySeconds < CombatEndSeconds) {
-      Island.bCombat = true;
-      Island.CombatNextUpdateSec = CombatEndSeconds - CurrentDaySeconds;
-      return "In Combat Phase! " + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
+              Island.bCombat = true;
+            Island.CombatNextUpdateSec = CombatEndSeconds - CurrentDaySeconds;
+            return "In Combat Phase! " + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
     } else {
-      Island.bCombat = false;
-      Island.CombatNextUpdateSec = 86400 - CurrentDaySeconds + CombatStartSeconds
-      return "In Peace Phase." + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
+              Island.bCombat = false;
+            Island.CombatNextUpdateSec = 86400 - CurrentDaySeconds + CombatStartSeconds
+            return "In Peace Phase." + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
     }
   } else {
     if (CurrentDaySeconds >= CombatStartSeconds) {
-      Island.bCombat = true;
-      Island.CombatNextUpdateSec = 86400 - CurrentDaySeconds + CombatEndSeconds;
-      return "In Combat Phase! " + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
+              Island.bCombat = true;
+            Island.CombatNextUpdateSec = 86400 - CurrentDaySeconds + CombatEndSeconds;
+            return "In Combat Phase! " + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
     } else if (CurrentDaySeconds < CombatEndSeconds) {
-      Island.bCombat = true;
-      Island.CombatNextUpdateSec = CombatEndSeconds - CurrentDaySeconds;
-      return "In Combat Phase! " + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
+              Island.bCombat = true;
+            Island.CombatNextUpdateSec = CombatEndSeconds - CurrentDaySeconds;
+            return "In Combat Phase! " + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
     } else {
-      Island.bCombat = false;
-      Island.CombatNextUpdateSec = CombatStartSeconds - CurrentDaySeconds;
-      return "In Peace Phase. " + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
+              Island.bCombat = false;
+            Island.CombatNextUpdateSec = CombatStartSeconds - CurrentDaySeconds;
+            return "In Peace Phase. " + formatSeconds(Island.CombatNextUpdateSec) + " remaining"
     }
   }
 }
 
-function getIslandIcon(Island) {
+            function getIslandIcon(Island) {
   if (Island.bWar || Island.bCombat)
-    return "HUD_War_Icon.png";
-  else
-    return "HUD_Peace_Icon.png";
+            return "HUD_War_Icon.png";
+            else
+            return "HUD_Peace_Icon.png";
 }
 
-var GlobalSelectedIsland = null;
-var GlobalPriortyQueue = new PriorityQueue();
-setInterval(updateIsland, 1000);
+            var GlobalSelectedIsland = null;
+            var GlobalPriortyQueue = new PriorityQueue();
+            setInterval(updateIsland, 1000);
 
-function updateIsland() {
+            function updateIsland() {
   while (!GlobalPriortyQueue.isEmpty()) {
     var now = Math.floor(Date.now() / 1000);
     if (GlobalPriortyQueue.front().priority > now)
-      break;
-    var Island = GlobalPriortyQueue.dequeue().element;
-    getWarState(Island);
-    getPeaceState(Island);
-    var el = document.getElementById("island_" + Island.IslandID);
-    if (el != null) {
+            break;
+            var Island = GlobalPriortyQueue.dequeue().element;
+            getWarState(Island);
+            getPeaceState(Island);
+            var el = document.getElementById("island_" + Island.IslandID);
+            if (el != null) {
       var img = el.getElementsByClassName("islandlabel_size")[0];
-      img.src = getIslandIcon(Island);
+            img.src = getIslandIcon(Island);
     }
-    var nextUpdate = Island.CombatNextUpdateSec;
-    if (Island.WarNextUpdateSec < nextUpdate)
-      nextUpdate = Island.WarNextUpdateSec;
-    GlobalPriortyQueue.enqueue(Island, now + nextUpdate + 1);
+            var nextUpdate = Island.CombatNextUpdateSec;
+            if (Island.WarNextUpdateSec < nextUpdate)
+            nextUpdate = Island.WarNextUpdateSec;
+            GlobalPriortyQueue.enqueue(Island, now + nextUpdate + 1);
   }
-  if (GlobalSelectedIsland != null) {
+            if (GlobalSelectedIsland != null) {
     var phase = document.getElementById("pop_up_phase")
-    if (phase != null)
-      phase.innerHTML = getPeaceState(GlobalSelectedIsland)
-    var war = document.getElementById("pop_up_war")
-    if (war != null)
-      war.innerHTML = getWarState(GlobalSelectedIsland)
+            if (phase != null)
+            phase.innerHTML = getPeaceState(GlobalSelectedIsland)
+            var war = document.getElementById("pop_up_war")
+            if (war != null)
+            war.innerHTML = getWarState(GlobalSelectedIsland)
   }
 }
-class IslandCircle extends L.Circle {
-  constructor(latlng, options) {
-    super(latlng, options)
+            class IslandCircle extends L.Circle {
+              constructor(latlng, options) {
+              super(latlng, options)
     this.Island = null
-    this.bindPopup = this.bindPopup.bind(this)
-    this._popupMouseOut = this._popupMouseOut.bind(this)
-    this._getParent = this._getParent.bind(this)
+            this.bindPopup = this.bindPopup.bind(this)
+            this._popupMouseOut = this._popupMouseOut.bind(this)
+            this._getParent = this._getParent.bind(this)
   }
-  bindPopup(htmlContent, options) {
+            bindPopup(htmlContent, options) {
     if (options && options.showOnMouseOver) {
-      L.Marker.prototype.bindPopup.apply(this, [htmlContent, options]);
-      this.off("click", this.openPopup, this);
-      this.on("mouseover", function (e) {
+              L.Marker.prototype.bindPopup.apply(this, [htmlContent, options]);
+            this.off("click", this.openPopup, this);
+            this.on("mouseover", function (e) {
         var target = e.originalEvent.fromElement || e.originalEvent.relatedTarget;
-        var parent = this._getParent(target, "leaflet-popup");
-        if (parent == this._popup._container)
-          return true;
-        GlobalSelectedIsland = this.Island
-        this.openPopup();
+            var parent = this._getParent(target, "leaflet-popup");
+            if (parent == this._popup._container)
+            return true;
+            GlobalSelectedIsland = this.Island
+            this.openPopup();
       }, this);
-      this.on("mouseout", function (e) {
+            this.on("mouseout", function (e) {
         var target = e.originalEvent.toElement || e.originalEvent.relatedTarget;
-        if (this._getParent(target, "leaflet-popup")) {
-          L.DomEvent.on(this._popup._container, "mouseout", this._popupMouseOut, this);
-          return true;
+            if (this._getParent(target, "leaflet-popup")) {
+              L.DomEvent.on(this._popup._container, "mouseout", this._popupMouseOut, this);
+            return true;
         }
-        this.closePopup();
-        GlobalSelectedIsland = null
+            this.closePopup();
+            GlobalSelectedIsland = null
       }, this);
     }
   }
-  _popupMouseOut(e) {
-    L.DomEvent.off(this._popup, "mouseout", this._popupMouseOut, this);
-    var target = e.toElement || e.relatedTarget;
-    if (this._getParent(target, "leaflet-popup"))
-      return true;
-    if (target == this._path)
-      return true;
-    this.closePopup();
-    GlobalSelectedIsland = null;
+            _popupMouseOut(e) {
+              L.DomEvent.off(this._popup, "mouseout", this._popupMouseOut, this);
+            var target = e.toElement || e.relatedTarget;
+            if (this._getParent(target, "leaflet-popup"))
+            return true;
+            if (target == this._path)
+            return true;
+            this.closePopup();
+            GlobalSelectedIsland = null;
   }
-  _getParent(element, className) {
+            _getParent(element, className) {
     if (element == null)
-      return false;
-    var parent = element.parentNode;
-    while (parent != null) {
+            return false;
+            var parent = element.parentNode;
+            while (parent != null) {
       if (parent.className && L.DomUtil.hasClass(parent, className))
-        return parent;
-      parent = parent.parentNode;
+            return parent;
+            parent = parent.parentNode;
     }
-    return false;
+            return false;
   }
 }
 
-function escapeHTML(unsafe_str) {
+            function escapeHTML(unsafe_str) {
   return unsafe_str.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/\"/g, '"').replace(/\'/g, '\'');
 }
