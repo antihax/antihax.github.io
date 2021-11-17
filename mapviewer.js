@@ -50,7 +50,7 @@ class WorldMap extends React.Component {
     map.Discoveries = L.layerGroup(layerOpts);
     map.Bosses = L.layerGroup(layerOpts);
     map.ControlPoints = L.layerGroup(layerOpts);
-    map.Portals = L.layerGroup(layerOpts);
+    map.Portals = L.layerGroup(layerOpts).addTo(map);
     map.Ships = L.layerGroup(layerOpts);
     map.Stones = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
@@ -234,7 +234,6 @@ class WorldMap extends React.Component {
           let first, firstPin = null
           let icon = Portal1Icon
 
-          console.log(d)
           switch (d.PathPortalType) {
             case 0: icon = Portal1Icon; break;
             case 1: icon = Portal2Icon; break;
@@ -256,7 +255,6 @@ class WorldMap extends React.Component {
             pin.on({
               'mouseover': (e) => {
                 e.target.firstPin.lines.forEach(line => {
-                  console.log(line)
                   line.setStyle({ opacity: 1 })
                 })
               },
