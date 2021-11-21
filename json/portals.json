@@ -528,5 +528,27 @@
 		"PathName": "",
 		"PathPortalType": 3,
 		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "PortalNode_35_0",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 9549939,
+				"worldY": 1952616.75
+			},
+			{
+				"PortalName": "PortalNode_35_1",
+				"RequiredResource": {},
+				"rotation": 0,
+				"worldX": 9829939,
+				"worldY": 1952616.75
+			}
+		],
+		"PathId": 35,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
 	}
 ]
