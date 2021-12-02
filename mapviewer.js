@@ -51,6 +51,7 @@ class WorldMap extends React.Component {
     map.Bosses = L.layerGroup(layerOpts);
     map.ControlPoints = L.layerGroup(layerOpts);
     map.Portals = L.layerGroup(layerOpts).addTo(map);
+    map.Altars = L.layerGroup(layerOpts);
     map.Ships = L.layerGroup(layerOpts);
     map.Stones = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
@@ -102,6 +103,7 @@ class WorldMap extends React.Component {
       //Islands: map.Islands.addTo(map),
       Resources: map.IslandResources.addTo(map),
       Portals: map.Portals,
+      Altars: map.Altars,
       Bosses: map.Bosses,
       Ships: map.Ships,
       Stones: map.Stones,
@@ -175,7 +177,7 @@ class WorldMap extends React.Component {
       iconUrl: 'icons/Portal4.svg',
       iconSize: [12, 12],
       iconAnchor: [6, 6],
-    });    
+    });
 
     var CPIcon = L.icon({
       iconUrl: 'icons/lighthouse.svg',
@@ -219,6 +221,12 @@ class WorldMap extends React.Component {
       iconAnchor: [16, 16],
     });
 
+    var altarIcon = L.icon({
+      iconUrl: 'icons/Altar.svg',
+      iconSize: [16, 16],
+      iconAnchor: [8, 8],
+    });
+
     var stoneIcon = L.icon({
       iconUrl: 'icons/Stone.svg',
       iconSize: [32, 32],
@@ -247,7 +255,7 @@ class WorldMap extends React.Component {
               portalID: d.PathId,
               portalType: d.PathPortalType,
             });
-            pin.bindPopup(node.PortalName + " " +  d.PathPortalType, {
+            pin.bindPopup(node.PortalName + " " + d.PathPortalType, {
               showOnMouseOver: true,
               autoPan: true,
               keepInView: true,
@@ -287,6 +295,26 @@ class WorldMap extends React.Component {
         console.log(error)
       });
 
+    fetch('json/altars.json', {
+      dataType: 'json'
+    })
+      .then(res => res.json())
+      .then(function (altars) {
+        altars.forEach(d => {
+          let pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+            icon: altarIcon,
+          });
+          pin.bindPopup(d.name, {
+            showOnMouseOver: true,
+            autoPan: true,
+            keepInView: true,
+          });
+          map.Altars.addLayer(pin)
+        });
+      })
+      .catch(error => {
+        console.log(error)
+      });
     fetch('json/bosses.json', {
       dataType: 'json'
     })

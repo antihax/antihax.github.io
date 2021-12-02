@@ -104,7 +104,7 @@
 			"Western Tundra"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.959999918937683,
+			"qualityMultiplier": 2.74399995803833,
 			"spawnLimits": [
 				360,
 				57000,
@@ -443,7 +443,7 @@
 			"Equatorial At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.5625,
+			"qualityMultiplier": 1.953125,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1105,7 +1105,7 @@
 			"Western Tropics (Freeport)"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.5625,
+			"qualityMultiplier": 1.953125,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1165,7 +1165,7 @@
 			"Equatorial At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.959999918937683,
+			"qualityMultiplier": 2.74399995803833,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1833,7 +1833,20 @@
 		}
 	},
 	"C5": {
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
 		"biomes": [
 			"Central Tundra",
 			"Eastern Tropics",
@@ -1842,10 +1855,11 @@
 			"Eastern Temperate Mountain Peak",
 			"Equatorial At Land",
 			"Equatorial Ocean Water",
-			"Polar"
+			"Polar",
+			"Eastern Tundra"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.5625,
+			"qualityMultiplier": 1.953125,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1854,7 +1868,39 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Arctic Raspberry",
+			"Bamboo",
+			"Bark",
+			"Basalt (Rock)",
+			"Calcite",
+			"Chalcedony",
+			"Edible Greens Seed",
+			"Garlic",
+			"Geode",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Hemp",
+			"Iron (Rock)",
+			"Kala Namak",
+			"Lignonberry",
+			"Limestone",
+			"Maps",
+			"Marble (Rock)",
+			"Potato Seed",
+			"Quartz",
+			"Radiolarite",
+			"Resin",
+			"Roots",
+			"Silver",
+			"Slate",
+			"Straw",
+			"Sulfur",
+			"Tin",
+			"Wetwood",
+			"Wild Greens",
+			"Wild Potato"
+		],
 		"serverCustomDatas1": ",RainIntervalMultiplier,RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
 		"serverCustomDatas2": ",0.36,0.36,1.25,0.33,1.25,0.4,",
 		"serverIslandPointsMultiplier": 1,
@@ -2672,7 +2718,7 @@
 			"Eastern Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.959999918937683,
+			"qualityMultiplier": 2.74399995803833,
 			"spawnLimits": [
 				360,
 				57000,
@@ -3533,21 +3579,17 @@
 	"F1": {
 		"animals": [
 			"Bear",
-			"Chicken",
-			"Cobra",
-			"Cow",
 			"Crow",
-			"Horse",
-			"Lion",
-			"Pig",
+			"Penguin",
 			"Rabbit",
 			"Seagull",
-			"Sheep",
-			"Wolf"
+			"Wolf",
+			"Yeti"
 		],
 		"biomes": [
 			"Western Tundra",
 			"Central Tundra",
+			"Polar",
 			"At Land",
 			"Ocean Water",
 			"Eastern Tundra"
@@ -3566,35 +3608,21 @@
 			"Bark",
 			"Basalt",
 			"Basalt (Rock)",
-			"Bilberry",
-			"Cactus",
-			"Cactus Seed",
-			"Calcite",
-			"Celery",
-			"Garlic",
-			"Geode",
+			"Coquina (Rock)",
+			"Crude Oil",
+			"Emerald",
 			"Geode (Rock)",
 			"Granite (Rock)",
-			"Iridium",
+			"Iron",
 			"Iron (Rock)",
-			"Lignonberry",
+			"Lignite",
 			"Limestone",
 			"Maps",
-			"Opal",
-			"Potato Seed",
+			"Obsidian",
 			"Resin",
-			"Roots",
+			"Silver",
 			"Slate",
-			"Softwood",
-			"Straw",
-			"Thyme",
-			"Turnip Seed",
-			"Twigs",
-			"Wetwood",
-			"Wild Cactus",
-			"Wild Potato",
-			"Wild Turnip",
-			"Yarrow"
+			"Wetwood"
 		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tundra",
@@ -3868,7 +3896,7 @@
 			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.959999918937683,
+			"qualityMultiplier": 2.74399995803833,
 			"spawnLimits": [
 				360,
 				57000,
@@ -5077,11 +5105,26 @@
 		}
 	},
 	"H11": {
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
 		"biomes": [
 			"Polar",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Eastern Tundra"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -5093,7 +5136,37 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
-		"resources": [],
+		"resources": [
+			"Arctic Raspberry",
+			"Bamboo",
+			"Bark",
+			"Basalt (Rock)",
+			"Bilberry",
+			"Chalcedony",
+			"FreshWater",
+			"Garlic",
+			"Geode",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Iron (Rock)",
+			"Kala Namak",
+			"Lignonberry",
+			"Limestone",
+			"Maps",
+			"Nitre",
+			"Potato Seed",
+			"Quartz",
+			"Resin",
+			"Roots",
+			"Silver",
+			"Slate",
+			"Slate (Rock)",
+			"Straw",
+			"Turnip Seed",
+			"Wetwood",
+			"Wild Potato",
+			"Wild Turnip"
+		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Polar",
 		"sotd": {
@@ -5519,7 +5592,7 @@
 			"Desert Ocean Water"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.959999918937683,
+			"qualityMultiplier": 2.74399995803833,
 			"spawnLimits": [
 				360,
 				57000,
@@ -5703,7 +5776,8 @@
 		"biomes": [
 			"Eastern Tundra",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Polar"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -6236,7 +6310,7 @@
 			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.959999918937683,
+			"qualityMultiplier": 2.74399995803833,
 			"spawnLimits": [
 				360,
 				57000,
@@ -6685,7 +6759,7 @@
 		"animals": [],
 		"biomes": [
 			"Eastern Tundra",
-			"Polar",
+			"Central Tundra",
 			"At Land",
 			"Ocean Water"
 		],
@@ -6772,7 +6846,7 @@
 			"Tundra Ocean Water"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.959999918937683,
+			"qualityMultiplier": 2.74399995803833,
 			"spawnLimits": [
 				360,
 				57000,
@@ -7074,7 +7148,7 @@
 			"Central High Desert"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.959999918937683,
+			"qualityMultiplier": 2.74399995803833,
 			"spawnLimits": [
 				360,
 				57000,

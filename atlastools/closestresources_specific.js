@@ -11,7 +11,7 @@ let islands = JSON.parse(rawdata);
 rawdata = fs.readFileSync('./json/resourceTypes.json');
 let types = JSON.parse(rawdata);
 
-var home = islands[79];
+var home = islands[157];
 //var home2 = islands[189];
 //var home3 = islands[395];
 

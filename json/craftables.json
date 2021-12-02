@@ -4060,17 +4060,6 @@
                 "Wood": 20.0
             }
         },
-        "Stone Farmhouse": {
-            "Ingredients": {
-                "Alloy": 180.0,
-                "Fibers": 320.0,
-                "Hide": 100.0,
-                "Organic Paste": 80.0,
-                "Stone": 1500.0,
-                "Thatch": 800.0,
-                "Wood": 600.0
-            }
-        },
         "Stone Fence Foundation": {
             "Ingredients": {
                 "Stone": 15.0,
