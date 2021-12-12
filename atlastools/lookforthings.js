@@ -9,21 +9,12 @@ let islands = JSON.parse(rawdata);
 rawdata = fs.readFileSync('./json/resourceTypes.json');
 let types = JSON.parse(rawdata);
 
+rawdata = fs.readFileSync('./json/gridList.json');
+let gridList = JSON.parse(rawdata);
+
 for (var island in islands) {
     var i = islands[island];
     i.types = {};
-
-    if (!i.maps)
-        continue;
-
-    if (!i.grid.includes("K") && !i.grid.includes("1"))
-        continue;
-
-        
-    if (!contains(i.resources, [ "Rushes"]))
-        continue;
-
-
 
     /* if (!contains(i.resources, ["Mineral Oil", "Crude Oil", "Shale Oil", "Naptha"]))
          continue;
@@ -47,8 +38,11 @@ for (var island in islands) {
               if (contains(i.resources, ["Mineral Oil", "Crude Oil", "Shale Oil", "Naptha"]))
                   // if (!i.animals.includes("Snake") && !i.animals.includes("GiantSnake"))*/
 
-    /* if (i.claimable !== 1)
-         continue;*/
+    /*if (gridList[i.grid].forceServerRules != 3)
+       continue;*/
+
+
+
 
     var totalTypes = 0;
     for (var type in types) {
@@ -61,8 +55,8 @@ for (var island in islands) {
             }
     }
     var count = i.types["Stone"] + i.types["Thatch"] + i.types["Metal"] + i.types["Fiber"];
-   // if (count > 10)
-        console.log(count, i.name, i.grid);
+    if (count > 11)
+        console.log(count, i.name, "\t", i.grid, i.types["Stone"], i.types["Thatch"], i.types["Metal"], i.types["Fiber"]);
     //console.dir(i.assets)
 }
 

@@ -53,6 +53,7 @@ class WorldMap extends React.Component {
     map.Portals = L.layerGroup(layerOpts).addTo(map);
     map.Altars = L.layerGroup(layerOpts);
     map.Ships = L.layerGroup(layerOpts);
+    map.TradeWinds = L.layerGroup(layerOpts);
     map.Stones = L.layerGroup(layerOpts);
     var SearchBox = L.Control.extend({
       onAdd: function () {
@@ -106,6 +107,7 @@ class WorldMap extends React.Component {
       Altars: map.Altars,
       Bosses: map.Bosses,
       Ships: map.Ships,
+      TradeWinds: map.TradeWinds.addTo(map),
       Stones: map.Stones,
     }, {
       position: 'topright'
@@ -155,6 +157,12 @@ class WorldMap extends React.Component {
         html: labelText
       })
     }
+
+    var ArrowIcon = L.icon({
+      iconUrl: 'icons/Arrow.svg',
+      iconSize: [16, 16],
+      iconAnchor: [8, 8],
+    });
 
     var Portal1Icon = L.icon({
       iconUrl: 'icons/Portal1.svg',
@@ -397,8 +405,6 @@ class WorldMap extends React.Component {
         console.log(error)
       });
 
-
-
     fetch('json/shipPaths.json', {
       dataType: 'json'
     })
@@ -436,6 +442,52 @@ class WorldMap extends React.Component {
             opacity: opacity,
           });
           map.Ships.addLayer(p)
+        })
+      })
+      .catch(error => {
+        console.log(error)
+      });
+
+    fetch('json/tradeWinds.json', {
+      dataType: 'json'
+    })
+      .then(res => res.json())
+      .then(function (paths) {
+        paths.forEach(path => {
+          var pathing = [];
+
+          var n = path.Nodes[0];
+          var center = [n.worldX, n.worldY];
+          var previous = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
+          var next = rotateVector2DAroundAxis([n.worldX + n.controlPointsDistance, n.worldY], center, n.rotation);
+
+          pathing.push('M', unrealToLeaflet(n.worldX, n.worldY))
+          pathing.push('C', unrealToLeafletArray(next), unrealToLeafletArray(previous), unrealToLeafletArray(center))
+
+          // path.Nodes.push(path.Nodes.shift());
+          for (var i = 0; i < path.Nodes.length; i++) {
+            var n = path.Nodes[i];
+            var center = [n.worldX, n.worldY];
+            var previous = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
+            pathing.push('S', unrealToLeafletArray(previous), unrealToLeafletArray(center))
+
+            var pin = new L.Marker(unrealToLeafletArray(center), {
+              icon: ArrowIcon,
+              rotationAngle: n.rotation+90,
+            });
+            map.TradeWinds.addLayer(pin);
+          }
+
+          let color = "white";
+          let opacity = 0.7;
+
+          var p = L.curve(pathing, {
+            color: color,
+            dashArray: '10',
+            opacity: opacity,
+          });
+
+          map.TradeWinds.addLayer(p)
         })
       })
       .catch(error => {
@@ -526,22 +578,23 @@ class WorldMap extends React.Component {
             });
             map.IslandResources.addLayer(circle);
 
-            var center = unrealToLeaflet(island.worldX, island.worldY),
-              offsets = unrealToLeaflet(island.islandWidth, island.islandHeight),
-              islandBounds = rotatePoints(center, [
-                [center[0] - (offsets[0] / 2), center[1] - (offsets[1] / 2)], // Top left
-                [center[0] - (offsets[0] / 2), center[1] + (offsets[1] / 2)], // Top right
-                [center[0] + (offsets[0] / 2), center[1] - (offsets[1] / 2)] //  Bottom left
-              ], island.rotation);
-
-            /* var islandImage = L.imageOverlay.rotated("islandImages/" + island.name + ".webp",
-               L.latLng(islandBounds[0]),
-               L.latLng(islandBounds[1]),
-               L.latLng(islandBounds[2]), {
-                 opacity: 1,
-                 interactive: true
-               });
-             map.Islands.addLayer(islandImage);*/
+            /*  Legacy island image render, too slow.
+                var center = unrealToLeaflet(island.worldX, island.worldY),
+                offsets = unrealToLeaflet(island.islandWidth, island.islandHeight),
+                islandBounds = rotatePoints(center, [
+                  [center[0] - (offsets[0] / 2), center[1] - (offsets[1] / 2)], // Top left
+                  [center[0] - (offsets[0] / 2), center[1] + (offsets[1] / 2)], // Top right
+                  [center[0] + (offsets[0] / 2), center[1] - (offsets[1] / 2)] //  Bottom left
+                ], island.rotation);
+  
+               var islandImage = L.imageOverlay.rotated("islandImages/" + island.name + ".webp",
+                 L.latLng(islandBounds[0]),
+                 L.latLng(islandBounds[1]),
+                 L.latLng(islandBounds[2]), {
+                   opacity: 1,
+                   interactive: true
+                 });
+               map.Islands.addLayer(islandImage);*/
           }
 
           if (island.discoveries) {

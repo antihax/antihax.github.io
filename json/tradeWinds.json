@@ -1,0 +1,706 @@
+[
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 70000,
+				"rotation": -253.856216,
+				"strength": 3,
+				"width": 19000,
+				"worldX": 774860.25,
+				"worldY": 9300073
+			},
+			{
+				"controlPointsDistance": 1167206.38,
+				"rotation": -327.097076,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 1194276,
+				"worldY": 12180693
+			},
+			{
+				"controlPointsDistance": 1182237.63,
+				"rotation": -355.3309,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 3295211.25,
+				"worldY": 12398328
+			},
+			{
+				"controlPointsDistance": 710562.75,
+				"rotation": 360.732422,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 6461632,
+				"worldY": 12418724
+			},
+			{
+				"controlPointsDistance": 152462.828,
+				"rotation": 355.099945,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 7500533,
+				"worldY": 12384601
+			}
+		],
+		"PathId": 7,
+		"PathName": "Temperate Loop Wind",
+		"StartInterpolatingOceanColorAtPercentage": 0.2,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 514327.531,
+				"rotation": -536.498047,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 15178734,
+				"worldY": 12741077
+			},
+			{
+				"controlPointsDistance": 625886.063,
+				"rotation": 164.804077,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 13002416,
+				"worldY": 13298431
+			},
+			{
+				"controlPointsDistance": 956562.3,
+				"rotation": -224.038315,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 11157465,
+				"worldY": 14448507
+			},
+			{
+				"controlPointsDistance": 331742.125,
+				"rotation": -159.536392,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 8112417,
+				"worldY": 14582328
+			}
+		],
+		"PathId": 3,
+		"PathName": "Southeast Wind",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 486114.625,
+				"rotation": -179.994659,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 13925247,
+				"worldY": 9056147
+			},
+			{
+				"controlPointsDistance": 808550.6,
+				"rotation": 199.888458,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 12320775,
+				"worldY": 8945354
+			},
+			{
+				"controlPointsDistance": 975731.3,
+				"rotation": -172.64064,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 11220021,
+				"worldY": 7615344.5
+			},
+			{
+				"controlPointsDistance": 106957.766,
+				"rotation": -207.97998,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 9190444,
+				"worldY": 8202641.5
+			}
+		],
+		"PathId": 4,
+		"PathName": "East Equatorial Wind",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 183826.469,
+				"rotation": -158.025864,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 4480754.5,
+				"worldY": 8199273
+			},
+			{
+				"controlPointsDistance": 662580.938,
+				"rotation": -168.298523,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 3514753.25,
+				"worldY": 7829337
+			},
+			{
+				"controlPointsDistance": 541470.5,
+				"rotation": -179.525253,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 1828268.25,
+				"worldY": 8281598.5
+			},
+			{
+				"controlPointsDistance": 509279.875,
+				"rotation": -103.609734,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 725537.563,
+				"worldY": 7855002.5
+			}
+		],
+		"PathId": 6,
+		"PathName": "West Equatorial Wind",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 70000,
+				"rotation": -315.3198,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 8872749,
+				"worldY": 1937975.5
+			},
+			{
+				"controlPointsDistance": 579800.9,
+				"rotation": 23.4146423,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 9480648,
+				"worldY": 2434833.25
+			},
+			{
+				"controlPointsDistance": 601851.9,
+				"rotation": -298.158142,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 10725748,
+				"worldY": 3156949
+			},
+			{
+				"controlPointsDistance": 715486,
+				"rotation": 96.17401,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 10344748,
+				"worldY": 5339467
+			},
+			{
+				"controlPointsDistance": 259016.766,
+				"rotation": -352.504944,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 10972905,
+				"worldY": 6288367.5
+			},
+			{
+				"controlPointsDistance": 0,
+				"rotation": 0,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 11820153,
+				"worldY": 6267452
+			}
+		],
+		"PathId": 7,
+		"PathName": "Polar Spine Wind",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 1098954.75,
+				"rotation": -189.7314,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 14993712,
+				"worldY": 6748585.5
+			},
+			{
+				"controlPointsDistance": 557135.9,
+				"rotation": -104.347923,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 13237308,
+				"worldY": 6315291
+			},
+			{
+				"controlPointsDistance": 1239020.88,
+				"rotation": -98.9059143,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 13269963,
+				"worldY": 4250879.5
+			},
+			{
+				"controlPointsDistance": 1165540.5,
+				"rotation": -132.134979,
+				"strength": 3,
+				"width": 40000,
+				"worldX": 12698827,
+				"worldY": 2027896
+			},
+			{
+				"controlPointsDistance": 96632.66,
+				"rotation": -167.832382,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 11567737,
+				"worldY": 1184238.63
+			}
+		],
+		"PathId": 8,
+		"PathName": "Eastern Wind",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 700642.75,
+				"rotation": -1.952509,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 6220934.5,
+				"worldY": 735562.2
+			},
+			{
+				"controlPointsDistance": 326592.9,
+				"rotation": -2.56166744,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 8481381,
+				"worldY": 776750.8
+			},
+			{
+				"controlPointsDistance": 284176.219,
+				"rotation": -8.466873,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 11025933,
+				"worldY": 706234.75
+			}
+		],
+		"PathId": 10,
+		"PathName": "West Desert Wind",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 630483.1,
+				"rotation": -308.577454,
+				"strength": 5,
+				"width": 40000,
+				"worldX": 6286456.5,
+				"worldY": 5992142
+			},
+			{
+				"controlPointsDistance": 671087.7,
+				"rotation": 358.487335,
+				"strength": 5,
+				"width": 50000,
+				"worldX": 7785247,
+				"worldY": 6309575.5
+			},
+			{
+				"controlPointsDistance": 340469.438,
+				"rotation": 318.7802,
+				"strength": 5,
+				"width": 50000,
+				"worldX": 8852893,
+				"worldY": 5800581
+			},
+			{
+				"controlPointsDistance": 452600.969,
+				"rotation": -97.00127,
+				"strength": 5,
+				"width": 40000,
+				"worldX": 9158567,
+				"worldY": 3772992
+			}
+		],
+		"PathId": 14,
+		"PathName": "Kraken Wind",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 88451.19,
+				"rotation": -180.431488,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 7803255.5,
+				"worldY": 11424475
+			},
+			{
+				"controlPointsDistance": 415205.969,
+				"rotation": 152.9668,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 6464998,
+				"worldY": 11604296
+			},
+			{
+				"controlPointsDistance": 556739.8,
+				"rotation": 246.6236,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 4952199.5,
+				"worldY": 11602417
+			},
+			{
+				"controlPointsDistance": 360122.969,
+				"rotation": -486.701721,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 4628146.5,
+				"worldY": 10754404
+			},
+			{
+				"controlPointsDistance": 72092.1953,
+				"rotation": -168.154922,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 3755148,
+				"worldY": 10463920
+			}
+		],
+		"PathId": 15,
+		"PathName": "South Desert Wind",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 974329.8,
+				"rotation": 49.2363968,
+				"strength": 3,
+				"width": 20000,
+				"worldX": 914903.7,
+				"worldY": 13203301
+			},
+			{
+				"controlPointsDistance": 1284379.38,
+				"rotation": 3.2550354,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 3082177.5,
+				"worldY": 13874776
+			},
+			{
+				"controlPointsDistance": 706755.6,
+				"rotation": -264.42157,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 6833489.5,
+				"worldY": 14377938
+			}
+		],
+		"PathId": 21,
+		"PathName": "Southwest Wind",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 512169.781,
+				"rotation": 71.91165,
+				"strength": 1,
+				"width": 18000,
+				"worldX": 443991.8,
+				"worldY": 13800303
+			},
+			{
+				"controlPointsDistance": 609831.25,
+				"rotation": 11.6893692,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 1593648.63,
+				"worldY": 14638730
+			},
+			{
+				"controlPointsDistance": 496339.719,
+				"rotation": -1.78218055,
+				"strength": 1,
+				"width": 18000,
+				"worldX": 2717350.75,
+				"worldY": 14617886
+			}
+		],
+		"PathId": 22,
+		"PathName": "",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": true
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 1066433.38,
+				"rotation": 8.604206,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 7342882,
+				"worldY": 13239665
+			},
+			{
+				"controlPointsDistance": 603618.2,
+				"rotation": -1.87132645,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 9146612,
+				"worldY": 13457769
+			},
+			{
+				"controlPointsDistance": 797452.7,
+				"rotation": -18.4888382,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 10718072,
+				"worldY": 13364868
+			},
+			{
+				"controlPointsDistance": 70000,
+				"rotation": -5.305027,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 11672759,
+				"worldY": 13203328
+			}
+		],
+		"PathId": 23,
+		"PathName": "",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 70000,
+				"rotation": 0,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 2465902,
+				"worldY": 9541049
+			},
+			{
+				"controlPointsDistance": 973511.563,
+				"rotation": -5.0881815,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 4620023.5,
+				"worldY": 9691670
+			},
+			{
+				"controlPointsDistance": 943974.25,
+				"rotation": -21.671402,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 6405661,
+				"worldY": 9186805
+			},
+			{
+				"controlPointsDistance": 335733.75,
+				"rotation": 403.00827,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 7801969,
+				"worldY": 9247756
+			},
+			{
+				"controlPointsDistance": 97490.96,
+				"rotation": -272.6797,
+				"strength": 1,
+				"width": 30000,
+				"worldX": 8036944.5,
+				"worldY": 9947250
+			},
+			{
+				"controlPointsDistance": 296369.625,
+				"rotation": 104.087639,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 7860098,
+				"worldY": 10565416
+			}
+		],
+		"PathId": 24,
+		"PathName": "",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 151299.641,
+				"rotation": 24.5947952,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 9196085,
+				"worldY": 11999006
+			},
+			{
+				"controlPointsDistance": 767877.5,
+				"rotation": 0.742950439,
+				"strength": 1,
+				"width": 50000,
+				"worldX": 10613084,
+				"worldY": 12236576
+			},
+			{
+				"controlPointsDistance": 463836.969,
+				"rotation": -37.5144463,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 12699725,
+				"worldY": 11601891
+			},
+			{
+				"controlPointsDistance": 824497.563,
+				"rotation": 10.9063339,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 14410328,
+				"worldY": 11352720
+			},
+			{
+				"controlPointsDistance": 465548.125,
+				"rotation": -97.75897,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 14779397,
+				"worldY": 10040259
+			}
+		],
+		"PathId": 25,
+		"PathName": "",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 820678.8,
+				"rotation": 80.89993,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 10332922,
+				"worldY": 8946675
+			},
+			{
+				"controlPointsDistance": 374159.219,
+				"rotation": 30.4464264,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 11111419,
+				"worldY": 10426201
+			},
+			{
+				"controlPointsDistance": 597197.1,
+				"rotation": -8.494377,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 13151344,
+				"worldY": 10503990
+			}
+		],
+		"PathId": 26,
+		"PathName": "",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 132531,
+				"rotation": 36.89376,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 13751221,
+				"worldY": 295810.219
+			},
+			{
+				"controlPointsDistance": 713310.5,
+				"rotation": 53.3786736,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 14568647,
+				"worldY": 1113477.88
+			},
+			{
+				"controlPointsDistance": 903140.5,
+				"rotation": 90.16092,
+				"strength": 3,
+				"width": 50000,
+				"worldX": 15136907,
+				"worldY": 3207981.25
+			},
+			{
+				"controlPointsDistance": 119031.563,
+				"rotation": 137.991364,
+				"strength": 3,
+				"width": 18000,
+				"worldX": 14677656,
+				"worldY": 5076755.5
+			}
+		],
+		"PathId": 27,
+		"PathName": "",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	}
+]

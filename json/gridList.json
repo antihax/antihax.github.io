@@ -31,6 +31,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -113,6 +114,7 @@
 		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
+		"region": "North Pole",
 		"resources": [
 			"Agedwood",
 			"Arctic Raspberry",
@@ -177,6 +179,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "North Pole",
 		"resources": [
 			"Arctic Raspberry",
 			"Bamboo",
@@ -254,6 +257,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -328,6 +332,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -390,6 +395,7 @@
 		},
 		"forceServerRules": 4,
 		"name": "Freeport",
+		"region": "",
 		"resources": [
 			"Blackberry",
 			"Edible Greens",
@@ -452,6 +458,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Agedwood",
 			"Bark",
@@ -528,6 +535,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Basalt (Rock)",
 			"Geode (Rock)",
@@ -569,6 +577,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Agedwood",
 			"Basalt (Rock)",
@@ -633,6 +642,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Basalt (Rock)",
 			"Geode (Rock)",
@@ -691,6 +701,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Agedwood",
 			"Bamboo",
@@ -774,6 +785,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Anthracite",
 			"Bark",
@@ -844,6 +856,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "North Pole",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Polar",
@@ -882,6 +895,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "North Pole",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -946,6 +960,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -1004,6 +1019,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bark",
 			"Basalt (Rock)",
@@ -1065,6 +1081,7 @@
 		},
 		"forceServerRules": 4,
 		"name": "Freeport",
+		"region": "",
 		"resources": [
 			"Blackberry",
 			"Edible Greens",
@@ -1114,6 +1131,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "",
 		"resources": [],
 		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
 		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
@@ -1174,6 +1192,7 @@
 		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
+		"region": "South America",
 		"resources": [
 			"Bark",
 			"Coconut",
@@ -1242,6 +1261,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Acai",
 			"Acerolla",
@@ -1328,6 +1348,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Agedwood",
 			"Bamboo",
@@ -1406,6 +1427,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Acai",
 			"Acerolla",
@@ -1498,6 +1520,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -1567,6 +1590,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "North Pole",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Polar",
@@ -1605,6 +1629,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "North Pole",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -1671,6 +1696,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -1739,6 +1765,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bark",
 			"Basalt (Rock)",
@@ -1804,6 +1831,7 @@
 		},
 		"forceServerRules": 4,
 		"name": "Freeport",
+		"region": "",
 		"resources": [
 			"Blackberry",
 			"Edible Greens",
@@ -1868,6 +1896,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Arctic Raspberry",
 			"Bamboo",
@@ -1935,6 +1964,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
@@ -1985,6 +2015,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Acerolla",
 			"Agedwood",
@@ -2058,6 +2089,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Acai",
 			"Acerolla",
@@ -2139,6 +2171,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Acai",
 			"Acerolla",
@@ -2225,6 +2258,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -2291,6 +2325,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "North Pole",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Polar",
@@ -2323,6 +2358,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "North Pole",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tundra",
@@ -2369,6 +2405,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -2439,6 +2476,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -2505,6 +2543,7 @@
 		},
 		"forceServerRules": 4,
 		"name": "Freeport",
+		"region": "",
 		"resources": [
 			"Blackberry",
 			"Edible Greens",
@@ -2564,6 +2603,7 @@
 		},
 		"forceServerRules": 5,
 		"name": "Central Maw",
+		"region": "Kraken's Lair",
 		"resources": [
 			"Blackberry",
 			"Edible Greens",
@@ -2611,6 +2651,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
@@ -2663,6 +2704,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Acai",
 			"Agedwood",
@@ -2727,6 +2769,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "Golden Age Ruins",
+		"region": "South America",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,ChanceForCold,",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0,",
@@ -2777,6 +2820,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Agedwood",
 			"Bark",
@@ -2835,6 +2879,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tundra",
@@ -2868,6 +2913,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "North Pole",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Polar",
@@ -2915,6 +2961,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "North Pole",
 		"resources": [
 			"Agedwood",
 			"Arctic Raspberry",
@@ -2981,6 +3028,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Agedwood",
 			"Basalt (Rock)",
@@ -3044,6 +3092,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -3123,6 +3172,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -3207,6 +3257,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Acerolla",
 			"Bark",
@@ -3299,6 +3350,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Acai",
 			"Bark",
@@ -3376,6 +3428,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Agedwood",
 			"Bark",
@@ -3454,6 +3507,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Acai",
 			"Acerolla",
@@ -3535,6 +3589,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Agedwood",
 			"Bark",
@@ -3604,6 +3659,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -3659,6 +3715,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tundra",
@@ -3691,6 +3748,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Polar",
@@ -3745,6 +3803,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -3825,6 +3884,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -3905,6 +3965,7 @@
 		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
+		"region": "Central Waters",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21",
@@ -3965,6 +4026,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Acai",
 			"Bark",
@@ -4027,6 +4089,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
@@ -4074,6 +4137,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Acai",
 			"Acerolla",
@@ -4144,6 +4208,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Agedwood",
 			"Basalt (Rock)",
@@ -4200,6 +4265,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "South America",
 		"resources": [
 			"Agedwood",
 			"Basalt (Rock)",
@@ -4268,6 +4334,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -4328,6 +4395,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tundra",
@@ -4368,6 +4436,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -4436,6 +4505,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -4515,6 +4585,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Acerolla",
 			"Bark",
@@ -4577,6 +4648,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Agedwood",
 			"Basalt (Rock)",
@@ -4629,6 +4701,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
@@ -4679,6 +4752,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [
 			"Agedwood",
 			"Bark",
@@ -4757,6 +4831,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [
 			"Agedwood",
 			"Bark",
@@ -4844,6 +4919,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [
 			"Agedwood",
 			"Bark",
@@ -4933,6 +5009,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -5005,6 +5082,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Central Tundra",
@@ -5054,6 +5132,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -5136,6 +5215,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [
 			"Arctic Raspberry",
 			"Bamboo",
@@ -5214,6 +5294,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -5293,6 +5374,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "Central Portal",
+		"region": "Central Waters",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -5362,6 +5444,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Eastern Tropical",
@@ -5398,6 +5481,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Basalt (Rock)",
 			"Bean Seed",
@@ -5472,6 +5556,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [
 			"Acai",
 			"Bark",
@@ -5534,6 +5619,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
@@ -5568,6 +5654,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
@@ -5601,6 +5688,7 @@
 		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
+		"region": "Africa",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,",
@@ -5636,6 +5724,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tundra",
@@ -5685,6 +5774,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [
 			"Arctic Raspberry",
 			"Bamboo",
@@ -5747,6 +5837,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Polar",
@@ -5789,6 +5880,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tundra",
@@ -5842,6 +5934,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bamboo",
 			"Bark",
@@ -5902,6 +5995,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Eastern Tropical",
@@ -5938,6 +6032,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Agedwood",
 			"Basalt (Rock)",
@@ -5992,6 +6087,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
@@ -6025,6 +6121,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
@@ -6076,6 +6173,7 @@
 		},
 		"forceServerRules": 1,
 		"name": "",
+		"region": "Africa",
 		"resources": [
 			"Agedwood",
 			"Bark",
@@ -6143,6 +6241,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
@@ -6175,6 +6274,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tundra",
@@ -6222,6 +6322,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [
 			"Arctic Raspberry",
 			"Bark",
@@ -6285,6 +6386,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tundra",
@@ -6319,6 +6421,7 @@
 		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
+		"region": "Central Waters",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21",
@@ -6355,6 +6458,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Temperate",
@@ -6402,6 +6506,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Agedwood",
 			"Bark",
@@ -6477,6 +6582,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Acai",
 			"Agedwood",
@@ -6543,6 +6649,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
@@ -6596,6 +6703,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [
 			"Bark",
 			"Basalt (Rock)",
@@ -6677,6 +6785,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [
 			"Bark",
 			"Basalt (Rock)",
@@ -6740,6 +6849,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
@@ -6773,6 +6883,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tundra",
@@ -6806,6 +6917,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Antarctica",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tundra",
@@ -6855,6 +6967,7 @@
 		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
+		"region": "Antarctica",
 		"resources": [
 			"Arctic Raspberry",
 			"Bark",
@@ -6910,6 +7023,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -6977,6 +7091,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Bark",
 			"Basalt",
@@ -7038,6 +7153,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [
 			"Agedwood",
 			"Basalt (Rock)",
@@ -7090,6 +7206,7 @@
 		},
 		"forceServerRules": 3,
 		"name": "",
+		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tropical",
@@ -7124,6 +7241,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
@@ -7157,6 +7275,7 @@
 		},
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
+		"region": "Africa",
 		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,",
@@ -7212,6 +7331,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [
 			"Agedwood",
 			"Bark",
@@ -7291,6 +7411,7 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
+		"region": "Africa",
 		"resources": [
 			"Agedwood",
 			"Bark",
