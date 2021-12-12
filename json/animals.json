@@ -9,6 +9,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Angler_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -74,6 +75,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Anglerfish_Character_BP_Child_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -212,6 +214,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "GiantAnt_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -413,6 +416,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Ant_Character_Base_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -497,6 +501,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Archa_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -592,6 +597,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "ArkMonkeyArk_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -666,6 +672,60 @@
             ],
             "tameConsumeInterval": 14.0
         },
+        "ArmoredShip_BP2": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ArmoredShip_BP2_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ArmoredShip_BP3": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ArmoredShip_BP3_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "BaseHumanNPC_BP": {
+            "XP": 2.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "BaseHumanNPC_BP_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 10000.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "Bat": {
             "XP": 3.0,
             "XPperHit": true,
@@ -675,6 +735,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Bat_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -740,6 +801,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Bear_Character_BP_Cave_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -1056,6 +1118,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "GiantBee_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -1236,6 +1299,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Bee_Queen_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -1338,6 +1402,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Bigfoot_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -1367,6 +1432,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "BoaFrill_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -1394,6 +1460,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "BossWeapon_Character_BP_Base_C",
             "deathInventoryChance": 0.0,
             "maxTemperatureToBreed": 0.0,
             "minTemperatureToBreed": 0.0,
@@ -1410,6 +1477,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Boss_Character_BP_Base_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -1462,6 +1530,24 @@
             "requiredAffinityPerBaseLevel": 150.0,
             "tameConsumeInterval": 15.0
         },
+        "BrigantineShipBuildingTest_BP": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "BrigantineShipBuildingTest_BP_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "Broadsider_BP": {
             "XP": 2.6659998893737793,
             "XPperHit": false,
@@ -1471,6 +1557,25 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Broadsider_BP_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "CarrackShip_BP": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "CarrackShip_BP_C",
             "deathInventoryChance": 0.0,
             "foodPreference": "",
             "maxTemperatureToBreed": 0.0,
@@ -1488,6 +1593,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "CarrierTurtle_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -1650,6 +1756,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Cat_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -1793,6 +1900,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "FreshwaterFish_Catfish_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -1931,6 +2039,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "CaveBat_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -2068,6 +2177,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Chicken_Character_BP_Child_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -2115,6 +2225,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Cnidaria_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -2179,6 +2290,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "GiantSnake_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -2316,6 +2428,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "SaltwaterFish_Cod_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -2453,6 +2566,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Coel_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -2508,6 +2622,24 @@
             ],
             "tameConsumeInterval": 15.0
         },
+        "CogShip_BP": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "CogShip_BP_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "Cow": {
             "XP": 2.0,
             "XPperHit": true,
@@ -2517,6 +2649,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Cow_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -2577,6 +2710,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "AtlasCrab_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -2619,6 +2753,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Crocodile_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -2764,6 +2899,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Crow_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -2925,6 +3061,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Cyclops_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -3063,6 +3200,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Dimorph_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -3128,6 +3266,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Direwolf_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -3193,6 +3332,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Dodo_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -3276,6 +3416,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Dolphin_Character_BP_Child_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -3467,6 +3608,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Draco_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -3607,6 +3749,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "AtlasEel_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -3817,6 +3960,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Elephant_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -3878,6 +4022,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Equus_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -3974,6 +4119,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "FireElemental_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -4018,6 +4164,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "FreshwaterFish_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -4156,6 +4303,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Galli_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -4230,6 +4378,24 @@
             ],
             "tameConsumeInterval": 15.0
         },
+        "GenericModShip_BP_Test": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "GenericModShip_BP_Test_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "GentleWhale": {
             "XP": 16.5,
             "XPperHit": true,
@@ -4239,6 +4405,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "GentleWhale_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -4378,6 +4545,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "GentleWhale_SeaMonster_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -4517,6 +4685,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Giraffe_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -4577,6 +4746,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Gorgon_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -4707,6 +4877,24 @@
             ],
             "tameConsumeInterval": 15.0
         },
+        "HarrierShip_BP": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HarrierShip_BP_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "Horse": {
             "XP": 2.5,
             "XPperHit": true,
@@ -4716,6 +4904,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Horse_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -4761,6 +4950,2364 @@
             ],
             "tameConsumeInterval": 17.0
         },
+        "HumanNPC_BP": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Encamp_Base": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Encamp_Base_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Encamp_Heavy": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Encamp_Heavy_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Encamp_Heavy_Female": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Encamp_Heavy_Female_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Encamp_Heavy_Male": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Encamp_Heavy_Male_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Encamp_Melee": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Encamp_Melee_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Encamp_Melee_Female": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Encamp_Melee_Female_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Encamp_Melee_Male": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Encamp_Melee_Male_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Encamp_Ranged": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Encamp_Ranged_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Encamp_Ranged_Female": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Encamp_Ranged_Female_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Encamp_Ranged_Male": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Encamp_Ranged_Male_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Enemy": {
+            "XP": 10.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Enemy_Heavy": {
+            "XP": 20.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Heavy_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Enemy_Heavy_TreasureGuard": {
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Heavy_TreasureGuard_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Enemy_Heavy_TreasureGuardTameable": {
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "HumanNPC_BP_Enemy_Heavy_TreasureGuardTameable_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Enemy_Melee": {
+            "XP": 10.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Melee_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Enemy_Melee_TreasureGuard": {
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Melee_TreasureGuard_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Enemy_Ranged": {
+            "XP": 10.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Ranged_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Enemy_Ranged_TreasureGuard": {
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Ranged_TreasureGuard_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BP_Neutral": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Neutral_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BPore": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Core_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BPrew_Base": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "HumanNPC_BP_Crew_Base_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BPrew_Female": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "HumanNPC_BP_Crew_Female_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC_BPrew_Male": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "HumanNPC_BP_Crew_Male_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
         "Hydra": {
             "XPperHit": false,
             "affinityDecreaseSpeed": 0.007499999832361937,
@@ -4769,6 +7316,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Hydra_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -4909,6 +7457,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Insect_Character_Base_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -4975,6 +7524,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Jellyfish_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -5112,6 +7662,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Kairuku_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -5178,6 +7729,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Kraken_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -5302,6 +7854,42 @@
             "requiredAffinityPerBaseLevel": 150.0,
             "tameConsumeInterval": 15.0
         },
+        "KrakenShip_BP": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "KrakenShip_BP_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "KrakenShip_Ribbing_BP": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "KrakenShip_Ribbing_BP_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "KrakenTentacle": {
             "XPperHit": false,
             "babyGestationMultiplier": 1.0,
@@ -5309,6 +7897,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "KrakenTentacle_Character_BP_C",
             "deathInventoryChance": 0.0,
             "maxTemperatureToBreed": 0.0,
             "minTemperatureToBreed": 0.0,
@@ -5323,6 +7912,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "KrakenTentacle_Character_BP_Hard_C",
             "deathInventoryChance": 0.0,
             "maxTemperatureToBreed": 0.0,
             "minTemperatureToBreed": 0.0,
@@ -5337,6 +7927,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "KrakenTentacle_Character_BP_Heart_C",
             "deathInventoryChance": 0.0,
             "maxTemperatureToBreed": 0.0,
             "minTemperatureToBreed": 0.0,
@@ -5351,6 +7942,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "KrakenTentacle_Character_BP_Heart_Hard_C",
             "deathInventoryChance": 0.0,
             "maxTemperatureToBreed": 0.0,
             "minTemperatureToBreed": 0.0,
@@ -5366,6 +7958,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Kraken_Character_BP_Hard_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -5499,6 +8092,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Leatherwing_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -5638,6 +8232,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Lion_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -5776,6 +8371,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Mammoth_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -5861,6 +8457,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Manta_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -5949,6 +8546,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "MantaRay_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -6087,6 +8685,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "SaltwaterFish_Marlin_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -6225,6 +8824,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "MeanWhale_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -6364,6 +8964,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "MeanWhale_SeaMonster_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -6503,6 +9104,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Megalodon_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -6568,6 +9170,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Mermaid_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -6698,6 +9301,24 @@
             ],
             "tameConsumeInterval": 15.0
         },
+        "ModularShip_BP_Base": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ModularShip_BP_Base_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "Monkey": {
             "XP": 2.0,
             "XPperHit": true,
@@ -6707,6 +9328,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Monkey_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -6745,6 +9367,24 @@
             ],
             "tameConsumeInterval": 14.0
         },
+        "MortarShip_BP": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "MortarShip_BP_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "Mosa": {
             "XP": 15.0,
             "XPperHit": true,
@@ -6754,6 +9394,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Mosa_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -6819,6 +9460,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Olfend_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -6878,6 +9520,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Ostrich_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -6937,6 +9580,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Oviraptor_Character_BP_C",
             "deathInventoryChance": 0.009999999776482582,
             "food": [
                 {
@@ -7026,6 +9670,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Paracer_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -7109,6 +9754,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Parrot_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -7162,6 +9808,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Pela_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -7227,6 +9874,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Penguin_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -7365,6 +10013,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Phiomia_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -7448,6 +10097,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Pig_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -7508,6 +10158,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Ptero_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -7573,6 +10224,7 @@
             "babyTripletsChance": 0.03999999910593033,
             "babyTwinsChance": 0.20000000298023224,
             "canBeTamed": true,
+            "className": "Rabbit_Character_BP_C",
             "deathInventoryChance": 0.009999999776482582,
             "food": [
                 {
@@ -7632,6 +10284,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Rattlesnake_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -7769,6 +10422,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Razortooth_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -7908,6 +10562,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "WildRhino_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -8032,6 +10687,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "RockElemental_Character_BP_C",
             "deathInventoryChance": 1.0,
             "foodPreference": "",
             "maxTemperatureToBreed": 0.0,
@@ -8056,6 +10712,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "RockGolem_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -8101,6 +10758,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Saber_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -8190,6 +10848,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "SaltwaterFish_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -8328,6 +10987,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Sarco_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -8393,6 +11053,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "GiantScorpion_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -8443,6 +11104,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Seagull_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -8580,6 +11242,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Seahorse_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -8629,6 +11292,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Shark_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -8768,6 +11432,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Shark_Character_BP_KrakenMinion_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -8907,6 +11572,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "AtlasSheep_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -8978,6 +11644,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "ShieldHorn_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -9019,6 +11686,400 @@
             ],
             "tameConsumeInterval": 33.0
         },
+        "ShipNPC_Base": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_Base_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ShipNPC_Brig": {
+            "XP": 119.9699935913086,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_Brig_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ShipNPC_Galleon": {
+            "XP": 306.5899963378906,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_Galleon_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ShipNPC_Galleon_KrakenMinion": {
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_Galleon_KrakenMinion_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ShipNPC_KrakenMinion": {
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_KrakenMinion_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ShipNPC_Pirate_Base": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_Pirate_Base_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ShipNPC_Pirate_Brig": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_Pirate_Brig_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ShipNPC_Pirate_Galleon": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_Pirate_Galleon_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ShipNPC_Pirate_Schooner": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_Pirate_Schooner_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ShipNPC_Pirate_Sloop": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_Pirate_Sloop_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "ShipNPC_Schooner": {
+            "XP": 39.98999786376953,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "ShipNPC_Schooner_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Base": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Base_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Base_PlayerOwned": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Base_PlayerOwned_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Galleon": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Galleon_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Schooner": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Schooner_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Sloop": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Sloop_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Sloop_FromNPC": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Sloop_FromNPC_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Submarine": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Submarine_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Test_Dinghy": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Test_Dinghy_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Test_Large": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Test_Large_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Test_Small": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Test_Small_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
+        "Ship_BP_Trader": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Ship_BP_Trader_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "Snowman": {
             "XPperHit": false,
             "affinityDecreaseSpeed": 0.007499999832361937,
@@ -9027,6 +12088,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Snowman_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -9074,6 +12136,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Snowman_Character_BP_Hard_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -9122,6 +12185,7 @@
             "babyTripletsChance": 0.5,
             "babyTwinsChance": 0.5,
             "canBeTamed": true,
+            "className": "Spider_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -9170,6 +12234,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "SpiderS_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -9199,6 +12264,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "SpiderS_Character_BP_Aggressive_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -9228,6 +12294,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Squid_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -9368,6 +12435,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Stag_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -9452,6 +12520,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Tiger_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -9590,6 +12659,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Trike_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -9674,6 +12744,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "SaltwaterFish_Tuna_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -9812,6 +12883,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "GiantTurtle_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -9914,6 +12986,24 @@
             ],
             "tameConsumeInterval": 60.0
         },
+        "TurtleShip_BP": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "TurtleShip_BP_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "Tusoteuthis": {
             "XP": 100.0,
             "XPperHit": true,
@@ -9923,6 +13013,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Tusoteuthis_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -10019,6 +13110,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "AtlasVulture_Character_BP_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {
@@ -10060,6 +13152,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Wolf_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -10198,6 +13291,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
+            "className": "Yeti_Character_BP_Child_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -10252,6 +13346,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Yeti_Character_BP_SnowCave_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -10300,6 +13395,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Yeti_Character_BP_SnowCave_Minion_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -10348,6 +13444,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Yeti_Character_BP_SnowCave_Minion_Hard_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -10396,6 +13493,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "Yutyrannus_Character_BP_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -10460,6 +13558,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
+            "className": "camelsaurus_Character_BP_C",
             "deathInventoryChance": 0.0,
             "maxTemperatureToBreed": 0.0,
             "minTemperatureToBreed": 0.0,
