@@ -427,6 +427,14 @@ class WorldMap extends React.Component {
             var center = [n.worldX, n.worldY];
             var previous = rotateVector2DAroundAxis([n.worldX - n.controlPointsDistance, n.worldY], center, n.rotation);
             pathing.push('S', unrealToLeafletArray(previous), unrealToLeafletArray(center))
+            let actualang = n.rotation + 90;
+            if (path.reverseDir)
+              actualang += 180;
+            var pin = new L.Marker(unrealToLeafletArray(center), {
+              icon: ArrowIcon,
+              rotationAngle: actualang,
+            });
+            map.Ships.addLayer(pin);
           }
 
           let color = "yellow";
