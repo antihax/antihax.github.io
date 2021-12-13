@@ -152,7 +152,7 @@
         });
 
         function updateItem() {
-            $('#target').text(`cheat gfi ${className} ${$('#qual').val() ? $('#qual').val() : 0} ${$('#bp').prop('checked') ? 1 : 0}`)
+            $('#target').text(`cheat gfi ${className} ${$('#quant').val() ? $('#quant').val() : 0} ${$('#qual').val() ? $('#qual').val() : 0} ${$('#bp').prop('checked') ? 1 : 0}`)
         }
     </script>
 </head>
@@ -161,7 +161,9 @@
     <div>
         <input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false">
         <span class="nl"><input type="checkbox" id="bp" onchange="updateItem()">Blueprint</span>
-        <span class="nl">Quality <input type="number" id="qual" name="quantity" value="0" min="0" max="100000"
+        <span class="nl">Quantity <input type="number" id="quant" value="100" min="0" max="1000"
+            onchange="updateItem()"></span>
+        <span class="nl">Quality <input type="number" id="qual" value="0" min="0" max="100000"
                 onchange="updateItem()"></span>
         <pre id="target">cheat gfi</pre>
         <button class="btn" data-clipboard-action="copy" data-clipboard-target="#target">Copy</button>
