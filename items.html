@@ -152,7 +152,7 @@
         });
 
         function updateItem() {
-            $('#target').text(`cheat gfi ${className} ${$('#qual').val() ? $('#qual').val() : 0} ${$('#bp').val() ? 1 : 0}`)
+            $('#target').text(`cheat gfi ${className} ${$('#qual').val() ? $('#qual').val() : 0} ${$('#bp').prop('checked') ? 1 : 0}`)
         }
     </script>
 </head>
