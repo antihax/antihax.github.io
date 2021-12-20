@@ -1,7 +1,12 @@
 [
 	{
-		"lat": -240.1571044921875,
-		"long": -88.60802459716797,
+		"lat": -160.96910095214844,
+		"long": -86.2103271484375,
+		"name": "StructurePlaceHolder_StaticNode_127"
+	},
+	{
+		"lat": -240.78594970703125,
+		"long": -88.65630340576172,
 		"name": "StructurePlaceHolder_StaticNode_127"
 	},
 	{
@@ -15,9 +20,14 @@
 		"name": "StructurePlaceHolder_StaticNode_4"
 	},
 	{
-		"lat": -308.6856689453125,
-		"long": -93.01009368896484,
-		"name": "StructurePlaceHolder_StaticNode_127"
+		"lat": -310.2958068847656,
+		"long": -88.99031829833984,
+		"name": "StructurePlaceHolder_StaticNode_30"
+	},
+	{
+		"lat": -240.80636596679688,
+		"long": -27.675495147705078,
+		"name": "StructurePlaceHolder_StaticNode_4"
 	},
 	{
 		"lat": -289.0181579589844,
@@ -25,13 +35,8 @@
 		"name": "StructurePlaceHolder_StaticNode_30"
 	},
 	{
-		"lat": -333.87432861328125,
-		"long": -15.995660781860352,
-		"name": "StructurePlaceHolder_StaticNode_4"
-	},
-	{
-		"lat": 89.38544464111328,
-		"long": 21.363554000854492,
+		"lat": 73.07011413574219,
+		"long": 39.433536529541016,
 		"name": "StructurePlaceHolder_StaticNode_4"
 	},
 	{
@@ -45,24 +50,19 @@
 		"name": "StructurePlaceHolder_StaticNode_29"
 	},
 	{
-		"lat": -432.517333984375,
-		"long": 10.130526542663574,
+		"lat": -333.2943115234375,
+		"long": 58.27158737182617,
 		"name": "StructurePlaceHolder_StaticNode_4"
 	},
 	{
-		"lat": 12.707723617553711,
-		"long": 75.620361328125,
-		"name": "StructurePlaceHolder_StaticNode_4"
+		"lat": 92.58065032958984,
+		"long": 137.8248291015625,
+		"name": "StructurePlaceHolder_StaticNode_135"
 	},
 	{
-		"lat": -331.0696105957031,
-		"long": 56.66483688354492,
-		"name": "StructurePlaceHolder_StaticNode_4"
-	},
-	{
-		"lat": -86.28756713867188,
-		"long": 110.24546813964844,
-		"name": "StructurePlaceHolder_StaticNode_4"
+		"lat": -160.34519958496094,
+		"long": 138.5416717529297,
+		"name": "StructurePlaceHolder_StaticNode_63"
 	},
 	{
 		"lat": -209.62881469726562,
@@ -70,24 +70,24 @@
 		"name": "StructurePlaceHolder_StaticNode_4"
 	},
 	{
+		"lat": -235.8980712890625,
+		"long": 140.17840576171875,
+		"name": "StructurePlaceHolder_StaticNode_70"
+	},
+	{
 		"lat": -307.4559631347656,
 		"long": 129.5186767578125,
 		"name": "StructurePlaceHolder_StaticNode_4"
 	},
 	{
-		"lat": -61.64674758911133,
-		"long": 188.39627075195312,
-		"name": "StructurePlaceHolder_StaticNode_135"
+		"lat": -384.5082702636719,
+		"long": 175.19752502441406,
+		"name": "StructurePlaceHolder_StaticNode_106"
 	},
 	{
-		"lat": -311.6861877441406,
-		"long": 189.37918090820312,
-		"name": "StructurePlaceHolder_StaticNode_30"
-	},
-	{
-		"lat": -263.02886962890625,
-		"long": 241.29054260253906,
-		"name": "StructurePlaceHolder_StaticNode_4"
+		"lat": -165.8478240966797,
+		"long": 211.9553985595703,
+		"name": "StructurePlaceHolder_StaticNode_55"
 	},
 	{
 		"lat": -261.8272705078125,
@@ -95,34 +95,9 @@
 		"name": "StructurePlaceHolder_StaticNode_43"
 	},
 	{
-		"lat": 90.05977630615234,
-		"long": 260.8570251464844,
-		"name": "StructurePlaceHolder_StaticNode_40"
-	},
-	{
 		"lat": 33.71336364746094,
 		"long": 263.6960144042969,
 		"name": "StructurePlaceHolder_StaticNode_135"
-	},
-	{
-		"lat": -119.92227935791016,
-		"long": 261.7314453125,
-		"name": "StructurePlaceHolder_StaticNode_4"
-	},
-	{
-		"lat": -167.23826599121094,
-		"long": 259.787109375,
-		"name": "StructurePlaceHolder_StaticNode_55"
-	},
-	{
-		"lat": -192.88185119628906,
-		"long": 264.3625793457031,
-		"name": "StructurePlaceHolder_StaticNode_63"
-	},
-	{
-		"lat": -281.19598388671875,
-		"long": 257.2119140625,
-		"name": "StructurePlaceHolder_StaticNode_4"
 	},
 	{
 		"lat": -282.5254821777344,
@@ -130,49 +105,19 @@
 		"name": "StructurePlaceHolder_StaticNode_43"
 	},
 	{
-		"lat": 20.77849006652832,
-		"long": 336.6177673339844,
-		"name": "StructurePlaceHolder_StaticNode_4"
-	},
-	{
-		"lat": -11.553936958312988,
-		"long": 313.5346374511719,
-		"name": "StructurePlaceHolder_StaticNode_4"
-	},
-	{
-		"lat": -80.12782287597656,
-		"long": 313.435302734375,
-		"name": "StructurePlaceHolder_StaticNode_4"
-	},
-	{
-		"lat": -81.27926635742188,
-		"long": 314.5417175292969,
-		"name": "StructurePlaceHolder_StaticNode_70"
-	},
-	{
-		"lat": -439.4529724121094,
-		"long": 312.5635986328125,
-		"name": "StructurePlaceHolder_StaticNode_4"
-	},
-	{
-		"lat": 65.9373550415039,
-		"long": 359.9933776855469,
-		"name": "StructurePlaceHolder_StaticNode_106"
-	},
-	{
-		"lat": -78.62874603271484,
-		"long": 387.6039123535156,
-		"name": "StructurePlaceHolder_StaticNode_4"
-	},
-	{
-		"lat": -191.96510314941406,
-		"long": 363.7432861328125,
+		"lat": -191.8723907470703,
+		"long": 312.2036437988281,
 		"name": "StructurePlaceHolder_StaticNode_2"
 	},
 	{
-		"lat": -186.88504028320312,
-		"long": 364.7172546386719,
+		"lat": -186.79232788085938,
+		"long": 313.1776123046875,
 		"name": "StructurePlaceHolder_StaticNode_51"
+	},
+	{
+		"lat": -440.3155212402344,
+		"long": 312.5635986328125,
+		"name": "StructurePlaceHolder_StaticNode_4"
 	},
 	{
 		"lat": -238.32025146484375,
@@ -180,8 +125,8 @@
 		"name": "StructurePlaceHolder_StaticNode_11"
 	},
 	{
-		"lat": 40.95512008666992,
-		"long": 415.3045654296875,
-		"name": "StructurePlaceHolder_StaticNode_40"
+		"lat": 39.8690071105957,
+		"long": 443.19720458984375,
+		"name": "StructurePlaceHolder_StaticNode_135"
 	}
 ]

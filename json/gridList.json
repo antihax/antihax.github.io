@@ -1,23 +1,24 @@
 {
 	"A1": {
 		"animals": [
-			"Ant",
-			"Bear",
-			"Bee",
+			"Chicken",
 			"Cobra",
 			"Cow",
+			"Crocodile",
+			"Elephant",
 			"Monkey",
+			"Parrot",
 			"Pig",
-			"Rabbit",
 			"Rattlesnake",
 			"Seagull",
 			"Sheep",
-			"Spider",
+			"Tiger",
 			"Turtle"
 		],
 		"biomes": [
-			"Western Temperate",
-			"Eastern Temperate",
+			"Western Tropical",
+			"Western Tropics",
+			"Eastern Tropics",
 			"Ocean Water",
 			"At Land"
 		],
@@ -33,38 +34,32 @@
 		"name": "",
 		"region": "",
 		"resources": [
-			"Bamboo",
 			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
 			"Blackberry",
-			"Carrot Seed",
-			"Darkwood",
+			"Cobalt",
+			"Coconut",
+			"Elderberry",
+			"Fronds",
 			"Geode (Rock)",
 			"Granite (Rock)",
-			"Iron",
+			"Graphite",
+			"Hemp",
+			"Honey",
 			"Iron (Rock)",
-			"Licorice",
+			"Lime",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
-			"Mint",
-			"Nitre",
-			"Onion Seed",
-			"Opal",
 			"Resin",
-			"Schisandra",
+			"Rice Seed",
 			"Slate",
 			"Softwood",
 			"Straw",
-			"Syrup",
 			"Twigs",
-			"Wetwood",
-			"Wild Carrot",
-			"Wild Onion"
+			"Wild Rice"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Temperate",
+		"serverTemplate": "Western Tropical",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -75,29 +70,18 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"A10": {
-		"animals": [
-			"Bear",
-			"CaveBat",
-			"Chicken",
-			"Cobra",
-			"Cow",
-			"Crow",
-			"Draco",
-			"Gorgon",
-			"Horse",
-			"Leatherwing",
-			"Lion",
-			"Razortooth",
-			"RockElemental",
-			"Scorpion",
-			"Seagull",
-			"ShieldHorn",
-			"Spider",
-			"Wolf"
-		],
+		"animals": [],
 		"biomes": [
 			"Polar",
 			"Ocean Water",
@@ -115,22 +99,7 @@
 		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"region": "North Pole",
-		"resources": [
-			"Agedwood",
-			"Arctic Raspberry",
-			"Bark",
-			"FreshWater",
-			"Lightwood",
-			"Lignonberry",
-			"Potato Seed",
-			"Resin",
-			"Roots",
-			"Rosemary",
-			"Softwood",
-			"Straw",
-			"Wetwood",
-			"Wild Potato"
-		],
+		"resources": [],
 		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,RainChanceForSnow",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,.5",
 		"serverIslandPointsMultiplier": 1,
@@ -177,7 +146,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "North Pole",
 		"resources": [
@@ -226,26 +195,35 @@
 	},
 	"A2": {
 		"animals": [
-			"Bear",
-			"Bee",
+			"Ant",
+			"CarrierTurtle",
+			"Catfish",
+			"CaveBat",
 			"Chicken",
 			"Cobra",
 			"Cow",
+			"Crocodile",
 			"Crow",
+			"Elephant",
 			"Horse",
-			"Lion",
+			"Monkey",
+			"Parrot",
 			"Pig",
-			"Rabbit",
 			"Rattlesnake",
+			"Scorpion",
 			"Seagull",
-			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Vulture",
 			"Wolf"
 		],
 		"biomes": [
+			"Western Tropical",
+			"Equator",
 			"Western Temperate",
 			"Ocean Water",
-			"At Land",
-			"Eastern Temperate"
+			"At Land"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -259,33 +237,31 @@
 		"name": "",
 		"region": "",
 		"resources": [
+			"Aloe",
 			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
-			"Blackberry",
-			"Carrot Seed",
-			"Chamomile",
-			"Cilantro",
+			"Basil",
+			"Chert",
+			"Cobalt",
+			"FreshWater",
 			"Geode (Rock)",
+			"Granite (Rock)",
 			"Iron (Rock)",
+			"Jute",
+			"Lime",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
-			"Mint",
-			"Nitre",
-			"Opal",
-			"Oregano",
-			"Pepper Seed",
 			"Resin",
+			"Sea Grapes",
+			"Slate",
 			"Softwood",
 			"Straw",
-			"Strawberry",
-			"Twigs",
-			"Wild Carrot",
-			"Wild Pepper"
+			"Sulfur",
+			"Thyme",
+			"Twigs"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Temperate",
+		"serverTemplate": "Western Tropical",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -295,30 +271,25 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
 	"A3": {
 		"animals": [
-			"Ant",
-			"Bear",
-			"Bee",
-			"Cobra",
-			"Cow",
-			"Crow",
-			"Horse",
-			"Monkey",
-			"Pig",
-			"Rabbit",
-			"Rattlesnake",
-			"Seagull",
-			"Sheep",
-			"Spider",
-			"Turtle"
+			"Seagull"
 		],
 		"biomes": [
-			"Western Temperate",
-			"Eastern Temperate",
+			"Western Tropical",
+			"Eastern Tropics",
+			"Western Tropics",
 			"Ocean Water",
 			"At Land"
 		],
@@ -334,34 +305,25 @@
 		"name": "",
 		"region": "",
 		"resources": [
-			"Bamboo",
-			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
-			"Blackberry",
-			"Carrot Seed",
+			"Bean Seed",
+			"Coconut",
 			"Fronds",
-			"Geode",
 			"Geode (Rock)",
-			"Iron",
+			"Granite (Rock)",
 			"Iron (Rock)",
-			"Limestone",
-			"Limestone (Rock)",
-			"Maps",
-			"Nitre",
-			"Opal",
 			"Oregano",
-			"Quartz",
 			"Resin",
-			"Slate",
+			"Rice Seed",
+			"Sea Grapes",
 			"Softwood",
 			"Straw",
-			"Syrup",
 			"Twigs",
-			"Wild Carrot"
+			"Wild Beans",
+			"Wild Rice"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Temperate",
+		"serverTemplate": "Western Tropical",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -372,16 +334,37 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"A4": {
 		"animals": [
-			"Cat",
-			"Seagull"
+			"Bear",
+			"Chicken",
+			"Cow",
+			"Giraffe",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
 		],
 		"biomes": [
-			"Western Tundra",
-			"Western Tundra (Freeport)",
+			"Western Tropical",
+			"Eastern Tropics",
+			"Western Tropics",
 			"Ocean Water",
 			"At Land"
 		],
@@ -393,25 +376,41 @@
 				1
 			]
 		},
-		"forceServerRules": 4,
-		"name": "Freeport",
+		"forceServerRules": 1,
+		"name": "",
 		"region": "",
 		"resources": [
+			"Bark",
+			"Basalt (Rock)",
+			"Bean Seed",
 			"Blackberry",
-			"Edible Greens",
-			"Fibers",
-			"Flint",
-			"Flint (Rock)",
-			"FreshWater",
+			"Chalcedony",
+			"Chert",
+			"Cilantro",
+			"Coconut",
+			"Copper",
+			"Crude Oil",
+			"Elderberry",
+			"Fronds",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Graphite",
+			"Iron (Rock)",
 			"Limestone",
 			"Maps",
-			"Stone (Rock)",
+			"Resin",
+			"Rice Seed",
+			"Sea Grapes",
+			"Slate",
+			"Softwood",
 			"Straw",
-			"Thatch",
-			"Wood"
+			"Turmeric",
+			"Twigs",
+			"Wild Beans",
+			"Wild Rice"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Tundra",
+		"serverTemplate": "Western Tropical",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -421,6 +420,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -460,7 +467,6 @@
 		"name": "",
 		"region": "",
 		"resources": [
-			"Agedwood",
 			"Bark",
 			"Basalt",
 			"Basalt (Rock)",
@@ -471,7 +477,6 @@
 			"Geode (Rock)",
 			"Iron",
 			"Iron (Rock)",
-			"Jute",
 			"Limestone",
 			"Limestone (Rock)",
 			"Maps",
@@ -481,7 +486,6 @@
 			"Pepper Seed",
 			"Quartz",
 			"Resin",
-			"Sandstone (Rock)",
 			"Slate",
 			"Softwood",
 			"Straw",
@@ -505,18 +509,34 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"A6": {
 		"animals": [
-			"Anglerfish",
-			"Crab",
-			"Eel",
-			"Jellyfish",
-			"Marlin",
-			"Seahorse",
-			"Shark",
-			"Squid"
+			"Ant",
+			"Chicken",
+			"Cow",
+			"Crocodile",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Ostrich",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Tiger",
+			"Turtle"
 		],
 		"biomes": [
 			"Western Tropical",
@@ -533,14 +553,37 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "South America",
 		"resources": [
+			"Acai",
+			"Acerolla",
+			"Agedwood",
+			"Aloe",
+			"Bark",
 			"Basalt (Rock)",
+			"Bean Seed",
+			"Cilantro",
+			"Coconut",
+			"Elderberry",
+			"Fronds",
 			"Geode (Rock)",
+			"Graphite",
+			"Hemp",
+			"Honey",
 			"Iron (Rock)",
-			"Sandstone (Rock)"
+			"Jute",
+			"Limestone",
+			"Maps",
+			"Resin",
+			"Sandstone (Rock)",
+			"Sea Grapes",
+			"Softwood",
+			"Straw",
+			"Strongwood",
+			"Twigs",
+			"Wild Beans"
 		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
@@ -575,7 +618,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "South America",
 		"resources": [
@@ -640,7 +683,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "South America",
 		"resources": [
@@ -666,22 +709,18 @@
 	"A9": {
 		"animals": [
 			"Ant",
-			"Bear",
-			"Bee",
 			"Cobra",
-			"Cow",
+			"Crocodile",
 			"Crow",
+			"Elephant",
 			"Horse",
-			"Lion",
-			"Monkey",
-			"Pig",
-			"Rabbit",
 			"Rattlesnake",
+			"Scorpion",
 			"Seagull",
 			"Sheep",
-			"Spider",
-			"Tiger",
-			"Turtle"
+			"Turtle",
+			"Vulture",
+			"Wolf"
 		],
 		"biomes": [
 			"Western Tropical",
@@ -689,7 +728,7 @@
 			"Ocean Water",
 			"At Land",
 			"Equator",
-			"Western Tropics"
+			"Central Low Desert"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -699,44 +738,41 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "South America",
 		"resources": [
 			"Agedwood",
-			"Bamboo",
 			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
-			"Carrot Seed",
-			"Darkwood",
-			"Fronds",
+			"Chert",
+			"Chick Pea Seed",
+			"Cilantro",
+			"Coconut",
+			"Elderberry",
+			"Geode",
 			"Geode (Rock)",
+			"Herkimer",
+			"Honey",
+			"Iodine",
 			"Iron",
 			"Iron (Rock)",
 			"Jute",
-			"Licorice",
 			"Lignite",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
-			"Mint",
-			"Oregano",
-			"Peat",
-			"Pepper Seed",
+			"Olives",
 			"Resin",
-			"Ruby",
 			"Sandstone (Rock)",
-			"Schisandra",
 			"Sea Grapes",
 			"Slate",
+			"Softwood",
 			"Straw",
-			"Syrup",
-			"Tin",
+			"Strawberry",
+			"Sugars",
 			"Twigs",
 			"Wetwood",
-			"Wild Carrot",
-			"Wild Pepper"
+			"Wild Chick Peas"
 		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
@@ -754,23 +790,11 @@
 	},
 	"B1": {
 		"animals": [
-			"Bear",
-			"Bee",
-			"Chicken",
-			"Cobra",
-			"Cow",
-			"Crow",
-			"Horse",
-			"Lion",
-			"Pig",
-			"Rabbit",
-			"Rattlesnake",
-			"Seagull",
-			"Sheep",
-			"Wolf"
+			"Seagull"
 		],
 		"biomes": [
-			"Western Temperate",
+			"Western Tropical",
+			"Western Tropics",
 			"Ocean Water",
 			"At Land",
 			"Eastern Tropics"
@@ -787,46 +811,25 @@
 		"name": "",
 		"region": "",
 		"resources": [
-			"Anthracite",
-			"Bark",
 			"Basalt (Rock)",
-			"Carrot Seed",
-			"Chamomile",
-			"Darkwood",
-			"Elderberry",
-			"Emerald",
-			"Geode",
+			"Bean Seed",
+			"Coconut",
+			"Fronds",
 			"Geode (Rock)",
 			"Granite (Rock)",
-			"Hemp",
-			"Iron",
 			"Iron (Rock)",
-			"Lightwood",
-			"Limestone",
-			"Limestone (Rock)",
-			"Maps",
-			"Mint",
-			"Onion Seed",
 			"Oregano",
-			"Parsley",
-			"Peat",
-			"Pepper Seed",
-			"Quartz",
-			"Radiolarite",
 			"Resin",
-			"Slate",
+			"Rice Seed",
+			"Sea Grapes",
 			"Softwood",
 			"Straw",
-			"Strawberry",
-			"Syrup",
 			"Twigs",
-			"Wetwood",
-			"Wild Carrot",
-			"Wild Onion",
-			"Wild Pepper"
+			"Wild Beans",
+			"Wild Rice"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Temperate",
+		"serverTemplate": "Western Tropical",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -836,6 +839,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -854,7 +865,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "North Pole",
 		"resources": [],
@@ -893,7 +904,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "North Pole",
 		"resources": [
@@ -931,145 +942,25 @@
 	},
 	"B2": {
 		"animals": [
-			"Bee",
-			"Cobra",
-			"Cow",
-			"Crow",
-			"Horse",
-			"Monkey",
-			"Pig",
-			"Rabbit",
-			"Rattlesnake",
-			"Seagull",
-			"Sheep",
-			"Turtle"
-		],
-		"biomes": [
-			"Western Temperate",
-			"Eastern Temperate",
-			"Ocean Water",
-			"At Land"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 1,
-		"name": "",
-		"region": "",
-		"resources": [
-			"Bamboo",
-			"Bark",
-			"Basalt (Rock)",
-			"Blackberry",
-			"Geode",
-			"Geode (Rock)",
-			"Iron",
-			"Iron (Rock)",
-			"Limestone",
-			"Limestone (Rock)",
-			"Maps",
-			"Mint",
-			"Nitre",
-			"Oregano",
-			"Quartz",
-			"Resin",
-			"Slate",
-			"Softwood",
-			"Straw",
-			"Syrup",
-			"Twigs"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Temperate",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
-	"B3": {
-		"animals": [
-			"Seagull"
-		],
-		"biomes": [
-			"Western Temperate",
-			"Eastern Temperate",
-			"Eastern Tropics",
-			"Ocean Water",
-			"At Land"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 1,
-		"name": "",
-		"region": "",
-		"resources": [
-			"Bark",
-			"Basalt (Rock)",
-			"Blackberry",
-			"Carrot Seed",
-			"Geode",
-			"Geode (Rock)",
-			"Iron (Rock)",
-			"Limestone",
-			"Limestone (Rock)",
-			"Onion Seed",
-			"Quartz",
-			"Resin",
-			"Softwood",
-			"Straw",
-			"Wild Carrot",
-			"Wild Onion"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Temperate",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
-	"B4": {
-		"animals": [
 			"Cat",
+			"Chicken",
 			"Cow",
 			"Elephant",
-			"Horse",
-			"Ostrich",
-			"Rhino",
+			"Monkey",
+			"Parrot",
 			"Seagull",
-			"Sheep",
 			"Turtle"
 		],
 		"biomes": [
-			"Low Desert",
-			"Central Low Desert",
-			"Central Low Desert (Freeport)",
+			"Western Tropical",
+			"Equator",
+			"Eastern Tropics",
+			"Eastern Tropics (Freeport)",
 			"Ocean Water",
-			"At Land"
+			"At Land",
+			"Western Tropics",
+			"Western Tropics (Freeport)",
+			"Equator (Freeport)"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -1097,7 +988,7 @@
 			"Wood"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Low Desert",
+		"serverTemplate": "Western Tropical",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -1108,18 +999,192 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"B3": {
+		"animals": [
+			"Cat",
+			"Chicken",
+			"Cow",
+			"Elephant",
+			"Monkey",
+			"Parrot",
+			"Seagull",
+			"Turtle"
+		],
+		"biomes": [
+			"Western Tropical",
+			"Equator",
+			"Eastern Tropics",
+			"Eastern Tropics (Freeport)",
+			"Ocean Water",
+			"At Land",
+			"Western Tropics",
+			"Western Tropics (Freeport)",
+			"Equator (Freeport)"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 4,
+		"name": "Freeport",
+		"region": "",
+		"resources": [
+			"Blackberry",
+			"Edible Greens",
+			"Fibers",
+			"Flint",
+			"Flint (Rock)",
+			"FreshWater",
+			"Limestone",
+			"Maps",
+			"Stone (Rock)",
+			"Straw",
+			"Thatch",
+			"Wood"
+		],
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"B4": {
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Cow",
+			"Giraffe",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
+		],
+		"biomes": [
+			"Western Tropical",
+			"Eastern Tropics",
+			"Ocean Water",
+			"At Land",
+			"Western Tropics"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 1,
+		"name": "",
+		"region": "",
+		"resources": [
+			"Acerolla",
+			"Bark",
+			"Basalt (Rock)",
+			"Bean Seed",
+			"Cilantro",
+			"Coconut",
+			"Copper",
+			"Elderberry",
+			"Fronds",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Honey",
+			"Iron (Rock)",
+			"Maps",
+			"Resin",
+			"Sea Grapes",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Sugarcane",
+			"Sugars",
+			"Twigs",
+			"Wild Beans"
+		],
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"B5": {
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
 		"biomes": [
 			"Western Temperate",
-			"Western Tropics",
+			"Eastern Tundra",
+			"Western Tundra",
+			"Polar",
+			"Central Tundra",
 			"Equatorial Ocean Water",
 			"Equatorial At Land",
 			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Western Tropics (Freeport)"
+			"Eastern Tropics"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1.953125,
@@ -1132,7 +1197,35 @@
 		"forceServerRules": 2,
 		"name": "",
 		"region": "",
-		"resources": [],
+		"resources": [
+			"Arctic Raspberry",
+			"Bark",
+			"Basalt (Rock)",
+			"Calcite",
+			"Edible Greens Seed",
+			"Garlic",
+			"Geode",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Iron (Rock)",
+			"Lignonberry",
+			"Limestone",
+			"Maps",
+			"Marble (Rock)",
+			"Potato Seed",
+			"Radiolarite",
+			"Resin",
+			"Roots",
+			"Rosemary",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Sulfur",
+			"Tin",
+			"Wetwood",
+			"Wild Greens",
+			"Wild Potato"
+		],
 		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
 		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
 		"serverIslandPointsMultiplier": 1,
@@ -1146,6 +1239,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -1225,26 +1326,7 @@
 		}
 	},
 	"B7": {
-		"animals": [
-			"Ant",
-			"Catfish",
-			"Chicken",
-			"Cobra",
-			"Cow",
-			"Crocodile",
-			"Elephant",
-			"Giraffe",
-			"Monkey",
-			"Ostrich",
-			"Parrot",
-			"Pig",
-			"Rattlesnake",
-			"Scorpion",
-			"Seagull",
-			"Sheep",
-			"Tiger",
-			"Turtle"
-		],
+		"animals": [],
 		"biomes": [
 			"Western Tropical",
 			"Western Tropics",
@@ -1259,7 +1341,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "South America",
 		"resources": [
@@ -1274,12 +1356,11 @@
 			"Cilantro",
 			"Cobalt",
 			"Coconut",
-			"Crude Oil",
 			"Elderberry",
-			"FreshWater",
 			"Fronds",
 			"Geode",
 			"Geode (Rock)",
+			"Granite (Rock)",
 			"Graphite",
 			"Hemp",
 			"Honey",
@@ -1288,6 +1369,8 @@
 			"Lime",
 			"Limestone",
 			"Maps",
+			"Peat",
+			"Radiolarite",
 			"Resin",
 			"Rice Seed",
 			"Sandstone (Rock)",
@@ -1346,7 +1429,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "South America",
 		"resources": [
@@ -1425,7 +1508,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "South America",
 		"resources": [
@@ -1468,7 +1551,7 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
 			"levelLerp": 0,
@@ -1478,37 +1561,31 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
 	"C1": {
 		"animals": [
-			"Ant",
 			"Bear",
-			"Bee",
-			"Catfish",
-			"Cobra",
-			"Cod",
-			"Cow",
-			"Crow",
-			"Horse",
+			"Chicken",
+			"Giraffe",
 			"Lion",
 			"Monkey",
+			"Parrot",
 			"Pig",
 			"Rabbit",
 			"Rattlesnake",
 			"Seagull",
-			"Sheep",
-			"Spider",
-			"Tiger",
-			"Turtle"
+			"Turtle",
+			"Wolf"
 		],
 		"biomes": [
-			"Eastern Temperate",
+			"Eastern Tropical",
+			"Western Tropics",
 			"At Land",
 			"Ocean Water",
-			"Western Temperate"
+			"Eastern Tropics"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -1522,44 +1599,30 @@
 		"name": "",
 		"region": "",
 		"resources": [
-			"Bamboo",
 			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
-			"Blackberry",
-			"Darkwood",
-			"Elderberry",
-			"FreshWater",
+			"Bean Seed",
+			"Cilantro",
+			"Coconut",
+			"Copper",
 			"Fronds",
 			"Geode (Rock)",
 			"Granite (Rock)",
-			"Hemp",
-			"Iron",
+			"Honey",
 			"Iron (Rock)",
-			"Licorice",
-			"Lightwood",
-			"Lignite",
-			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
-			"Mint",
-			"Onion Seed",
-			"Oregano",
-			"Peat",
 			"Resin",
-			"Schisandra",
-			"Silk",
+			"Sea Grapes",
 			"Slate",
 			"Softwood",
 			"Straw",
-			"Syrup",
-			"Tin",
+			"Sugarcane",
+			"Turmeric",
 			"Twigs",
-			"Wetwood",
-			"Wild Onion"
+			"Wild Beans"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Temperate",
+		"serverTemplate": "Eastern Tropical",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -1569,6 +1632,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -1588,7 +1659,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "North Pole",
 		"resources": [],
@@ -1627,7 +1698,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "North Pole",
 		"resources": [
@@ -1665,161 +1736,25 @@
 	},
 	"C2": {
 		"animals": [
-			"Bear",
-			"Bee",
-			"Chicken",
-			"Cobra",
-			"Cow",
-			"Crow",
-			"Horse",
-			"Lion",
-			"Pig",
-			"Rabbit",
-			"Rattlesnake",
-			"Seagull",
-			"Sheep",
-			"Wolf"
-		],
-		"biomes": [
-			"Eastern Temperate",
-			"Western Temperate",
-			"At Land",
-			"Ocean Water"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 1,
-		"name": "",
-		"region": "",
-		"resources": [
-			"Bark",
-			"Basalt",
-			"Basalt (Rock)",
-			"Blackberry",
-			"Carrot Seed",
-			"Chamomile",
-			"Cilantro",
-			"Geode",
-			"Geode (Rock)",
-			"Iron",
-			"Iron (Rock)",
-			"Limestone",
-			"Limestone (Rock)",
-			"Maps",
-			"Mint",
-			"Nitre",
-			"Onion Seed",
-			"Opal",
-			"Oregano",
-			"Pepper Seed",
-			"Quartz",
-			"Resin",
-			"Slate",
-			"Softwood",
-			"Straw",
-			"Strawberry",
-			"Syrup",
-			"Twigs",
-			"Wild Carrot",
-			"Wild Onion",
-			"Wild Pepper"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Temperate",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
-	"C3": {
-		"animals": [
-			"Seagull"
-		],
-		"biomes": [
-			"Eastern Temperate",
-			"Western Temperate",
-			"Eastern Tropics",
-			"At Land",
-			"Ocean Water"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 1,
-		"name": "",
-		"region": "",
-		"resources": [
-			"Bark",
-			"Basalt (Rock)",
-			"Carrot Seed",
-			"Elderberry",
-			"Geode",
-			"Geode (Rock)",
-			"Granite (Rock)",
-			"Hemp",
-			"Iron (Rock)",
-			"Lightwood",
-			"Limestone",
-			"Limestone (Rock)",
-			"Onion Seed",
-			"Quartz",
-			"Resin",
-			"Softwood",
-			"Straw",
-			"Wetwood",
-			"Wild Carrot",
-			"Wild Onion"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Temperate",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
-	"C4": {
-		"animals": [
-			"Bear",
-			"Bee",
 			"Cat",
+			"Chicken",
 			"Cow",
+			"Elephant",
 			"Monkey",
-			"Pig",
-			"Rabbit",
+			"Parrot",
 			"Seagull",
-			"Sheep",
 			"Turtle"
 		],
 		"biomes": [
-			"Eastern Temperate",
-			"Eastern Temperate (Freeport)",
+			"Eastern Tropical",
+			"Western Tropics",
+			"Eastern Tropics",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Eastern Tropics (Freeport)",
+			"Equator",
+			"Equator (Freeport)",
+			"Western Tropics (Freeport)"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -1847,7 +1782,7 @@
 			"Wood"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Temperate",
+		"serverTemplate": "Eastern Tropical",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -1858,91 +1793,238 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
-	"C5": {
+	"C3": {
 		"animals": [
-			"Bear",
+			"Cat",
 			"Chicken",
-			"Cobra",
 			"Cow",
-			"Crow",
-			"Horse",
-			"Lion",
-			"Pig",
-			"Rabbit",
+			"Elephant",
+			"Monkey",
+			"Parrot",
 			"Seagull",
-			"Sheep",
-			"Wolf"
+			"Turtle"
 		],
 		"biomes": [
-			"Central Tundra",
+			"Eastern Tropical",
+			"Western Tropics",
+			"Western Tropics (Freeport)",
 			"Eastern Tropics",
+			"At Land",
+			"Ocean Water",
+			"Eastern Tropics (Freeport)",
 			"Equator",
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak",
-			"Equatorial At Land",
-			"Equatorial Ocean Water",
-			"Polar",
-			"Eastern Tundra"
+			"Equator (Freeport)"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.953125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
 				1
 			]
 		},
-		"forceServerRules": 2,
-		"name": "",
+		"forceServerRules": 4,
+		"name": "Freeport",
 		"region": "",
 		"resources": [
-			"Arctic Raspberry",
-			"Bamboo",
-			"Bark",
-			"Basalt (Rock)",
-			"Calcite",
-			"Chalcedony",
-			"Edible Greens Seed",
-			"Garlic",
-			"Geode",
-			"Geode (Rock)",
-			"Granite (Rock)",
-			"Hemp",
-			"Iron (Rock)",
-			"Kala Namak",
-			"Lignonberry",
+			"Blackberry",
+			"Edible Greens",
+			"Fibers",
+			"Flint",
+			"Flint (Rock)",
+			"FreshWater",
 			"Limestone",
 			"Maps",
-			"Marble (Rock)",
-			"Potato Seed",
-			"Quartz",
-			"Radiolarite",
-			"Resin",
-			"Roots",
-			"Silver",
-			"Slate",
+			"Stone (Rock)",
 			"Straw",
-			"Sulfur",
-			"Tin",
-			"Wetwood",
-			"Wild Greens",
-			"Wild Potato"
+			"Thatch",
+			"Wood"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,0.36,1.25,0.33,1.25,0.4,",
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Central Tundra",
+		"serverTemplate": "Eastern Tropical",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.25,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"C4": {
+		"animals": [
+			"Ant",
+			"Bear",
+			"Bee",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle"
+		],
+		"biomes": [
+			"Eastern Tropical",
+			"Eastern Temperate",
+			"Eastern Temperate Mountain Peak",
+			"Eastern Tropics",
+			"At Land",
+			"Ocean Water"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 1,
+		"name": "",
+		"region": "",
+		"resources": [
+			"Agedwood",
+			"Bamboo",
+			"Bark",
+			"Basalt (Rock)",
+			"Blackberry",
+			"Calcite",
+			"Fronds",
+			"Geode",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Iron",
+			"Iron (Rock)",
+			"Jute",
+			"Licorice",
+			"Limestone",
+			"Maps",
+			"Resin",
+			"Schisandra",
+			"Sea Grapes",
+			"Silk",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Syrup",
+			"Tin",
+			"Twigs",
+			"Wetwood"
+		],
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"C5": {
+		"animals": [
+			"Cat",
+			"Chicken",
+			"Cow",
+			"Elephant",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Seagull",
+			"Turtle"
+		],
+		"biomes": [
+			"Western Tropical",
+			"Equator",
+			"Western Tropics",
+			"At Land",
+			"Western Tropics (Freeport)",
+			"Ocean Water",
+			"Equator (Freeport)"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 4,
+		"name": "Tortuga",
+		"region": "Tortuga",
+		"resources": [
+			"Blackberry",
+			"Edible Greens",
+			"Fibers",
+			"Flint (Rock)",
+			"FreshWater",
+			"Maps",
+			"Stone (Rock)",
+			"Straw",
+			"Thatch",
+			"Wood"
+		],
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -1962,11 +2044,11 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "South America",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Equatorial",
 		"sotd": {
 			"levelLerp": 0,
@@ -1976,7 +2058,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
@@ -2013,7 +2095,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "South America",
 		"resources": [
@@ -2034,7 +2116,6 @@
 			"Maps",
 			"Marble (Rock)",
 			"Resin",
-			"Sandstone (Rock)",
 			"Sea Grapes",
 			"Slate",
 			"Softwood",
@@ -2061,19 +2142,27 @@
 	},
 	"C8": {
 		"animals": [
-			"Cat",
+			"Ant",
 			"Chicken",
+			"Cobra",
 			"Cow",
+			"Crocodile",
 			"Elephant",
+			"Giraffe",
 			"Monkey",
+			"Ostrich",
 			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
 			"Seagull",
+			"Sheep",
+			"Tiger",
 			"Turtle"
 		],
 		"biomes": [
 			"Western Tropical",
 			"Western Tropics",
-			"Western Tropics (Freeport)",
 			"At Land",
 			"Ocean Water",
 			"Equator",
@@ -2102,10 +2191,10 @@
 			"Cilantro",
 			"Coconut",
 			"Elderberry",
-			"FreshWater",
 			"Fronds",
 			"Geode",
 			"Geode (Rock)",
+			"Graphite",
 			"Hemp",
 			"Honey",
 			"Iron (Rock)",
@@ -2114,13 +2203,14 @@
 			"Limestone",
 			"Maps",
 			"Marble (Rock)",
-			"Peat",
 			"Radiolarite",
 			"Resin",
+			"Sea Grapes",
+			"Silver",
+			"Slate",
 			"Softwood",
 			"Straw",
 			"Strongwood",
-			"Sugars",
 			"Twigs",
 			"Wild Beans"
 		],
@@ -2169,7 +2259,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "South America",
 		"resources": [
@@ -2205,7 +2295,7 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
 			"levelLerp": 0,
@@ -2215,38 +2305,34 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
 	"D1": {
 		"animals": [
 			"Ant",
-			"Bear",
-			"Bee",
-			"Catfish",
+			"Chicken",
 			"Cobra",
-			"Cod",
 			"Cow",
-			"Crow",
-			"Horse",
-			"Lion",
+			"Crocodile",
+			"Elephant",
+			"Giraffe",
 			"Monkey",
+			"Ostrich",
+			"Parrot",
 			"Pig",
-			"Rabbit",
 			"Rattlesnake",
+			"Scorpion",
 			"Seagull",
-			"Sheep",
-			"Spider",
 			"Tiger",
 			"Turtle"
 		],
 		"biomes": [
-			"Eastern Temperate",
+			"Eastern Tropical",
+			"Western Tropics",
 			"At Land",
-			"Ocean Water",
-			"Eastern Temperate Mountain Peak",
-			"Western Temperate"
+			"Ocean Water"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -2260,41 +2346,39 @@
 		"name": "",
 		"region": "",
 		"resources": [
-			"Bamboo",
+			"Acerolla",
 			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
+			"Bean Seed",
 			"Blackberry",
-			"Carrot Seed",
-			"Chamomile",
-			"FreshWater",
+			"Cilantro",
+			"Cobalt",
+			"Coconut",
+			"Crude Oil",
+			"Elderberry",
 			"Fronds",
-			"Geode",
 			"Geode (Rock)",
-			"Iron",
+			"Granite (Rock)",
+			"Graphite",
+			"Hemp",
+			"Honey",
 			"Iron (Rock)",
-			"Licorice",
+			"Lime",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
-			"Mint",
-			"Nitre",
-			"Opal",
-			"Pepper Seed",
-			"Quartz",
+			"Radiolarite",
 			"Resin",
-			"Schisandra",
+			"Rice Seed",
 			"Slate",
 			"Softwood",
 			"Straw",
-			"Strawberry",
-			"Syrup",
+			"Sugars",
 			"Twigs",
-			"Wild Carrot",
-			"Wild Pepper"
+			"Wild Beans",
+			"Wild Rice"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Temperate",
+		"serverTemplate": "Eastern Tropical",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -2304,6 +2388,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -2323,11 +2415,11 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "North Pole",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Polar",
 		"sotd": {
 			"levelLerp": 0,
@@ -2337,7 +2429,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
@@ -2356,7 +2448,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "North Pole",
 		"resources": [],
@@ -2376,162 +2468,14 @@
 	},
 	"D2": {
 		"animals": [
-			"Bee",
-			"Cobra",
-			"Cow",
-			"Crow",
-			"Horse",
-			"Monkey",
-			"Pig",
-			"Rabbit",
-			"Rattlesnake",
-			"Seagull",
-			"Sheep",
-			"Turtle"
-		],
-		"biomes": [
-			"Eastern Temperate",
-			"At Land",
-			"Ocean Water",
-			"Western Temperate"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 1,
-		"name": "",
-		"region": "",
-		"resources": [
-			"Bamboo",
-			"Bark",
-			"Basalt (Rock)",
-			"Blackberry",
-			"Geode",
-			"Geode (Rock)",
-			"Iron",
-			"Iron (Rock)",
-			"Limestone",
-			"Limestone (Rock)",
-			"Maps",
-			"Mint",
-			"Nitre",
-			"Oregano",
-			"Quartz",
-			"Resin",
-			"Slate",
-			"Softwood",
-			"Straw",
-			"Syrup",
-			"Twigs"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Temperate",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
-	"D3": {
-		"animals": [
-			"Bear",
-			"Bee",
-			"Chicken",
-			"Cobra",
-			"Cow",
-			"Crow",
-			"Horse",
-			"Lion",
-			"Pig",
-			"Rabbit",
-			"Rattlesnake",
-			"Seagull",
-			"Sheep",
-			"Wolf"
-		],
-		"biomes": [
-			"Eastern Temperate",
-			"Western Temperate",
-			"At Land",
-			"Ocean Water"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 1,
-		"name": "",
-		"region": "",
-		"resources": [
-			"Bark",
-			"Basalt",
-			"Basalt (Rock)",
-			"Chamomile",
-			"Cilantro",
-			"Geode (Rock)",
-			"Iron",
-			"Iron (Rock)",
-			"Limestone",
-			"Limestone (Rock)",
-			"Maps",
-			"Nitre",
-			"Opal",
-			"Resin",
-			"Slate",
-			"Softwood",
-			"Straw",
-			"Syrup",
-			"Twigs"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Temperate",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
-	"D4": {
-		"animals": [
-			"Bear",
-			"Cat",
-			"Chicken",
-			"Cow",
-			"Horse",
-			"Monkey",
-			"Parrot",
-			"Pig",
-			"Rabbit",
-			"Seagull",
-			"Turtle"
+			"Seagull"
 		],
 		"biomes": [
 			"Eastern Tropical",
 			"Eastern Tropics",
-			"Eastern Tropics (Freeport)",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Equator"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -2541,22 +2485,28 @@
 				1
 			]
 		},
-		"forceServerRules": 4,
-		"name": "Freeport",
+		"forceServerRules": 1,
+		"name": "",
 		"region": "",
 		"resources": [
-			"Blackberry",
-			"Edible Greens",
-			"Fibers",
-			"Flint",
-			"Flint (Rock)",
-			"FreshWater",
+			"Basalt (Rock)",
+			"Coconut",
+			"Copper",
+			"Fronds",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Graphite",
+			"Iron (Rock)",
 			"Limestone",
 			"Maps",
-			"Stone (Rock)",
+			"Resin",
+			"Rice Seed",
+			"Sea Grapes",
+			"Slate",
+			"Softwood",
 			"Straw",
-			"Thatch",
-			"Wood"
+			"Twigs",
+			"Wild Rice"
 		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tropical",
@@ -2570,26 +2520,183 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"D3": {
+		"animals": [
+			"Seagull"
+		],
+		"biomes": [
+			"Eastern Tropical",
+			"Western Tropics",
+			"Eastern Tropics",
+			"At Land",
+			"Ocean Water"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 1,
+		"name": "",
+		"region": "",
+		"resources": [
+			"Basalt (Rock)",
+			"Bean Seed",
+			"Coconut",
+			"Fronds",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Iron (Rock)",
+			"Oregano",
+			"Resin",
+			"Rice Seed",
+			"Sea Grapes",
+			"Softwood",
+			"Straw",
+			"Twigs",
+			"Wild Beans",
+			"Wild Rice"
+		],
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"D4": {
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Cow",
+			"Giraffe",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Turtle",
+			"Wolf"
+		],
+		"biomes": [
+			"Eastern Tropical",
+			"Western Tropics",
+			"Eastern Tropics",
+			"At Land",
+			"Ocean Water"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 1,
+		"name": "",
+		"region": "",
+		"resources": [
+			"Bark",
+			"Basalt (Rock)",
+			"Blackberry",
+			"Chalcedony",
+			"Chert",
+			"Cilantro",
+			"Coconut",
+			"Copper",
+			"Elderberry",
+			"Fronds",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Graphite",
+			"Iron (Rock)",
+			"Limestone",
+			"Maps",
+			"Resin",
+			"Rice Seed",
+			"Sea Grapes",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Turmeric",
+			"Twigs",
+			"Wild Rice"
+		],
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Tropical",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"D5": {
 		"animals": [
 			"Bear",
-			"Cat",
 			"Chicken",
 			"Cow",
+			"Giraffe",
 			"Horse",
+			"Lion",
 			"Monkey",
 			"Parrot",
 			"Pig",
 			"Rabbit",
+			"Rattlesnake",
 			"Seagull",
-			"Turtle"
+			"Turtle",
+			"Wolf"
 		],
 		"biomes": [
 			"Eastern Tropical",
+			"Western Tropics",
 			"Eastern Tropics",
-			"Eastern Tropics (Freeport)",
 			"At Land",
 			"Ocean Water"
 		],
@@ -2605,18 +2712,31 @@
 		"name": "Central Maw",
 		"region": "Kraken's Lair",
 		"resources": [
+			"Bark",
+			"Basalt (Rock)",
 			"Blackberry",
-			"Edible Greens",
-			"Fibers",
-			"Flint",
-			"Flint (Rock)",
-			"FreshWater",
+			"Chalcedony",
+			"Chert",
+			"Cilantro",
+			"Coconut",
+			"Copper",
+			"Elderberry",
+			"Fronds",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Graphite",
+			"Iron (Rock)",
 			"Limestone",
 			"Maps",
-			"Stone (Rock)",
+			"Resin",
+			"Rice Seed",
+			"Sea Grapes",
+			"Slate",
+			"Softwood",
 			"Straw",
-			"Thatch",
-			"Wood"
+			"Turmeric",
+			"Twigs",
+			"Wild Rice"
 		],
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "EndBoss",
@@ -2630,16 +2750,47 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"D6": {
-		"animals": [],
+		"animals": [
+			"Ant",
+			"Bear",
+			"CarrierTurtle",
+			"Catfish",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Giraffe",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Vulture"
+		],
 		"biomes": [
 			"Equatorial",
 			"Equator",
 			"At Land",
-			"Ocean Water",
-			"Equator (Freeport)"
+			"Ocean Water"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -2649,11 +2800,40 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "South America",
-		"resources": [],
-		"serverIslandPointsMultiplier": 1,
+		"resources": [
+			"Acai",
+			"Bark",
+			"Basalt (Rock)",
+			"Cocoa",
+			"FreshWater",
+			"Geode",
+			"Geode (Rock)",
+			"Gum",
+			"Honey",
+			"Iron",
+			"Iron (Rock)",
+			"Jute",
+			"Limestone",
+			"Maps",
+			"Opal",
+			"Peat",
+			"Quartz",
+			"Reeds",
+			"Resin",
+			"Roots",
+			"Rosemary",
+			"Sandstone (Rock)",
+			"Sea Grapes",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Strongwood",
+			"Twigs"
+		],
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Equatorial",
 		"sotd": {
 			"levelLerp": 0,
@@ -2663,7 +2843,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
@@ -2690,7 +2870,7 @@
 		"biomes": [
 			"Eastern Tropical",
 			"Western Tropics",
-			"Equator",
+			"Western Temperate",
 			"At Land",
 			"Ocean Water"
 		],
@@ -2723,9 +2903,9 @@
 			"Geode (Rock)",
 			"Hemp",
 			"Iron (Rock)",
+			"Jute",
 			"Lime",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
 			"Radiolarite",
 			"Resin",
@@ -2767,7 +2947,7 @@
 				1
 			]
 		},
-		"forceServerRules": 1,
+		"forceServerRules": 5,
 		"name": "Golden Age Ruins",
 		"region": "South America",
 		"resources": [],
@@ -2805,10 +2985,10 @@
 		"biomes": [
 			"Western Tropical",
 			"Eastern Tropics",
-			"Western Tropics",
 			"At Land",
 			"Ocean Water",
-			"Equator"
+			"Equator",
+			"Western Tropics"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -2862,12 +3042,16 @@
 		}
 	},
 	"E1": {
-		"animals": [],
+		"animals": [
+			"Seagull"
+		],
 		"biomes": [
-			"Western Tundra",
-			"Polar",
+			"Western Temperate",
+			"Eastern Temperate",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Eastern Tropics",
+			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -2877,12 +3061,31 @@
 				1
 			]
 		},
-		"forceServerRules": 3,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Central Waters",
-		"resources": [],
+		"resources": [
+			"Bark",
+			"Basalt (Rock)",
+			"Carrot Seed",
+			"Elderberry",
+			"Geode",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Hemp",
+			"Iron (Rock)",
+			"Lightwood",
+			"Limestone",
+			"Onion Seed",
+			"Quartz",
+			"Resin",
+			"Straw",
+			"Wetwood",
+			"Wild Carrot",
+			"Wild Onion"
+		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Tundra",
+		"serverTemplate": "Western Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -2891,7 +3094,15 @@
 			"spawnLimits": [
 				37,
 				5000,
-				1800
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -2911,11 +3122,11 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "North Pole",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Polar",
 		"sotd": {
 			"levelLerp": 0,
@@ -2925,7 +3136,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
@@ -2946,7 +3157,6 @@
 		],
 		"biomes": [
 			"Eastern Tundra",
-			"Western Tundra",
 			"At Land",
 			"Ocean Water",
 			"Central Tundra"
@@ -2959,41 +3169,40 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "North Pole",
 		"resources": [
-			"Agedwood",
 			"Arctic Raspberry",
+			"Bamboo",
 			"Bark",
 			"Basalt (Rock)",
-			"Calcite",
-			"Edible Greens Seed",
+			"Bilberry",
+			"Chalcedony",
 			"Garlic",
 			"Geode",
 			"Geode (Rock)",
 			"Iron (Rock)",
-			"Lightwood",
+			"Kala Namak",
 			"Lignonberry",
 			"Limestone",
 			"Maps",
-			"Marble (Rock)",
+			"Mint",
+			"Nitre",
 			"Potato Seed",
-			"Radiolarite",
+			"Quartz",
 			"Resin",
 			"Roots",
-			"Rosemary",
+			"Silver",
 			"Slate",
 			"Slate (Rock)",
-			"Softwood",
 			"Straw",
-			"Sulfur",
-			"Tin",
+			"Turnip Seed",
 			"Wetwood",
-			"Wild Greens",
-			"Wild Potato"
+			"Wild Potato",
+			"Wild Turnip"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Eastern Tundra",
 		"sotd": {
 			"levelLerp": 0,
@@ -3003,7 +3212,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
@@ -3030,15 +3239,15 @@
 		"name": "",
 		"region": "Central Waters",
 		"resources": [
-			"Agedwood",
 			"Basalt (Rock)",
 			"Bean Seed",
 			"Coconut",
 			"Fronds",
 			"Geode (Rock)",
+			"Granite (Rock)",
+			"Hemp",
 			"Iron (Rock)",
-			"Jute",
-			"Limestone (Rock)",
+			"Lightwood",
 			"Oregano",
 			"Resin",
 			"Rice Seed",
@@ -3060,6 +3269,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -3131,6 +3348,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"E4": {
@@ -3185,23 +3410,24 @@
 			"Fronds",
 			"Geode",
 			"Geode (Rock)",
-			"Iron",
+			"Granite (Rock)",
 			"Iron (Rock)",
 			"Licorice",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
 			"Mint",
 			"Nitre",
-			"Opal",
+			"Peat",
 			"Pepper Seed",
 			"Quartz",
 			"Resin",
 			"Schisandra",
+			"Silver",
 			"Slate",
 			"Softwood",
 			"Straw",
 			"Strawberry",
+			"Sunstone",
 			"Syrup",
 			"Twigs",
 			"Wild Carrot",
@@ -3218,6 +3444,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -3306,33 +3540,31 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"E6": {
 		"animals": [
 			"Ant",
-			"Bear",
-			"CarrierTurtle",
-			"Catfish",
-			"CaveBat",
 			"Chicken",
 			"Cobra",
 			"Cow",
 			"Crocodile",
-			"Crow",
 			"Elephant",
-			"Giraffe",
 			"Monkey",
 			"Parrot",
 			"Pig",
 			"Rattlesnake",
 			"Scorpion",
 			"Seagull",
-			"Sheep",
-			"Spider",
-			"Tiger",
-			"Turtle",
-			"Vulture"
+			"Turtle"
 		],
 		"biomes": [
 			"Equatorial",
@@ -3348,39 +3580,42 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "South America",
 		"resources": [
-			"Acai",
+			"Acerolla",
 			"Bark",
 			"Basalt (Rock)",
-			"FreshWater",
-			"Geode",
+			"Chert",
+			"Chick Pea Seed",
+			"Cocoa",
+			"Coconut",
+			"Copper",
+			"Fronds",
 			"Geode (Rock)",
 			"Granite (Rock)",
 			"Gum",
-			"Honey",
-			"Iron",
+			"Iodine",
 			"Iron (Rock)",
 			"Jute",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
-			"Nitre",
-			"Opal",
-			"Quartz",
-			"Reeds",
 			"Resin",
-			"Roots",
 			"Rosemary",
 			"Sea Grapes",
+			"Sea Salt",
 			"Slate",
+			"Softwood",
 			"Straw",
 			"Strongwood",
-			"Twigs"
+			"Sugarcane",
+			"Sulfur",
+			"Thyme",
+			"Twigs",
+			"Wild Chick Peas"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Equatorial",
 		"sotd": {
 			"levelLerp": 0,
@@ -3390,7 +3625,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
@@ -3414,9 +3649,7 @@
 			"Western Tropics",
 			"At Land",
 			"Ocean Water",
-			"Eastern Tropics",
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak"
+			"Eastern Tropics"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -3426,7 +3659,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "South America",
 		"resources": [
@@ -3442,15 +3675,12 @@
 			"Granite (Rock)",
 			"Honey",
 			"Iron (Rock)",
-			"Jute",
 			"Maps",
 			"Resin",
-			"Sandstone (Rock)",
 			"Sea Grapes",
 			"Slate",
 			"Softwood",
 			"Straw",
-			"Strongwood",
 			"Sugarcane",
 			"Turmeric",
 			"Twigs",
@@ -3587,7 +3817,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "South America",
 		"resources": [
@@ -3599,7 +3829,6 @@
 			"Coconut",
 			"Fronds",
 			"Geode (Rock)",
-			"Granite (Rock)",
 			"Honey",
 			"Iron",
 			"Iron (Rock)",
@@ -3617,71 +3846,8 @@
 			"Twigs",
 			"Wild Beans"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Eastern Tropical",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
-	"F1": {
-		"animals": [
-			"Bear",
-			"Crow",
-			"Penguin",
-			"Rabbit",
-			"Seagull",
-			"Wolf",
-			"Yeti"
-		],
-		"biomes": [
-			"Western Tundra",
-			"Central Tundra",
-			"Polar",
-			"At Land",
-			"Ocean Water",
-			"Eastern Tundra"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 3,
-		"name": "",
-		"region": "Central Waters",
-		"resources": [
-			"Bark",
-			"Basalt",
-			"Basalt (Rock)",
-			"Coquina (Rock)",
-			"Crude Oil",
-			"Emerald",
-			"Geode (Rock)",
-			"Granite (Rock)",
-			"Iron",
-			"Iron (Rock)",
-			"Lignite",
-			"Limestone",
-			"Maps",
-			"Obsidian",
-			"Resin",
-			"Silver",
-			"Slate",
-			"Wetwood"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Tundra",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -3694,12 +3860,115 @@
 			]
 		}
 	},
+	"F1": {
+		"animals": [
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Chicken",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
+		"biomes": [
+			"Western Temperate",
+			"Eastern Tropics",
+			"Eastern Temperate",
+			"At Land",
+			"Ocean Water"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 2,
+		"name": "",
+		"region": "Central Waters",
+		"resources": [
+			"Anthracite",
+			"Bark",
+			"Basalt (Rock)",
+			"Elderberry",
+			"Emerald",
+			"FreshWater",
+			"Geode",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Hemp",
+			"Iron",
+			"Iron (Rock)",
+			"Lightwood",
+			"Limestone",
+			"Maps",
+			"Onion Seed",
+			"Parsley",
+			"Pepper Seed",
+			"Quartz",
+			"Radiolarite",
+			"Resin",
+			"Slate",
+			"Straw",
+			"Strawberry",
+			"Syrup",
+			"Twigs",
+			"Wetwood",
+			"Wild Onion",
+			"Wild Pepper"
+		],
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Western Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
 	"F10": {
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Chicken",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
 		"biomes": [
 			"Western Tundra",
 			"Eastern Tundra",
-			"Central Tundra",
 			"At Land",
 			"Ocean Water",
 			"Eastern Temperate",
@@ -3713,10 +3982,40 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Antarctica",
-		"resources": [],
+		"resources": [
+			"Arctic Raspberry",
+			"Bamboo",
+			"Bark",
+			"Basalt (Rock)",
+			"Bilberry",
+			"Chalcedony",
+			"FreshWater",
+			"Garlic",
+			"Geode",
+			"Geode (Rock)",
+			"Iron (Rock)",
+			"Kala Namak",
+			"Lignonberry",
+			"Limestone",
+			"Maps",
+			"Mint",
+			"Nitre",
+			"Potato Seed",
+			"Quartz",
+			"Resin",
+			"Roots",
+			"Silver",
+			"Slate",
+			"Slate (Rock)",
+			"Straw",
+			"Turnip Seed",
+			"Wetwood",
+			"Wild Potato",
+			"Wild Turnip"
+		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tundra",
 		"sotd": {
@@ -3746,7 +4045,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Antarctica",
 		"resources": [],
@@ -3790,8 +4089,7 @@
 			"Western Temperate",
 			"Eastern Temperate",
 			"At Land",
-			"Ocean Water",
-			"Eastern Temperate Mountain Peak"
+			"Ocean Water"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -3810,8 +4108,10 @@
 			"Basalt",
 			"Basalt (Rock)",
 			"Blackberry",
-			"Carrot Seed",
-			"Chamomile",
+			"Calcite",
+			"Coquina (Rock)",
+			"Darkwood",
+			"Elderberry",
 			"FreshWater",
 			"Fronds",
 			"Geode",
@@ -3819,23 +4119,21 @@
 			"Iron",
 			"Iron (Rock)",
 			"Licorice",
+			"Lightwood",
 			"Limestone",
 			"Limestone (Rock)",
 			"Maps",
-			"Mint",
 			"Nitre",
-			"Opal",
 			"Pepper Seed",
-			"Quartz",
 			"Resin",
+			"Ruby",
 			"Schisandra",
+			"Silk",
 			"Slate",
 			"Softwood",
 			"Straw",
-			"Strawberry",
-			"Syrup",
 			"Twigs",
-			"Wild Carrot",
+			"Wetwood",
 			"Wild Pepper"
 		],
 		"serverIslandPointsMultiplier": 1,
@@ -3849,6 +4147,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -3892,6 +4198,7 @@
 			"Blackberry",
 			"Carrot Seed",
 			"Coquina (Rock)",
+			"Darkwood",
 			"Elderberry",
 			"Fronds",
 			"Geode (Rock)",
@@ -3901,21 +4208,21 @@
 			"Licorice",
 			"Lightwood",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
 			"Mint",
 			"Onion Seed",
-			"Opal",
 			"Oregano",
 			"Peat",
 			"Pepper Seed",
 			"Resin",
+			"Ruby",
 			"Schisandra",
 			"Silk",
 			"Slate",
 			"Softwood",
 			"Straw",
 			"Syrup",
+			"Tin",
 			"Twigs",
 			"Wetwood",
 			"Wild Carrot",
@@ -3934,6 +4241,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"F4": {
@@ -3950,10 +4265,7 @@
 		"biomes": [
 			"Western Temperate",
 			"Temperate At Land",
-			"Temperate Ocean Water",
-			"Eastern Tropics",
-			"Eastern Temperate",
-			"Eastern Temperate Mountain Peak"
+			"Temperate Ocean Water"
 		],
 		"flotsam": {
 			"qualityMultiplier": 2.74399995803833,
@@ -3980,6 +4292,14 @@
 				59.20000076293945,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -4057,7 +4377,7 @@
 			"Strongwood",
 			"Twigs"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Equatorial",
 		"sotd": {
 			"levelLerp": 0,
@@ -4087,11 +4407,11 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "South America",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Equatorial",
 		"sotd": {
 			"levelLerp": 0,
@@ -4101,7 +4421,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
@@ -4249,11 +4569,11 @@
 		],
 		"biomes": [
 			"Eastern Tropical",
-			"Eastern Temperate",
 			"Eastern Tropics",
+			"Eastern Temperate",
 			"At Land",
 			"Ocean Water",
-			"Central Low Desert"
+			"Western Tropics"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -4263,7 +4583,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "South America",
 		"resources": [
@@ -4286,7 +4606,7 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Eastern Tropical",
 		"sotd": {
 			"levelLerp": 0,
@@ -4296,7 +4616,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
@@ -4307,6 +4627,8 @@
 			"Bee",
 			"Cobra",
 			"Cow",
+			"Crow",
+			"Horse",
 			"Monkey",
 			"Pig",
 			"Rabbit",
@@ -4317,12 +4639,10 @@
 			"Turtle"
 		],
 		"biomes": [
-			"Western Tundra",
+			"Western Temperate",
 			"Eastern Temperate",
 			"At Land",
-			"Ocean Water",
-			"Eastern Tundra",
-			"Eastern Tropics"
+			"Ocean Water"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -4332,39 +4652,46 @@
 				1
 			]
 		},
-		"forceServerRules": 3,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Central Waters",
 		"resources": [
+			"Agedwood",
 			"Bamboo",
 			"Bark",
+			"Basalt",
 			"Basalt (Rock)",
+			"Calcite",
+			"Carrot Seed",
 			"Darkwood",
 			"Fronds",
+			"Geode",
 			"Geode (Rock)",
 			"Granite (Rock)",
 			"Iron",
 			"Iron (Rock)",
-			"Licorice",
+			"Jute",
 			"Lignite",
-			"Lignonberry",
 			"Limestone",
 			"Maps",
-			"Mint",
 			"Oregano",
 			"Peat",
 			"Resin",
 			"Ruby",
 			"Schisandra",
+			"Sea Grapes",
+			"Silk",
 			"Slate",
+			"Softwood",
 			"Straw",
 			"Syrup",
 			"Tin",
 			"Twigs",
-			"Wetwood"
+			"Wetwood",
+			"Wild Carrot"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Tundra",
+		"serverTemplate": "Western Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -4373,7 +4700,15 @@
 			"spawnLimits": [
 				37,
 				5000,
-				1800
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -4393,7 +4728,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Antarctica",
 		"resources": [],
@@ -4434,7 +4769,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Antarctica",
 		"resources": [
@@ -4468,32 +4803,37 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"G2": {
 		"animals": [
-			"Bear",
 			"Bee",
-			"Catfish",
-			"Chicken",
 			"Cobra",
-			"Cod",
 			"Cow",
 			"Crow",
 			"Horse",
-			"Lion",
+			"Monkey",
 			"Pig",
 			"Rabbit",
 			"Rattlesnake",
 			"Seagull",
 			"Sheep",
-			"Wolf"
+			"Turtle"
 		],
 		"biomes": [
 			"Western Temperate",
 			"Eastern Temperate",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -4507,36 +4847,36 @@
 		"name": "",
 		"region": "Central Waters",
 		"resources": [
+			"Bamboo",
 			"Bark",
 			"Basalt",
 			"Basalt (Rock)",
 			"Blackberry",
-			"Cilantro",
-			"FreshWater",
-			"Geode",
+			"Darkwood",
+			"Elderberry",
+			"Fronds",
 			"Geode (Rock)",
 			"Granite (Rock)",
+			"Hemp",
 			"Iron",
 			"Iron (Rock)",
+			"Lightwood",
+			"Lignite",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
-			"Nitre",
-			"Onion Seed",
-			"Opal",
-			"Pepper Seed",
-			"Quartz",
+			"Mint",
+			"Peat",
 			"Resin",
+			"Schisandra",
+			"Silk",
 			"Slate",
 			"Softwood",
 			"Straw",
-			"Strawberry",
-			"Syrup",
+			"Tin",
 			"Twigs",
-			"Wild Onion",
-			"Wild Pepper"
+			"Wetwood"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Western Temperate",
 		"sotd": {
 			"levelLerp": 0,
@@ -4547,6 +4887,14 @@
 				37,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -4587,33 +4935,36 @@
 		"name": "",
 		"region": "Central Waters",
 		"resources": [
+			"Acai",
 			"Acerolla",
 			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
-			"Blackberry",
+			"Chalcedony",
+			"Chert",
 			"Cilantro",
+			"Copper",
 			"Coquina (Rock)",
 			"Crude Oil",
 			"FreshWater",
 			"Fronds",
 			"Geode",
 			"Geode (Rock)",
+			"Graphite",
+			"Hemp",
 			"Honey",
-			"Iron",
 			"Iron (Rock)",
+			"Lightwood",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
-			"Nitre",
+			"Parsley",
 			"Quartz",
 			"Resin",
 			"Slate",
-			"Softwood",
 			"Straw",
+			"Strongwood",
 			"Sugarcane"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Western Temperate",
 		"sotd": {
 			"levelLerp": 0,
@@ -4625,18 +4976,23 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"G4": {
-		"animals": [
-			"Seagull"
-		],
+		"animals": [],
 		"biomes": [
-			"Western Tropical",
-			"Western Tropics",
-			"Eastern Tropics",
+			"Western Temperate",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Eastern Temperate"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -4649,28 +5005,9 @@
 		"forceServerRules": 3,
 		"name": "",
 		"region": "Central Waters",
-		"resources": [
-			"Agedwood",
-			"Basalt (Rock)",
-			"Bean Seed",
-			"Coconut",
-			"Fronds",
-			"Geode (Rock)",
-			"Iron (Rock)",
-			"Jute",
-			"Marble (Rock)",
-			"Oregano",
-			"Resin",
-			"Rice Seed",
-			"Sea Grapes",
-			"Softwood",
-			"Straw",
-			"Twigs",
-			"Wild Beans",
-			"Wild Rice"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Western Tropical",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Western Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -4680,6 +5017,14 @@
 				37,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -4703,7 +5048,7 @@
 		"name": "",
 		"region": "Central Waters",
 		"resources": [],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Equatorial",
 		"sotd": {
 			"levelLerp": 0,
@@ -4720,25 +5065,32 @@
 	"G6": {
 		"animals": [
 			"Ant",
+			"Bear",
+			"CarrierTurtle",
+			"Catfish",
+			"CaveBat",
+			"Chicken",
 			"Cobra",
 			"Cow",
 			"Crocodile",
 			"Crow",
 			"Elephant",
-			"Horse",
-			"Ostrich",
+			"Giraffe",
+			"Monkey",
+			"Parrot",
+			"Pig",
 			"Rattlesnake",
-			"Rhino",
 			"Scorpion",
 			"Seagull",
 			"Sheep",
+			"Spider",
+			"Tiger",
 			"Turtle",
-			"Vulture",
-			"Wolf"
+			"Vulture"
 		],
 		"biomes": [
-			"High Desert",
-			"Central Low Desert",
+			"Equatorial",
+			"Equator",
 			"At Land",
 			"Ocean Water"
 		],
@@ -4750,41 +5102,40 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Africa",
 		"resources": [
-			"Agedwood",
+			"Acai",
 			"Bark",
 			"Basalt (Rock)",
-			"Cactus Seed",
-			"Chick Pea Seed",
-			"Coquina (Rock)",
-			"Cotton",
-			"Darkwood",
-			"Flake Salt",
+			"Cocoa",
+			"FreshWater",
 			"Geode",
 			"Geode (Rock)",
-			"Herkimer",
-			"Iodine",
+			"Gum",
+			"Honey",
+			"Iron",
 			"Iron (Rock)",
 			"Jute",
-			"Lignite",
 			"Limestone",
 			"Maps",
-			"Oregano",
-			"Poppy",
-			"Reeds",
+			"Opal",
+			"Peat",
+			"Quartz",
 			"Resin",
-			"Sandstone (Rock)",
-			"Schisandra",
+			"Roots",
+			"Rosemary",
+			"Sea Grapes",
+			"Slate",
+			"Slate (Rock)",
+			"Softwood",
 			"Straw",
-			"Wetwood",
-			"Wild Cactus",
-			"Wild Chick Peas"
+			"Strongwood",
+			"Twigs"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "High Desert",
+		"serverTemplate": "Equatorial",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -4801,18 +5152,18 @@
 		"animals": [
 			"Ant",
 			"Cobra",
+			"Cow",
 			"Crocodile",
 			"Crow",
-			"Horse",
-			"Lion",
-			"Olfend",
+			"Elephant",
 			"Ostrich",
 			"Rattlesnake",
+			"Rhino",
 			"Scorpion",
 			"Seagull",
 			"Sheep",
 			"Turtle",
-			"Wolf"
+			"Vulture"
 		],
 		"biomes": [
 			"High Desert",
@@ -4835,41 +5186,28 @@
 		"resources": [
 			"Agedwood",
 			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
-			"Beet Seed",
-			"Bilberry",
-			"Cactus",
-			"Cactus Seed",
+			"Chick Pea Seed",
+			"Coconut",
 			"Cotton",
 			"Darkwood",
-			"Flake Salt",
 			"Geode",
 			"Geode (Rock)",
-			"Herkimer",
 			"Iron (Rock)",
 			"Jute",
 			"Limestone",
 			"Limestone (Rock)",
-			"Maize Seed",
 			"Maps",
 			"Nitre",
 			"Oregano",
-			"Parsley",
+			"Poppy",
+			"Quartz",
+			"Reeds",
 			"Resin",
-			"Roots",
-			"Rushes",
-			"Sandstone (Rock)",
+			"Rock Salt",
 			"Schisandra",
-			"Slate",
-			"Softwood",
 			"Straw",
-			"Tin",
-			"Twigs",
-			"Wild Beet",
-			"Wild Cactus",
-			"Wild Maize",
-			"Yarrow"
+			"Wild Chick Peas"
 		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
@@ -4917,36 +5255,34 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Africa",
 		"resources": [
 			"Agedwood",
 			"Bark",
+			"Basalt",
 			"Basalt (Rock)",
 			"Cactus Seed",
-			"Chert",
 			"Chick Pea Seed",
 			"Cilantro",
 			"Coconut",
-			"Coquina (Rock)",
 			"Cotton",
 			"Darkwood",
 			"Elderberry",
-			"Flake Salt",
 			"Geode (Rock)",
 			"Honey",
-			"Iodine",
 			"Iron",
 			"Iron (Rock)",
 			"Jute",
-			"Lignite",
 			"Limestone",
 			"Limestone (Rock)",
 			"Maps",
+			"Nitre",
 			"Olives",
 			"Oregano",
 			"Resin",
+			"Rock Salt",
 			"Schisandra",
 			"Slate",
 			"Softwood",
@@ -4972,30 +5308,61 @@
 		}
 	},
 	"G9": {
-		"animals": [
-			"Ant",
-			"Cobra",
-			"Cow",
-			"Crocodile",
-			"Crow",
-			"Elephant",
-			"Horse",
-			"Lion",
-			"Olfend",
-			"Ostrich",
-			"Rattlesnake",
-			"Rhino",
-			"Scorpion",
-			"Seagull",
-			"Sheep",
-			"Turtle",
-			"Vulture",
-			"Wolf"
-		],
+		"animals": [],
 		"biomes": [
 			"Low Desert",
 			"Central Low Desert",
-			"Central High Desert",
+			"Desert At Land",
+			"Desert Ocean Water"
+		],
+		"flotsam": {
+			"qualityMultiplier": 2.74399995803833,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 5,
+		"name": "Golden Age Ruins",
+		"region": "Africa",
+		"resources": [],
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,",
+		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,",
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Low Desert",
+		"sotd": {
+			"levelLerp": 0.5,
+			"levelMinOveride": 0,
+			"levelMultiplier": 2,
+			"levelOffset": 0,
+			"spawnLimits": [
+				59.20000076293945,
+				5000,
+				1800
+			]
+		}
+	},
+	"H1": {
+		"animals": [
+			"Bear",
+			"Bee",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
+		"biomes": [
+			"Eastern Temperate",
+			"Western Temperate",
 			"At Land",
 			"Ocean Water"
 		],
@@ -5009,49 +5376,40 @@
 		},
 		"forceServerRules": 2,
 		"name": "",
-		"region": "Africa",
+		"region": "Central Waters",
 		"resources": [
+			"Anthracite",
 			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
-			"Cactus Seed",
-			"Chick Pea Seed",
-			"Cilantro",
-			"Coconut",
-			"Cotton",
+			"Carrot Seed",
 			"Darkwood",
 			"Elderberry",
-			"FreshWater",
+			"Emerald",
 			"Geode",
 			"Geode (Rock)",
-			"Honey",
+			"Granite (Rock)",
+			"Hemp",
 			"Iron",
 			"Iron (Rock)",
-			"Jute",
+			"Lightwood",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
-			"Nitre",
-			"Olives",
+			"Mint",
 			"Oregano",
-			"Poppy",
 			"Quartz",
-			"Reeds",
+			"Radiolarite",
 			"Resin",
-			"Rock Salt",
-			"Schisandra",
 			"Slate",
 			"Softwood",
 			"Straw",
 			"Strawberry",
-			"Sugars",
+			"Syrup",
 			"Twigs",
 			"Wetwood",
-			"Wild Cactus",
-			"Wild Chick Peas"
+			"Wild Carrot"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Low Desert",
+		"serverTemplate": "Eastern Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -5062,39 +5420,13 @@
 				5000,
 				140
 			]
-		}
-	},
-	"H1": {
-		"animals": [],
-		"biomes": [
-			"Central Tundra",
-			"Eastern Tundra",
-			"At Land",
-			"Ocean Water"
-		],
-		"flotsam": {
+		},
+		"sunktreasure": {
 			"qualityMultiplier": 1,
 			"spawnLimits": [
-				360,
+				20,
 				57000,
 				1
-			]
-		},
-		"forceServerRules": 3,
-		"name": "",
-		"region": "Central Waters",
-		"resources": [],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Central Tundra",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				1800
 			]
 		}
 	},
@@ -5130,7 +5462,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Antarctica",
 		"resources": [
@@ -5213,7 +5545,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Antarctica",
 		"resources": [
@@ -5227,7 +5559,6 @@
 			"Garlic",
 			"Geode",
 			"Geode (Rock)",
-			"Granite (Rock)",
 			"Iron (Rock)",
 			"Kala Namak",
 			"Lignonberry",
@@ -5258,6 +5589,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -5292,7 +5631,7 @@
 				1
 			]
 		},
-		"forceServerRules": 3,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Central Waters",
 		"resources": [
@@ -5335,7 +5674,15 @@
 			"spawnLimits": [
 				37,
 				5000,
-				1800
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -5372,7 +5719,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "Central Portal",
 		"region": "Central Waters",
 		"resources": [
@@ -5423,16 +5770,25 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"H4": {
 		"animals": [],
 		"biomes": [
-			"Eastern Tropical",
-			"Western Tropics",
+			"Eastern Temperate",
+			"Western Temperate",
 			"Eastern Tropics",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -5447,7 +5803,7 @@
 		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1.5,
-		"serverTemplate": "Eastern Tropical",
+		"serverTemplate": "Eastern Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -5458,16 +5814,41 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"H5": {
 		"animals": [
-			"Seagull"
+			"Ant",
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle"
 		],
 		"biomes": [
-			"Eastern Tropical",
-			"Western Tropics",
-			"Eastern Tropics",
+			"Eastern Temperate",
+			"Western Temperate",
 			"At Land",
 			"Ocean Water"
 		],
@@ -5483,25 +5864,42 @@
 		"name": "",
 		"region": "Central Waters",
 		"resources": [
+			"Bamboo",
+			"Bark",
+			"Basalt",
 			"Basalt (Rock)",
-			"Bean Seed",
-			"Coconut",
+			"Blackberry",
+			"Calcite",
+			"Coquina (Rock)",
+			"Darkwood",
+			"Elderberry",
+			"FreshWater",
 			"Fronds",
+			"Geode",
 			"Geode (Rock)",
+			"Hemp",
+			"Iron",
 			"Iron (Rock)",
-			"Limestone (Rock)",
-			"Oregano",
+			"Licorice",
+			"Lightwood",
+			"Limestone",
+			"Maps",
+			"Peat",
+			"Pepper Seed",
 			"Resin",
-			"Rice Seed",
-			"Sea Grapes",
+			"Ruby",
+			"Schisandra",
+			"Silk",
+			"Slate",
 			"Softwood",
 			"Straw",
+			"Tin",
 			"Twigs",
-			"Wild Beans",
-			"Wild Rice"
+			"Wetwood",
+			"Wild Pepper"
 		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tropical",
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -5515,31 +5913,7 @@
 		}
 	},
 	"H6": {
-		"animals": [
-			"Ant",
-			"Bear",
-			"CarrierTurtle",
-			"Catfish",
-			"CaveBat",
-			"Chicken",
-			"Cobra",
-			"Cow",
-			"Crocodile",
-			"Crow",
-			"Elephant",
-			"Giraffe",
-			"Monkey",
-			"Parrot",
-			"Pig",
-			"Rattlesnake",
-			"Scorpion",
-			"Seagull",
-			"Sheep",
-			"Spider",
-			"Tiger",
-			"Turtle",
-			"Vulture"
-		],
+		"animals": [],
 		"biomes": [
 			"Equatorial",
 			"Equator",
@@ -5557,35 +5931,7 @@
 		"forceServerRules": 2,
 		"name": "",
 		"region": "Africa",
-		"resources": [
-			"Acai",
-			"Bark",
-			"Basalt (Rock)",
-			"Cocoa",
-			"FreshWater",
-			"Geode",
-			"Geode (Rock)",
-			"Gum",
-			"Honey",
-			"Iron",
-			"Iron (Rock)",
-			"Jute",
-			"Limestone",
-			"Maps",
-			"Opal",
-			"Peat",
-			"Quartz",
-			"Resin",
-			"Roots",
-			"Rosemary",
-			"Sea Grapes",
-			"Slate",
-			"Slate (Rock)",
-			"Softwood",
-			"Straw",
-			"Strongwood",
-			"Twigs"
-		],
+		"resources": [],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -5601,10 +5947,28 @@
 		}
 	},
 	"H7": {
-		"animals": [],
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Horse",
+			"Lion",
+			"Olfend",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture",
+			"Wolf"
+		],
 		"biomes": [
-			"High Desert",
-			"Central High Desert",
+			"Low Desert",
 			"Central Low Desert",
 			"At Land",
 			"Ocean Water"
@@ -5620,9 +5984,37 @@
 		"forceServerRules": 2,
 		"name": "",
 		"region": "Africa",
-		"resources": [],
+		"resources": [
+			"Agedwood",
+			"Bark",
+			"Basalt (Rock)",
+			"Cactus Seed",
+			"Chick Pea Seed",
+			"Coquina (Rock)",
+			"Cotton",
+			"Darkwood",
+			"Flake Salt",
+			"Geode",
+			"Geode (Rock)",
+			"Herkimer",
+			"Iodine",
+			"Iron (Rock)",
+			"Jute",
+			"Lignite",
+			"Limestone",
+			"Maps",
+			"Oregano",
+			"Poppy",
+			"Reeds",
+			"Resin",
+			"Schisandra",
+			"Straw",
+			"Wetwood",
+			"Wild Cactus",
+			"Wild Chick Peas"
+		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "High Desert",
+		"serverTemplate": "Low Desert",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -5652,7 +6044,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Africa",
 		"resources": [],
@@ -5671,48 +6063,89 @@
 		}
 	},
 	"H9": {
-		"animals": [],
+		"animals": [
+			"Catfish",
+			"Cobra",
+			"Crocodile",
+			"Crow",
+			"Horse",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Turtle"
+		],
 		"biomes": [
-			"Low Desert",
+			"High Desert",
+			"Central High Desert",
 			"Central Low Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
+			"At Land",
+			"Ocean Water"
 		],
 		"flotsam": {
-			"qualityMultiplier": 2.74399995803833,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
 				1
 			]
 		},
-		"forceServerRules": 5,
-		"name": "Golden Age Ruins",
+		"forceServerRules": 2,
+		"name": "",
 		"region": "Africa",
-		"resources": [],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,",
-		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,",
+		"resources": [
+			"Bark",
+			"Basalt (Rock)",
+			"Cactus",
+			"Cotton",
+			"Darkwood",
+			"FreshWater",
+			"Geode (Rock)",
+			"Iron (Rock)",
+			"Limestone (Rock)",
+			"Oregano",
+			"Resin",
+			"Rushes",
+			"Schisandra",
+			"Softwood",
+			"Straw",
+			"Twigs"
+		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Low Desert",
+		"serverTemplate": "High Desert",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 2,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
-				59.20000076293945,
+				37,
 				5000,
-				1800
+				140
 			]
 		}
 	},
 	"I1": {
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Bee",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
 		"biomes": [
-			"Eastern Tundra",
+			"Eastern Temperate",
+			"Western Temperate",
 			"At Land",
-			"Ocean Water",
-			"Central Tundra"
+			"Ocean Water"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -5725,9 +6158,38 @@
 		"forceServerRules": 2,
 		"name": "",
 		"region": "Central Waters",
-		"resources": [],
+		"resources": [
+			"Anthracite",
+			"Bark",
+			"Basalt (Rock)",
+			"Darkwood",
+			"Elderberry",
+			"Emerald",
+			"Geode",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Hemp",
+			"Iron",
+			"Iron (Rock)",
+			"Lightwood",
+			"Limestone",
+			"Maps",
+			"Mint",
+			"Oregano",
+			"Pepper Seed",
+			"Quartz",
+			"Radiolarite",
+			"Resin",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Strawberry",
+			"Twigs",
+			"Wetwood",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tundra",
+		"serverTemplate": "Eastern Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -5737,6 +6199,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -5772,7 +6242,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "Antarctica",
 		"resources": [
@@ -5799,14 +6269,13 @@
 			"Sandstone (Rock)",
 			"Silver",
 			"Slate",
-			"Slate (Rock)",
 			"Straw",
 			"Turnip Seed",
 			"Wetwood",
 			"Wild Potato",
 			"Wild Turnip"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Central Tundra",
 		"sotd": {
 			"levelLerp": 0,
@@ -5816,7 +6285,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
@@ -5835,7 +6304,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Antarctica",
 		"resources": [],
@@ -5851,24 +6320,42 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"I2": {
 		"animals": [
-			"Anglerfish",
-			"Crab",
-			"Eel",
-			"Jellyfish",
-			"Marlin",
-			"Seahorse",
-			"Shark",
-			"Squid"
+			"Ant",
+			"Bear",
+			"Bee",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle"
 		],
 		"biomes": [
-			"Eastern Tundra",
+			"Eastern Temperate",
+			"Western Temperate",
 			"At Land",
 			"Ocean Water",
-			"Polar"
+			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -5878,12 +6365,40 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "Central Waters",
-		"resources": [],
+		"resources": [
+			"Bamboo",
+			"Bark",
+			"Basalt (Rock)",
+			"Blackberry",
+			"Calcite",
+			"Elderberry",
+			"Fronds",
+			"Geode",
+			"Geode (Rock)",
+			"Granite (Rock)",
+			"Hemp",
+			"Iron",
+			"Iron (Rock)",
+			"Licorice",
+			"Lightwood",
+			"Limestone",
+			"Maps",
+			"Resin",
+			"Schisandra",
+			"Silk",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Syrup",
+			"Tin",
+			"Twigs",
+			"Wetwood"
+		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tundra",
+		"serverTemplate": "Eastern Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -5892,7 +6407,15 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -5920,107 +6443,9 @@
 		],
 		"biomes": [
 			"Eastern Temperate",
-			"At Land",
-			"Ocean Water",
-			"Western Temperate"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 2,
-		"name": "",
-		"region": "Central Waters",
-		"resources": [
-			"Bamboo",
-			"Bark",
-			"Basalt",
-			"Basalt (Rock)",
-			"Blackberry",
-			"FreshWater",
-			"Fronds",
-			"Geode (Rock)",
-			"Iron",
-			"Iron (Rock)",
-			"Licorice",
-			"Limestone",
-			"Limestone (Rock)",
-			"Maps",
-			"Mint",
-			"Nitre",
-			"Onion Seed",
-			"Oregano",
-			"Resin",
-			"Slate",
-			"Softwood",
-			"Straw",
-			"Syrup",
-			"Twigs",
-			"Wild Onion"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Temperate",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
-	"I4": {
-		"animals": [],
-		"biomes": [
-			"Eastern Tropical",
-			"Western Tropics",
-			"Eastern Tropics",
+			"Western Temperate",
 			"At Land",
 			"Ocean Water"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 2,
-		"name": "",
-		"region": "Central Waters",
-		"resources": [],
-		"serverIslandPointsMultiplier": 1.5,
-		"serverTemplate": "Eastern Tropical",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
-	"I5": {
-		"animals": [
-			"Seagull"
-		],
-		"biomes": [
-			"Eastern Tropical",
-			"Eastern Tropics",
-			"At Land",
-			"Ocean Water",
-			"Equator"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -6034,29 +6459,233 @@
 		"name": "",
 		"region": "Central Waters",
 		"resources": [
-			"Agedwood",
+			"Bamboo",
+			"Bark",
 			"Basalt (Rock)",
-			"Coconut",
-			"Copper",
+			"Blackberry",
+			"Calcite",
+			"Darkwood",
+			"Elderberry",
+			"FreshWater",
 			"Fronds",
+			"Geode",
 			"Geode (Rock)",
 			"Granite (Rock)",
-			"Graphite",
+			"Hemp",
 			"Iron (Rock)",
+			"Lightwood",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
+			"Mint",
+			"Oregano",
+			"Peat",
 			"Resin",
-			"Rice Seed",
-			"Sea Grapes",
+			"Ruby",
+			"Schisandra",
+			"Softwood",
+			"Straw",
+			"Syrup",
+			"Twigs",
+			"Wetwood"
+		],
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"I4": {
+		"animals": [
+			"Bear",
+			"Bee",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Wolf"
+		],
+		"biomes": [
+			"Eastern Temperate",
+			"Western Temperate",
+			"At Land",
+			"Ocean Water",
+			"Eastern Tropics"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 3,
+		"name": "",
+		"region": "Central Waters",
+		"resources": [
+			"Anthracite",
+			"Bark",
+			"Basalt (Rock)",
+			"Carrot Seed",
+			"Chamomile",
+			"Coquina (Rock)",
+			"Darkwood",
+			"Elderberry",
+			"Emerald",
+			"Geode",
+			"Geode (Rock)",
+			"Hemp",
+			"Iron",
+			"Iron (Rock)",
+			"Lightwood",
+			"Limestone",
+			"Maps",
+			"Mint",
+			"Onion Seed",
+			"Oregano",
+			"Parsley",
+			"Peat",
+			"Pepper Seed",
+			"Quartz",
+			"Radiolarite",
+			"Resin",
 			"Slate",
 			"Softwood",
 			"Straw",
+			"Strawberry",
+			"Syrup",
 			"Twigs",
-			"Wild Rice"
+			"Wetwood",
+			"Wild Carrot",
+			"Wild Onion",
+			"Wild Pepper"
 		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tropical",
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"I5": {
+		"animals": [
+			"Ant",
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle"
+		],
+		"biomes": [
+			"Eastern Temperate",
+			"At Land",
+			"Ocean Water",
+			"Eastern Temperate Mountain Peak",
+			"Western Temperate"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 3,
+		"name": "",
+		"region": "Central Waters",
+		"resources": [
+			"Anthracite",
+			"Bamboo",
+			"Bark",
+			"Basalt (Rock)",
+			"Carrot Seed",
+			"Chamomile",
+			"Coquina (Rock)",
+			"Darkwood",
+			"Elderberry",
+			"FreshWater",
+			"Fronds",
+			"Geode",
+			"Geode (Rock)",
+			"Hemp",
+			"Iron (Rock)",
+			"Licorice",
+			"Lightwood",
+			"Limestone",
+			"Maps",
+			"Mint",
+			"Peat",
+			"Pepper Seed",
+			"Quartz",
+			"Radiolarite",
+			"Resin",
+			"Schisandra",
+			"Silver",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Strawberry",
+			"Sunstone",
+			"Syrup",
+			"Twigs",
+			"Wetwood",
+			"Wild Carrot",
+			"Wild Pepper"
+		],
+		"serverIslandPointsMultiplier": 1.5,
+		"serverTemplate": "Eastern Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -6073,6 +6702,7 @@
 		"animals": [],
 		"biomes": [
 			"Equatorial",
+			"Eastern Tropics",
 			"Equator",
 			"At Land",
 			"Ocean Water"
@@ -6171,7 +6801,7 @@
 				1
 			]
 		},
-		"forceServerRules": 1,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Africa",
 		"resources": [
@@ -6183,7 +6813,6 @@
 			"Chick Pea Seed",
 			"Cilantro",
 			"Coconut",
-			"Coquina (Rock)",
 			"Cotton",
 			"Darkwood",
 			"Elderberry",
@@ -6224,12 +6853,29 @@
 		}
 	},
 	"I9": {
-		"animals": [],
+		"animals": [
+			"Ant",
+			"Catfish",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Giraffe",
+			"Horse",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Turtle",
+			"Vulture"
+		],
 		"biomes": [
-			"Low Desert",
+			"High Desert",
 			"Central Low Desert",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Central High Desert"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -6242,9 +6888,15 @@
 		"forceServerRules": 2,
 		"name": "",
 		"region": "Africa",
-		"resources": [],
+		"resources": [
+			"Basalt (Rock)",
+			"FreshWater",
+			"Geode (Rock)",
+			"Iron (Rock)",
+			"Sandstone (Rock)"
+		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Low Desert",
+		"serverTemplate": "High Desert",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -6258,9 +6910,25 @@
 		}
 	},
 	"J1": {
-		"animals": [],
+		"animals": [
+			"Bee",
+			"Cobra",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Tiger",
+			"Turtle"
+		],
 		"biomes": [
-			"Eastern Tundra",
+			"Eastern Temperate",
+			"Western Temperate",
 			"At Land",
 			"Ocean Water"
 		],
@@ -6272,12 +6940,44 @@
 				1
 			]
 		},
-		"forceServerRules": 3,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Central Waters",
-		"resources": [],
+		"resources": [
+			"Bamboo",
+			"Bark",
+			"Basalt",
+			"Basalt (Rock)",
+			"Blackberry",
+			"Coquina (Rock)",
+			"Darkwood",
+			"Elderberry",
+			"Fronds",
+			"Geode (Rock)",
+			"Hemp",
+			"Iron",
+			"Iron (Rock)",
+			"Licorice",
+			"Lightwood",
+			"Limestone",
+			"Maps",
+			"Onion Seed",
+			"Peat",
+			"Resin",
+			"Ruby",
+			"Schisandra",
+			"Silk",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Syrup",
+			"Tin",
+			"Twigs",
+			"Wetwood",
+			"Wild Onion"
+		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tundra",
+		"serverTemplate": "Eastern Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -6286,7 +6986,15 @@
 			"spawnLimits": [
 				37,
 				5000,
-				1800
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -6320,7 +7028,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "Antarctica",
 		"resources": [
@@ -6353,7 +7061,7 @@
 			"Wild Greens",
 			"Wild Potato"
 		],
-		"serverIslandPointsMultiplier": 1,
+		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Eastern Tundra",
 		"sotd": {
 			"levelLerp": 0,
@@ -6363,7 +7071,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		}
 	},
@@ -6384,7 +7092,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Antarctica",
 		"resources": [],
@@ -6399,6 +7107,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -6437,16 +7153,107 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"J3": {
 		"animals": [],
 		"biomes": [
 			"Eastern Temperate",
-			"Western Temperate",
 			"At Land",
 			"Ocean Water",
 			"Eastern Tropics"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 2,
+		"name": "",
+		"region": "Central Waters",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"J4": {
+		"animals": [],
+		"biomes": [
+			"Eastern Temperate",
+			"At Land",
+			"Ocean Water",
+			"Western Temperate"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 2,
+		"name": "",
+		"region": "Central Waters",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"J5": {
+		"animals": [],
+		"biomes": [
+			"Eastern Temperate",
+			"Western Temperate",
+			"At Land",
+			"Ocean Water"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -6474,168 +7281,12 @@
 			]
 		}
 	},
-	"J4": {
-		"animals": [
-			"Bear",
-			"Chicken",
-			"Giraffe",
-			"Lion",
-			"Monkey",
-			"Parrot",
-			"Pig",
-			"Rabbit",
-			"Rattlesnake",
-			"Seagull",
-			"Turtle",
-			"Wolf"
-		],
-		"biomes": [
-			"Eastern Tropical",
-			"Western Tropics",
-			"At Land",
-			"Ocean Water",
-			"Eastern Tropics"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 2,
-		"name": "",
-		"region": "Central Waters",
-		"resources": [
-			"Agedwood",
-			"Bark",
-			"Basalt (Rock)",
-			"Bean Seed",
-			"Cilantro",
-			"Coconut",
-			"Copper",
-			"Coquina (Rock)",
-			"Fronds",
-			"Geode (Rock)",
-			"Granite (Rock)",
-			"Honey",
-			"Iron (Rock)",
-			"Jute",
-			"Maps",
-			"Resin",
-			"Sea Grapes",
-			"Slate",
-			"Softwood",
-			"Straw",
-			"Strongwood",
-			"Sugarcane",
-			"Turmeric",
-			"Twigs",
-			"Wild Beans"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tropical",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
-	"J5": {
-		"animals": [
-			"Bear",
-			"Chicken",
-			"Cow",
-			"Giraffe",
-			"Horse",
-			"Lion",
-			"Monkey",
-			"Parrot",
-			"Pig",
-			"Rabbit",
-			"Rattlesnake",
-			"Seagull",
-			"Turtle",
-			"Wolf"
-		],
-		"biomes": [
-			"Eastern Tropical",
-			"Western Tropics",
-			"At Land",
-			"Ocean Water",
-			"Eastern Tropics"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 2,
-		"name": "",
-		"region": "Central Waters",
-		"resources": [
-			"Acai",
-			"Agedwood",
-			"Bark",
-			"Basalt",
-			"Basalt (Rock)",
-			"Bean Seed",
-			"Cilantro",
-			"Coconut",
-			"Coquina (Rock)",
-			"Crude Oil",
-			"Elderberry",
-			"Fronds",
-			"Geode (Rock)",
-			"Graphite",
-			"Iron",
-			"Iron (Rock)",
-			"Jute",
-			"Limestone",
-			"Limestone (Rock)",
-			"Maps",
-			"Resin",
-			"Rice Seed",
-			"Sea Grapes",
-			"Slate",
-			"Softwood",
-			"Straw",
-			"Strongwood",
-			"Turmeric",
-			"Twigs",
-			"Wild Beans",
-			"Wild Rice"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tropical",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				140
-			]
-		}
-	},
 	"J6": {
 		"animals": [],
 		"biomes": [
 			"Equatorial",
-			"Eastern Tropics",
 			"Equator",
+			"Western Tropics",
 			"At Land",
 			"Ocean Water"
 		],
@@ -6701,7 +7352,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Africa",
 		"resources": [
@@ -6832,12 +7483,29 @@
 		}
 	},
 	"J9": {
-		"animals": [],
+		"animals": [
+			"Ant",
+			"Catfish",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Giraffe",
+			"Horse",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Turtle",
+			"Vulture"
+		],
 		"biomes": [
-			"Low Desert",
+			"High Desert",
 			"Central Low Desert",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Central High Desert"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -6850,9 +7518,15 @@
 		"forceServerRules": 2,
 		"name": "",
 		"region": "Africa",
-		"resources": [],
+		"resources": [
+			"Basalt (Rock)",
+			"FreshWater",
+			"Geode (Rock)",
+			"Iron (Rock)",
+			"Sandstone (Rock)"
+		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Low Desert",
+		"serverTemplate": "High Desert",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -6866,10 +7540,30 @@
 		}
 	},
 	"K1": {
-		"animals": [],
+		"animals": [
+			"Ant",
+			"Bear",
+			"Bee",
+			"Catfish",
+			"Cobra",
+			"Cod",
+			"Cow",
+			"Crow",
+			"Horse",
+			"Lion",
+			"Monkey",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle"
+		],
 		"biomes": [
-			"Eastern Tundra",
-			"Central Tundra",
+			"Eastern Temperate",
+			"Western Temperate",
 			"At Land",
 			"Ocean Water"
 		],
@@ -6881,12 +7575,46 @@
 				1
 			]
 		},
-		"forceServerRules": 3,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Central Waters",
-		"resources": [],
+		"resources": [
+			"Bamboo",
+			"Bark",
+			"Basalt",
+			"Basalt (Rock)",
+			"Blackberry",
+			"Calcite",
+			"Coquina (Rock)",
+			"Darkwood",
+			"Elderberry",
+			"FreshWater",
+			"Fronds",
+			"Geode",
+			"Geode (Rock)",
+			"Hemp",
+			"Iron",
+			"Iron (Rock)",
+			"Licorice",
+			"Lightwood",
+			"Limestone",
+			"Maps",
+			"Peat",
+			"Pepper Seed",
+			"Resin",
+			"Ruby",
+			"Schisandra",
+			"Silk",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Tin",
+			"Twigs",
+			"Wetwood",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tundra",
+		"serverTemplate": "Eastern Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -6895,7 +7623,15 @@
 			"spawnLimits": [
 				37,
 				5000,
-				1800
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -6915,7 +7651,7 @@
 				1
 			]
 		},
-		"forceServerRules": 2,
+		"forceServerRules": 1,
 		"name": "",
 		"region": "Antarctica",
 		"resources": [],
@@ -6994,24 +7730,40 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"K2": {
 		"animals": [
 			"Bear",
+			"Bee",
+			"Chicken",
+			"Cobra",
+			"Cow",
 			"Crow",
-			"Penguin",
+			"Horse",
+			"Lion",
+			"Pig",
 			"Rabbit",
+			"Rattlesnake",
 			"Seagull",
-			"Wolf",
-			"Yeti"
+			"Sheep",
+			"Wolf"
 		],
 		"biomes": [
-			"Eastern Tundra",
-			"Central Tundra",
+			"Eastern Temperate",
+			"Western Temperate",
 			"At Land",
 			"Ocean Water",
-			"Polar"
+			"Eastern Tropics",
+			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -7025,27 +7777,42 @@
 		"name": "",
 		"region": "Central Waters",
 		"resources": [
+			"Anthracite",
 			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
-			"Crude Oil",
+			"Carrot Seed",
+			"Chamomile",
+			"Darkwood",
+			"Elderberry",
 			"Emerald",
+			"Geode",
 			"Geode (Rock)",
 			"Granite (Rock)",
-			"Iron",
+			"Hemp",
 			"Iron (Rock)",
-			"Lignite",
+			"Lightwood",
 			"Limestone",
 			"Maps",
-			"Marble (Rock)",
-			"Obsidian",
+			"Mint",
+			"Onion Seed",
+			"Oregano",
+			"Parsley",
+			"Pepper Seed",
+			"Quartz",
+			"Radiolarite",
 			"Resin",
-			"Silver",
-			"Slate",
-			"Wetwood"
+			"Softwood",
+			"Straw",
+			"Strawberry",
+			"Syrup",
+			"Twigs",
+			"Wetwood",
+			"Wild Carrot",
+			"Wild Onion",
+			"Wild Pepper"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tundra",
+		"serverTemplate": "Eastern Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -7055,6 +7822,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -7089,33 +7864,37 @@
 				1
 			]
 		},
-		"forceServerRules": 3,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Central Waters",
 		"resources": [
+			"Anthracite",
 			"Bark",
-			"Basalt",
 			"Basalt (Rock)",
-			"Blackberry",
+			"Coquina (Rock)",
+			"Darkwood",
+			"Elderberry",
+			"Emerald",
 			"Geode",
 			"Geode (Rock)",
+			"Hemp",
 			"Iron",
 			"Iron (Rock)",
+			"Lightwood",
 			"Limestone",
-			"Limestone (Rock)",
 			"Maps",
 			"Mint",
-			"Nitre",
-			"Opal",
 			"Oregano",
 			"Pepper Seed",
 			"Quartz",
+			"Radiolarite",
 			"Resin",
 			"Slate",
 			"Softwood",
 			"Straw",
 			"Strawberry",
 			"Twigs",
+			"Wetwood",
 			"Wild Pepper"
 		],
 		"serverIslandPointsMultiplier": 1,
@@ -7128,71 +7907,24 @@
 			"spawnLimits": [
 				37,
 				5000,
-				1800
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
 	"K4": {
-		"animals": [
-			"Seagull"
-		],
-		"biomes": [
-			"Eastern Tropical",
-			"Western Tropics",
-			"At Land",
-			"Ocean Water",
-			"Eastern Tropics"
-		],
-		"flotsam": {
-			"qualityMultiplier": 1,
-			"spawnLimits": [
-				360,
-				57000,
-				1
-			]
-		},
-		"forceServerRules": 3,
-		"name": "",
-		"region": "Central Waters",
-		"resources": [
-			"Agedwood",
-			"Basalt (Rock)",
-			"Bean Seed",
-			"Coconut",
-			"Coquina (Rock)",
-			"Fronds",
-			"Geode (Rock)",
-			"Iron (Rock)",
-			"Jute",
-			"Oregano",
-			"Resin",
-			"Rice Seed",
-			"Sea Grapes",
-			"Softwood",
-			"Straw",
-			"Twigs",
-			"Wild Beans",
-			"Wild Rice"
-		],
-		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tropical",
-		"sotd": {
-			"levelLerp": 0,
-			"levelMinOveride": 0,
-			"levelMultiplier": 1,
-			"levelOffset": 0,
-			"spawnLimits": [
-				37,
-				5000,
-				1800
-			]
-		}
-	},
-	"K5": {
 		"animals": [],
 		"biomes": [
-			"Eastern Tropical",
-			"Western Tropics",
+			"Eastern Temperate",
+			"Eastern Tropics",
+			"Western Temperate",
 			"At Land",
 			"Ocean Water"
 		],
@@ -7204,12 +7936,12 @@
 				1
 			]
 		},
-		"forceServerRules": 3,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Central Waters",
 		"resources": [],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Eastern Tropical",
+		"serverTemplate": "Eastern Temperate",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -7218,16 +7950,78 @@
 			"spawnLimits": [
 				37,
 				5000,
-				1800
+				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
+		}
+	},
+	"K5": {
+		"animals": [],
+		"biomes": [
+			"Eastern Temperate",
+			"At Land",
+			"Ocean Water",
+			"Eastern Temperate Mountain Peak",
+			"Western Temperate"
+		],
+		"flotsam": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				360,
+				57000,
+				1
+			]
+		},
+		"forceServerRules": 2,
+		"name": "",
+		"region": "Central Waters",
+		"resources": [],
+		"serverIslandPointsMultiplier": 1,
+		"serverTemplate": "Eastern Temperate",
+		"sotd": {
+			"levelLerp": 0,
+			"levelMinOveride": 0,
+			"levelMultiplier": 1,
+			"levelOffset": 0,
+			"spawnLimits": [
+				37,
+				5000,
+				140
 			]
 		}
 	},
 	"K6": {
-		"animals": [],
+		"animals": [
+			"Ant",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Giraffe",
+			"Horse",
+			"Lion",
+			"Olfend",
+			"Ostrich",
+			"Rattlesnake",
+			"Rhino",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Turtle",
+			"Vulture",
+			"Wolf"
+		],
 		"biomes": [
-			"Equatorial",
-			"Equator",
-			"Western Tropics",
+			"High Desert",
+			"Central Low Desert",
+			"Central High Desert",
 			"At Land",
 			"Ocean Water"
 		],
@@ -7242,9 +8036,40 @@
 		"forceServerRules": 2,
 		"name": "",
 		"region": "Africa",
-		"resources": [],
+		"resources": [
+			"Agedwood",
+			"Bark",
+			"Basalt",
+			"Basalt (Rock)",
+			"Bilberry",
+			"Cactus",
+			"Cactus Seed",
+			"Coquina (Rock)",
+			"Cotton",
+			"Darkwood",
+			"Flake Salt",
+			"Geode",
+			"Geode (Rock)",
+			"Herkimer",
+			"Iron (Rock)",
+			"Jute",
+			"Limestone",
+			"Maps",
+			"Nitre",
+			"Parsley",
+			"Resin",
+			"Rushes",
+			"Schisandra",
+			"Slate",
+			"Softwood",
+			"Straw",
+			"Tin",
+			"Twigs",
+			"Wild Cactus",
+			"Yarrow"
+		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Equatorial",
+		"serverTemplate": "High Desert",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,
@@ -7378,28 +8203,27 @@
 	"K9": {
 		"animals": [
 			"Ant",
+			"Catfish",
 			"Cobra",
 			"Cow",
 			"Crocodile",
 			"Crow",
-			"Elephant",
+			"Giraffe",
 			"Horse",
 			"Ostrich",
 			"Rattlesnake",
 			"Rhino",
 			"Scorpion",
 			"Seagull",
-			"Sheep",
 			"Turtle",
-			"Vulture",
-			"Wolf"
+			"Vulture"
 		],
 		"biomes": [
-			"Low Desert",
-			"Central High Desert",
+			"High Desert",
 			"Central Low Desert",
 			"At Land",
-			"Ocean Water"
+			"Ocean Water",
+			"Central High Desert"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -7413,36 +8237,14 @@
 		"name": "",
 		"region": "Africa",
 		"resources": [
-			"Agedwood",
-			"Bark",
 			"Basalt (Rock)",
-			"Cactus Seed",
-			"Chick Pea Seed",
-			"Cotton",
-			"Darkwood",
-			"Flake Salt",
-			"Geode",
+			"FreshWater",
 			"Geode (Rock)",
-			"Herkimer",
-			"Iodine",
 			"Iron (Rock)",
-			"Jute",
-			"Lignite",
-			"Limestone",
-			"Maps",
-			"Oregano",
-			"Poppy",
-			"Reeds",
-			"Resin",
-			"Sandstone (Rock)",
-			"Schisandra",
-			"Straw",
-			"Wetwood",
-			"Wild Cactus",
-			"Wild Chick Peas"
+			"Sandstone (Rock)"
 		],
 		"serverIslandPointsMultiplier": 1,
-		"serverTemplate": "Low Desert",
+		"serverTemplate": "High Desert",
 		"sotd": {
 			"levelLerp": 0,
 			"levelMinOveride": 0,

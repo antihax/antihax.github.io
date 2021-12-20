@@ -30,16 +30,16 @@
 				"rotation": 360.732422,
 				"strength": 3,
 				"width": 50000,
-				"worldX": 6461632,
-				"worldY": 12418724
+				"worldX": 6466823,
+				"worldY": 12460252
 			},
 			{
 				"controlPointsDistance": 152462.828,
 				"rotation": 355.099945,
 				"strength": 1,
 				"width": 1000,
-				"worldX": 7500533,
-				"worldY": 12384601
+				"worldX": 7526488,
+				"worldY": 12415747
 			}
 		],
 		"PathId": 7,
@@ -141,7 +141,7 @@
 				"strength": 3,
 				"width": 18000,
 				"worldX": 4480754.5,
-				"worldY": 8199273
+				"worldY": 8164666
 			},
 			{
 				"controlPointsDistance": 662580.938,
@@ -324,8 +324,8 @@
 				"rotation": -308.577454,
 				"strength": 5,
 				"width": 40000,
-				"worldX": 6286456.5,
-				"worldY": 5992142
+				"worldX": 6269153,
+				"worldY": 6005985
 			},
 			{
 				"controlPointsDistance": 671087.7,
@@ -550,7 +550,7 @@
 				"rotation": 403.00827,
 				"strength": 3,
 				"width": 50000,
-				"worldX": 7801969,
+				"worldX": 7763902,
 				"worldY": 9247756
 			},
 			{
@@ -580,44 +580,44 @@
 	{
 		"Nodes": [
 			{
-				"controlPointsDistance": 151299.641,
-				"rotation": 24.5947952,
+				"controlPointsDistance": 70000,
+				"rotation": -0.180343628,
 				"strength": 3,
 				"width": 18000,
-				"worldX": 9196085,
-				"worldY": 11999006
+				"worldX": 9227231,
+				"worldY": 12108018
 			},
 			{
 				"controlPointsDistance": 767877.5,
 				"rotation": 0.742950439,
 				"strength": 1,
 				"width": 50000,
-				"worldX": 10613084,
-				"worldY": 12236576
+				"worldX": 10550792,
+				"worldY": 12143138
 			},
 			{
 				"controlPointsDistance": 463836.969,
 				"rotation": -37.5144463,
 				"strength": 3,
 				"width": 50000,
-				"worldX": 12699725,
-				"worldY": 11601891
+				"worldX": 12268872,
+				"worldY": 11684947
 			},
 			{
 				"controlPointsDistance": 824497.563,
 				"rotation": 10.9063339,
 				"strength": 3,
 				"width": 50000,
-				"worldX": 14410328,
-				"worldY": 11352720
+				"worldX": 14420710,
+				"worldY": 11363102
 			},
 			{
 				"controlPointsDistance": 465548.125,
 				"rotation": -97.75897,
 				"strength": 3,
 				"width": 18000,
-				"worldX": 14779397,
-				"worldY": 10040259
+				"worldX": 14741328,
+				"worldY": 10057561
 			}
 		],
 		"PathId": 25,

@@ -104,6 +104,7 @@
         "Icon": "Item_LargeDrydock_Icon",
         "Ingredients": {
             "Fibers": 1000.0,
+            "Gold Coin": 1000.0,
             "Stone": 500.0,
             "Thatch": 2000.0,
             "Wood": 4000.0
@@ -381,7 +382,7 @@
             "Wood": 600.0
         }
     },
-    "Army of the Damned Ritual Pedistal": {
+    "Army of the Damned Ritual Pedestal": {
         "ClassName": "Structure_AotD_RitualPedistal_C",
         "Icon": "SacStone_Icon",
         "Ingredients": {
@@ -392,7 +393,7 @@
     },
     "Army of the Damned Smithy": {
         "ClassName": "Structure_Damned_Smithy_C",
-        "Icon": "Item_Smithy_Icon",
+        "Icon": "AoD_Smithy_Icon",
         "Ingredients": {
             "Cursed Wood": 60.0,
             "Metal": 100.0
@@ -419,7 +420,7 @@
         "ClassName": "ArtifactKey_C",
         "Icon": "Artifact4_Icon"
     },
-    "Astronomy Room": {
+    "Astronomy Studies": {
         "ClassName": "Structure_ModularRoomAstronomy_C",
         "Icon": "T_AstronomyRoom_Icon",
         "Ingredients": {
@@ -917,7 +918,6 @@
         "Icon": "Item_BrigHull_Icon",
         "Ingredients": {
             "Fibers": 1512.0,
-            "Gold Coin": 18000.0,
             "Metal": 224.0,
             "Thatch": 3024.0,
             "Wood": 1960.0
@@ -942,7 +942,6 @@
         "Icon": "ICON_Broadsider",
         "Ingredients": {
             "Fibers": 5000.0,
-            "Gold Coin": 375.0,
             "Metal": 42.0,
             "Thatch": 5000.0,
             "Wood": 6250.0
@@ -1214,7 +1213,6 @@
         "Icon": "Galley_Icon",
         "Ingredients": {
             "Fibers": 4400.0,
-            "Gold Coin": 300.0,
             "Metal": 24.0,
             "Thatch": 4400.0,
             "Wood": 5500.0
@@ -1750,7 +1748,6 @@
         "Icon": "Galley_Icon",
         "Ingredients": {
             "Fibers": 400.0,
-            "Gold Coin": 50.0,
             "Metal": 4.0,
             "Thatch": 400.0,
             "Wood": 500.0
@@ -1937,14 +1934,6 @@
         "Icon": "Item_CrabSteeringWheelSkin_Icon",
         "Ingredients": {
             "Gold Coin": 250.0
-        }
-    },
-    "Craftable: Army of the Damned Smithy": {
-        "ClassName": "Structure_Damned_Smithy_C_6",
-        "Icon": "Item_Smithy_Icon",
-        "Ingredients": {
-            "Cursed Wood": 60.0,
-            "Metal": 100.0
         }
     },
     "Creme Brulee": {
@@ -2177,7 +2166,7 @@
         }
     },
     "Cursed Wood": {
-        "ClassName": "Resource_Wood_CursedWood_C_2",
+        "ClassName": "Resource_Wood_CursedWood_C",
         "Icon": "CursedWood_Icon"
     },
     "Custom Flag": {
@@ -2300,6 +2289,14 @@
             "Gold Coin": 50.0
         }
     },
+    "Diamond Catalyst": {
+        "ClassName": "Resource_CatalystGem_Diamond_C",
+        "Icon": "Diamond_Icon",
+        "Ingredients": {
+            "Gem": 15.0,
+            "Gold Coin": 50.0
+        }
+    },
     "Dimetrodon Egg": {
         "SpoilTime": 691200.0,
         "Type": "",
@@ -2382,6 +2379,16 @@
             "Wood": 210.0
         }
     },
+    "Diving Attachment": {
+        "ClassName": "Structure_DivingAttachment_C",
+        "Icon": "Item_DivingPlatform_Icon",
+        "Ingredients": {
+            "Fibers": 140.0,
+            "Hide": 46.0,
+            "Metal": 62.0,
+            "Wood": 260.0
+        }
+    },
     "Diving Platform Ship Railing": {
         "ClassName": "Structure_MidShipSideTileRailingRammingDivingGeneral_C",
         "Icon": "StandardDivingAttachmentRailing",
@@ -2402,16 +2409,6 @@
             "Metal": 62.0,
             "Thatch": 85.0,
             "Wood": 360.0
-        }
-    },
-    "DivingAttachment": {
-        "ClassName": "Structure_DivingAttachment_C",
-        "Icon": "Item_DivingPlatform_Icon",
-        "Ingredients": {
-            "Fibers": 140.0,
-            "Hide": 46.0,
-            "Metal": 62.0,
-            "Wood": 260.0
         }
     },
     "Dodo Egg": {
@@ -3547,7 +3544,6 @@
         "Icon": "Item_GalleonHull_Icon",
         "Ingredients": {
             "Fibers": 2560.0,
-            "Gold Coin": 50000.0,
             "Metal": 680.0,
             "Thatch": 5600.0,
             "Wood": 4200.0
@@ -4020,7 +4016,6 @@
         "Icon": "Mortarship_Icon",
         "Ingredients": {
             "Fibers": 2000.0,
-            "Gold Coin": 150.0,
             "Gunpowder": 100.0,
             "Metal": 15.0,
             "Thatch": 2000.0,
@@ -4612,7 +4607,7 @@
         }
     },
     "Iridium Ingot": {
-        "ClassName": "Resource_Ingot_Iridium_C_2",
+        "ClassName": "Resource_Ingot_Iridium_C",
         "Icon": "Item_IridiumIngot_Icon",
         "Ingredients": {
             "Crystal": 1.0,
@@ -5236,6 +5231,7 @@
         "Icon": "Item_LargeDrydock_Icon",
         "Ingredients": {
             "Fibers": 1000.0,
+            "Gold Coin": 9999.0,
             "Stone": 500.0,
             "Thatch": 2000.0,
             "Wood": 4000.0
@@ -6144,6 +6140,15 @@
             }
         }
     },
+    "Monuments Studies": {
+        "ClassName": "Structure_ModularRoomMonuments_C",
+        "Icon": "T_ShipRoom_Icon",
+        "Ingredients": {
+            "Fibers": 120.0,
+            "Hide": 235.0,
+            "Wood": 500.0
+        }
+    },
     "Mortar": {
         "ClassName": "Structure_ShipMortarShip_C",
         "Icon": "Item_Mortar_Icon",
@@ -6159,7 +6164,6 @@
         "Icon": "Mortarship_Icon",
         "Ingredients": {
             "Fibers": 1600.0,
-            "Gold Coin": 100.0,
             "Gunpowder": 200.0,
             "Metal": 12.0,
             "Thatch": 1600.0,
@@ -7173,7 +7177,6 @@
         "Icon": "Galley_Icon",
         "Ingredients": {
             "Fibers": 2400.0,
-            "Gold Coin": 200.0,
             "Metal": 18.0,
             "Rhino Horn": 50.0,
             "Thatch": 2400.0,
@@ -7748,7 +7751,6 @@
         "Icon": "Item_SchoonerHull_Icon",
         "Ingredients": {
             "Fibers": 332.0,
-            "Gold Coin": 5000.0,
             "Metal": 42.0,
             "Thatch": 540.0,
             "Wood": 390.0
@@ -8365,6 +8367,7 @@
         "Icon": "Item_MediumDrydock_Icon",
         "Ingredients": {
             "Fibers": 240.0,
+            "Gold Coin": 500.0,
             "Stone": 105.0,
             "Thatch": 420.0,
             "Wood": 840.0
@@ -8969,7 +8972,7 @@
         "ClassName": "Structure_CheatBox_C",
         "Icon": "SmallStorage_Icon"
     },
-    "Strucutre Studies": {
+    "Structure Studies": {
         "ClassName": "Structure_ModularRoomStructures_C",
         "Icon": "T_StructureRoom_Icon",
         "Ingredients": {
@@ -9247,6 +9250,15 @@
         "Icon": "TEKSaddle_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
+        }
+    },
+    "Test Buff Item": {
+        "ClassName": "ConsumableBuff_SextantBuff_C",
+        "Icon": "ParachuteIcon",
+        "Ingredients": {
+            "Fiber": 25.0,
+            "Hide": 10.0,
+            "Thatch": 50.0
         }
     },
     "Test Song": {
@@ -9661,7 +9673,6 @@
         "Ingredients": {
             "Chitin": 0.0,
             "Fibers": 4400.0,
-            "Gold Coin": 375.0,
             "Metal": 72.0,
             "Thatch": 4400.0,
             "Wood": 5500.0
@@ -9835,6 +9846,16 @@
             "Wood": 3.0
         }
     },
+    "War Drums": {
+        "ClassName": "Structure_Music_Wardrums_C",
+        "Icon": "Item_Wardrum_Icon",
+        "Ingredients": {
+            "Fibers": 150.0,
+            "Hide": 110.0,
+            "Thatch": 130.0,
+            "Wood": 180.0
+        }
+    },
     "War Drums: Death's Wraith": {
         "ClassName": "Ammo_Song_DeathsWraith_Normal_C",
         "Icon": "HUD_MusicSheet_Colorize_d"
@@ -9858,16 +9879,6 @@
     "War Drums: Where Be The Dutchman": {
         "ClassName": "Ammo_Song_DeathsWraith_Easy_C",
         "Icon": "HUD_MusicSheet_Colorize_d"
-    },
-    "Wardrums": {
-        "ClassName": "Structure_Music_Wardrums_C",
-        "Icon": "Item_Wardrum_Icon",
-        "Ingredients": {
-            "Fibers": 150.0,
-            "Hide": 110.0,
-            "Thatch": 130.0,
-            "Wood": 180.0
-        }
     },
     "Warehouse": {
         "ClassName": "Structure_Storehouse_C",

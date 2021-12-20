@@ -12650,6 +12650,24 @@
             ],
             "tameConsumeInterval": 40.0
         },
+        "TrampFreighter_BP": {
+            "XP": 2.6659998893737793,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "TrampFreighter_BP_C",
+            "deathInventoryChance": 0.0,
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 100.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "tameConsumeInterval": 15.0
+        },
         "Trike": {
             "XP": 4.0,
             "XPperHit": true,
