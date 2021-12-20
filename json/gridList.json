@@ -114,6 +114,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"A11": {
@@ -190,6 +198,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -597,6 +613,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"A7": {
@@ -655,6 +679,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"A8": {
@@ -703,6 +735,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -785,6 +825,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -881,6 +929,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"B11": {
@@ -937,6 +993,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -1323,6 +1387,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"B7": {
@@ -1394,6 +1466,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -1473,6 +1553,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -1562,6 +1650,14 @@
 				37,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -1675,6 +1771,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"C11": {
@@ -1731,6 +1835,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -2060,6 +2172,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"C7": {
@@ -2137,6 +2257,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -2226,6 +2354,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"C9": {
@@ -2306,6 +2442,14 @@
 				37,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -2431,6 +2575,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"D11": {
@@ -2463,6 +2615,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -2845,6 +3005,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"D7": {
@@ -2928,6 +3096,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"D8": {
@@ -2964,6 +3140,14 @@
 				59.20000076293945,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -3038,6 +3222,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -3138,6 +3330,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"E11": {
@@ -3213,6 +3413,14 @@
 				37,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -3627,6 +3835,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"E7": {
@@ -3697,6 +3913,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -3786,6 +4010,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"E9": {
@@ -3857,6 +4089,14 @@
 				37,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -4028,6 +4268,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"F11": {
@@ -4060,6 +4308,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -4389,6 +4645,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"F6": {
@@ -4422,6 +4686,14 @@
 				37,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -4505,6 +4777,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"F8": {
@@ -4560,6 +4840,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -4617,6 +4905,14 @@
 				37,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -4743,6 +5039,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -5060,6 +5364,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"G6": {
@@ -5146,6 +5458,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"G7": {
@@ -5220,6 +5540,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -5305,6 +5633,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"G9": {
@@ -5340,6 +5676,14 @@
 				59.20000076293945,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -5512,6 +5856,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -5910,6 +6262,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"H6": {
@@ -5943,6 +6303,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -6025,6 +6393,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"H8": {
@@ -6059,6 +6435,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -6121,6 +6505,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -6286,6 +6678,14 @@
 				37,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -6696,6 +7096,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"I6": {
@@ -6731,6 +7139,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"I7": {
@@ -6764,6 +7180,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -6850,6 +7274,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"I9": {
@@ -6906,6 +7338,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -7072,6 +7512,14 @@
 				37,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -7279,6 +7727,14 @@
 				5000,
 				1800
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"J6": {
@@ -7313,6 +7769,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -7400,6 +7864,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"J8": {
@@ -7480,6 +7952,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"J9": {
@@ -7536,6 +8016,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -7666,6 +8154,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -7995,6 +8491,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"K6": {
@@ -8080,6 +8584,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"K7": {
@@ -8115,6 +8627,14 @@
 				59.20000076293945,
 				5000,
 				1800
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	},
@@ -8198,6 +8718,14 @@
 				5000,
 				140
 			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
+			]
 		}
 	},
 	"K9": {
@@ -8254,6 +8782,14 @@
 				37,
 				5000,
 				140
+			]
+		},
+		"sunktreasure": {
+			"qualityMultiplier": 1,
+			"spawnLimits": [
+				20,
+				57000,
+				1
 			]
 		}
 	}
