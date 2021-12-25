@@ -1,0 +1,50 @@
+{
+	"": {
+		"MaxX": 3,
+		"MaxY": 4,
+		"MinX": 0,
+		"MinY": 0
+	},
+	"Africa": {
+		"MaxX": 10,
+		"MaxY": 8,
+		"MinX": 6,
+		"MinY": 5
+	},
+	"Antarctica": {
+		"MaxX": 10,
+		"MaxY": 10,
+		"MinX": 5,
+		"MinY": 9
+	},
+	"Central Waters": {
+		"MaxX": 10,
+		"MaxY": 4,
+		"MinX": 4,
+		"MinY": 0
+	},
+	"Kraken's Lair": {
+		"MaxX": 3,
+		"MaxY": 4,
+		"MinX": 3,
+		"MinY": 4
+	},
+	"North Pole": {
+		"MaxX": 4,
+		"MaxY": 10,
+		"MinX": 0,
+		"MinY": 9
+	},
+	"South America": {
+		"MaxX": 5,
+		"MaxY": 8,
+		"MinX": 0,
+		"MinY": 5
+	},
+	"Tortuga": {
+		"MaxX": 2,
+		"MaxY": 4,
+		"MinX": 2,
+		"MinY": 4
+	}
+}
