@@ -44,6 +44,8 @@
         }
     },
     "Acai": {
+        "ClassName": "Consumable_Berry_Acai_C",
+        "Icon": "Acai_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -83,6 +85,8 @@
         "Icon": "HUD_MusicSheet_Colorize_d"
     },
     "Acerolla": {
+        "ClassName": "Consumable_Berry_Acerolla_C",
+        "Icon": "Acerola_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -137,6 +141,8 @@
         }
     },
     "Ale": {
+        "ClassName": "Consumable_Ale_C",
+        "Icon": "Item_Ale_Icon",
         "Ingredients": {
             "Water": 1.0,
             "Wheat or Maize": 5.0
@@ -169,6 +175,8 @@
         "Icon": "Item_GenericIngot_Icon"
     },
     "Aloe": {
+        "ClassName": "Consumable_MedHerb_Aloe_C",
+        "Icon": "Aloe_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -198,6 +206,8 @@
         }
     },
     "Amarberry": {
+        "ClassName": "Consumable_Berry_Amarberry_C",
+        "Icon": "AmarBerry_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -227,6 +237,8 @@
         "Icon": "AmmoniteBile_Icon"
     },
     "AnglerGel": {
+        "ClassName": "Resource_AnglerGel_C",
+        "Icon": "Angler_LightSource_Icon",
         "SpoilTime": 0.0,
         "Type": "",
         "Weight": 0.00699999975040555,
@@ -239,6 +251,8 @@
         }
     },
     "Animal Meat": {
+        "ClassName": "Consumable_Meat_Animal_C",
+        "Icon": "AnimalMeat_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -277,6 +291,8 @@
         }
     },
     "Archaeopteryx Egg": {
+        "ClassName": "Consumable_Egg_Archa_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -294,6 +310,8 @@
         }
     },
     "Arctic Raspberry": {
+        "ClassName": "Consumable_Berry_ArcticRaspberry_C",
+        "Icon": "ArcticRaspberry_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -311,6 +329,8 @@
         }
     },
     "Argentavis Egg": {
+        "ClassName": "Consumable_Egg_Argent_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 8.399999618530273,
@@ -454,6 +474,8 @@
         }
     },
     "Azulberry": {
+        "ClassName": "Consumable_Berry_Azulberry_C",
+        "Icon": "AzulBerry_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -546,6 +568,8 @@
         }
     },
     "Basil": {
+        "ClassName": "Consumable_MedHerb_Basil_C",
+        "Icon": "Basil_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -567,6 +591,8 @@
         "Icon": "Beans_Seed_Icon"
     },
     "Beans": {
+        "ClassName": "Consumable_Vegetable_Beans_C",
+        "Icon": "Beans_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -600,6 +626,8 @@
         }
     },
     "Beef Buns": {
+        "ClassName": "Consumable_BeefBuns_C",
+        "Icon": "Item_JackBuns_Icon",
         "Ingredients": {
             "Chili": 5.0,
             "Cooked Meat": 3.0,
@@ -629,6 +657,8 @@
         }
     },
     "Beet": {
+        "ClassName": "Consumable_Vegetable_Beet_C",
+        "Icon": "Beet_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -650,6 +680,8 @@
         "Icon": "Beet_Seed_Icon"
     },
     "Berry": {
+        "ClassName": "Consumable_Berry_Base_C",
+        "Icon": "Item_GenericBerry_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -667,6 +699,7 @@
         }
     },
     "Berry Seed": {
+        "ClassName": "Consumable_Seed_BaseBerry_C",
         "SpoilTime": 0.0,
         "Type": "",
         "Weight": 0.00699999975040555,
@@ -679,6 +712,8 @@
         }
     },
     "Berry Tea": {
+        "ClassName": "Consumable_BerryTea_C",
+        "Icon": "Item_Berrytea_Icon",
         "Ingredients": {
             "Berry": 5.0,
             "Water": 1.0
@@ -700,6 +735,8 @@
         }
     },
     "Bilberry": {
+        "ClassName": "Consumable_Berry_Bilberry_C",
+        "Icon": "Bilberry_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -717,6 +754,8 @@
         }
     },
     "Bingleberry": {
+        "ClassName": "Consumable_Berry_ARKBase_C",
+        "Icon": "BerryIcon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -734,6 +773,8 @@
         }
     },
     "Bio Toxin": {
+        "ClassName": "Consumable_JellyVenom_C",
+        "Icon": "JellyfishGel_Icon",
         "Ingredients": {
             "Narcotic": 12.0
         },
@@ -765,6 +806,8 @@
         "Icon": "BlackPearl_Icon"
     },
     "Blackberry": {
+        "ClassName": "Consumable_Berry_Blackberry_C",
+        "Icon": "Blackberry_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -948,6 +991,8 @@
         }
     },
     "Bronto Egg": {
+        "ClassName": "Consumable_Egg_Bronto_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 14.0,
@@ -979,6 +1024,8 @@
         }
     },
     "Bubble N' Squeak": {
+        "ClassName": "Consumable_BubbleNSqueak_C",
+        "Icon": "Item_BubbleAndSqueak_Icon",
         "Ingredients": {
             "Cooked Meat": 3.0,
             "Cooking Herbs": 3.0,
@@ -1065,6 +1112,8 @@
         }
     },
     "Cactus": {
+        "ClassName": "Consumable_Vegetable_Cactus_C",
+        "Icon": "Cactus_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -1104,6 +1153,8 @@
         }
     },
     "Candy Corn": {
+        "ClassName": "Consumable_Berry_CandyCorn_C",
+        "Icon": "CandyCorn_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -1131,8 +1182,14 @@
         }
     },
     "Canteen": {
+        "ClassName": "Consumable_CanteenRefill_C",
+        "Icon": "CanteenFilled_Icon",
         "Ingredients": {
-            "Canteen": 1.0
+            "Canteen": 1.0,
+            "Cementing Paste": 4.0,
+            "Hide": 2.0,
+            "Metal Ingot": 1.0,
+            "Polymer": 10.0
         },
         "SpoilTime": 0.0,
         "Type": "",
@@ -1192,6 +1249,8 @@
         }
     },
     "Carno Egg": {
+        "ClassName": "Consumable_Egg_Carno_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 8.399999618530273,
@@ -1219,6 +1278,8 @@
         }
     },
     "Carrot": {
+        "ClassName": "Consumable_Vegetable_Carrot_C",
+        "Icon": "Carrot_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -1262,6 +1323,8 @@
         }
     },
     "Celery": {
+        "ClassName": "Consumable_Vegetable_Celery_C",
+        "Icon": "Celery_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -1279,6 +1342,8 @@
         }
     },
     "Celery Soup": {
+        "ClassName": "Consumable_CelerySoup_C",
+        "Icon": "Item_CelerySoup_Icon",
         "Ingredients": {
             "Celery": 3.0,
             "Cooked Fish": 3.0,
@@ -1330,6 +1395,8 @@
         }
     },
     "Chamomile": {
+        "ClassName": "Consumable_MedHerb_Chamomile_C",
+        "Icon": "Chamomile_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -1373,6 +1440,8 @@
         "Icon": "Chickpeas_Seed_Icon"
     },
     "Chick Peas": {
+        "ClassName": "Consumable_Vegetable_ChickPeas_C",
+        "Icon": "Chickpeas_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -1390,6 +1459,8 @@
         }
     },
     "Chicken Egg": {
+        "ClassName": "Consumable_Egg_Chicken_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 0.699999988079071,
@@ -1407,6 +1478,8 @@
         }
     },
     "Chili": {
+        "ClassName": "Consumable_Vegetable_Chilli_C",
+        "Icon": "Chili_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -1445,6 +1518,8 @@
         }
     },
     "Cilantro": {
+        "ClassName": "Consumable_Herb_Cilantro_C",
+        "Icon": "Cilantro_Icon",
         "SpoilTime": 600.0,
         "Type": "Herb",
         "Weight": 0.07000000029802322,
@@ -1462,6 +1537,8 @@
         }
     },
     "Citronal": {
+        "ClassName": "Consumable_Veggie_Citronal_C",
+        "Icon": "Citronal_Icon",
         "SpoilTime": 300.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -1663,6 +1740,8 @@
         }
     },
     "Cocoa": {
+        "ClassName": "Consumable_Vegetable_Cocoa_C",
+        "Icon": "Cocoa_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -1680,6 +1759,8 @@
         }
     },
     "Coconut": {
+        "ClassName": "Consumable_Vegetable_Coconut_C",
+        "Icon": "Coconut_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -1697,6 +1778,8 @@
         }
     },
     "Coffee": {
+        "ClassName": "Consumable_Coffee_C",
+        "Icon": "Coffee",
         "Ingredients": {
             "Coffee Bean": 30.0,
             "Water": 1.0
@@ -1723,6 +1806,8 @@
         }
     },
     "Coffee Bean": {
+        "ClassName": "Consumable_Vegetable_CoffeeBean_C",
+        "Icon": "CoffeeBean",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -1775,6 +1860,8 @@
         }
     },
     "Cooked Fish": {
+        "ClassName": "Consumable_CookedFish_C",
+        "Icon": "Item_CookedFishMeat_Icon",
         "Ingredients": {
             "Fish Meat": 1.0
         },
@@ -1795,6 +1882,8 @@
         }
     },
     "Cooked Meat": {
+        "ClassName": "Consumable_CookedMeat_C",
+        "Icon": "Item_CookedMeat_Icon",
         "Ingredients": {
             "Animal Meat": 1.0
         },
@@ -1815,6 +1904,8 @@
         }
     },
     "Cooked Prime Animal Meat": {
+        "ClassName": "Consumable_Meat_CookedPrimeAnimal_C",
+        "Icon": "Item_CookedPrimeMeat_Icon",
         "Ingredients": {
             "Prime Animal Meat": 1.0
         },
@@ -1835,6 +1926,8 @@
         }
     },
     "Cooked Prime Fish Meat": {
+        "ClassName": "Consumable_Meat_CookedPrimeFish_C",
+        "Icon": "Item_CookedPrimeFishMeat_Icon",
         "Ingredients": {
             "Prime Fish Meat": 1.0
         },
@@ -1855,6 +1948,8 @@
         }
     },
     "Cooking Herbs": {
+        "ClassName": "Consumable_Herb_BASE_C",
+        "Icon": "Rosemary_Icon",
         "SpoilTime": 600.0,
         "Type": "Herb",
         "Weight": 0.07000000029802322,
@@ -1936,7 +2031,17 @@
             "Gold Coin": 250.0
         }
     },
+    "Craftable: Army of the Damned Smithy": {
+        "ClassName": "Structure_Damned_Smithy_C_2",
+        "Icon": "AoD_Smithy_Icon",
+        "Ingredients": {
+            "Cursed Wood": 60.0,
+            "Metal": 100.0
+        }
+    },
     "Creme Brulee": {
+        "ClassName": "Consumable_CremeBrulee_C",
+        "Icon": "Item_Cremebrulee_Icon",
         "Ingredients": {
             "Egg!": 5.0,
             "Elderberry": 3.0,
@@ -2010,6 +2115,8 @@
         }
     },
     "Crow Egg": {
+        "ClassName": "Consumable_Egg_Crow_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 0.8400000333786011,
@@ -2043,6 +2150,8 @@
         }
     },
     "Crustacean Meat": {
+        "ClassName": "Consumable_Meat_Crustacean_Cooked_C",
+        "Icon": "CrustaceanMeat_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -2099,6 +2208,8 @@
         }
     },
     "Cursed Grog": {
+        "ClassName": "Consumable_GhostyGrog_C",
+        "Icon": "Item_Grog_Icon",
         "Ingredients": {
             "Saps": 5.0,
             "Water": 1.0
@@ -2166,7 +2277,7 @@
         }
     },
     "Cursed Wood": {
-        "ClassName": "Resource_Wood_CursedWood_C",
+        "ClassName": "Resource_Wood_CursedWood_C_5",
         "Icon": "CursedWood_Icon"
     },
     "Custom Flag": {
@@ -2193,6 +2304,8 @@
         }
     },
     "Dark Draught": {
+        "ClassName": "Consumable_DarkDraught_C",
+        "Icon": "Item_DarkDraught_Icon",
         "Ingredients": {
             "Blackberry": 20.0,
             "Kala Namak": 3.0,
@@ -2260,6 +2373,8 @@
         }
     },
     "Delicacy": {
+        "ClassName": "Consumable_Delicacy_C",
+        "Icon": "CookedPrimeMeat_Icon",
         "SpoilTime": 36000.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -2298,6 +2413,8 @@
         }
     },
     "Dimetrodon Egg": {
+        "ClassName": "Consumable_Egg_Dimetrodon_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 10.5,
@@ -2315,6 +2432,8 @@
         }
     },
     "Dimorph Egg": {
+        "ClassName": "Consumable_Egg_Dimorph_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 3.5,
@@ -2412,6 +2531,8 @@
         }
     },
     "Dodo Egg": {
+        "ClassName": "Consumable_Egg_Dodo_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -2436,6 +2557,8 @@
         }
     },
     "Dragon's Tongue Delight": {
+        "ClassName": "Consumable_DragonsTongue_C",
+        "Icon": "Item_DragonsTongueDelight_Icon",
         "Ingredients": {
             "Beet": 5.0,
             "Berry": 10.0,
@@ -2476,6 +2599,8 @@
         }
     },
     "Dried Tentacle": {
+        "ClassName": "Consumable_Meat_Fish_DriedSquidTentacle_C",
+        "Icon": "DriedTentacleIcon",
         "SpoilTime": 0.0,
         "Type": "Meat",
         "Weight": 0.08500000089406967,
@@ -2493,6 +2618,8 @@
         }
     },
     "Earthworms": {
+        "ClassName": "Consumable_Meat_Worms_C",
+        "Icon": "Item_WormsBait_Icon",
         "SpoilTime": 3600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -2515,6 +2642,8 @@
         }
     },
     "Edible Greens": {
+        "ClassName": "Consumable_Vegetable_EdibleGreens_C",
+        "Icon": "EdibleGreens_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -2536,6 +2665,8 @@
         "Icon": "EdibleGreens_Seed_Icon"
     },
     "Egg!": {
+        "ClassName": "Consumable_Egg_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.199999809265137,
@@ -2553,6 +2684,8 @@
         }
     },
     "Elderberry": {
+        "ClassName": "Consumable_Berry_Elderberry_C",
+        "Icon": "Elderberry_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -2663,6 +2796,8 @@
         }
     },
     "Feces": {
+        "ClassName": "ConsumablePoop_C",
+        "Icon": "Item_Fertilizer_Icon",
         "Ingredients": {
             "Thatch": 50.0
         },
@@ -2693,6 +2828,8 @@
         }
     },
     "Fertilized Achaeopteryx Egg": {
+        "ClassName": "Consumable_Egg_Archa_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -2710,6 +2847,8 @@
         }
     },
     "Fertilized Angler Egg": {
+        "ClassName": "Consumable_UnderwaterEgg_Angler_C",
+        "Icon": "FishEgg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -2727,6 +2866,8 @@
         }
     },
     "Fertilized Chicken Egg": {
+        "ClassName": "Consumable_Egg_Chicken_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 0.699999988079071,
@@ -2744,6 +2885,8 @@
         }
     },
     "Fertilized Crocodile Egg": {
+        "ClassName": "Consumable_Egg_Crocodile_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 0.699999988079071,
@@ -2761,6 +2904,8 @@
         }
     },
     "Fertilized Crow Egg": {
+        "ClassName": "Consumable_Egg_Crow_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 0.8400000333786011,
@@ -2778,6 +2923,8 @@
         }
     },
     "Fertilized Dimorph Egg": {
+        "ClassName": "Consumable_Egg_Dimorph_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 3.5,
@@ -2795,6 +2942,8 @@
         }
     },
     "Fertilized Dodo Egg": {
+        "ClassName": "Consumable_Egg_Dodo_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -2812,6 +2961,8 @@
         }
     },
     "Fertilized Eel Egg": {
+        "ClassName": "Consumable_UnderwaterEgg_Eel_C",
+        "Icon": "FishEgg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -2829,6 +2980,8 @@
         }
     },
     "Fertilized Gallimimus Egg": {
+        "ClassName": "Consumable_Egg_Galli_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 3.5,
@@ -2846,6 +2999,8 @@
         }
     },
     "Fertilized Grand Tortugar Egg": {
+        "ClassName": "Consumable_Egg_CarrierTurtle_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 7.0,
@@ -2863,6 +3018,8 @@
         }
     },
     "Fertilized Kairuku Egg": {
+        "ClassName": "Consumable_Egg_Kairuku_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -2880,6 +3037,8 @@
         }
     },
     "Fertilized Ostrich Egg": {
+        "ClassName": "Consumable_Egg_Ostrich_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -2897,6 +3056,8 @@
         }
     },
     "Fertilized Oviraptor Egg": {
+        "ClassName": "Consumable_Egg_Oviraptor_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -2914,6 +3075,8 @@
         }
     },
     "Fertilized Parrot Egg": {
+        "ClassName": "Consumable_Egg_Parrot_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 0.8400000333786011,
@@ -2931,6 +3094,8 @@
         }
     },
     "Fertilized Pelagornis Egg": {
+        "ClassName": "Consumable_Egg_Pela_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.900000095367432,
@@ -2948,6 +3113,8 @@
         }
     },
     "Fertilized Penguin Egg": {
+        "ClassName": "Consumable_Egg_Penguin_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 1.1200000047683716,
@@ -2965,6 +3132,8 @@
         }
     },
     "Fertilized Pteranodon Egg": {
+        "ClassName": "Consumable_Egg_Ptero_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.900000095367432,
@@ -2982,6 +3151,8 @@
         }
     },
     "Fertilized Razortooth Egg": {
+        "ClassName": "Consumable_Egg_Razortooth_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.900000095367432,
@@ -2999,6 +3170,8 @@
         }
     },
     "Fertilized Sarco Egg": {
+        "ClassName": "Consumable_Egg_Sarco_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 10.5,
@@ -3016,6 +3189,8 @@
         }
     },
     "Fertilized Seagull Egg": {
+        "ClassName": "Consumable_Egg_Seagull_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 0.8400000333786011,
@@ -3033,6 +3208,8 @@
         }
     },
     "Fertilized Shieldhorn Egg": {
+        "ClassName": "Consumable_Egg_Shieldhorn_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 3.8499999046325684,
@@ -3050,6 +3227,8 @@
         }
     },
     "Fertilized Spider Egg": {
+        "ClassName": "Consumable_Egg_Spider_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 0.699999988079071,
@@ -3067,6 +3246,8 @@
         }
     },
     "Fertilized Trike Egg": {
+        "ClassName": "Consumable_Egg_Trike_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 6.299999713897705,
@@ -3084,6 +3265,8 @@
         }
     },
     "Fertilized Turtle Egg": {
+        "ClassName": "Consumable_Egg_Turtle_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -3101,6 +3284,8 @@
         }
     },
     "Fertilized Tusoteuthis Egg": {
+        "ClassName": "Consumable_UnderwaterEgg_Tuso_C",
+        "Icon": "FishEgg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -3118,6 +3303,8 @@
         }
     },
     "Fertilized Vulture Egg": {
+        "ClassName": "Consumable_Egg_Vulture_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 1.1200000047683716,
@@ -3135,6 +3322,8 @@
         }
     },
     "Fertilized Yutyrannus Egg": {
+        "ClassName": "Consumable_Egg_Yuty_Fertilized_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 10.5,
@@ -3152,6 +3341,8 @@
         }
     },
     "Fertilizer": {
+        "ClassName": "Consumable_Fertilizer_Compost_C",
+        "Icon": "Item_Fertilizer_Icon",
         "Ingredients": {
             "Feces": 1.0,
             "Thatch": 50.0
@@ -3199,6 +3390,8 @@
         }
     },
     "Fish 'n Chips": {
+        "ClassName": "Consumable_FishNChips_C",
+        "Icon": "Item_FishAndChips_Icon",
         "Ingredients": {
             "Cooked Fish": 5.0,
             "Pepper": 1.0,
@@ -3228,6 +3421,8 @@
         }
     },
     "Fish Egg": {
+        "ClassName": "Consumable_UnderwaterEgg_C",
+        "Icon": "FishEgg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.199999809265137,
@@ -3245,6 +3440,8 @@
         }
     },
     "Fish Meat": {
+        "ClassName": "Consumable_Meat_Fish_C",
+        "Icon": "FishMeat_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -3399,6 +3596,8 @@
         }
     },
     "Fruit": {
+        "ClassName": "Consumable_Fruit_Base_C",
+        "Icon": "Potato_Icon",
         "SpoilTime": 300.0,
         "Type": "Fruit",
         "Weight": 0.07000000029802322,
@@ -3557,6 +3756,8 @@
         }
     },
     "Gallimimus Egg": {
+        "ClassName": "Consumable_Egg_Galli_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 3.5,
@@ -3574,6 +3775,8 @@
         }
     },
     "Garlic": {
+        "ClassName": "Consumable_Herb_Garlic_C",
+        "Icon": "Garlic",
         "SpoilTime": 600.0,
         "Type": "Herb",
         "Weight": 0.07000000029802322,
@@ -3678,6 +3881,8 @@
         "Icon": "Geode_Icon"
     },
     "Giant Bee Honey": {
+        "ClassName": "Consumable_Honey_C",
+        "Icon": "Honey_Icon",
         "SpoilTime": 1200.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -3709,6 +3914,8 @@
         "Icon": "Present_Icon"
     },
     "Giganotosaurus Egg": {
+        "ClassName": "Consumable_Egg_Gigant_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 28.0,
@@ -3753,6 +3960,8 @@
         }
     },
     "Golden Hesperornis Egg": {
+        "ClassName": "Consumable_Egg_Hesperonis_Golden_C",
+        "Icon": "GoldenEgg_Icon",
         "SpoilTime": 1800.0,
         "Type": "",
         "Weight": 4.199999809265137,
@@ -3770,6 +3979,8 @@
         }
     },
     "Grand Tortugar Egg": {
+        "ClassName": "Consumable_Egg_CarrierTurtle_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 7.0,
@@ -3852,6 +4063,8 @@
         }
     },
     "Green Algae": {
+        "ClassName": "Consumable_Herb_GreenAlgae_C",
+        "Icon": "Algae_Icon",
         "SpoilTime": 600.0,
         "Type": "Herb",
         "Weight": 0.07000000029802322,
@@ -3900,6 +4113,8 @@
         }
     },
     "Grog": {
+        "ClassName": "Consumable_Grog_C",
+        "Icon": "Item_Grog_Icon",
         "Ingredients": {
             "Saps": 5.0,
             "Water": 1.0
@@ -3969,6 +4184,8 @@
         }
     },
     "Hardtack": {
+        "ClassName": "Consumable_Hardtack_C",
+        "Icon": "Item_Hardtack_Icon",
         "Ingredients": {
             "Water": 1.0,
             "Wheat or Maize": 5.0
@@ -4168,6 +4385,8 @@
         }
     },
     "Hesperornis Egg": {
+        "ClassName": "Consumable_Egg_Hesperonis_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -4356,6 +4575,8 @@
         "Icon": "Honey_Icon"
     },
     "Hot Cocoa": {
+        "ClassName": "Consumable_HotChocolate_C",
+        "Icon": "Item_HotCocoa_Icon",
         "Ingredients": {
             "Cocoa": 5.0,
             "Milk or Water": 1.0,
@@ -4393,6 +4614,8 @@
         }
     },
     "Human Feces": {
+        "ClassName": "Consumable_HumanPoop_C",
+        "Icon": "Item_HumanPoop_Icon",
         "Ingredients": {
             "Thatch": 50.0
         },
@@ -4408,6 +4631,8 @@
         }
     },
     "Human Meat": {
+        "ClassName": "Consumable_Meat_Human_Cooked_C",
+        "Icon": "HumanMeat_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -4443,6 +4668,8 @@
         }
     },
     "Ice": {
+        "ClassName": "Consumable_Ice_C",
+        "Icon": "Item_Ice_Icon",
         "SpoilTime": 300.0,
         "Type": "",
         "Weight": 1.0499999523162842,
@@ -4476,6 +4703,8 @@
         }
     },
     "Iced Canteen": {
+        "ClassName": "Consumable_IcedCanteenRefill_C",
+        "Icon": "IcedCanteenFilled_Icon",
         "Ingredients": {
             "Canteen": 1.0
         },
@@ -4491,6 +4720,8 @@
         }
     },
     "Iced Water Jar": {
+        "ClassName": "Consumable_IcedWaterJarRefill_C",
+        "Icon": "IceFilledJar_Icon",
         "Ingredients": {
             "Water Jar": 1.0
         },
@@ -4506,6 +4737,8 @@
         }
     },
     "Ichthyornis Egg": {
+        "ClassName": "Consumable_Egg_Ichthyornis_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.900000095367432,
@@ -4547,6 +4780,8 @@
         }
     },
     "Innards": {
+        "ClassName": "Consumable_Meat_Innards_C",
+        "Icon": "Item_MeatInnards_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -4569,6 +4804,8 @@
         }
     },
     "Insect Meat": {
+        "ClassName": "Consumable_Meat_Insect_C",
+        "Icon": "Icon_Bugmeat",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -4607,7 +4844,7 @@
         }
     },
     "Iridium Ingot": {
-        "ClassName": "Resource_Ingot_Iridium_C",
+        "ClassName": "Resource_Ingot_Iridium_C_2",
         "Icon": "Item_IridiumIngot_Icon",
         "Ingredients": {
             "Crystal": 1.0,
@@ -4663,6 +4900,8 @@
         }
     },
     "Kairuku Egg": {
+        "ClassName": "Consumable_Egg_Kairuku_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -4698,6 +4937,8 @@
         }
     },
     "Kentro Egg": {
+        "ClassName": "Consumable_Egg_Kentro_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.549999713897705,
@@ -4719,6 +4960,8 @@
         "Icon": "Keratin_Icon"
     },
     "Kibble (Argentavis Egg)": {
+        "ClassName": "Consumable_Kibble_ArgentEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Argentavis Egg": 1.0,
             "Citronal": 1.0,
@@ -4738,6 +4981,8 @@
         }
     },
     "Kibble (Bronto Egg)": {
+        "ClassName": "Consumable_Kibble_SauroEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Bronto Egg": 1.0,
             "Fiber": 3.0,
@@ -4757,6 +5002,8 @@
         }
     },
     "Kibble (Carno Egg)": {
+        "ClassName": "Consumable_Kibble_CarnoEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Carno Egg": 1.0,
             "Fiber": 3.0,
@@ -4776,6 +5023,8 @@
         }
     },
     "Kibble (Dimetrodon Egg)": {
+        "ClassName": "Consumable_Kibble_DimetroEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Citronal": 1.0,
             "Dimetrodon Egg": 1.0,
@@ -4795,6 +5044,8 @@
         }
     },
     "Kibble (Dimorph Egg)": {
+        "ClassName": "Consumable_Kibble_DimorphEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Dimorph Egg": 1.0,
             "Fiber": 3.0,
@@ -4814,6 +5065,8 @@
         }
     },
     "Kibble (Dodo Egg)": {
+        "ClassName": "Consumable_Kibble_DodoEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Dodo Egg": 1.0,
             "Fiber": 3.0,
@@ -4833,6 +5086,8 @@
         }
     },
     "Kibble (Ichthyornis Egg)": {
+        "ClassName": "Consumable_Kibble_IchthyornisEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Fiber": 3.0,
             "Ichthyornis Egg": 1.0,
@@ -4853,6 +5108,8 @@
         }
     },
     "Kibble (Kairuku Egg)": {
+        "ClassName": "Consumable_Kibble_KairukuEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Fiber": 3.0,
             "Kairuku Egg": 1.0,
@@ -4872,6 +5129,8 @@
         }
     },
     "Kibble (Kentrosaurus Egg)": {
+        "ClassName": "Consumable_Kibble_KentroEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Ammonite Bile": 1.0,
             "Fiber": 3.0,
@@ -4892,6 +5151,8 @@
         }
     },
     "Kibble (Pachy Egg)": {
+        "ClassName": "Consumable_Kibble_PachyEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Citronal": 1.0,
             "Fiber": 3.0,
@@ -4911,6 +5172,8 @@
         }
     },
     "Kibble (Pegomastax Egg)": {
+        "ClassName": "Consumable_Kibble_PegomastaxEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Citronal": 1.0,
             "Fiber": 3.0,
@@ -4930,6 +5193,8 @@
         }
     },
     "Kibble (Pelagornis Egg)": {
+        "ClassName": "Consumable_Kibble_Pela_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Chitin": 10.0,
             "Citronal": 1.0,
@@ -4950,6 +5215,8 @@
         }
     },
     "Kibble (Pteranodon Egg)": {
+        "ClassName": "Consumable_Kibble_PteroEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Fiber": 3.0,
             "Mejoberry": 2.0,
@@ -4969,6 +5236,8 @@
         }
     },
     "Kibble (Quetzal Egg)": {
+        "ClassName": "Consumable_Kibble_QuetzEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Fiber": 120.0,
             "Mejoberry": 100.0,
@@ -4988,6 +5257,8 @@
         }
     },
     "Kibble (Raptor Egg)": {
+        "ClassName": "Consumable_Kibble_RaptorEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Fiber": 3.0,
             "Longrass": 1.0,
@@ -5007,6 +5278,8 @@
         }
     },
     "Kibble (Spino Egg)": {
+        "ClassName": "Consumable_Kibble_SpinoEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Fiber": 3.0,
             "Mejoberry": 2.0,
@@ -5026,6 +5299,8 @@
         }
     },
     "Kibble (Terror Bird Egg)": {
+        "ClassName": "Consumable_Kibble_TerrorbirdEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Citronal": 1.0,
             "Fiber": 3.0,
@@ -5045,6 +5320,8 @@
         }
     },
     "Kibble (Titanboa Egg)": {
+        "ClassName": "Consumable_Kibble_BoaEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Fiber": 3.0,
             "Longrass": 1.0,
@@ -5064,6 +5341,8 @@
         }
     },
     "Kibble (Trike Egg)": {
+        "ClassName": "Consumable_Kibble_TrikeEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Fiber": 3.0,
             "Mejoberry": 2.0,
@@ -5083,6 +5362,8 @@
         }
     },
     "Kibble (Troodon Egg)": {
+        "ClassName": "Consumable_Kibble_TroodonEgg_C",
+        "Icon": "Kibble_Icon",
         "Ingredients": {
             "Fiber": 3.0,
             "Mejoberry": 2.0,
@@ -5178,6 +5459,8 @@
         }
     },
     "Large Creature Feces": {
+        "ClassName": "Consumable_DinoPoopLarge_C",
+        "Icon": "Item_DinoPoopLarge_Icon",
         "Ingredients": {
             "Thatch": 50.0
         },
@@ -5428,6 +5711,8 @@
         }
     },
     "Licorice": {
+        "ClassName": "Consumable_MedHerb_Licorice_C",
+        "Icon": "Licorice_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -5488,6 +5773,8 @@
         }
     },
     "Lignonberry": {
+        "ClassName": "Consumable_Berry_Lingonberry_C",
+        "Icon": "Lingonberry_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -5505,6 +5792,8 @@
         }
     },
     "Lime": {
+        "ClassName": "Consumable_Fruit_Lime_C",
+        "Icon": "Lime_Icon",
         "SpoilTime": 300.0,
         "Type": "Fruit",
         "Weight": 0.07000000029802322,
@@ -5547,6 +5836,8 @@
         }
     },
     "Longrass": {
+        "ClassName": "Consumable_Veggie_Longrass_C",
+        "Icon": "Longrass_Icon",
         "SpoilTime": 300.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -5624,6 +5915,8 @@
         }
     },
     "Maize": {
+        "ClassName": "Consumable_Vegetable_Maize_C",
+        "Icon": "Maize_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -5727,6 +6020,8 @@
         }
     },
     "Marrow": {
+        "ClassName": "Consumable_Meat_Marrow_Cooked_C",
+        "Icon": "MarrowMeat_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -5744,6 +6039,8 @@
         }
     },
     "Meats": {
+        "ClassName": "Consumable_Meat_BASE_C",
+        "Icon": "AnimalMeat_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -5775,6 +6072,8 @@
         }
     },
     "Medicinal Herb": {
+        "ClassName": "Consumable_MedHerb_BASE_C",
+        "Icon": "Yarrow_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -5801,6 +6100,8 @@
         }
     },
     "Medium Creature Feces": {
+        "ClassName": "Consumable_DinoPoopMedium_C",
+        "Icon": "Item_DinoPoop_Icon",
         "Ingredients": {
             "Thatch": 50.0
         },
@@ -5942,6 +6243,8 @@
         }
     },
     "Mejoberry": {
+        "ClassName": "Consumable_Berry_Mejoberry_C",
+        "Icon": "MejoBerry_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -6026,6 +6329,8 @@
         }
     },
     "Milk": {
+        "ClassName": "Consumable_Milk_C",
+        "Icon": "Item_MilkJar_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -6043,6 +6348,8 @@
         }
     },
     "Milk or Water": {
+        "ClassName": "Consumable_MilkOrWaterAbstract_C",
+        "Icon": "CanteenFilled_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -6095,6 +6402,8 @@
         }
     },
     "Mint": {
+        "ClassName": "Consumable_Herb_Mint_C",
+        "Icon": "Mint_Icon",
         "SpoilTime": 600.0,
         "Type": "Herb",
         "Weight": 0.07000000029802322,
@@ -6112,6 +6421,8 @@
         }
     },
     "Monarch's Cake": {
+        "ClassName": "Consumable_MonarchsCake_C",
+        "Icon": "Item_MonarchCake_Icon",
         "Ingredients": {
             "Cooking Herbs": 1.0,
             "Egg!": 2.0,
@@ -6230,6 +6541,8 @@
         }
     },
     "Narcoberry": {
+        "ClassName": "Consumable_Berry_Narcoberry_C",
+        "Icon": "NarcoBerry_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -6247,6 +6560,8 @@
         }
     },
     "Narcotic": {
+        "ClassName": "Consumable_Narcotic_C",
+        "Icon": "Narcotic_Icon",
         "Ingredients": {
             "Narcoberry": 5.0
         },
@@ -6298,6 +6613,8 @@
         }
     },
     "Obara Stew": {
+        "ClassName": "Consumable_DormouseSoup_C",
+        "Icon": "Item_ObaraStew_Icon",
         "Ingredients": {
             "Medicinal Herb": 5.0,
             "Rodent": 1.0,
@@ -6401,6 +6718,8 @@
         }
     },
     "Olives": {
+        "ClassName": "Consumable_Vegetable_Olive_C",
+        "Icon": "Olive_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -6418,6 +6737,8 @@
         }
     },
     "Onion": {
+        "ClassName": "Consumable_Vegetable_Onion_C",
+        "Icon": "Onion_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -6461,6 +6782,8 @@
         }
     },
     "Oregano": {
+        "ClassName": "Consumable_Herb_Oregano_C",
+        "Icon": "Oregano_Icon",
         "SpoilTime": 600.0,
         "Type": "Herb",
         "Weight": 0.07000000029802322,
@@ -6494,6 +6817,8 @@
         }
     },
     "Organic Polymer": {
+        "ClassName": "Resource_Polymer_Organic_C",
+        "Icon": "OrganicPolymer_Icon",
         "SpoilTime": 1800.0,
         "Type": "",
         "Weight": 0.17499999701976776,
@@ -6513,6 +6838,8 @@
         }
     },
     "Ostrich Egg": {
+        "ClassName": "Consumable_Egg_Ostrich_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -6530,6 +6857,8 @@
         }
     },
     "Oviraptor Egg": {
+        "ClassName": "Consumable_Egg_Oviraptor_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -6547,6 +6876,8 @@
         }
     },
     "Pachycephalosaurus Egg": {
+        "ClassName": "Consumable_Egg_Pachy_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.900000095367432,
@@ -6603,6 +6934,8 @@
         }
     },
     "Parrot Egg": {
+        "ClassName": "Consumable_Egg_Parrot_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 0.8400000333786011,
@@ -6620,6 +6953,8 @@
         }
     },
     "Parsley": {
+        "ClassName": "Consumable_Herb_Parsley_C",
+        "Icon": "Parsley_Icon",
         "SpoilTime": 600.0,
         "Type": "Herb",
         "Weight": 0.07000000029802322,
@@ -6669,6 +7004,8 @@
         }
     },
     "Pegomastax Egg": {
+        "ClassName": "Consumable_Egg_Pegomastax_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -6686,6 +7023,8 @@
         }
     },
     "Pelagornis Egg": {
+        "ClassName": "Consumable_Egg_Pela_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.900000095367432,
@@ -6711,6 +7050,8 @@
         "Icon": "PeltOrHair_Icon"
     },
     "Penguin Egg": {
+        "ClassName": "Consumable_Egg_Penguin_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 1.1200000047683716,
@@ -6728,6 +7069,8 @@
         }
     },
     "Pepper": {
+        "ClassName": "Consumable_Vegetable_Pepper_C",
+        "Icon": "Pepper_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -6778,6 +7121,8 @@
         "Icon": "AutoTurret_Icon"
     },
     "Plant Species X Seed": {
+        "ClassName": "Consumable_Seed_DefensePlant_C",
+        "Icon": "SpitterSeed_Icon",
         "SpoilTime": 0.0,
         "Type": "",
         "Weight": 0.00699999975040555,
@@ -6862,6 +7207,8 @@
         }
     },
     "Poppy": {
+        "ClassName": "Consumable_MedHerb_Poppy_C",
+        "Icon": "Poppy_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -6879,6 +7226,8 @@
         }
     },
     "Pork Pie": {
+        "ClassName": "Consumable_PorkPie_C",
+        "Icon": "Item_PorkPie_Icon",
         "Ingredients": {
             "Cooked Meat": 5.0,
             "Cooking Herbs": 3.0,
@@ -6924,6 +7273,8 @@
         }
     },
     "Potato": {
+        "ClassName": "Consumable_Vegetable_Potato_C",
+        "Icon": "Potato_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -6962,6 +7313,8 @@
         }
     },
     "Prime Animal Meat": {
+        "ClassName": "Consumable_Meat_PrimeAnimal_C",
+        "Icon": "PrimeAnimalMeat_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -6979,6 +7332,8 @@
         }
     },
     "Prime Fish Meat": {
+        "ClassName": "Consumable_Meat_PrimeFish_C",
+        "Icon": "PrimeFishMeat_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -6996,6 +7351,8 @@
         }
     },
     "Prime Shark Meat": {
+        "ClassName": "Consumable_Meat_Shark_C",
+        "Icon": "Shark_Meat_Prime_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -7013,6 +7370,8 @@
         }
     },
     "Pteranodon Egg": {
+        "ClassName": "Consumable_Egg_Ptero_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.900000095367432,
@@ -7059,6 +7418,8 @@
         }
     },
     "Pudding": {
+        "ClassName": "Consumable_Pudding_C",
+        "Icon": "Item_Pudding_Icon",
         "Ingredients": {
             "Egg!": 3.0,
             "Milk": 1.0,
@@ -7089,6 +7450,8 @@
         }
     },
     "Pulminoscorpius Egg": {
+        "ClassName": "Consumable_Egg_Scorpion_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 6.299999713897705,
@@ -7132,6 +7495,8 @@
         }
     },
     "Quetzal Egg": {
+        "ClassName": "Consumable_Egg_Quetz_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 8.399999618530273,
@@ -7184,6 +7549,8 @@
         }
     },
     "Raptor Egg": {
+        "ClassName": "Consumable_Egg_Raptor_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.900000095367432,
@@ -7201,6 +7568,8 @@
         }
     },
     "Rare Flower": {
+        "ClassName": "Resource_RareFlower_C",
+        "Icon": "RareFlower_Icon",
         "SpoilTime": 259200.0,
         "Type": "",
         "Weight": 0.10500000417232513,
@@ -7213,6 +7582,8 @@
         }
     },
     "Razortooth Egg": {
+        "ClassName": "Consumable_Egg_Razortooth_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.900000095367432,
@@ -7230,6 +7601,8 @@
         }
     },
     "Reaper's Regard": {
+        "ClassName": "Consumable_ReapersRegard_C",
+        "Icon": "Item_ReapersRegards_Icon",
         "Ingredients": {
             "Acerolla": 5.0,
             "Cooked Fish": 10.0,
@@ -7263,6 +7636,8 @@
         }
     },
     "Red Algae": {
+        "ClassName": "Consumable_Herb_RedAlgae_C",
+        "Icon": "Cilantro_Icon",
         "SpoilTime": 600.0,
         "Type": "Herb",
         "Weight": 0.07000000029802322,
@@ -7345,6 +7720,8 @@
         "Icon": "RhinoHornIcon"
     },
     "Rice": {
+        "ClassName": "Consumable_Vegetable_Rice_C",
+        "Icon": "Rice_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -7395,6 +7772,8 @@
         }
     },
     "Rockarrot": {
+        "ClassName": "Consumable_Veggie_Rockarrot_C",
+        "Icon": "Rockarrot_Icon",
         "SpoilTime": 300.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -7412,6 +7791,8 @@
         }
     },
     "Rodent": {
+        "ClassName": "Consumable_Meat_Rodent_C",
+        "Icon": "Item_RatPrey_Icon",
         "SpoilTime": 300.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -7457,6 +7838,8 @@
         }
     },
     "Rosemary": {
+        "ClassName": "Consumable_Herb_Rosemary_C",
+        "Icon": "Rosemary_Icon",
         "SpoilTime": 600.0,
         "Type": "Herb",
         "Weight": 0.07000000029802322,
@@ -7474,6 +7857,8 @@
         }
     },
     "Rosemary Chicken": {
+        "ClassName": "Consumable_RosemaryChicken_C",
+        "Icon": "Item_RosemaryChicken_Icon",
         "Ingredients": {
             "Carrot": 3.0,
             "Cooked Meat": 3.0,
@@ -7502,6 +7887,8 @@
         }
     },
     "Rotten Meat": {
+        "ClassName": "Consumable_Meat_Spoiled_C",
+        "Icon": "Item_SpoiledMeat_Icon",
         "SpoilTime": 600.0,
         "Type": "Meat",
         "Weight": 0.07000000029802322,
@@ -7553,6 +7940,8 @@
         "Icon": "SeaSalt_Icon"
     },
     "Salted Fish": {
+        "ClassName": "Consumable_SaltedFish_C",
+        "Icon": "Item_SaltedFishMeat_Icon",
         "Ingredients": {
             "Fish Meat": 1.0,
             "Preserving Salt": 1.0
@@ -7579,6 +7968,8 @@
         }
     },
     "Salted Meat": {
+        "ClassName": "Consumable_SaltedMeat_C",
+        "Icon": "Item_SaltedMeat_Icon",
         "Ingredients": {
             "Animal Meat": 1.0,
             "Preserving Salt": 1.0
@@ -7605,6 +7996,8 @@
         }
     },
     "Salted Prime Fish": {
+        "ClassName": "Consumable_SaltedPrimeFish_C",
+        "Icon": "Item_PrimeSaltedFish_Icon",
         "Ingredients": {
             "Preserving Salt": 1.0,
             "Prime Fish Meat": 1.0
@@ -7631,6 +8024,8 @@
         }
     },
     "Salted Prime Meat": {
+        "ClassName": "Consumable_SaltedPrimeMeat_C",
+        "Icon": "Item_PrimeSaltedMeat_Icon",
         "Ingredients": {
             "Preserving Salt": 1.0,
             "Prime Animal Meat": 1.0
@@ -7684,6 +8079,8 @@
         "Icon": "Item_Sap_Icon"
     },
     "Sarco Egg": {
+        "ClassName": "Consumable_Egg_Sarco_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 10.5,
@@ -7701,6 +8098,8 @@
         }
     },
     "Savoroot": {
+        "ClassName": "Consumable_Veggie_Savoroot_C",
+        "Icon": "Savroot_Icon",
         "SpoilTime": 300.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -7730,6 +8129,8 @@
         }
     },
     "Schisandra": {
+        "ClassName": "Consumable_Berry_Schisandra_C",
+        "Icon": "Schisandra_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -7773,6 +8174,8 @@
         }
     },
     "Sea Grapes": {
+        "ClassName": "Consumable_Berry_SeaGrape_C",
+        "Icon": "SeaGrapes_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -7798,6 +8201,8 @@
         }
     },
     "Seagull Egg": {
+        "ClassName": "Consumable_Egg_Seagull_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 0.8400000333786011,
@@ -7892,6 +8297,8 @@
         "Icon": "Item_Shell_Icon"
     },
     "Shieldhorn Egg": {
+        "ClassName": "Consumable_Egg_Shieldhorn_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 3.8499999046325684,
@@ -8142,6 +8549,8 @@
         }
     },
     "Shrunken Head Stew": {
+        "ClassName": "Consumable_ShrunkenStew_C",
+        "Icon": "Item_ShrunkenHeadStew_Icon",
         "Ingredients": {
             "Cooked Meat": 5.0,
             "Rosemary": 10.0,
@@ -8315,6 +8724,8 @@
         }
     },
     "Small Creature Feces": {
+        "ClassName": "Consumable_DinoPoopSmall_C",
+        "Icon": "Item_DinoPoopSmall_Icon",
         "Ingredients": {
             "Thatch": 50.0
         },
@@ -8482,6 +8893,8 @@
         }
     },
     "Soap": {
+        "ClassName": "ConsumableSoap_C",
+        "Icon": "Item_Soap_Icon",
         "Ingredients": {
             "Oil": 2.0,
             "Organic Paste": 3.0,
@@ -8511,6 +8924,8 @@
         "Icon": "HUD_MusicSheet_Colorize_d"
     },
     "Song of the Sea": {
+        "ClassName": "Consumable_SongOfTheSea_C",
+        "Icon": "Item_SongOfTheSea_Icon",
         "Ingredients": {
             "Acai": 10.0,
             "Beans": 10.0,
@@ -8580,6 +8995,8 @@
         }
     },
     "Spiced Rum": {
+        "ClassName": "Consumable_SpicedRum_C",
+        "Icon": "Item_SpicyRum_Icon",
         "Ingredients": {
             "Chili": 3.0,
             "Cooking Herbs": 10.0,
@@ -8609,6 +9026,8 @@
         }
     },
     "Spicy Roll": {
+        "ClassName": "Consumable_SpicyRoll_C",
+        "Icon": "Item_SpicyRoll_Icon",
         "Ingredients": {
             "Cooked Meat": 5.0,
             "Rice": 10.0,
@@ -8647,6 +9066,8 @@
         }
     },
     "Spino Egg": {
+        "ClassName": "Consumable_Egg_Spino_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 8.399999618530273,
@@ -8664,6 +9085,8 @@
         }
     },
     "Spirulina": {
+        "ClassName": "Consumable_MedHerb_Spirulina_C",
+        "Icon": "Yarrow_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -8702,6 +9125,8 @@
         }
     },
     "Squid Tentacle": {
+        "ClassName": "Consumable_Meat_Fish_SquidTentacle_C",
+        "Icon": "TentacleIcon",
         "SpoilTime": 900.0,
         "Type": "Meat",
         "Weight": 0.17000000178813934,
@@ -8723,6 +9148,8 @@
         "Icon": "Item_SteeringWheel_Icon"
     },
     "Stimberry": {
+        "ClassName": "Consumable_Berry_Stimberry_C",
+        "Icon": "StimBerry_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -8740,6 +9167,8 @@
         }
     },
     "Stimulant": {
+        "ClassName": "Consumable_Stimulant_C",
+        "Icon": "Stimulant_Icon",
         "Ingredients": {
             "Sparkpowder": 2.0,
             "Stimberry": 5.0
@@ -8944,6 +9373,8 @@
         }
     },
     "Strawberry": {
+        "ClassName": "Consumable_Berry_Strawberry_C",
+        "Icon": "Strawberry_Icon",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -8982,6 +9413,8 @@
         }
     },
     "Stuffed & Baked Fish": {
+        "ClassName": "Consumable_StuffedBakedFish_C",
+        "Icon": "Item_StuffedFish_Icon",
         "Ingredients": {
             "Cooked Fish": 5.0,
             "Cooking Herbs": 5.0,
@@ -9048,6 +9481,8 @@
         }
     },
     "Super Test Meat": {
+        "ClassName": "Consumable_SuperTestMeat_C",
+        "Icon": "Meat_Icon",
         "SpoilTime": 60.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -9060,6 +9495,7 @@
         }
     },
     "Super Veggie Seed": {
+        "ClassName": "Consumable_Seed_BaseSuperVeggie_C",
         "SpoilTime": 0.0,
         "Type": "",
         "Weight": 0.00699999975040555,
@@ -9079,6 +9515,8 @@
         }
     },
     "Sweet Vegetable Cake": {
+        "ClassName": "Consumable_SweetVeggieCake_C",
+        "Icon": "TastyCake_Icon",
         "Ingredients": {
             "Fiber": 25.0,
             "Giant Bee Honey": 2.0,
@@ -9178,6 +9616,8 @@
         }
     },
     "Tara'Nosti Treat": {
+        "ClassName": "Consumable_TaraNostiTreat_C",
+        "Icon": "Item_TaraNostriTreat_Icon",
         "Ingredients": {
             "Blackberry": 10.0,
             "Egg!": 5.0,
@@ -9229,6 +9669,8 @@
         }
     },
     "Terror Bird Egg": {
+        "ClassName": "Consumable_Egg_Terrorbird_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 4.900000095367432,
@@ -9335,6 +9777,8 @@
         }
     },
     "Thyme": {
+        "ClassName": "Consumable_Herb_Thyme_C",
+        "Icon": "Thyme_Icon",
         "SpoilTime": 600.0,
         "Type": "Herb",
         "Weight": 0.07000000029802322,
@@ -9428,6 +9872,8 @@
         }
     },
     "Tintoberry": {
+        "ClassName": "Consumable_Berry_Tintoberry_C",
+        "Icon": "TintoBerry_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -9455,6 +9901,8 @@
         }
     },
     "Titanboa Egg": {
+        "ClassName": "Consumable_Egg_Boa_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 14.0,
@@ -9579,6 +10027,8 @@
         "Icon": "Item_TreasureMap_Icon"
     },
     "Trike Egg": {
+        "ClassName": "Consumable_Egg_Trike_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 6.299999713897705,
@@ -9596,6 +10046,8 @@
         }
     },
     "Troodon Egg": {
+        "ClassName": "Consumable_Egg_Troodon_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -9613,6 +10065,8 @@
         }
     },
     "Turmeric": {
+        "ClassName": "Consumable_MedHerb_Turmeric_C",
+        "Icon": "Turmeric_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -9630,6 +10084,8 @@
         }
     },
     "Turnip": {
+        "ClassName": "Consumable_Vegetable_Turnip_C",
+        "Icon": "Turnip_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -9651,6 +10107,8 @@
         "Icon": "Turnip_Seed_Icon"
     },
     "Turtle Egg": {
+        "ClassName": "Consumable_Egg_Turtle_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 2.0999999046325684,
@@ -9707,6 +10165,8 @@
         }
     },
     "Unthinkable Delicacy": {
+        "ClassName": "Consumable_UnthinkableDelicacy_C",
+        "Icon": "CookedPrimeMeat_Icon",
         "Ingredients": {
             "Berry": 50.0,
             "Cooked Prime Animal Meat": 10.0,
@@ -9740,6 +10200,8 @@
         }
     },
     "Vegetable": {
+        "ClassName": "Consumable_Vegetable_BASE_C",
+        "Icon": "Item_GenericVegetable_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -9757,6 +10219,8 @@
         }
     },
     "Veggie Seed": {
+        "ClassName": "Consumable_Seed_BaseVeggie_C",
+        "Icon": "Wild_Seed_Icon",
         "SpoilTime": 0.0,
         "Type": "",
         "Weight": 0.0279999990016222,
@@ -9820,6 +10284,8 @@
         }
     },
     "Vulture Egg": {
+        "ClassName": "Consumable_Egg_Vulture_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 1.1200000047683716,
@@ -9894,6 +10360,8 @@
         }
     },
     "Water": {
+        "ClassName": "ConsumableEatable_WaterContainer_C",
+        "Icon": "Item_WaterGlass_Icon",
         "SpoilTime": 0.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -9931,7 +10399,12 @@
         }
     },
     "Water Jar": {
+        "ClassName": "Consumable_WaterJarRefill_C",
+        "Icon": "Item_WaterJarFull_Icon",
         "Ingredients": {
+            "Crystal": 2.0,
+            "Hide": 5.0,
+            "Keratinoid": 7.0,
             "Water Jar": 1.0
         },
         "SpoilTime": 0.0,
@@ -9972,7 +10445,11 @@
         }
     },
     "Waterskin": {
+        "ClassName": "Consumable_WaterskinRefill_C",
+        "Icon": "Item_WaterskinFull_Icon",
         "Ingredients": {
+            "Fibers": 10.0,
+            "Hide": 5.0,
             "Waterskin": 1.0
         },
         "SpoilTime": 0.0,
@@ -9995,6 +10472,8 @@
         }
     },
     "Wheat": {
+        "ClassName": "Consumable_Vegetable_Wheat_C",
+        "Icon": "Wheat_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -10016,6 +10495,8 @@
         "Icon": "Wheat_Seed_Icon"
     },
     "Wheat or Maize": {
+        "ClassName": "Consumable_Vegetable_MaizeOrWheat_C",
+        "Icon": "Maize_Icon",
         "SpoilTime": 8640.0,
         "Type": "Vegetable",
         "Weight": 0.07000000029802322,
@@ -10033,6 +10514,8 @@
         }
     },
     "Wheatgrass": {
+        "ClassName": "Consumable_Vegetable_Wheat_Wild_C",
+        "Icon": "Wheat_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10099,6 +10582,8 @@
         }
     },
     "Wild Beans": {
+        "ClassName": "Consumable_Vegetable_Beans_Wild_C",
+        "Icon": "Beans_wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10116,6 +10601,8 @@
         }
     },
     "Wild Beet": {
+        "ClassName": "Consumable_Vegetable_Beet_Wild_C",
+        "Icon": "Beet_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10133,6 +10620,8 @@
         }
     },
     "Wild Cactus": {
+        "ClassName": "Consumable_Vegetable_Cactus_Wild_C",
+        "Icon": "Cactus_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10150,6 +10639,8 @@
         }
     },
     "Wild Carrot": {
+        "ClassName": "Consumable_Vegetable_Carrot_Wild_C",
+        "Icon": "Carrot_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10167,6 +10658,8 @@
         }
     },
     "Wild Chick Peas": {
+        "ClassName": "Consumable_Vegetable_ChickPeas_Wild_C",
+        "Icon": "Chickpeas_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10184,6 +10677,8 @@
         }
     },
     "Wild Chili": {
+        "ClassName": "Consumable_Vegetable_Chilli_Wild_C",
+        "Icon": "Chili_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10201,6 +10696,8 @@
         }
     },
     "Wild Greens": {
+        "ClassName": "Consumable_Vegetable_EdibleGreens_Wild_C",
+        "Icon": "EdibleGreens_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10218,6 +10715,8 @@
         }
     },
     "Wild Maize": {
+        "ClassName": "Consumable_Vegetable_Maize_Wild_C",
+        "Icon": "Maize_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10235,6 +10734,8 @@
         }
     },
     "Wild Onion": {
+        "ClassName": "Consumable_Vegetable_Onion_Wild_C",
+        "Icon": "Onion_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10252,6 +10753,8 @@
         }
     },
     "Wild Pepper": {
+        "ClassName": "Consumable_Vegetable_Pepper_Wild_C",
+        "Icon": "Pepper_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10269,6 +10772,8 @@
         }
     },
     "Wild Potato": {
+        "ClassName": "Consumable_Vegetable_Potato_Wild_C",
+        "Icon": "Potato_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10286,6 +10791,8 @@
         }
     },
     "Wild Rice": {
+        "ClassName": "Consumable_Vegetable_Rice_Wild_C",
+        "Icon": "Rice_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10303,6 +10810,8 @@
         }
     },
     "Wild Turnip": {
+        "ClassName": "Consumable_Vegetable_Turnip_Wild_C",
+        "Icon": "Turnip_Wild_Icon",
         "SpoilTime": 300.0,
         "Type": "Wild Vegetable",
         "Weight": 0.07000000029802322,
@@ -10634,6 +11143,8 @@
         }
     },
     "Yarrow": {
+        "ClassName": "Consumable_MedHerb_Yarrow_C",
+        "Icon": "Yarrow_Icon",
         "SpoilTime": 600.0,
         "Type": "",
         "Weight": 0.07000000029802322,
@@ -10658,6 +11169,8 @@
         }
     },
     "Yutyrannus Egg": {
+        "ClassName": "Consumable_Egg_Yuty_C",
+        "Icon": "Egg_Icon",
         "SpoilTime": 691200.0,
         "Type": "",
         "Weight": 10.5,
