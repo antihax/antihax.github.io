@@ -103,7 +103,6 @@
         $(document).ready(function() {
             let bh = new Bloodhound({
                 datumTokenizer: function(d) {
-                    console.log(d.ClassName)
                     let tokens = [d.Name, d.ClassName.slice(0, -2).replace("_", " ")];
                     return Bloodhound.tokenizers.whitespace(tokens);
                 },
