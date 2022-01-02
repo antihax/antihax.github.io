@@ -60,30 +60,42 @@ class WorldMap extends React.Component {
                 var element = document.createElement("input");
                 element.id = "searchBox";
                 element.onchange = function(ev) {
-                    var search = document.getElementById("searchBox").value.toLowerCase();
+                    let search = document.getElementById("searchBox").value.toLowerCase();
+                    let exact = false;
                     map.IslandResources.eachLayer(function(layer) {
-                        if (search !== "" &&
-                            (
-                                layer.animals.find(function(element) {
-                                    return element.toLowerCase().includes(search);
-                                }) ||
-                                layer.resources.find(function(element) {
-                                    return element.toLowerCase().includes(search);
-                                }))
-                        )
-                            layer.setStyle({
-                                radius: 1.5,
-                                color: "#f00",
-                                opacity: 1,
-                                fillOpacity: 1,
-                            })
-                        else
-                            layer.setStyle({
-                                radius: 1.5,
-                                color: "#f00",
-                                opacity: 0,
-                                fillOpacity: 0.1,
-                            })
+                        if (search !== "") {
+                            if (
+                                (
+                                    layer.animals.find(function(element) {
+                                        return element.toLowerCase().includes(search);
+                                    }) ||
+                                    layer.resources.find(function(element) {
+                                        if (element.toLowerCase() === search) {
+                                            exact = true;
+                                            return true;
+
+                                        }
+                                        if (exact)
+                                            return false;
+                                        return element.toLowerCase().includes(search);
+                                    }))
+                            )
+                                layer.setStyle({
+                                    radius: 1.5,
+                                    color: "#f00",
+                                    opacity: 1,
+                                    fillOpacity: 1,
+                                })
+                            else
+                                layer.setStyle({
+                                    radius: 1.5,
+                                    color: "#f00",
+                                    opacity: 0,
+                                    fillOpacity: 0.1,
+                                })
+                        } else {
+                            exact = false;
+                        }
                     })
 
                 };
@@ -665,11 +677,11 @@ class WorldMap extends React.Component {
             },
 
             _onMouseMove: function(e) {
-                var lng = L.Util.formatNum((scaleLeafletToAtlas(e.latlng.lng) / 0.3636363636363636) - 100, 2);
-                var lat = L.Util.formatNum(100 - (scaleLeafletToAtlas(-e.latlng.lat) / 0.3636363636363636), 2);
-                var value = lng + this.options.separator + lat;
-                var prefixAndValue = this.options.prefix + ' ' + value;
-                this._container.innerHTML = prefixAndValue;
+                let lng = L.Util.formatNum((scaleLeafletToAtlas(e.latlng.lng) / 0.3636363636363636) - 100, 2);
+                let lat = L.Util.formatNum(100 - (scaleLeafletToAtlas(-e.latlng.lat) / 0.3636363636363636), 2);
+                let value = lng + this.options.separator + lat;
+
+                this._container.innerHTML = value;
             }
         });
 
