@@ -64,21 +64,18 @@ class WorldMap extends React.Component {
                     let exact = false;
                     map.IslandResources.eachLayer(function(layer) {
                         if (search !== "") {
-                            if (
-                                (
-                                    layer.animals.find(function(element) {
-                                        return element.toLowerCase().includes(search);
-                                    }) ||
-                                    layer.resources.find(function(element) {
-                                        if (element.toLowerCase() === search) {
-                                            exact = true;
-                                            return true;
-
-                                        }
-                                        if (exact)
-                                            return false;
-                                        return element.toLowerCase().includes(search);
-                                    }))
+                            if (layer.animals.find(function(element) {
+                                    return element.toLowerCase().includes(search);
+                                }) ||
+                                layer.resources.find(function(element) {
+                                    if (element.toLowerCase() === search) {
+                                        exact = true;
+                                        return true;
+                                    }
+                                    if (exact)
+                                        return false;
+                                    return element.toLowerCase().includes(search);
+                                })
                             )
                                 layer.setStyle({
                                     radius: 1.5,
@@ -252,6 +249,14 @@ class WorldMap extends React.Component {
             iconSize: [32, 32],
             iconAnchor: [16, 16],
         });
+
+        fetch('json/regions.json', {
+                dataType: 'json'
+            })
+            .then(res => res.json())
+            .then(function(regions) {
+                map._regions = regions;
+            });
 
         fetch('json/portals.json', {
                 dataType: 'json'
@@ -681,6 +686,18 @@ class WorldMap extends React.Component {
                 let lat = L.Util.formatNum(100 - (scaleLeafletToAtlas(-e.latlng.lat) / 0.3636363636363636), 2);
                 let value = lng + this.options.separator + lat;
 
+                let gridX = Math.floor(e.latlng.lng / (256 / config.ServersX)),
+                    gridY = Math.floor(-e.latlng.lat / (256 / config.ServersY));
+
+                if (gridX >= 0 && gridY >= 0 && gridX < config.ServersX && gridY < config.ServersY) {
+                    Object.entries(map._regions).forEach(([region, bounds]) => {
+                        if (gridX >= bounds.MinX && gridX <= bounds.MaxX && gridY >= bounds.MinY && gridY <= bounds.MaxY) {
+                            value += " " + region;
+                        }
+                    })
+                }
+
+
                 this._container.innerHTML = value;
             }
         });
@@ -850,8 +867,12 @@ function unrealToLeafletArray(a) {
     return unrealToLeaflet(a[0], a[1]);
 }
 
-function constraint(value, minRange, maxRange, minVal, maxVal) {
-    return (((value - minVal) / (maxVal - minVal)) * (maxRange - minRange) + minRange);
+function constraintInv(value, minVal, maxVal, minRange, maxRange) {
+    return constraint(value, minVal, maxVal, minRange, maxRange) + minRange;
+}
+
+function constraint(value, minVal, maxVal, minRange, maxRange) {
+    return (((value - minVal) / (maxVal - minVal)) * (maxRange - minRange));
 }
 
 function ccc(x, y) {
@@ -859,8 +880,8 @@ function ccc(x, y) {
     var gridXName = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O'];
     var gridX = gridXName[Math.floor(x / precision)];
     var gridY = Math.floor(y / precision) + 1;
-    var localX = constraint(x % precision, -700000, 700000, 0, precision).toFixed(0);
-    var localY = constraint(y % precision, -700000, 700000, 0, precision).toFixed(0);
+    var localX = constraintInv(x % precision, 0, precision, -700000, 700000).toFixed(0);
+    var localY = constraintInv(y % precision, 0, precision, -700000, 700000).toFixed(0);
 
     return [gridX + gridY, localX, localY];
 }
@@ -892,6 +913,7 @@ class QElement {
         this.priority = priority;
     }
 }
+
 class PriorityQueue {
     constructor() {
         this.items = [];
@@ -1038,6 +1060,7 @@ function updateIsland() {
             war.innerHTML = getWarState(GlobalSelectedIsland)
     }
 }
+
 class IslandCircle extends L.Circle {
     constructor(latlng, options) {
         super(latlng, options)
