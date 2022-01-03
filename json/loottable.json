@@ -1,5 +1,956 @@
 {
     "Loot": {
+        "DinoDropInventoryComponent_BP_Base_C": null,
+        "DinoDropInventoryComponent_Carnivore_Huge_C": null,
+        "DinoDropInventoryComponent_Carnivore_Huge_Mega_C": null,
+        "DinoDropInventoryComponent_Carnivore_Huge_Yuty_C": null,
+        "DinoDropInventoryComponent_Carnivore_Large_Boa_C": null,
+        "DinoDropInventoryComponent_Carnivore_Large_Sarco_C": null,
+        "DinoDropInventoryComponent_Carnivore_Medium_C": null,
+        "DinoDropInventoryComponent_Carnivore_Small_C": null,
+        "DinoDropInventoryComponent_Carnivore_Small_Mermaid_C": null,
+        "DinoDropInventoryComponent_Carnivore_Tusoteuthis_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Fish Oil"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 80.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 40.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Gold_BASE_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Gold Coin"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Gold_GentleSeaMonster_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Gold Coin"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Gold Coin"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Gold_GiantSquid_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Squid Tentacle"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Loot_MeanWhale_C": [
+            {
+                "ChanceForBlueprint": 1.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 1,
+                "Items": [
+                    "Medium Wood Plank",
+                    "Large Wood Plank",
+                    "Medium Wood Gunport",
+                    "Large Wood Gunport",
+                    "Ship Cannon",
+                    "Large Cannon",
+                    "Large Speed Sail",
+                    "Large Handling Sail",
+                    "Large Weight Sail",
+                    "Medium Wood Ship Deck",
+                    "Large Wood Ship Deck"
+                ],
+                "MaxQuality": 14.0,
+                "MaxQuantity": 5.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 2.0,
+                "QualityPower": 4.0,
+                "QuantityPower": 2.5,
+                "Weight": 1.5
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Medium Cannon Ball",
+                    "Medium Wood Plank",
+                    "Large Wood Plank",
+                    "Medium Wood Gunport",
+                    "Large Wood Gunport",
+                    "Ship Cannon",
+                    "Large Cannon",
+                    "Large Speed Sail",
+                    "Large Handling Sail",
+                    "Large Weight Sail",
+                    "Medium Wood Ship Deck",
+                    "Large Wood Ship Deck",
+                    "Medium Handling Sail",
+                    "Catapult Turret"
+                ],
+                "MaxQuality": 13.0,
+                "MaxQuantity": 4.0,
+                "MinQuality": 4.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 2.5,
+                "QuantityPower": 2.0,
+                "Weight": 2.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Gold Coin"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 2.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Gold Coin"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Gold Coin"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_MythicalBase_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Mythical_Cyclops_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Mythical_Dragon_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Mythical_FireElemental_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Mythical_Gorgon_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Mythical_Hydra_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Mythical_RockElemental_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Mythical_Snowman_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 1.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 1,
+                "Items": [
+                    "Bow",
+                    "Blackjack",
+                    "Blunderbuss",
+                    "Carbine",
+                    "Brass Knuckles",
+                    "Pike",
+                    "Crossbow",
+                    "Spear Launcher",
+                    "Two-Handed Mace",
+                    "Metal Pick",
+                    "Metal Hatchet",
+                    "Metal Sickle",
+                    "Sword",
+                    "Flintlock",
+                    "Wooden Shield",
+                    "Plate Boots",
+                    "Plate Gloves",
+                    "Plate Pants",
+                    "Plate Shirt",
+                    "Plate Helmet",
+                    "Heavy Shield",
+                    "Hide Boots",
+                    "Hide Gloves",
+                    "Hide Hat",
+                    "Hide Pants",
+                    "Hide Shirt",
+                    "Fur Boots",
+                    "Fur Gauntlets",
+                    "Fur Cap",
+                    "Fur Leggings",
+                    "Fur Chestpiece"
+                ],
+                "MaxQuality": 12.0,
+                "MaxQuantity": 2.0,
+                "MinQuality": 10.0,
+                "MinQuantity": 2.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.30000001192092896,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Bow",
+                    "Blackjack",
+                    "Blunderbuss",
+                    "Carbine",
+                    "Brass Knuckles",
+                    "Pike",
+                    "Crossbow",
+                    "Spear Launcher",
+                    "Two-Handed Mace",
+                    "Metal Pick",
+                    "Metal Hatchet",
+                    "Metal Sickle",
+                    "Sword",
+                    "Flintlock",
+                    "Wooden Shield",
+                    "Plate Boots",
+                    "Plate Gloves",
+                    "Plate Pants",
+                    "Plate Shirt",
+                    "Plate Helmet",
+                    "Heavy Shield",
+                    "Hide Boots",
+                    "Hide Gloves",
+                    "Hide Hat",
+                    "Hide Pants",
+                    "Hide Shirt",
+                    "Fur Boots",
+                    "Fur Gauntlets",
+                    "Fur Cap",
+                    "Fur Leggings",
+                    "Fur Chestpiece"
+                ],
+                "MaxQuality": 7.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 7.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Mythical_Snowman_Hard_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 1.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 12.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 1.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 1,
+                "Items": [
+                    "Bow",
+                    "Blackjack",
+                    "Blunderbuss",
+                    "Carbine",
+                    "Brass Knuckles",
+                    "Pike",
+                    "Crossbow",
+                    "Spear Launcher",
+                    "Two-Handed Mace",
+                    "Metal Pick",
+                    "Metal Hatchet",
+                    "Metal Sickle",
+                    "Sword",
+                    "Flintlock",
+                    "Wooden Shield",
+                    "Plate Boots",
+                    "Plate Gloves",
+                    "Plate Pants",
+                    "Plate Shirt",
+                    "Plate Helmet",
+                    "Heavy Shield",
+                    "Hide Boots",
+                    "Hide Gloves",
+                    "Hide Hat",
+                    "Hide Pants",
+                    "Hide Shirt",
+                    "Fur Boots",
+                    "Fur Gauntlets",
+                    "Fur Cap",
+                    "Fur Leggings",
+                    "Fur Chestpiece"
+                ],
+                "MaxQuality": 12.0,
+                "MaxQuantity": 5.0,
+                "MinQuality": 10.0,
+                "MinQuantity": 5.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.30000001192092896,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Bow",
+                    "Blackjack",
+                    "Blunderbuss",
+                    "Carbine",
+                    "Brass Knuckles",
+                    "Pike",
+                    "Crossbow",
+                    "Spear Launcher",
+                    "Two-Handed Mace",
+                    "Metal Pick",
+                    "Metal Hatchet",
+                    "Metal Sickle",
+                    "Sword",
+                    "Flintlock",
+                    "Wooden Shield",
+                    "Plate Boots",
+                    "Plate Gloves",
+                    "Plate Pants",
+                    "Plate Shirt",
+                    "Plate Helmet",
+                    "Heavy Shield",
+                    "Hide Boots",
+                    "Hide Gloves",
+                    "Hide Hat",
+                    "Hide Pants",
+                    "Hide Shirt",
+                    "Fur Boots",
+                    "Fur Gauntlets",
+                    "Fur Cap",
+                    "Fur Leggings",
+                    "Fur Chestpiece"
+                ],
+                "MaxQuality": 7.0,
+                "MaxQuantity": 2.0,
+                "MinQuality": 7.0,
+                "MinQuantity": 2.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Mythical_Yeti_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Rhino_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Rhino Horn"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "HumanDinoInventory_Enemy_Fighter_C_0": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Wooden Shield",
+                    "Sword of the Damned"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 2.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 2.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Sword of the Damned"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Crossbow of the Damned"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 0.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 0.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "MaxQuality": 1.0,
+                "MaxQuantity": 0.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 0.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "HumanDinoInventory_Enemy_Fighter_C_220": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Wooden Shield",
+                    "Sword"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 2.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 2.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 0.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Sword"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 0.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Crossbow of the Damned"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "MaxQuality": 1.0,
+                "MaxQuantity": 0.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 0.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 0.0
+            }
+        ],
+        "HumanDinoInventory_Fighter_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.5,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cloth Shirt"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cloth Pants"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.5,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cloth Hat"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.5,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cloth Gloves"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.5,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cloth Boots"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "HumanDinoInventory_Fighter_C_159": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Crossbow"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "HumanDinoInventory_Fighter_C_2": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.5,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cloth Shirt"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cloth Pants"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.5,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cloth Hat"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.5,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cloth Gloves"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.5,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cloth Boots"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "HumanDinoInventory_Fighter_C_70": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Sword"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 0.15000000596046448,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Wooden Shield"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
         "LootItemSet_BaseMeatFishing_C": [
             {
                 "ChanceForBlueprint": 0.5,
@@ -20,6 +971,7 @@
                 "Weight": 1.0
             }
         ],
+        "LootItemSet_CaveDrop_T1_Armor_C": null,
         "LootItemSet_Encampment_Consumables_C": [
             {
                 "ChanceForBlueprint": 0.0,
@@ -1611,6 +2563,7 @@
                 "Weight": 1.0
             }
         ],
+        "LootItemSet_Survivor_C": null,
         "LootItemSet_TreasureUsableItems_C": [
             {
                 "ChanceForBlueprint": 1.0,
@@ -1740,6 +2693,11 @@
                 "QuantityPower": 1.0,
                 "Weight": 1.0
             }
-        ]
+        ],
+        "PrimalInventoryBP_BaseMeatFishing_C": null,
+        "PrimalInventoryBP_Encampment_Consumables_C": null,
+        "PrimalInventoryBP_Encampment_Usables_C": null,
+        "PrimalInventoryBP_GenericFishing_C": null,
+        "PrimalSupplyCrateItemSet": null
     }
 }

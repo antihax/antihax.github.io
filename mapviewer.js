@@ -682,8 +682,8 @@ class WorldMap extends React.Component {
             },
 
             _onMouseMove: function(e) {
-                let lng = L.Util.formatNum((scaleLeafletToAtlas(e.latlng.lng) / 0.3636363636363636) - 100, 2);
-                let lat = L.Util.formatNum(100 - (scaleLeafletToAtlas(-e.latlng.lat) / 0.3636363636363636), 2);
+                let lng = L.Util.formatNum((scaleLeafletToAtlas(e.latlng.lng) / config.YScale) - config.GPSBounds.min[1], 2);
+                let lat = L.Util.formatNum((scaleLeafletToAtlas(e.latlng.lat) / config.XScale) - config.GPSBounds.min[0], 2);
                 let value = lng + this.options.separator + lat;
 
                 let gridX = Math.floor(e.latlng.lng / (256 / config.ServersX)),
@@ -818,8 +818,8 @@ function scaleLeafletToAtlas(e) {
 
 // temporary hack due to GPS now going -100 to 450 etc.
 function GPStoLeaflet(x, y) {
-    var long = ((y - 100) * 0.3636363636363636) * 1.28,
-        lat = ((100 + x) * 0.3636363636363636) * 1.28;
+    var long = ((y - config.GPSBounds.min[1]) * config.XScale) * 1.28,
+        lat = ((x - config.GPSBounds.min[0]) * config.YScale) * 1.28;
 
     return [long, lat];
 }
