@@ -92,6 +92,12 @@ class WorldMap extends React.Component {
                                 })
                         } else {
                             exact = false;
+                            layer.setStyle({
+                                radius: 1.5,
+                                color: "#f00",
+                                opacity: 0,
+                                fillOpacity: 0.1,
+                            })
                         }
                     })
 
