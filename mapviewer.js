@@ -395,7 +395,7 @@ class WorldMap extends React.Component {
                     map.Bosses.addLayer(pin)
                 });
 
-                var krakenSpawn = L.circle([-104.7272727272727, 81.454545454545454545454545454546], {
+                /*var krakenSpawn = L.circle([-104.7272727272727, 81.454545454545454545454545454546], {
                     radius: 1.68,
                     interactive: true,
                     color: "red",
@@ -408,7 +408,7 @@ class WorldMap extends React.Component {
                     fillOpacity: 0,
                 }).bindPopup("Kraken Border Wall");
                 map.Bosses.addLayer(krakenWall);
-                map.Bosses.addLayer(krakenSpawn);
+                map.Bosses.addLayer(krakenSpawn);*/
             })
             .catch(error => {
                 console.log(error)
