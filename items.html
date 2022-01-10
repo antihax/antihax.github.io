@@ -133,6 +133,9 @@
                 name: 'bh',
                 source: bh,
                 limit: 10,
+                display: function(data) {
+                    return data.Name
+                },
                 templates: {
                     suggestion: function(data) {
                         return `<p><img src="/atlasicons/${data.Icon}_32.png" class="icon"><span><span class="title">${data.Name}</span><span class="classname">${data.ClassName}</span></span></p>`

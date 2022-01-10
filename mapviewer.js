@@ -168,7 +168,7 @@ class WorldMap extends React.Component {
         }
 
         L.easyButton('<div>📝</div>', function(btn, map) {
-            window.open("/items.html", "_self");
+            window.open("items.html", "_self");
         }).addTo(map);
 
         L.easyButton('<div>☕</div>', function(btn, map) {
