@@ -166,6 +166,15 @@ class WorldMap extends React.Component {
                 html: label
             })
         }
+
+        L.easyButton('<div>📝</div>', function(btn, map) {
+            window.open("/items.html", "_self");
+        }).addTo(map);
+
+        L.easyButton('<div>☕</div>', function(btn, map) {
+            window.open("https://ko-fi.com/antihax", "_blank");
+        }).addTo(map);
+
         var createLabelIcon = function(labelClass, labelText) {
             return L.divIcon({
                 className: labelClass,
