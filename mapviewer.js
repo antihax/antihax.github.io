@@ -349,15 +349,25 @@ class WorldMap extends React.Component {
             .then(res => res.json())
             .then(function(altars) {
                 altars.forEach(d => {
-                    let pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
-                        icon: altarIcon,
-                    });
-                    pin.bindPopup(d.name, {
-                        showOnMouseOver: true,
-                        autoPan: true,
-                        keepInView: true,
-                    });
-                    map.Altars.addLayer(pin)
+                    if (d.name === "Static") {
+                        var decay = L.circle(GPStoLeaflet(d.long, d.lat), {
+                            radius: .21,
+                            interactive: true,
+                            color: "red",
+                            fillOpacity: 0,
+                        }).bindPopup("Rapid Decay");
+                        map.addLayer(decay);
+                    } else {
+                        let pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+                            icon: altarIcon,
+                        });
+                        pin.bindPopup(d.name, {
+                            showOnMouseOver: true,
+                            autoPan: true,
+                            keepInView: true,
+                        });
+                        map.Altars.addLayer(pin)
+                    }
                 });
             })
             .catch(error => {

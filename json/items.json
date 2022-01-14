@@ -1386,7 +1386,7 @@
     },
     "Carrack": {
         "ClassName": "Ship_Carrack_C",
-        "Icon": "Galley_Icon",
+        "Icon": "ICON_Carrack",
         "Ingredients": {
             "Fibers": 4400.0,
             "Metal": 24.0,
@@ -2001,7 +2001,7 @@
     },
     "Cog": {
         "ClassName": "Ship_Cog_C",
-        "Icon": "Galley_Icon",
+        "Icon": "ICON_Cog",
         "Ingredients": {
             "Fibers": 400.0,
             "Metal": 4.0,
@@ -2990,8 +2990,7 @@
         "ClassName": "Resource_Gem_Emerald_C",
         "Icon": "Emerald_Icon",
         "Ingredients": {
-            "Gem": 15.0,
-            "Gold Coin": 50.0
+            "BASEGemChunk": 100.0
         },
         "Name": "Emerald"
     },
@@ -4135,6 +4134,9 @@
     "Gem": {
         "ClassName": "Resource_Gem_BASE_C",
         "Icon": "Diamond_Icon",
+        "Ingredients": {
+            "BASEGemChunk": 100.0
+        },
         "Name": "Gem"
     },
     "General Gunport Module": {
@@ -4414,6 +4416,30 @@
         },
         "Name": "Gravestone"
     },
+    "Great Pyramid": {
+        "ClassName": "Structure_Monument_ThirdTier_EgyptTemple_C",
+        "Icon": "ICON_Egypt_Temple",
+        "Ingredients": {
+            "Crystal": 2000.0,
+            "Cursed Bone Chips": 15000.0,
+            "Cursed Wood": 10000.0,
+            "Stone": 10000.0,
+            "Wood": 5000.0
+        },
+        "Name": "Great Pyramid"
+    },
+    "Great Pyramid Foundation": {
+        "ClassName": "Structure_Floor_Monument_ThirdTier_EgyptTemple_C",
+        "Icon": "TempleFoundation_Icon",
+        "Ingredients": {
+            "Crystal": 500.0,
+            "Cursed Bone Chips": 1500.0,
+            "Cursed Wood": 1500.0,
+            "Stone": 4000.0,
+            "Wood": 2000.0
+        },
+        "Name": "Great Pyramid Foundation"
+    },
     "Green Algae": {
         "ClassName": "Consumable_Herb_GreenAlgae_C",
         "Icon": "Algae_Icon",
@@ -4597,7 +4623,7 @@
     },
     "Harrier Ship": {
         "ClassName": "Ship_Harrier_C",
-        "Icon": "Mortarship_Icon",
+        "Icon": "ICON_Harrier",
         "Ingredients": {
             "Fibers": 2000.0,
             "Gunpowder": 100.0,
@@ -6145,14 +6171,14 @@
         "Name": "Large Wood Wall"
     },
     "Lawless Claim Tower": {
-        "ClassName": "Structure_LandClaimTower_C",
+        "ClassName": "Structure_LandClaimTower_BuildingPrevention_C",
         "Icon": "ClaimTower_Icon",
         "Ingredients": {
-            "Fibers": 500.0,
-            "Metal": 400.0,
-            "Stone": 2000.0,
-            "Thatch": 1500.0,
-            "Wood": 800.0
+            "Fibers": 750.0,
+            "Metal": 600.0,
+            "Stone": 3000.0,
+            "Thatch": 2250.0,
+            "Wood": 1200.0
         },
         "Name": "Lawless Claim Tower"
     },
@@ -7019,7 +7045,7 @@
     },
     "Monuments Studies": {
         "ClassName": "Structure_ModularRoomMonuments_C",
-        "Icon": "T_ShipRoom_Icon",
+        "Icon": "ICON_Monument_Studies_Modular_Table",
         "Ingredients": {
             "Fibers": 120.0,
             "Hide": 235.0,
@@ -8806,6 +8832,17 @@
                 "addOverTimeSpeed": 0.0
             }
         }
+    },
+    "Sarcophagus": {
+        "ClassName": "Structure_Sarcophagus_C",
+        "Icon": "Item_SimpleBed_Icon",
+        "Ingredients": {
+            "Fibers": 30.0,
+            "Hide": 40.0,
+            "Thatch": 120.0,
+            "Wood": 25.0
+        },
+        "Name": "Sarcophagus"
     },
     "Savoroot": {
         "ClassName": "Consumable_Veggie_Savoroot_C",
@@ -10889,6 +10926,17 @@
             "Wood": 62.0
         },
         "Name": "Training Dummy"
+    },
+    "Tramp Freighter": {
+        "ClassName": "Ship_TrampFreighter_C",
+        "Icon": "ICON_Tramp_Freighter",
+        "Ingredients": {
+            "Fibers": 800.0,
+            "Metal": 100.0,
+            "Thatch": 800.0,
+            "Wood": 1000.0
+        },
+        "Name": "Tramp Freighter"
     },
     "Tranq Arrow": {
         "ClassName": "Ammo_ArrowTranq_C",

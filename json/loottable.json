@@ -2654,9 +2654,10 @@
                     "Quarry",
                     "Mine",
                     "Lumberyard",
-                    "Large Armored Dock"
+                    "Large Armored Dock",
+                    "Advanced Shipyard"
                 ],
-                "MaxQuality": 0.4000000059604645,
+                "MaxQuality": 0.6000000238418579,
                 "MaxQuantity": 4.0,
                 "MinQuality": 0.4000000059604645,
                 "MinQuantity": 2.0,
