@@ -1,10 +1,4 @@
 {
-	"": {
-		"MaxX": 3,
-		"MaxY": 4,
-		"MinX": 0,
-		"MinY": 0
-	},
 	"Africa": {
 		"MaxX": 10,
 		"MaxY": 8,
@@ -34,6 +28,12 @@
 		"MaxY": 10,
 		"MinX": 0,
 		"MinY": 9
+	},
+	"Rookie Cove": {
+		"MaxX": 3,
+		"MaxY": 4,
+		"MinX": 0,
+		"MinY": 0
 	},
 	"South America": {
 		"MaxX": 5,
