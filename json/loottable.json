@@ -1642,13 +1642,13 @@
                     "Roots",
                     "Rushes",
                     "Twigs",
-                    "Lightwood",
-                    "Agedwood",
-                    "Softwood",
+                    "Ash",
+                    "Cedar",
+                    "Fir",
                     "Ironwood",
-                    "Strongwood",
-                    "Wetwood",
-                    "Darkwood"
+                    "Oak",
+                    "Pine",
+                    "Poplar"
                 ],
                 "MaxQuality": 1.0,
                 "MaxQuantity": 4.0,
@@ -1679,9 +1679,9 @@
                     "Large Wood Gunport",
                     "Wood Ceiling"
                 ],
-                "MaxQuality": 0.6600000262260437,
+                "MaxQuality": 1.2000000476837158,
                 "MaxQuantity": 2.0,
-                "MinQuality": 0.6600000262260437,
+                "MinQuality": 1.0,
                 "MinQuantity": 2.0,
                 "QualityPower": 1.0,
                 "QuantityPower": 1.0,
@@ -1706,9 +1706,9 @@
                     "Large Wood Gunport",
                     "Wood Ceiling"
                 ],
-                "MaxQuality": 0.4000000059604645,
+                "MaxQuality": 1.2000000476837158,
                 "MaxQuantity": 1.0,
-                "MinQuality": 0.4000000059604645,
+                "MinQuality": 1.0,
                 "MinQuantity": 1.0,
                 "QualityPower": 1.0,
                 "QuantityPower": 1.0,
@@ -1728,7 +1728,7 @@
                     "Cog",
                     "Carrack"
                 ],
-                "MaxQuality": 1.0,
+                "MaxQuality": 1.2000000476837158,
                 "MaxQuantity": 1.0,
                 "MinQuality": 1.0,
                 "MinQuantity": 1.0,
@@ -1749,7 +1749,7 @@
                 "MinQuantity": 1.0,
                 "QualityPower": 1.0,
                 "QuantityPower": 1.0,
-                "Weight": 0.10000000149011612
+                "Weight": 1.0
             }
         ],
         "LootItemSet_LandAndDefensiveStructures_C": [
@@ -2045,7 +2045,8 @@
                     "Cog",
                     "Turtle Ship",
                     "Ramming Galley",
-                    "Carrack"
+                    "Carrack",
+                    "Tramp Freighter"
                 ],
                 "MaxQuality": 0.699999988079071,
                 "MaxQuantity": 1.0,
