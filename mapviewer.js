@@ -351,7 +351,7 @@ class WorldMap extends React.Component {
                 altars.forEach(d => {
                     if (d.name === "Static") {
                         var decay = L.circle(GPStoLeaflet(d.long, d.lat), {
-                            radius: .21,
+                            radius: unrealToLeafletSize(10000),
                             interactive: true,
                             color: "red",
                             fillOpacity: 0,
@@ -847,6 +847,11 @@ function GPStoLeaflet(x, y) {
         lat = ((x - config.GPSBounds.min[0]) * config.YScale) * 1.28;
 
     return [long, lat];
+}
+
+function unrealToLeafletSize(size) {
+    const unrealx = config.GridSize * config.ServersX;
+    return ((size / unrealx) * 256);
 }
 
 function unrealToLeaflet(x, y) {
