@@ -1,8 +1,8 @@
 const config = {
 	"GPSBounds": {
 		"max": [
-			450,
-			-450
+			550,
+			-550
 		],
 		"min": [
 			-100,
@@ -10,10 +10,10 @@ const config = {
 		]
 	},
 	"GridSize": 1400000,
-	"ServersX": 11,
-	"ServersY": 11,
-	"XRange": 550,
-	"XScale": 0.36363636363636365,
-	"YRange": 550,
-	"YScale": 0.36363636363636365
+	"ServersX": 13,
+	"ServersY": 13,
+	"XRange": 650,
+	"XScale": 0.3076923076923077,
+	"YRange": 650,
+	"YScale": 0.3076923076923077
 }

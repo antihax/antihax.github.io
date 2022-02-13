@@ -17,6 +17,24 @@
 		"MinX": 4,
 		"MinY": 0
 	},
+	"Cervantes' Rest": {
+		"MaxX": 12,
+		"MaxY": 10,
+		"MinX": 12,
+		"MinY": 10
+	},
+	"Eastern Sea": {
+		"MaxX": 12,
+		"MaxY": 8,
+		"MinX": 12,
+		"MinY": 8
+	},
+	"Eastern Waters": {
+		"MaxX": 12,
+		"MaxY": 2,
+		"MinX": 11,
+		"MinY": 0
+	},
 	"Kraken's Lair": {
 		"MaxX": 3,
 		"MaxY": 4,
@@ -29,9 +47,21 @@
 		"MinX": 0,
 		"MinY": 9
 	},
+	"Northern Sea": {
+		"MaxX": 11,
+		"MaxY": 8,
+		"MinX": 11,
+		"MinY": 8
+	},
+	"Outer Maw": {
+		"MaxX": 12,
+		"MaxY": 7,
+		"MinX": 11,
+		"MinY": 6
+	},
 	"Rookie Cove": {
-		"MaxX": 3,
-		"MaxY": 4,
+		"MaxX": 11,
+		"MaxY": 10,
 		"MinX": 0,
 		"MinY": 0
 	},
@@ -41,10 +71,46 @@
 		"MinX": 0,
 		"MinY": 5
 	},
+	"Southern Sea": {
+		"MaxX": 11,
+		"MaxY": 9,
+		"MinX": 11,
+		"MinY": 9
+	},
 	"Tortuga": {
 		"MaxX": 2,
 		"MaxY": 4,
 		"MinX": 2,
 		"MinY": 4
+	},
+	"Trackless Waters": {
+		"MaxX": 7,
+		"MaxY": 12,
+		"MinX": 4,
+		"MinY": 11
+	},
+	"Uncharted Sea": {
+		"MaxX": 3,
+		"MaxY": 12,
+		"MinX": 0,
+		"MinY": 11
+	},
+	"Unknown Depths": {
+		"MaxX": 12,
+		"MaxY": 12,
+		"MinX": 8,
+		"MinY": 11
+	},
+	"Western Sea": {
+		"MaxX": 12,
+		"MaxY": 9,
+		"MinX": 12,
+		"MinY": 9
+	},
+	"Western Waters": {
+		"MaxX": 12,
+		"MaxY": 5,
+		"MinX": 11,
+		"MinY": 3
 	}
 }

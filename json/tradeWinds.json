@@ -210,12 +210,20 @@
 				"worldY": 5339467
 			},
 			{
+				"controlPointsDistance": 137729.141,
+				"rotation": 44.77659,
+				"strength": 1,
+				"width": 50000,
+				"worldX": 10471950,
+				"worldY": 6204974.5
+			},
+			{
 				"controlPointsDistance": 259016.766,
 				"rotation": -352.504944,
 				"strength": 3,
 				"width": 50000,
-				"worldX": 10972905,
-				"worldY": 6288367.5
+				"worldX": 11107870,
+				"worldY": 6309131.5
 			},
 			{
 				"controlPointsDistance": 0,

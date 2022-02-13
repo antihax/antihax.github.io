@@ -180,8 +180,8 @@
 				"PortalName": "Damaged Portal 3 Exit 2",
 				"RequiredResource": {},
 				"rotation": 0,
-				"worldX": 13342327,
-				"worldY": 1659537.75
+				"worldX": 13424086,
+				"worldY": 1647857.88
 			},
 			{
 				"PortalName": "Damaged Portal 3 Exit 3",
@@ -216,8 +216,8 @@
 				"PortalName": "Central Portal Exit",
 				"RequiredResource": {},
 				"rotation": 0,
-				"worldX": 5168387,
-				"worldY": 6411720
+				"worldX": 4649283.5,
+				"worldY": 6409412.5
 			}
 		],
 		"PathId": 11,
@@ -366,8 +366,8 @@
 				"PortalName": "Maw Exit Entry",
 				"RequiredResource": {},
 				"rotation": 0,
-				"worldX": 4625517,
-				"worldY": 6404077
+				"worldX": 5134239,
+				"worldY": 6412153
 			},
 			{
 				"PortalName": "Maw Exit",
@@ -539,8 +539,8 @@
 				"PortalName": "Pathfinder Portal 4 Exit",
 				"RequiredResource": {},
 				"rotation": 0,
-				"worldX": 15183768,
-				"worldY": 5333713.5
+				"worldX": 15183769,
+				"worldY": 5442724.5
 			}
 		],
 		"PathId": 34,
@@ -640,6 +640,150 @@
 			}
 		],
 		"PathId": 40,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Central to Eastern",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 11910997,
+				"worldY": 155652.125
+			},
+			{
+				"PortalName": "Eastern to Central",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 15656014,
+				"worldY": 646205.25
+			}
+		],
+		"PathId": 41,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Central to Western",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 8612093,
+				"worldY": 1160118.88
+			},
+			{
+				"PortalName": "Western to Central",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 17929692,
+				"worldY": 5177983
+			}
+		],
+		"PathId": 42,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Central to Western 2",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 7833436,
+				"worldY": 4438260
+			},
+			{
+				"PortalName": "Western to Central 2",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 15638711,
+				"worldY": 7681794
+			}
+		],
+		"PathId": 43,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Central to Eastern 2",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 13124399,
+				"worldY": 2569484.25
+			},
+			{
+				"PortalName": "Eastern to Central 2",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 17819382,
+				"worldY": 3912666.5
+			}
+		],
+		"PathId": 44,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Antarctica to Uncharted",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 12025201,
+				"worldY": 15271959
+			},
+			{
+				"PortalName": "Unchartered to Antarctica",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 700633.7,
+				"worldY": 15580827
+			}
+		],
+		"PathId": 45,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "North Pole to Uncharted",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 5850458.5,
+				"worldY": 15165543
+			},
+			{
+				"PortalName": "Uncharted to North Pole",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 207483.172,
+				"worldY": 17039510
+			}
+		],
+		"PathId": 46,
 		"PathName": "",
 		"PathPortalType": 0,
 		"isLooping": false
