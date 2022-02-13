@@ -65,9 +65,11 @@ class WorldMap extends React.Component {
                     map.IslandResources.eachLayer(function(layer) {
                         if (search !== "") {
                             if (layer.animals.find(function(element) {
+                                    if (element == null) return;
                                     return element.toLowerCase().includes(search);
                                 }) ||
                                 layer.resources.find(function(element) {
+                                    if (element == null) return;
                                     if (element.toLowerCase() === search) {
                                         exact = true;
                                         return true;
