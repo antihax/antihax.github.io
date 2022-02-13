@@ -12,12 +12,12 @@ L.AtlasGrid = L.LayerGroup.extend({
         },
     },
 
-    initialize: function (options) {
+    initialize: function(options) {
         L.LayerGroup.prototype.initialize.call(this);
         L.Util.setOptions(this, options);
     },
 
-    onAdd: function (map) {
+    onAdd: function(map) {
         this._map = map;
         var grid;
         var me = this;
@@ -28,7 +28,7 @@ L.AtlasGrid = L.LayerGroup.extend({
                 dataType: 'json'
             })
             .then(res => res.json())
-            .then(function (grids) {
+            .then(function(grids) {
 
                 grid = me.draw(grids);
             })
@@ -37,11 +37,11 @@ L.AtlasGrid = L.LayerGroup.extend({
             });
     },
 
-    onRemove: function (map) {
+    onRemove: function(map) {
         this.eachLayer(this.removeLayer, this);
     },
 
-    draw: function (grids) {
+    draw: function(grids) {
         var bounds = this._map._originalBounds;
         let xTickSize = (bounds.getEast() - bounds.getWest()) / this.options.xticks;
         let yTickSize = (bounds.getSouth() - bounds.getNorth()) / this.options.yticks;
@@ -60,14 +60,6 @@ L.AtlasGrid = L.LayerGroup.extend({
 
         for (let x = 0; x < this.options.xticks; x++) {
             for (let y = 0; y < this.options.yticks; y++) {
-                let tooltip = L.marker([bounds.getWest() + (yTickSize * y), bounds.getNorth() + (xTickSize * x)], {
-                    icon: L.divIcon({
-                        className: 'leaflet-grid-marker',
-                        iconAnchor: [-2, -2]
-                    }),
-                    clickable: false
-                });
-                this.addLayer(tooltip);
                 const grid = String.fromCharCode(65 + x) + (y + 1);
 
                 let color = "white";
@@ -106,24 +98,40 @@ L.AtlasGrid = L.LayerGroup.extend({
                         color = "White";
                 }
 
-                let serverType = "&#9760;";
+                let serverType = "";
+                let serverTypeName = "Lawless";
                 switch (grids[grid].forceServerRules) {
                     case 1: // Lawless
                         serverType = ""
-                        break;                    
+                        serverTypeName = "Lawless"
+                        break;
                     case 2: // Lawless claim
                         serverType = "&#9760;"
+                        serverTypeName = "Claimable"
                         break;
                     case 3: // island claim
                         serverType = "&#9813;"
+                        serverTypeName = "Settlements"
                         break;
                     case 4:
                         serverType = "&#9774;"
+                        serverTypeName = "Freeport"
                     default:
                 }
 
-                let text = `<div><div class="leaflet-grid-header">${grid}</div> <div class="leaflet-grid-icon">${serverType}</div> <div style="color: ${color}; text-shadow: 1px 1px ${dropcolor}" class="leaflet-grid-subheader">${findGlobalBiome(grids[grid].biomes)}</div>`
+                let text = `<div><div class="leaflet-grid-header">${grid}</div> <div class="leaflet-grid-icon">${serverType}</div>`
+                let tooltip = L.marker([bounds.getWest() + (yTickSize * y), bounds.getNorth() + (xTickSize * x)], {
+                    icon: L.divIcon({
+                        className: 'leaflet-grid-marker',
+                        iconAnchor: [-2, -2]
+                    }),
+                    title: `${findGlobalBiome(grids[grid].biomes)} ${serverTypeName}`,
+                    clickable: false
+                });
+                this.addLayer(tooltip);
                 tooltip._icon.innerHTML = text
+
+                console.dir(tooltip)
             }
         }
 
@@ -131,7 +139,7 @@ L.AtlasGrid = L.LayerGroup.extend({
     }
 });
 
-L.atlasgrid = function (options) {
+L.atlasgrid = function(options) {
     return new L.Grid(options);
 };
 
