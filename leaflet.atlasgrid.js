@@ -130,8 +130,6 @@ L.AtlasGrid = L.LayerGroup.extend({
                 });
                 this.addLayer(tooltip);
                 tooltip._icon.innerHTML = text
-
-                console.dir(tooltip)
             }
         }
 
