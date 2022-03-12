@@ -1074,7 +1074,7 @@
     },
     "Brimstone": {
         "ClassName": "Resource_Coal_Brimstone_C",
-        "Icon": "Sulfur_Icon",
+        "Icon": "ICON_Brimstone",
         "Name": "Brimstone"
     },
     "Broadsider": {
@@ -5359,7 +5359,42 @@
         },
         "Name": "Indigo Coloring"
     },
-    "Industrial Generator": {
+    "Industrial Hydra": {
+        "ClassName": "IndustrialRevolver_C",
+        "Icon": "ICON_Industrial_Hydra",
+        "Ingredients": {
+            "Alloy": 35.0,
+            "Flint": 24.0,
+            "Oil": 12.0,
+            "Orichalcum": 45.0,
+            "Pure Sulfur": 20.0
+        },
+        "Name": "Industrial Hydra"
+    },
+    "Industrial Rifle": {
+        "ClassName": "WeaponYarkIndustrialRifle_C",
+        "Icon": "ICON_Industrial_Rifle",
+        "Ingredients": {
+            "Alloy": 65.0,
+            "Flint": 30.0,
+            "Oil": 20.0,
+            "Orichalcum": 85.0,
+            "Pure Sulfur": 32.0
+        },
+        "Name": "Industrial Rifle"
+    },
+    "Industrial Smithy": {
+        "ClassName": "Structure_Industrial_Smithy_C",
+        "Icon": "ICON_IndustrialSmithy",
+        "Ingredients": {
+            "Brimstone": 50.0,
+            "Metal": 100.0,
+            "Pure Sulfur": 60.0,
+            "Wood": 50.0
+        },
+        "Name": "Industrial Smithy"
+    },
+    "Industrial Tower": {
         "ClassName": "Structure_BuffTower_ControlPoint_Industrial_C",
         "Icon": "Icon_Industrial_Buff_Tower",
         "Ingredients": {
@@ -5369,7 +5404,7 @@
             "Thatch": 100.0,
             "Wood": 250.0
         },
-        "Name": "Industrial Generator"
+        "Name": "Industrial Tower"
     },
     "Innards": {
         "ClassName": "Consumable_Meat_Innards_C",
@@ -6325,6 +6360,19 @@
         },
         "Name": "Large Wood Wall"
     },
+    "Lava Vent": {
+        "ClassName": "Structure_LavaVent_C",
+        "Icon": "Absorbent_Icon",
+        "Ingredients": {
+            "Fibers": 40.0,
+            "Flint": 5.0,
+            "Hide": 65.0,
+            "Metal": 20.0,
+            "Stone": 125.0,
+            "Wood": 20.0
+        },
+        "Name": "Lava Vent"
+    },
     "Lawless Claim Tower": {
         "ClassName": "Structure_LandClaimTower_C",
         "Icon": "ClaimTower_Icon",
@@ -6336,18 +6384,6 @@
             "Wood": 800.0
         },
         "Name": "Lawless Claim Tower"
-    },
-    "Lawless Territory Claim Tower": {
-        "ClassName": "Structure_LandClaimTower_BuildingPrevention_C",
-        "Icon": "ClaimTower_Icon",
-        "Ingredients": {
-            "Fibers": 750.0,
-            "Metal": 600.0,
-            "Stone": 3000.0,
-            "Thatch": 2250.0,
-            "Wood": 1200.0
-        },
-        "Name": "Lawless Territory Claim Tower"
     },
     "Lawless Water Claim Tower": {
         "ClassName": "Structure_WaterClaimTower_C",
@@ -6723,7 +6759,7 @@
         "Icon": "Marble_Icon",
         "Ingredients": {
             "Gold Coin": 150.0,
-            "Marble Block": 10000.0,
+            "Marble Block": 1.0,
             "Stone": 50.0
         },
         "Name": "Marble"
@@ -7621,6 +7657,19 @@
         },
         "Name": "Orange Peel Coloring"
     },
+    "Ore Miner": {
+        "ClassName": "Structure_AutoNodeFarm_CoalMiner_C",
+        "Icon": "ICON_IndustrialTransient",
+        "Ingredients": {
+            "Fibers": 320.0,
+            "Hide": 100.0,
+            "Metal": 360.0,
+            "Stone": 1200.0,
+            "Thatch": 400.0,
+            "Wood": 125.0
+        },
+        "Name": "Ore Miner"
+    },
     "Oregano": {
         "ClassName": "Consumable_Herb_Oregano_C",
         "Icon": "Oregano_Icon",
@@ -7673,6 +7722,11 @@
                 "addOverTimeSpeed": 0.0
             }
         }
+    },
+    "Orichalcum": {
+        "ClassName": "Resource_Metal_Orichalcum_C",
+        "Icon": "Orichalcum_Icon",
+        "Name": "Orichalcum"
     },
     "Orient Blue Coloring": {
         "ClassName": "Dye_OrientBlue_C",
@@ -7861,6 +7915,17 @@
             "Gold Coin": 150.0
         },
         "Name": "Peat"
+    },
+    "Pegasus": {
+        "ClassName": "Ship_Pegasus_C",
+        "Icon": "KrakenShipNewIcon",
+        "Ingredients": {
+            "Fibers": 2000.0,
+            "Metal": 20.0,
+            "Thatch": 2000.0,
+            "Wood": 2500.0
+        },
+        "Name": "Pegasus"
     },
     "Pegasus Figure Head": {
         "ClassName": "StructureBP_FigureHead_Pegasus_C",
@@ -8207,6 +8272,14 @@
         },
         "Name": "Poseidon Figure Head"
     },
+    "Pot of Gold": {
+        "ClassName": "Structure_PotOfGold_C",
+        "Icon": "ICON_PotOfGold",
+        "Ingredients": {
+            "Gold Coin": 50.0
+        },
+        "Name": "Pot of Gold"
+    },
     "Potato": {
         "ClassName": "Consumable_Vegetable_Potato_C",
         "Icon": "Potato_Icon",
@@ -8415,6 +8488,11 @@
                 "addOverTimeSpeed": 0.0
             }
         }
+    },
+    "Pure Sulfur": {
+        "ClassName": "Resource_PureSulfur_C",
+        "Icon": "Sulfur_Icon",
+        "Name": "Pure Sulfur"
     },
     "Purple Coloring": {
         "ClassName": "Dye_Purple_C",
@@ -9547,7 +9625,7 @@
         "Name": "Ship Plank Base"
     },
     "Ship Railing": {
-        "ClassName": "Structure_MidShipSideTileOarFrontR_C",
+        "ClassName": "Structure_MidShipSideTileCannonRailingR_C",
         "Icon": "Item_WoodCeiling_Icon",
         "Ingredients": {
             "Fibers": 20.0,
@@ -9606,6 +9684,18 @@
             "Wood": 40.0
         },
         "Name": "Ship Steering Wheel"
+    },
+    "Ship Tame Cargo Railing": {
+        "ClassName": "Structure_TameCargoRailing_C",
+        "Icon": "KrakenCannonRailing",
+        "Ingredients": {
+            "Alloy": 60.0,
+            "Fibers": 70.0,
+            "Hide": 50.0,
+            "Thatch": 100.0,
+            "Wood": 150.0
+        },
+        "Name": "Ship Tame Cargo Railing"
     },
     "ShipHangarBase": {
         "ClassName": "Structure_ShipHangar_Base_C",
@@ -10648,6 +10738,30 @@
         },
         "Name": "Sulfur"
     },
+    "Sulfur Pit": {
+        "ClassName": "Structure_SulfurPit_C",
+        "Icon": "Absorbent_Icon",
+        "Ingredients": {
+            "Fibers": 40.0,
+            "Flint": 5.0,
+            "Hide": 65.0,
+            "Metal": 20.0,
+            "Stone": 125.0,
+            "Wood": 20.0
+        },
+        "Name": "Sulfur Pit"
+    },
+    "Sulfurous Minni": {
+        "ClassName": "Ammo_SulfurousMinni_C",
+        "Icon": "Industrial_Bullet4_Icon",
+        "Ingredients": {
+            "Brimstone": 1.0,
+            "Gunpowder": 2.0,
+            "Orichalcum": 2.0,
+            "Pure Sulfur": 3.0
+        },
+        "Name": "Sulfurous Minni"
+    },
     "Sunstone": {
         "ClassName": "Resource_Gem_Sunstone_C",
         "Icon": "Sunstone_Icon",
@@ -10788,6 +10902,28 @@
             "Wood": 40.0
         },
         "Name": "Tame Cargo Module"
+    },
+    "Tame House": {
+        "ClassName": "Structure_TameHouse_C",
+        "Icon": "Item_Smithy_Icon",
+        "Ingredients": {
+            "Fibers": 40.0,
+            "Flint": 5.0,
+            "Hide": 65.0,
+            "Metal": 20.0,
+            "Stone": 125.0,
+            "Wood": 20.0
+        },
+        "Name": "Tame House"
+    },
+    "Tame House Module": {
+        "ClassName": "Structure_TameHouseModule_C",
+        "Ingredients": {
+            "Fibers": 20.0,
+            "Thatch": 60.0,
+            "Wood": 40.0
+        },
+        "Name": "Tame House Module"
     },
     "Tame Token": {
         "ClassName": "TameToken_C",

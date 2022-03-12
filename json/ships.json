@@ -1,0 +1,181 @@
+{
+    "Ships": {
+        "Default__ArmoredShip_BP2_C": {
+            "ClassName": "ArmoredShip_BP2_C",
+            "Icon": "Turtleship_Icon"
+        },
+        "Default__ArmoredShip_BP3_C": {
+            "ClassName": "ArmoredShip_BP3_C",
+            "Icon": "Turtleship_Icon"
+        },
+        "Default__BrigantineShipBuildingTest_BP_C": {
+            "ClassName": "BrigantineShipBuildingTest_BP_C",
+            "Icon": "Item_BrigHull_Icon"
+        },
+        "Default__Broadsider_BP_C": {
+            "ClassName": "Broadsider_BP_C",
+            "Icon": "KrakenShipNewIcon"
+        },
+        "Default__CarrackShip_BP_C": {
+            "ClassName": "CarrackShip_BP_C",
+            "Icon": "Galley_Icon"
+        },
+        "Default__CogShip_BP_C": {
+            "ClassName": "CogShip_BP_C",
+            "Icon": "Galley_Icon"
+        },
+        "Default__GenericModShip_BP_Test_C": {
+            "ClassName": "GenericModShip_BP_Test_C",
+            "Icon": "KrakenShipNewIcon"
+        },
+        "Default__HarrierShip_BP_C": {
+            "ClassName": "HarrierShip_BP_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__KrakenShip_BP_C": {
+            "ClassName": "KrakenShip_BP_C",
+            "Icon": "KrakenShipNewIcon"
+        },
+        "Default__KrakenShip_Ribbing_BP_C": {
+            "ClassName": "KrakenShip_Ribbing_BP_C",
+            "Icon": "KrakenShipNewIcon"
+        },
+        "Default__ModularShip_BP_Base_C": {
+            "ClassName": "ModularShip_BP_Base_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__MortarShip_BP_C": {
+            "ClassName": "MortarShip_BP_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__PathFollowingGhostShip_BP_C": {
+            "ClassName": "PathFollowingGhostShip_BP_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__PathFollowingRaft_BP_C": {
+            "ClassName": "PathFollowingRaft_BP_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__PathFollowing_BP_Base_C": {
+            "ClassName": "PathFollowing_BP_Base_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__PrimalModularShip": {
+            "ClassName": "PrimalModularShip"
+        },
+        "Default__PrimalPathFollowingRaft": {
+            "ClassName": "PrimalPathFollowingRaft"
+        },
+        "Default__PrimalRaft": {
+            "ClassName": "PrimalRaft"
+        },
+        "Default__Raft_BP_C": {
+            "ClassName": "Raft_BP_C"
+        },
+        "Default__Ramming_Galley_BP_C": {
+            "ClassName": "Ramming_Galley_BP_C",
+            "Icon": "Galley_Icon"
+        },
+        "Default__ShipNPC_Base_C": {
+            "ClassName": "ShipNPC_Base_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__ShipNPC_Brig_C": {
+            "ClassName": "ShipNPC_Brig_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__ShipNPC_Galleon_C": {
+            "ClassName": "ShipNPC_Galleon_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__ShipNPC_Galleon_KrakenMinion_C": {
+            "ClassName": "ShipNPC_Galleon_KrakenMinion_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__ShipNPC_KrakenMinion_C": {
+            "ClassName": "ShipNPC_KrakenMinion_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__ShipNPC_Pirate_Base_C": {
+            "ClassName": "ShipNPC_Pirate_Base_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__ShipNPC_Pirate_Brig_C": {
+            "ClassName": "ShipNPC_Pirate_Brig_C",
+            "Icon": "Item_BrigHull_Icon"
+        },
+        "Default__ShipNPC_Pirate_Galleon_C": {
+            "ClassName": "ShipNPC_Pirate_Galleon_C",
+            "Icon": "Item_GalleonHull_Icon"
+        },
+        "Default__ShipNPC_Pirate_Schooner_C": {
+            "ClassName": "ShipNPC_Pirate_Schooner_C",
+            "Icon": "Item_SchoonerHull_Icon"
+        },
+        "Default__ShipNPC_Pirate_Sloop_C": {
+            "ClassName": "ShipNPC_Pirate_Sloop_C",
+            "Icon": "Item_SloopHull_Icon"
+        },
+        "Default__ShipNPC_Schooner_C": {
+            "ClassName": "ShipNPC_Schooner_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__Ship_BP_Base_C": {
+            "ClassName": "Ship_BP_Base_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__Ship_BP_Base_PlayerOwned_C": {
+            "ClassName": "Ship_BP_Base_PlayerOwned_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__Ship_BP_Galleon_C": {
+            "ClassName": "Ship_BP_Galleon_C",
+            "Icon": "Item_GalleonHull_Icon"
+        },
+        "Default__Ship_BP_Raft_C": {
+            "ClassName": "Ship_BP_Raft_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__Ship_BP_Schooner_C": {
+            "ClassName": "Ship_BP_Schooner_C",
+            "Icon": "Item_SchoonerHull_Icon"
+        },
+        "Default__Ship_BP_Sloop_C": {
+            "ClassName": "Ship_BP_Sloop_C",
+            "Icon": "Item_SloopHull_Icon"
+        },
+        "Default__Ship_BP_Sloop_FromNPC_C": {
+            "ClassName": "Ship_BP_Sloop_FromNPC_C",
+            "Icon": "Item_SloopHull_Icon"
+        },
+        "Default__Ship_BP_Submarine_C": {
+            "ClassName": "Ship_BP_Submarine_C",
+            "Icon": "Item_SloopHull_Icon"
+        },
+        "Default__Ship_BP_Test_Dinghy_C": {
+            "ClassName": "Ship_BP_Test_Dinghy_C",
+            "Icon": "Item_Dinghy_Icon"
+        },
+        "Default__Ship_BP_Test_Large_C": {
+            "ClassName": "Ship_BP_Test_Large_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__Ship_BP_Test_Small_C": {
+            "ClassName": "Ship_BP_Test_Small_C",
+            "Icon": "Raft_Icon"
+        },
+        "Default__Ship_BP_Trader_C": {
+            "ClassName": "Ship_BP_Trader_C",
+            "Icon": "Item_SchoonerHull_Icon"
+        },
+        "Default__TrampFreighter_BP_C": {
+            "ClassName": "TrampFreighter_BP_C",
+            "Icon": "ICON_Tramp_Freighter"
+        },
+        "Default__TurtleShip_BP_C": {
+            "ClassName": "TurtleShip_BP_C",
+            "Icon": "Turtleship_Icon"
+        }
+    },
+    "Structures": null
+}

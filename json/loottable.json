@@ -1776,7 +1776,7 @@
                     "Defense Tower",
                     "Army of the Damned Pylon",
                     "Atlantean Spire",
-                    "Industrial Generator"
+                    "Industrial Tower"
                 ],
                 "MaxQuality": 0.699999988079071,
                 "MaxQuantity": 1.0,
@@ -1925,7 +1925,7 @@
                     "Defense Tower",
                     "Army of the Damned Pylon",
                     "Atlantean Spire",
-                    "Industrial Generator"
+                    "Industrial Tower"
                 ],
                 "MaxQuality": 0.699999988079071,
                 "MaxQuantity": 4.0,
@@ -1990,7 +1990,8 @@
                     "Ship Resources Box",
                     "Food Larder",
                     "Diving Attachment",
-                    "Ship Cargo Rack"
+                    "Ship Cargo Rack",
+                    "Ship Tame Cargo Railing"
                 ],
                 "MaxQuality": 0.4000000059604645,
                 "MaxQuantity": 2.0,
@@ -2012,7 +2013,9 @@
                     "Turtle Ship",
                     "Ramming Galley",
                     "Carrack",
-                    "Tramp Freighter"
+                    "Tramp Freighter",
+                    "Majestic Kraken",
+                    "Pegasus"
                 ],
                 "MaxQuality": 0.699999988079071,
                 "MaxQuantity": 1.0,
