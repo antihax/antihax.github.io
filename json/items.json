@@ -4292,9 +4292,6 @@
     "Generic Consumable": {
         "ClassName": "GrantItemsConsumable_BASE_C",
         "Icon": "Absorbent_Icon",
-        "Ingredients": {
-            "Wood": 0.0
-        },
         "Name": "Generic Consumable"
     },
     "Generic Resource": {
@@ -11529,7 +11526,6 @@
         "ClassName": "Ship_TurtleShip_C",
         "Icon": "Turtleship_Icon",
         "Ingredients": {
-            "Chitin": 0.0,
             "Fibers": 4400.0,
             "Metal": 72.0,
             "Thatch": 4400.0,

@@ -20,11 +20,6 @@
 		"name": "Drake"
 	},
 	{
-		"lat": -425,
-		"long": -75,
-		"name": "GentleWhale"
-	},
-	{
 		"lat": -171.4430694580078,
 		"long": -23.76280403137207,
 		"name": "Drake"
@@ -45,11 +40,6 @@
 		"name": "Drake"
 	},
 	{
-		"lat": -375,
-		"long": -25,
-		"name": "MeanWhale"
-	},
-	{
 		"lat": -360.6545104980469,
 		"long": -33.473751068115234,
 		"name": "Yeti"
@@ -62,36 +52,6 @@
 	{
 		"lat": -425,
 		"long": -25,
-		"name": "MeanWhale"
-	},
-	{
-		"lat": -475,
-		"long": -25,
-		"name": "GentleWhale"
-	},
-	{
-		"lat": -525,
-		"long": -25,
-		"name": "GentleWhale"
-	},
-	{
-		"lat": -375,
-		"long": 25,
-		"name": "MeanWhale"
-	},
-	{
-		"lat": -425,
-		"long": 25,
-		"name": "GentleWhale"
-	},
-	{
-		"lat": -475,
-		"long": 25,
-		"name": "MeanWhale"
-	},
-	{
-		"lat": -525,
-		"long": 25,
 		"name": "MeanWhale"
 	},
 	{
@@ -135,39 +95,9 @@
 		"name": "Hydra"
 	},
 	{
-		"lat": -375,
-		"long": 75,
-		"name": "MeanWhale"
-	},
-	{
-		"lat": -425,
-		"long": 75,
-		"name": "GentleWhale"
-	},
-	{
-		"lat": -475,
-		"long": 75,
-		"name": "MeanWhale"
-	},
-	{
-		"lat": -525,
-		"long": 75,
-		"name": "MeanWhale"
-	},
-	{
-		"lat": -375,
-		"long": 125,
-		"name": "MeanWhale"
-	},
-	{
 		"lat": -355.625,
 		"long": 113.6195297241211,
 		"name": "Yeti"
-	},
-	{
-		"lat": -425,
-		"long": 125,
-		"name": "GentleWhale"
 	},
 	{
 		"lat": -79.68992614746094,
@@ -205,24 +135,9 @@
 		"name": "MeanWhale"
 	},
 	{
-		"lat": -425,
-		"long": 175,
-		"name": "MeanWhale"
-	},
-	{
 		"lat": -436.6865234375,
 		"long": 189.10025024414062,
 		"name": "Yeti"
-	},
-	{
-		"lat": -225,
-		"long": 225,
-		"name": "GiantSquid"
-	},
-	{
-		"lat": -275,
-		"long": 225,
-		"name": "GiantSquid"
 	},
 	{
 		"lat": -324.8605651855469,
@@ -255,26 +170,6 @@
 		"name": "MeanWhale"
 	},
 	{
-		"lat": -425,
-		"long": 225,
-		"name": "MeanWhale"
-	},
-	{
-		"lat": -225,
-		"long": 275,
-		"name": "GiantSquid"
-	},
-	{
-		"lat": -275,
-		"long": 275,
-		"name": "GiantSquid"
-	},
-	{
-		"lat": -325,
-		"long": 275,
-		"name": "GiantSquid"
-	},
-	{
 		"lat": -375,
 		"long": 275,
 		"name": "GentleWhale"
@@ -285,37 +180,12 @@
 		"name": "MeanWhale"
 	},
 	{
-		"lat": -425,
-		"long": 275,
-		"name": "MeanWhale"
-	},
-	{
-		"lat": -225,
-		"long": 325,
-		"name": "GiantSquid"
-	},
-	{
-		"lat": -275,
-		"long": 325,
-		"name": "GiantSquid"
-	},
-	{
-		"lat": -325,
-		"long": 325,
-		"name": "GiantSquid"
-	},
-	{
 		"lat": -375,
 		"long": 325,
 		"name": "GentleWhale"
 	},
 	{
 		"lat": -375,
-		"long": 325,
-		"name": "MeanWhale"
-	},
-	{
-		"lat": -425,
 		"long": 325,
 		"name": "MeanWhale"
 	},
@@ -340,21 +210,6 @@
 		"name": "Hydra"
 	},
 	{
-		"lat": -225,
-		"long": 375,
-		"name": "GiantSquid"
-	},
-	{
-		"lat": -275,
-		"long": 375,
-		"name": "GiantSquid"
-	},
-	{
-		"lat": -325,
-		"long": 375,
-		"name": "GiantSquid"
-	},
-	{
 		"lat": -375,
 		"long": 375,
 		"name": "GentleWhale"
@@ -373,11 +228,6 @@
 		"lat": -425,
 		"long": 375,
 		"name": "MeanWhale"
-	},
-	{
-		"lat": -175,
-		"long": 425,
-		"name": "GiantSquid"
 	},
 	{
 		"lat": -221.99993896484375,
@@ -410,16 +260,6 @@
 		"name": "Drake"
 	},
 	{
-		"lat": -275,
-		"long": 425,
-		"name": "GiantSquid"
-	},
-	{
-		"lat": -325,
-		"long": 425,
-		"name": "GiantSquid"
-	},
-	{
 		"lat": -375,
 		"long": 425,
 		"name": "GentleWhale"
@@ -448,10 +288,5 @@
 		"lat": -430.8670959472656,
 		"long": 434.96270751953125,
 		"name": "Hydra"
-	},
-	{
-		"lat": -375,
-		"long": 475,
-		"name": "GiantSquid"
 	}
 ]

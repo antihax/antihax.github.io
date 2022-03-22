@@ -343,8 +343,8 @@
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 14736221,
-				"worldY": 6820948
+				"worldX": 14801974,
+				"worldY": 6547553
 			},
 			{
 				"PortalName": "Africa to Central Portal",
@@ -683,8 +683,8 @@
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 17929692,
-				"worldY": 5177983
+				"worldX": 17509214,
+				"worldY": 4407113
 			}
 		],
 		"PathId": 42,
