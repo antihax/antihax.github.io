@@ -1,5 +1,21 @@
 {
 	"A1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Chicken",
 			"Cobra",
@@ -81,6 +97,22 @@
 		}
 	},
 	"A10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Polar",
@@ -125,6 +157,22 @@
 		}
 	},
 	"A11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			12,
+			9
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -209,6 +257,22 @@
 		}
 	},
 	"A12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -304,6 +368,22 @@
 		}
 	},
 	"A13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
@@ -392,6 +472,22 @@
 		}
 	},
 	"A2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Catfish",
@@ -483,6 +579,22 @@
 		}
 	},
 	"A3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Seagull"
 		],
@@ -545,6 +657,22 @@
 		}
 	},
 	"A4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -629,6 +757,22 @@
 		}
 	},
 	"A5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -713,6 +857,22 @@
 		}
 	},
 	"A6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			12,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Chicken",
@@ -801,6 +961,22 @@
 		}
 	},
 	"A7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Seagull"
 		],
@@ -867,6 +1043,22 @@
 		}
 	},
 	"A8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Anglerfish",
 			"Crab",
@@ -931,6 +1123,22 @@
 		}
 	},
 	"A9": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Cobra",
@@ -1019,6 +1227,22 @@
 		}
 	},
 	"B1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Seagull"
 		],
@@ -1081,6 +1305,22 @@
 		}
 	},
 	"B10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Polar",
@@ -1122,6 +1362,22 @@
 		}
 	},
 	"B11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			11,
+			8
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Penguin",
 			"Seagull",
@@ -1185,6 +1441,22 @@
 		}
 	},
 	"B12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -1268,6 +1540,22 @@
 		}
 	},
 	"B13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -1345,6 +1633,22 @@
 		}
 	},
 	"B2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Cat",
 			"Chicken",
@@ -1413,6 +1717,22 @@
 		}
 	},
 	"B3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Cat",
 			"Chicken",
@@ -1481,6 +1801,22 @@
 		}
 	},
 	"B4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -1564,6 +1900,22 @@
 		}
 	},
 	"B5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -1653,6 +2005,22 @@
 		}
 	},
 	"B6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			12,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Catfish",
@@ -1747,6 +2115,22 @@
 		}
 	},
 	"B7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Chicken",
@@ -1842,6 +2226,22 @@
 		}
 	},
 	"B8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -1927,6 +2327,22 @@
 		}
 	},
 	"B9": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -2023,6 +2439,22 @@
 		}
 	},
 	"C1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -2102,6 +2534,22 @@
 		}
 	},
 	"C10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Polar",
@@ -2144,6 +2592,22 @@
 		}
 	},
 	"C11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			11,
+			8
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Penguin",
 			"Seagull",
@@ -2207,6 +2671,22 @@
 		}
 	},
 	"C12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -2271,6 +2751,22 @@
 		}
 	},
 	"C13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Polar",
@@ -2312,6 +2808,22 @@
 		}
 	},
 	"C2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Cat",
 			"Chicken",
@@ -2380,6 +2892,22 @@
 		}
 	},
 	"C3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Cat",
 			"Chicken",
@@ -2448,6 +2976,22 @@
 		}
 	},
 	"C4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -2531,6 +3075,22 @@
 		}
 	},
 	"C5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Chicken",
 			"Monkey",
@@ -2590,6 +3150,22 @@
 		}
 	},
 	"C6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			12,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Equatorial",
@@ -2632,6 +3208,22 @@
 		}
 	},
 	"C7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -2718,6 +3310,22 @@
 		}
 	},
 	"C8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Chicken",
@@ -2813,6 +3421,22 @@
 		}
 	},
 	"C9": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -2902,6 +3526,22 @@
 		}
 	},
 	"D1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Chicken",
@@ -2993,6 +3633,22 @@
 		}
 	},
 	"D10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Polar",
@@ -3035,6 +3691,22 @@
 		}
 	},
 	"D11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			11,
+			8
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Tundra",
@@ -3076,6 +3748,22 @@
 		}
 	},
 	"D12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -3140,6 +3828,22 @@
 		}
 	},
 	"D13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -3205,6 +3909,22 @@
 		}
 	},
 	"D2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Seagull"
 		],
@@ -3269,6 +3989,22 @@
 		}
 	},
 	"D3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Seagull"
 		],
@@ -3331,6 +4067,22 @@
 		}
 	},
 	"D4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -3415,6 +4167,22 @@
 		}
 	},
 	"D5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -3499,6 +4267,22 @@
 		}
 	},
 	"D6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			12,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -3593,6 +4377,22 @@
 		}
 	},
 	"D7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Catfish",
@@ -3683,6 +4483,22 @@
 		}
 	},
 	"D8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Tropical",
@@ -3728,6 +4544,22 @@
 		}
 	},
 	"D9": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -3810,6 +4642,22 @@
 		}
 	},
 	"E1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			12,
+			9
+		],
 		"animals": [
 			"Seagull"
 		],
@@ -3874,6 +4722,22 @@
 		}
 	},
 	"E10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Polar",
@@ -3916,6 +4780,22 @@
 		}
 	},
 	"E11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			12,
+			8
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -3998,6 +4878,22 @@
 		}
 	},
 	"E12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -4061,6 +4957,22 @@
 		}
 	},
 	"E13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -4125,6 +5037,22 @@
 		}
 	},
 	"E2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			12,
+			9
+		],
 		"animals": [
 			"Seagull"
 		],
@@ -4189,6 +5117,22 @@
 		}
 	},
 	"E3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			12,
+			9
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -4263,6 +5207,22 @@
 		}
 	},
 	"E4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			12,
+			9
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -4358,6 +5318,22 @@
 		}
 	},
 	"E5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			11,
+			9
+		],
+		"DestWest": [
+			12,
+			9
+		],
 		"animals": [
 			"Ant",
 			"Chicken",
@@ -4452,6 +5428,22 @@
 		}
 	},
 	"E6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			12,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Chicken",
@@ -4539,6 +5531,22 @@
 		}
 	},
 	"E7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -4618,6 +5626,22 @@
 		}
 	},
 	"E8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Chicken",
@@ -4713,6 +5737,22 @@
 		}
 	},
 	"E9": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -4792,6 +5832,22 @@
 		}
 	},
 	"F1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -4880,6 +5936,22 @@
 		}
 	},
 	"F10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -4966,6 +6038,22 @@
 		}
 	},
 	"F11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Polar",
@@ -5007,6 +6095,22 @@
 		}
 	},
 	"F12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -5070,6 +6174,22 @@
 		}
 	},
 	"F13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -5134,6 +6254,22 @@
 		}
 	},
 	"F2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -5225,6 +6361,22 @@
 		}
 	},
 	"F3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -5317,6 +6469,22 @@
 		}
 	},
 	"F4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Anglerfish",
 			"Crab",
@@ -5377,6 +6545,22 @@
 		}
 	},
 	"F5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			11,
+			9
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -5472,6 +6656,22 @@
 		}
 	},
 	"F6": {
+		"DestEast": [
+			11,
+			9
+		],
+		"DestNorth": [
+			12,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Equatorial",
@@ -5514,6 +6714,22 @@
 		}
 	},
 	"F7": {
+		"DestEast": [
+			11,
+			9
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Catfish",
 			"Chicken",
@@ -5603,6 +6819,22 @@
 		}
 	},
 	"F8": {
+		"DestEast": [
+			11,
+			9
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Seagull"
 		],
@@ -5667,6 +6899,22 @@
 		}
 	},
 	"F9": {
+		"DestEast": [
+			11,
+			9
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Seagull"
 		],
@@ -5732,6 +6980,22 @@
 		}
 	},
 	"G1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -5821,6 +7085,22 @@
 		}
 	},
 	"G10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Western Tundra",
@@ -5863,6 +7143,22 @@
 		}
 	},
 	"G11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -5927,6 +7223,22 @@
 		}
 	},
 	"G12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -5990,6 +7302,22 @@
 		}
 	},
 	"G13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -6054,6 +7382,22 @@
 		}
 	},
 	"G2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
@@ -6137,6 +7481,22 @@
 		}
 	},
 	"G3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Catfish",
@@ -6224,6 +7584,22 @@
 		}
 	},
 	"G4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Western Temperate",
@@ -6266,6 +7642,22 @@
 		}
 	},
 	"G5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			11,
+			9
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Equatorial",
@@ -6308,6 +7700,22 @@
 		}
 	},
 	"G6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			12,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			11,
+			9
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -6400,6 +7808,22 @@
 		}
 	},
 	"G7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			11,
+			9
+		],
 		"animals": [
 			"Ant",
 			"Cobra",
@@ -6481,6 +7905,22 @@
 		}
 	},
 	"G8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			11,
+			9
+		],
 		"animals": [
 			"Ant",
 			"Cobra",
@@ -6570,6 +8010,22 @@
 		}
 	},
 	"G9": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			11,
+			9
+		],
 		"animals": [],
 		"biomes": [
 			"Low Desert",
@@ -6614,6 +8070,22 @@
 		}
 	},
 	"H1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -6699,6 +8171,22 @@
 		}
 	},
 	"H10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -6790,6 +8278,22 @@
 		}
 	},
 	"H11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -6873,6 +8377,22 @@
 		}
 	},
 	"H12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -6936,6 +8456,22 @@
 		}
 	},
 	"H13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -7000,6 +8536,22 @@
 		}
 	},
 	"H2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
@@ -7084,6 +8636,22 @@
 		}
 	},
 	"H3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -7174,6 +8742,22 @@
 		}
 	},
 	"H4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Temperate",
@@ -7218,6 +8802,22 @@
 		}
 	},
 	"H5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			11,
+			9
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -7311,6 +8911,22 @@
 		}
 	},
 	"H6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			12,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Equatorial",
@@ -7353,6 +8969,22 @@
 		}
 	},
 	"H7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Cobra",
@@ -7441,6 +9073,22 @@
 		}
 	},
 	"H8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Low Desert",
@@ -7484,6 +9132,22 @@
 		}
 	},
 	"H9": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Catfish",
 			"Cobra",
@@ -7561,6 +9225,22 @@
 		}
 	},
 	"I1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -7645,6 +9325,22 @@
 		}
 	},
 	"I10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -7731,6 +9427,22 @@
 		}
 	},
 	"I11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Polar",
@@ -7772,6 +9484,22 @@
 		}
 	},
 	"I12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -7835,6 +9563,22 @@
 		}
 	},
 	"I13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -7899,6 +9643,22 @@
 		}
 	},
 	"I2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -7986,6 +9746,22 @@
 		}
 	},
 	"I3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -8076,6 +9852,22 @@
 		}
 	},
 	"I4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -8169,6 +9961,22 @@
 		}
 	},
 	"I5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			11,
+			9
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -8269,6 +10077,22 @@
 		}
 	},
 	"I6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			12,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Equatorial",
@@ -8312,6 +10136,22 @@
 		}
 	},
 	"I7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"High Desert",
@@ -8354,6 +10194,22 @@
 		}
 	},
 	"I8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Cobra",
@@ -8446,6 +10302,22 @@
 		}
 	},
 	"I9": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Catfish",
 			"Cobra",
@@ -8519,6 +10391,22 @@
 		}
 	},
 	"J1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
@@ -8606,6 +10494,22 @@
 		}
 	},
 	"J10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -8690,6 +10594,22 @@
 		}
 	},
 	"J11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Tundra",
@@ -8733,6 +10653,22 @@
 		}
 	},
 	"J12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -8796,6 +10732,22 @@
 		}
 	},
 	"J13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -8860,6 +10812,22 @@
 		}
 	},
 	"J2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Temperate",
@@ -8905,6 +10873,22 @@
 		}
 	},
 	"J3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Temperate",
@@ -8947,6 +10931,22 @@
 		}
 	},
 	"J4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Temperate",
@@ -8989,6 +10989,22 @@
 		}
 	},
 	"J5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			11,
+			9
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Temperate",
@@ -9031,6 +11047,22 @@
 		}
 	},
 	"J6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			12,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Equatorial",
@@ -9074,6 +11106,22 @@
 		}
 	},
 	"J7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Cobra",
@@ -9167,6 +11215,22 @@
 		}
 	},
 	"J8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Cobra",
@@ -9254,6 +11318,22 @@
 		}
 	},
 	"J9": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Catfish",
 			"Cobra",
@@ -9327,6 +11407,22 @@
 		}
 	},
 	"K1": {
+		"DestEast": [
+			12,
+			8
+		],
+		"DestNorth": [
+			11,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -9420,6 +11516,22 @@
 		}
 	},
 	"K10": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			11,
+			9
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Tundra",
@@ -9462,6 +11574,22 @@
 		}
 	},
 	"K11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"CaveBat",
@@ -9538,6 +11666,22 @@
 		}
 	},
 	"K12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -9601,6 +11745,22 @@
 		}
 	},
 	"K13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -9665,6 +11825,22 @@
 		}
 	},
 	"K2": {
+		"DestEast": [
+			12,
+			8
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -9757,6 +11933,22 @@
 		}
 	},
 	"K3": {
+		"DestEast": [
+			12,
+			8
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -9841,6 +12033,22 @@
 		}
 	},
 	"K4": {
+		"DestEast": [
+			12,
+			8
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Temperate",
@@ -9884,6 +12092,22 @@
 		}
 	},
 	"K5": {
+		"DestEast": [
+			12,
+			8
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			11,
+			9
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"Eastern Temperate",
@@ -9927,6 +12151,22 @@
 		}
 	},
 	"K6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			12,
+			8
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Cobra",
@@ -10018,6 +12258,22 @@
 		}
 	},
 	"K7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [],
 		"biomes": [
 			"High Desert",
@@ -10062,6 +12318,22 @@
 		}
 	},
 	"K8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Cobra",
@@ -10151,6 +12423,22 @@
 		}
 	},
 	"K9": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Catfish",
 			"Cobra",
@@ -10224,6 +12512,22 @@
 		}
 	},
 	"L1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			11,
+			8
+		],
 		"animals": [
 			"Seagull"
 		],
@@ -10286,6 +12590,22 @@
 		}
 	},
 	"L10": {
+		"DestEast": [
+			6,
+			7
+		],
+		"DestNorth": [
+			7,
+			4
+		],
+		"DestSouth": [
+			8,
+			9
+		],
+		"DestWest": [
+			5,
+			7
+		],
 		"animals": [
 			"Bee",
 			"Catfish",
@@ -10374,6 +12694,22 @@
 		}
 	},
 	"L11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Catfish",
@@ -10461,6 +12797,22 @@
 		}
 	},
 	"L12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -10524,6 +12876,22 @@
 		}
 	},
 	"L13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -10588,6 +12956,22 @@
 		}
 	},
 	"L2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			12,
+			8
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -10681,6 +13065,22 @@
 		}
 	},
 	"L3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			12,
+			8
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -10766,6 +13166,22 @@
 		}
 	},
 	"L4": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -10852,6 +13268,22 @@
 		}
 	},
 	"L5": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -10942,6 +13374,22 @@
 		}
 	},
 	"L6": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Catfish",
@@ -11030,6 +13478,22 @@
 		}
 	},
 	"L7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Catfish",
@@ -11117,6 +13581,22 @@
 		}
 	},
 	"L8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Catfish",
@@ -11204,6 +13684,22 @@
 		}
 	},
 	"L9": {
+		"DestEast": [
+			11,
+			0
+		],
+		"DestNorth": [
+			1,
+			10
+		],
+		"DestSouth": [
+			6,
+			0
+		],
+		"DestWest": [
+			12,
+			3
+		],
 		"animals": [
 			"Bee",
 			"Catfish",
@@ -11292,6 +13788,22 @@
 		}
 	},
 	"M1": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
@@ -11374,6 +13886,22 @@
 		}
 	},
 	"M10": {
+		"DestEast": [
+			4,
+			1
+		],
+		"DestNorth": [
+			0,
+			10
+		],
+		"DestSouth": [
+			3,
+			5
+		],
+		"DestWest": [
+			12,
+			5
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
@@ -11460,6 +13988,22 @@
 		}
 	},
 	"M11": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
@@ -11545,6 +14089,22 @@
 		}
 	},
 	"M12": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -11608,6 +14168,22 @@
 		}
 	},
 	"M13": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Crow",
@@ -11672,6 +14248,22 @@
 		}
 	},
 	"M2": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Ant",
 			"Bear",
@@ -11767,6 +14359,22 @@
 		}
 	},
 	"M3": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Chicken",
@@ -11863,6 +14471,22 @@
 		}
 	},
 	"M4": {
+		"DestEast": [
+			11,
+			8
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -11947,6 +14571,22 @@
 		}
 	},
 	"M5": {
+		"DestEast": [
+			12,
+			9
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bear",
 			"Bee",
@@ -12037,6 +14677,22 @@
 		}
 	},
 	"M6": {
+		"DestEast": [
+			12,
+			9
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
@@ -12123,6 +14779,22 @@
 		}
 	},
 	"M7": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
@@ -12208,6 +14880,22 @@
 		}
 	},
 	"M8": {
+		"DestEast": [
+			-1,
+			-1
+		],
+		"DestNorth": [
+			-1,
+			-1
+		],
+		"DestSouth": [
+			-1,
+			-1
+		],
+		"DestWest": [
+			-1,
+			-1
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
@@ -12293,6 +14981,22 @@
 		}
 	},
 	"M9": {
+		"DestEast": [
+			11,
+			1
+		],
+		"DestNorth": [
+			3,
+			10
+		],
+		"DestSouth": [
+			8,
+			5
+		],
+		"DestWest": [
+			10,
+			1
+		],
 		"animals": [
 			"Bee",
 			"Cobra",
