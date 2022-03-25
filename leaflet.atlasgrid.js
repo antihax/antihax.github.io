@@ -19,17 +19,19 @@ L.AtlasGrid = L.LayerGroup.extend({
 
     onAdd: function(map) {
         this._map = map;
-        let grid;
-        let me = this;
+        let bounds = map._originalBounds;
+        this._xTickSize = (bounds.getEast() - bounds.getWest()) / this.options.xticks;
+        this._yTickSize = (bounds.getSouth() - bounds.getNorth()) / this.options.yticks;
 
+        let grid;
         this.eachLayer(map.addLayer, map);
 
         fetch("json/gridList.json", {
                 dataType: "json",
             })
             .then((res) => res.json())
-            .then(function(grids) {
-                grid = me.draw(grids);
+            .then((grids) => {
+                grid = this.draw(grids);
             })
             .catch((error) => {
                 console.log(error);
@@ -40,17 +42,96 @@ L.AtlasGrid = L.LayerGroup.extend({
         this.eachLayer(this.removeLayer, this);
     },
 
+    _drawGridBoarderOverrides: function(x, y, g) {
+        let east = L.icon({
+                iconUrl: "icons/Arrow2.svg",
+                iconSize: [16, 16],
+                iconAnchor: [8, 0],
+            }),
+            west = L.icon({
+                iconUrl: "icons/Arrow2.svg",
+                iconSize: [16, 16],
+                iconAnchor: [8, 0],
+            }),
+            north = L.icon({
+                iconUrl: "icons/Arrow2.svg",
+                iconSize: [16, 16],
+                iconAnchor: [8, 0],
+            }),
+            south = L.icon({
+                iconUrl: "icons/Arrow2.svg",
+                iconSize: [16, 16],
+                iconAnchor: [8, 0],
+            });
+
+        if (
+            g.DestEast.reduce(function(a, b) {
+                return a + b;
+            }, 2) > 0
+        ) {
+            sX1 = this._xTickSize * (x + 1);
+            sY1 = this._yTickSize * y + this._yTickSize / 2;
+            sX2 = this._xTickSize * g.DestEast[0] + this._xTickSize / 2;
+            sY2 = this._yTickSize * g.DestEast[1] + this._yTickSize / 2;
+            this._drawGridBorderPin(sX1, sY1, sX2, sY2, east, "Grid Transfer", 90);
+        }
+        if (
+            g.DestWest.reduce(function(a, b) {
+                return a + b;
+            }, 2) > 0
+        ) {
+            sX1 = this._xTickSize * x;
+            sY1 = this._yTickSize * y + this._yTickSize / 2;
+            sX2 = this._xTickSize * g.DestWest[0] + this._xTickSize / 2;
+            sY2 = this._yTickSize * g.DestWest[1] + this._yTickSize / 2;
+            this._drawGridBorderPin(sX1, sY1, sX2, sY2, west, "Grid Transfer", 270);
+        }
+        if (
+            g.DestNorth.reduce(function(a, b) {
+                return a + b;
+            }, 2) > 0
+        ) {
+            sX1 = this._xTickSize * x + this._xTickSize / 2;
+            sY1 = this._yTickSize * y;
+            sX2 = this._xTickSize * g.DestNorth[0] + this._xTickSize / 2;
+            sY2 = this._yTickSize * g.DestNorth[1] + this._yTickSize / 2;
+            this._drawGridBorderPin(sX1, sY1, sX2, sY2, north, "Grid Transfer", 0);
+        }
+        if (
+            g.DestSouth.reduce(function(a, b) {
+                return a + b;
+            }, 2) > 0
+        ) {
+            sX1 = this._xTickSize * x + this._xTickSize / 2;
+            sY1 = this._yTickSize * (y + 1);
+            sX2 = this._xTickSize * g.DestSouth[0] + this._xTickSize / 2;
+            sY2 = this._yTickSize * g.DestSouth[1] + this._yTickSize / 2;
+            this._drawGridBorderPin(sX1, sY1, sX2, sY2, south, "Grid Transfer", 180);
+        }
+    },
+
+    _drawGridBorderPin: function(sX1, sY1, sX2, sY2, icon, title, angle) {
+        let pin1 = this._map.addPortalPin(icon, [sY1, sX1], title, angle);
+        this._map.Portals.addLayer(pin1);
+        let pl = L.polyline(
+            [
+                [sY1, sX1],
+                [sY2, sX2],
+            ], { color: "red", opacity: 0.01 }
+        );
+        pin1.lines = [pl];
+        pin1.firstPin = pin1;
+        this._map.Portals.addLayer(pl);
+    },
+
     draw: function(grids) {
         let bounds = this._map._originalBounds;
-        let xTickSize = (bounds.getEast() - bounds.getWest()) / this.options.xticks;
-        let yTickSize =
-            (bounds.getSouth() - bounds.getNorth()) / this.options.yticks;
         for (let i = 0; i < this.options.xticks + 1; i++) {
             this.addLayer(
                 new L.Polyline(
                     [
-                        [bounds.getNorth(), bounds.getWest() + xTickSize * i],
-                        [bounds.getSouth(), bounds.getWest() + xTickSize * i],
+                        [bounds.getNorth(), bounds.getWest() + this._xTickSize * i],
+                        [bounds.getSouth(), bounds.getWest() + this._xTickSize * i],
                     ],
                     this.options.lineStyle
                 )
@@ -60,8 +141,8 @@ L.AtlasGrid = L.LayerGroup.extend({
             this.addLayer(
                 new L.Polyline(
                     [
-                        [bounds.getNorth() + yTickSize * i, bounds.getWest()],
-                        [bounds.getNorth() + yTickSize * i, bounds.getEast()],
+                        [bounds.getNorth() + this._yTickSize * i, bounds.getWest()],
+                        [bounds.getNorth() + this._yTickSize * i, bounds.getEast()],
                     ],
                     this.options.lineStyle
                 )
@@ -71,6 +152,8 @@ L.AtlasGrid = L.LayerGroup.extend({
         for (let x = 0; x < this.options.xticks; x++) {
             for (let y = 0; y < this.options.yticks; y++) {
                 const grid = String.fromCharCode(65 + x) + (y + 1);
+
+                this._drawGridBoarderOverrides(x, y, grids[grid]);
 
                 let color = "white";
                 let dropcolor = "black";
@@ -130,16 +213,14 @@ L.AtlasGrid = L.LayerGroup.extend({
                 }
 
                 let text = `<div><div class="leaflet-grid-header">${grid}</div> <div class="leaflet-grid-icon">${serverType}</div>`;
-                let tooltip = L.marker(
-                    [bounds.getWest() + yTickSize * y, bounds.getNorth() + xTickSize * x], {
-                        icon: L.divIcon({
-                            className: "leaflet-grid-marker",
-                            iconAnchor: [-2, -2],
-                        }),
-                        title: `${findGlobalBiome(grids[grid].biomes)} ${serverTypeName}`,
-                        clickable: false,
-                    }
-                );
+                let tooltip = L.marker([bounds.getWest() + this._yTickSize * y, bounds.getNorth() + this._xTickSize * x], {
+                    icon: L.divIcon({
+                        className: "leaflet-grid-marker",
+                        iconAnchor: [-2, -2],
+                    }),
+                    title: `${findGlobalBiome(grids[grid].biomes)} ${serverTypeName}`,
+                    clickable: false,
+                });
                 this.addLayer(tooltip);
                 tooltip._icon.innerHTML = text;
             }
@@ -155,8 +236,7 @@ L.atlasgrid = function(options) {
 
 function findGlobalBiome(list) {
     for (let x in list) {
-        if (list[x].includes(" Ocean Water"))
-            return list[x].replace(" Ocean Water", "");
+        if (list[x].includes(" Ocean Water")) return list[x].replace(" Ocean Water", "");
 
         let name = list[x];
         name = name.replace("Western ", "");
