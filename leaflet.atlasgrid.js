@@ -43,26 +43,11 @@ L.AtlasGrid = L.LayerGroup.extend({
     },
 
     _drawGridBoarderOverrides: function(x, y, g) {
-        let east = L.icon({
-                iconUrl: "icons/Arrow2.svg",
-                iconSize: [16, 16],
-                iconAnchor: [8, 0],
-            }),
-            west = L.icon({
-                iconUrl: "icons/Arrow2.svg",
-                iconSize: [16, 16],
-                iconAnchor: [8, 0],
-            }),
-            north = L.icon({
-                iconUrl: "icons/Arrow2.svg",
-                iconSize: [16, 16],
-                iconAnchor: [8, 0],
-            }),
-            south = L.icon({
-                iconUrl: "icons/Arrow2.svg",
-                iconSize: [16, 16],
-                iconAnchor: [8, 0],
-            });
+        let icon = L.icon({
+            iconUrl: "icons/Arrow2.svg",
+            iconSize: [8, 8],
+            iconAnchor: [4, 0],
+        });
 
         if (
             g.DestEast.reduce(function(a, b) {
@@ -73,7 +58,7 @@ L.AtlasGrid = L.LayerGroup.extend({
             sY1 = this._yTickSize * y + this._yTickSize / 2;
             sX2 = this._xTickSize * g.DestEast[0] + this._xTickSize / 2;
             sY2 = this._yTickSize * g.DestEast[1] + this._yTickSize / 2;
-            this._drawGridBorderPin(sX1, sY1, sX2, sY2, east, "Grid Transfer", 90);
+            this._drawGridBorderPin(sX1, sY1, sX2, sY2, icon, "Grid Transfer", 90);
         }
         if (
             g.DestWest.reduce(function(a, b) {
@@ -84,7 +69,7 @@ L.AtlasGrid = L.LayerGroup.extend({
             sY1 = this._yTickSize * y + this._yTickSize / 2;
             sX2 = this._xTickSize * g.DestWest[0] + this._xTickSize / 2;
             sY2 = this._yTickSize * g.DestWest[1] + this._yTickSize / 2;
-            this._drawGridBorderPin(sX1, sY1, sX2, sY2, west, "Grid Transfer", 270);
+            this._drawGridBorderPin(sX1, sY1, sX2, sY2, icon, "Grid Transfer", 270);
         }
         if (
             g.DestNorth.reduce(function(a, b) {
@@ -95,7 +80,7 @@ L.AtlasGrid = L.LayerGroup.extend({
             sY1 = this._yTickSize * y;
             sX2 = this._xTickSize * g.DestNorth[0] + this._xTickSize / 2;
             sY2 = this._yTickSize * g.DestNorth[1] + this._yTickSize / 2;
-            this._drawGridBorderPin(sX1, sY1, sX2, sY2, north, "Grid Transfer", 0);
+            this._drawGridBorderPin(sX1, sY1, sX2, sY2, icon, "Grid Transfer", 0);
         }
         if (
             g.DestSouth.reduce(function(a, b) {
@@ -106,7 +91,7 @@ L.AtlasGrid = L.LayerGroup.extend({
             sY1 = this._yTickSize * (y + 1);
             sX2 = this._xTickSize * g.DestSouth[0] + this._xTickSize / 2;
             sY2 = this._yTickSize * g.DestSouth[1] + this._yTickSize / 2;
-            this._drawGridBorderPin(sX1, sY1, sX2, sY2, south, "Grid Transfer", 180);
+            this._drawGridBorderPin(sX1, sY1, sX2, sY2, icon, "Grid Transfer", 180);
         }
     },
 

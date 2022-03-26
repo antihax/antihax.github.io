@@ -167,25 +167,25 @@ class WorldMap extends React.Component {
 
         let ArrowIcon = L.icon({
             iconUrl: "icons/Arrow.svg",
-            iconSize: [16, 16],
-            iconAnchor: [8, 8],
+            iconSize: [12, 12],
+            iconAnchor: [6, 6],
         });
 
         let Portal1Icon = L.icon({
             iconUrl: "icons/Portal1.svg",
-            iconSize: [16, 16],
-            iconAnchor: [8, 8],
+            iconSize: [12, 12],
+            iconAnchor: [6, 6],
         });
 
         let Portal2Icon = L.icon({
             iconUrl: "icons/Portal2.svg",
-            iconSize: [16, 16],
-            iconAnchor: [8, 8],
+            iconSize: [12, 12],
+            iconAnchor: [6, 6],
         });
         let Portal3Icon = L.icon({
             iconUrl: "icons/Portal3.svg",
-            iconSize: [16, 16],
-            iconAnchor: [8, 8],
+            iconSize: [12, 12],
+            iconAnchor: [6, 6],
         });
 
         let Portal4Icon = L.icon({
@@ -196,8 +196,8 @@ class WorldMap extends React.Component {
 
         let CPIcon = L.icon({
             iconUrl: "icons/lighthouse.svg",
-            iconSize: [16, 16],
-            iconAnchor: [8, 8],
+            iconSize: [12, 12],
+            iconAnchor: [6, 6],
         });
 
         let hydraIcon = L.icon({
