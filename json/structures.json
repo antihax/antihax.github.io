@@ -12720,6 +12720,38 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
+        "Default__TreasureBottle_Base_BP_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "Default__TreasureBottle_Tier1_BP_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
         "Default__TreePlatform_Base_SM_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,

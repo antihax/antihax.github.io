@@ -971,6 +971,7 @@
                 "Weight": 1.0
             }
         ],
+        "LootItemSet_CaveDrop_T1_Armor_C": null,
         "LootItemSet_Encampment_Consumables_C": [
             {
                 "ChanceForBlueprint": 0.0,

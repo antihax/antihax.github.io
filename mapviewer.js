@@ -652,10 +652,10 @@ class WorldMap extends React.Component {
 						}
 					}
 				}
-			})
-			.catch((error) => {
-				console.log(error);
 			});
+		/*	.catch((error) => {
+				console.log(error);
+			});*/
 
 		L.Control.MousePosition = L.Control.extend({
 			options: {
