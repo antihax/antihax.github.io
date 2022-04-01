@@ -3,7 +3,6 @@ function GPSStringtoLeaflet(str) {
 	let a = str.split(',');
 	let long = (a[1] - config.GPSBounds.min[1]) * config.YScale * 1.28,
 		lat = (a[0] - config.GPSBounds.min[0]) * config.XScale * 1.28;
-
 	return [long, lat];
 }
 
@@ -38,17 +37,11 @@ L.Control.Pin = L.Control.extend({
 		const res = await fetch('json/pathfinder.json');
 		const json = await res.json();
 
-		json.links.forEach((v) => {
-			this._graph.addLink(v.from, v.to, v.weight);
+		json.forEach((v) => {
+			this._graph.addLink(v.f, v.t);
 		});
 		this._pathfinder = ngraphPath.aStar(this._graph, {
 			oriented: true,
-			/*distance(fromNode, toNode, link) {
-				return link.data.weight;
-			},
-			heuristic(fromNode, toNode) {
-				//	console.log(fromNode, toNode);
-			},*/
 		});
 
 		this._addPins();
