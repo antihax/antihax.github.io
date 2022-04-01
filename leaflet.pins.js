@@ -43,9 +43,12 @@ L.Control.Pin = L.Control.extend({
 		});
 		this._pathfinder = ngraphPath.aStar(this._graph, {
 			oriented: true,
-			distance(fromNode, toNode, link) {
+			/*distance(fromNode, toNode, link) {
 				return link.data.weight;
 			},
+			heuristic(fromNode, toNode) {
+				//	console.log(fromNode, toNode);
+			},*/
 		});
 
 		this._addPins();
@@ -227,8 +230,9 @@ L.Control.Pin = L.Control.extend({
 				let p1 = GPSStringtoLeaflet(p[j - 1].id);
 				let p2 = GPSStringtoLeaflet(p[j].id);
 				let options = {};
-				if (getDistance(p1, p2) > 1) {
+				if (getDistance(p1, p2) > 2) {
 					options.dashArray = '5, 20';
+					options.opacity = 0.5;
 				}
 
 				let line = L.polyline([p1, p2], options).addTo(this._map);
