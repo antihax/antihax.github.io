@@ -9,7 +9,9 @@ const config = {
 			100
 		]
 	},
+	"GridOffset": 23333.333333333332,
 	"GridSize": 1400000,
+	"NodesPerAxis": 30,
 	"ServersX": 13,
 	"ServersY": 13,
 	"XRange": 650,

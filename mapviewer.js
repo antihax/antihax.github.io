@@ -717,7 +717,10 @@ class WorldMap extends React.Component {
 						}
 					});
 				}
-				this._container.innerHTML = value;
+
+				let world = map.leafletToWorld([e.latlng.lng, e.latlng.lat]);
+
+				this._container.innerHTML = value + ' ' + e.latlng + ' ' + world;
 			},
 		});
 

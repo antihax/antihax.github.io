@@ -16,6 +16,15 @@ L.AtlasMap = L.Map.extend({
 		return [gridX + gridY, localX, localY];
 	},
 
+	leafletToWorld: function ([x, y]) {
+		let worldX = this.constraintInv(x, 0, 256, 0, config.GridSize * config.ServersX - 1).toFixed(0);
+		let worldY = this.constraintInv(y, 0, -256, 0, config.GridSize * config.ServersY - 1).toFixed(
+			0,
+		);
+
+		return [worldX, worldY];
+	},
+
 	constraintInv: function (value, minVal, maxVal, minRange, maxRange) {
 		return this.constraint(value, minVal, maxVal, minRange, maxRange) + minRange;
 	},
