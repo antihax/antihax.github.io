@@ -16,6 +16,14 @@ L.AtlasMap = L.Map.extend({
 		return [gridX + gridY, localX, localY];
 	},
 
+	worldToGPS: function (x, y, bounds) {
+		const worldUnitsX = config.ServersX * config.GridSize;
+		const worldUnitsY = config.ServersY * config.GridSize;
+		let long = (x / worldUnitsX) * Math.abs(bounds.min[0] - bounds.max[0]) + bounds.min[0];
+		let lat = bounds.min[1] - (y / worldUnitsY) * Math.abs(bounds.min[1] - bounds.max[1]);
+		return [parseFloat(long.toFixed(1)), parseFloat(lat.toFixed(1))];
+	},
+
 	leafletToWorld: function ([x, y]) {
 		let worldX = this.constraintInv(x, 0, 256, 0, config.GridSize * config.ServersX - 1).toFixed(0);
 		let worldY = this.constraintInv(y, 0, -256, 0, config.GridSize * config.ServersY - 1).toFixed(

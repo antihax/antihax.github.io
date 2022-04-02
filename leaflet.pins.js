@@ -1,23 +1,4 @@
-/* global L, config */
-function GPSStringtoLeaflet(str) {
-	let a = str.split(',');
-	let long = (a[1] - config.GPSBounds.min[1]) * config.YScale * 1.28,
-		lat = (a[0] - config.GPSBounds.min[0]) * config.XScale * 1.28;
-	return [long, lat];
-}
-
-function worldToGPS(x, y, bounds) {
-	const worldUnitsX = config.ServersX * config.GridSize;
-	const worldUnitsY = config.ServersY * config.GridSize;
-	let long = (x / worldUnitsX) * Math.abs(bounds.min[0] - bounds.max[0]) + bounds.min[0];
-	let lat = bounds.min[1] - (y / worldUnitsY) * Math.abs(bounds.min[1] - bounds.max[1]);
-	return [parseFloat(long.toFixed(1)), parseFloat(lat.toFixed(1))];
-}
-
-function getDistance(p1, p2) {
-	let distance = Math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2);
-	return distance;
-}
+/* global L, config, createGraph,ngraphPath */
 
 L.Control.Pin = L.Control.extend({
 	options: {
@@ -45,6 +26,18 @@ L.Control.Pin = L.Control.extend({
 		});
 
 		this._addPins();
+	},
+
+	getDistance: function (p1, p2) {
+		let distance = Math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2);
+		return distance;
+	},
+
+	GPSStringtoLeaflet: function (str) {
+		let a = str.split(',');
+		let long = (a[1] - config.GPSBounds.min[1]) * config.YScale * 1.28,
+			lat = (a[0] - config.GPSBounds.min[0]) * config.XScale * 1.28;
+		return [long, lat];
 	},
 
 	onAdd: function () {
@@ -183,7 +176,7 @@ L.Control.Pin = L.Control.extend({
 		});
 
 		this._map.removeLayer(this);
-		pinControl._updateURI();
+		this._updateURI();
 	},
 
 	_updateURI: function () {
@@ -216,16 +209,16 @@ L.Control.Pin = L.Control.extend({
 			let pin2 = this.closestNode(this._pins[1].split(';'));
 
 			let p = this._pathfinder.find(
-				worldToGPS(pin1[0], pin1[1], config.GPSBounds).toString(),
-				worldToGPS(pin2[0], pin2[1], config.GPSBounds).toString(),
+				this._map.worldToGPS(pin1[0], pin1[1], config.GPSBounds).toString(),
+				this._map.worldToGPS(pin2[0], pin2[1], config.GPSBounds).toString(),
 			);
 			for (let j = 1; j < p.length; j++) {
-				let p1 = GPSStringtoLeaflet(p[j - 1].id);
-				let p2 = GPSStringtoLeaflet(p[j].id);
+				let p1 = this.GPSStringtoLeaflet(p[j - 1].id);
+				let p2 = this.GPSStringtoLeaflet(p[j].id);
 				let options = {};
-				if (getDistance(p1, p2) > 2) {
+				if (this.getDistance(p1, p2) > 2) {
 					options.dashArray = '5, 20';
-					options.opacity = 0.5;
+					options.opacity = 0.75;
 				}
 
 				let line = L.polyline([p1, p2], options).addTo(this._map);
@@ -244,7 +237,7 @@ L.Control.Pin = L.Control.extend({
 		}
 
 		this._pins.push(e.latlng.lat + ';' + e.latlng.lng);
-		let marker = L.marker(e.latlng, {
+		L.marker(e.latlng, {
 			name: 'pin',
 			parent: this,
 		})
@@ -282,9 +275,8 @@ L.control.pin = function (options) {
 L.Map.mergeOptions({
 	pinControl: false,
 });
-let pinControl;
+
 L.Map.addInitHook(function () {
 	this.pinControl = new L.Control.Pin();
-	pinControl = this.pinControl;
 	this.addControl(this.pinControl);
 });
