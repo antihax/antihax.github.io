@@ -208,6 +208,12 @@ class WorldMap extends React.Component {
 			iconAnchor: [16, 16],
 		});
 
+		let bossIcon = L.icon({
+			iconUrl: 'icons/Boss.svg',
+			iconSize: [32, 32],
+			iconAnchor: [16, 16],
+		});
+
 		let yetiIcon = L.icon({
 			iconUrl: 'icons/Yeti.svg',
 			iconSize: [32, 32],
@@ -373,6 +379,10 @@ class WorldMap extends React.Component {
 					} else if (d.name === 'MeanWhale') {
 						pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
 							icon: meanWhaleIcon,
+						});
+					} else {
+						pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+							icon: bossIcon,
 						});
 					}
 					if (pin) {
