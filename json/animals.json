@@ -1558,6 +1558,145 @@
             ],
             "tameConsumeInterval": 22.0
         },
+        "Boss Sentinel": {
+            "XP": 1000.0,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.2000000476837158,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Boss_Sentinel_Character_BP_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 10000.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "resources": [
+                "Leather",
+                "Animal Meat",
+                "Prime Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
         "BossWeapon Base": {
             "XPperHit": true,
             "babyGestationMultiplier": 1.0,
@@ -6912,6 +7051,245 @@
             "requiredAffinityPerBaseLevel": 75.0,
             "tameConsumeInterval": 15.0
         },
+        "HumanNPC Enemy Heavy PvE": {
+            "XP": 20.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Heavy_PvE_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC Enemy Heavy PvE Cave": {
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Heavy_PvE_Cave_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC Enemy Heavy PvE Inland": {
+            "XP": 8.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Heavy_PvE_Inland_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
         "HumanNPC Enemy Heavy TreasureGuard": {
             "XPperHit": true,
             "affinityDecreaseSpeed": 0.007499999832361937,
@@ -7150,6 +7528,245 @@
             "requiredAffinityPerBaseLevel": 75.0,
             "tameConsumeInterval": 15.0
         },
+        "HumanNPC Enemy Melee PvE": {
+            "XP": 10.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Melee_PvE_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC Enemy Melee PvE Cave": {
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Melee_PvE_Cave_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC Enemy Melee PvE Inland": {
+            "XP": 4.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Melee_PvE_Inland_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
         "HumanNPC Enemy Melee TreasureGuard": {
             "XPperHit": true,
             "affinityDecreaseSpeed": 0.007499999832361937,
@@ -7239,6 +7856,245 @@
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
             "className": "HumanNPC_BP_Enemy_Ranged_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC Enemy Ranged PvE": {
+            "XP": 10.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Ranged_PvE_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC Enemy Ranged PvE Cave": {
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Ranged_PvE_Cave_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerolla",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lignonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "tameConsumeInterval": 15.0
+        },
+        "HumanNPC Enemy Ranged PvE Inland": {
+            "XP": 4.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "HumanNPC_BP_Enemy_Ranged_PvE_Inland_C",
             "deathInventoryChance": 0.0,
             "food": [
                 {

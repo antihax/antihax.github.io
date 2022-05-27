@@ -2048,17 +2048,6 @@
         },
         "Name": "Conifer Green Coloring"
     },
-    "Conrol point gun": {
-        "ClassName": "Structure_ControlpointGun_C",
-        "Icon": "Item_Campfire_Icon",
-        "Ingredients": {
-            "Flint": 1.0,
-            "Stone": 6.0,
-            "Thatch": 8.0,
-            "Wood": 3.0
-        },
-        "Name": "Conrol point gun"
-    },
     "Cooked Fish": {
         "ClassName": "Consumable_CookedFish_C",
         "Icon": "Item_CookedFishMeat_Icon",
