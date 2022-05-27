@@ -1,13 +1,6 @@
-function unrealToLeaflet(x, y) {
-	const unreal = 15400000;
-	let lat = (x / unreal) * 256,
-		long = -((y / unreal) * 256);
-	return [long, lat];
-}
-
 function getDistance(p1, p2) {
 	let distance = Math.sqrt((p1.lng - p2.lng) ** 2 + (p1.lat - p2.lat) ** 2);
-	return distance * (154000 / 256);
+	return distance * (182000 / 256);
 }
 
 L.Control.Measure = L.Control.extend({
@@ -193,7 +186,7 @@ L.Control.Measure = L.Control.extend({
 		}
 
 		this._lastPoint = L.circle(e.latlng, {
-			radius: 0.748,
+			radius: 0.6329230769230769,
 			interactive: false,
 		}).addTo(this._layerPaint);
 

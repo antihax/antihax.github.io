@@ -2,462 +2,23 @@
 	{
 		"Nodes": [
 			{
-				"PortalName": "Central to South America Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 6292997,
-				"worldY": 6884535
-			},
-			{
-				"PortalName": "South America to Central Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 5407606,
-				"worldY": 9012863
-			}
-		],
-		"PathId": 5,
-		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Central to North Pole Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 10502929,
-				"worldY": 112826.234
-			},
-			{
-				"PortalName": "North Pole to Central Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 3482379.5,
-				"worldY": 15310672
-			}
-		],
-		"PathId": 6,
-		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Damaged Portal 4",
-				"RequiredResource": {
-					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
-					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
-				},
-				"rotation": 0,
-				"worldX": 15305982,
-				"worldY": 10654384
-			},
-			{
-				"PortalName": "Damaged Portal 4 Exit 3",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 14718595,
-				"worldY": 14300369
-			},
-			{
-				"PortalName": "Damaged Portal 4 Exit 2",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 14574354,
-				"worldY": 15210962
-			},
-			{
-				"PortalName": "Damaged Portal 4.1",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 14127490,
-				"worldY": 14744205
-			}
-		],
-		"PathId": 7,
-		"PathName": "",
-		"PathPortalType": 1,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Damaged Portal 1",
-				"RequiredResource": {
-					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
-					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
-				},
-				"rotation": 0,
-				"worldX": 10922103,
-				"worldY": 1650671
-			},
-			{
-				"PortalName": "Damaged Portal 1 Exit 3",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 4558873.5,
-				"worldY": 10472841
-			},
-			{
-				"PortalName": "Damaged Portal 1 Exit1",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 5319272.5,
-				"worldY": 10291803
-			},
-			{
-				"PortalName": "Damaged Portal 1 Exit 2",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 4353738.5,
-				"worldY": 11065591
-			}
-		],
-		"PathId": 8,
-		"PathName": "",
-		"PathPortalType": 1,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Damaged Portal 2",
-				"RequiredResource": {
-					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
-					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
-				},
-				"rotation": 0,
-				"worldX": 2164821.5,
-				"worldY": 10044581
-			},
-			{
-				"PortalName": "Damaged Portal 2 Exit 3",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 12867125,
-				"worldY": 4992401.5
-			},
-			{
-				"PortalName": "Damaged Portal 2 Exit 1",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 13529440,
-				"worldY": 4421533.5
-			},
-			{
-				"PortalName": "Damaged Portal 2 Exit 2",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 13734194,
-				"worldY": 4831985
-			}
-		],
-		"PathId": 9,
-		"PathName": "",
-		"PathPortalType": 1,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Damaged Portal 3",
-				"RequiredResource": {
-					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
-					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
-				},
-				"rotation": 0,
-				"worldX": 2080035.25,
-				"worldY": 14263595
-			},
-			{
-				"PortalName": "Damaged Portal 3 Exit 2",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 13424086,
-				"worldY": 1647857.88
-			},
-			{
-				"PortalName": "Damaged Portal 3 Exit 3",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 13026344,
-				"worldY": 1743461.25
-			},
-			{
-				"PortalName": "Damaged Portal 3 Exit 1",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 13854744,
-				"worldY": 1936069.75
-			}
-		],
-		"PathId": 10,
-		"PathName": "",
-		"PathPortalType": 1,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
 				"PortalName": "Central Portal",
 				"RequiredResource": {},
 				"rotation": 0,
-				"worldX": 10519795,
-				"worldY": 3566164.25
+				"worldX": 11890228,
+				"worldY": 7964271.5
 			},
 			{
 				"PortalName": "Central Portal Exit",
 				"RequiredResource": {},
 				"rotation": 0,
-				"worldX": 4649283.5,
-				"worldY": 6409412.5
+				"worldX": 4602564,
+				"worldY": 17616216
 			}
 		],
 		"PathId": 11,
 		"PathName": "",
 		"PathPortalType": 2,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "South America to Antarctica Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 980399.3,
-				"worldY": 10481493
-			},
-			{
-				"PortalName": "Antarctica to South America Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 8908964,
-				"worldY": 13135847
-			}
-		],
-		"PathId": 13,
-		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Africa to Antarctica Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 9126004,
-				"worldY": 12407801
-			},
-			{
-				"PortalName": "Antarctica to Africa Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 10540248,
-				"worldY": 13022939
-			}
-		],
-		"PathId": 14,
-		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Damaged Portal 5",
-				"RequiredResource": {
-					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
-					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
-				},
-				"rotation": 0,
-				"worldX": 10091538,
-				"worldY": 15242108
-			},
-			{
-				"PortalName": "Damaged Portal 5 Exit 1",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 9643497,
-				"worldY": 5407035
-			},
-			{
-				"PortalName": "Damaged Portal 5 Exit 3",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 8490021,
-				"worldY": 5204262
-			},
-			{
-				"PortalName": "Damaged Portal 5 Exit 2",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 9375098,
-				"worldY": 4847376.5
-			}
-		],
-		"PathId": 15,
-		"PathName": "",
-		"PathPortalType": 1,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Africa to South America Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 8574461,
-				"worldY": 8951863
-			},
-			{
-				"PortalName": "South America to Africa Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 8186113,
-				"worldY": 8927209
-			}
-		],
-		"PathId": 16,
-		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Central to Africa Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 14801974,
-				"worldY": 6547553
-			},
-			{
-				"PortalName": "Africa to Central Portal",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 11936633,
-				"worldY": 10065993
-			}
-		],
-		"PathId": 17,
-		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Maw Exit Entry",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 5134239,
-				"worldY": 6412153
-			},
-			{
-				"PortalName": "Maw Exit",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 10065269,
-				"worldY": 3563568.5
-			}
-		],
-		"PathId": 23,
-		"PathName": "",
-		"PathPortalType": 1,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Damaged Portal 6",
-				"RequiredResource": {
-					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
-					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
-				},
-				"rotation": 0,
-				"worldX": 15178753,
-				"worldY": 8205654
-			},
-			{
-				"PortalName": "Damaged Portal 6 Exit 1",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 8164049.5,
-				"worldY": 3936026
-			},
-			{
-				"PortalName": "Damaged Portal 6 Exit 2",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 7553040.5,
-				"worldY": 3848428
-			},
-			{
-				"PortalName": "Damaged Portal 6 Exit 3",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 7109207,
-				"worldY": 3965225.75
-			}
-		],
-		"PathId": 25,
-		"PathName": "",
-		"PathPortalType": 1,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Damaged Portal 7",
-				"RequiredResource": {
-					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
-					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
-				},
-				"rotation": 0,
-				"worldX": 735987.8,
-				"worldY": 12882782
-			},
-			{
-				"PortalName": "Damaged Portal 7 Exit 1",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 1102072.5,
-				"worldY": 12399583
-			},
-			{
-				"PortalName": "Damaged Portal 7 Exit 2",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 621489.7,
-				"worldY": 12304629
-			},
-			{
-				"PortalName": "Damaged Portal Exit 3",
-				"RequiredResource": {},
-				"rotation": 0,
-				"worldX": 194094.125,
-				"worldY": 12399797
-			}
-		],
-		"PathId": 26,
-		"PathName": "",
-		"PathPortalType": 1,
 		"isLooping": false
 	},
 	{
@@ -473,8 +34,8 @@
 				"PortalName": "Pathfinder Portal 1 Exit",
 				"RequiredResource": {},
 				"rotation": 0,
-				"worldX": 5768815.5,
-				"worldY": 4903052.5
+				"worldX": 10178604,
+				"worldY": 5848470.5
 			}
 		],
 		"PathId": 31,
@@ -495,8 +56,8 @@
 				"PortalName": "Pathfinder Portal 2 Exit",
 				"RequiredResource": {},
 				"rotation": 0,
-				"worldX": 5742428.5,
-				"worldY": 3721896.25
+				"worldX": 10032537,
+				"worldY": 9095051
 			}
 		],
 		"PathId": 32,
@@ -517,8 +78,8 @@
 				"PortalName": "Pathfinder Portal 3 Exit",
 				"RequiredResource": {},
 				"rotation": 0,
-				"worldX": 15265391,
-				"worldY": 3573951
+				"worldX": 13725920,
+				"worldY": 8669279
 			}
 		],
 		"PathId": 33,
@@ -539,8 +100,8 @@
 				"PortalName": "Pathfinder Portal 4 Exit",
 				"RequiredResource": {},
 				"rotation": 0,
-				"worldX": 15183769,
-				"worldY": 5442724.5
+				"worldX": 13033668,
+				"worldY": 5875024.5
 			}
 		],
 		"PathId": 34,
@@ -551,23 +112,219 @@
 	{
 		"Nodes": [
 			{
-				"PortalName": "Tortuga to Central Portal 1",
-				"RequiredResource": {},
+				"PortalName": "N. Pole to Central",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
+				},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 3057680,
-				"worldY": 5845031
+				"worldX": 14399451,
+				"worldY": 1066674
 			},
 			{
-				"PortalName": "Central to Tortuga Portal 1",
+				"PortalName": "N. Pole to Central Exit 1",
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 6208325,
-				"worldY": 3049657.25
+				"worldX": 12935907,
+				"worldY": 7203786.5
+			},
+			{
+				"PortalName": "N. Pole to Maw Waters Exit",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 17957830,
+				"worldY": 15703460
+			},
+			{
+				"PortalName": "N. Pole to Central Exit 2",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 14151500,
+				"worldY": 6199965
 			}
 		],
-		"PathId": 37,
+		"PathId": 51,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "S. America to Central",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
+				},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 975423.438,
+				"worldY": 8689720
+			},
+			{
+				"PortalName": "S. America to Maw Waters Exit",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 15592423,
+				"worldY": 18054998
+			},
+			{
+				"PortalName": "S. America to Central Exit 1",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 17878676,
+				"worldY": 1481963.75
+			},
+			{
+				"PortalName": "S. America to Central Exit 2",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 15963175,
+				"worldY": 2598684.5
+			}
+		],
+		"PathId": 52,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Africa to Central",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
+				},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 3130354.5,
+				"worldY": 12438947
+			},
+			{
+				"PortalName": "Africa to Maw Waters Exit",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 16565750,
+				"worldY": 17031068
+			},
+			{
+				"PortalName": "Africa to Central Exit 2",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 7541795,
+				"worldY": 9613078
+			},
+			{
+				"PortalName": "Africa to Central Exit 1",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 8550803,
+				"worldY": 7582949
+			}
+		],
+		"PathId": 53,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Antarctica to Central",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/PrimalItemResource_GoldCoin.PrimalItemResource_GoldCoin": 250,
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 50
+				},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 14921155,
+				"worldY": 14602965
+			},
+			{
+				"PortalName": "Antarctica to Maw Waters Exit",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 16570936,
+				"worldY": 15671014
+			},
+			{
+				"PortalName": "Antarctica to Central Exit 2",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 8235989,
+				"worldY": 2560727.5
+			},
+			{
+				"PortalName": "Antarctica to Central Exit 1",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 8137036,
+				"worldY": 1609794.63
+			}
+		],
+		"PathId": 54,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Lair to Central",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 5180815.5,
+				"worldY": 17610530
+			},
+			{
+				"PortalName": "Lair to Cental Exit",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 11893810,
+				"worldY": 7599602.5
+			}
+		],
+		"PathId": 56,
+		"PathName": "",
+		"PathPortalType": 1,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Tortuga to Central 1",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 5330056.5,
+				"worldY": 15658692
+			},
+			{
+				"PortalName": "Central to Tortuga 1",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 7425622,
+				"worldY": 10593103
+			}
+		],
+		"PathId": 71,
 		"PathName": "",
 		"PathPortalType": 0,
 		"isLooping": false
@@ -575,23 +332,23 @@
 	{
 		"Nodes": [
 			{
-				"PortalName": "Tortuga to Central Portal 2",
+				"PortalName": "Tortuga to Central 3",
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 3021342.75,
-				"worldY": 6717125
+				"worldX": 4528042,
+				"worldY": 16515212
 			},
 			{
-				"PortalName": "Central to Tortuga Portal 2",
+				"PortalName": "Central to Tortuga 3",
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 6749922.5,
-				"worldY": 4413169.5
+				"worldX": 16522921,
+				"worldY": 4447343.5
 			}
 		],
-		"PathId": 38,
+		"PathId": 72,
 		"PathName": "",
 		"PathPortalType": 0,
 		"isLooping": false
@@ -599,23 +356,23 @@
 	{
 		"Nodes": [
 			{
-				"PortalName": "Tortuga to Central Portal 4",
+				"PortalName": "Tortuga to Central 2",
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 3862291,
-				"worldY": 6706743
+				"worldX": 5232725,
+				"worldY": 16499638
 			},
 			{
-				"PortalName": "Central to Tortuga Portal 4",
+				"PortalName": "Central to Tortuga 2",
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 14511107,
-				"worldY": 5430326
+				"worldX": 15624869,
+				"worldY": 10265201
 			}
 		],
-		"PathId": 39,
+		"PathId": 73,
 		"PathName": "",
 		"PathPortalType": 0,
 		"isLooping": false
@@ -623,169 +380,53 @@
 	{
 		"Nodes": [
 			{
-				"PortalName": "Tortuga to Central Portal 3",
-				"RequiredResource": {},
+				"PortalName": "Central to Maw Water 1",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 500
+				},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 3888245.75,
-				"worldY": 5847627.5
+				"worldX": 12419721,
+				"worldY": 8168020.5
 			},
 			{
-				"PortalName": "Central to Tortuga Portal 3",
+				"PortalName": "Central to Maw Exit 1",
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 14218096,
-				"worldY": 3467534.75
+				"worldX": 17029050,
+				"worldY": 15705407
 			}
 		],
-		"PathId": 40,
+		"PathId": 78,
 		"PathName": "",
-		"PathPortalType": 0,
+		"PathPortalType": 1,
 		"isLooping": false
 	},
 	{
 		"Nodes": [
 			{
-				"PortalName": "Central to Eastern",
-				"RequiredResource": {},
+				"PortalName": "Central to Maw Waters 2",
+				"RequiredResource": {
+					"/Game/Atlas/AtlasCoreBP/Items/Resources/PrimalItemResource_MagicMarrow.PrimalItemResource_MagicMarrow": 500
+				},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 11910997,
-				"worldY": 155652.125
+				"worldX": 11395782,
+				"worldY": 7221953.5
 			},
 			{
-				"PortalName": "Eastern to Central",
+				"PortalName": "Central to Maw Waters Exit 2",
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 15656014,
-				"worldY": 646205.25
+				"worldX": 15627464,
+				"worldY": 16624223
 			}
 		],
-		"PathId": 41,
+		"PathId": 80,
 		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Central to Western",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 8612093,
-				"worldY": 1160118.88
-			},
-			{
-				"PortalName": "Western to Central",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 17509214,
-				"worldY": 4407113
-			}
-		],
-		"PathId": 42,
-		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Central to Western 2",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 7833436,
-				"worldY": 4438260
-			},
-			{
-				"PortalName": "Western to Central 2",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 15638711,
-				"worldY": 7681794
-			}
-		],
-		"PathId": 43,
-		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Central to Eastern 2",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 13124399,
-				"worldY": 2569484.25
-			},
-			{
-				"PortalName": "Eastern to Central 2",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 17819382,
-				"worldY": 3912666.5
-			}
-		],
-		"PathId": 44,
-		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "Antarctica to Uncharted",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 12025201,
-				"worldY": 15271959
-			},
-			{
-				"PortalName": "Unchartered to Antarctica",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 700633.7,
-				"worldY": 15580827
-			}
-		],
-		"PathId": 45,
-		"PathName": "",
-		"PathPortalType": 0,
-		"isLooping": false
-	},
-	{
-		"Nodes": [
-			{
-				"PortalName": "North Pole to Uncharted",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 5850458.5,
-				"worldY": 15165543
-			},
-			{
-				"PortalName": "Uncharted to North Pole",
-				"RequiredResource": {},
-				"RequiredResourceOr": {},
-				"rotation": 0,
-				"worldX": 207483.172,
-				"worldY": 17039510
-			}
-		],
-		"PathId": 46,
-		"PathName": "",
-		"PathPortalType": 0,
+		"PathPortalType": 1,
 		"isLooping": false
 	}
 ]

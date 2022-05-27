@@ -372,9 +372,9 @@
         "ClassName": "Resource_ArmorPatchKit_C",
         "Icon": "Icon_PatchKit",
         "Ingredients": {
-            "Fibers": 100.0,
-            "Metal": 200.0,
-            "Thatch": 120.0
+            "Fibers": 50.0,
+            "Metal": 100.0,
+            "Thatch": 60.0
         },
         "Name": "Armor Patch Kit"
     },
@@ -1450,10 +1450,9 @@
         "Name": "Catapult Turret With Crew"
     },
     "Cedar": {
-        "ClassName": "Resource_Wood_Cedar_Unbundled_C",
+        "ClassName": "Resource_Wood_Cedar_C",
         "Icon": "Cedar_Icon",
         "Ingredients": {
-            "Cedar Bundle": 1.0,
             "Gold Coin": 50.0,
             "Wood": 50.0
         },
@@ -1994,6 +1993,9 @@
                 "add": 0.0,
                 "addOverTime": false,
                 "addOverTimeSpeed": 1.2891945871788317e-43
+            },
+            "TorporResistance": {
+                "modify": -0.15000000596046448
             }
         }
     },
@@ -2189,7 +2191,7 @@
         "Name": "Copper Ingot"
     },
     "Coquina": {
-        "ClassName": "Resource_Stone_Coquina_Unbundled_C",
+        "ClassName": "Resource_Stone_Coquina_C",
         "Icon": "Coquina_Icon",
         "Ingredients": {
             "Coquina Block": 1.0,
@@ -2499,7 +2501,7 @@
         "Name": "Cursed Temple Foundation"
     },
     "Cursed Wood": {
-        "ClassName": "Resource_Wood_CursedWood_Unbundled_C",
+        "ClassName": "Resource_Wood_CursedWood_C",
         "Icon": "CursedWood_Icon",
         "Ingredients": {
             "Cursed Wood Bundle": 1.0
@@ -2833,6 +2835,9 @@
         "Type": "",
         "Weight": 0.07000000029802322,
         "stats": {
+            "FeatCooldownMultiplier": {
+                "modify": 1.5
+            },
             "Food": {
                 "add": 25.0,
                 "addOverTime": true,
@@ -2842,6 +2847,9 @@
                 "add": 0.0,
                 "addOverTime": false,
                 "addOverTimeSpeed": 0.0
+            },
+            "PostActivationStaminaRecoveryCooldownMultiplier": {
+                "modify": 1.5
             },
             "Torpidity": {
                 "add": 0.0,
@@ -3074,6 +3082,11 @@
             "Wood": 400.0
         },
         "Name": "Equipables Studies"
+    },
+    "Essence of the Maw": {
+        "ClassName": "Resource_EssenceOfTheMaw_C",
+        "Icon": "ICON_MawEssence",
+        "Name": "Essence of the Maw"
     },
     "Explosive Barrel": {
         "ClassName": "Ammo_ExplosiveBarrel_C",
@@ -3717,7 +3730,7 @@
         "Name": "Figure Head"
     },
     "Fir": {
-        "ClassName": "Resource_Wood_Fir_Unbundled_C",
+        "ClassName": "Resource_Wood_Fir_C",
         "Icon": "Fir_Icon",
         "Ingredients": {
             "Fir Bundle": 1.0,
@@ -3906,7 +3919,7 @@
         "Name": "Fleece"
     },
     "Flint": {
-        "ClassName": "Resource_Flint_Unbundled_C",
+        "ClassName": "Resource_Flint_BASE_C",
         "Icon": "Item_Flint_Icon",
         "Ingredients": {
             "Flint Bundle": 1.0,
@@ -4483,7 +4496,7 @@
         "Name": "Grand Tortugar Platform Saddle"
     },
     "Granite": {
-        "ClassName": "Resource_Stone_Granite_Unbundled_C",
+        "ClassName": "Resource_Stone_Granite_C",
         "Icon": "Granite_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
@@ -5356,6 +5369,62 @@
         },
         "Name": "Indigo Coloring"
     },
+    "Industrial Armory Station": {
+        "ClassName": "Structure_ModularRoomArmoryIndustrial_C",
+        "Icon": "T_EquipRoom_Icon",
+        "Ingredients": {
+            "Brimstone": 250.0,
+            "Flint": 250.0,
+            "Metal": 600.0,
+            "Stone": 300.0,
+            "Wood": 400.0
+        },
+        "Name": "Industrial Armory Station"
+    },
+    "Industrial Astronomy Station": {
+        "ClassName": "Structure_ModularRoomAstronomy_Industrial_C",
+        "Icon": "T_AstronomyRoom_Icon",
+        "Ingredients": {
+            "Orichalcum": 100.0,
+            "Stone": 200.0,
+            "Wood": 400.0
+        },
+        "Name": "Industrial Astronomy Station"
+    },
+    "Industrial Culinary Station": {
+        "ClassName": "Structure_ModularRoomCooking_Industrial_C",
+        "Icon": "T_FoodRoom_Icon",
+        "Ingredients": {
+            "Flint": 200.0,
+            "Metal": 400.0,
+            "Stone": 500.0,
+            "Wood": 800.0
+        },
+        "Name": "Industrial Culinary Station"
+    },
+    "Industrial Explorer Statue": {
+        "ClassName": "Structure_Monument_Industrial_Explorer_C",
+        "Icon": "ICON_IndStat_Statue02",
+        "Ingredients": {
+            "Brimstone": 200.0,
+            "Orichalcum": 400.0,
+            "Pure Sulfur": 400.0,
+            "Stone": 2500.0,
+            "Wood": 500.0
+        },
+        "Name": "Industrial Explorer Statue"
+    },
+    "Industrial Generator": {
+        "ClassName": "Structure_RitualGenerator_C",
+        "Icon": "ICON_Industrial_Generator",
+        "Ingredients": {
+            "Brimstone": 100.0,
+            "Orichalcum": 175.0,
+            "Pure Sulfur": 150.0,
+            "Stone": 300.0
+        },
+        "Name": "Industrial Generator"
+    },
     "Industrial Hydra": {
         "ClassName": "IndustrialRevolver_C",
         "Icon": "ICON_Industrial_Hydra",
@@ -5367,6 +5436,43 @@
             "Pure Sulfur": 20.0
         },
         "Name": "Industrial Hydra"
+    },
+    "Industrial Lab": {
+        "ClassName": "Structure_Monument_SecondTier_CoalPowerStation_C",
+        "Icon": "ICON_IndMon_T2_P2",
+        "Ingredients": {
+            "Brimstone": 2500.0,
+            "Crystal": 2000.0,
+            "Metal": 5000.0,
+            "Orichalcum": 7500.0,
+            "Pure Sulfur": 5000.0,
+            "Wood": 2000.0
+        },
+        "Name": "Industrial Lab"
+    },
+    "Industrial Lab Foundation": {
+        "ClassName": "Structure_Floor_Monument_SecondTier_CoalPowerStation_C",
+        "Icon": "ICON_IndMon_T2_P1",
+        "Ingredients": {
+            "Brimstone": 1800.0,
+            "Crystal": 500.0,
+            "Metal": 2000.0,
+            "Orichalcum": 800.0,
+            "Pure Sulfur": 800.0
+        },
+        "Name": "Industrial Lab Foundation"
+    },
+    "Industrial Privateer Statue": {
+        "ClassName": "Structure_Monument_Industrial_Privateer_C",
+        "Icon": "ICON_IndStat_Statue01",
+        "Ingredients": {
+            "Brimstone": 150.0,
+            "Orichalcum": 400.0,
+            "Pure Sulfur": 500.0,
+            "Stone": 2500.0,
+            "Wood": 500.0
+        },
+        "Name": "Industrial Privateer Statue"
     },
     "Industrial Rifle": {
         "ClassName": "WeaponYarkIndustrialRifle_C",
@@ -5380,6 +5486,16 @@
         },
         "Name": "Industrial Rifle"
     },
+    "Industrial Shack": {
+        "ClassName": "Structure_IndustrialShack_C",
+        "Icon": "ICON_Industrial_Shack",
+        "Ingredients": {
+            "Metal": 400.0,
+            "Stone": 200.0,
+            "Wood": 300.0
+        },
+        "Name": "Industrial Shack"
+    },
     "Industrial Smithy": {
         "ClassName": "Structure_Industrial_Smithy_C",
         "Icon": "ICON_IndustrialSmithy",
@@ -5390,6 +5506,39 @@
             "Wood": 50.0
         },
         "Name": "Industrial Smithy"
+    },
+    "Industrial Statue Base": {
+        "ClassName": "Structure_Floor_Monument_FirstTier_Industrial_C",
+        "Icon": "ICON_IndStat_Pedestal",
+        "Ingredients": {
+            "Brimstone": 20.0,
+            "Orichalcum": 40.0,
+            "Pure Sulfur": 60.0
+        },
+        "Name": "Industrial Statue Base"
+    },
+    "Industrial Statue Framework": {
+        "ClassName": "Structure_Framework_Monument_Industrial_C",
+        "Icon": "ICON_IndStat_Scaffolding",
+        "Ingredients": {
+            "Orichalcum": 200.0,
+            "Pure Sulfur": 200.0,
+            "Stone": 500.0,
+            "Wood": 800.0
+        },
+        "Name": "Industrial Statue Framework"
+    },
+    "Industrial Structure Studies Station": {
+        "ClassName": "Structure_ModularRoomStructureStudies_Industrial_C",
+        "Icon": "T3_IndustrialStudies_ICON",
+        "Ingredients": {
+            "Flint": 250.0,
+            "Hide": 125.0,
+            "Orichalcum": 450.0,
+            "Stone": 300.0,
+            "Wood": 400.0
+        },
+        "Name": "Industrial Structure Studies Station"
     },
     "Industrial Tower": {
         "ClassName": "Structure_BuffTower_ControlPoint_Industrial_C",
@@ -5402,6 +5551,107 @@
             "Wood": 250.0
         },
         "Name": "Industrial Tower"
+    },
+    "Industrial Vessel Studies Station": {
+        "ClassName": "Structure_ModularRoomVesselIndustrial_C",
+        "Icon": "T_ShipRoom_Icon",
+        "Ingredients": {
+            "Fibers": 200.0,
+            "Hide": 300.0,
+            "Wood": 400.0
+        },
+        "Name": "Industrial Vessel Studies Station"
+    },
+    "Industrial Wonder Generator": {
+        "ClassName": "Structure_Monument_ThirdTier_IndustrialWonder_Generator_C",
+        "Icon": "ICON_Industrial_Generator",
+        "Ingredients": {
+            "Crystal": 500.0,
+            "Cursed Bone Chips": 1500.0,
+            "Cursed Wood": 1500.0,
+            "Stone": 4000.0,
+            "Wood": 2000.0
+        },
+        "Name": "Industrial Wonder Generator"
+    },
+    "Industrial Wonder Stage 1": {
+        "ClassName": "Structure_Monument_ThirdTier_IndustrialWonder_Monument_C",
+        "Icon": "TempleFoundation_Icon",
+        "Ingredients": {
+            "Cedar Bundle": 50.0,
+            "Crystal": 500.0,
+            "Cursed Bone Chips": 1500.0,
+            "Cursed Wood": 1500.0,
+            "Orichalcum": 1000.0,
+            "Pure Sulfur": 1000.0,
+            "Slate Block": 50.0,
+            "Stone": 4000.0,
+            "Wood": 2000.0
+        },
+        "Name": "Industrial Wonder Stage 1"
+    },
+    "Industrial Wonder Stage 2": {
+        "ClassName": "Structure_Monument_ThirdTier_IndustrialWonder_Stage2_C",
+        "Icon": "ICON_IndMon_T3_P2",
+        "Ingredients": {
+            "Coquina Block": 50.0,
+            "Crystal": 500.0,
+            "Fir Bundle": 50.0,
+            "Orichalcum": 1500.0,
+            "Pure Sulfur": 1500.0
+        },
+        "Name": "Industrial Wonder Stage 2"
+    },
+    "Industrial Wonder Stage 3": {
+        "ClassName": "Structure_Monument_ThirdTier_IndustrialWonder_Stage3_C",
+        "Icon": "ICON_IndMon_T3_P3",
+        "Ingredients": {
+            "Crystal": 500.0,
+            "Granite Block": 50.0,
+            "Oak Bundle": 50.0,
+            "Orichalcum": 2000.0,
+            "Pure Sulfur": 2000.0
+        },
+        "Name": "Industrial Wonder Stage 3"
+    },
+    "Industrial Wonder Stage 4": {
+        "ClassName": "Structure_Monument_ThirdTier_IndustrialWonder_Stage4_C",
+        "Icon": "ICON_IndMon_T3_P4",
+        "Ingredients": {
+            "Brimstone": 500.0,
+            "Crystal": 1000.0,
+            "Limestone Block": 50.0,
+            "Orichalcum": 2500.0,
+            "Pine Bundle": 50.0,
+            "Pure Sulfur": 2500.0
+        },
+        "Name": "Industrial Wonder Stage 4"
+    },
+    "Industrial Wonder Stage 5": {
+        "ClassName": "Structure_Monument_ThirdTier_IndustrialWonder_Stage5_C",
+        "Icon": "ICON_IndMon_T3_P5",
+        "Ingredients": {
+            "Brimstone": 1000.0,
+            "Crystal": 1250.0,
+            "Orichalcum": 3000.0,
+            "Poplar Bundle": 50.0,
+            "Pure Sulfur": 3000.0,
+            "Sandstone Block": 50.0
+        },
+        "Name": "Industrial Wonder Stage 5"
+    },
+    "Industrial Wonder Stage 6": {
+        "ClassName": "Structure_Monument_ThirdTier_IndustrialWonder_Stage6_C",
+        "Icon": "ICON_IndMon_T3_P6",
+        "Ingredients": {
+            "Brimstone": 1500.0,
+            "Crystal": 1500.0,
+            "Ironwood Bundle": 50.0,
+            "Marble Block": 50.0,
+            "Orichalcum": 3500.0,
+            "Pure Sulfur": 3500.0
+        },
+        "Name": "Industrial Wonder Stage 6"
     },
     "Innards": {
         "ClassName": "Consumable_Meat_Innards_C",
@@ -5501,7 +5751,7 @@
         "Name": "Iron Ingot"
     },
     "Ironwood": {
-        "ClassName": "Resource_Wood_Ironwood_Unbundled_C",
+        "ClassName": "Resource_Wood_Ironwood_C",
         "Icon": "Ironwood_Icon",
         "Ingredients": {
             "Gold Coin": 150.0,
@@ -6110,6 +6360,16 @@
         },
         "Name": "Lantern"
     },
+    "Lantern of the Maw": {
+        "ClassName": "Structure_LanternOfTheMaw_C",
+        "Icon": "ICON_MawRelic",
+        "Ingredients": {
+            "Fibers": 26.0,
+            "Thatch": 40.0,
+            "Wood": 44.0
+        },
+        "Name": "Lantern of the Maw"
+    },
     "Large Armored Dock": {
         "ClassName": "StructureShipHouse_Large_C",
         "Icon": "BoatHouse_Icon",
@@ -6189,6 +6449,30 @@
             "Gold Coin": 1000.0
         },
         "Name": "Large Junk Sail Skin"
+    },
+    "Large Orichalcumized Stone Gateway": {
+        "ClassName": "Structure_Gateway_L_Orichalcumized_Stone_C",
+        "Icon": "ICON_Gateway_Orichalcum",
+        "Ingredients": {
+            "Alloy": 184.0,
+            "Fibers": 314.0,
+            "Orichalcumized Rock": 840.0,
+            "Thatch": 315.0,
+            "Wood": 420.0
+        },
+        "Name": "Large Orichalcumized Stone Gateway"
+    },
+    "Large Orichalcumized Stone Wall": {
+        "ClassName": "Structure_Wall_Large_Stone_Orichalcumized_C",
+        "Icon": "ICON_Wall_Orichalcum",
+        "Ingredients": {
+            "Alloy": 240.0,
+            "Fibers": 394.0,
+            "Orichalcumized Rock": 1176.0,
+            "Thatch": 420.0,
+            "Wood": 588.0
+        },
+        "Name": "Large Orichalcumized Stone Wall"
     },
     "Large Ship": {
         "ClassName": "LargeShip_C",
@@ -6280,6 +6564,30 @@
             "Wood": 80.0
         },
         "Name": "Large Storage Box"
+    },
+    "Large Sulfurized Stone Gateway": {
+        "ClassName": "Structure_Gateway_L_Sulfurized_Stone_C",
+        "Icon": "ICON_Gateway_Sulfur",
+        "Ingredients": {
+            "Alloy": 184.0,
+            "Fibers": 314.0,
+            "Sulfurized Rock": 840.0,
+            "Thatch": 315.0,
+            "Wood": 420.0
+        },
+        "Name": "Large Sulfurized Stone Gateway"
+    },
+    "Large Sulfurized Stone Wall": {
+        "ClassName": "Structure_Wall_Large_Stone_Sulfurized_C",
+        "Icon": "ICON_Wall_Sulfur",
+        "Ingredients": {
+            "Alloy": 240.0,
+            "Fibers": 394.0,
+            "Sulfurized Rock": 1176.0,
+            "Thatch": 420.0,
+            "Wood": 588.0
+        },
+        "Name": "Large Sulfurized Stone Wall"
     },
     "Large Weight Sail": {
         "ClassName": "Structure_Sail_Large_Weight_C",
@@ -6536,7 +6844,7 @@
         }
     },
     "Limestone": {
-        "ClassName": "Resource_Stone_Limestone_Unbundled_C",
+        "ClassName": "Resource_Stone_Limestone_C",
         "Icon": "Limestone_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
@@ -6752,11 +7060,10 @@
         "Name": "Manned Ship Cannon"
     },
     "Marble": {
-        "ClassName": "Resource_Stone_Marble_Unbundled_C",
+        "ClassName": "Resource_Stone_Marble_C",
         "Icon": "Marble_Icon",
         "Ingredients": {
-            "Gold Coin": 150.0,
-            "Marble Block": 1.0,
+            "Gold Coin": 50.0,
             "Stone": 50.0
         },
         "Name": "Marble"
@@ -7434,7 +7741,7 @@
         "Name": "Note"
     },
     "Oak": {
-        "ClassName": "Resource_Wood_Oak_Unbundled_C",
+        "ClassName": "Resource_Wood_Oak_C",
         "Icon": "Oak_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
@@ -7725,6 +8032,15 @@
         "Icon": "Orichalcum_Icon",
         "Name": "Orichalcum"
     },
+    "Orichalcumized Rock": {
+        "ClassName": "Resource_Stone_Orichalcumized_Rock_C",
+        "Icon": "ICON_Rock_Coquina",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Stone": 50.0
+        },
+        "Name": "Orichalcumized Rock"
+    },
     "Orient Blue Coloring": {
         "ClassName": "Dye_OrientBlue_C",
         "Ingredients": {
@@ -7889,9 +8205,9 @@
         "ClassName": "Resource_PatchKit_C",
         "Icon": "PatchKit_Icon",
         "Ingredients": {
-            "Fibers": 100.0,
-            "Thatch": 120.0,
-            "Wood": 200.0
+            "Fibers": 50.0,
+            "Thatch": 60.0,
+            "Wood": 100.0
         },
         "Name": "Patch Kit"
     },
@@ -8039,7 +8355,7 @@
         "Name": "Pike"
     },
     "Pine": {
-        "ClassName": "Resource_Wood_Pine_Unbundled_C",
+        "ClassName": "Resource_Wood_Pine_C",
         "Icon": "Pine_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
@@ -8182,11 +8498,10 @@
         "Name": "Polymer"
     },
     "Poplar": {
-        "ClassName": "Resource_Wood_Poplar_Unbundled_C",
+        "ClassName": "Resource_Wood_Poplar_C",
         "Icon": "Poplar_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
-            "Poplar Bundle": 1.0,
             "Wood": 50.0
         },
         "Name": "Poplar"
@@ -8726,6 +9041,11 @@
         },
         "Name": "Refrigerator"
     },
+    "Relic of the Maw": {
+        "ClassName": "Consumable_RelicOfTheMaw_C",
+        "Icon": "ICON_MawRelic",
+        "Name": "Relic of the Maw"
+    },
     "Remote Keypad": {
         "ClassName": "Structure_Keypad_C",
         "Ingredients": {
@@ -9152,14 +9472,22 @@
         "Name": "Salve"
     },
     "Sandstone": {
-        "ClassName": "Resource_Stone_Sandstone_Unbundled_C",
+        "ClassName": "Resource_Stone_Sandstone_C",
         "Icon": "Sandstone_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
-            "Standstone Block": 1.0,
+            "Sandstone Block": 1.0,
             "Stone": 50.0
         },
         "Name": "Sandstone"
+    },
+    "Sandstone Block": {
+        "ClassName": "Resource_Stone_Sandstone_Block_C",
+        "Icon": "ICON_Rock_Sandstone",
+        "Ingredients": {
+            "Sandstone": 10000.0
+        },
+        "Name": "Sandstone Block"
     },
     "Santa Hat Skin": {
         "ClassName": "Skin_SantaHatAtlas_C",
@@ -9201,7 +9529,7 @@
     },
     "Sarcophagus": {
         "ClassName": "Structure_Sarcophagus_C",
-        "Icon": "Item_SimpleBed_Icon",
+        "Icon": "ICON_Sarcophagus",
         "Ingredients": {
             "Fibers": 30.0,
             "Hide": 40.0,
@@ -9684,7 +10012,7 @@
     },
     "Ship Tame Cargo Railing": {
         "ClassName": "Structure_TameCargoRailing_C",
-        "Icon": "KrakenCannonRailing",
+        "Icon": "ICON_BoatBarn",
         "Ingredients": {
             "Alloy": 60.0,
             "Fibers": 70.0,
@@ -9744,6 +10072,15 @@
                 "add": 0.0,
                 "addOverTime": false,
                 "addOverTimeSpeed": 0.0
+            },
+            "Stamina_DecT": {
+                "modify": -0.4000000059604645
+            },
+            "Stamina_DepT": {
+                "modify": -0.4000000059604645
+            },
+            "Stamina_Regen": {
+                "modify": 0.6000000238418579
             },
             "Torpidity": {
                 "add": 0.0,
@@ -9856,11 +10193,10 @@
         "Name": "Sky Coloring"
     },
     "Slate": {
-        "ClassName": "Resource_Stone_Slate_Unbundled_C",
+        "ClassName": "Resource_Stone_Slate_C",
         "Icon": "Slate_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
-            "Slate Block": 1.0,
             "Stone": 50.0
         },
         "Name": "Slate"
@@ -10129,6 +10465,14 @@
             }
         }
     },
+    "Solidified Essence": {
+        "ClassName": "Resource_Soldified_Essense_C",
+        "Icon": "ICON_MawEssence_Solidified",
+        "Ingredients": {
+            "Essence of the Maw": 75.0
+        },
+        "Name": "Solidified Essence"
+    },
     "Song Item Base": {
         "ClassName": "Ammo_Song_Base_C",
         "Icon": "HUD_MusicSheet_Colorize_d",
@@ -10161,10 +10505,16 @@
                 "addOverTime": false,
                 "addOverTimeSpeed": 0.0
             },
+            "OxygenConsumption": {
+                "modify": -1.0
+            },
             "Torpidity": {
                 "add": 0.0,
                 "addOverTime": false,
                 "addOverTimeSpeed": 3.0436202645135027e-42
+            },
+            "Weight": {
+                "modify": -0.4000000059604645
             }
         }
     },
@@ -10367,14 +10717,6 @@
             }
         }
     },
-    "Standstone Block": {
-        "ClassName": "Resource_Stone_Sandstone_Block_C",
-        "Icon": "ICON_Rock_Sandstone",
-        "Ingredients": {
-            "Sandstone": 10000.0
-        },
-        "Name": "Standstone Block"
-    },
     "Steering Wheel Skin": {
         "ClassName": "SteeringWheelSkin_BASE_C",
         "Icon": "Item_SteeringWheel_Icon",
@@ -10439,8 +10781,8 @@
         "Name": "Stolen Headstone"
     },
     "Stone": {
-        "ClassName": "Resource_Stone_BASE_C",
-        "Icon": "Item_Stone_Icon",
+        "ClassName": "Resource_Stone_C",
+        "Icon": "Stone_Icon",
         "Name": "Stone"
     },
     "Stone Arrow": {
@@ -10695,6 +11037,9 @@
                 "addOverTime": false,
                 "addOverTimeSpeed": 0.0
             },
+            "OxygenConsumption": {
+                "modify": -0.25
+            },
             "Torpidity": {
                 "add": 0.0,
                 "addOverTime": false,
@@ -10747,6 +11092,15 @@
             "Wood": 20.0
         },
         "Name": "Sulfur Pit"
+    },
+    "Sulfurized Rock": {
+        "ClassName": "Resource_Stone_Sulfurized_Rock_C",
+        "Icon": "Limestone_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Stone": 50.0
+        },
+        "Name": "Sulfurized Rock"
     },
     "Sulfurous Minni": {
         "ClassName": "Ammo_SulfurousMinni_C",
@@ -10902,14 +11256,14 @@
     },
     "Tame House": {
         "ClassName": "Structure_TameHouse_C",
-        "Icon": "Item_Smithy_Icon",
+        "Icon": "ICON_Tamehouse",
         "Ingredients": {
             "Fibers": 40.0,
-            "Flint": 5.0,
+            "Flint": 20.0,
             "Hide": 65.0,
             "Metal": 20.0,
-            "Stone": 125.0,
-            "Wood": 20.0
+            "Stone": 195.0,
+            "Wood": 90.0
         },
         "Name": "Tame House"
     },
@@ -10982,6 +11336,12 @@
                 "add": 0.0,
                 "addOverTime": false,
                 "addOverTimeSpeed": 0.0
+            },
+            "Health_Regen_InCombat": {
+                "modify": -0.5
+            },
+            "Health_Regen_NotInCombat": {
+                "modify": 3.0
             },
             "Torpidity": {
                 "add": 0.0,

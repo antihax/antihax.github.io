@@ -217,6 +217,10 @@ L.AtlasGrid = L.LayerGroup.extend({
 						serverType = '&#9774;';
 						serverTypeName = 'Freeport';
 						break;
+					case 5:
+						serverType = '&#9774;';
+						serverTypeName = 'Golden Age';
+						break;
 				}
 
 				let text = `<div><div class="leaflet-grid-header">${grid}</div> <div class="leaflet-grid-icon">${serverType}</div>`;

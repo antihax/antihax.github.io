@@ -26,6 +26,40 @@
                 "Weight": 1.0
             }
         ],
+        "DinoDropInventoryComponent_Gold_AoD_PvE_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Gold Coin"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Gold_AoD_PvE_Heavy_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Gold Coin"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
         "DinoDropInventoryComponent_Gold_BASE_C": [
             {
                 "ChanceForBlueprint": 0.0,
@@ -971,7 +1005,6 @@
                 "Weight": 1.0
             }
         ],
-        "LootItemSet_CaveDrop_T1_Armor_C": null,
         "LootItemSet_Encampment_Consumables_C": [
             {
                 "ChanceForBlueprint": 0.0,
@@ -2025,6 +2058,23 @@
                 "QualityPower": 1.0,
                 "QuantityPower": 1.0,
                 "Weight": 0.20000000298023224
+            }
+        ],
+        "LootItemSet_MawWaters_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Relic of the Maw"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
             }
         ],
         "LootItemSet_Music_C": [

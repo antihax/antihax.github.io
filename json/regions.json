@@ -1,63 +1,45 @@
 {
 	"Africa": {
-		"MaxX": 10,
-		"MaxY": 8,
-		"MinX": 6,
-		"MinY": 5
+		"MaxX": 3,
+		"MaxY": 9,
+		"MinX": 0,
+		"MinY": 7
 	},
 	"Antarctica": {
-		"MaxX": 10,
-		"MaxY": 10,
-		"MinX": 5,
-		"MinY": 9
-	},
-	"Central Waters": {
-		"MaxX": 10,
-		"MaxY": 4,
-		"MinX": 4,
-		"MinY": 0
-	},
-	"Cervantes' Rest": {
 		"MaxX": 12,
 		"MaxY": 10,
-		"MinX": 12,
+		"MinX": 4,
 		"MinY": 10
 	},
-	"Eastern Sea": {
+	"Central Waters": {
 		"MaxX": 12,
-		"MaxY": 8,
-		"MinX": 12,
-		"MinY": 8
+		"MaxY": 9,
+		"MinX": 4,
+		"MinY": 1
 	},
-	"Eastern Waters": {
-		"MaxX": 12,
-		"MaxY": 2,
-		"MinX": 11,
-		"MinY": 0
+	"Cervantes' Rest": {
+		"MaxX": 3,
+		"MaxY": 10,
+		"MinX": 3,
+		"MinY": 10
 	},
 	"Kraken's Lair": {
 		"MaxX": 3,
-		"MaxY": 4,
+		"MaxY": 12,
 		"MinX": 3,
-		"MinY": 4
+		"MinY": 12
+	},
+	"Maw Water": {
+		"MaxX": 12,
+		"MaxY": 12,
+		"MinX": 11,
+		"MinY": 11
 	},
 	"North Pole": {
-		"MaxX": 4,
-		"MaxY": 10,
-		"MinX": 0,
-		"MinY": 9
-	},
-	"Northern Sea": {
-		"MaxX": 11,
-		"MaxY": 8,
-		"MinX": 11,
-		"MinY": 8
-	},
-	"Outer Maw": {
 		"MaxX": 12,
-		"MaxY": 7,
-		"MinX": 11,
-		"MinY": 6
+		"MaxY": 0,
+		"MinX": 4,
+		"MinY": 0
 	},
 	"Rookie Cove": {
 		"MaxX": 3,
@@ -65,52 +47,40 @@
 		"MinX": 0,
 		"MinY": 0
 	},
-	"South America": {
-		"MaxX": 5,
-		"MaxY": 8,
-		"MinX": 0,
-		"MinY": 5
-	},
-	"Southern Sea": {
-		"MaxX": 11,
-		"MaxY": 9,
-		"MinX": 11,
-		"MinY": 9
-	},
-	"Tortuga": {
+	"Royale Reef": {
 		"MaxX": 2,
-		"MaxY": 4,
-		"MinX": 2,
+		"MaxY": 12,
+		"MinX": 0,
+		"MinY": 10
+	},
+	"South America": {
+		"MaxX": 3,
+		"MaxY": 6,
+		"MinX": 0,
 		"MinY": 4
 	},
+	"Tortuga": {
+		"MaxX": 3,
+		"MaxY": 11,
+		"MinX": 3,
+		"MinY": 11
+	},
 	"Trackless Waters": {
-		"MaxX": 7,
+		"MaxX": 8,
+		"MaxY": 12,
+		"MinX": 7,
+		"MinY": 11
+	},
+	"Uncharted Sea": {
+		"MaxX": 6,
 		"MaxY": 12,
 		"MinX": 4,
 		"MinY": 11
 	},
-	"Uncharted Sea": {
-		"MaxX": 3,
-		"MaxY": 12,
-		"MinX": 0,
-		"MinY": 11
-	},
 	"Unknown Depths": {
-		"MaxX": 12,
+		"MaxX": 10,
 		"MaxY": 12,
-		"MinX": 8,
+		"MinX": 9,
 		"MinY": 11
-	},
-	"Western Sea": {
-		"MaxX": 12,
-		"MaxY": 9,
-		"MinX": 12,
-		"MinY": 9
-	},
-	"Western Waters": {
-		"MaxX": 12,
-		"MaxY": 5,
-		"MinX": 11,
-		"MinY": 3
 	}
 }
