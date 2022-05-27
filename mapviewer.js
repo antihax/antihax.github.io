@@ -88,7 +88,7 @@ class WorldMap extends React.Component {
 									radius: 1.5,
 									color: '#f00',
 									opacity: 0,
-									fillOpacity: 0.1,
+									fillOpacity: 0.0,
 								});
 						} else {
 							exact = false;
@@ -96,7 +96,7 @@ class WorldMap extends React.Component {
 								radius: 1.5,
 								color: '#f00',
 								opacity: 0,
-								fillOpacity: 0.1,
+								fillOpacity: 0.0,
 							});
 						}
 					});
@@ -325,25 +325,15 @@ class WorldMap extends React.Component {
 			.then((res) => res.json())
 			.then(function (altars) {
 				altars.forEach((d) => {
-					if (d.name === 'Static') {
-						let decay = L.circle(GPStoLeaflet(d.long, d.lat), {
-							radius: unrealToLeafletSize(10000),
-							interactive: true,
-							color: 'red',
-							fillOpacity: 0,
-						}).bindPopup('Rapid Decay');
-						map.addLayer(decay);
-					} else {
-						let pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
-							icon: altarIcon,
-						});
-						pin.bindPopup(d.name, {
-							showOnMouseOver: true,
-							autoPan: true,
-							keepInView: true,
-						});
-						map.Altars.addLayer(pin);
-					}
+					let pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+						icon: altarIcon,
+					});
+					pin.bindPopup(d.name, {
+						showOnMouseOver: true,
+						autoPan: true,
+						keepInView: true,
+					});
+					map.Altars.addLayer(pin);
 				});
 			})
 			.catch((error) => {
@@ -582,7 +572,7 @@ class WorldMap extends React.Component {
 							radius: 1.5,
 							color: '#f00',
 							opacity: 0,
-							fillOpacity: 0.1,
+							fillOpacity: 0.0,
 						});
 
 						circle.animals = [];

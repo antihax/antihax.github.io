@@ -2,476 +2,311 @@
 	{
 		"lat": -107.97142791748047,
 		"long": -57.28104019165039,
-		"name": "Damned Altar"
-	},
-	{
-		"lat": -107.97142791748047,
-		"long": -57.28104019165039,
-		"name": "Static"
-	},
-	{
-		"lat": -160.8216094970703,
-		"long": -90.51983642578125,
-		"name": "Static"
-	},
-	{
-		"lat": -341.5773620605469,
-		"long": -92.45932006835938,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -411.12451171875,
 		"long": -79.94345092773438,
-		"name": "Static"
-	},
-	{
-		"lat": -422.5800476074219,
-		"long": -66.70552062988281,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -414.6268310546875,
 		"long": -71.62548065185547,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -407.1726379394531,
 		"long": -59.335811614990234,
-		"name": "Static"
+		"name": "Lava Vent"
+	},
+	{
+		"lat": -422.5800476074219,
+		"long": -66.70552062988281,
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -461.55584716796875,
 		"long": -85.59432220458984,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -145.3429412841797,
 		"long": -26.10279083251953,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -162.85060119628906,
 		"long": -43.56421661376953,
-		"name": "Damned Altar"
-	},
-	{
-		"lat": -162.85060119628906,
-		"long": -43.56421661376953,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -241.17718505859375,
 		"long": -10.804624557495117,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -241.17718505859375,
-		"long": -10.804624557495117,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -259.0268249511719,
 		"long": -11.163187980651855,
-		"name": "Damned Altar"
-	},
-	{
-		"lat": -259.0268249511719,
-		"long": -11.163187980651855,
-		"name": "Static"
-	},
-	{
-		"lat": -387.0925598144531,
-		"long": -23.389989852905273,
-		"name": "Pyramid Site"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -433.6981201171875,
 		"long": -35.759456634521484,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -440.2759094238281,
-		"long": -38.508235931396484,
-		"name": "Static"
-	},
-	{
-		"lat": -438.6219482421875,
-		"long": -10.410606384277344,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -415.4060974121094,
 		"long": -42.01466369628906,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
-		"lat": -433.6981201171875,
-		"long": -35.759456634521484,
-		"name": "Static"
+		"lat": -440.2759094238281,
+		"long": -38.508235931396484,
+		"name": "Sulfur Pit"
+	},
+	{
+		"lat": -438.6219482421875,
+		"long": -10.410606384277344,
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -513.0557861328125,
 		"long": -7.713080406188965,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -536.5062866210938,
 		"long": -24.21257209777832,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": 73.07011413574219,
 		"long": 39.433536529541016,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": 73.07011413574219,
-		"long": 39.433536529541016,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -159.14186096191406,
 		"long": 6.503473281860352,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -159.14186096191406,
-		"long": 6.503473281860352,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -208.25453186035156,
 		"long": 40.675331115722656,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -208.25453186035156,
-		"long": 40.675331115722656,
-		"name": "Static"
-	},
-	{
-		"lat": -387.0307312011719,
-		"long": 25.797134399414062,
-		"name": "Pyramid Site"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -424.9229431152344,
 		"long": 9.901232719421387,
-		"name": "Static"
-	},
-	{
-		"lat": -323.5838928222656,
-		"long": 86.49774932861328,
-		"name": "Pyramid Site"
-	},
-	{
-		"lat": -386.546142578125,
-		"long": 77.14656829833984,
-		"name": "Pyramid Site"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -136.04067993164062,
 		"long": 111.51502227783203,
-		"name": "Damned Altar"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -141.12075805664062,
 		"long": 110.54103088378906,
-		"name": "Damned Altar"
-	},
-	{
-		"lat": -136.04067993164062,
-		"long": 111.51502227783203,
-		"name": "Static"
-	},
-	{
-		"lat": -141.12075805664062,
-		"long": 110.54103088378906,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -191.50485229492188,
 		"long": 112.1271743774414,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -191.50485229492188,
-		"long": 112.1271743774414,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -288.9207763671875,
 		"long": 142.5421600341797,
-		"name": "AoTD Altar"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -256.34814453125,
 		"long": 135.09982299804688,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -288.9207763671875,
-		"long": 142.5421600341797,
-		"name": "Static"
-	},
-	{
-		"lat": -256.34814453125,
-		"long": 135.09982299804688,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -341.6457824707031,
 		"long": 107.65762329101562,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -341.6457824707031,
-		"long": 107.65762329101562,
-		"name": "Static"
-	},
-	{
-		"lat": -389.8749694824219,
-		"long": 108.90081024169922,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -439.8177185058594,
 		"long": 113.89387512207031,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -439.8177185058594,
-		"long": 113.89387512207031,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -410.5883483886719,
 		"long": 107.74099731445312,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -478.85394287109375,
 		"long": 138.7131805419922,
-		"name": "Static"
-	},
-	{
-		"lat": 36.49428176879883,
-		"long": 161.08029174804688,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -179.08261108398438,
 		"long": 167.06959533691406,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -174.65269470214844,
 		"long": 179.40728759765625,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -210.90838623046875,
 		"long": 189.84034729003906,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -210.90838623046875,
-		"long": 189.84034729003906,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -509.6665954589844,
 		"long": 164.96414184570312,
-		"name": "Static"
-	},
-	{
-		"lat": 71.40524291992188,
-		"long": 210.6904754638672,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": 65.83842468261719,
 		"long": 240.89321899414062,
-		"name": "Static"
+		"name": "Sulfur Pit"
+	},
+	{
+		"lat": 71.40524291992188,
+		"long": 210.6904754638672,
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -159.15679931640625,
 		"long": 208.21786499023438,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -159.15679931640625,
-		"long": 208.21786499023438,
-		"name": "Static"
-	},
-	{
-		"lat": -205.1160888671875,
-		"long": 235.15684509277344,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -438.0682067871094,
 		"long": 241.11468505859375,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -506.73199462890625,
 		"long": 206.67529296875,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": 43.30539321899414,
 		"long": 267.52252197265625,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": 16.012062072753906,
 		"long": 291.476318359375,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -259.5690612792969,
 		"long": 258.7445983886719,
-		"name": "AoTD Altar"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -261.08642578125,
 		"long": 289.4429931640625,
-		"name": "Static"
-	},
-	{
-		"lat": -259.5690612792969,
-		"long": 258.7445983886719,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -355.0386657714844,
 		"long": 290.5092468261719,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -490.065185546875,
 		"long": 292.1618347167969,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -440.1968078613281,
 		"long": 335.37750244140625,
-		"name": "Static"
-	},
-	{
-		"lat": -470.7244873046875,
-		"long": 314.0723876953125,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -478.7223815917969,
 		"long": 322.88885498046875,
-		"name": "Static"
+		"name": "Lava Vent"
+	},
+	{
+		"lat": -470.7244873046875,
+		"long": 314.0723876953125,
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -262.9776611328125,
 		"long": 360.9528503417969,
-		"name": "Damned Altar"
-	},
-	{
-		"lat": -262.9776611328125,
-		"long": 360.9528503417969,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -411.40728759765625,
 		"long": 360.42877197265625,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -464.1859436035156,
 		"long": 359.12164306640625,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": 91.85667419433594,
 		"long": 412.032470703125,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -259.8806457519531,
 		"long": 444.45697021484375,
-		"name": "Damned Altar"
-	},
-	{
-		"lat": -259.8806457519531,
-		"long": 444.45697021484375,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -440.29229736328125,
 		"long": 440.0221862792969,
-		"name": "Damned Altar"
-	},
-	{
-		"lat": -440.29229736328125,
-		"long": 440.0221862792969,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": 62.33952713012695,
 		"long": 467.58184814453125,
-		"name": "Damned Altar"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": 90.50198364257812,
 		"long": 462.33953857421875,
-		"name": "Static"
-	},
-	{
-		"lat": 62.33952713012695,
-		"long": 467.58184814453125,
-		"name": "Static"
-	},
-	{
-		"lat": 36.48556900024414,
-		"long": 491.1216125488281,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -156.04937744140625,
 		"long": 458.5567932128906,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -358.9286193847656,
 		"long": 457.5130615234375,
-		"name": "AoTD Altar"
-	},
-	{
-		"lat": -358.9286193847656,
-		"long": 457.5130615234375,
-		"name": "Static"
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": -409.24615478515625,
 		"long": 457.8493957519531,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -179.57003784179688,
 		"long": 539.4345703125,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -388.969482421875,
 		"long": 545.32568359375,
-		"name": "Static"
+		"name": "Lava Vent"
 	},
 	{
 		"lat": -361.5029602050781,
 		"long": 507.9345703125,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	},
 	{
 		"lat": -388.8119201660156,
 		"long": 507.998291015625,
-		"name": "Static"
+		"name": "Sulfur Pit"
 	}
 ]
