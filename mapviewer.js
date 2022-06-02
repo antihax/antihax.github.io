@@ -45,6 +45,7 @@ class WorldMap extends React.Component {
 		map.ControlPoints = L.layerGroup(layerOpts);
 		map.Portals = L.layerGroup(layerOpts).addTo(map);
 		map.Altars = L.layerGroup(layerOpts);
+		map.Shops = L.layerGroup(layerOpts);
 		map.Ships = L.layerGroup(layerOpts);
 		map.TradeWinds = L.layerGroup(layerOpts);
 		map.Stones = L.layerGroup(layerOpts);
@@ -121,6 +122,7 @@ class WorldMap extends React.Component {
 					Portals: map.Portals,
 					Altars: map.Altars,
 					Bosses: map.Bosses,
+					Shops: map.Shops,
 					Ships: map.Ships,
 					TradeWinds: map.TradeWinds.addTo(map),
 					Stones: map.Stones,
@@ -144,6 +146,7 @@ class WorldMap extends React.Component {
 			if (map.getZoom() < 5) {
 				if (!stickyLayers.Bosses) map.removeLayer(map.Bosses);
 				if (!stickyLayers.Stones) map.removeLayer(map.Stones);
+				if (!stickyLayers.Shops) map.removeLayer(map.Shops);
 			} else {
 				if (!stickyLayers.Bosses) {
 					map.addLayer(map.Bosses);
@@ -153,6 +156,11 @@ class WorldMap extends React.Component {
 				if (!stickyLayers.Stones) {
 					map.addLayer(map.Stones);
 					stickyLayers.Stones = false;
+				}
+
+				if (!stickyLayers.Shops) {
+					map.addLayer(map.Shops);
+					stickyLayers.Shops = false;
 				}
 			}
 		});
@@ -210,6 +218,12 @@ class WorldMap extends React.Component {
 
 		let bossIcon = L.icon({
 			iconUrl: 'icons/Boss.svg',
+			iconSize: [32, 32],
+			iconAnchor: [16, 16],
+		});
+
+		let shopIcon = L.icon({
+			iconUrl: 'icons/Shop.svg',
 			iconSize: [32, 32],
 			iconAnchor: [16, 16],
 		});
@@ -478,7 +492,31 @@ class WorldMap extends React.Component {
 			.catch((error) => {
 				console.log(error);
 			});
+		fetch('json/pveShops.json', {
+			dataType: 'json',
+		})
+			.then((res) => res.json())
+			.then(function (shops) {
+				shops.forEach((shop) => {
+					console.log(shop);
+					let pin = new L.Marker(CheatToLeaflet(shop.location), {
+						icon: shopIcon,
+					});
 
+					if (pin) {
+						pin.bindPopup(`${shop.name}`, {
+							showOnMouseOver: true,
+							autoPan: true,
+							keepInView: true,
+						});
+
+						map.Shops.addLayer(pin);
+					}
+				});
+			})
+			.catch((error) => {
+				console.log(error);
+			});
 		fetch('json/tradeWinds.json', {
 			dataType: 'json',
 		})
@@ -826,6 +864,18 @@ class App extends React.Component {
 function GPStoLeaflet(x, y) {
 	let long = (y - config.GPSBounds.min[1]) * config.XScale * 1.28,
 		lat = (x - config.GPSBounds.min[0]) * config.YScale * 1.28;
+
+	return [long, lat];
+}
+
+function CheatToLeaflet(c) {
+	let parts = c.split(' ');
+	let gridX = parseInt(parts[0].substring(1) - 1);
+	let gridY = parts[0].toLowerCase().charCodeAt(0) - 97;
+	console.log(gridX, gridY);
+	let pX = parseInt(parts[2]) + config.GridSize / 2;
+	let pY = parseInt(parts[1]) + config.GridSize / 2;
+	let [long, lat] = unrealToLeaflet(pY + config.GridSize * gridY, pX + config.GridSize * gridX);
 
 	return [long, lat];
 }
