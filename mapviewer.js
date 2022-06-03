@@ -872,7 +872,7 @@ function CheatToLeaflet(c) {
 	let parts = c.split(' ');
 	let gridX = parseInt(parts[0].substring(1) - 1);
 	let gridY = parts[0].toLowerCase().charCodeAt(0) - 97;
-	console.log(gridX, gridY);
+
 	let pX = parseInt(parts[2]) + config.GridSize / 2;
 	let pY = parseInt(parts[1]) + config.GridSize / 2;
 	let [long, lat] = unrealToLeaflet(pY + config.GridSize * gridY, pX + config.GridSize * gridX);
