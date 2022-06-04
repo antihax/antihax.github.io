@@ -1,4 +1,9 @@
 [
 	{"location": "H9 -332079 428954 434", "name": "Costco Kirkland's"},
-	{"location": "H9 -386529 374701 390", "name": "WetWang Bangles Shopping Emporium"}
+	{"location": "H9 -386529 374701 390", "name": "WetWang Bangles Shopping Emporium"},
+	{"location": "H9 -194350 323339 3937", "name": "CastAway Wanderers Shop"},
+	{"location": "H9 -196489 320785 4149", "name": "OGG Shop"},
+	{"location": "H9 -192119 321380 3935", "name": "The Goonies Shop"},
+	{"location": "H9 -291262 400973 341", "name": "Valkyries Shop"},
+	{"location": "H9 -193498 319579 4153", "name": "Dark Water Shops"}
 ]
