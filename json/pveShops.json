@@ -1,5 +1,15 @@
 [
 	{"location": "H9 -332079 428954 434", "name": "Costco Kirkland's"},
+
+	{"location": "H9 -435536 280427 317", "name": "Tame Sales (weekend only)"},
+	{"location": "H9 -324509 228214 132", "name": "EITC Prize Claim (weekend only)"},
+	{"location": "H9 -318726 256989 383", "name": "EITC Games, Arena, Veta Workshop (weekend only)"},
+	{"location": "H9 -342740 277081 4615", "name": "EITC Raffle Tickets (weekend only)"},
+
+	{"location": "H9 -331270 424572 658", "name": "Forsaken Oath Shop"},
+	{"location": "H9 -327800 419356 568", "name": "Puddle Pirates Shop"},
+	{"location": "H9 -377523 371707 1013", "name": "Pieces of Eight Shop"},
+	{"location": "H9 -383844 378647 577", "name": "Midnight Farm's Shop"},
 	{"location": "H9 -386529 374701 390", "name": "WetWang Bangles Shopping Emporium"},
 	{"location": "H9 -194350 323339 3937", "name": "CastAway Wanderers Shop"},
 	{"location": "H9 -196489 320785 4149", "name": "OGG Shop"},
