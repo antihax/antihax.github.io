@@ -7,7 +7,15 @@
 	{"location": "H9 -342740 277081 4615", "name": "EITC Raffle Tickets (weekend only)"},
 	{"location": "H9 -342966 283007 5201", "name": "Dragon Ink Tatoos (weekend only)"},
 
-	{"location": "H9 -331270 424572 658", "name": "Forsaken Oath Shop"},
+	{"location": "H9 -255373 378016 404", "name": "magnificents Shop"},
+	{"location": "H9 -256642 380108 425", "name": "Kraken Shop"},
+
+	{"location": "H9 -286911 396506 558", "name": "Budrunners Shop"},
+	{"location": "H9 -289212 398201 399", "name": "Sexy Beaches Shop"},
+	{"location": "H9 -291262 400973 341", "name": "Valkyries Shop"},
+	{"location": "H9 -294651 401753 416", "name": "Won-Kru Shop"},
+
+	{"location": "H9 -331270 424572 658", "name": "Tepes Travel Center"},
 	{"location": "H9 -327800 419356 568", "name": "Puddle Pirates Shop"},
 	{"location": "H9 -377523 371707 1013", "name": "Pieces of Eight Shop"},
 	{"location": "H9 -383844 378647 577", "name": "Midnight Farm's Shop"},
@@ -15,7 +23,7 @@
 	{"location": "H9 -194350 323339 3937", "name": "CastAway Wanderers Shop"},
 	{"location": "H9 -196489 320785 4149", "name": "OGG Shop"},
 	{"location": "H9 -192119 321380 3935", "name": "The Goonies Shop"},
-	{"location": "H9 -291262 400973 341", "name": "Valkyries Shop"},
+
 	{"location": "H9 -197052 318063 4157", "name": "Ninja Labs Shop"},
 	{"location": "H9 -193498 319579 4153", "name": "Dark Water Shops"}
 ]
