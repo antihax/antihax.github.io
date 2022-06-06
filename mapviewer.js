@@ -498,7 +498,6 @@ class WorldMap extends React.Component {
 			.then((res) => res.json())
 			.then(function (shops) {
 				shops.forEach((shop) => {
-					console.log(shop);
 					let pin = new L.Marker(CheatToLeaflet(shop.location), {
 						icon: shopIcon,
 					});

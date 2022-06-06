@@ -1,7 +1,8 @@
 /* global L, config */
 L.AtlasMap = L.Map.extend({
-	initialize: function (id, options) {
+	initialize: async function (id, options) {
 		options = L.extend(options || {}, {});
+
 		return L.Map.prototype.initialize.call(this, id, options);
 	},
 
@@ -16,7 +17,41 @@ L.AtlasMap = L.Map.extend({
 		return [gridX + gridY, localX, localY];
 	},
 
-	worldToGPS: function (x, y, bounds) {
+	gridStringToIntegers: function (grid) {
+		let gridX = parseInt(grid.substring(1) - 1);
+		let gridY = grid.toLowerCase().charCodeAt(0) - 97;
+		return [gridX, gridY];
+	},
+
+	unrealToLeafletSize: function (size) {
+		const unrealx = config.GridSize * config.ServersX;
+		return (size / unrealx) * 256;
+	},
+
+	cheatToLeaflet: function (c) {
+		let parts = c.split(' ');
+		let [gridX, gridY] = this.gridStringToIntegers(parts[0]);
+
+		let pX = parseInt(parts[2]) + config.GridSize / 2;
+		let pY = parseInt(parts[1]) + config.GridSize / 2;
+		let [long, lat] = this.unrealToLeaflet(
+			pY + config.GridSize * gridY,
+			pX + config.GridSize * gridX,
+		);
+
+		return [long, lat];
+	},
+
+	localGPStoLeaflet: function (grid, x, y) {
+		let [gridX, gridY] = this.gridStringToIntegers(grid);
+		Object.values(this._regions).forEach((v) => {
+			if (gridX >= v.MaxX && gridX <= v.MinX && gridY >= v.MaxY && gridY <= v.MinY) {
+				console.log(v);
+			}
+		});
+	},
+
+	worldToGlobalGPS: function (x, y, bounds) {
 		const worldUnitsX = config.ServersX * config.GridSize;
 		const worldUnitsY = config.ServersY * config.GridSize;
 		let long = (x / worldUnitsX) * Math.abs(bounds.min[0] - bounds.max[0]) + bounds.min[0];

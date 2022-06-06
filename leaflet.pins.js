@@ -24,7 +24,6 @@ L.Control.Pin = L.Control.extend({
 		this._pathfinder = ngraphPath.aStar(this._graph, {
 			oriented: true,
 		});
-
 		this._addPins();
 	},
 
@@ -154,14 +153,26 @@ L.Control.Pin = L.Control.extend({
 			let component = window.location.href.substring(window.location.href.indexOf('#') + 1);
 			if (component) {
 				let pins = decodeURIComponent(component).split(',');
+				const digit = new Set([45, 48, 49, 50, 51, 52, 53, 53, 54, 56, 57]);
 				if (pins.length > 0) {
-					pins.forEach((v) => {
-						this._pins.push(v);
-						let latlng = v.split(';');
-						L.marker(latlng, {name: 'pin', parent: this})
-							.addTo(this._map)
-							.on('click', this._markerClick);
-					});
+					if (digit.has(pins[0].charCodeAt(0))) {
+						pins.forEach((v) => {
+							this._pins.push(v);
+							let latlng = v.split(';');
+							L.marker(latlng, {name: 'pin', parent: this})
+								.addTo(this._map)
+								.on('click', this._markerClick);
+						});
+					} else if (pins[0] === 'localgps') {
+						pins.shift();
+						pins.forEach((v) => {
+							//this._pins.push(v);
+
+							// grid;long;lat;comment
+							let pinDetail = v.split(';');
+							this._map.localGPStoLeaflet(pinDetail[0], pinDetail[1], pinDetail[2]);
+						});
+					}
 				}
 			}
 		}
@@ -209,8 +220,8 @@ L.Control.Pin = L.Control.extend({
 			let pin2 = this.closestNode(this._pins[1].split(';'));
 
 			let p = this._pathfinder.find(
-				this._map.worldToGPS(pin1[0], pin1[1], config.GPSBounds).toString(),
-				this._map.worldToGPS(pin2[0], pin2[1], config.GPSBounds).toString(),
+				this._map.worldToGlobalGPS(pin1[0], pin1[1], config.GPSBounds).toString(),
+				this._map.worldToGlobalGPS(pin2[0], pin2[1], config.GPSBounds).toString(),
 			);
 			for (let j = 1; j < p.length; j++) {
 				let p1 = this.GPSStringtoLeaflet(p[j - 1].id);
