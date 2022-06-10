@@ -1,6 +1,4 @@
 [
-	{"location": "H9 -332079 428954 434", "name": "Costco Kirkland's"},
-
 	{"location": "H9 -435536 280427 317", "name": "Tame Sales (weekend only)"},
 	{"location": "H9 -324509 228214 132", "name": "EITC Prize Claim (weekend only)"},
 	{"location": "H9 -318726 256989 383", "name": "EITC Games, Arena, Veta Workshop (weekend only)"},
@@ -13,11 +11,18 @@
 	{"location": "H9 -286911 396506 558", "name": "Budrunners Shop"},
 	{"location": "H9 -289212 398201 399", "name": "Sexy Beaches Shop"},
 	{"location": "H9 -291262 400973 341", "name": "Valkyries Shop"},
-	{"location": "H9 -294651 401753 416", "name": "Won-Kru Shop"},
+
 	{"location": "H9 -259737 381037 535", "name": "Skallywags Loot"},
 
+	{"location": "H9 -298468 402032 501", "name": "In & Out Trading"},
+	{"location": "H9 -294651 401753 416", "name": "Won-Kru Shop"},
+
+	{"location": "H9 -332079 428954 434", "name": "Costco Kirkland's"},
 	{"location": "H9 -331270 424572 658", "name": "Tepes Travel Center"},
 	{"location": "H9 -327800 419356 568", "name": "Puddle Pirates Shop"},
+	{"location": "H9 -328901 423165 432", "name": "Willies Wonders"},
+	{"location": "H9 -320238 420046 435", "name": "Penny Dreadful's Shop"},
+
 	{"location": "H9 -377523 371707 1013", "name": "Blackbeard's Plunder"},
 	{"location": "H9 -383844 378647 577", "name": "Midnight Farm's Shop"},
 	{"location": "H9 -386529 374701 390", "name": "WetWang Bangles Shopping Emporium"},
