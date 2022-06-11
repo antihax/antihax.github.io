@@ -170,7 +170,14 @@ L.Control.Pin = L.Control.extend({
 
 							// grid;long;lat;comment
 							let pinDetail = v.split(';');
-							this._map.localGPStoLeaflet(pinDetail[0], pinDetail[1], pinDetail[2]);
+							let [x, y] = this._map.localGPStoWorld(
+								pinDetail[0],
+								parseInt(pinDetail[1]),
+								parseInt(pinDetail[2]),
+							);
+							L.marker(this._map.worldToLeaflet(x, y), {name: 'pin', parent: this})
+								.addTo(this._map)
+								.on('click', this._markerClick);
 						});
 					}
 				}

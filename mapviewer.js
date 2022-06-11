@@ -305,7 +305,7 @@ class WorldMap extends React.Component {
 					d.Nodes.forEach((node) => {
 						let pin = map.addPortalPin(
 							icon,
-							unrealToLeaflet(node.worldX, node.worldY),
+							worldToLeaflet(node.worldX, node.worldY),
 							node.PortalName,
 						);
 						map.Portals.addLayer(pin);
@@ -317,8 +317,8 @@ class WorldMap extends React.Component {
 						} else {
 							let pl = L.polyline(
 								[
-									unrealToLeaflet(node.worldX, node.worldY),
-									unrealToLeaflet(first.worldX, first.worldY),
+									worldToLeaflet(node.worldX, node.worldY),
+									worldToLeaflet(first.worldX, first.worldY),
 								],
 								{color: 'red', opacity: 0.01},
 							);
@@ -447,12 +447,12 @@ class WorldMap extends React.Component {
 						n.rotation,
 					);
 
-					pathing.push('M', unrealToLeaflet(n.worldX, n.worldY));
+					pathing.push('M', worldToLeaflet(n.worldX, n.worldY));
 					pathing.push(
 						'C',
-						unrealToLeafletArray(next),
-						unrealToLeafletArray(previous),
-						unrealToLeafletArray(center),
+						worldToLeafletArray(next),
+						worldToLeafletArray(previous),
+						worldToLeafletArray(center),
 					);
 
 					path.Nodes.push(path.Nodes.shift());
@@ -464,10 +464,10 @@ class WorldMap extends React.Component {
 							center,
 							n.rotation,
 						);
-						pathing.push('S', unrealToLeafletArray(previous), unrealToLeafletArray(center));
+						pathing.push('S', worldToLeafletArray(previous), worldToLeafletArray(center));
 						let actualang = n.rotation + 90;
 						if (path.reverseDir) actualang += 180;
-						let pin = new L.Marker(unrealToLeafletArray(center), {
+						let pin = new L.Marker(worldToLeafletArray(center), {
 							icon: ArrowIcon,
 							rotationAngle: actualang,
 						});
@@ -537,12 +537,12 @@ class WorldMap extends React.Component {
 						n.rotation,
 					);
 
-					pathing.push('M', unrealToLeaflet(n.worldX, n.worldY));
+					pathing.push('M', worldToLeaflet(n.worldX, n.worldY));
 					pathing.push(
 						'C',
-						unrealToLeafletArray(next),
-						unrealToLeafletArray(previous),
-						unrealToLeafletArray(center),
+						worldToLeafletArray(next),
+						worldToLeafletArray(previous),
+						worldToLeafletArray(center),
 					);
 
 					// path.Nodes.push(path.Nodes.shift());
@@ -554,11 +554,11 @@ class WorldMap extends React.Component {
 							center,
 							n.rotation,
 						);
-						pathing.push('S', unrealToLeafletArray(previous), unrealToLeafletArray(center));
+						pathing.push('S', worldToLeafletArray(previous), worldToLeafletArray(center));
 
 						let actualang = n.rotation + 90;
 						if (path.reverseDir) actualang += 180;
-						let pin = new L.Marker(unrealToLeafletArray(center), {
+						let pin = new L.Marker(worldToLeafletArray(center), {
 							icon: ArrowIcon,
 							rotationAngle: actualang,
 						});
@@ -591,7 +591,7 @@ class WorldMap extends React.Component {
 				for (let k in islands) {
 					let island = islands[k];
 					if (island.isControlPoint) {
-						let pin = new L.Marker(unrealToLeaflet(island.worldX, island.worldY), {
+						let pin = new L.Marker(worldToLeaflet(island.worldX, island.worldY), {
 							icon: CPIcon,
 						});
 						pin.bindPopup(`Control Point`, {
@@ -605,7 +605,7 @@ class WorldMap extends React.Component {
 					}
 
 					if (island.animals || island.resources) {
-						let circle = new IslandCircle(unrealToLeaflet(island.worldX, island.worldY), {
+						let circle = new IslandCircle(worldToLeaflet(island.worldX, island.worldY), {
 							radius: 1.5,
 							color: '#f00',
 							opacity: 0,
@@ -874,17 +874,17 @@ function CheatToLeaflet(c) {
 
 	let pX = parseInt(parts[2]) + config.GridSize / 2;
 	let pY = parseInt(parts[1]) + config.GridSize / 2;
-	let [long, lat] = unrealToLeaflet(pY + config.GridSize * gridY, pX + config.GridSize * gridX);
+	let [long, lat] = worldToLeaflet(pY + config.GridSize * gridY, pX + config.GridSize * gridX);
 
 	return [long, lat];
 }
 
-function unrealToLeafletSize(size) {
+function worldToLeafletSize(size) {
 	const unrealx = config.GridSize * config.ServersX;
 	return (size / unrealx) * 256;
 }
 
-function unrealToLeaflet(x, y) {
+function worldToLeaflet(x, y) {
 	const unrealx = config.GridSize * config.ServersX;
 	const unrealy = config.GridSize * config.ServersY;
 	let long = -((y / unrealy) * 256),
@@ -892,8 +892,8 @@ function unrealToLeaflet(x, y) {
 	return [long, lat];
 }
 
-function unrealToLeafletArray(a) {
-	return unrealToLeaflet(a[0], a[1]);
+function worldToLeafletArray(a) {
+	return worldToLeaflet(a[0], a[1]);
 }
 
 function rotateVector2DAroundAxis(vec, axis, ang) {

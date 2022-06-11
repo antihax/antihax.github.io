@@ -18,12 +18,20 @@ L.AtlasMap = L.Map.extend({
 	},
 
 	gridStringToIntegers: function (grid) {
-		let gridX = parseInt(grid.substring(1) - 1);
-		let gridY = grid.toLowerCase().charCodeAt(0) - 97;
+		let gridX = grid.toLowerCase().charCodeAt(0) - 97;
+		let gridY = parseInt(grid.substring(1) - 1);
 		return [gridX, gridY];
 	},
 
-	unrealToLeafletSize: function (size) {
+	worldToLeaflet: function (x, y) {
+		const unrealx = config.GridSize * config.ServersX;
+		const unrealy = config.GridSize * config.ServersY;
+		let long = -((y / unrealy) * 256),
+			lat = (x / unrealx) * 256;
+		return [long, lat];
+	},
+
+	worldToLeafletSize: function (size) {
 		const unrealx = config.GridSize * config.ServersX;
 		return (size / unrealx) * 256;
 	},
@@ -34,7 +42,7 @@ L.AtlasMap = L.Map.extend({
 
 		let pX = parseInt(parts[2]) + config.GridSize / 2;
 		let pY = parseInt(parts[1]) + config.GridSize / 2;
-		let [long, lat] = this.unrealToLeaflet(
+		let [long, lat] = this.worldToLeaflet(
 			pY + config.GridSize * gridY,
 			pX + config.GridSize * gridX,
 		);
@@ -42,13 +50,20 @@ L.AtlasMap = L.Map.extend({
 		return [long, lat];
 	},
 
-	localGPStoLeaflet: function (grid, x, y) {
+	localGPStoWorld: function (grid, long, lat) {
 		let [gridX, gridY] = this.gridStringToIntegers(grid);
+		let outX, outY;
 		Object.values(this._regions).forEach((v) => {
-			if (gridX >= v.MaxX && gridX <= v.MinX && gridY >= v.MaxY && gridY <= v.MinY) {
-				console.log(v);
+			if (gridX <= v.MaxX && gridX >= v.MinX && gridY <= v.MaxY && gridY >= v.MinY) {
+				let xEdge = config.GridSize * (v.MaxX - v.MinX + 1);
+				let yEdge = config.GridSize * (v.MaxY - v.MinY + 1);
+				console.log(v, lat, long, xEdge, yEdge, this.constraintInv(99, -100, 100, 0, 100));
+				outX = this.constraintInv(long, -100, 100, 0, xEdge) + v.MinX * config.GridSize;
+				outY = this.constraintInv(lat, 100, -100, 0, yEdge) + v.MinY * config.GridSize;
+				return false;
 			}
 		});
+		return [outX, outY];
 	},
 
 	worldToGlobalGPS: function (x, y, bounds) {
