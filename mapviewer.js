@@ -264,6 +264,33 @@ class WorldMap extends React.Component {
 			iconAnchor: [8, 8],
 		});
 
+		let sulfurPitIcon = L.icon({
+			iconUrl: 'icons/SulfurPit.svg',
+			shadowUrl: 'icons/Backdrop.svg',
+			shadowSize: [20, 20],
+			shadowAnchor: [10, 10],
+			iconSize: [16, 16],
+			iconAnchor: [8, 8],
+		});
+
+		let cursedAltarIcon = L.icon({
+			iconUrl: 'icons/CursedAltar.svg',
+			shadowUrl: 'icons/Backdrop.svg',
+			shadowSize: [20, 20],
+			shadowAnchor: [10, 10],
+			iconSize: [16, 16],
+			iconAnchor: [8, 8],
+		});
+
+		let lavaVentIcon = L.icon({
+			iconUrl: 'icons/LavaVent.svg',
+			shadowUrl: 'icons/Backdrop.svg',
+			shadowSize: [20, 20],
+			shadowAnchor: [10, 10],
+			iconSize: [16, 16],
+			iconAnchor: [8, 8],
+		});
+
 		let stoneIcon = L.icon({
 			iconUrl: 'icons/Stone.svg',
 			iconSize: [32, 32],
@@ -339,9 +366,24 @@ class WorldMap extends React.Component {
 			.then((res) => res.json())
 			.then(function (altars) {
 				altars.forEach((d) => {
-					let pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
-						icon: altarIcon,
-					});
+					let pin = {};
+					if (d.name === 'Altar of the Damned') {
+						pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+							icon: cursedAltarIcon,
+						});
+					} else if (d.name === 'Lava Vent') {
+						pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+							icon: lavaVentIcon,
+						});
+					} else if (d.name === 'Sulfur Pit') {
+						pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+							icon: sulfurPitIcon,
+						});
+					} else {
+						pin = new L.Marker(GPStoLeaflet(d.long, d.lat), {
+							icon: altarIcon,
+						});
+					}
 					pin.bindPopup(d.name, {
 						showOnMouseOver: true,
 						autoPan: true,
