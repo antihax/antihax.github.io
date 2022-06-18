@@ -34,5 +34,11 @@
 	{"location": "H9 -382172 372971 447", "name": "Midnight Farm's Shop"},
 	{"location": "H9 -386529 374701 390", "name": "WetWang Bangles Shopping Emporium"},
 
+	{"location": "H9 -177871 255614 2413", "name": "Sticky Fingers Pirate Co Shops"},
+	{"location": "H9 -188406 259620 3561", "name": "Cannabis Cartel Shops"},
+	{"location": "H9 -191466 255338 976", "name": "Behemoth Shops"},
+	{"location": "H9 -194319 251384 3362", "name": "De Dulle Griet Shops"},
+	{"location": "H9 -189441 249641 1690", "name": "776 Trading Shops"},
+
 	{"location": "L9 -521673 457079 386", "name": "WetWang Bangles Shops"}
 ]
