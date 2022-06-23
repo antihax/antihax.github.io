@@ -477,10 +477,19 @@
         "ClassName": "Resource_Wood_Ash_C",
         "Icon": "Ash_Icon",
         "Ingredients": {
+            "Ash Bundle": 1.0,
             "Gold Coin": 50.0,
             "Wood": 50.0
         },
         "Name": "Ash"
+    },
+    "Ash Bundle": {
+        "ClassName": "Resource_Wood_Ash_Bundle_C",
+        "Icon": "Item_Wood_Ash_Icon",
+        "Ingredients": {
+            "Ash": 10000.0
+        },
+        "Name": "Ash Bundle"
     },
     "Astronomy Studies": {
         "ClassName": "Structure_ModularRoomAstronomy_C",
@@ -5575,18 +5584,14 @@
         "Name": "Industrial Wonder Generator"
     },
     "Industrial Wonder Stage 1": {
-        "ClassName": "Structure_Monument_ThirdTier_IndustrialWonder_Monument_C",
-        "Icon": "TempleFoundation_Icon",
+        "ClassName": "Structure_Monument_ThirdTier_IndustrialWonder_Stage1_C",
+        "Icon": "ICON_IndMon_T3_P1",
         "Ingredients": {
             "Cedar Bundle": 50.0,
             "Crystal": 500.0,
-            "Cursed Bone Chips": 1500.0,
-            "Cursed Wood": 1500.0,
             "Orichalcum": 1000.0,
             "Pure Sulfur": 1000.0,
-            "Slate Block": 50.0,
-            "Stone": 4000.0,
-            "Wood": 2000.0
+            "Slate Block": 50.0
         },
         "Name": "Industrial Wonder Stage 1"
     },
@@ -11882,6 +11887,11 @@
             }
         }
     },
+    "Turtle Shell": {
+        "ClassName": "Resource_Keratanoid_TurtleShell_C",
+        "Icon": "TurtleShell_Icon",
+        "Name": "Turtle Shell"
+    },
     "Turtle Ship": {
         "ClassName": "Ship_TurtleShip_C",
         "Icon": "Turtleship_Icon",
@@ -11889,6 +11899,7 @@
             "Fibers": 4400.0,
             "Metal": 72.0,
             "Thatch": 4400.0,
+            "Turtle Shell": 5000.0,
             "Wood": 5500.0
         },
         "Name": "Turtle Ship"
