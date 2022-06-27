@@ -3145,6 +3145,49 @@
             ],
             "tameConsumeInterval": 15.0
         },
+        "CrystalScorpion Character Boss": {
+            "XP": 2.5,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "CrystalScorpion_Character_Boss_BP_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Rotten Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Innards",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carrion",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Carapace",
+                "Insect Meat",
+                "Organic Paste"
+            ],
+            "tameConsumeInterval": 15.0
+        },
         "Cyclops": {
             "XP": 1000.0,
             "XPperHit": false,
@@ -4329,6 +4372,49 @@
             "resources": [
                 "Skin",
                 "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "GemScorpion": {
+            "XP": 2.5,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "GemScorpion_Character_BP_C",
+            "deathInventoryChance": 0.30000001192092896,
+            "food": [
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Rotten Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Innards",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carrion",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Carapace",
+                "Insect Meat",
+                "Organic Paste"
             ],
             "tameConsumeInterval": 15.0
         },

@@ -621,12 +621,40 @@
 			-1,
 			-1
 		],
-		"animals": [],
+		"animals": [
+			"Ant",
+			"Bear",
+			"Bee",
+			"Catfish",
+			"CaveBat",
+			"Chicken",
+			"Cobra",
+			"Cow",
+			"Crocodile",
+			"Crow",
+			"Elephant",
+			"Grand Tortugar",
+			"Horse",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Rattlesnake",
+			"Scorpion",
+			"Seagull",
+			"Sheep",
+			"Spider",
+			"Tiger",
+			"Turtle",
+			"Vulture",
+			"Wolf"
+		],
 		"biomes": [
 			"Western Tropical",
-			"Western Tropics",
-			"Tropical Ocean Water",
-			"Tropical At Land"
+			"Equator",
+			"Western Temperate",
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -639,7 +667,54 @@
 		"forceServerRules": 1,
 		"name": "",
 		"region": "Rookie Cove",
-		"resources": [],
+		"resources": [
+			"Acerolla",
+			"Aloe",
+			"Anthracite",
+			"Bark",
+			"Basalt",
+			"Basil",
+			"Blackberry",
+			"Calcite",
+			"Chert",
+			"Chick Pea Seed",
+			"Cocoa",
+			"Coconut",
+			"Copper",
+			"Emerald",
+			"Fir",
+			"FreshWater",
+			"Fronds",
+			"Geode",
+			"Gum",
+			"Iodine",
+			"Iron",
+			"Jute",
+			"Lime",
+			"Limestone",
+			"Maps",
+			"Mint",
+			"Oak",
+			"Olives",
+			"Oregano",
+			"Pepper Seed",
+			"Quartz",
+			"Radiolarite",
+			"Resin",
+			"Sandstone",
+			"Sea Grapes",
+			"Sea Salt",
+			"Slate",
+			"Straw",
+			"Strawberry",
+			"Sugarcane",
+			"Sulfur",
+			"Syrup",
+			"Thyme",
+			"Twigs",
+			"Wild Chick Peas",
+			"Wild Pepper"
+		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
@@ -650,7 +725,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				1800
+				140
 			]
 		},
 		"sunktreasure": {
@@ -2091,12 +2166,30 @@
 			-1,
 			-1
 		],
-		"animals": [],
+		"animals": [
+			"Bear",
+			"Cat",
+			"Chicken",
+			"Cow",
+			"Elephant",
+			"Horse",
+			"Monkey",
+			"Parrot",
+			"Pig",
+			"Rabbit",
+			"Seagull",
+			"Turtle"
+		],
 		"biomes": [
 			"Western Tropical",
-			"Eastern Temperate",
-			"Tropical At Land",
-			"Tropical Ocean Water"
+			"Equator",
+			"Eastern Tropics",
+			"Eastern Tropics (Freeport)",
+			"Ocean Water",
+			"At Land",
+			"Western Tropics",
+			"Western Tropics (Freeport)",
+			"Equator (Freeport)"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -2109,7 +2202,20 @@
 		"forceServerRules": 4,
 		"name": "Freeport",
 		"region": "Rookie Cove",
-		"resources": [],
+		"resources": [
+			"Blackberry",
+			"Edible Greens",
+			"Fibers",
+			"Flint",
+			"FreshWater",
+			"Limestone",
+			"Maps",
+			"Stone",
+			"Straw",
+			"Thatch",
+			"Wild Cactus",
+			"Wood"
+		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
@@ -2120,7 +2226,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				1800
+				140
 			]
 		},
 		"sunktreasure": {
