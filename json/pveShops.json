@@ -40,5 +40,11 @@
 	{"location": "H9 -194319 251384 3362", "name": "De Dulle Griet Shops"},
 	{"location": "H9 -189441 249641 1690", "name": "776 Trading Shops"},
 
+	{"location": "H9 -268196 334934 9388 ", "name": "Somalian Navy Shop"},
+	{"location": "H9 -265376 333940 9404", "name": "Wicked Wench Trading Shop"},
+	{"location": "H9 -267884 327181 9613", "name": "MisFits Tradiing Inc Shop"},
+	{"location": "H9 -266738 330816 9463", "name": "Darksaber Trading Shop"},
+	{"location": "H9 -273636 329999 9594", "name": "Salty Bones Shop"},
+
 	{"location": "L9 -521673 457079 386", "name": "WetWang Bangles Shops"}
 ]
