@@ -2283,6 +2283,14 @@
             }
         }
     },
+    "Crew Member": {
+        "ClassName": "Primaltem_RecruitCrew_C",
+        "Icon": "NPC_Recruit_Icon",
+        "Ingredients": {
+            "Gold Coin": 5.0
+        },
+        "Name": "Crew Member"
+    },
     "Crew Resources Silo": {
         "ClassName": "Structure_CrewResourcesSilo_C",
         "Icon": "Item_CrewResourcesSilo_Icon",
@@ -8216,6 +8224,14 @@
         },
         "Name": "Patch Kit"
     },
+    "Pathfinder Respec": {
+        "ClassName": "ShopRespec_C",
+        "Icon": "Item_Respec_Icon",
+        "Ingredients": {
+            "Gold Coin": 250.0
+        },
+        "Name": "Pathfinder Respec"
+    },
     "Pearl": {
         "ClassName": "Resource_Crystal_Pearl_C",
         "Icon": "Item_SilicaPearls_Icon",
@@ -8898,6 +8914,16 @@
             "Wood": 3000.0
         },
         "Name": "Ramming Galley"
+    },
+    "Ramshackle Sloop": {
+        "ClassName": "Ship_Sloop_FromNPC_C",
+        "Icon": "Item_SloopHull_Icon",
+        "Ingredients": {
+            "Fibers": 225.0,
+            "Hide": 75.0,
+            "Wood": 250.0
+        },
+        "Name": "Ramshackle Sloop"
     },
     "Raptor Egg": {
         "ClassName": "Consumable_Egg_Raptor_C",
