@@ -1,0 +1,388 @@
+[
+	{
+		"node1": {
+			"gps": [
+				389.63018798828125,
+				-239.2622528076172
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				389.64453125,
+				-239.29295349121094
+			],
+			"resource": "Straw",
+			"resources": [
+				"Coconut",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				388.37188720703125,
+				-238.67056274414062
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				388.41729736328125,
+				-238.6746368408203
+			],
+			"resource": "Straw",
+			"resources": [
+				"Coconut",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				367.1820373535156,
+				-210.17417907714844
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				367.1704406738281,
+				-210.15660095214844
+			],
+			"resource": "Cotton",
+			"resources": [
+				"Cotton"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				366.5976867675781,
+				-210.38267517089844
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				366.5753173828125,
+				-210.39878845214844
+			],
+			"resource": "Cotton",
+			"resources": [
+				"Cotton"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				366.54998779296875,
+				-209.4694366455078
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				366.58203125,
+				-209.4635009765625
+			],
+			"resource": "Cotton",
+			"resources": [
+				"Cotton"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				361.77435302734375,
+				-236.8273468017578
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				361.7550048828125,
+				-236.84051513671875
+			],
+			"resource": "Straw",
+			"resources": [
+				"Coconut",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				361.0640869140625,
+				-236.9883575439453
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				361.0439453125,
+				-237.02342224121094
+			],
+			"resource": "Straw",
+			"resources": [
+				"Cilantro",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				361.62164306640625,
+				-237.50772094726562
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				361.6283874511719,
+				-237.54725646972656
+			],
+			"resource": "Straw",
+			"resources": [
+				"Coconut",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				360.7890319824219,
+				-238.10569763183594
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				360.82476806640625,
+				-238.11767578125
+			],
+			"resource": "Straw",
+			"resources": [
+				"Cilantro",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				360.5638122558594,
+				-238.8814697265625
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				360.58453369140625,
+				-238.90988159179688
+			],
+			"resource": "Straw",
+			"resources": [
+				"Schisandra",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				360.8076477050781,
+				-239.49685668945312
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				360.8180847167969,
+				-239.54464721679688
+			],
+			"resource": "Straw",
+			"resources": [
+				"Oregano",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				359.51434326171875,
+				-238.72103881835938
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				359.4880065917969,
+				-238.6802978515625
+			],
+			"resource": "Straw",
+			"resources": [
+				"Coconut",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				363.6346740722656,
+				-236.51283264160156
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				363.6122131347656,
+				-236.5155487060547
+			],
+			"resource": "Straw",
+			"resources": [
+				"Cilantro",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				364.2541198730469,
+				-236.80567932128906
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				364.2898254394531,
+				-236.82518005371094
+			],
+			"resource": "Cotton",
+			"resources": [
+				"Cotton"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				365.89447021484375,
+				-236.40475463867188
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				365.8667907714844,
+				-236.39407348632812
+			],
+			"resource": "Straw",
+			"resources": [
+				"Coconut",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				366.0514221191406,
+				-235.57666015625
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				366.0821533203125,
+				-235.53501892089844
+			],
+			"resource": "Straw",
+			"resources": [
+				"Coconut",
+				"Straw"
+			]
+		}
+	},
+	{
+		"node1": {
+			"gps": [
+				364.6654357910156,
+				-236.4530029296875
+			],
+			"resource": "Jute",
+			"resources": [
+				"Jute"
+			]
+		},
+		"node2": {
+			"gps": [
+				364.6781311035156,
+				-236.40704345703125
+			],
+			"resource": "Cotton",
+			"resources": [
+				"Cotton"
+			]
+		}
+	}
+]

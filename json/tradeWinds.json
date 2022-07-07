@@ -420,24 +420,32 @@
 				"worldY": 12012852
 			},
 			{
-				"controlPointsDistance": 469497.938,
-				"rotation": 295.832184,
+				"controlPointsDistance": 240462.1,
+				"rotation": 287.957184,
 				"strength": 3,
 				"width": 35000,
-				"worldX": 7685412,
+				"worldX": 7720018.5,
 				"worldY": 10250966
 			},
 			{
-				"controlPointsDistance": 1167723.75,
-				"rotation": -82.6725845,
+				"controlPointsDistance": 380792.469,
+				"rotation": -97.4613953,
 				"strength": 3,
 				"width": 40000,
-				"worldX": 8222604.5,
-				"worldY": 8456201
+				"worldX": 7828086.5,
+				"worldY": 8961461
 			},
 			{
-				"controlPointsDistance": 539706.063,
-				"rotation": -100.669785,
+				"controlPointsDistance": 430295.7,
+				"rotation": -86.55127,
+				"strength": 3,
+				"width": 40000,
+				"worldX": 8141239,
+				"worldY": 7685528
+			},
+			{
+				"controlPointsDistance": 408224.7,
+				"rotation": -93.4497452,
 				"strength": 3,
 				"width": 45000,
 				"worldX": 7907603,

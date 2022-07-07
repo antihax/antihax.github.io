@@ -428,5 +428,53 @@
 		"PathName": "",
 		"PathPortalType": 1,
 		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Uncharted to Africa",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 6364371.5,
+				"worldY": 17361350
+			},
+			{
+				"PortalName": "Afrcia to Uncharted",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 2529176,
+				"worldY": 10943063
+			}
+		],
+		"PathId": 82,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
+	},
+	{
+		"Nodes": [
+			{
+				"PortalName": "Uncharted to S. America",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 9499759,
+				"worldY": 17641666
+			},
+			{
+				"PortalName": "S. America to Uncharted",
+				"RequiredResource": {},
+				"RequiredResourceOr": {},
+				"rotation": 0,
+				"worldX": 2032133.75,
+				"worldY": 8140765.5
+			}
+		],
+		"PathId": 83,
+		"PathName": "",
+		"PathPortalType": 0,
+		"isLooping": false
 	}
 ]
