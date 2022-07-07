@@ -3017,19 +3017,19 @@
 	},
 	"SM_Mushroom01_settings": {
 		"/Game/Atlas/AtlasCoreBP/Harvest/Sap/SapHarvestComponent_Latex.SapHarvestComponent_Latex_C": 11605,
-		"/Game/Atlas/AtlasCoreBP/HarvestComponents/06_W_Tundra/WoodHarvestComponent_PineSappling.WoodHarvestComponent_PineSappling_C": 97
+		"/Game/PrimalEarth/CoreBlueprints/HarvestComponents/ToxicFloraHarvestComponent.ToxicFloraHarvestComponent_C": 97
 	},
 	"SM_Mushroom02_settings": {
 		"/Game/Atlas/AtlasCoreBP/Harvest/Sap/SapHarvestComponent_Latex.SapHarvestComponent_Latex_C": 11796,
-		"/Game/Atlas/AtlasCoreBP/HarvestComponents/06_W_Tundra/WoodHarvestComponent_PineSappling.WoodHarvestComponent_PineSappling_C": 97
+		"/Game/PrimalEarth/CoreBlueprints/HarvestComponents/ToxicFloraHarvestComponent.ToxicFloraHarvestComponent_C": 97
 	},
 	"SM_Mushroom03_settings": {
 		"/Game/Atlas/AtlasCoreBP/Harvest/Sap/SapHarvestComponent_Latex.SapHarvestComponent_Latex_C": 11410,
-		"/Game/Atlas/AtlasCoreBP/HarvestComponents/06_W_Tundra/WoodHarvestComponent_PineSappling.WoodHarvestComponent_PineSappling_C": 97
+		"/Game/PrimalEarth/CoreBlueprints/HarvestComponents/ToxicFloraHarvestComponent.ToxicFloraHarvestComponent_C": 97
 	},
 	"SM_Mushroom04_settings": {
 		"/Game/Atlas/AtlasCoreBP/Harvest/Sap/SapHarvestComponent_Latex.SapHarvestComponent_Latex_C": 11603,
-		"/Game/Atlas/AtlasCoreBP/HarvestComponents/06_W_Tundra/WoodHarvestComponent_PineSappling.WoodHarvestComponent_PineSappling_C": 97
+		"/Game/PrimalEarth/CoreBlueprints/HarvestComponents/ToxicFloraHarvestComponent.ToxicFloraHarvestComponent_C": 97
 	},
 	"SM_Niter_settings": {
 		"/Game/Atlas/AtlasCoreBP/Harvest/Coal/CoalHarvestComponent_Nitre.CoalHarvestComponent_Nitre_C": 51705,

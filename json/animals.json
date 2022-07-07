@@ -2508,7 +2508,8 @@
             "requiredAffinityPerBaseLevel": 90.0,
             "resources": [
                 "Scale",
-                "Animal Meat"
+                "Animal Meat",
+                "Venom"
             ],
             "tameConsumeInterval": 15.0
         },
@@ -3184,7 +3185,8 @@
             "resources": [
                 "Carapace",
                 "Insect Meat",
-                "Organic Paste"
+                "Organic Paste",
+                "Venom"
             ],
             "tameConsumeInterval": 15.0
         },
@@ -4414,7 +4416,8 @@
             "resources": [
                 "Carapace",
                 "Insect Meat",
-                "Organic Paste"
+                "Organic Paste",
+                "Venom"
             ],
             "tameConsumeInterval": 15.0
         },
@@ -11107,7 +11110,8 @@
             "requiredAffinityPerBaseLevel": 90.0,
             "resources": [
                 "Scale",
-                "Animal Meat"
+                "Animal Meat",
+                "Venom"
             ],
             "tameConsumeInterval": 15.0
         },
@@ -11650,7 +11654,8 @@
                 "Animal Meat",
                 "Carapace",
                 "Insect Meat",
-                "Organic Paste"
+                "Organic Paste",
+                "Venom"
             ],
             "tameConsumeInterval": 15.0
         },

@@ -308,6 +308,16 @@
         },
         "Name": "Antidote"
     },
+    "Antivenom": {
+        "ClassName": "Consumable_AntiVenom_C",
+        "Icon": "AntiVenom_Icon",
+        "Ingredients": {
+            "Medicinal Herb": 5.0,
+            "Organic Paste": 2.0,
+            "Toxic Compound": 5.0
+        },
+        "Name": "Antivenom"
+    },
     "Archaeopteryx Egg": {
         "ClassName": "Consumable_Egg_Archa_C",
         "Icon": "Egg_Icon",
@@ -7736,6 +7746,26 @@
         },
         "Name": "Nitre"
     },
+    "Nitro Fertilizer": {
+        "ClassName": "Consumable_Fertilizer_Nitro_C",
+        "Icon": "Item_FertilizerNitro_Icon",
+        "Ingredients": {
+            "Coal": 20.0,
+            "Fertilizer": 1.0,
+            "Toxic Compound": 10.0
+        },
+        "Name": "Nitro Fertilizer",
+        "SpoilTime": 0.0,
+        "Type": "",
+        "Weight": 0.07000000029802322,
+        "stats": {
+            "Health": {
+                "add": -70.0,
+                "addOverTime": true,
+                "addOverTimeSpeed": 20.0
+            }
+        }
+    },
     "Note": {
         "ClassName": "Note_C",
         "Icon": "Note_Icon",
@@ -10015,6 +10045,18 @@
         },
         "Name": "Ship Steering Wheel"
     },
+    "Ship Swivel Railing (Kraken)": {
+        "ClassName": "Structure_MidShipSideTileSwivelRailingKrakenGeneral_C",
+        "Icon": "KrakenBallistaRailing",
+        "Ingredients": {
+            "Alloy": 98.0,
+            "Fibers": 250.0,
+            "Stone": 180.0,
+            "Thatch": 225.0,
+            "Wood": 550.0
+        },
+        "Name": "Ship Swivel Railing (Kraken)"
+    },
     "Ship Tame Cargo Railing": {
         "ClassName": "Structure_TameCargoRailing_C",
         "Icon": "ICON_BoatBarn",
@@ -11259,6 +11301,18 @@
         },
         "Name": "Tame Cargo Module"
     },
+    "Tame Hatchery": {
+        "ClassName": "Structure_TameHouse_Exotic_C",
+        "Icon": "ICON_TamehouseExotic",
+        "Ingredients": {
+            "Fibers": 80.0,
+            "Flint": 20.0,
+            "Keratinoid": 90.0,
+            "Stone": 300.0,
+            "Wood": 65.0
+        },
+        "Name": "Tame Hatchery"
+    },
     "Tame House": {
         "ClassName": "Structure_TameHouse_C",
         "Icon": "ICON_Tamehouse",
@@ -11722,6 +11776,49 @@
         },
         "Name": "Torpedo Launcher Ship Railing"
     },
+    "Toxic Compound": {
+        "ClassName": "Consumable_ToxicCompound_BASE_C",
+        "Icon": "CrudeOil_Icon",
+        "Name": "Toxic Compound",
+        "SpoilTime": 600.0,
+        "Type": "",
+        "Weight": 0.07000000029802322,
+        "stats": {
+            "Food": {
+                "add": -1.0,
+                "addOverTime": true,
+                "addOverTimeSpeed": 3.0
+            },
+            "Health": {
+                "add": 0.0,
+                "addOverTime": false,
+                "addOverTimeSpeed": 8.407790785948902e-44
+            }
+        }
+    },
+    "Toxic Sludge": {
+        "ClassName": "Consumable_ToxicCompound_ToxicSludge_C",
+        "Icon": "ToxicSludge_Icon",
+        "Ingredients": {
+            "Nitro Fertilizer": 1.0
+        },
+        "Name": "Toxic Sludge",
+        "SpoilTime": 86400.0,
+        "Type": "",
+        "Weight": 0.07000000029802322,
+        "stats": {
+            "Food": {
+                "add": -1.0,
+                "addOverTime": true,
+                "addOverTimeSpeed": 3.0
+            },
+            "Health": {
+                "add": 0.0,
+                "addOverTime": false,
+                "addOverTimeSpeed": 8.407790785948902e-44
+            }
+        }
+    },
     "Traditional Figure Head": {
         "ClassName": "StructureBP_FigureHead_Traditional_C",
         "Icon": "Item_BowSprit_Icon",
@@ -12003,6 +12100,26 @@
                 "add": 0.800000011920929,
                 "addOverTime": true,
                 "addOverTimeSpeed": 1.0
+            }
+        }
+    },
+    "Venom": {
+        "ClassName": "Consumable_ToxicCompound_Venom_C",
+        "Icon": "Venom_Icon",
+        "Name": "Venom",
+        "SpoilTime": 86400.0,
+        "Type": "",
+        "Weight": 0.07000000029802322,
+        "stats": {
+            "Food": {
+                "add": -1.0,
+                "addOverTime": true,
+                "addOverTimeSpeed": 3.0
+            },
+            "Health": {
+                "add": 0.0,
+                "addOverTime": false,
+                "addOverTimeSpeed": 8.407790785948902e-44
             }
         }
     },
