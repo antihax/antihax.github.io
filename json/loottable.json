@@ -2747,6 +2747,24 @@
                 "QualityPower": 1.0,
                 "QuantityPower": 1.0,
                 "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.5,
+                "ChanceForItem": 0.5,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Advanced Shipyard",
+                    "Basic Shipyard",
+                    "Large Shipyard",
+                    "Small Shipyard"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.20000000298023224,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
             }
         ],
         "PrimalInventoryBP_BaseMeatFishing_C": null,
