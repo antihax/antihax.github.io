@@ -162,7 +162,8 @@ L.Control.Measure = L.Control.extend({
 			}
 
 			this._updateTooltipPosition(e.latlng);
-			this._updateTooltipDistance(getDistance(e.latlng, this._lastPoint));
+			let distance = getDistance(e.latlng, this._lastPoint);
+			this._updateTooltipDistance(distance);
 
 			this._distance += distance;
 		}
