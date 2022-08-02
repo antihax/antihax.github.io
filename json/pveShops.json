@@ -50,5 +50,7 @@
 	{"location": "J9 325922 386592 164", "name": "Costco"},
 	{"location": "L9 -521673 457079 386", "name": "WetWang Bangles Shops"},
 	{"location": "E4 420451 -557002 1226", "name": "Crimson Hangout Shops"},
-	{"location": "B6 -574778 -366893 44", "name": "CoA Shop"}
+	{"location": "B6 -574778 -366893 44", "name": "CoA Shop"},
+	{"location": "I7 557818 -507242 577", "name": "Ship restock [CoA]"}
+
 ]
