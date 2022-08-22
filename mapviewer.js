@@ -830,9 +830,6 @@ class WorldMap extends React.Component {
 			_onMouseClick: function (e) {
 				let x = this._map.ccc(e.latlng.lng, -e.latlng.lat);
 				let value = `cheat TP ${x[0]} ${x[1]} ${x[2]} 10000`;
-				if (top.location !== location) {
-					top.location.href = document.location.href;
-				}
 				this._container.innerHTML = value;
 			},
 		});
