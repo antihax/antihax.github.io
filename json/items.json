@@ -94,10 +94,10 @@
         "Icon": "HUD_MusicSheet_Colorize_d",
         "Name": "Accordion: She Heard the Siren's Call"
     },
-    "Acerolla": {
+    "Acerola": {
         "ClassName": "Consumable_Berry_Acerolla_C",
         "Icon": "Acerola_Icon",
-        "Name": "Acerolla",
+        "Name": "Acerola",
         "SpoilTime": 600.0,
         "Type": "Berry",
         "Weight": 0.07000000029802322,
@@ -6818,26 +6818,6 @@
         },
         "Name": "Lignite"
     },
-    "Lignonberry": {
-        "ClassName": "Consumable_Berry_Lingonberry_C",
-        "Icon": "Lingonberry_Icon",
-        "Name": "Lignonberry",
-        "SpoilTime": 600.0,
-        "Type": "Berry",
-        "Weight": 0.07000000029802322,
-        "stats": {
-            "Food": {
-                "add": 1.5,
-                "addOverTime": true,
-                "addOverTimeSpeed": 3.0
-            },
-            "Health": {
-                "add": 0.0,
-                "addOverTime": false,
-                "addOverTimeSpeed": 0.0
-            }
-        }
-    },
     "Lime": {
         "ClassName": "Consumable_Fruit_Lime_C",
         "Icon": "Lime_Icon",
@@ -6875,6 +6855,26 @@
             "Limestone": 10000.0
         },
         "Name": "Limestone Block"
+    },
+    "Lingonberry": {
+        "ClassName": "Consumable_Berry_Lingonberry_C",
+        "Icon": "Lingonberry_Icon",
+        "Name": "Lingonberry",
+        "SpoilTime": 600.0,
+        "Type": "Berry",
+        "Weight": 0.07000000029802322,
+        "stats": {
+            "Food": {
+                "add": 1.5,
+                "addOverTime": true,
+                "addOverTimeSpeed": 3.0
+            },
+            "Health": {
+                "add": 0.0,
+                "addOverTime": false,
+                "addOverTimeSpeed": 0.0
+            }
+        }
     },
     "Lion Figure Head": {
         "ClassName": "StructureBP_FigureHead_Lion_C",
@@ -8069,7 +8069,7 @@
     },
     "Orichalcumized Rock": {
         "ClassName": "Resource_Stone_Orichalcumized_Rock_C",
-        "Icon": "ICON_Rock_Coquina",
+        "Icon": "Orichalcumized_Rock_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
             "Stone": 50.0
@@ -8522,6 +8522,15 @@
             "Water": 1.0
         },
         "Name": "Pohutukawa Red Coloring"
+    },
+    "Poison Arrow": {
+        "ClassName": "Ammo_ArrowPoison_C",
+        "Icon": "Item_PoisonArrow_Icon",
+        "Ingredients": {
+            "Stone Arrow": 1.0,
+            "Toxic Compound": 10.0
+        },
+        "Name": "Poison Arrow"
     },
     "Polymer": {
         "ClassName": "Resource_Polymer_C",
@@ -8988,10 +8997,10 @@
         "ClassName": "Consumable_ReapersRegard_C",
         "Icon": "Item_ReapersRegards_Icon",
         "Ingredients": {
-            "Acerolla": 5.0,
+            "Acerola": 5.0,
             "Cooked Fish": 10.0,
             "Cooking Herbs": 10.0,
-            "Lignonberry": 5.0,
+            "Lingonberry": 5.0,
             "Salt": 3.0,
             "Sea Grapes": 5.0,
             "Syrup": 3.0,
@@ -11094,20 +11103,6 @@
             }
         }
     },
-    "Submarine": {
-        "ClassName": "Ship_Submarine_C",
-        "Icon": "Item_Submarine_Icon",
-        "Ingredients": {
-            "Alloy": 324.0,
-            "Crystal": 60.0,
-            "Fibers": 372.0,
-            "Gem": 40.0,
-            "Oil": 86.0,
-            "Organic Paste": 140.0,
-            "Wood": 180.0
-        },
-        "Name": "Submarine"
-    },
     "Sugarcane": {
         "ClassName": "Consumable_Vegetable_Sugarcane_C",
         "Icon": "Sugarcane_Icon",
@@ -11142,7 +11137,7 @@
     },
     "Sulfurized Rock": {
         "ClassName": "Resource_Stone_Sulfurized_Rock_C",
-        "Icon": "Limestone_Icon",
+        "Icon": "Sulfurized_Rock_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
             "Stone": 50.0
@@ -11800,7 +11795,7 @@
         "ClassName": "Consumable_ToxicCompound_ToxicSludge_C",
         "Icon": "ToxicSludge_Icon",
         "Ingredients": {
-            "Nitro Fertilizer": 1.0
+            "Nitro Fertilizer": 10.0
         },
         "Name": "Toxic Sludge",
         "SpoilTime": 86400.0,
@@ -12123,10 +12118,10 @@
             }
         }
     },
-    "Versebook": {
+    "Verse Book": {
         "ClassName": "WeaponVersebook_C",
         "Icon": "AODVersebook_ICON",
-        "Name": "Versebook"
+        "Name": "Verse Book"
     },
     "Vertical Electrical Cable": {
         "ClassName": "Structure_PowerCableVertical_C",

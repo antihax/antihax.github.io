@@ -6,38 +6,44 @@
 			{
 				"controlPointsDistance": 1315765.38,
 				"rotation": 179.715912,
-				"worldX": 3388093.25,
-				"worldY": 4885319
+				"worldX": 3112968.75,
+				"worldY": 4926847
+			},
+			{
+				"controlPointsDistance": 361467.656,
+				"rotation": -124.494743,
+				"worldX": 475865.1,
+				"worldY": 4897775
 			},
 			{
 				"controlPointsDistance": 941121.6,
 				"rotation": -98.85104,
-				"worldX": 756125.438,
-				"worldY": 3456744
+				"worldX": 719788.1,
+				"worldY": 3446362
 			},
 			{
 				"controlPointsDistance": 888961.063,
 				"rotation": -125.818222,
-				"worldX": 1123345.63,
-				"worldY": 2268920.75
+				"worldX": 656151.938,
+				"worldY": 2284493.75
 			},
 			{
 				"controlPointsDistance": 809643.438,
 				"rotation": -128.376526,
-				"worldX": 467054.969,
-				"worldY": 1419031.88
+				"worldX": 124446.375,
+				"worldY": 780534
 			},
 			{
-				"controlPointsDistance": 388640.344,
-				"rotation": -30.2941284,
-				"worldX": 2325837.25,
-				"worldY": 319202.3
+				"controlPointsDistance": 548160.5,
+				"rotation": -14.9439917,
+				"worldX": 1744441.5,
+				"worldY": 511270.656
 			},
 			{
-				"controlPointsDistance": 138428.828,
-				"rotation": -334.246948,
-				"worldX": 3334632.25,
-				"worldY": 754107.5
+				"controlPointsDistance": 464466.625,
+				"rotation": -341.727844,
+				"worldX": 4300165.5,
+				"worldY": 769680.6
 			},
 			{
 				"controlPointsDistance": 526811.563,
@@ -48,8 +54,8 @@
 			{
 				"controlPointsDistance": 600438.9,
 				"rotation": -295.419281,
-				"worldX": 4955961,
-				"worldY": 4089764.5
+				"worldX": 4841759,
+				"worldY": 4100146.5
 			}
 		],
 		"PathId": 1,
@@ -64,32 +70,38 @@
 			{
 				"controlPointsDistance": 232472.641,
 				"rotation": -28.2051239,
-				"worldX": 14439275,
-				"worldY": 6159860
+				"worldX": 14529255,
+				"worldY": 6554378
+			},
+			{
+				"controlPointsDistance": 325229.563,
+				"rotation": -75.8239,
+				"worldX": 14716111,
+				"worldY": 4976350
 			},
 			{
 				"controlPointsDistance": 483859.031,
 				"rotation": -76.2120361,
-				"worldX": 15075999,
-				"worldY": 3509065
+				"worldX": 15013707,
+				"worldY": 3483110
 			},
 			{
 				"controlPointsDistance": 323310.531,
 				"rotation": -78.69006,
-				"worldX": 14907322,
-				"worldY": 2463245
+				"worldX": 14870985,
+				"worldY": 2437290
 			},
 			{
 				"controlPointsDistance": 366660.9,
 				"rotation": 280.39267,
-				"worldX": 14998381,
+				"worldX": 14967235,
 				"worldY": 1663304.13
 			},
 			{
 				"controlPointsDistance": 239361,
 				"rotation": 99.12445,
-				"worldX": 13316037,
-				"worldY": 1655435.25
+				"worldX": 13414666,
+				"worldY": 1645053.25
 			},
 			{
 				"controlPointsDistance": 116793.75,
@@ -104,10 +116,10 @@
 				"worldY": 2752867
 			},
 			{
-				"controlPointsDistance": 480780,
-				"rotation": -204.668243,
-				"worldX": 13244816,
-				"worldY": 3256894.25
+				"controlPointsDistance": 330512.125,
+				"rotation": -247.08699,
+				"worldX": 13166375,
+				"worldY": 3382634
 			},
 			{
 				"controlPointsDistance": 337935.156,
@@ -124,8 +136,8 @@
 			{
 				"controlPointsDistance": 482144.344,
 				"rotation": 29.74488,
-				"worldX": 13301540,
-				"worldY": 6425308
+				"worldX": 13308462,
+				"worldY": 6411465.5
 			}
 		],
 		"PathId": 2,
@@ -144,34 +156,34 @@
 				"worldY": 8250839.5
 			},
 			{
-				"controlPointsDistance": 633814.9,
-				"rotation": -156.031952,
-				"worldX": 11835530,
-				"worldY": 4978299
+				"controlPointsDistance": 893831.438,
+				"rotation": -155.368317,
+				"worldX": 11819973,
+				"worldY": 4869288
 			},
 			{
 				"controlPointsDistance": 197190.891,
 				"rotation": -45.6732025,
-				"worldX": 11374611,
-				"worldY": 3775099.75
+				"worldX": 11442094,
+				"worldY": 3688581.75
 			},
 			{
 				"controlPointsDistance": 594899.25,
 				"rotation": -94.4068451,
-				"worldX": 12529958,
-				"worldY": 2257701.75
+				"worldX": 12512653,
+				"worldY": 2413434.25
 			},
 			{
 				"controlPointsDistance": 106834.133,
 				"rotation": -203.251129,
-				"worldX": 11987434,
-				"worldY": 1957312.88
+				"worldX": 12073088,
+				"worldY": 1817155.75
 			},
 			{
 				"controlPointsDistance": 78149.73,
 				"rotation": 70.836525,
-				"worldX": 11715401,
-				"worldY": 2293848.5
+				"worldX": 11839988,
+				"worldY": 2395073
 			},
 			{
 				"controlPointsDistance": 484749.7,
@@ -180,10 +192,10 @@
 				"worldY": 3474118.25
 			},
 			{
-				"controlPointsDistance": 328167.469,
-				"rotation": 79.2923355,
-				"worldX": 11696331,
-				"worldY": 5066952
+				"controlPointsDistance": 681331.3,
+				"rotation": 106.47345,
+				"worldX": 11929931,
+				"worldY": 5191536
 			}
 		],
 		"PathId": 5,
@@ -196,46 +208,58 @@
 		"AutoSpawnShipClass": "",
 		"Nodes": [
 			{
-				"controlPointsDistance": 407445.938,
-				"rotation": -198.6351,
-				"worldX": 10348106,
-				"worldY": 6253446.5
+				"controlPointsDistance": 317542.6,
+				"rotation": -208.657181,
+				"worldX": 10400016,
+				"worldY": 6310547.5
 			},
 			{
 				"controlPointsDistance": 449399.438,
 				"rotation": -154.8468,
-				"worldX": 9123719,
-				"worldY": 6591330
+				"worldX": 9523426,
+				"worldY": 6368117
 			},
 			{
 				"controlPointsDistance": 242815.6,
 				"rotation": -82.91153,
-				"worldX": 9139465,
-				"worldY": 4964126
+				"worldX": 9129083,
+				"worldY": 4860306
 			},
 			{
 				"controlPointsDistance": 454258.6,
 				"rotation": -128.284943,
-				"worldX": 9124061,
-				"worldY": 3303177.5
+				"worldX": 9175971,
+				"worldY": 3422570.5
 			},
 			{
 				"controlPointsDistance": 312159.438,
 				"rotation": -58.0812,
-				"worldX": 9416437,
-				"worldY": 1958922.5
+				"worldX": 9297044,
+				"worldY": 2119844.25
 			},
 			{
 				"controlPointsDistance": 409819.9,
 				"rotation": 18.1037636,
-				"worldX": 10622808,
-				"worldY": 1904715.63
+				"worldX": 10638381,
+				"worldY": 1878760.63
+			},
+			{
+				"controlPointsDistance": 368646.156,
+				"rotation": 123.635056,
+				"worldX": 10185569,
+				"worldY": 2653724
 			},
 			{
 				"controlPointsDistance": 607775.8,
 				"rotation": 76.1814041,
-				"worldX": 10488919,
-				"worldY": 3942599.75
+				"worldX": 10400671,
+				"worldY": 3774756.75
+			},
+			{
+				"controlPointsDistance": 521832.656,
+				"rotation": 89.17021,
+				"worldX": 10789670,
+				"worldY": 5145607
 			}
 		],
 		"PathId": 10,
@@ -256,31 +280,31 @@
 			{
 				"controlPointsDistance": 163666.953,
 				"rotation": -58.07715,
-				"worldX": 16099813,
-				"worldY": 5435558.5
+				"worldX": 16200174,
+				"worldY": 5643199.5
 			},
 			{
 				"controlPointsDistance": 343007.438,
 				"rotation": -87.23504,
-				"worldX": 16230668,
-				"worldY": 4398833
+				"worldX": 16651141,
+				"worldY": 4850451.5
 			},
 			{
 				"controlPointsDistance": 283873.938,
 				"rotation": -81.3913956,
-				"worldX": 15664193,
-				"worldY": 3421609.25
+				"worldX": 15793968,
+				"worldY": 3437182.25
 			},
 			{
 				"controlPointsDistance": 845196.6,
 				"rotation": -0.9263382,
 				"worldX": 16752942,
-				"worldY": 2175776.5
+				"worldY": 2139439.5
 			},
 			{
 				"controlPointsDistance": 262207.438,
 				"rotation": 85.3157349,
-				"worldX": 17550670,
+				"worldX": 17571438,
 				"worldY": 2868687.75
 			},
 			{
@@ -306,40 +330,40 @@
 		"AutoSpawnShipClass": "",
 		"Nodes": [
 			{
-				"controlPointsDistance": 494697.625,
-				"rotation": 49.06818,
-				"worldX": 9266295,
-				"worldY": 10745789
+				"controlPointsDistance": 188002.625,
+				"rotation": 39.52365,
+				"worldX": 9318205,
+				"worldY": 10548531
 			},
 			{
-				"controlPointsDistance": 129831.07,
-				"rotation": -5.96192169,
-				"worldX": 10245046,
-				"worldY": 10543708
+				"controlPointsDistance": 593141.25,
+				"rotation": -4.255924,
+				"worldX": 10338484,
+				"worldY": 10522944
 			},
 			{
-				"controlPointsDistance": 362591.4,
-				"rotation": -61.181263,
-				"worldX": 13423460,
-				"worldY": 10442434
+				"controlPointsDistance": 287849.1,
+				"rotation": -45.9261436,
+				"worldX": 13023753,
+				"worldY": 10437243
 			},
 			{
 				"controlPointsDistance": 520843.2,
 				"rotation": 250.710983,
-				"worldX": 13361469,
-				"worldY": 9564875
+				"worldX": 13299177,
+				"worldY": 9243033
 			},
 			{
 				"controlPointsDistance": 365997.875,
 				"rotation": 158.966125,
-				"worldX": 12558546,
-				"worldY": 9034313
+				"worldX": 12143266,
+				"worldY": 8987594
 			},
 			{
 				"controlPointsDistance": 722643.3,
 				"rotation": -241.159363,
-				"worldX": 9229567,
-				"worldY": 9319931
+				"worldX": 9421634,
+				"worldY": 9735211
 			}
 		],
 		"PathId": 12,
@@ -352,58 +376,58 @@
 		"AutoSpawnShipClass": "",
 		"Nodes": [
 			{
-				"controlPointsDistance": 138727.578,
-				"rotation": 191.301636,
-				"worldX": 7048563.5,
-				"worldY": 14771331
+				"controlPointsDistance": 373729.75,
+				"rotation": 170.882217,
+				"worldX": 6892833.5,
+				"worldY": 15011851
 			},
 			{
-				"controlPointsDistance": 237167.656,
-				"rotation": -64.5807,
-				"worldX": 6325045.5,
-				"worldY": 14378506
+				"controlPointsDistance": 603316.938,
+				"rotation": -71.92017,
+				"worldX": 6205652.5,
+				"worldY": 14549809
 			},
 			{
 				"controlPointsDistance": 616099.063,
 				"rotation": -25.2696381,
-				"worldX": 8296029.5,
-				"worldY": 14200734
+				"worldX": 8353131,
+				"worldY": 14617744
 			},
 			{
-				"controlPointsDistance": 733606.4,
-				"rotation": 10.125412,
-				"worldX": 10128586,
-				"worldY": 14459012
+				"controlPointsDistance": 329059.4,
+				"rotation": -4.82021332,
+				"worldX": 10211642,
+				"worldY": 14500540
 			},
 			{
 				"controlPointsDistance": 551129.063,
 				"rotation": 5.312416,
 				"worldX": 12641357,
-				"worldY": 14542333
+				"worldY": 14525030
 			},
 			{
-				"controlPointsDistance": 278216.5,
-				"rotation": 17.1893158,
+				"controlPointsDistance": 334966.438,
+				"rotation": -11.91021,
 				"worldX": 16790886,
 				"worldY": 14515623
 			},
 			{
-				"controlPointsDistance": 886128.2,
-				"rotation": -273.4152,
-				"worldX": 18114480,
-				"worldY": 14714793
+				"controlPointsDistance": 751861.2,
+				"rotation": -278.277222,
+				"worldX": 18149954,
+				"worldY": 14704410
 			},
 			{
-				"controlPointsDistance": 187631.766,
-				"rotation": 170.347183,
-				"worldX": 17392548,
-				"worldY": 15345391
+				"controlPointsDistance": 482814.4,
+				"rotation": 178.045959,
+				"worldX": 17354480,
+				"worldY": 15321167
 			},
 			{
 				"controlPointsDistance": 214178.4,
 				"rotation": -170.118,
-				"worldX": 13994805,
-				"worldY": 15343008
+				"worldX": 14008648,
+				"worldY": 15325704
 			},
 			{
 				"controlPointsDistance": 222991.4,
@@ -412,10 +436,10 @@
 				"worldY": 15364853
 			},
 			{
-				"controlPointsDistance": 276237.9,
-				"rotation": 225.507034,
-				"worldX": 8857420,
-				"worldY": 15232476
+				"controlPointsDistance": 512617.344,
+				"rotation": 229.357666,
+				"worldX": 9092743,
+				"worldY": 14972926
 			}
 		],
 		"PathId": 13,
@@ -430,44 +454,44 @@
 			{
 				"controlPointsDistance": 423124.844,
 				"rotation": -294.487823,
-				"worldX": 17416558,
+				"worldX": 17400982,
 				"worldY": 9179916
 			},
 			{
 				"controlPointsDistance": 302634.844,
 				"rotation": -229.180923,
-				"worldX": 17566448,
-				"worldY": 10585634
+				"worldX": 17514534,
+				"worldY": 10580443
 			},
 			{
 				"controlPointsDistance": 383738.469,
 				"rotation": -155.628632,
-				"worldX": 16268616,
-				"worldY": 10423534
+				"worldX": 16304953,
+				"worldY": 10293759
 			},
 			{
 				"controlPointsDistance": 438892.2,
 				"rotation": -148.77066,
-				"worldX": 14924514,
-				"worldY": 10581742
+				"worldX": 14837995,
+				"worldY": 10785921
 			},
 			{
 				"controlPointsDistance": 623268.4,
 				"rotation": -85.1686859,
-				"worldX": 14727966,
-				"worldY": 8949233
+				"worldX": 14951179,
+				"worldY": 8995952
 			},
 			{
 				"controlPointsDistance": 525158.4,
 				"rotation": -4.39870453,
-				"worldX": 14700214,
-				"worldY": 7628238.5
+				"worldX": 14596394,
+				"worldY": 7659384.5
 			},
 			{
 				"controlPointsDistance": 493821.75,
 				"rotation": 56.28164,
-				"worldX": 17289334,
-				"worldY": 7718810
+				"worldX": 17351630,
+				"worldY": 7682473
 			}
 		],
 		"PathId": 14,
@@ -480,22 +504,22 @@
 		"AutoSpawnShipClass": "",
 		"Nodes": [
 			{
-				"controlPointsDistance": 328170.938,
-				"rotation": -107.136604,
-				"worldX": 664515.563,
-				"worldY": 10470371
+				"controlPointsDistance": 416414.156,
+				"rotation": -66.4840546,
+				"worldX": 625582.75,
+				"worldY": 10641678
 			},
 			{
 				"controlPointsDistance": 199119.391,
 				"rotation": 1.7973938,
-				"worldX": 2351348.75,
-				"worldY": 10336923
+				"worldX": 2071032.63,
+				"worldY": 10407004
 			},
 			{
 				"controlPointsDistance": 427128.031,
 				"rotation": 56.79548,
-				"worldX": 4507102.5,
-				"worldY": 10312459
+				"worldX": 4522675.5,
+				"worldY": 10475983
 			},
 			{
 				"controlPointsDistance": 386397.469,
@@ -506,26 +530,26 @@
 			{
 				"controlPointsDistance": 363304.781,
 				"rotation": 130.37912,
-				"worldX": 4717527.5,
-				"worldY": 13010137
+				"worldX": 4733100.5,
+				"worldY": 13077620
 			},
 			{
 				"controlPointsDistance": 299432.75,
 				"rotation": -168.527924,
-				"worldX": 3408300.75,
-				"worldY": 12808207
+				"worldX": 3387536.75,
+				"worldY": 12751106
 			},
 			{
-				"controlPointsDistance": 347738.875,
-				"rotation": -174.305084,
-				"worldX": 2024739.88,
-				"worldY": 12783484
+				"controlPointsDistance": 455761.938,
+				"rotation": -191.503632,
+				"worldX": 1931301.38,
+				"worldY": 12757529
 			},
 			{
 				"controlPointsDistance": 303698.7,
 				"rotation": -126.819771,
-				"worldX": 648968.438,
-				"worldY": 13218162
+				"worldX": 659350.563,
+				"worldY": 13176634
 			}
 		],
 		"PathId": 16,
@@ -546,50 +570,50 @@
 			{
 				"controlPointsDistance": 503851.969,
 				"rotation": -35.4845428,
-				"worldX": 9181026,
-				"worldY": 11917508
+				"worldX": 9144689,
+				"worldY": 11969418
 			},
 			{
 				"controlPointsDistance": 567353.5,
 				"rotation": 26.70897,
-				"worldX": 10701176,
-				"worldY": 11675826
+				"worldX": 10685603,
+				"worldY": 11743309
 			},
 			{
 				"controlPointsDistance": 560089.2,
 				"rotation": 9.544527,
-				"worldX": 13143120,
-				"worldY": 12014095
+				"worldX": 13158693,
+				"worldY": 11925848
 			},
 			{
 				"controlPointsDistance": 755981.063,
 				"rotation": -8.285177,
-				"worldX": 15075482,
-				"worldY": 11973426
+				"worldX": 15106628,
+				"worldY": 11952662
 			},
 			{
 				"controlPointsDistance": 501690.031,
 				"rotation": 72.20271,
-				"worldX": 17439978,
-				"worldY": 11505338
+				"worldX": 17471130,
+				"worldY": 11738933
 			},
 			{
 				"controlPointsDistance": 674757.25,
 				"rotation": 180.196075,
-				"worldX": 17435448,
-				"worldY": 13529248
+				"worldX": 17231270,
+				"worldY": 13505025
 			},
 			{
 				"controlPointsDistance": 753859.3,
 				"rotation": 182.667343,
-				"worldX": 14806739,
-				"worldY": 13473875
+				"worldX": 14799817,
+				"worldY": 13432347
 			},
 			{
 				"controlPointsDistance": 442022.75,
 				"rotation": -204.775116,
-				"worldX": 13277887,
-				"worldY": 13851305
+				"worldX": 13317685,
+				"worldY": 13908411
 			},
 			{
 				"controlPointsDistance": 1050917.88,
@@ -610,44 +634,44 @@
 			{
 				"controlPointsDistance": 792719.063,
 				"rotation": 256.239868,
-				"worldX": 654146.4,
-				"worldY": 8386734.5
+				"worldX": 700865.9,
+				"worldY": 8381543.5
 			},
 			{
 				"controlPointsDistance": 669450.938,
 				"rotation": 9.718666,
-				"worldX": 1151132.38,
-				"worldY": 6926767.5
+				"worldX": 1135559.38,
+				"worldY": 6906003.5
 			},
 			{
 				"controlPointsDistance": 311540.219,
 				"rotation": 3.23837471,
-				"worldX": 2106911.5,
-				"worldY": 6706335.5
+				"worldX": 2013472.88,
+				"worldY": 6623279.5
 			},
 			{
-				"controlPointsDistance": 219371,
-				"rotation": 340.9698,
-				"worldX": 3711349.25,
-				"worldY": 6563822
+				"controlPointsDistance": 462847.8,
+				"rotation": 370.7147,
+				"worldX": 3654248.25,
+				"worldY": 6454811
 			},
 			{
 				"controlPointsDistance": 454810.7,
 				"rotation": -366.539856,
-				"worldX": 5010765,
-				"worldY": 6144445.5
+				"worldX": 5000383,
+				"worldY": 6217119.5
 			},
 			{
 				"controlPointsDistance": 269155.719,
 				"rotation": 73.84069,
-				"worldX": 5129771,
-				"worldY": 7870761
+				"worldX": 4896176,
+				"worldY": 7798087
 			},
 			{
 				"controlPointsDistance": 689919.7,
 				"rotation": 86.27157,
-				"worldX": 5138787,
-				"worldY": 9261642
+				"worldX": 5133596,
+				"worldY": 9251260
 			},
 			{
 				"controlPointsDistance": 628216.5,
@@ -664,8 +688,8 @@
 			{
 				"controlPointsDistance": 423308.1,
 				"rotation": -149.924225,
-				"worldX": 794252.6,
-				"worldY": 9399457
+				"worldX": 856545.25,
+				"worldY": 9383884
 			}
 		],
 		"PathId": 18,
@@ -678,34 +702,46 @@
 		"AutoSpawnShipClass": "",
 		"Nodes": [
 			{
-				"controlPointsDistance": 914594.25,
-				"rotation": 363.366241,
-				"worldX": 6997351,
-				"worldY": 13413366
+				"controlPointsDistance": 1290726.38,
+				"rotation": 377.736237,
+				"worldX": 7023305.5,
+				"worldY": 13127861
 			},
 			{
-				"controlPointsDistance": 316510.5,
-				"rotation": -77.1639557,
-				"worldX": 8183903.5,
-				"worldY": 7968961.5
+				"controlPointsDistance": 455536.156,
+				"rotation": -89.11079,
+				"worldX": 7624366.5,
+				"worldY": 11182579
+			},
+			{
+				"controlPointsDistance": 304212.938,
+				"rotation": -29.408535,
+				"worldX": 7607698.5,
+				"worldY": 8609187
+			},
+			{
+				"controlPointsDistance": 430485.656,
+				"rotation": -101.00354,
+				"worldX": 8169966.5,
+				"worldY": 7295231.5
 			},
 			{
 				"controlPointsDistance": 456586.5,
 				"rotation": -54.4678879,
-				"worldX": 7839380,
-				"worldY": 4610844
+				"worldX": 7543492,
+				"worldY": 4725046
 			},
 			{
 				"controlPointsDistance": 409802.875,
 				"rotation": -145.156921,
-				"worldX": 7792138.5,
-				"worldY": 2303619
+				"worldX": 7491060,
+				"worldY": 2414362.75
 			},
 			{
 				"controlPointsDistance": 804627.7,
 				"rotation": 162.645981,
-				"worldX": 6462711,
-				"worldY": 2146341.25
+				"worldX": 6331201.5,
+				"worldY": 1727596
 			},
 			{
 				"controlPointsDistance": 956668.3,
@@ -714,16 +750,22 @@
 				"worldY": 4768081.5
 			},
 			{
-				"controlPointsDistance": 179350.5,
-				"rotation": -234.7156,
-				"worldX": 6325547,
-				"worldY": 6052117
+				"controlPointsDistance": 285038.9,
+				"rotation": -267.826965,
+				"worldX": 6496850,
+				"worldY": 5834095
 			},
 			{
 				"controlPointsDistance": 226124.047,
 				"rotation": 34.6951523,
-				"worldX": 6261810.5,
-				"worldY": 7982515
+				"worldX": 6236432,
+				"worldY": 7975594
+			},
+			{
+				"controlPointsDistance": 305094.8,
+				"rotation": 96.86153,
+				"worldX": 6362241.5,
+				"worldY": 10695345
 			}
 		],
 		"PathId": 19,
