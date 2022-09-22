@@ -2838,6 +2838,49 @@
             ],
             "tameConsumeInterval": 22.0
         },
+        "CrabMini": {
+            "XP": 6.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "AtlasCrabMini_Character_BP_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Rotten Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Innards",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carrion",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 4250.0,
+            "requiredAffinityPerBaseLevel": 212.5,
+            "resources": [
+                "Leather",
+                "Crustacean Meat",
+                "Carapace"
+            ],
+            "tameConsumeInterval": 22.0
+        },
         "Crocodile": {
             "XP": 8.0,
             "XPperHit": true,
@@ -2851,43 +2894,43 @@
             "deathInventoryChance": 1.0,
             "food": [
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 37.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Animal Meat",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 50.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Fish Meat",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 37.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Crustacean Meat",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 90.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Human Meat",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 2.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Earthworms",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 50.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Marrow",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 50.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Prime Animal Meat",
                     "weight": 0.07000000029802322
@@ -2899,7 +2942,7 @@
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 50.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Prime Fish Meat",
                     "weight": 0.07000000029802322
@@ -2911,7 +2954,7 @@
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 37.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Cooked Fish",
                     "weight": 0.07000000029802322
@@ -2923,49 +2966,49 @@
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 100.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Human Meat",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 50.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Marrow",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 50.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Cooked Prime Animal Meat",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 37.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Cooked Prime Fish Meat",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 37.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Salted Meat",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 37.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Salted Fish",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 37.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Salted Prime Meat",
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 0.0,
+                    "affinityOverride": 37.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Salted Prime Fish",
                     "weight": 0.07000000029802322

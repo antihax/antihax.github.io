@@ -199,8 +199,8 @@
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 16303403,
-				"worldY": 2565159.75
+				"worldX": 16267066,
+				"worldY": 2549586.5
 			}
 		],
 		"PathId": 93,
@@ -285,8 +285,8 @@
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 6270851.5,
-				"worldY": 4006104.75
+				"worldX": 6218941.5,
+				"worldY": 3824418.5
 			}
 		],
 		"PathId": 95,
@@ -320,8 +320,8 @@
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 12903264,
-				"worldY": 8277031.5
+				"worldX": 13038231,
+				"worldY": 8183592.5
 			},
 			{
 				"PortalName": "Gelare to Maw Waters Exit",
@@ -355,16 +355,16 @@
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 11043778,
-				"worldY": 12136570
+				"worldX": 10934767,
+				"worldY": 11996413
 			},
 			{
 				"PortalName": "Hakar to Carribia Exit 2",
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 7540058.5,
-				"worldY": 12471384
+				"worldX": 7301271.5,
+				"worldY": 12024956
 			},
 			{
 				"PortalName": "Hakar to Maw Waters Exit",
@@ -387,8 +387,8 @@
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 11944737,
-				"worldY": 4944386
+				"worldX": 11591746,
+				"worldY": 4918431
 			},
 			{
 				"PortalName": "Tortuga to Carribia 2",
@@ -411,8 +411,8 @@
 				"RequiredResource": {},
 				"RequiredResourceOr": {},
 				"rotation": 0,
-				"worldX": 11778624,
-				"worldY": 10571473
+				"worldX": 11669612,
+				"worldY": 10903698
 			},
 			{
 				"PortalName": "Tortuga to Carribia 1",

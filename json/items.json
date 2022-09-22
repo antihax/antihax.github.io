@@ -568,6 +568,30 @@
         },
         "Name": "Ballista Bolt"
     },
+    "Ballista Ship Railing": {
+        "ClassName": "Structure_MidShipSideTileBallistaRailingRammingGeneral_C",
+        "Icon": "StandardBallistaRailing",
+        "Ingredients": {
+            "Alloy": 98.0,
+            "Fibers": 250.0,
+            "Stone": 180.0,
+            "Thatch": 225.0,
+            "Wood": 550.0
+        },
+        "Name": "Ballista Ship Railing"
+    },
+    "Ballista Ship Railing (Kraken)": {
+        "ClassName": "Structure_MidShipSideTileBallistaRailingKrakenGeneral_C",
+        "Icon": "KrakenBallistaRailing",
+        "Ingredients": {
+            "Alloy": 98.0,
+            "Fibers": 250.0,
+            "Stone": 180.0,
+            "Thatch": 225.0,
+            "Wood": 550.0
+        },
+        "Name": "Ballista Ship Railing (Kraken)"
+    },
     "Ballista Turret": {
         "ClassName": "Structure_TurretBallista_C",
         "Icon": "Item_Ballista_Icon",
@@ -1307,6 +1331,30 @@
         },
         "Name": "Canister Shot"
     },
+    "Cannon Ship Railing": {
+        "ClassName": "Structure_MidShipSideTileCannonRailingRammingGeneral_C",
+        "Icon": "StandardRailingCannon",
+        "Ingredients": {
+            "Alloy": 60.0,
+            "Fibers": 70.0,
+            "Hide": 50.0,
+            "Thatch": 100.0,
+            "Wood": 150.0
+        },
+        "Name": "Cannon Ship Railing"
+    },
+    "Cannon Ship Railing (Kraken)": {
+        "ClassName": "Structure_MidShipSideTileCannonRailingKrakenGeneral_C",
+        "Icon": "KrakenCannonRailing",
+        "Ingredients": {
+            "Alloy": 60.0,
+            "Fibers": 70.0,
+            "Hide": 50.0,
+            "Thatch": 100.0,
+            "Wood": 150.0
+        },
+        "Name": "Cannon Ship Railing (Kraken)"
+    },
     "Cantaloupe Coloring": {
         "ClassName": "Dye_Cantaloupe_C",
         "Ingredients": {
@@ -1443,6 +1491,32 @@
         "ClassName": "Consumable_Vegetable_Carrot_Seed_C",
         "Icon": "Carrot_Seed_Icon",
         "Name": "Carrot Seed"
+    },
+    "Catapult Ship Railing": {
+        "ClassName": "Structure_MidShipSideTileCatapultRailingRammingGeneral_C",
+        "Icon": "StandardCatapultRailing",
+        "Ingredients": {
+            "Alloy": 140.0,
+            "Fibers": 50.0,
+            "Hide": 70.0,
+            "Stone": 340.0,
+            "Thatch": 180.0,
+            "Wood": 500.0
+        },
+        "Name": "Catapult Ship Railing"
+    },
+    "Catapult Ship Railing (Kraken)": {
+        "ClassName": "Structure_MidShipSideTileCatapultRailingKrakenGeneral_C",
+        "Icon": "KrakenCatapultRailing",
+        "Ingredients": {
+            "Alloy": 140.0,
+            "Fibers": 50.0,
+            "Hide": 70.0,
+            "Stone": 340.0,
+            "Thatch": 180.0,
+            "Wood": 500.0
+        },
+        "Name": "Catapult Ship Railing (Kraken)"
     },
     "Catapult Turret": {
         "ClassName": "Structure_TurretCatapult_C",
@@ -6419,6 +6493,30 @@
         },
         "Name": "Large Cannon Ball"
     },
+    "Large Cannon Ship Railing": {
+        "ClassName": "Structure_MidShipSideTileLargeCannonRailingRammingGeneral_C",
+        "Icon": "StandardLargeCannonRailing",
+        "Ingredients": {
+            "Alloy": 48.0,
+            "Fibers": 75.0,
+            "Hide": 35.0,
+            "Thatch": 85.0,
+            "Wood": 180.0
+        },
+        "Name": "Large Cannon Ship Railing"
+    },
+    "Large Cannon Ship Railing (Kraken)": {
+        "ClassName": "Structure_MidShipSideTileLargeCannonRailingKrakenGeneral_C",
+        "Icon": "KrakenLargeCannonRailing",
+        "Ingredients": {
+            "Alloy": 48.0,
+            "Fibers": 75.0,
+            "Hide": 35.0,
+            "Thatch": 85.0,
+            "Wood": 180.0
+        },
+        "Name": "Large Cannon Ship Railing (Kraken)"
+    },
     "Large Creature Feces": {
         "ClassName": "Consumable_DinoPoopLarge_C",
         "Icon": "Item_DinoPoopLarge_Icon",
@@ -8266,7 +8364,7 @@
     },
     "Pegasus": {
         "ClassName": "Ship_Pegasus_C",
-        "Icon": "KrakenShipNewIcon",
+        "Icon": "ICON_Pegasus",
         "Ingredients": {
             "Fibers": 2000.0,
             "Metal": 20.0,
@@ -9833,29 +9931,26 @@
         },
         "Name": "Ship Ammunition Container"
     },
-    "Ship Ballista Railing": {
-        "ClassName": "Structure_MidShipSideTileBallistaRailingRammingGeneral_C",
-        "Icon": "StandardBallistaRailing",
+    "Ship Bottle": {
+        "ClassName": "ShipBottle_C",
+        "Icon": "ShipBottle",
         "Ingredients": {
-            "Alloy": 98.0,
-            "Fibers": 250.0,
-            "Stone": 180.0,
-            "Thatch": 225.0,
-            "Wood": 550.0
+            "Solidified Essence": 50.0
         },
-        "Name": "Ship Ballista Railing"
+        "Name": "Ship Bottle"
     },
-    "Ship Ballista Railing (Kraken)": {
-        "ClassName": "Structure_MidShipSideTileBallistaRailingKrakenGeneral_C",
-        "Icon": "KrakenBallistaRailing",
+    "Ship Bottle Station": {
+        "ClassName": "Structure_ShipBottleStation_C",
+        "Icon": "ShipBottlingStationIcon",
         "Ingredients": {
-            "Alloy": 98.0,
-            "Fibers": 250.0,
-            "Stone": 180.0,
-            "Thatch": 225.0,
-            "Wood": 550.0
+            "Gem": 60.0,
+            "Gold Coin": 270.0,
+            "Metal": 96.0,
+            "Stone": 110.0,
+            "Thatch": 134.0,
+            "Wood": 240.0
         },
-        "Name": "Ship Ballista Railing (Kraken)"
+        "Name": "Ship Bottle Station"
     },
     "Ship Cannon": {
         "ClassName": "Structure_ShipCannon_C",
@@ -9868,30 +9963,6 @@
         },
         "Name": "Ship Cannon"
     },
-    "Ship Cannon Railing": {
-        "ClassName": "Structure_MidShipSideTileCannonRailingRammingGeneral_C",
-        "Icon": "StandardRailingCannon",
-        "Ingredients": {
-            "Alloy": 60.0,
-            "Fibers": 70.0,
-            "Hide": 50.0,
-            "Thatch": 100.0,
-            "Wood": 150.0
-        },
-        "Name": "Ship Cannon Railing"
-    },
-    "Ship Cannon Railing (Kraken)": {
-        "ClassName": "Structure_MidShipSideTileCannonRailingKrakenGeneral_C",
-        "Icon": "KrakenCannonRailing",
-        "Ingredients": {
-            "Alloy": 60.0,
-            "Fibers": 70.0,
-            "Hide": 50.0,
-            "Thatch": 100.0,
-            "Wood": 150.0
-        },
-        "Name": "Ship Cannon Railing (Kraken)"
-    },
     "Ship Cargo Rack": {
         "ClassName": "Structure_ShipCargoRack_Normal_C",
         "Icon": "Item_CargoShipAttachment_Icon",
@@ -9902,32 +9973,6 @@
             "Wood": 352.0
         },
         "Name": "Ship Cargo Rack"
-    },
-    "Ship Catapult Railing": {
-        "ClassName": "Structure_MidShipSideTileCatapultRailingRammingGeneral_C",
-        "Icon": "StandardCatapultRailing",
-        "Ingredients": {
-            "Alloy": 140.0,
-            "Fibers": 50.0,
-            "Hide": 70.0,
-            "Stone": 340.0,
-            "Thatch": 180.0,
-            "Wood": 500.0
-        },
-        "Name": "Ship Catapult Railing"
-    },
-    "Ship Catapult Railing (Kraken)": {
-        "ClassName": "Structure_MidShipSideTileCatapultRailingKrakenGeneral_C",
-        "Icon": "KrakenCatapultRailing",
-        "Ingredients": {
-            "Alloy": 140.0,
-            "Fibers": 50.0,
-            "Hide": 70.0,
-            "Stone": 340.0,
-            "Thatch": 180.0,
-            "Wood": 500.0
-        },
-        "Name": "Ship Catapult Railing (Kraken)"
     },
     "Ship Deck Base": {
         "ClassName": "ShipDeckBase_C",
@@ -9960,30 +10005,6 @@
             "Wood": 5.0
         },
         "Name": "Ship Item"
-    },
-    "Ship Large Cannon Railing": {
-        "ClassName": "Structure_MidShipSideTileLargeCannonRailingRammingGeneral_C",
-        "Icon": "StandardLargeCannonRailing",
-        "Ingredients": {
-            "Alloy": 48.0,
-            "Fibers": 75.0,
-            "Hide": 35.0,
-            "Thatch": 85.0,
-            "Wood": 180.0
-        },
-        "Name": "Ship Large Cannon Railing"
-    },
-    "Ship Large Cannon Railing (Kraken)": {
-        "ClassName": "Structure_MidShipSideTileLargeCannonRailingKrakenGeneral_C",
-        "Icon": "KrakenLargeCannonRailing",
-        "Ingredients": {
-            "Alloy": 48.0,
-            "Fibers": 75.0,
-            "Hide": 35.0,
-            "Thatch": 85.0,
-            "Wood": 180.0
-        },
-        "Name": "Ship Large Cannon Railing (Kraken)"
     },
     "Ship Plank Base": {
         "ClassName": "ShipPlankBase_C",
@@ -10053,30 +10074,6 @@
             "Wood": 40.0
         },
         "Name": "Ship Steering Wheel"
-    },
-    "Ship Swivel Railing (Kraken)": {
-        "ClassName": "Structure_MidShipSideTileSwivelRailingKrakenGeneral_C",
-        "Icon": "KrakenBallistaRailing",
-        "Ingredients": {
-            "Alloy": 98.0,
-            "Fibers": 250.0,
-            "Stone": 180.0,
-            "Thatch": 225.0,
-            "Wood": 550.0
-        },
-        "Name": "Ship Swivel Railing (Kraken)"
-    },
-    "Ship Tame Cargo Railing": {
-        "ClassName": "Structure_TameCargoRailing_C",
-        "Icon": "ICON_BoatBarn",
-        "Ingredients": {
-            "Alloy": 60.0,
-            "Fibers": 70.0,
-            "Hide": 50.0,
-            "Thatch": 100.0,
-            "Wood": 150.0
-        },
-        "Name": "Ship Tame Cargo Railing"
     },
     "ShipHangarBase": {
         "ClassName": "Structure_ShipHangar_Base_C",
@@ -11103,6 +11100,20 @@
             }
         }
     },
+    "Submarine": {
+        "ClassName": "Ship_Submarine_C",
+        "Icon": "Item_Submarine_Icon",
+        "Ingredients": {
+            "Alloy": 324.0,
+            "Crystal": 60.0,
+            "Fibers": 372.0,
+            "Gem": 40.0,
+            "Oil": 86.0,
+            "Organic Paste": 140.0,
+            "Wood": 180.0
+        },
+        "Name": "Submarine"
+    },
     "Sugarcane": {
         "ClassName": "Consumable_Vegetable_Sugarcane_C",
         "Icon": "Sugarcane_Icon",
@@ -11218,6 +11229,18 @@
         },
         "Name": "Swamp Purple Coloring"
     },
+    "Swarm House": {
+        "ClassName": "Structure_SwarmHouse_C",
+        "Icon": "ICON_Swarmhouse",
+        "Ingredients": {
+            "Fibers": 40.0,
+            "Hide": 10.0,
+            "Stone": 20.0,
+            "Thatch": 40.0,
+            "Wood": 20.0
+        },
+        "Name": "Swarm House"
+    },
     "Sweet Vegetable Cake": {
         "ClassName": "Consumable_SweetVeggieCake_C",
         "Icon": "TastyCake_Icon",
@@ -11260,6 +11283,18 @@
         },
         "Name": "Swivel Gun"
     },
+    "Swivel Ship Railing (Kraken)": {
+        "ClassName": "Structure_MidShipSideTileSwivelRailingKrakenGeneral_C",
+        "Icon": "KrakenBallistaRailing",
+        "Ingredients": {
+            "Alloy": 98.0,
+            "Fibers": 250.0,
+            "Stone": 180.0,
+            "Thatch": 225.0,
+            "Wood": 550.0
+        },
+        "Name": "Swivel Ship Railing (Kraken)"
+    },
     "Sword": {
         "ClassName": "YarkWeaponSword_C",
         "Icon": "Item_Sword_Icon",
@@ -11295,6 +11330,18 @@
             "Wood": 40.0
         },
         "Name": "Tame Cargo Module"
+    },
+    "Tame Cargo Ship Railing": {
+        "ClassName": "Structure_TameCargoRailing_C",
+        "Icon": "ICON_BoatBarn",
+        "Ingredients": {
+            "Alloy": 60.0,
+            "Fibers": 70.0,
+            "Hide": 50.0,
+            "Thatch": 100.0,
+            "Wood": 150.0
+        },
+        "Name": "Tame Cargo Ship Railing"
     },
     "Tame Hatchery": {
         "ClassName": "Structure_TameHouse_Exotic_C",
@@ -11747,18 +11794,6 @@
         },
         "Name": "Torpedo Launcher"
     },
-    "Torpedo Launcher Kraken Railing": {
-        "ClassName": "Structure_MidShipTileTorpedoRailingKrakenGeneral_C",
-        "Icon": "StandardRailingCannon",
-        "Ingredients": {
-            "Fibers": 130.0,
-            "Hide": 28.0,
-            "Metal": 14.0,
-            "Thatch": 85.0,
-            "Wood": 310.0
-        },
-        "Name": "Torpedo Launcher Kraken Railing"
-    },
     "Torpedo Launcher Ship Railing": {
         "ClassName": "Structure_MidShipTileTorpedoRailingRammingGeneral_C",
         "Icon": "StandardRailingCannon",
@@ -11771,11 +11806,43 @@
         },
         "Name": "Torpedo Launcher Ship Railing"
     },
+    "Torpedo Launcher Ship Railing (Kraken)": {
+        "ClassName": "Structure_MidShipTileTorpedoRailingKrakenGeneral_C",
+        "Icon": "StandardRailingCannon",
+        "Ingredients": {
+            "Fibers": 130.0,
+            "Hide": 28.0,
+            "Metal": 14.0,
+            "Thatch": 85.0,
+            "Wood": 310.0
+        },
+        "Name": "Torpedo Launcher Ship Railing (Kraken)"
+    },
     "Toxic Compound": {
         "ClassName": "Consumable_ToxicCompound_BASE_C",
         "Icon": "CrudeOil_Icon",
         "Name": "Toxic Compound",
         "SpoilTime": 600.0,
+        "Type": "",
+        "Weight": 0.07000000029802322,
+        "stats": {
+            "Food": {
+                "add": -1.0,
+                "addOverTime": true,
+                "addOverTimeSpeed": 3.0
+            },
+            "Health": {
+                "add": 0.0,
+                "addOverTime": false,
+                "addOverTimeSpeed": 8.407790785948902e-44
+            }
+        }
+    },
+    "Toxic Flora": {
+        "ClassName": "Consumable_ToxicCompound_ToxicFlora_C",
+        "Icon": "ToxicMushroom_Icon",
+        "Name": "Toxic Flora",
+        "SpoilTime": 86400.0,
         "Type": "",
         "Weight": 0.07000000029802322,
         "stats": {
