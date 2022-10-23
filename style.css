@@ -190,6 +190,11 @@ ol.History {
     white-space: nowrap;
 }
 
+.div-marker {
+    font: 16px/1.25 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    text-align:  center;
+}
+
 .leaflet-grid-header {
     font: 10px/1 "Helvetica Neue", Arial, Helvetica, sans-serif;
     margin: 0;

@@ -91,6 +91,19 @@ L.AtlasMap = L.Map.extend({
 		return ((value - minVal) / (maxVal - minVal)) * (maxRange - minRange);
 	},
 
+	getClientParameters: function () {
+		let index = window.location.href.indexOf('#');
+		if (index > 0)
+			return new URLSearchParams(
+				window.location.href.substring(window.location.href.indexOf('#') + 1),
+			);
+		else return new URLSearchParams();
+	},
+
+	setClientParameters : function (params) {
+		window.location.href = '#' + params.toString();
+	},
+
 	addPortalPin: function (icon, location, text, angle = 0) {
 		let pin = new L.Marker(location, {
 			icon: icon,

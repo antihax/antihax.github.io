@@ -1,11 +1,20 @@
 /* global L, config, createGraph,ngraphPath */
 
-L.Control.Pin = L.Control.extend({
+L.Control.PathFinder = L.Control.extend({
 	options: {
 		position: 'topleft',
 	},
-	_gPins: [],
-	_lPins: [],
+
+	_icon: L.divIcon({
+		iconSize: [16, 16],
+		iconAnchor: [8, 8],
+		className: 'div-marker',
+		html: '&#x274C;',
+	}),
+
+	_pins: [],
+	_path: [],
+	_graph: createGraph(),
 
 	initialize: async function (options) {
 		//  apply options to instance
@@ -13,6 +22,17 @@ L.Control.Pin = L.Control.extend({
 		if (this.options.keyboard) {
 			L.DomEvent.on(document, 'keydown', this._onKeyDown, this);
 		}
+
+		const res = await fetch('json/pathfinder.json');
+		const json = await res.json().then((data) => {
+			data.forEach((v) => {
+				this._graph.addLink(v.f, v.t);
+			});
+			this._pathfinder = ngraphPath.aStar(this._graph, {
+				oriented: true,
+			});
+			this._addPins();
+		});
 	},
 
 	getDistance: function (p1, p2) {
@@ -31,14 +51,13 @@ L.Control.Pin = L.Control.extend({
 		let className = 'leaflet-control-zoom leaflet-bar leaflet-control';
 		let container = L.DomUtil.create('div', className);
 		this._createButton(
-			'&#128204;',
-			'Pin',
+			'&#x1F6A2;',
+			'PathFinder',
 			'leaflet-control-pin leaflet-bar-part leaflet-bar-part-top-and-bottom',
 			container,
 			this._togglePin,
 			this,
 		);
-		this._addPins();
 		return container;
 	},
 
@@ -139,48 +158,24 @@ L.Control.Pin = L.Control.extend({
 		const params = new URLSearchParams(
 			window.location.href.substring(window.location.href.indexOf('#') + 1),
 		);
-		if (params.has('gps')) {
-			let pins = params.get('gps').split(',');
+
+		if (params.has('pathFinder')) {
+			let pins = params.get('pathFinder').split(',');
 			pins.forEach((v) => {
-				this._gPins.push(v);
-				L.marker(v.split(';'), {name: 'globalPin', v: v, parent: this})
+				this._pins.push(v);
+				L.marker(v.split(';'), {name: 'pathFinder', icon: this._icon, v: v, parent: this})
 					.addTo(this._map)
-					.on('click', this._gMarkerClick);
+					.on('click', this._markerClick);
 			});
 		}
-		if (params.has('localgps')) {
-			let pins = params.get('localgps').split(',');
-			pins.forEach((v) => {
-				this._lPins.push(v);
-				let pinDetail = v.split(';');
-				let [x, y] = this._map.localGPStoWorld(
-					pinDetail[0],
-					parseInt(pinDetail[1]),
-					parseInt(pinDetail[2]),
-				);
-				L.marker(this._map.worldToLeaflet(x, y), {name: 'localPin', v: v, parent: this})
-					.addTo(this._map)
-					.on('click', this._lMarkerClick);
-			});
-		}
+		this._updatePaths();
 	},
 
-	_gMarkerClick: function () {
+	_markerClick: function () {
 		let parent = this.options.parent;
-		parent._gPins.forEach((v) => {
+		parent._pins.forEach((v) => {
 			if (v === this._latlng.lat + ';' + this._latlng.lng) {
-				this.options.parent._gPins.splice(this.options.parent._gPins.indexOf(v), 1);
-			}
-		});
-		this._map.removeLayer(this);
-		parent._updateURI();
-	},
-
-	_lMarkerClick: function () {
-		let parent = this.options.parent;
-		parent._lPins.forEach((v) => {
-			if (v === this._latlng.lat + ';' + this._latlng.lng) {
-				this.options.parent._lPins.splice(this.options.parent._lPins.indexOf(v), 1);
+				this.options.parent._pins.splice(this.options.parent._pins.indexOf(v), 1);
 			}
 		});
 		this._map.removeLayer(this);
@@ -188,23 +183,82 @@ L.Control.Pin = L.Control.extend({
 	},
 
 	_updateURI: function () {
+		let pins = [];
 		let params = this._map.getClientParameters();
-		let lPins = [],
-			gPins = [];
-
 		this._map.eachLayer(function (layer) {
-			if (layer.options.name === 'globalPin') {
-				gPins.push([layer.options.v]);
-			} else if (layer.options.name === 'localPin') {
-				lPins.push([layer.options.v]);
+			if (layer.options.name === 'pathFinder') {
+				pins.push([layer.options.v]);
 			}
 		});
-		if (lPins.length > 0) params.set('localgps', lPins.join(','));
-		else params.delete('localgps');
-		if (gPins.length > 0) params.set('gps', gPins.join(','));
-		else params.delete('gps');
+		if (pins.length > 0) params.set('pathFinder', pins.join(','));
+		else params.delete('pathFinder');
 
 		this._map.setClientParameters(params);
+	},
+
+	_getNode: function (x, y) {
+		let node = this._map.worldToGlobalGPS(
+			this._roundNodeLocation(x),
+			this._roundNodeLocation(y),
+			config.GPSBounds,
+		);
+		if (this._graph.getNode(node.toString())) return node;
+		else return undefined;
+	},
+
+	_closestNode: function ([x1, y1]) {
+		let [x, y] = this._map.leafletToWorld([y1, x1]);
+		let step = config.GridSize / config.NodesPerAxis;
+		let node = this._getNode(x, y);
+		if (node) return node;
+
+		for (let stepCount = 1; stepCount < 6; stepCount++) {
+			const steps = step * stepCount;
+			for (let a = -1; a <= 1; a++) {
+				for (let b = -1; b <= 1; b++) {
+					let node = this._getNode(+x + steps * a, +y + steps * b);
+					if (node) return node;
+				}
+			}
+		}
+
+		return undefined;
+	},
+
+	_roundNodeLocation: function (v) {
+		let step = config.GridSize / config.NodesPerAxis;
+		if (v % step === 0) {
+			return Math.floor(v / step) * step + config.GridOffset;
+		}
+		return Math.floor(v / step) * step + step + config.GridOffset;
+	},
+
+	_updatePaths: function () {
+		this._path.forEach((v) => {
+			this._map.removeLayer(v);
+		});
+
+		
+		if (this._pins.length >= 2) {
+			for (let i = 1; i < this._pins.length; i++) {
+				let pin1 = this._closestNode(this._pins[i - 1].split(';')),
+					pin2 = this._closestNode(this._pins[i].split(';'));
+				
+				let p = this._pathfinder.find(pin1.toString(), pin2.toString());
+				for (let j = 1; j < p.length; j++) {
+					let p1 = this.GPSStringtoLeaflet(p[j - 1].id);
+					let p2 = this.GPSStringtoLeaflet(p[j].id);
+					let options = {};
+					if (this.getDistance(p1, p2) > 2) {
+						options.dashArray = '5, 20';
+						options.opacity = 0.75;
+					}
+
+					let line = L.polyline([p1, p2], options).addTo(this._map);
+					this._path.push(line);
+				}
+			}
+		}
 	},
 
 	_mouseClick: function (e) {
@@ -212,15 +266,17 @@ L.Control.Pin = L.Control.extend({
 			return;
 		}
 
-		this._gPins.push(e.latlng.lat + ';' + e.latlng.lng);
+		this._pins.push(e.latlng.lat + ';' + e.latlng.lng);
 		L.marker(e.latlng, {
-			name: 'globalPin',
+			name: 'pathFinder',
+			icon: this._icon,
 			v: e.latlng.lat + ';' + e.latlng.lng,
 			parent: this,
 		})
 			.addTo(this._map)
 			.on('click', this._markerClick);
 		this._updateURI();
+		this._updatePaths();
 	},
 
 	_onKeyDown: function (e) {
@@ -245,8 +301,8 @@ L.Control.Pin = L.Control.extend({
 	},
 });
 
-L.control.pin = function (options) {
-	return new L.Control.Pin(options);
+L.control.pathFinder = function (options) {
+	return new L.Control.PathFinder(options);
 };
 
 L.Map.mergeOptions({
@@ -254,6 +310,6 @@ L.Map.mergeOptions({
 });
 
 L.Map.addInitHook(function () {
-	this.pinControl = new L.Control.Pin();
+	this.pinControl = new L.Control.PathFinder();
 	this.addControl(this.pinControl);
 });
