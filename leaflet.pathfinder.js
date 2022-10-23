@@ -269,6 +269,14 @@ L.Control.PathFinder = L.Control.extend({
 		return Math.floor(v / step) * step + step + config.GridOffset;
 	},
 
+	_pointFromLine: function (along, dist, p1, p2) {
+		let res = [];
+		const dx = p2[0] - p1[0];
+		const dy = p2[1] - p1[1];
+
+		return [p1[0] + dx * along - dy * dist, p1[1] + dy * along + dx * dist];
+	},
+
 	_updatePaths: function () {
 		this._path.forEach((v) => {
 			this._map.removeLayer(v);
@@ -284,12 +292,19 @@ L.Control.PathFinder = L.Control.extend({
 					let p1 = this.GPSStringtoLeaflet(p[j - 1].id);
 					let p2 = this.GPSStringtoLeaflet(p[j].id);
 					let options = {name: 'path'};
+
+					let pathing = [];
+					pathing.push('M', p1);
+
 					if (this.getDistance(p1, p2) > 2) {
-						options.dashArray = '5, 20';
-						options.opacity = 0.75;
+						options.dashArray = '10, 10';
+						options.opacity = 0.5;
+						pathing.push('C',  this._pointFromLine(0.333, 0.2, p1, p2),this._pointFromLine(1-0.333, 0.2, p1, p2), p2);
+					} else {
+						pathing.push('L', p2);
 					}
 
-					let line = L.polyline([p1, p2], options).addTo(this._map);
+					let line = L.curve(pathing, options).addTo(this._map);
 					this._path.push(line);
 				}
 			}
