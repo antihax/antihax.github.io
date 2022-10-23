@@ -129,8 +129,6 @@ L.Control.PathFinder = L.Control.extend({
 			this._updatePaths();
 			this._updateURI();
 		}
-
-	
 	},
 
 	_startPinning: function () {
@@ -250,7 +248,7 @@ L.Control.PathFinder = L.Control.extend({
 		let node = this._getNode(x, y);
 		if (node) return node;
 
-		for (let stepCount = 1; stepCount < 6; stepCount++) {
+		for (let stepCount = 1; stepCount < 3; stepCount++) {
 			const steps = step * stepCount;
 			for (let a = -1; a <= 1; a++) {
 				for (let b = -1; b <= 1; b++) {
