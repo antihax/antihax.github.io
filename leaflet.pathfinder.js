@@ -26,10 +26,13 @@ L.Control.PathFinder = L.Control.extend({
 		const res = await fetch('json/pathfinder.json');
 		const json = await res.json().then((data) => {
 			data.forEach((v) => {
-				this._graph.addLink(v.f, v.t);
+				this._graph.addLink(v.f, v.t, {weight: 20});
 			});
 			this._pathfinder = ngraphPath.aStar(this._graph, {
 				oriented: true,
+				distance(fromNode, toNode, link) {
+					return link.data.weight;
+				},
 			});
 			this._addPins();
 		});
@@ -48,14 +51,22 @@ L.Control.PathFinder = L.Control.extend({
 	},
 
 	onAdd: function () {
-		let className = 'leaflet-control-zoom leaflet-bar leaflet-control';
+		let className = 'leaflet-control-zoom leaflet-bar';
 		let container = L.DomUtil.create('div', className);
 		this._createButton(
 			'&#x1F6A2;',
 			'PathFinder',
-			'leaflet-control-pin leaflet-bar-part leaflet-bar-part-top-and-bottom',
+			'leaflet-control-pathfinder',
 			container,
 			this._togglePin,
+			this,
+		);
+		this._createButton(
+			'&#128269;',
+			'Optimize Path',
+			'leaflet-control-pathfinder',
+			container,
+			this._optimize,
 			this,
 		);
 		return container;
@@ -89,6 +100,37 @@ L.Control.PathFinder = L.Control.extend({
 			L.DomUtil.removeClass(this._container, 'leaflet-control-pin-on');
 			this._stopPinning();
 		}
+	},
+
+	_optimize: function () {
+		if (this._pins.length >= 3) {
+			let pins = [this._pins[0]];
+			let last = this._pins.shift();
+
+			while (this._pins.length > 0) {
+				let shortest = 0,
+					shortestDistance = 0;
+
+				for (let i = 0; i < this._pins.length; i++) {
+					let pin1 = this._closestNode(last.split(';')),
+						pin2 = this._closestNode(this._pins[i].split(';'));
+
+					let p = this._pathfinder.find(pin1.toString(), pin2.toString());
+					if (shortestDistance == 0 || p.length < shortestDistance) {
+						shortestDistance = p.length;
+						shortest = i;
+					}
+				}
+				pins.push(this._pins[shortest]);
+				last = this._pins[shortest];
+				this._pins.splice(shortest, 1);
+			}
+			this._pins = pins;
+			this._updatePaths();
+			this._updateURI();
+		}
+
+	
 	},
 
 	_startPinning: function () {
@@ -186,12 +228,7 @@ L.Control.PathFinder = L.Control.extend({
 	_updateURI: function () {
 		let pins = [];
 		let params = this._map.getClientParameters();
-		this._map.eachLayer(function (layer) {
-			if (layer.options.name === 'pathFinder') {
-				pins.push([layer.options.v]);
-			}
-		});
-		if (pins.length > 0) params.set('pathFinder', pins.join(','));
+		if (this._pins.length > 0) params.set('pathFinder', this._pins.join(','));
 		else params.delete('pathFinder');
 
 		this._map.setClientParameters(params);
@@ -239,17 +276,16 @@ L.Control.PathFinder = L.Control.extend({
 			this._map.removeLayer(v);
 		});
 
-		
 		if (this._pins.length >= 2) {
 			for (let i = 1; i < this._pins.length; i++) {
 				let pin1 = this._closestNode(this._pins[i - 1].split(';')),
 					pin2 = this._closestNode(this._pins[i].split(';'));
-				
+
 				let p = this._pathfinder.find(pin1.toString(), pin2.toString());
 				for (let j = 1; j < p.length; j++) {
 					let p1 = this.GPSStringtoLeaflet(p[j - 1].id);
 					let p2 = this.GPSStringtoLeaflet(p[j].id);
-					let options = {name:"path"};
+					let options = {name: 'path'};
 					if (this.getDistance(p1, p2) > 2) {
 						options.dashArray = '5, 20';
 						options.opacity = 0.75;

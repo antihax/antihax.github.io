@@ -145,18 +145,18 @@ ol.History {
     font-size: 16px;
     font-weight: bold;
     line-height: 21px;
+    
 }
 
-.leaflet-bar-part-top-and-bottom {
-    -webkit-border-radius: 4px 4px 4px 4px;
-    border-radius: 4px 4px 4px 4px;
-    border-bottom: none;
-}
+.leaflet-bar-horizontal  {
+    white-space: nowrap;
+  }
 
-.leaflet-touch .leaflet-bar-part-top-and-bottom {
-    -webkit-border-radius: 7px 7px 7px 7px;
-    border-radius: 7px 7px 7px 7px;
-    border-bottom: none;
+.leaflet-control-pathfinder {
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    line-height: 21px;
 }
 
 .leaflet-control-measure-on .leaflet-control-measure {

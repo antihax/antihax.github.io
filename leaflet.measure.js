@@ -6,26 +6,17 @@ function getDistance(p1, p2) {
 L.Control.Measure = L.Control.extend({
 	options: {
 		position: 'topleft',
-		//  weather to use keyboard control for this plugin
 		keyboard: true,
-		//  shortcut to activate measure
 		cancelKeyCode: 27,
-		//  line color
 		lineColor: 'black',
-		//  line weight
 		lineWeight: 2,
-		//  line dash
 		lineDashArray: '6, 6',
-		//  line opacity
 		lineOpacity: 1,
-		//  format distance method
 		formatDistance: null,
-		//  define text color
 		textColor: 'black',
 	},
 
 	initialize: function (options) {
-		//  apply options to instance
 		L.Util.setOptions(this, options);
 	},
 
@@ -120,7 +111,6 @@ L.Control.Measure = L.Control.extend({
 			return;
 		}
 		if (!this._layerPaintPathTemp) {
-			//  customize style
 			this._layerPaintPathTemp = L.polyline([this._lastPoint, e.latlng], {
 				color: this.options.lineColor,
 				weight: this.options.lineWeight,
@@ -130,17 +120,13 @@ L.Control.Measure = L.Control.extend({
 				interactive: false,
 			}).addTo(this._layerPaint);
 		} else {
-			//  replace the current layer to the newest draw points
 			this._layerPaintPathTemp.getLatLngs().splice(0, 2, this._lastPoint, e.latlng);
-			//  force path layer update
 			this._layerPaintPathTemp.redraw();
 		}
 
 		//  tooltip
 		if (this._tooltip) {
-			//if (!this._distance) {
 			this._distance = 0;
-			//}
 			this._updateTooltipPosition(e.latlng);
 			this._updateTooltipDistance(getDistance(e.latlng, this._lastPoint));
 		}

@@ -33,7 +33,7 @@ L.Control.Pin = L.Control.extend({
 		this._createButton(
 			'&#128204;',
 			'Pin',
-			'leaflet-control-pin leaflet-bar-part leaflet-bar-part-top-and-bottom',
+			'leaflet-control-pin leaflet-bar-part',
 			container,
 			this._togglePin,
 			this,
