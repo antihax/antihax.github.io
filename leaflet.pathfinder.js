@@ -12,6 +12,12 @@ L.Control.PathFinder = L.Control.extend({
 		html: '&#x274C;',
 	}),
 
+	_arrowIcon: L.icon({
+		iconUrl: 'icons/Arrow.svg',
+		iconSize: [12, 12],
+		iconAnchor: [6, 6],
+	}),
+
 	_pins: [],
 	_path: [],
 	_graph: createGraph(),
@@ -277,6 +283,22 @@ L.Control.PathFinder = L.Control.extend({
 		return [p1[0] + dx * along - dy * dist, p1[1] + dy * along + dx * dist];
 	},
 
+	rotateVector2DAroundAxis: function (vec, axis, ang) {
+		ang = ang * (Math.PI / 180);
+		let cos = Math.cos(ang);
+		let sin = Math.sin(ang);
+
+		vec[0] -= axis[0];
+		vec[1] -= axis[1];
+
+		let r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos);
+
+		r[0] += axis[0];
+		r[1] += axis[1];
+
+		return r;
+	},
+
 	_updatePaths: function () {
 		this._path.forEach((v) => {
 			this._map.removeLayer(v);
@@ -299,7 +321,40 @@ L.Control.PathFinder = L.Control.extend({
 					if (this.getDistance(p1, p2) > 2) {
 						options.dashArray = '10, 10';
 						options.opacity = 0.5;
-						pathing.push('C',  this._pointFromLine(0.333, 0.2, p1, p2),this._pointFromLine(1-0.333, 0.2, p1, p2), p2);
+						pathing.push(
+							'C',
+							this._pointFromLine(0.333, 0.2, p1, p2),
+							this._pointFromLine(1 - 0.333, 0.2, p1, p2),
+							p2,
+						);
+
+						
+						let c1 = this._pointFromLine(1 - 0.333, 0.2, p1, p2)
+
+						let pin = new L.Marker(p2, {
+							icon: this._arrowIcon,
+							rotationAngle: (Math.atan2(p2[1] - c1[1], p2[0] - c1[0]) * 180) / Math.PI ,
+						}).addTo(this._map);
+
+						this._path.push(pin);
+						/*
+						path.Nodes.push(path.Nodes.shift());
+						for (let i = 0; i < path.Nodes.length; i++) {
+							let n = path.Nodes[i];
+							let center = [n.worldX, n.worldY];
+							let previous = rotateVector2DAroundAxis(
+								[n.worldX - n.controlPointsDistance, n.worldY],
+								center,
+								n.rotation,
+							);
+							pathing.push('S', worldToLeafletArray(previous), worldToLeafletArray(center));
+							let actualang = n.rotation + 90;
+							if (path.reverseDir) actualang += 180;
+							let pin = new L.Marker(worldToLeafletArray(center), {
+								icon: ArrowIcon,
+								rotationAngle: actualang,
+							});
+							*/
 					} else {
 						pathing.push('L', p2);
 					}
