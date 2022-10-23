@@ -180,6 +180,7 @@ L.Control.PathFinder = L.Control.extend({
 		});
 		this._map.removeLayer(this);
 		parent._updateURI();
+		parent._updatePaths();
 	},
 
 	_updateURI: function () {
@@ -248,7 +249,7 @@ L.Control.PathFinder = L.Control.extend({
 				for (let j = 1; j < p.length; j++) {
 					let p1 = this.GPSStringtoLeaflet(p[j - 1].id);
 					let p2 = this.GPSStringtoLeaflet(p[j].id);
-					let options = {};
+					let options = {name:"path"};
 					if (this.getDistance(p1, p2) > 2) {
 						options.dashArray = '5, 20';
 						options.opacity = 0.75;
