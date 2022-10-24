@@ -38,7 +38,16 @@ L.Control.Pin = L.Control.extend({
 			this._togglePin,
 			this,
 		);
-		this._addPins();
+		let me = this;
+		fetch('json/regions.json', {
+			dataType: 'json',
+		})
+			.then((res) => res.json())
+			.then(function (regions) {
+				me._regions = regions;
+				me._addPins();
+			});
+
 		return container;
 	},
 
@@ -135,6 +144,21 @@ L.Control.Pin = L.Control.extend({
 		}
 	},
 
+	_localGPStoWorld: function (grid, long, lat) {
+		let [gridX, gridY] = this._map.gridStringToIntegers(grid);
+		let outX, outY;
+		Object.values(this._regions).forEach((v) => {
+			if (gridX <= v.MaxX && gridX >= v.MinX && gridY <= v.MaxY && gridY >= v.MinY) {
+				let xEdge = config.GridSize * (v.MaxX - v.MinX + 1);
+				let yEdge = config.GridSize * (v.MaxY - v.MinY + 1);
+				outX = this._map.constraintInv(long, -100, 100, 0, xEdge) + v.MinX * config.GridSize;
+				outY = this._map.constraintInv(lat, 100, -100, 0, yEdge) + v.MinY * config.GridSize;
+				return false;
+			}
+		});
+		return [outX, outY];
+	},
+
 	_addPins: function () {
 		const params = new URLSearchParams(
 			window.location.href.substring(window.location.href.indexOf('#') + 1),
@@ -153,7 +177,7 @@ L.Control.Pin = L.Control.extend({
 			pins.forEach((v) => {
 				this._lPins.push(v);
 				let pinDetail = v.split(';');
-				let [x, y] = this._map.localGPStoWorld(
+				let [x, y] = this._localGPStoWorld(
 					pinDetail[0],
 					parseInt(pinDetail[1]),
 					parseInt(pinDetail[2]),

@@ -24,8 +24,15 @@ class WorldMap extends React.Component {
 			zoomControl: false,
 			attributionControl: false,
 		}));
-
 		map._originalBounds = layerOpts.bounds;
+		
+		fetch('json/regions.json', {
+			dataType: 'json',
+		})
+			.then((res) => res.json())
+			.then(function (regions) {
+				map._regions = regions;
+			});
 
 		// Add zoom control
 		L.control
@@ -297,13 +304,7 @@ class WorldMap extends React.Component {
 			iconAnchor: [16, 16],
 		});
 
-		fetch('json/regions.json', {
-			dataType: 'json',
-		})
-			.then((res) => res.json())
-			.then(function (regions) {
-				map._regions = regions;
-			});
+
 
 		fetch('json/portals.json', {
 			dataType: 'json',

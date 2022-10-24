@@ -50,22 +50,6 @@ L.AtlasMap = L.Map.extend({
 		return [long, lat];
 	},
 
-	localGPStoWorld: function (grid, long, lat) {
-		let [gridX, gridY] = this.gridStringToIntegers(grid);
-		let outX, outY;
-		Object.values(this._regions).forEach((v) => {
-			if (gridX <= v.MaxX && gridX >= v.MinX && gridY <= v.MaxY && gridY >= v.MinY) {
-				let xEdge = config.GridSize * (v.MaxX - v.MinX + 1);
-				let yEdge = config.GridSize * (v.MaxY - v.MinY + 1);
-				console.log(v, lat, long, xEdge, yEdge, this.constraintInv(99, -100, 100, 0, 100));
-				outX = this.constraintInv(long, -100, 100, 0, xEdge) + v.MinX * config.GridSize;
-				outY = this.constraintInv(lat, 100, -100, 0, yEdge) + v.MinY * config.GridSize;
-				return false;
-			}
-		});
-		return [outX, outY];
-	},
-
 	worldToGlobalGPS: function (x, y, bounds) {
 		const worldUnitsX = config.ServersX * config.GridSize;
 		const worldUnitsY = config.ServersY * config.GridSize;
@@ -100,7 +84,7 @@ L.AtlasMap = L.Map.extend({
 		else return new URLSearchParams();
 	},
 
-	setClientParameters : function (params) {
+	setClientParameters: function (params) {
 		window.location.href = '#' + params.toString();
 	},
 

@@ -327,7 +327,6 @@ L.Control.PathFinder = L.Control.extend({
 							this._pointFromLine(1 - 0.333, 0.2, p1, p2),
 							p2,
 						);
-
 						
 						let c1 = this._pointFromLine(1 - 0.333, 0.2, p1, p2)
 
