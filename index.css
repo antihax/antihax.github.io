@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  #bgVid {
+    position: absolute;
+    top: 0;
+  
+    min-width: 100%;
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    
+  }
+
+  .navbar {
+    background-color: #333;
+    opacity: 85%;
+    overflow: hidden;
+    position: fixed;
+    display:table;
+    bottom: 0;
+    width: 100%;
+
+  }
+  
+
+  .navbar-nav > li {
+    float:none;
+    display:table-cell;
+ 
+    text-align:center;
+}
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .navbar .icon {
+    display: none;
+  }
