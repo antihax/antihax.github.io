@@ -69,8 +69,8 @@ L.AtlasGrid = L.LayerGroup.extend({
 			iconSize: [8, 8],
 			iconAnchor: [4, 0],
 		});
-
-		if (
+		console.log(g)
+		if (g.DestEast[0] !== null &&
 			g.DestEast.reduce(function (a, b) {
 				return a + b;
 			}, 2) > 0
@@ -81,7 +81,7 @@ L.AtlasGrid = L.LayerGroup.extend({
 			let sY2 = this._yTickSize * g.DestEast[1] + this._yTickSize / 2;
 			this._drawGridBorderPin(sX1, sY1, sX2, sY2, icon, 'Grid Transfer', 90);
 		}
-		if (
+		if (g.DestWest[0] !== null &&
 			g.DestWest.reduce(function (a, b) {
 				return a + b;
 			}, 2) > 0
@@ -92,7 +92,7 @@ L.AtlasGrid = L.LayerGroup.extend({
 			let sY2 = this._yTickSize * g.DestWest[1] + this._yTickSize / 2;
 			this._drawGridBorderPin(sX1, sY1, sX2, sY2, icon, 'Grid Transfer', 270);
 		}
-		if (
+		if (g.DestNorth[0] !== null &&
 			g.DestNorth.reduce(function (a, b) {
 				return a + b;
 			}, 2) > 0
@@ -103,7 +103,7 @@ L.AtlasGrid = L.LayerGroup.extend({
 			let sY2 = this._yTickSize * g.DestNorth[1] + this._yTickSize / 2;
 			this._drawGridBorderPin(sX1, sY1, sX2, sY2, icon, 'Grid Transfer', 0);
 		}
-		if (
+		if (g.DestSouth[0] !== null &&
 			g.DestSouth.reduce(function (a, b) {
 				return a + b;
 			}, 2) > 0
