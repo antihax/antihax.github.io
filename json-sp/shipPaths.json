@@ -1,0 +1,734 @@
+[
+	{
+		"AutoSpawnEveryUTCInterval": 21600,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 1315765.38,
+				"rotation": 179.715912,
+				"worldX": 3738485.5,
+				"worldY": 4851576.5
+			},
+			{
+				"controlPointsDistance": 941121.6,
+				"rotation": -98.85104,
+				"worldX": 449854.4,
+				"worldY": 4411892
+			},
+			{
+				"controlPointsDistance": 432807.875,
+				"rotation": -3.68514633,
+				"worldX": 1231447.38,
+				"worldY": 3595318.5
+			},
+			{
+				"controlPointsDistance": 888961.063,
+				"rotation": -125.818222,
+				"worldX": 2034373.13,
+				"worldY": 2640078.5
+			},
+			{
+				"controlPointsDistance": 809643.438,
+				"rotation": -128.376526,
+				"worldX": 913484.4,
+				"worldY": 1984854.88
+			},
+			{
+				"controlPointsDistance": 388640.344,
+				"rotation": -30.2941284,
+				"worldX": 1192893.5,
+				"worldY": 914224.6
+			},
+			{
+				"controlPointsDistance": 337733.2,
+				"rotation": -356.04834,
+				"worldX": 3171114,
+				"worldY": 660668.75
+			},
+			{
+				"controlPointsDistance": 526811.563,
+				"rotation": -251.410034,
+				"worldX": 3512003.5,
+				"worldY": 2287114.5
+			},
+			{
+				"controlPointsDistance": 477515.438,
+				"rotation": -232.69957,
+				"worldX": 3508447.75,
+				"worldY": 3374002.75
+			},
+			{
+				"controlPointsDistance": 600438.9,
+				"rotation": -295.419281,
+				"worldX": 4876800,
+				"worldY": 3784789.5
+			}
+		],
+		"PathId": 1,
+		"PathName": "NW Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 21600,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 245494.672,
+				"rotation": 20.48627,
+				"worldX": 13055866,
+				"worldY": 3347181.25
+			},
+			{
+				"controlPointsDistance": 424479.844,
+				"rotation": 67.47943,
+				"worldX": 13128847,
+				"worldY": 4729683.5
+			},
+			{
+				"controlPointsDistance": 765317.25,
+				"rotation": -43.3346062,
+				"worldX": 14668494,
+				"worldY": 5120185.5
+			},
+			{
+				"controlPointsDistance": 611115.6,
+				"rotation": -44.68519,
+				"worldX": 14568139,
+				"worldY": 3547129
+			},
+			{
+				"controlPointsDistance": 323310.531,
+				"rotation": -78.69006,
+				"worldX": 14793120,
+				"worldY": 2214074
+			},
+			{
+				"controlPointsDistance": 366660.9,
+				"rotation": 280.39267,
+				"worldX": 14906672,
+				"worldY": 770445.4
+			},
+			{
+				"controlPointsDistance": 458001.844,
+				"rotation": 130.088211,
+				"worldX": 13284891,
+				"worldY": 580890
+			},
+			{
+				"controlPointsDistance": 486751.531,
+				"rotation": -248.356628,
+				"worldX": 13284448,
+				"worldY": 2190743
+			},
+			{
+				"controlPointsDistance": 769268.563,
+				"rotation": 89.85394,
+				"worldX": 11917333,
+				"worldY": 2488557
+			},
+			{
+				"controlPointsDistance": 801858,
+				"rotation": -296.2843,
+				"worldX": 10426081,
+				"worldY": 3386668
+			},
+			{
+				"controlPointsDistance": 528744.2,
+				"rotation": -5.93132,
+				"worldX": 12014043,
+				"worldY": 3425279.25
+			}
+		],
+		"PathId": 2,
+		"PathName": "NE Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 14400,
+		"AutoSpawnShipClass": "Blueprint'/Game/Atlas/ShipPaths/PathFollowingGhostShip_BP.PathFollowingGhostShip_BP'",
+		"Nodes": [
+			{
+				"controlPointsDistance": 743094.8,
+				"rotation": 133.2584,
+				"worldX": 9460896,
+				"worldY": 6465559
+			},
+			{
+				"controlPointsDistance": 530994.25,
+				"rotation": -173.796555,
+				"worldX": 7943116,
+				"worldY": 6278224
+			},
+			{
+				"controlPointsDistance": 507390.5,
+				"rotation": -115.374214,
+				"worldX": 6534670,
+				"worldY": 6269557.5
+			},
+			{
+				"controlPointsDistance": 699267.8,
+				"rotation": -96.28472,
+				"worldX": 5905336,
+				"worldY": 4638222
+			},
+			{
+				"controlPointsDistance": 1053488.5,
+				"rotation": -2.406601,
+				"worldX": 6805486,
+				"worldY": 3256370.75
+			},
+			{
+				"controlPointsDistance": 505417.563,
+				"rotation": 357.7246,
+				"worldX": 7935609,
+				"worldY": 4036479
+			},
+			{
+				"controlPointsDistance": 1185832.38,
+				"rotation": 63.76375,
+				"worldX": 9504448,
+				"worldY": 3439336.75
+			},
+			{
+				"controlPointsDistance": 399798.5,
+				"rotation": 125.92659,
+				"worldX": 8674969,
+				"worldY": 5188891
+			}
+		],
+		"PathId": 5,
+		"PathName": "Ghost ShipPath",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 21600,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 737567.563,
+				"rotation": -147.464935,
+				"worldX": 9865341,
+				"worldY": 2342001
+			},
+			{
+				"controlPointsDistance": 617158.063,
+				"rotation": -206.833008,
+				"worldX": 8148674,
+				"worldY": 1917667.5
+			},
+			{
+				"controlPointsDistance": 454258.6,
+				"rotation": -128.284943,
+				"worldX": 4890338.5,
+				"worldY": 1937501.5
+			},
+			{
+				"controlPointsDistance": 546218.5,
+				"rotation": 2.79695129,
+				"worldX": 5168003.5,
+				"worldY": 736000.563
+			},
+			{
+				"controlPointsDistance": 399249.125,
+				"rotation": 43.3223572,
+				"worldX": 7711005.5,
+				"worldY": 896167
+			},
+			{
+				"controlPointsDistance": 409819.9,
+				"rotation": 18.1037636,
+				"worldX": 9987337,
+				"worldY": 832333.7
+			},
+			{
+				"controlPointsDistance": 607775.8,
+				"rotation": 76.1814041,
+				"worldX": 11836004,
+				"worldY": 1046000.44
+			}
+		],
+		"PathId": 10,
+		"PathName": "North Polar Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 22600,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 597609.9,
+				"rotation": 163.645935,
+				"worldX": 10354226,
+				"worldY": 7776079
+			},
+			{
+				"controlPointsDistance": 528685.9,
+				"rotation": 227.569244,
+				"worldX": 9011005,
+				"worldY": 7619467
+			},
+			{
+				"controlPointsDistance": 306777.438,
+				"rotation": -85.29912,
+				"worldX": 10472727,
+				"worldY": 6301162
+			},
+			{
+				"controlPointsDistance": 235015.188,
+				"rotation": -36.1625824,
+				"worldX": 10547781,
+				"worldY": 5078856
+			},
+			{
+				"controlPointsDistance": 248055.172,
+				"rotation": 53.8925476,
+				"worldX": 11916263,
+				"worldY": 5036021
+			},
+			{
+				"controlPointsDistance": 303955.6,
+				"rotation": 34.2737045,
+				"worldX": 12117339,
+				"worldY": 6318225
+			},
+			{
+				"controlPointsDistance": 0,
+				"rotation": 0,
+				"worldX": 14462003,
+				"worldY": 6432336.5
+			},
+			{
+				"controlPointsDistance": 330353.2,
+				"rotation": -239.446091,
+				"worldX": 14681940,
+				"worldY": 7827171
+			},
+			{
+				"controlPointsDistance": 251971.469,
+				"rotation": -176.359863,
+				"worldX": 13561041,
+				"worldY": 7900918
+			}
+		],
+		"PathId": 11,
+		"PathName": "East Equatorial Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 22600,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 395189,
+				"rotation": 33.2420273,
+				"worldX": 11668008,
+				"worldY": 12051336
+			},
+			{
+				"controlPointsDistance": 452063.8,
+				"rotation": 50.7105942,
+				"worldX": 11968673,
+				"worldY": 13581673
+			},
+			{
+				"controlPointsDistance": 275767.8,
+				"rotation": 34.17976,
+				"worldX": 11994508,
+				"worldY": 15112700
+			},
+			{
+				"controlPointsDistance": 283629.281,
+				"rotation": -57.8046951,
+				"worldX": 13437822,
+				"worldY": 14839875
+			},
+			{
+				"controlPointsDistance": 183985.984,
+				"rotation": 281.2373,
+				"worldX": 14681997,
+				"worldY": 14831021
+			},
+			{
+				"controlPointsDistance": 209534.063,
+				"rotation": -94.53567,
+				"worldX": 14648545,
+				"worldY": 13549272
+			},
+			{
+				"controlPointsDistance": 414783.375,
+				"rotation": 238.240524,
+				"worldX": 14712007,
+				"worldY": 9256007
+			},
+			{
+				"controlPointsDistance": 351157.031,
+				"rotation": 163.364838,
+				"worldX": 12521339,
+				"worldY": 9094007
+			},
+			{
+				"controlPointsDistance": 722643.3,
+				"rotation": -241.159363,
+				"worldX": 11729341,
+				"worldY": 10092670
+			}
+		],
+		"PathId": 12,
+		"PathName": "East Freeport Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 18000,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 567931.6,
+				"rotation": 157.256485,
+				"worldX": 7474227,
+				"worldY": 14852231
+			},
+			{
+				"controlPointsDistance": 1225566.63,
+				"rotation": -14.5671234,
+				"worldX": 5001724,
+				"worldY": 14459926
+			},
+			{
+				"controlPointsDistance": 636590.1,
+				"rotation": -4.325058,
+				"worldX": 7776440,
+				"worldY": 14276514
+			},
+			{
+				"controlPointsDistance": 237167.656,
+				"rotation": -64.5807,
+				"worldX": 9020488,
+				"worldY": 14381102
+			},
+			{
+				"controlPointsDistance": 183081.547,
+				"rotation": 4.414818,
+				"worldX": 9530893,
+				"worldY": 13437676
+			},
+			{
+				"controlPointsDistance": 279154.063,
+				"rotation": 2.710762,
+				"worldX": 10296895,
+				"worldY": 12950526
+			},
+			{
+				"controlPointsDistance": 486727.156,
+				"rotation": -294.87207,
+				"worldX": 10982002,
+				"worldY": 14317674
+			},
+			{
+				"controlPointsDistance": 401885.2,
+				"rotation": 251.469955,
+				"worldX": 9094672,
+				"worldY": 15123040
+			}
+		],
+		"PathId": 13,
+		"PathName": "South Polar Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 22600,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 1202165.13,
+				"rotation": -313.237549,
+				"worldX": 10918672,
+				"worldY": 10408675
+			},
+			{
+				"controlPointsDistance": 623092.8,
+				"rotation": -274.799438,
+				"worldX": 10328837,
+				"worldY": 12119585
+			},
+			{
+				"controlPointsDistance": 456476.4,
+				"rotation": 157.328659,
+				"worldX": 8107005,
+				"worldY": 12406505
+			},
+			{
+				"controlPointsDistance": 406655.625,
+				"rotation": 144.446045,
+				"worldX": 7330505,
+				"worldY": 13290755
+			},
+			{
+				"controlPointsDistance": 438892.2,
+				"rotation": -148.77066,
+				"worldX": 5044669.5,
+				"worldY": 13113672
+			},
+			{
+				"controlPointsDistance": 536451.75,
+				"rotation": -60.7247429,
+				"worldX": 5107670,
+				"worldY": 10179509
+			},
+			{
+				"controlPointsDistance": 384685.25,
+				"rotation": -17.5833282,
+				"worldX": 7362670.5,
+				"worldY": 10584005
+			},
+			{
+				"controlPointsDistance": 525158.4,
+				"rotation": -4.39870453,
+				"worldX": 7521005.5,
+				"worldY": 9016839
+			},
+			{
+				"controlPointsDistance": 0,
+				"rotation": 0,
+				"worldX": 9066005,
+				"worldY": 9215005
+			},
+			{
+				"controlPointsDistance": 541794.9,
+				"rotation": 36.1581879,
+				"worldX": 10625340,
+				"worldY": 9110007
+			}
+		],
+		"PathId": 14,
+		"PathName": "Central Freeport Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 21000,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 328170.938,
+				"rotation": -107.136604,
+				"worldX": 667111.438,
+				"worldY": 9981116
+			},
+			{
+				"controlPointsDistance": 199119.391,
+				"rotation": 1.7973938,
+				"worldX": 892667.3,
+				"worldY": 8963894
+			},
+			{
+				"controlPointsDistance": 427128.031,
+				"rotation": 56.79548,
+				"worldX": 3696002.25,
+				"worldY": 9258674
+			},
+			{
+				"controlPointsDistance": 386397.469,
+				"rotation": -255.984924,
+				"worldX": 4044224.25,
+				"worldY": 10783451
+			},
+			{
+				"controlPointsDistance": 557906.9,
+				"rotation": 175.766251,
+				"worldX": 3670668.75,
+				"worldY": 12414896
+			},
+			{
+				"controlPointsDistance": 333879.8,
+				"rotation": -77.46867,
+				"worldX": 1895112,
+				"worldY": 12239786
+			},
+			{
+				"controlPointsDistance": 303698.7,
+				"rotation": -126.819771,
+				"worldX": 578889.3,
+				"worldY": 11894451
+			}
+		],
+		"PathId": 16,
+		"PathName": "Western Freeport Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 21600,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 404427.9,
+				"rotation": -108.595444,
+				"worldX": 532000.4,
+				"worldY": 14726007
+			},
+			{
+				"controlPointsDistance": 393866.9,
+				"rotation": -39.2550278,
+				"worldX": 698000.6,
+				"worldY": 12916784
+			},
+			{
+				"controlPointsDistance": 576307.2,
+				"rotation": 11.15466,
+				"worldX": 2848001.5,
+				"worldY": 13144895
+			},
+			{
+				"controlPointsDistance": 415889.8,
+				"rotation": 68.02551,
+				"worldX": 3997779.5,
+				"worldY": 13410452
+			},
+			{
+				"controlPointsDistance": 263815.156,
+				"rotation": -273.160339,
+				"worldX": 3512890.75,
+				"worldY": 14555343
+			},
+			{
+				"controlPointsDistance": 571166.7,
+				"rotation": -146.604767,
+				"worldX": 2612668.5,
+				"worldY": 15014008
+			}
+		],
+		"PathId": 17,
+		"PathName": "Southwest Tundra Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 18000,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 191970.516,
+				"rotation": 245.9431,
+				"worldX": 721629.938,
+				"worldY": 7672966
+			},
+			{
+				"controlPointsDistance": 177787.078,
+				"rotation": -48.0987,
+				"worldX": 935704.063,
+				"worldY": 5854817.5
+			},
+			{
+				"controlPointsDistance": 663121.5,
+				"rotation": 49.5480423,
+				"worldX": 2374001,
+				"worldY": 6323002
+			},
+			{
+				"controlPointsDistance": 311540.219,
+				"rotation": 3.23837471,
+				"worldX": 3593279.5,
+				"worldY": 6195307
+			},
+			{
+				"controlPointsDistance": 485909.969,
+				"rotation": 366.314636,
+				"worldX": 4915668.5,
+				"worldY": 6376947
+			},
+			{
+				"controlPointsDistance": 371465.875,
+				"rotation": -299.401428,
+				"worldX": 5426048,
+				"worldY": 7493249
+			},
+			{
+				"controlPointsDistance": 696238.5,
+				"rotation": 58.8018341,
+				"worldX": 7816133.5,
+				"worldY": 7779920.5
+			},
+			{
+				"controlPointsDistance": 1125109.13,
+				"rotation": 79.7885,
+				"worldX": 6602661.5,
+				"worldY": 8594591
+			},
+			{
+				"controlPointsDistance": 409237.031,
+				"rotation": -114.06427,
+				"worldX": 4796476.5,
+				"worldY": 8818999
+			},
+			{
+				"controlPointsDistance": 819336.563,
+				"rotation": 165.234344,
+				"worldX": 4282146,
+				"worldY": 7580892
+			},
+			{
+				"controlPointsDistance": 305774.8,
+				"rotation": -223.66658,
+				"worldX": 2016741.75,
+				"worldY": 7982301.5
+			}
+		],
+		"PathId": 18,
+		"PathName": "Western Equatorial Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 18000,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 185102.266,
+				"rotation": 351.892517,
+				"worldX": 6446668,
+				"worldY": 6726004.5
+			},
+			{
+				"controlPointsDistance": 583894.6,
+				"rotation": -30.45723,
+				"worldX": 8200336.5,
+				"worldY": 6591170
+			},
+			{
+				"controlPointsDistance": 692293.75,
+				"rotation": -104.11525,
+				"worldX": 9543338,
+				"worldY": 5043002.5
+			},
+			{
+				"controlPointsDistance": 804627.7,
+				"rotation": 162.645981,
+				"worldX": 8069338,
+				"worldY": 3269335.5
+			},
+			{
+				"controlPointsDistance": 852712.063,
+				"rotation": 26.7250977,
+				"worldX": 6382002,
+				"worldY": 4467003
+			},
+			{
+				"controlPointsDistance": 497334,
+				"rotation": 62.50447,
+				"worldX": 5830669,
+				"worldY": 6502004
+			}
+		],
+		"PathId": 19,
+		"PathName": "Golden Age Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	}
+]
