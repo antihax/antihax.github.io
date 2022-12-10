@@ -26,11 +26,11 @@
 		],
 		"biomes": [
 			"Western Tropical",
-			"Tropical Ocean Water",
-			"Tropical At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -53,14 +53,12 @@
 			"Thatch",
 			"Wood"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -117,11 +115,11 @@
 		"biomes": [
 			"Western Tropical",
 			"Western Tropics",
-			"Tropical Ocean Water",
-			"Tropical At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -169,14 +167,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -238,11 +234,11 @@
 			"Western Tropical",
 			"Eastern Tropics",
 			"Western Tropics",
-			"Tropical Ocean Water",
-			"Tropical At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -291,14 +287,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -416,8 +410,8 @@
 			"Turmeric",
 			"Twigs"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,ChanceForCold,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",2.0,0.5,1.6,1.4,0.0,1,0.21,0,0,0.5,0.5,0.5,0",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,ChanceForCold",
+		"serverCustomDatas2": ",2.0,0.5,1.6,1.4,0.0,1,0.21,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
@@ -476,11 +470,11 @@
 		],
 		"biomes": [
 			"Polar",
-			"Polar Ocean Water",
-			"Polar At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 2.4603753089904785,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -515,14 +509,12 @@
 			"Straw",
 			"Tellurite"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,RainChanceForSnow",
-		"serverCustomDatas2": ",1,1.4,0.33,1.35,0,1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Polar",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.399999976158142,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -587,8 +579,8 @@
 		],
 		"biomes": [
 			"Western Tundra",
-			"Tundra Ocean Water",
-			"Tundra At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
 			"qualityMultiplier": 2.74399995803833,
@@ -630,8 +622,8 @@
 			"Straw",
 			"Wild Potato"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,FogIntervalMultiplier,FogIntervalMultiplier,RainChanceForSnow,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
-		"serverCustomDatas2": ",2.0,.5,1.6,1.4,0,1,.21,.36,.5,0.36,0,0.5,0.5,0.5",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,FogIntervalMultiplier",
+		"serverCustomDatas2": ",2.0,.5,1.6,1.4,0,1,.21,.36,.5",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tundra",
 		"sotd": {
@@ -697,13 +689,13 @@
 		"biomes": [
 			"Western Temperate",
 			"Eastern Temperate",
-			"Temperate Ocean Water",
-			"Temperate At Land",
+			"Ocean Water",
+			"At Land",
 			"Eastern Tropics",
 			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.953125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -756,14 +748,12 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.25,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -822,11 +812,11 @@
 			"Western Tropical",
 			"Equator",
 			"Eastern Tropics",
-			"Tropical Ocean Water",
-			"Tropical At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -882,14 +872,12 @@
 			"Wild Chick Peas",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -953,12 +941,12 @@
 		"biomes": [
 			"Western Tropical",
 			"Western Tropics",
-			"Tropical Ocean Water",
-			"Tropical At Land",
+			"Ocean Water",
+			"At Land",
 			"Eastern Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1005,14 +993,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -1076,11 +1062,11 @@
 		"biomes": [
 			"Equatorial",
 			"Equator",
-			"Equatorial Ocean Water",
-			"Equatorial At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.953125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1129,14 +1115,12 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.25,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -1253,8 +1237,8 @@
 			"Twigs",
 			"Wild Cactus"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier",
-		"serverCustomDatas2": ",2.0,.5,1.6,1.4,0,1,0.21,1,1,0,1,1,0,0.75",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold",
+		"serverCustomDatas2": ",2.0,.5,1.6,1.4,0,1,0.21,1,1,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
 		"sotd": {
@@ -1306,11 +1290,11 @@
 		],
 		"biomes": [
 			"Polar",
-			"Polar Ocean Water",
-			"Polar At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 2.4603753089904785,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1340,14 +1324,12 @@
 			"Slate",
 			"Tellurite"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,RainChanceForSnow",
-		"serverCustomDatas2": ",1,1.4,0.33,1.35,0,1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Polar",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.399999976158142,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -1408,14 +1390,14 @@
 		],
 		"biomes": [
 			"Western Temperate",
-			"Temperate Ocean Water",
-			"Temperate At Land",
+			"Ocean Water",
+			"At Land",
 			"Eastern Temperate",
 			"Eastern Tropics",
 			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.953125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1482,14 +1464,12 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.25,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -1549,13 +1529,13 @@
 		],
 		"biomes": [
 			"Western Tropical",
-			"Tropical Ocean Water",
-			"Tropical At Land",
+			"Ocean Water",
+			"At Land",
 			"Western Tropics",
 			"Eastern Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1608,14 +1588,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -1680,12 +1658,12 @@
 			"Western Tropical",
 			"Western Tropics",
 			"Ocean Water",
-			"Tropical At Land",
+			"At Land",
 			"Western Temperate",
 			"Western Tropics (Freeport)"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1742,14 +1720,12 @@
 			"Wild Pepper",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -1813,11 +1789,11 @@
 		"biomes": [
 			"Equatorial",
 			"Equator",
-			"Equatorial Ocean Water",
-			"Equatorial At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.953125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1862,14 +1838,12 @@
 			"Straw",
 			"Twigs"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.25,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -1927,11 +1901,11 @@
 		"biomes": [
 			"Low Desert",
 			"Central Low Desert",
-			"Desert Ocean Water",
-			"Desert At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.421875,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1981,8 +1955,6 @@
 			"Wild Cactus",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier",
-		"serverCustomDatas2": ",1,1,0,0.75",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
 		"sotd": {
@@ -2042,11 +2014,11 @@
 		],
 		"biomes": [
 			"Western Temperate",
-			"Temperate Ocean Water",
-			"Temperate At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.953125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -2098,14 +2070,12 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.25,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -2212,8 +2182,8 @@
 			"Syrup",
 			"Twigs"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",2.0,.5,1.6,1.4,0.0,1,0.21,1.25,0.33,1.25,0.5,0.1",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult",
+		"serverCustomDatas2": ",2.0,.5,1.6,1.4,0.0,1,0.21",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
 		"sotd": {
@@ -2284,12 +2254,12 @@
 		"biomes": [
 			"Eastern Tropical",
 			"Western Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water",
+			"At Land",
+			"Ocean Water",
 			"Eastern Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.3310000896453857,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -2337,14 +2307,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",.ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,1.1,0.4,1.1,0.36,0.2",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tropical",
 		"sotd": {
-			"levelLerp": 0.4000000059604645,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.100000023841858,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -2392,8 +2360,6 @@
 		"name": "Kraken's Lair",
 		"region": "Mytroa",
 		"resources": [],
-		"serverCustomDatas1": ",DisableFog,DisableHeatCold,DisableRain,NPCShipNumMult,FloatsamEnabled,DisableClaimFlags,TreasureBottlesEnabled,RainIntervalMultiplier",
-		"serverCustomDatas2": ",1,1,1,0,0,1,0,0.36",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "EndBoss",
 		"sotd": {
@@ -2402,7 +2368,7 @@
 			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
-				0,
+				37,
 				5000,
 				1800
 			]
@@ -2514,8 +2480,8 @@
 			"Straw",
 			"Twigs"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,RainIntervalMultiplier,RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",2.0,.5,1.6,1.4,0,1,.21,.36,0.36,1.25,0.33,1.25,0.4",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,RainIntervalMultiplier",
+		"serverCustomDatas2": ",2.0,.5,1.6,1.4,0,1,.21,.36",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -2583,12 +2549,12 @@
 		"biomes": [
 			"Eastern Tropical",
 			"Eastern Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water",
+			"At Land",
+			"Ocean Water",
 			"Western Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.3310000896453857,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -2645,14 +2611,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",.ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,1.1,0.4,1.1,0.36,0.2",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tropical",
 		"sotd": {
-			"levelLerp": 0.4000000059604645,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.100000023841858,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -2711,13 +2675,13 @@
 		],
 		"biomes": [
 			"Eastern Temperate",
-			"Temperate At Land",
-			"Temperate Ocean Water",
+			"At Land",
+			"Ocean Water",
 			"Eastern Temperate Mountain Peak",
 			"Western Temperate"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -2777,14 +2741,12 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Temperate",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -2837,11 +2799,11 @@
 		],
 		"biomes": [
 			"Polar",
-			"Polar At Land",
-			"Polar Ocean Water"
+			"At Land",
+			"Ocean Water"
 		],
 		"flotsam": {
-			"qualityMultiplier": 2.4603753089904785,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -2875,14 +2837,12 @@
 			"Straw",
 			"Tellurite"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,RainChanceForSnow",
-		"serverCustomDatas2": ",1,1.4,0.33,1.35,0,1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Polar",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.399999976158142,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -2999,8 +2959,8 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",2.0,.5,1.6,1.5,0,1,.21,0.5,0.5,0.5,0",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult",
+		"serverCustomDatas2": ",2.0,.5,1.6,1.5,0,1,.21",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Temperate",
 		"sotd": {
@@ -3072,12 +3032,12 @@
 			"Eastern Tropical",
 			"Western Tropics",
 			"Equator",
-			"Tropical At Land",
-			"Tropical Ocean Water",
+			"At Land",
+			"Ocean Water",
 			"Eastern Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.3310000896453857,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -3137,14 +3097,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",.ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,1.1,0.4,1.1,0.36,0.2",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tropical",
 		"sotd": {
-			"levelLerp": 0.4000000059604645,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.100000023841858,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -3208,11 +3166,11 @@
 		"biomes": [
 			"Equatorial",
 			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"At Land",
+			"Ocean Water"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.953125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -3264,14 +3222,12 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.25,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -3332,11 +3288,11 @@
 		"biomes": [
 			"Equatorial",
 			"Equator",
-			"Equatorial At Land",
-			"Equatorial Ocean Water"
+			"At Land",
+			"Ocean Water"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.953125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -3385,14 +3341,12 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.25,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -3453,11 +3407,11 @@
 		"biomes": [
 			"High Desert",
 			"Central High Desert",
-			"Desert At Land",
-			"Desert Ocean Water"
+			"At Land",
+			"Ocean Water"
 		],
 		"flotsam": {
-			"qualityMultiplier": 2.74399995803833,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -3508,14 +3462,12 @@
 			"Wild Onion",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
-		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.399999976158142,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -3615,8 +3567,8 @@
 			"Straw",
 			"Wild Potato"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,RainChanceForSnow,FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",2.0,.5,1.6,1.4,0,1,.21,.36,.5,0.36,.5",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,FogIntervalMultiplier,RainChanceForSnow",
+		"serverCustomDatas2": ",2.0,.5,1.6,1.4,0,1,.21,.36,.5",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tundra",
 		"sotd": {
@@ -3673,8 +3625,8 @@
 		],
 		"biomes": [
 			"Eastern Tundra",
-			"Tundra At Land",
-			"Tundra Ocean Water",
+			"At Land",
+			"Ocean Water",
 			"Eastern Temperate",
 			"Eastern Temperate Mountain Peak"
 		],
@@ -3719,8 +3671,6 @@
 			"Wild Potato",
 			"Wild Turnip"
 		],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow",
-		"serverCustomDatas2": ",0.36,.5",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tundra",
 		"sotd": {
@@ -3785,13 +3735,13 @@
 		],
 		"biomes": [
 			"Eastern Temperate",
-			"Temperate At Land",
-			"Temperate Ocean Water",
+			"At Land",
+			"Ocean Water",
 			"Western Temperate",
 			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -3852,14 +3802,12 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Temperate",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -3973,8 +3921,8 @@
 			"Straw",
 			"Twigs"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,ChanceForCold,.ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",2.0,0.5,1.6,1.4,0.0,1,.21,0,0,1.1,0.4,1.1,0.36,0.2",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,ChanceForCold",
+		"serverCustomDatas2": ",2.0,0.5,1.6,1.4,0.0,1,.21,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tropical",
 		"sotd": {
@@ -4037,12 +3985,12 @@
 		"biomes": [
 			"Low Desert",
 			"Central Low Desert",
-			"Desert At Land",
-			"Desert Ocean Water",
+			"At Land",
+			"Ocean Water",
 			"Central High Desert"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.421875,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -4107,8 +4055,6 @@
 			"Wild Maize",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier",
-		"serverCustomDatas2": ",1,1,0,0.75",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
 		"sotd": {
@@ -4217,8 +4163,8 @@
 			"Sugars",
 			"Twigs"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,SunkenTreasureQualityMultiplier,DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
-		"serverCustomDatas2": ",3.0,0.5,2,2,0.0,1,0.25,2,1,1,0,1.4,0.33,1.4",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,SunkenTreasureQualityMultiplier",
+		"serverCustomDatas2": ",3.0,0.5,2,2,0.0,1,0.25,2",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
 		"sotd": {

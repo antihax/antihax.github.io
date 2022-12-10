@@ -39,11 +39,11 @@
 		"biomes": [
 			"Western Tropical",
 			"Western Tropics",
-			"Tropical Ocean Water",
-			"Tropical At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -65,7 +65,6 @@
 			"Cilantro",
 			"Cobalt",
 			"Coconut",
-			"Coquina",
 			"Crude Oil",
 			"Elderberry",
 			"Fir",
@@ -84,6 +83,7 @@
 			"Radiolarite",
 			"Resin",
 			"Rice Seed",
+			"Sandstone",
 			"Silver",
 			"Slate",
 			"Straw",
@@ -92,14 +92,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -161,11 +159,11 @@
 			"Western Tropical",
 			"Eastern Tropics",
 			"Western Tropics",
-			"Tropical Ocean Water",
-			"Tropical At Land"
+			"Ocean Water",
+			"At Land"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -204,6 +202,7 @@
 			"Lime",
 			"Limestone",
 			"Maps",
+			"Marble",
 			"Oak",
 			"Peat",
 			"Quartz",
@@ -220,14 +219,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -292,12 +289,12 @@
 			"Western Tropical",
 			"Western Tropics",
 			"Western Temperate",
-			"Tropical Ocean Water",
-			"Tropical At Land",
+			"Ocean Water",
+			"At Land",
 			"Eastern Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -360,14 +357,12 @@
 			"Wild Pepper",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -430,12 +425,12 @@
 		],
 		"biomes": [
 			"Equatorial",
-			"Equatorial Ocean Water",
-			"Equatorial At Land",
+			"Ocean Water",
+			"At Land",
 			"Equator"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.953125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -459,11 +454,11 @@
 			"Cocoa",
 			"Coconut",
 			"Copper",
+			"Coquina",
 			"Fir",
 			"FreshWater",
 			"Fronds",
 			"Geode",
-			"Granite",
 			"Gum",
 			"Honey",
 			"Iodine",
@@ -490,14 +485,12 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.25,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -562,12 +555,12 @@
 		"biomes": [
 			"Western Tropical",
 			"Eastern Tropics",
-			"Tropical Ocean Water",
-			"Tropical At Land",
+			"Ocean Water",
+			"At Land",
 			"Western Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 0.125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -625,14 +618,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,0.5,0.5,0.5,0",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tropical",
 		"sotd": {
-			"levelLerp": 0.5,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 0.5,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -695,12 +686,12 @@
 		],
 		"biomes": [
 			"Equatorial",
-			"Equatorial Ocean Water",
-			"Equatorial At Land",
+			"Ocean Water",
+			"At Land",
 			"Equator"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.953125,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -713,23 +704,25 @@
 		"resources": [
 			"Acai",
 			"Acerola",
+			"Ash",
+			"Bamboo",
 			"Bark",
 			"Basalt",
 			"Basil",
 			"Chick Pea Seed",
 			"Cocoa",
 			"Coconut",
+			"Cotton",
 			"Fir",
 			"FreshWater",
 			"Fronds",
 			"Geode",
 			"Gum",
 			"Honey",
+			"Iridium",
 			"Iron",
-			"Jute",
 			"Limestone",
 			"Maps",
-			"Marble",
 			"Oak",
 			"Opal",
 			"Peat",
@@ -738,8 +731,9 @@
 			"Resin",
 			"Roots",
 			"Rosemary",
-			"Sandstone",
+			"Rushes",
 			"Sea Grapes",
+			"Silk",
 			"Slate",
 			"Straw",
 			"Sulfur",
@@ -747,14 +741,12 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
-			"levelLerp": 0.33000001311302185,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.25,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -819,12 +811,12 @@
 		"biomes": [
 			"Eastern Tropical",
 			"Western Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water",
+			"At Land",
+			"Ocean Water",
 			"Eastern Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.3310000896453857,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -874,14 +866,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",.ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,1.1,0.4,1.1,0.36,0.2",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tropical",
 		"sotd": {
-			"levelLerp": 0.4000000059604645,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.100000023841858,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -942,12 +932,12 @@
 		"biomes": [
 			"Eastern Tropical",
 			"Western Tropics",
-			"Tropical At Land",
-			"Tropical Ocean Water",
+			"At Land",
+			"Ocean Water",
 			"Eastern Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.3310000896453857,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -964,35 +954,27 @@
 			"Bark",
 			"Basalt",
 			"Bean Seed",
-			"Calcite",
 			"Cedar",
-			"Chalcedony",
-			"Chert",
 			"Cilantro",
-			"Cobalt",
 			"Coconut",
-			"Copper",
 			"Crude Oil",
 			"Elderberry",
 			"Fir",
 			"FreshWater",
 			"Fronds",
 			"Geode",
-			"Granite",
-			"Graphite",
 			"Hemp",
 			"Honey",
 			"Iron",
 			"Jute",
 			"Limestone",
 			"Maps",
+			"Nitre",
 			"Oak",
-			"Peat",
-			"Radiolarite",
+			"Quartz",
 			"Resin",
 			"Rice Seed",
 			"Sea Grapes",
-			"Silver",
 			"Slate",
 			"Straw",
 			"Sugars",
@@ -1001,14 +983,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",.ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,1.1,0.4,1.1,0.36,0.2",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tropical",
 		"sotd": {
-			"levelLerp": 0.4000000059604645,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.100000023841858,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,
@@ -1076,12 +1056,12 @@
 			"Eastern Tropical",
 			"Equator",
 			"Eastern Tropics",
-			"Tropical At Land",
+			"At Land",
 			"Ocean Water",
 			"Western Tropics"
 		],
 		"flotsam": {
-			"qualityMultiplier": 1.3310000896453857,
+			"qualityMultiplier": 1,
 			"spawnLimits": [
 				360,
 				57000,
@@ -1141,14 +1121,12 @@
 			"Wild Beans",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",.ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
-		"serverCustomDatas2": ",0,1.1,0.4,1.1,0.36,0.2",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Eastern Tropical",
 		"sotd": {
-			"levelLerp": 0.4000000059604645,
+			"levelLerp": 0,
 			"levelMinOveride": 0,
-			"levelMultiplier": 1.100000023841858,
+			"levelMultiplier": 1,
 			"levelOffset": 0,
 			"spawnLimits": [
 				37,

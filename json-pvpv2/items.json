@@ -389,7 +389,7 @@
         "Name": "Armor Patch Kit"
     },
     "Army of the Damned Chestplate Skin": {
-        "ClassName": "Skin_AoDShirt_C",
+        "ClassName": "Skin_AoDShirt_C_1",
         "Icon": "HUD_GruntAODArmorChest_Colorize_D",
         "Ingredients": {
             "Gold Coin": 1000.0
@@ -397,7 +397,7 @@
         "Name": "Army of the Damned Chestplate"
     },
     "Army of the Damned Gauntlets Skin": {
-        "ClassName": "Skin_AoDGloves_C",
+        "ClassName": "Skin_AoDGloves_C_1",
         "Icon": "HUD_GruntAODArmorGloves_Colorize_D",
         "Ingredients": {
             "Gold Coin": 1000.0
@@ -405,7 +405,7 @@
         "Name": "Army of the Damned Gauntlets"
     },
     "Army of the Damned Greaves Skin": {
-        "ClassName": "Skin_AoDBoots_C",
+        "ClassName": "Skin_AoDBoots_C_1",
         "Icon": "HUD_GruntAODArmorBoots_Colorize_D",
         "Ingredients": {
             "Gold Coin": 1000.0
@@ -413,7 +413,7 @@
         "Name": "Army of the Damned Greaves"
     },
     "Army of the Damned Helmet Skin": {
-        "ClassName": "Skin_AoDHat_C",
+        "ClassName": "Skin_AoDHat_C_1",
         "Icon": "HUD_GruntAODArmorHat_Colorize_D",
         "Ingredients": {
             "Gold Coin": 1000.0
@@ -421,7 +421,7 @@
         "Name": "Army of the Damned Helmet"
     },
     "Army of the Damned Pants Skin": {
-        "ClassName": "Skin_AoDPants_C",
+        "ClassName": "Skin_AoDPants_C_1",
         "Icon": "HUD_GruntAODArmorLegs_Colorize_D",
         "Ingredients": {
             "Gold Coin": 1000.0
@@ -558,6 +558,17 @@
             }
         }
     },
+    "Bait Station": {
+        "ClassName": "Structure_BaitStation_C",
+        "Icon": "Item_BaitStation_Icon",
+        "Ingredients": {
+            "Fibers": 35.0,
+            "Metal": 10.0,
+            "Thatch": 40.0,
+            "Wood": 50.0
+        },
+        "Name": "Bait Station"
+    },
     "Ballista Bolt": {
         "ClassName": "Ammo_BallistaArrow_C",
         "Icon": "Item_BallistaArrow_Icon",
@@ -645,6 +656,20 @@
             "Thatch": 50.0
         },
         "Name": "Bark"
+    },
+    "Barn": {
+        "ClassName": "Structure_StableHouse_C",
+        "Icon": "Barn_Icon",
+        "Ingredients": {
+            "Fibers": 40.0,
+            "Flint": 40.0,
+            "Hide": 80.0,
+            "Keratinoid": 90.0,
+            "Metal": 50.0,
+            "Stone": 240.0,
+            "Wood": 120.0
+        },
+        "Name": "Barn"
     },
     "Basalt": {
         "ClassName": "Resource_Flint_Basalt_C",
@@ -1773,9 +1798,7 @@
         "ClassName": "Structure_Furniture_CTree_C",
         "Icon": "ChristmasTree_Icon",
         "Ingredients": {
-            "Fibers": 200.0,
-            "Thatch": 250.0,
-            "Wood": 250.0
+            "Gold Coin": 100.0
         },
         "Name": "Christmas Tree"
     },
@@ -1841,7 +1864,7 @@
         "Name": "Climbing Pick"
     },
     "Cloth Atlantean Chestplate Skin": {
-        "ClassName": "Skin_ClothAtlantean_Shirt_C",
+        "ClassName": "Skin_ClothAtlantean_Shirt_C_1",
         "Icon": "Item_AtlanteanClothShirt_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
@@ -1849,7 +1872,7 @@
         "Name": "Cloth Atlantean Chestplate"
     },
     "Cloth Atlantean Gauntlets Skin": {
-        "ClassName": "Skin_ClothAtlantean_Gloves_C",
+        "ClassName": "Skin_ClothAtlantean_Gloves_C_1",
         "Icon": "Item_AtlanteanClothGloves_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
@@ -1857,7 +1880,7 @@
         "Name": "Cloth Atlantean Gauntlets"
     },
     "Cloth Atlantean Greaves Skin": {
-        "ClassName": "Skin_ClothAtlantean_Boots_C",
+        "ClassName": "Skin_ClothAtlantean_Boots_C_1",
         "Icon": "Item_AtlanteanClothBoots_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
@@ -1865,7 +1888,7 @@
         "Name": "Cloth Atlantean Greaves"
     },
     "Cloth Atlantean Helmet Skin": {
-        "ClassName": "Skin_ClothAtlantean_Hat_C",
+        "ClassName": "Skin_ClothAtlantean_Hat_C_1",
         "Icon": "Item_AtlanteanClothHelmet_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
@@ -1873,7 +1896,7 @@
         "Name": "Cloth Atlantean Helmet"
     },
     "Cloth Atlantean Pants Skin": {
-        "ClassName": "Skin_ClothAtlantean_Pants_C",
+        "ClassName": "Skin_ClothAtlantean_Pants_C_1",
         "Icon": "Item_AtlanteanClothPants_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
@@ -1890,7 +1913,7 @@
         "Name": "Cloth Boots"
     },
     "Cloth Cyclops Chestplate Skin": {
-        "ClassName": "Skin_ClothCyclops_Shirt_C",
+        "ClassName": "Skin_ClothCyclops_Shirt_C_1",
         "Icon": "HUD_CyclopsCloth_Chest_Colorized_D",
         "Ingredients": {
             "Gold Coin": 100.0
@@ -1898,7 +1921,7 @@
         "Name": "Cloth Cyclops Chestplate"
     },
     "Cloth Cyclops Gauntlets Skin": {
-        "ClassName": "Skin_ClothCyclops_Gloves_C",
+        "ClassName": "Skin_ClothCyclops_Gloves_C_1",
         "Icon": "HUD_CyclopsCloth_Gloves_Colorized_D",
         "Ingredients": {
             "Gold Coin": 100.0
@@ -1906,7 +1929,7 @@
         "Name": "Cloth Cyclops Gauntlets"
     },
     "Cloth Cyclops Greaves Skin": {
-        "ClassName": "Skin_ClothCyclops_Boots_C",
+        "ClassName": "Skin_ClothCyclops_Boots_C_1",
         "Icon": "HUD_CyclopsCloth_Boots_Colorized_D",
         "Ingredients": {
             "Gold Coin": 100.0
@@ -1914,7 +1937,7 @@
         "Name": "Cloth Cyclops Greaves"
     },
     "Cloth Cyclops Helmet Skin": {
-        "ClassName": "Skin_ClothCyclops_Hat_C",
+        "ClassName": "Skin_ClothCyclops_Hat_C_1",
         "Icon": "HUD_CyclopsCloth_Hat_Colorized_D",
         "Ingredients": {
             "Gold Coin": 100.0
@@ -1922,7 +1945,7 @@
         "Name": "Cloth Cyclops Helmet"
     },
     "Cloth Cyclops Pants Skin": {
-        "ClassName": "Skin_ClothCyclops_Pants_C",
+        "ClassName": "Skin_ClothCyclops_Pants_C_1",
         "Icon": "HUD_CyclopsCloth_Pants_Colorized_D",
         "Ingredients": {
             "Gold Coin": 100.0
@@ -1947,7 +1970,7 @@
         "Name": "Cloth Hat"
     },
     "Cloth Hydra Chestplate Skin": {
-        "ClassName": "Skin_ClothHydra_Shirt_C",
+        "ClassName": "Skin_ClothHydra_Shirt_C_1",
         "Icon": "Item_HydraClothShirt_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
@@ -1955,7 +1978,7 @@
         "Name": "Cloth Hydra Chestplate"
     },
     "Cloth Hydra Gauntlets Skin": {
-        "ClassName": "Skin_ClothHydra_Gloves_C",
+        "ClassName": "Skin_ClothHydra_Gloves_C_1",
         "Icon": "Item_HydraClothGloves_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
@@ -1963,7 +1986,7 @@
         "Name": "Cloth Hydra Gauntlets"
     },
     "Cloth Hydra Greaves Skin": {
-        "ClassName": "Skin_ClothHydra_Boots_C",
+        "ClassName": "Skin_ClothHydra_Boots_C_1",
         "Icon": "Item_HydraClothBoots_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
@@ -1971,7 +1994,7 @@
         "Name": "Cloth Hydra Greaves"
     },
     "Cloth Hydra Helmet Skin": {
-        "ClassName": "Skin_ClothHydra_Hat_C",
+        "ClassName": "Skin_ClothHydra_Hat_C_1",
         "Icon": "Item_HydraClothHelmet_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
@@ -1979,7 +2002,7 @@
         "Name": "Cloth Hydra Helmet"
     },
     "Cloth Hydra Pants Skin": {
-        "ClassName": "Skin_ClothHydra_Pants_C",
+        "ClassName": "Skin_ClothHydra_Pants_C_1",
         "Icon": "Item_HydraClothPants_Icon",
         "Ingredients": {
             "Gold Coin": 200.0
@@ -2252,6 +2275,22 @@
             }
         }
     },
+    "Cooked Turkey Cannon Skin": {
+        "ClassName": "CannonSkin_CookedTurkey_C",
+        "Icon": "Item_CannonSkin_CookedTurkey_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Cooked Turkey Cannon Skin"
+    },
+    "Cooked Turkey Decoration": {
+        "ClassName": "Structure_CookedTurkeyDecoration_C",
+        "Icon": "ICON_CookedTurkey",
+        "Ingredients": {
+            "Gold Coin": 50.0
+        },
+        "Name": "Cooked Turkey Decoration"
+    },
     "Cooking Herbs": {
         "ClassName": "Consumable_Herb_BASE_C",
         "Icon": "Rosemary_Icon",
@@ -2353,6 +2392,1175 @@
             "Gold Coin": 250.0
         },
         "Name": "Crab Wheel"
+    },
+    "Craftable: Alizarin Red Coloring": {
+        "ClassName": "Dye_AlizarinRed_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Alizarin Red Coloring"
+    },
+    "Craftable: Anthracite": {
+        "ClassName": "Resource_Coal_Anthracite_C_2",
+        "Icon": "Anthracite_Icon",
+        "Ingredients": {
+            "Coal": 25.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Anthracite"
+    },
+    "Craftable: Aubergine Brown Coloring": {
+        "ClassName": "Dye_AubergineBrown_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Aubergine Brown Coloring"
+    },
+    "Craftable: Axe Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Axe_C_2",
+        "Icon": "Item_FigureHeadAxe_Icon",
+        "Ingredients": {
+            "Gold Coin": 800.0
+        },
+        "Name": "Axe Figure Head"
+    },
+    "Craftable: Bark": {
+        "ClassName": "Resource_Thatch_Bark_C_2",
+        "Icon": "Rushes_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Thatch": 50.0
+        },
+        "Name": "Bark"
+    },
+    "Craftable: Basalt": {
+        "ClassName": "Resource_Flint_Basalt_C_2",
+        "Icon": "Basalt_Icon",
+        "Ingredients": {
+            "Flint": 40.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Basalt"
+    },
+    "Craftable: Black Coloring": {
+        "ClassName": "Dye_Black_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Black Coloring"
+    },
+    "Craftable: Blackberry Coloring": {
+        "ClassName": "Dye_Blackberry_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Blackberry Coloring"
+    },
+    "Craftable: Blackcurrant Coloring": {
+        "ClassName": "Dye_Blackcurrant_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Blackcurrant Coloring"
+    },
+    "Craftable: Blubber": {
+        "ClassName": "Resource_Oil_Blubber_C_2",
+        "Icon": "Blubber_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Oil": 30.0
+        },
+        "Name": "Blubber"
+    },
+    "Craftable: Blue Coloring": {
+        "ClassName": "Dye_Blue_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Blue Coloring"
+    },
+    "Craftable: Blue Whale Coloring": {
+        "ClassName": "Dye_BlueWhale_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Blue Whale Coloring"
+    },
+    "Craftable: Bone Wheel": {
+        "ClassName": "SteeringWheelSkin_Bone_C_1",
+        "Icon": "Item_BoneSteeringWheelSkin_Icon",
+        "Ingredients": {
+            "Gold Coin": 500.0
+        },
+        "Name": "Bone Wheel"
+    },
+    "Craftable: Brick Coloring": {
+        "ClassName": "Dye_Brick_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Brick Coloring"
+    },
+    "Craftable: Bright Red Coloring": {
+        "ClassName": "Dye_BrightRed_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Bright Red Coloring"
+    },
+    "Craftable: Bronze Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Bronze_C_2",
+        "Icon": "Item_FigureHeadMetalBronze_Icon",
+        "Ingredients": {
+            "Gold Coin": 800.0
+        },
+        "Name": "Bronze Figure Head"
+    },
+    "Craftable: Brown Coloring": {
+        "ClassName": "Dye_Brown_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Brown Coloring"
+    },
+    "Craftable: Calcite": {
+        "ClassName": "Resource_Crystal_Calcite_C_2",
+        "Icon": "Item_CalcitePearls_Icon",
+        "Ingredients": {
+            "Crystal": 15.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Calcite"
+    },
+    "Craftable: Cantaloupe Coloring": {
+        "ClassName": "Dye_Cantaloupe_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Cantaloupe Coloring"
+    },
+    "Craftable: Cedar": {
+        "ClassName": "Resource_Wood_Cedar_C_2",
+        "Icon": "Cedar_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Wood": 50.0
+        },
+        "Name": "Cedar"
+    },
+    "Craftable: Cerulean Coloring": {
+        "ClassName": "Dye_Cerulean_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Cerulean Coloring"
+    },
+    "Craftable: Chalcedony": {
+        "ClassName": "Resource_Flint_Chalcedony_C_2",
+        "Icon": "Chalcedony_Icon",
+        "Ingredients": {
+            "Flint": 40.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Chalcedony"
+    },
+    "Craftable: Chateau Green Coloring": {
+        "ClassName": "Dye_ChateauGreen_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Chateau Green Coloring"
+    },
+    "Craftable: Chert": {
+        "ClassName": "Resource_Flint_Chert_C_2",
+        "Icon": "Item_Flint_Icon",
+        "Ingredients": {
+            "Flint": 40.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Chert"
+    },
+    "Craftable: Cobalt": {
+        "ClassName": "Resource_Metal_Cobalt_C_2",
+        "Icon": "Cobalt_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Metal": 25.0
+        },
+        "Name": "Cobalt"
+    },
+    "Craftable: Conifer Green Coloring": {
+        "ClassName": "Dye_ConfierGreen_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Conifer Green Coloring"
+    },
+    "Craftable: Copper": {
+        "ClassName": "Resource_Metal_Copper_C_2",
+        "Icon": "Copper_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Metal": 25.0
+        },
+        "Name": "Copper"
+    },
+    "Craftable: Coquina": {
+        "ClassName": "Resource_Stone_Coquina_C_2",
+        "Icon": "Coquina_Icon",
+        "Ingredients": {
+            "Coquina Block": 1.0,
+            "Gold Coin": 50.0,
+            "Stone": 50.0
+        },
+        "Name": "Coquina"
+    },
+    "Craftable: Cotton": {
+        "ClassName": "Resource_Fibers_Cotton_C_2",
+        "Icon": "Cotton_Icon",
+        "Ingredients": {
+            "Fibers": 50.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Cotton"
+    },
+    "Craftable: Crude Oil": {
+        "ClassName": "Resource_Oil_Crude_C_2",
+        "Icon": "Item_Oil_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Oil": 30.0
+        },
+        "Name": "Crude Oil"
+    },
+    "Craftable: Cyan Coloring": {
+        "ClassName": "Dye_Cyan_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Cyan Coloring"
+    },
+    "Craftable: Cyclops Tame Token": {
+        "ClassName": "TameToken_Cyclops_C_1",
+        "Icon": "Item_TamingToken_Icon",
+        "Ingredients": {
+            "Gold Coin": 32000.0
+        },
+        "Name": "Cyclops Tame Token"
+    },
+    "Craftable: Dark Pink Coloring": {
+        "ClassName": "Dye_DarkPink_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Dark Pink Coloring"
+    },
+    "Craftable: Dark Violet Coloring": {
+        "ClassName": "Dye_Magenta_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Dark Violet Coloring"
+    },
+    "Craftable: Diamond": {
+        "ClassName": "Resource_Gem_Diamond_C_2",
+        "Icon": "Diamond_Icon",
+        "Ingredients": {
+            "Gem": 15.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Diamond"
+    },
+    "Craftable: Dragon Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Dragon_C_2",
+        "Icon": "Item_FigureHeadDragon_Icon",
+        "Ingredients": {
+            "Gold Coin": 800.0
+        },
+        "Name": "Dragon Figure Head"
+    },
+    "Craftable: Drake Tame Token": {
+        "ClassName": "TameToken_Draco_C_1",
+        "Icon": "Item_TamingToken_Icon",
+        "Ingredients": {
+            "Gold Coin": 50000.0
+        },
+        "Name": "Drake Tame Token"
+    },
+    "Craftable: Emerald": {
+        "ClassName": "Resource_Gem_Emerald_C_2",
+        "Icon": "Emerald_Icon",
+        "Ingredients": {
+            "BASEGemChunk": 100.0
+        },
+        "Name": "Emerald"
+    },
+    "Craftable: Fir": {
+        "ClassName": "Resource_Wood_Fir_C_2",
+        "Icon": "Fir_Icon",
+        "Ingredients": {
+            "Fir Bundle": 1.0,
+            "Gold Coin": 50.0,
+            "Wood": 50.0
+        },
+        "Name": "Fir"
+    },
+    "Craftable: Fire Elemental Tame Token": {
+        "ClassName": "TameToken_FireElem_C_1",
+        "Icon": "Item_TamingToken_Icon",
+        "Ingredients": {
+            "Gold Coin": 36000.0
+        },
+        "Name": "Fire Elemental Tame Token"
+    },
+    "Craftable: Fish Oil": {
+        "ClassName": "Resource_Oil_Fish_C_2",
+        "Icon": "FishOil_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Oil": 30.0
+        },
+        "Name": "Fish Oil"
+    },
+    "Craftable: Flake Salt": {
+        "ClassName": "Resource_Preservative_FlakeSalt_C_2",
+        "Icon": "FlakeSalt_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Salt": 40.0
+        },
+        "Name": "Flake Salt"
+    },
+    "Craftable: Forest Coloring": {
+        "ClassName": "Dye_Forest_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Forest Coloring"
+    },
+    "Craftable: Fronds": {
+        "ClassName": "Resource_Thatch_Frond_C_2",
+        "Icon": "Frond_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Thatch": 50.0
+        },
+        "Name": "Fronds"
+    },
+    "Craftable: Fur Cyclops Greaves Skin": {
+        "ClassName": "Skin_FurCyclops_Boots_C_1",
+        "Icon": "Item_CyclopsFurBoots_Icon",
+        "Ingredients": {
+            "Gold Coin": 500.0
+        },
+        "Name": "Fur Cyclops Greaves"
+    },
+    "Craftable: Garnet": {
+        "ClassName": "Resource_Gem_Garnet_C_2",
+        "Icon": "Item_GemGarnet_Icon",
+        "Ingredients": {
+            "Gem": 15.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Garnet"
+    },
+    "Craftable: Gold Coloring": {
+        "ClassName": "Dye_Gold_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Gold Coloring"
+    },
+    "Craftable: Gold Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Gold_C_2",
+        "Icon": "Item_FigureHeadMetalGold_Icon",
+        "Ingredients": {
+            "Gold Coin": 800.0
+        },
+        "Name": "Gold Figure Head"
+    },
+    "Craftable: Granite": {
+        "ClassName": "Resource_Stone_Granite_C_2",
+        "Icon": "Granite_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Granite Block": 1.0,
+            "Stone": 50.0
+        },
+        "Name": "Granite"
+    },
+    "Craftable: Graphite": {
+        "ClassName": "Resource_Coal_Graphite_C_2",
+        "Icon": "Item_CoalGraphite_Icon",
+        "Ingredients": {
+            "Coal": 25.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Graphite"
+    },
+    "Craftable: Green Coloring": {
+        "ClassName": "Dye_Green_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Green Coloring"
+    },
+    "Craftable: Hemp": {
+        "ClassName": "Resource_Fibers_Hemp_C_2",
+        "Icon": "Hemp_Icon",
+        "Ingredients": {
+            "Fibers": 50.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Hemp"
+    },
+    "Craftable: Herkimer": {
+        "ClassName": "Resource_Crystal_Herkimer_C_2",
+        "Icon": "Herkimer_Icon",
+        "Ingredients": {
+            "Crystal": 15.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Herkimer"
+    },
+    "Craftable: Hydra Wheel": {
+        "ClassName": "SteeringWheelSkin_Hydra_C_1",
+        "Icon": "Item_HydraSteeringWheelSkin_Icon",
+        "Ingredients": {
+            "Gold Coin": 500.0
+        },
+        "Name": "Hydra Wheel"
+    },
+    "Craftable: Indigo Coloring": {
+        "ClassName": "Dye_Indigo_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Indigo Coloring"
+    },
+    "Craftable: Iodine": {
+        "ClassName": "Resource_Preservative_Iodine_C_2",
+        "Icon": "IodineSalt_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Salt": 40.0
+        },
+        "Name": "Iodine"
+    },
+    "Craftable: Iron": {
+        "ClassName": "Resource_Metal_Iron_C_2",
+        "Icon": "Iron_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Metal": 25.0
+        },
+        "Name": "Iron"
+    },
+    "Craftable: Jute": {
+        "ClassName": "Resource_Fibers_Jute_C_2",
+        "Icon": "Jute_Icon",
+        "Ingredients": {
+            "Fibers": 50.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Jute"
+    },
+    "Craftable: Kraken Wheel": {
+        "ClassName": "SteeringWheelSkin_Kraken_C_1",
+        "Icon": "Item_KrakenSteeringWheelSkin_Icon",
+        "Ingredients": {
+            "Gold Coin": 750.0
+        },
+        "Name": "Kraken Wheel"
+    },
+    "Craftable: Large Junk Sail Skin": {
+        "ClassName": "SailSkin_LargeJunkSail_C_1",
+        "Icon": "Item_JunkSailLarge_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Large Junk Sail Skin"
+    },
+    "Craftable: Light Sea Green Coloring": {
+        "ClassName": "Dye_LightSeaGreen_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Light Sea Green Coloring"
+    },
+    "Craftable: Lignite": {
+        "ClassName": "Resource_Coal_Lignite_C_2",
+        "Icon": "Lignite_Icon",
+        "Ingredients": {
+            "Coal": 25.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Lignite"
+    },
+    "Craftable: Limestone": {
+        "ClassName": "Resource_Stone_Limestone_C_2",
+        "Icon": "Limestone_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Limestone Block": 1.0,
+            "Stone": 50.0
+        },
+        "Name": "Limestone"
+    },
+    "Craftable: Lion Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Lion_C_2",
+        "Icon": "Item_FigureHead_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Lion Figure Head"
+    },
+    "Craftable: Madang Green Coloring": {
+        "ClassName": "Dye_MadangGreen_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Madang Green Coloring"
+    },
+    "Craftable: Magenta Coloring": {
+        "ClassName": "Dye_ActuallyMagenta_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Magenta Coloring"
+    },
+    "Craftable: Mango Coloring": {
+        "ClassName": "Dye_Mango_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Mango Coloring"
+    },
+    "Craftable: Medium Junk Sail Skin": {
+        "ClassName": "SailSkin_MediumJunkSail_C_1",
+        "Icon": "Item_JunkSailMedium_Icon",
+        "Ingredients": {
+            "Gold Coin": 600.0
+        },
+        "Name": "Medium Junk Sail Skin"
+    },
+    "Craftable: Mineral Gray Coloring": {
+        "ClassName": "Dye_MineralGray_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Mineral Gray Coloring"
+    },
+    "Craftable: Mud Coloring": {
+        "ClassName": "Dye_Mud_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Mud Coloring"
+    },
+    "Craftable: Napa Brown Coloring": {
+        "ClassName": "Dye_NapaBrown_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Napa Brown Coloring"
+    },
+    "Craftable: Naptha": {
+        "ClassName": "Resource_Oil_Naptha_C_2",
+        "Icon": "Naptha_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Oil": 30.0
+        },
+        "Name": "Naptha"
+    },
+    "Craftable: Navy Coloring": {
+        "ClassName": "Dye_Navy_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Navy Coloring"
+    },
+    "Craftable: Nitre": {
+        "ClassName": "Resource_Coal_Nitre_C_2",
+        "Icon": "Nitre_Icon",
+        "Ingredients": {
+            "Coal": 25.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Nitre"
+    },
+    "Craftable: Oak": {
+        "ClassName": "Resource_Wood_Oak_C_2",
+        "Icon": "Oak_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Oak Bundle": 1.0,
+            "Wood": 50.0
+        },
+        "Name": "Oak"
+    },
+    "Craftable: Obsidian": {
+        "ClassName": "Resource_Flint_Obsidian_C_2",
+        "Icon": "Obsidian_Icon",
+        "Ingredients": {
+            "Flint": 40.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Obsidian"
+    },
+    "Craftable: Octopus Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Octopus_C_2",
+        "Icon": "Item_FigureHeadOctopus_Icon",
+        "Ingredients": {
+            "Gold Coin": 800.0
+        },
+        "Name": "Octopus Figure Head"
+    },
+    "Craftable: Olive Coloring": {
+        "ClassName": "Dye_Olive_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Olive Coloring"
+    },
+    "Craftable: Opal": {
+        "ClassName": "Resource_Gem_Opal_C_2",
+        "Icon": "Opal_Icon",
+        "Ingredients": {
+            "Gem": 15.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Opal"
+    },
+    "Craftable: Orange Coloring": {
+        "ClassName": "Dye_Orange_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Orange Coloring"
+    },
+    "Craftable: Orange Peel Coloring": {
+        "ClassName": "Dye_OrangePeel_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Orange Peel Coloring"
+    },
+    "Craftable: Orient Blue Coloring": {
+        "ClassName": "Dye_OrientBlue_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Orient Blue Coloring"
+    },
+    "Craftable: Paco Brown Coloring": {
+        "ClassName": "Dye_PacoBrown_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Paco Brown Coloring"
+    },
+    "Craftable: Parchment Coloring": {
+        "ClassName": "Dye_Parchment_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Parchment Coloring"
+    },
+    "Craftable: Pearl": {
+        "ClassName": "Resource_Crystal_Pearl_C_2",
+        "Icon": "Item_SilicaPearls_Icon",
+        "Ingredients": {
+            "Crystal": 15.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Pearl"
+    },
+    "Craftable: Pegasus Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Pegasus_C_2",
+        "Icon": "Item_FigureHeadPegasus_Icon",
+        "Ingredients": {
+            "Gold Coin": 800.0
+        },
+        "Name": "Pegasus Figure Head"
+    },
+    "Craftable: Pine": {
+        "ClassName": "Resource_Wood_Pine_C_2",
+        "Icon": "Pine_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Pine Bundle": 1.0,
+            "Wood": 50.0
+        },
+        "Name": "Pine"
+    },
+    "Craftable: Pink Coloring": {
+        "ClassName": "Dye_Pink_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Pink Coloring"
+    },
+    "Craftable: Pink Salt": {
+        "ClassName": "Resource_Preservative_PinkSalt_C_2",
+        "Icon": "Item_PreservativePinkSalt_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Salt": 40.0
+        },
+        "Name": "Pink Salt"
+    },
+    "Craftable: Pohutukawa Red Coloring": {
+        "ClassName": "Dye_PohutukawaRed_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Pohutukawa Red Coloring"
+    },
+    "Craftable: Poplar": {
+        "ClassName": "Resource_Wood_Poplar_C_2",
+        "Icon": "Poplar_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Wood": 50.0
+        },
+        "Name": "Poplar"
+    },
+    "Craftable: Poseidon Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Poseidon_C_2",
+        "Icon": "Item_FigureHeadPoseidon_Icon",
+        "Ingredients": {
+            "Gold Coin": 800.0
+        },
+        "Name": "Poseidon Figure Head"
+    },
+    "Craftable: Purple Coloring": {
+        "ClassName": "Dye_Purple_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Purple Coloring"
+    },
+    "Craftable: Quartz": {
+        "ClassName": "Resource_Crystal_Quartz_C_2",
+        "Icon": "Quartz_Icon",
+        "Ingredients": {
+            "Crystal": 15.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Quartz"
+    },
+    "Craftable: Radiolarite": {
+        "ClassName": "Resource_Flint_Radiolarite_C_2",
+        "Icon": "Radiolarite_Icon",
+        "Ingredients": {
+            "Flint": 40.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Radiolarite"
+    },
+    "Craftable: Red Coloring": {
+        "ClassName": "Dye_Red_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Red Coloring"
+    },
+    "Craftable: Reeds": {
+        "ClassName": "Resource_Thatch_Reed_C_2",
+        "Icon": "Reed_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Thatch": 50.0
+        },
+        "Name": "Reeds"
+    },
+    "Craftable: Rename Ship Item": {
+        "ClassName": "RenameShip_C_2",
+        "Icon": "Button_Seamanship_Icon",
+        "Ingredients": {
+            "Gold Coin": 10000.0
+        },
+        "Name": "Rename Ship Item"
+    },
+    "Craftable: Rock Elemental Tame Token": {
+        "ClassName": "TameToken_RockElem_C_1",
+        "Icon": "Item_TamingToken_Icon",
+        "Ingredients": {
+            "Gold Coin": 38000.0
+        },
+        "Name": "Rock Elemental Tame Token"
+    },
+    "Craftable: Rock Salt": {
+        "ClassName": "Resource_Preservative_RockSalt_C_2",
+        "Icon": "Item_PreservativeRockSalt_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Salt": 40.0
+        },
+        "Name": "Rock Salt"
+    },
+    "Craftable: Roots": {
+        "ClassName": "Resource_Thatch_Root_C_2",
+        "Icon": "Root_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Thatch": 50.0
+        },
+        "Name": "Roots"
+    },
+    "Craftable: Royalty Coloring": {
+        "ClassName": "Dye_Royalty_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Royalty Coloring"
+    },
+    "Craftable: Rushes": {
+        "ClassName": "Resource_Thatch_Rush_C_2",
+        "Icon": "Rushes_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Thatch": 50.0
+        },
+        "Name": "Rushes"
+    },
+    "Craftable: Sandstone": {
+        "ClassName": "Resource_Stone_Sandstone_C_2",
+        "Icon": "Sandstone_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Sandstone Block": 1.0,
+            "Stone": 50.0
+        },
+        "Name": "Sandstone"
+    },
+    "Craftable: Sea Salt": {
+        "ClassName": "Resource_Preservative_SeaSalt_C_2",
+        "Icon": "SeaSalt_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Salt": 40.0
+        },
+        "Name": "Sea Salt"
+    },
+    "Craftable: Seaweed": {
+        "ClassName": "Resource_Fibers_Seaweed_C_2",
+        "Icon": "Item_FibersSeaweed_Icon",
+        "Ingredients": {
+            "Fibers": 50.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Seaweed"
+    },
+    "Craftable: Selective Yellow Coloring": {
+        "ClassName": "Dye_SelectiveYellow_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Selective Yellow Coloring"
+    },
+    "Craftable: Shale Oil": {
+        "ClassName": "Resource_Oil_Olive_C_2",
+        "Icon": "OliveOil_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Oil": 30.0
+        },
+        "Name": "Shale Oil"
+    },
+    "Craftable: Shalimar Yellow Coloring": {
+        "ClassName": "Dye_Shalimar_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Shalimar Yellow Coloring"
+    },
+    "Craftable: Shark Wheel": {
+        "ClassName": "SteeringWheelSkin_Shark_C_1",
+        "Icon": "Item_SharkSteeringWheelSkin_Icon",
+        "Ingredients": {
+            "Gold Coin": 250.0
+        },
+        "Name": "Shark Wheel"
+    },
+    "Craftable: Silk": {
+        "ClassName": "Resource_Fibers_Silk_C_2",
+        "Icon": "Silk_Icon",
+        "Ingredients": {
+            "Fibers": 50.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Silk"
+    },
+    "Craftable: Silver": {
+        "ClassName": "Resource_Metal_Silver_C_2",
+        "Icon": "Silver_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Metal": 25.0
+        },
+        "Name": "Silver"
+    },
+    "Craftable: Silver Coloring": {
+        "ClassName": "Dye_Silver_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Silver Coloring"
+    },
+    "Craftable: Silver Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Metal_A_C_2",
+        "Icon": "Item_FigureHeadMetalSilver_Icon",
+        "Ingredients": {
+            "Gold Coin": 800.0
+        },
+        "Name": "Silver Figure Head"
+    },
+    "Craftable: Sky Coloring": {
+        "ClassName": "Dye_Sky_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Sky Coloring"
+    },
+    "Craftable: Slate": {
+        "ClassName": "Resource_Stone_Slate_C_2",
+        "Icon": "Slate_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Stone": 50.0
+        },
+        "Name": "Slate"
+    },
+    "Craftable: Slate Coloring": {
+        "ClassName": "Dye_Slate_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Slate Coloring"
+    },
+    "Craftable: Small Junk Sail Skin": {
+        "ClassName": "SailSkin_SmallJunkSail_C_1",
+        "Icon": "Item_JunkSailSmall_Icon",
+        "Ingredients": {
+            "Gold Coin": 300.0
+        },
+        "Name": "Small Junk Sail Skin"
+    },
+    "Craftable: Snow White Coloring": {
+        "ClassName": "Dye_SnowWhite_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Snow White Coloring"
+    },
+    "Craftable: Stone Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Stone_C_2",
+        "Icon": "Item_FigureHeadStone_Icon",
+        "Ingredients": {
+            "Gold Coin": 800.0
+        },
+        "Name": "Stone Figure Head"
+    },
+    "Craftable: Sulfur": {
+        "ClassName": "Resource_Coal_Sulfur_C_2",
+        "Icon": "Sulfur_Icon",
+        "Ingredients": {
+            "Coal": 25.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Sulfur"
+    },
+    "Craftable: Sunstone": {
+        "ClassName": "Resource_Gem_Sunstone_C_2",
+        "Icon": "Sunstone_Icon",
+        "Ingredients": {
+            "Gem": 15.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Sunstone"
+    },
+    "Craftable: Swamp Purple Coloring": {
+        "ClassName": "Dye_SwampyPurple_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Swamp Purple Coloring"
+    },
+    "Craftable: Tan Coloring": {
+        "ClassName": "Dye_Tan_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Tan Coloring"
+    },
+    "Craftable: Tangerine Coloring": {
+        "ClassName": "Dye_Tangerine_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Tangerine Coloring"
+    },
+    "Craftable: Tellurite": {
+        "ClassName": "Resource_Crystal_Tellurite_C_2",
+        "Icon": "Tellurite_Icon",
+        "Ingredients": {
+            "Crystal": 15.0,
+            "Gold Coin": 50.0
+        },
+        "Name": "Tellurite"
+    },
+    "Craftable: Tin": {
+        "ClassName": "Resource_Metal_Tin_C_2",
+        "Icon": "Tin_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0,
+            "Metal": 25.0
+        },
+        "Name": "Tin"
+    },
+    "Craftable: Traditional Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Traditional_C_2",
+        "Icon": "Item_BowSprit_Icon",
+        "Ingredients": {
+            "Gold Coin": 500.0
+        },
+        "Name": "Traditional Figure Head"
+    },
+    "Craftable: Watercourse Green Coloring": {
+        "ClassName": "Dye_WatercourseGreen_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Watercourse Green Coloring"
+    },
+    "Craftable: White Coloring": {
+        "ClassName": "Dye_White_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "White Coloring"
+    },
+    "Craftable: Wood Figure Head": {
+        "ClassName": "StructureBP_FigureHead_Wood_C_2",
+        "Icon": "Item_FigureHeadWood_Icon",
+        "Ingredients": {
+            "Gold Coin": 800.0
+        },
+        "Name": "Wood Figure Head"
+    },
+    "Craftable: Yellow Coloring": {
+        "ClassName": "Dye_Yellow_C_2",
+        "Ingredients": {
+            "Berry": 5.0,
+            "Gold Coin": 1.0,
+            "Water": 1.0
+        },
+        "Name": "Yellow Coloring"
     },
     "Creme Brulee": {
         "ClassName": "Consumable_CremeBrulee_C",
@@ -3213,7 +4421,7 @@
         "Name": "Explosive Barrel"
     },
     "Eye Patch Skin": {
-        "ClassName": "Skin_EyePatch_C",
+        "ClassName": "Skin_EyePatch_C_1",
         "Icon": "Item_Eyepatch_Icon",
         "Ingredients": {
             "Gold Coin": 150.0
@@ -4185,7 +5393,7 @@
         "Name": "Fur Chestpiece"
     },
     "Fur Cyclops Chestplate Skin": {
-        "ClassName": "Skin_FurCyclops_Shirt_C",
+        "ClassName": "Skin_FurCyclops_Shirt_C_1",
         "Icon": "Item_CyclopsFurShirt_Icon",
         "Ingredients": {
             "Gold Coin": 500.0
@@ -4193,7 +5401,7 @@
         "Name": "Fur Cyclops Chestplate"
     },
     "Fur Cyclops Gauntlets Skin": {
-        "ClassName": "Skin_FurCyclops_Gloves_C",
+        "ClassName": "Skin_FurCyclops_Gloves_C_1",
         "Icon": "Item_CyclopsFurGloves_Icon",
         "Ingredients": {
             "Gold Coin": 500.0
@@ -4209,7 +5417,7 @@
         "Name": "Fur Cyclops Greaves"
     },
     "Fur Cyclops Helmet Skin": {
-        "ClassName": "Skin_FurCyclops_Hat_C",
+        "ClassName": "Skin_FurCyclops_Hat_C_1",
         "Icon": "Item_CyclopsFurHelmet_Icon",
         "Ingredients": {
             "Gold Coin": 500.0
@@ -4217,7 +5425,7 @@
         "Name": "Fur Cyclops Helmet"
     },
     "Fur Cyclops Pants Skin": {
-        "ClassName": "Skin_FurCyclops_Pants_C",
+        "ClassName": "Skin_FurCyclops_Pants_C_1",
         "Icon": "Item_CyclopsFurPants_Icon",
         "Ingredients": {
             "Gold Coin": 500.0
@@ -4236,7 +5444,7 @@
         "Name": "Fur Gauntlets"
     },
     "Fur Hydra Chestplate Skin": {
-        "ClassName": "Skin_FurHydra_Shirt_C",
+        "ClassName": "Skin_FurHydra_Shirt_C_1",
         "Icon": "HUD_HydraFur_Chest_Colorized_D",
         "Ingredients": {
             "Gold Coin": 800.0
@@ -4244,7 +5452,7 @@
         "Name": "Fur Hydra Chestplate"
     },
     "Fur Hydra Gauntlets Skin": {
-        "ClassName": "Skin_FurHydra_Gloves_C",
+        "ClassName": "Skin_FurHydra_Gloves_C_1",
         "Icon": "HUD_HydraFur_Gloves_Colorized_D",
         "Ingredients": {
             "Gold Coin": 800.0
@@ -4252,7 +5460,7 @@
         "Name": "Fur Hydra Gauntlets"
     },
     "Fur Hydra Greaves Skin": {
-        "ClassName": "Skin_FurHydra_Boots_C",
+        "ClassName": "Skin_FurHydra_Boots_C_1",
         "Icon": "HUD_HydraFur_Boots_Colorized_D",
         "Ingredients": {
             "Gold Coin": 800.0
@@ -4260,7 +5468,7 @@
         "Name": "Fur Hydra Greaves"
     },
     "Fur Hydra Helmet Skin": {
-        "ClassName": "Skin_FurHydra_Hat_C",
+        "ClassName": "Skin_FurHydra_Hat_C_1",
         "Icon": "HUD_HydraFur_Hat_Colorized_D",
         "Ingredients": {
             "Gold Coin": 800.0
@@ -4268,7 +5476,7 @@
         "Name": "Fur Hydra Helmet"
     },
     "Fur Hydra Pants Skin": {
-        "ClassName": "Skin_FurHydra_Pants_C",
+        "ClassName": "Skin_FurHydra_Pants_C_1",
         "Icon": "HUD_HydraFur_Pants_Colorized_D",
         "Ingredients": {
             "Gold Coin": 800.0
@@ -4565,6 +5773,14 @@
             "Gold Coin": 50.0
         },
         "Name": "Gold Tiger Statue"
+    },
+    "Gold Turkey Statue": {
+        "ClassName": "Structure_GoldTurkeyStatue_C",
+        "Icon": "ICON_GoldenTurkey",
+        "Ingredients": {
+            "Gold Coin": 50.0
+        },
+        "Name": "Gold Turkey Statue"
     },
     "Golden Hesperornis Egg": {
         "ClassName": "Consumable_Egg_Hesperonis_Golden_C",
@@ -4920,7 +6136,7 @@
         "Name": "Heart"
     },
     "Heavy Atlantean Chestplate Skin": {
-        "ClassName": "Skin_HeavyAtlantean_Shirt_C",
+        "ClassName": "Skin_HeavyAtlantean_Shirt_C_1",
         "Icon": "Item_AtlanteanHeavyShirt_Icon",
         "Ingredients": {
             "Gold Coin": 800.0
@@ -4928,7 +6144,7 @@
         "Name": "Heavy Atlantean Chestplate"
     },
     "Heavy Atlantean Gauntlets Skin": {
-        "ClassName": "Skin_HeavyAtlantean_Gloves_C",
+        "ClassName": "Skin_HeavyAtlantean_Gloves_C_1",
         "Icon": "Item_AtlanteanHeavyGloves_Icon",
         "Ingredients": {
             "Gold Coin": 800.0
@@ -4936,7 +6152,7 @@
         "Name": "Heavy Atlantean Gauntlets"
     },
     "Heavy Atlantean Greaves Skin": {
-        "ClassName": "Skin_HeavyAtlantean_Boots_C",
+        "ClassName": "Skin_HeavyAtlantean_Boots_C_1",
         "Icon": "Item_AtlanteanHeavyBoots_Icon",
         "Ingredients": {
             "Gold Coin": 800.0
@@ -4944,7 +6160,7 @@
         "Name": "Heavy Atlantean Greaves"
     },
     "Heavy Atlantean Helmet Skin": {
-        "ClassName": "Skin_HeavyAtlantean_Hat_C",
+        "ClassName": "Skin_HeavyAtlantean_Hat_C_1",
         "Icon": "Item_AtlanteanHeavyHelmet_Icon",
         "Ingredients": {
             "Gold Coin": 800.0
@@ -4952,7 +6168,7 @@
         "Name": "Heavy Atlantean Helmet"
     },
     "Heavy Atlantean Pants Skin": {
-        "ClassName": "Skin_HeavyAtlantean_Pants_C",
+        "ClassName": "Skin_HeavyAtlantean_Pants_C_1",
         "Icon": "Item_AtlanteanHeavyPants_Icon",
         "Ingredients": {
             "Gold Coin": 800.0
@@ -4960,7 +6176,7 @@
         "Name": "Heavy Atlantean Pants"
     },
     "Heavy Cyclops Chestplate Skin": {
-        "ClassName": "Skin_HeavyCyclops_Shirt_C",
+        "ClassName": "Skin_HeavyCyclops_Shirt_C_1",
         "Icon": "HUD_CyclopsHeavyChest_Colorized_D",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -4968,7 +6184,7 @@
         "Name": "Heavy Cyclops Chestplate"
     },
     "Heavy Cyclops Gauntlets Skin": {
-        "ClassName": "Skin_HeavyCyclops_Gloves_C",
+        "ClassName": "Skin_HeavyCyclops_Gloves_C_1",
         "Icon": "HUD_CyclopsHeavyGloves_Colorized_D",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -4976,7 +6192,7 @@
         "Name": "Heavy Cyclops Gauntlets"
     },
     "Heavy Cyclops Greaves Skin": {
-        "ClassName": "Skin_HeavyCyclops_Boots_C",
+        "ClassName": "Skin_HeavyCyclops_Boots_C_1",
         "Icon": "HUD_CyclopsHeavyBoots_Colorized_D",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -4984,7 +6200,7 @@
         "Name": "Heavy Cyclops Greaves"
     },
     "Heavy Cyclops Helmet Skin": {
-        "ClassName": "Skin_HeavyCyclops_Hat_C",
+        "ClassName": "Skin_HeavyCyclops_Hat_C_1",
         "Icon": "HUD_CyclopsHeavyHelmet_Colorized_D",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -4992,7 +6208,7 @@
         "Name": "Heavy Cyclops Helmet"
     },
     "Heavy Cyclops Pants Skin": {
-        "ClassName": "Skin_HeavyCyclops_Pants_C",
+        "ClassName": "Skin_HeavyCyclops_Pants_C_1",
         "Icon": "HUD_CyclopsHeavyPants_Colorized_D",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5000,7 +6216,7 @@
         "Name": "Heavy Cyclops Pants"
     },
     "Heavy Hydra Chestplate Skin": {
-        "ClassName": "Skin_HeavyHydra_Shirt_C",
+        "ClassName": "Skin_HeavyHydra_Shirt_C_1",
         "Icon": "HUD_SkinHeavyHydraChest_Colorized_D",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5008,7 +6224,7 @@
         "Name": "Heavy Hydra Chestplate"
     },
     "Heavy Hydra Gauntlets Skin": {
-        "ClassName": "Skin_HeavyHydra_Gloves_C",
+        "ClassName": "Skin_HeavyHydra_Gloves_C_1",
         "Icon": "HUD_SkinHeavyHydraGloves_Colorized_D",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5016,7 +6232,7 @@
         "Name": "Heavy Hydra Gauntlets"
     },
     "Heavy Hydra Greaves Skin": {
-        "ClassName": "Skin_HeavyHydra_Boots_C",
+        "ClassName": "Skin_HeavyHydra_Boots_C_1",
         "Icon": "HUD_SkinHeavyHydraBoots_Colorized_D",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5024,7 +6240,7 @@
         "Name": "Heavy Hydra Greaves"
     },
     "Heavy Hydra Helmet Skin": {
-        "ClassName": "Skin_HeavyHydra_Hat_C",
+        "ClassName": "Skin_HeavyHydra_Hat_C_1",
         "Icon": "HUD_SkinHeavyHydraHelmet_Colorized_D",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5032,7 +6248,7 @@
         "Name": "Heavy Hydra Helmet"
     },
     "Heavy Hydra Pants Skin": {
-        "ClassName": "Skin_HeavyHydra_Pants_C",
+        "ClassName": "Skin_HeavyHydra_Pants_C_1",
         "Icon": "HUD_SkinHeavyHydraPants_Colorized_D",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5094,7 +6310,7 @@
         "Name": "Hide"
     },
     "Hide Atlantean Chestplate Skin": {
-        "ClassName": "Skin_HideAtlantean_Shirt_C",
+        "ClassName": "Skin_HideAtlantean_Shirt_C_1",
         "Icon": "Item_AtlanteanMediumShirt_Icon",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5102,7 +6318,7 @@
         "Name": "Hide Atlantean Chestplate"
     },
     "Hide Atlantean Gauntlets Skin": {
-        "ClassName": "Skin_HideAtlantean_Gloves_C",
+        "ClassName": "Skin_HideAtlantean_Gloves_C_1",
         "Icon": "Item_AtlanteanMediumGloves_Icon",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5110,7 +6326,7 @@
         "Name": "Hide Atlantean Gauntlets"
     },
     "Hide Atlantean Greaves Skin": {
-        "ClassName": "Skin_HideAtlantean_Boots_C",
+        "ClassName": "Skin_HideAtlantean_Boots_C_1",
         "Icon": "Item_AtlanteanMediumBoots_Icon",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5118,7 +6334,7 @@
         "Name": "Hide Atlantean Greaves"
     },
     "Hide Atlantean Helmet Skin": {
-        "ClassName": "Skin_HideAtlantean_Hat_C",
+        "ClassName": "Skin_HideAtlantean_Hat_C_1",
         "Icon": "Item_AtlanteanMediumHelmet_Icon",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5126,7 +6342,7 @@
         "Name": "Hide Atlantean Helmet"
     },
     "Hide Atlantean Pants Skin": {
-        "ClassName": "Skin_HideAtlantean_Pants_C",
+        "ClassName": "Skin_HideAtlantean_Pants_C_1",
         "Icon": "Item_AtlanteanMediumPants_Icon",
         "Ingredients": {
             "Gold Coin": 600.0
@@ -5143,7 +6359,7 @@
         "Name": "Hide Boots"
     },
     "Hide Cyclops Chestplate Skin": {
-        "ClassName": "Skin_HideCyclops_Shirt_C",
+        "ClassName": "Skin_HideCyclops_Shirt_C_1",
         "Icon": "HUD_CyclopsHideShirt_Colorized_D",
         "Ingredients": {
             "Gold Coin": 400.0
@@ -5151,7 +6367,7 @@
         "Name": "Hide Cyclops Chestplate"
     },
     "Hide Cyclops Gauntlets Skin": {
-        "ClassName": "Skin_HideCyclops_Gloves_C",
+        "ClassName": "Skin_HideCyclops_Gloves_C_1",
         "Icon": "HUD_CyclopsHideGloves_Colorized_D",
         "Ingredients": {
             "Gold Coin": 400.0
@@ -5159,7 +6375,7 @@
         "Name": "Hide Cyclops Gauntlets"
     },
     "Hide Cyclops Greaves Skin": {
-        "ClassName": "Skin_HideCyclops_Boots_C",
+        "ClassName": "Skin_HideCyclops_Boots_C_1",
         "Icon": "HUD_CyclopsHideBoots_Colorized_D",
         "Ingredients": {
             "Gold Coin": 400.0
@@ -5167,7 +6383,7 @@
         "Name": "Hide Cyclops Greaves"
     },
     "Hide Cyclops Helmet Skin": {
-        "ClassName": "Skin_HideCyclops_Hat_C",
+        "ClassName": "Skin_HideCyclops_Hat_C_1",
         "Icon": "HUD_CyclopsHideHelmet_Colorized_D",
         "Ingredients": {
             "Gold Coin": 400.0
@@ -5175,7 +6391,7 @@
         "Name": "Hide Cyclops Helmet"
     },
     "Hide Cyclops Pants Skin": {
-        "ClassName": "Skin_HideCyclops_Pants_C",
+        "ClassName": "Skin_HideCyclops_Pants_C_1",
         "Icon": "HUD_CyclopsHidePants_Colorized_D",
         "Ingredients": {
             "Gold Coin": 400.0
@@ -5201,7 +6417,7 @@
         "Name": "Hide Hat"
     },
     "Hide Hydra Chestplate Skin": {
-        "ClassName": "Skin_HideHydraShirt_C",
+        "ClassName": "Skin_HideHydraShirt_C_1",
         "Icon": "HUD_HydraHideShirt_Colorized_D",
         "Ingredients": {
             "Gold Coin": 400.0
@@ -5209,7 +6425,7 @@
         "Name": "Hide Hydra Chestplate"
     },
     "Hide Hydra Gauntlets Skin": {
-        "ClassName": "Skin_HideHydraGloves_C",
+        "ClassName": "Skin_HideHydraGloves_C_1",
         "Icon": "HUD_HydraHideGloves_Colorized_D",
         "Ingredients": {
             "Gold Coin": 400.0
@@ -5217,7 +6433,7 @@
         "Name": "Hide Hydra Gauntlets"
     },
     "Hide Hydra Greaves Skin": {
-        "ClassName": "Skin_HideHydra_Boots_C",
+        "ClassName": "Skin_HideHydra_Boots_C_1",
         "Icon": "HUD_HydraHideBoots_Colorized_D",
         "Ingredients": {
             "Gold Coin": 400.0
@@ -5225,7 +6441,7 @@
         "Name": "Hide Hydra Greaves"
     },
     "Hide Hydra Helmet Skin": {
-        "ClassName": "Skin_HideHydraHat_C",
+        "ClassName": "Skin_HideHydraHat_C_1",
         "Icon": "HUD_HydraHideHelmet_Colorized_D",
         "Ingredients": {
             "Gold Coin": 400.0
@@ -5233,7 +6449,7 @@
         "Name": "Hide Hydra Helmet"
     },
     "Hide Hydra Pants Skin": {
-        "ClassName": "Skin_HideHydraPants_C",
+        "ClassName": "Skin_HideHydraPants_C_1",
         "Icon": "HUD_HydraHidePants_Colorized_D",
         "Ingredients": {
             "Gold Coin": 400.0
@@ -5262,9 +6478,7 @@
         "ClassName": "Structure_StorageBox_Present_C",
         "Icon": "Present2_Icon",
         "Ingredients": {
-            "Hide": 15.0,
-            "Thatch": 40.0,
-            "Wood": 44.0
+            "Gold Coin": 100.0
         },
         "Name": "Holiday Gift"
     },
@@ -5272,9 +6486,7 @@
         "ClassName": "Furniture_Lights_C",
         "Icon": "StringLightsIcon",
         "Ingredients": {
-            "Metal": 1.0,
-            "Thatch": 10.0,
-            "Wood": 20.0
+            "Gold Coin": 100.0
         },
         "Name": "Holiday Lights"
     },
@@ -6868,7 +8080,7 @@
         "Name": "Leech Blood / Horns"
     },
     "Left Hook Hand Skin": {
-        "ClassName": "Skin_HookHand_Lft_C",
+        "ClassName": "Skin_HookHand_Lft_C_1",
         "Icon": "HUD_Hook_Colorized_D2",
         "Ingredients": {
             "Gold Coin": 150.0
@@ -6876,7 +8088,7 @@
         "Name": "Left Hook Hand"
     },
     "Left Pegleg Skin": {
-        "ClassName": "Skin_SimplePegleg_Lft_C",
+        "ClassName": "Skin_SimplePegleg_Lft_C_1",
         "Icon": "HUD_PegLeg_Colorized_D2",
         "Ingredients": {
             "Gold Coin": 150.0
@@ -7978,7 +9190,7 @@
         "Name": "Octopus Figure Head"
     },
     "Officer's Boots Skin": {
-        "ClassName": "Skin_OfficerBoots_C",
+        "ClassName": "Skin_OfficerBoots_C_1",
         "Icon": "Item_NavyBoots_Icon",
         "Ingredients": {
             "Gold Coin": 100.0
@@ -7986,7 +9198,7 @@
         "Name": "Officer's Boots"
     },
     "Officer's Coat Skin": {
-        "ClassName": "Skin_OfficerShirt_C",
+        "ClassName": "Skin_OfficerShirt_C_1",
         "Icon": "Item_NavyShirt_Icon",
         "Ingredients": {
             "Gold Coin": 100.0
@@ -7994,7 +9206,7 @@
         "Name": "Officer's Coat"
     },
     "Officer's Gloves Skin": {
-        "ClassName": "Skin_OfficerGloves_C",
+        "ClassName": "Skin_OfficerGloves_C_1",
         "Icon": "Item_NavyGloves_Icon",
         "Ingredients": {
             "Gold Coin": 100.0
@@ -8002,7 +9214,7 @@
         "Name": "Officer's Gloves"
     },
     "Officer's Hat Skin": {
-        "ClassName": "Skin_OfficerHat_C",
+        "ClassName": "Skin_OfficerHat_C_1",
         "Icon": "Item_NavyHat_Icon",
         "Ingredients": {
             "Gold Coin": 100.0
@@ -8010,7 +9222,7 @@
         "Name": "Officer's Hat"
     },
     "Officer's Pants Skin": {
-        "ClassName": "Skin_OfficerPants_C",
+        "ClassName": "Skin_OfficerPants_C_1",
         "Icon": "Item_NavyPants_Icon",
         "Ingredients": {
             "Gold Coin": 100.0
@@ -9298,7 +10510,7 @@
         "Name": "Rice Seed"
     },
     "Right Hook Hand Skin": {
-        "ClassName": "Skin_HookHand_C",
+        "ClassName": "Skin_HookHand_C_1",
         "Icon": "HUD_Hook_Colorized_D",
         "Ingredients": {
             "Gold Coin": 150.0
@@ -9306,7 +10518,7 @@
         "Name": "Right Hook Hand"
     },
     "Right Pegleg Skin": {
-        "ClassName": "Skin_SimplePegleg_C",
+        "ClassName": "Skin_SimplePegleg_C_1",
         "Icon": "HUD_PegLeg_Colorized_D",
         "Ingredients": {
             "Gold Coin": 150.0
@@ -10320,9 +11532,7 @@
         "ClassName": "Structure_Furniture_Sleigh_C",
         "Icon": "SleighIcon",
         "Ingredients": {
-            "Fibers": 50.0,
-            "Thatch": 100.0,
-            "Wood": 100.0
+            "Gold Coin": 100.0
         },
         "Name": "Sleigh"
     },
@@ -10532,15 +11742,19 @@
         },
         "Name": "Snow White Coloring"
     },
+    "Snowball Cannon Skin": {
+        "ClassName": "CannonSkin_Snowball_C",
+        "Icon": "Item_CannonSkin_Snowball_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Snowball Cannon Skin"
+    },
     "Snowman": {
         "ClassName": "Structure_Furniture_Snowman_C",
         "Icon": "Snowman_Icon",
         "Ingredients": {
-            "Carrot": 1.0,
-            "Coal": 12.0,
-            "Fibers": 50.0,
-            "Ice": 30.0,
-            "Wood": 2.0
+            "Gold Coin": 100.0
         },
         "Name": "Snowman"
     },
@@ -10869,8 +12083,7 @@
         "ClassName": "Furniture_Stocking_C",
         "Icon": "Stocking_Icon",
         "Ingredients": {
-            "Fibers": 40.0,
-            "Hide": 30.0
+            "Gold Coin": 100.0
         },
         "Name": "Stocking"
     },
@@ -11691,6 +12904,14 @@
             "Organic Paste": 18.0
         },
         "Name": "Tier 2 Saddle"
+    },
+    "Tier 2 Sleigh Saddle": {
+        "ClassName": "Armor_SaddleSleigh_C",
+        "Icon": "Item_SleighCart_Icon",
+        "Ingredients": {
+            "Gold Coin": 2000.0
+        },
+        "Name": "Tier 2 Sleigh Saddle"
     },
     "Tier 3 Saddle": {
         "ClassName": "Armor_SaddleGeneric_Tier3_C",
@@ -13225,9 +14446,7 @@
         "ClassName": "Furniture_Wreath_C",
         "Icon": "Wreath_Icon",
         "Ingredients": {
-            "Fibers": 20.0,
-            "Thatch": 20.0,
-            "Wood": 10.0
+            "Gold Coin": 100.0
         },
         "Name": "Wreath"
     },

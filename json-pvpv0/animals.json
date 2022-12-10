@@ -2912,7 +2912,7 @@
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 90.0,
+                    "affinityOverride": 50.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Human Meat",
                     "weight": 0.07000000029802322
@@ -2966,7 +2966,7 @@
                     "weight": 0.07000000029802322
                 },
                 {
-                    "affinityOverride": 100.0,
+                    "affinityOverride": 50.0,
                     "foodEffectivenessMultiplier": 2.5,
                     "name": "Human Meat",
                     "weight": 0.07000000029802322
@@ -12244,14 +12244,14 @@
                 },
                 {
                     "affinityOverride": 87.5,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Innards",
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Insect Meat",
                     "weight": 0.07000000029802322
                 },
                 {
                     "affinityOverride": 87.5,
-                    "foodEffectivenessMultiplier": 5.0,
-                    "name": "Insect Meat",
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Innards",
                     "weight": 0.07000000029802322
                 }
             ],

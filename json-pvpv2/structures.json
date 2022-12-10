@@ -1,5 +1,37 @@
 {
     "Structures": {
+        "CommoditySellerNPC_MerchantShip_BP_C_0": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "CosmeticSellerNPC_MerchantShip_BP_C_0": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
         "Default__AirConditioner_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
@@ -208,6 +240,22 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
+        "Default__BaitStation_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
         "Default__BaseFuelBurner_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
@@ -290,7 +338,7 @@
         },
         "Default__Bookshelf_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 40.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -370,7 +418,7 @@
         },
         "Default__Cage_Wood_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 10.0,
+            "DecayTimeDays": 5.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -562,7 +610,7 @@
         },
         "Default__CrewResourcesSiloBP_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 40.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -898,7 +946,7 @@
         },
         "Default__FeedingTrough_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 40.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -1122,7 +1170,7 @@
         },
         "Default__Freezer_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 5.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -1138,7 +1186,7 @@
         },
         "Default__Grill_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 15.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -1184,6 +1232,22 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
+        "Default__HolidayStructure_CookedTurkeyDecoration_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 40.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
         "Default__HolidayStructure_GoldStuffedBear_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 40.0,
@@ -1201,6 +1265,22 @@
             "UseFenceFoundation": false
         },
         "Default__HolidayStructure_GoldTigerStatue_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 40.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "Default__HolidayStructure_GoldTurkeyStatue_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 40.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
@@ -1362,7 +1442,7 @@
         },
         "Default__HumanTrough_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 40.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -1570,7 +1650,7 @@
         },
         "Default__Loom_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 20.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -2114,7 +2194,7 @@
         },
         "Default__MortarAndPestle_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 40.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -2210,7 +2290,7 @@
         },
         "Default__PreservingBag_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 40.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -3762,7 +3842,7 @@
         },
         "Default__ShipRepairBox_Small_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 40.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -4048,9 +4128,25 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
+        "Default__SleighStructureBase_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": true,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
         "Default__SmithyForge_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 20.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -4089,6 +4185,22 @@
             "FoundationRequiresGroundTrace": false,
             "IsFenceFoundation": false,
             "IsFloor": true,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "Default__StableHouse_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
             "IsFoundation": false,
             "IsWall": false,
             "MaximumFoundationSupport2DBuildDistance": 650.0,
@@ -4146,7 +4258,7 @@
         },
         "Default__StorageBox_Keg_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 40.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -4162,7 +4274,7 @@
         },
         "Default__StorageBox_Large_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 40.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -4208,9 +4320,25 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "Default__StorageBox_Small_C": {
+        "Default__StorageBox_Sleigh_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 40.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "Default__StorageBox_Small_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -4370,7 +4498,7 @@
         },
         "Default__StructureBP_Campfire_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 5.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -7026,7 +7154,7 @@
         },
         "Default__StructureBP_Lighthouse_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 5.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -13202,7 +13330,7 @@
         },
         "Default__Structure_TrainingDummy_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 6.25,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -13314,7 +13442,7 @@
         },
         "Default__Tannery_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 20.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -13330,7 +13458,7 @@
         },
         "Default__TaxationBank_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 80.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -13522,7 +13650,7 @@
         },
         "Default__WoodTable_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 40.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -13538,7 +13666,7 @@
         },
         "Default__Workstation_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 20.0,
+            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -13562,6 +13690,22 @@
             "IsFenceFoundation": false,
             "IsFloor": false,
             "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "PathFollowingHull_BP_Raft_C_0": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": true,
+            "IsFoundation": true,
             "IsWall": false,
             "MaximumFoundationSupport2DBuildDistance": 650.0,
             "PreventPlacingNearEnemyRadius": 2000.0,

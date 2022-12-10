@@ -558,6 +558,17 @@
             }
         }
     },
+    "Bait Station": {
+        "ClassName": "Structure_BaitStation_C",
+        "Icon": "Item_BaitStation_Icon",
+        "Ingredients": {
+            "Fibers": 35.0,
+            "Metal": 10.0,
+            "Thatch": 40.0,
+            "Wood": 50.0
+        },
+        "Name": "Bait Station"
+    },
     "Ballista Bolt": {
         "ClassName": "Ammo_BallistaArrow_C",
         "Icon": "Item_BallistaArrow_Icon",
@@ -645,6 +656,20 @@
             "Thatch": 50.0
         },
         "Name": "Bark"
+    },
+    "Barn": {
+        "ClassName": "Structure_StableHouse_C",
+        "Icon": "Barn_Icon",
+        "Ingredients": {
+            "Fibers": 40.0,
+            "Flint": 40.0,
+            "Hide": 80.0,
+            "Keratinoid": 90.0,
+            "Metal": 50.0,
+            "Stone": 240.0,
+            "Wood": 120.0
+        },
+        "Name": "Barn"
     },
     "Basalt": {
         "ClassName": "Resource_Flint_Basalt_C",
@@ -1773,9 +1798,7 @@
         "ClassName": "Structure_Furniture_CTree_C",
         "Icon": "ChristmasTree_Icon",
         "Ingredients": {
-            "Fibers": 200.0,
-            "Thatch": 250.0,
-            "Wood": 250.0
+            "Gold Coin": 100.0
         },
         "Name": "Christmas Tree"
     },
@@ -2251,6 +2274,22 @@
                 "addOverTimeSpeed": 3.923635700109488e-44
             }
         }
+    },
+    "Cooked Turkey Cannon Skin": {
+        "ClassName": "CannonSkin_CookedTurkey_C",
+        "Icon": "Item_CannonSkin_CookedTurkey_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Cooked Turkey Cannon Skin"
+    },
+    "Cooked Turkey Decoration": {
+        "ClassName": "Structure_CookedTurkeyDecoration_C",
+        "Icon": "ICON_CookedTurkey",
+        "Ingredients": {
+            "Gold Coin": 50.0
+        },
+        "Name": "Cooked Turkey Decoration"
     },
     "Cooking Herbs": {
         "ClassName": "Consumable_Herb_BASE_C",
@@ -4566,6 +4605,14 @@
         },
         "Name": "Gold Tiger Statue"
     },
+    "Gold Turkey Statue": {
+        "ClassName": "Structure_GoldTurkeyStatue_C",
+        "Icon": "ICON_GoldenTurkey",
+        "Ingredients": {
+            "Gold Coin": 50.0
+        },
+        "Name": "Gold Turkey Statue"
+    },
     "Golden Hesperornis Egg": {
         "ClassName": "Consumable_Egg_Hesperonis_Golden_C",
         "Icon": "GoldenEgg_Icon",
@@ -5262,9 +5309,7 @@
         "ClassName": "Structure_StorageBox_Present_C",
         "Icon": "Present2_Icon",
         "Ingredients": {
-            "Hide": 15.0,
-            "Thatch": 40.0,
-            "Wood": 44.0
+            "Gold Coin": 100.0
         },
         "Name": "Holiday Gift"
     },
@@ -5272,9 +5317,7 @@
         "ClassName": "Furniture_Lights_C",
         "Icon": "StringLightsIcon",
         "Ingredients": {
-            "Metal": 1.0,
-            "Thatch": 10.0,
-            "Wood": 20.0
+            "Gold Coin": 100.0
         },
         "Name": "Holiday Lights"
     },
@@ -10320,9 +10363,7 @@
         "ClassName": "Structure_Furniture_Sleigh_C",
         "Icon": "SleighIcon",
         "Ingredients": {
-            "Fibers": 50.0,
-            "Thatch": 100.0,
-            "Wood": 100.0
+            "Gold Coin": 100.0
         },
         "Name": "Sleigh"
     },
@@ -10532,15 +10573,19 @@
         },
         "Name": "Snow White Coloring"
     },
+    "Snowball Cannon Skin": {
+        "ClassName": "CannonSkin_Snowball_C",
+        "Icon": "Item_CannonSkin_Snowball_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Snowball Cannon Skin"
+    },
     "Snowman": {
         "ClassName": "Structure_Furniture_Snowman_C",
         "Icon": "Snowman_Icon",
         "Ingredients": {
-            "Carrot": 1.0,
-            "Coal": 12.0,
-            "Fibers": 50.0,
-            "Ice": 30.0,
-            "Wood": 2.0
+            "Gold Coin": 100.0
         },
         "Name": "Snowman"
     },
@@ -10869,8 +10914,7 @@
         "ClassName": "Furniture_Stocking_C",
         "Icon": "Stocking_Icon",
         "Ingredients": {
-            "Fibers": 40.0,
-            "Hide": 30.0
+            "Gold Coin": 100.0
         },
         "Name": "Stocking"
     },
@@ -11691,6 +11735,14 @@
             "Organic Paste": 18.0
         },
         "Name": "Tier 2 Saddle"
+    },
+    "Tier 2 Sleigh Saddle": {
+        "ClassName": "Armor_SaddleSleigh_C",
+        "Icon": "Item_SleighCart_Icon",
+        "Ingredients": {
+            "Gold Coin": 2000.0
+        },
+        "Name": "Tier 2 Sleigh Saddle"
     },
     "Tier 3 Saddle": {
         "ClassName": "Armor_SaddleGeneric_Tier3_C",
@@ -13225,9 +13277,7 @@
         "ClassName": "Furniture_Wreath_C",
         "Icon": "Wreath_Icon",
         "Ingredients": {
-            "Fibers": 20.0,
-            "Thatch": 20.0,
-            "Wood": 10.0
+            "Gold Coin": 100.0
         },
         "Name": "Wreath"
     },

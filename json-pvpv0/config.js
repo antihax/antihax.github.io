@@ -1,4 +1,4 @@
-{
+const config = {
 	"GPSBounds": {
 		"max": [
 			100,

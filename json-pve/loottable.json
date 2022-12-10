@@ -2298,6 +2298,23 @@
                 "Weight": 1.0
             }
         ],
+        "LootItemSet_OffensiveStructures_GalleonEssence_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 1,
+                "Items": [
+                    "Solidified Essence"
+                ],
+                "MaxQuality": 5.0,
+                "MaxQuantity": 50.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.100000023841858,
+                "Weight": 1.0
+            }
+        ],
         "LootItemSet_OffensiveStructures_Galleon_C": [
             {
                 "ChanceForBlueprint": 1.0,
@@ -2478,21 +2495,6 @@
                 "QualityPower": 1.0,
                 "QuantityPower": 1.0,
                 "Weight": 1.0
-            },
-            {
-                "ChanceForBlueprint": 0.0,
-                "ChanceForItem": 1.0,
-                "ForceBlueprint": 0,
-                "Items": [
-                    "Jack O' Lantern"
-                ],
-                "MaxQuality": 1.0,
-                "MaxQuantity": 10.0,
-                "MinQuality": 1.0,
-                "MinQuantity": 5.0,
-                "QualityPower": 1.0,
-                "QuantityPower": 1.0,
-                "Weight": 1.0
             }
         ],
         "LootItemSet_ShipStructures_C": [
@@ -2606,21 +2608,6 @@
                 "QualityPower": 1.0,
                 "QuantityPower": 1.0,
                 "Weight": 1.0
-            },
-            {
-                "ChanceForBlueprint": 0.0,
-                "ChanceForItem": 1.0,
-                "ForceBlueprint": 0,
-                "Items": [
-                    "Jack O' Lantern"
-                ],
-                "MaxQuality": 1.0,
-                "MaxQuantity": 15.0,
-                "MinQuality": 1.0,
-                "MinQuantity": 7.0,
-                "QualityPower": 1.0,
-                "QuantityPower": 1.0,
-                "Weight": 1.0
             }
         ],
         "LootItemSet_ShipStructures_Schooner_C": [
@@ -2668,21 +2655,6 @@
                 "MaxQuantity": 1.0,
                 "MinQuality": 0.4000000059604645,
                 "MinQuantity": 1.0,
-                "QualityPower": 1.0,
-                "QuantityPower": 1.0,
-                "Weight": 1.0
-            },
-            {
-                "ChanceForBlueprint": 0.0,
-                "ChanceForItem": 1.0,
-                "ForceBlueprint": 0,
-                "Items": [
-                    "Jack O' Lantern"
-                ],
-                "MaxQuality": 1.0,
-                "MaxQuantity": 5.0,
-                "MinQuality": 1.0,
-                "MinQuantity": 5.0,
                 "QualityPower": 1.0,
                 "QuantityPower": 1.0,
                 "Weight": 1.0

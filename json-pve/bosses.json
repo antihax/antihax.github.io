@@ -5,11 +5,6 @@
 		"name": "Ancient Fire Elemental"
 	},
 	{
-		"lat": -50,
-		"long": -83.33332824707031,
-		"name": "MeanWhale"
-	},
-	{
 		"lat": -60.26451110839844,
 		"long": -95.45378875732422,
 		"name": "Yeti"
@@ -55,16 +50,6 @@
 		"name": "Hydra"
 	},
 	{
-		"lat": -83.33332824707031,
-		"long": -50,
-		"name": "MeanWhale"
-	},
-	{
-		"lat": -50,
-		"long": -16.666667938232422,
-		"name": "GiantSquid"
-	},
-	{
 		"lat": 74.95779418945312,
 		"long": 16.361465454101562,
 		"name": "Elder Rock Elemental"
@@ -78,11 +63,6 @@
 		"lat": -7.430238246917725,
 		"long": 8.518035888671875,
 		"name": "Kekeda"
-	},
-	{
-		"lat": 83.33332824707031,
-		"long": 50,
-		"name": "MeanWhale"
 	},
 	{
 		"lat": 94.0792007446289,
@@ -110,11 +90,6 @@
 		"name": "Eber"
 	},
 	{
-		"lat": -83.33332824707031,
-		"long": 50,
-		"name": "GiantSquid"
-	},
-	{
 		"lat": 73.35408782958984,
 		"long": 74.08809661865234,
 		"name": "Drake"
@@ -135,19 +110,9 @@
 		"name": "Drake"
 	},
 	{
-		"lat": 50,
-		"long": 83.33332824707031,
-		"name": "GentleWhale"
-	},
-	{
 		"lat": -25.54127311706543,
 		"long": 93.74111938476562,
 		"name": "Buwaya"
-	},
-	{
-		"lat": -50,
-		"long": 83.33332824707031,
-		"name": "GiantSquid"
 	},
 	{
 		"lat": -73.67269134521484,
