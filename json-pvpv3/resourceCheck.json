@@ -1,0 +1,547 @@
+{
+	"Berry": [
+		{
+			"Acai": 10
+		},
+		{
+			"Acerola": 14
+		},
+		{
+			"Arctic Raspberry": 0
+		},
+		{
+			"Bilberry": 3
+		},
+		{
+			"Blackberry": 9
+		},
+		{
+			"Elderberry": 19
+		},
+		{
+			"Lingonberry": 0
+		},
+		{
+			"Schisandra": 12
+		},
+		{
+			"Sea Grapes": 9
+		},
+		{
+			"Strawberry": 7
+		}
+	],
+	"Flint": [
+		{
+			"Agate": 1
+		},
+		{
+			"Basalt": 38
+		},
+		{
+			"Chalcedony": 0
+		},
+		{
+			"Chert": 4
+		},
+		{
+			"Obsidian": 3
+		},
+		{
+			"Radiolarite": 7
+		}
+	],
+	"Herb": [
+		{
+			"Aloe": 6
+		},
+		{
+			"Basil": 2
+		},
+		{
+			"Chamomile": 4
+		},
+		{
+			"Cilantro": 13
+		},
+		{
+			"Garlic": 0
+		},
+		{
+			"Licorice": 5
+		},
+		{
+			"Mint": 7
+		},
+		{
+			"Oregano": 13
+		},
+		{
+			"Parsley": 8
+		},
+		{
+			"Poppy": 4
+		},
+		{
+			"Rosemary": 3
+		},
+		{
+			"Thyme": 2
+		},
+		{
+			"Turmeric": 2
+		},
+		{
+			"Yarrow": 4
+		}
+	],
+	"BAD": [
+		{
+			"Amarberry": 0
+		},
+		{
+			"Mejoberry": 0
+		},
+		{
+			"Narcoberry": 0
+		},
+		{
+			"Stimberry": 0
+		},
+		{
+			"Tintoberry": 0
+		}
+	],
+	"Crystal": [
+		{
+			"Amethyst": 0
+		},
+		{
+			"Calcite": 5
+		},
+		{
+			"Herkimer": 5
+		},
+		{
+			"Pearl": 0
+		},
+		{
+			"Quartz": 10
+		},
+		{
+			"Tellurite": 0
+		}
+	],
+	"Coal": [
+		{
+			"Anthracite": 1
+		},
+		{
+			"Graphite": 7
+		},
+		{
+			"Lignite": 8
+		},
+		{
+			"Nitre": 13
+		},
+		{
+			"Peat": 4
+		},
+		{
+			"Sulfur": 2
+		}
+	],
+	"Fiber": [
+		{
+			"Bamboo": 6
+		},
+		{
+			"Cotton": 12
+		},
+		{
+			"Hemp": 13
+		},
+		{
+			"Jute": 18
+		},
+		{
+			"Seaweed": 1
+		},
+		{
+			"Silk": 4
+		},
+		{
+			"Straw": 33
+		}
+	],
+	"Thatch": [
+		{
+			"Bark": 36
+		},
+		{
+			"Fronds": 26
+		},
+		{
+			"Reeds": 5
+		},
+		{
+			"Roots": 4
+		},
+		{
+			"Rushes": 5
+		},
+		{
+			"Twigs": 29
+		}
+	],
+	"Vegetable": [
+		{
+			"Beans": 0
+		},
+		{
+			"Beet": 0
+		},
+		{
+			"Cactus": 4
+		},
+		{
+			"Carrot": 0
+		},
+		{
+			"Celery": 0
+		},
+		{
+			"Chick Peas": 0
+		},
+		{
+			"Chili": 0
+		},
+		{
+			"Cocoa": 4
+		},
+		{
+			"Coconut": 15
+		},
+		{
+			"Edible Greens": 1
+		},
+		{
+			"Lime": 5
+		},
+		{
+			"Maize": 0
+		},
+		{
+			"Olives": 2
+		},
+		{
+			"Onion": 0
+		},
+		{
+			"Pepper": 0
+		},
+		{
+			"Potato": 0
+		},
+		{
+			"Rice": 0
+		},
+		{
+			"Turnip": 0
+		},
+		{
+			"Wheat": 0
+		},
+		{
+			"Wheatgrass": 0
+		},
+		{
+			"Wild Beans": 8
+		},
+		{
+			"Wild Beet": 3
+		},
+		{
+			"Wild Cactus": 7
+		},
+		{
+			"Wild Carrot": 4
+		},
+		{
+			"Wild Chick Peas": 6
+		},
+		{
+			"Wild Chili": 0
+		},
+		{
+			"Wild Greens": 0
+		},
+		{
+			"Wild Maize": 3
+		},
+		{
+			"Wild Onion": 7
+		},
+		{
+			"Wild Pepper": 6
+		},
+		{
+			"Wild Potato": 0
+		},
+		{
+			"Wild Rice": 5
+		},
+		{
+			"Wild Turnip": 0
+		}
+	],
+	"Coral": [
+		{
+			"Brain Coral": 1
+		},
+		{
+			"Fire Coral": 1
+		}
+	],
+	"Base": [
+		{
+			"Coal": 0
+		},
+		{
+			"Crystal": 0
+		},
+		{
+			"Fibers": 1
+		},
+		{
+			"Flint": 1
+		},
+		{
+			"Metal": 0
+		},
+		{
+			"Salt": 0
+		},
+		{
+			"Saps": 0
+		},
+		{
+			"Stone": 1
+		},
+		{
+			"Thatch": 0
+		},
+		{
+			"Wood": 0
+		}
+	],
+	"Metal": [
+		{
+			"Cobalt": 3
+		},
+		{
+			"Copper": 5
+		},
+		{
+			"Iridium": 5
+		},
+		{
+			"Iron": 38
+		},
+		{
+			"Silver": 4
+		},
+		{
+			"Tin": 3
+		}
+	],
+	"Stone": [
+		{
+			"Coquina": 11
+		},
+		{
+			"Granite": 10
+		},
+		{
+			"Limestone": 34
+		},
+		{
+			"Marble": 6
+		},
+		{
+			"Sandstone": 5
+		},
+		{
+			"Slate": 29
+		}
+	],
+	"Oil": [
+		{
+			"Crude Oil": 10
+		},
+		{
+			"Mineral Oil": 1
+		},
+		{
+			"Naptha": 0
+		},
+		{
+			"Shale Oil": 0
+		}
+	],
+	"Gem": [
+		{
+			"Diamond": 0
+		},
+		{
+			"Emerald": 5
+		},
+		{
+			"Garnet": 0
+		},
+		{
+			"Opal": 8
+		},
+		{
+			"Ruby": 0
+		},
+		{
+			"Sunstone": 0
+		}
+	],
+	"Salt": [
+		{
+			"Flake Salt": 6
+		},
+		{
+			"Iodine": 3
+		},
+		{
+			"Kala Namak": 0
+		},
+		{
+			"Pink Salt": 0
+		},
+		{
+			"Rock Salt": 0
+		},
+		{
+			"Sea Salt": 1
+		}
+	],
+	"Special": [
+		{
+			"FreshWater": 22
+		},
+		{
+			"Geode": 38
+		}
+	],
+	"Sugar": [
+		{
+			"Gum": 3
+		},
+		{
+			"Honey": 13
+		},
+		{
+			"Nectar": 0
+		},
+		{
+			"Resin": 37
+		},
+		{
+			"Sugarcane": 5
+		},
+		{
+			"Sugars": 7
+		},
+		{
+			"Syrup": 8
+		}
+	],
+	"Wood": [
+		{
+			"Ironwood": 2
+		},
+		{
+			"Pine": 16
+		},
+		{
+			"Oak": 13
+		},
+		{
+			"Poplar": 17
+		},
+		{
+			"Cedar": 11
+		},
+		{
+			"Fir": 29
+		},
+		{
+			"Ash": 13
+		}
+	],
+	"Ignore": [
+		{
+			"Maps": 35
+		},
+		{
+			"Treasure Spawns": 0
+		}
+	],
+	"Seed": [
+		{
+			"Bean Seed": 8
+		},
+		{
+			"Beet Seed": 3
+		},
+		{
+			"Cactus Seed": 6
+		},
+		{
+			"Carrot Seed": 4
+		},
+		{
+			"Chick Pea Seed": 6
+		},
+		{
+			"Chili Seed": 0
+		},
+		{
+			"Maize Seed": 3
+		},
+		{
+			"Onion Seed": 7
+		},
+		{
+			"Pepper Seed": 6
+		},
+		{
+			"Potato Seed": 0
+		},
+		{
+			"Edible Greens Seed": 0
+		},
+		{
+			"Rice Seed": 5
+		},
+		{
+			"Wheat Seed": 0
+		},
+		{
+			"Turnip Seed": 0
+		}
+	],
+	"Transient": [
+		{
+			"Bone Chips": 17
+		},
+		{
+			"Brimstone": 12
+		}
+	]
+}
