@@ -47,7 +47,7 @@ L.AtlasGrid = L.LayerGroup.extend({
 		let grid;
 		this.eachLayer(map.addLayer, map);
 
-		fetch('json-' + version + '/gridList.json', {
+		fetch('json' + version + '/gridList.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())

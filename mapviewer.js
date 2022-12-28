@@ -16,7 +16,7 @@ class WorldMap extends React.Component {
 			noWrap: true,
 		};
 
-		const baseLayer = L.tileLayer('tiles-' + version +'/{z}/{x}/{y}.png', layerOpts);
+		const baseLayer = L.tileLayer('tiles' + version +'/{z}/{x}/{y}.png', layerOpts);
 
 		let map = (this.worldMap = L.atlasmap('worldmap', {
 			crs: L.CRS.Simple,
@@ -26,7 +26,7 @@ class WorldMap extends React.Component {
 		}));
 		map._originalBounds = layerOpts.bounds;
 		
-		fetch('json-' + version + '/regions.json', {
+		fetch('json' + version + '/regions.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())
@@ -306,7 +306,7 @@ class WorldMap extends React.Component {
 
 
 
-		fetch('json-' + version + '/portals.json', {
+		fetch('json' + version + '/portals.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())
@@ -361,7 +361,7 @@ class WorldMap extends React.Component {
 				console.log(error);
 			});
 
-		fetch('json-' + version + '/altars.json', {
+		fetch('json' + version + '/altars.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())
@@ -396,7 +396,7 @@ class WorldMap extends React.Component {
 			.catch((error) => {
 				console.log(error);
 			});
-		fetch('json-' + version + '/bosses.json', {
+		fetch('json' + version + '/bosses.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())
@@ -447,7 +447,7 @@ class WorldMap extends React.Component {
 				console.log(error);
 			});
 
-		fetch('json-' + version + '/stones.json', {
+		fetch('json' + version + '/stones.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())
@@ -469,7 +469,7 @@ class WorldMap extends React.Component {
 				console.log(error);
 			});
 
-		fetch('json-' + version + '/shipPaths.json', {
+		fetch('json' + version + '/shipPaths.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())
@@ -535,7 +535,7 @@ class WorldMap extends React.Component {
 			.catch((error) => {
 				console.log(error);
 			});
-		fetch('json-' + version + '/pveShops.json', {
+		fetch('json' + version + '/pveShops.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())
@@ -559,7 +559,7 @@ class WorldMap extends React.Component {
 			.catch((error) => {
 				console.log(error);
 			});
-		fetch('json-' + version + '/tradeWinds.json', {
+		fetch('json' + version + '/tradeWinds.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())
@@ -624,7 +624,7 @@ class WorldMap extends React.Component {
 				console.log(error);
 			});
 
-		fetch('json-' + version + '/islands.json', {
+		fetch('json' + version + '/islands.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())
@@ -955,17 +955,21 @@ function rotateVector2DAroundAxis(vec, axis, ang) {
 }
 
 const params = new URLSearchParams(window.location.search);
-var version = "sp";
+var version = "";
 if (params.has('v')) {
 	let v = params.get('v');
 	let versionReg = /^[a-z0-9]{1,10}$/;
 	if (versionReg.test(v)) {
-		version = v;
+		version = '-' + v;
 	}
 }
 
 var config = {};
-fetch('json-' + version + '/config.js').then((r) => r.json()).then((r) => { 
+let configUrl = 'json/config.js';
+if (version) 
+	configUrl = 'json' + version + '/config.js';
+
+fetch(configUrl).then((r) => r.json()).then((r) => { 
 	config = r;
 	ReactDOM.render(<App refresh={10 * 1000} />, document.getElementById('app'));
 });
