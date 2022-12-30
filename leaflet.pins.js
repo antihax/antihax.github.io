@@ -39,7 +39,7 @@ L.Control.Pin = L.Control.extend({
 			this,
 		);
 		let me = this;
-		fetch('json-' + version + '/regions.json', {
+		fetch('json' + this._map.options.config.version + '/regions.json', {
 			dataType: 'json',
 		})
 			.then((res) => res.json())
