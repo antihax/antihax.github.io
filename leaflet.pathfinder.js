@@ -49,13 +49,6 @@ L.Control.PathFinder = L.Control.extend({
 		return distance;
 	},
 
-	GPSStringtoLeaflet: function (str) {
-		let a = str.split(',');
-		let long = (a[1] - config.GPSBounds.min[1]) * config.YScale * 1.28,
-			lat = (a[0] - config.GPSBounds.min[0]) * config.XScale * 1.28;
-		return [long, lat];
-	},
-
 	onAdd: function () {
 		let className = 'leaflet-control-zoom leaflet-bar';
 		let container = L.DomUtil.create('div', className);
@@ -239,6 +232,7 @@ L.Control.PathFinder = L.Control.extend({
 	},
 
 	_getNode: function (x, y) {
+		const config = this._map.options.config;
 		let node = this._map.worldToGlobalGPS(
 			this._roundNodeLocation(x),
 			this._roundNodeLocation(y),
@@ -249,6 +243,7 @@ L.Control.PathFinder = L.Control.extend({
 	},
 
 	_closestNode: function ([x1, y1]) {
+		const config = this._map.options.config;
 		let [x, y] = this._map.leafletToWorld([y1, x1]);
 		let step = config.GridSize / config.NodesPerAxis;
 		let node = this._getNode(x, y);
@@ -268,6 +263,7 @@ L.Control.PathFinder = L.Control.extend({
 	},
 
 	_roundNodeLocation: function (v) {
+		const config = this._map.options.config;
 		let step = config.GridSize / config.NodesPerAxis;
 		if (v % step === 0) {
 			return Math.floor(v / step) * step + config.GridOffset;
@@ -283,22 +279,6 @@ L.Control.PathFinder = L.Control.extend({
 		return [p1[0] + dx * along - dy * dist, p1[1] + dy * along + dx * dist];
 	},
 
-	rotateVector2DAroundAxis: function (vec, axis, ang) {
-		ang = ang * (Math.PI / 180);
-		let cos = Math.cos(ang);
-		let sin = Math.sin(ang);
-
-		vec[0] -= axis[0];
-		vec[1] -= axis[1];
-
-		let r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos);
-
-		r[0] += axis[0];
-		r[1] += axis[1];
-
-		return r;
-	},
-
 	_updatePaths: function () {
 		this._path.forEach((v) => {
 			this._map.removeLayer(v);
@@ -311,8 +291,8 @@ L.Control.PathFinder = L.Control.extend({
 
 				let p = this._pathfinder.find(pin1.toString(), pin2.toString());
 				for (let j = 1; j < p.length; j++) {
-					let p1 = this.GPSStringtoLeaflet(p[j - 1].id);
-					let p2 = this.GPSStringtoLeaflet(p[j].id);
+					let p1 = this._map.GPSStringtoLeaflet(p[j - 1].id);
+					let p2 = this._map.GPSStringtoLeaflet(p[j].id);
 					let options = {name: 'path'};
 
 					let pathing = [];

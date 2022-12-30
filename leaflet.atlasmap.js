@@ -7,6 +7,7 @@ L.AtlasMap = L.Map.extend({
 	},
 
 	ccc: function (x, y) {
+		const config = this.options.config;
 		let precision = 256 / config.ServersX;
 		let gridXName = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O'];
 		let gridX = gridXName[Math.floor(x / precision)];
@@ -24,6 +25,7 @@ L.AtlasMap = L.Map.extend({
 	},
 
 	worldToLeaflet: function (x, y) {
+		const config = this.options.config;
 		const unrealx = config.GridSize * config.ServersX;
 		const unrealy = config.GridSize * config.ServersY;
 		let long = -((y / unrealy) * 256),
@@ -31,12 +33,38 @@ L.AtlasMap = L.Map.extend({
 		return [long, lat];
 	},
 
+	 GPStoLeaflet: function(x, y) {
+		const config = this.options.config;
+		let long = (y - config.GPSBounds.min[1]) * config.XScale * 1.28,
+			lat = (x - config.GPSBounds.min[0]) * config.YScale * 1.28;
+	
+		return [long, lat];
+	},
+
+	rotateVector2DAroundAxis: function (vec, axis, ang) {
+		ang = ang * (Math.PI / 180);
+		let cos = Math.cos(ang);
+		let sin = Math.sin(ang);
+
+		vec[0] -= axis[0];
+		vec[1] -= axis[1];
+
+		let r = new Array(vec[0] * cos - vec[1] * sin, vec[0] * sin + vec[1] * cos);
+
+		r[0] += axis[0];
+		r[1] += axis[1];
+
+		return r;
+	},
+
 	worldToLeafletSize: function (size) {
+		const config = this.options.config;
 		const unrealx = config.GridSize * config.ServersX;
 		return (size / unrealx) * 256;
 	},
 
 	cheatToLeaflet: function (c) {
+		const config = this.options.config;
 		let parts = c.split(' ');
 		let [gridX, gridY] = this.gridStringToIntegers(parts[0]);
 
@@ -50,7 +78,20 @@ L.AtlasMap = L.Map.extend({
 		return [long, lat];
 	},
 
+	worldToLeafletArray: function(a) {
+		return this.worldToLeaflet(a[0], a[1]);
+	},
+
+	GPSStringtoLeaflet: function (str) {
+		const config = this.options.config;
+		let a = str.split(',');
+		let long = (a[1] - config.GPSBounds.min[1]) * config.YScale * 1.28,
+			lat = (a[0] - config.GPSBounds.min[0]) * config.XScale * 1.28;
+		return [long, lat];
+	},
+
 	worldToGlobalGPS: function (x, y, bounds) {
+		const config = this.options.config;
 		const worldUnitsX = config.ServersX * config.GridSize;
 		const worldUnitsY = config.ServersY * config.GridSize;
 		let long = (x / worldUnitsX) * Math.abs(bounds.min[0] - bounds.max[0]) + bounds.min[0];
@@ -59,6 +100,7 @@ L.AtlasMap = L.Map.extend({
 	},
 
 	leafletToWorld: function ([x, y]) {
+		const config = this.options.config;
 		let worldX = this.constraintInv(x, 0, 256, 0, config.GridSize * config.ServersX - 1).toFixed(0);
 		let worldY = this.constraintInv(y, 0, -256, 0, config.GridSize * config.ServersY - 1).toFixed(
 			0,
@@ -111,7 +153,7 @@ L.AtlasMap = L.Map.extend({
 			},
 		});
 		return pin;
-	},
+	}
 });
 
 L.atlasmap = function (id, options) {
