@@ -294,7 +294,7 @@ function setupMap(config) {
 		iconAnchor: [16, 16],
 	});
 
-	fetch('json' + version + '/portals.json', {
+	fetch('json' + config.version + '/portals.json', {
 		dataType: 'json',
 	})
 		.then((res) => res.json())
@@ -349,7 +349,7 @@ function setupMap(config) {
 			console.log(error);
 		});
 
-	fetch('json' + version + '/altars.json', {
+	fetch('json' + config.version + '/altars.json', {
 		dataType: 'json',
 	})
 		.then((res) => res.json())
@@ -384,7 +384,7 @@ function setupMap(config) {
 		.catch((error) => {
 			console.log(error);
 		});
-	fetch('json' + version + '/bosses.json', {
+	fetch('json' + config.version + '/bosses.json', {
 		dataType: 'json',
 	})
 		.then((res) => res.json())
@@ -435,7 +435,7 @@ function setupMap(config) {
 			console.log(error);
 		});
 
-	fetch('json' + version + '/stones.json', {
+	fetch('json' + config.version + '/stones.json', {
 		dataType: 'json',
 	})
 		.then((res) => res.json())
@@ -457,7 +457,7 @@ function setupMap(config) {
 			console.log(error);
 		});
 
-	fetch('json' + version + '/shipPaths.json', {
+	fetch('json' + config.version + '/shipPaths.json', {
 		dataType: 'json',
 	})
 		.then((res) => res.json())
@@ -547,7 +547,7 @@ function setupMap(config) {
 		.catch((error) => {
 			console.log(error);
 		});
-	fetch('json' + version + '/tradeWinds.json', {
+	fetch('json' + config.version + '/tradeWinds.json', {
 		dataType: 'json',
 	})
 		.then((res) => res.json())
@@ -612,7 +612,7 @@ function setupMap(config) {
 			console.log(error);
 		});
 
-	fetch('json' + version + '/islands.json', {
+	fetch('json' + config.version + '/islands.json', {
 		dataType: 'json',
 	})
 		.then((res) => res.json())
@@ -846,7 +846,6 @@ function setupMap(config) {
 	};
 	L.control.teleportPosition().addTo(map);
 }
-
 
 class IslandCircle extends L.Circle {
 	constructor(latlng, options) {
