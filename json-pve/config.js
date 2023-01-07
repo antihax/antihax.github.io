@@ -17,5 +17,11 @@
 	"XRange": 200,
 	"XScale": 1,
 	"YRange": 200,
-	"YScale": 1
+	"YScale": 1,
+	"AtlasMapServer": false,
+	"ItemLink": true,
+	"KofiLink": true,
+	"WarehouseTool": true,
+	"PathFinder": true,
+	"PinTool": true
 }
