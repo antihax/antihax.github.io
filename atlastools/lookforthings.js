@@ -50,8 +50,8 @@ for (var island in islands) {
 			}
 	}
 	var count =
-		i.types['Stone'] + i.types['Thatch'] + i.types['Metal'] + i.types['Fiber'] + i.types['Wood'];
-	if (count > 15)
+		i.types['Stone'] + i.types['Thatch'] + i.types['Metal'] + i.types['Fiber'] + i.types['Wood'] + i.types['Crystal'] + i.types['Gem'];
+	if (count > 10)
 		console.log(
 			count,
 			i.name,
