@@ -1,0 +1,308 @@
+[
+	{
+		"AutoSpawnEveryUTCInterval": 21600,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 261641.125,
+				"rotation": 192.903,
+				"worldX": 3285569,
+				"worldY": 2730171.25
+			},
+			{
+				"controlPointsDistance": 511276.469,
+				"rotation": -179.7342,
+				"worldX": 1543921.25,
+				"worldY": 2114081.25
+			},
+			{
+				"controlPointsDistance": 204868.156,
+				"rotation": -105.245445,
+				"worldX": 874221.8,
+				"worldY": 1793020.13
+			},
+			{
+				"controlPointsDistance": 298035.5,
+				"rotation": -51.34862,
+				"worldX": 911321.4,
+				"worldY": 962220.1
+			},
+			{
+				"controlPointsDistance": 548641.563,
+				"rotation": 22.1418457,
+				"worldX": 2836721.25,
+				"worldY": 914008.938
+			},
+			{
+				"controlPointsDistance": 947441.938,
+				"rotation": -257.396179,
+				"worldX": 5113440.5,
+				"worldY": 1387768
+			},
+			{
+				"controlPointsDistance": 189231.2,
+				"rotation": -213.049911,
+				"worldX": 4907640,
+				"worldY": 2673273.25
+			}
+		],
+		"PathId": 1,
+		"PathName": "NW Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 14400,
+		"AutoSpawnShipClass": "Blueprint'/Game/Atlas/ShipPaths/PathFollowingGhostShip_BP.PathFollowingGhostShip_BP'",
+		"Nodes": [
+			{
+				"controlPointsDistance": 503377.75,
+				"rotation": 174.000641,
+				"worldX": 11460115,
+				"worldY": 11916361
+			},
+			{
+				"controlPointsDistance": 661108.438,
+				"rotation": -130.1745,
+				"worldX": 9266901,
+				"worldY": 11757958
+			},
+			{
+				"controlPointsDistance": 608136.063,
+				"rotation": -395.155823,
+				"worldX": 9431063,
+				"worldY": 10380428
+			},
+			{
+				"controlPointsDistance": 687869.3,
+				"rotation": 58.09294,
+				"worldX": 12025941,
+				"worldY": 11057621
+			}
+		],
+		"PathId": 5,
+		"PathName": "Ghost ShipPath",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 18000,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 382915.2,
+				"rotation": -92.84021,
+				"worldX": 4854994,
+				"worldY": 6538333.5
+			},
+			{
+				"controlPointsDistance": 591080,
+				"rotation": 248.1986,
+				"worldX": 4585032,
+				"worldY": 5697586
+			},
+			{
+				"controlPointsDistance": 1007014.56,
+				"rotation": 3.42837524,
+				"worldX": 4860127.5,
+				"worldY": 4249489
+			},
+			{
+				"controlPointsDistance": 655360.6,
+				"rotation": -18.829525,
+				"worldX": 6340203,
+				"worldY": 5090621
+			},
+			{
+				"controlPointsDistance": 759242.563,
+				"rotation": 415.130066,
+				"worldX": 8210682.5,
+				"worldY": 4539315.5
+			},
+			{
+				"controlPointsDistance": 336866.781,
+				"rotation": 121.6075,
+				"worldX": 7694353.5,
+				"worldY": 5787659
+			},
+			{
+				"controlPointsDistance": 384954.563,
+				"rotation": -317.3942,
+				"worldX": 8018970.5,
+				"worldY": 7215091
+			},
+			{
+				"controlPointsDistance": 307332.344,
+				"rotation": 108.188736,
+				"worldX": 8282031.5,
+				"worldY": 8160158
+			},
+			{
+				"controlPointsDistance": 632634.25,
+				"rotation": -187.228149,
+				"worldX": 5566043.5,
+				"worldY": 8343545.5
+			},
+			{
+				"controlPointsDistance": 354911.4,
+				"rotation": -116.643509,
+				"worldX": 4285878,
+				"worldY": 7855839
+			}
+		],
+		"PathId": 18,
+		"PathName": "Western Equatorial Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 18000,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 583275.2,
+				"rotation": 355.9348,
+				"worldX": 10255705,
+				"worldY": 3414005.25
+			},
+			{
+				"controlPointsDistance": 493164.25,
+				"rotation": -56.1428871,
+				"worldX": 11566498,
+				"worldY": 3377819.25
+			},
+			{
+				"controlPointsDistance": 683641,
+				"rotation": -88.67001,
+				"worldX": 12033748,
+				"worldY": 2513663
+			},
+			{
+				"controlPointsDistance": 853333.8,
+				"rotation": -100.526566,
+				"worldX": 12020241,
+				"worldY": 1442340.13
+			},
+			{
+				"controlPointsDistance": 373423.563,
+				"rotation": 183.148438,
+				"worldX": 9383535,
+				"worldY": 628825.9
+			},
+			{
+				"controlPointsDistance": 415681.8,
+				"rotation": -217.525391,
+				"worldX": 7637278.5,
+				"worldY": 620525.3
+			},
+			{
+				"controlPointsDistance": 357825.156,
+				"rotation": 71.43498,
+				"worldX": 7594217.5,
+				"worldY": 2211773
+			},
+			{
+				"controlPointsDistance": 457413.375,
+				"rotation": -11.536499,
+				"worldX": 7752214.5,
+				"worldY": 3365951.75
+			}
+		],
+		"PathId": 19,
+		"PathName": "Golden Age Ship Path",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 18000,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 462979.5,
+				"rotation": -226.209229,
+				"worldX": 623082.75,
+				"worldY": 11017905
+			},
+			{
+				"controlPointsDistance": 185416.422,
+				"rotation": -94.89909,
+				"worldX": 517885,
+				"worldY": 10270431
+			},
+			{
+				"controlPointsDistance": 771026.75,
+				"rotation": 2.061823,
+				"worldX": 1066758.38,
+				"worldY": 8900035
+			},
+			{
+				"controlPointsDistance": 384005.1,
+				"rotation": 25.1091938,
+				"worldX": 1911012.75,
+				"worldY": 9080780
+			},
+			{
+				"controlPointsDistance": 444908.156,
+				"rotation": 6.340191,
+				"worldX": 3369336.25,
+				"worldY": 9438096
+			},
+			{
+				"controlPointsDistance": 542311.75,
+				"rotation": 26.4624786,
+				"worldX": 4866590.5,
+				"worldY": 9172480
+			},
+			{
+				"controlPointsDistance": 625521.25,
+				"rotation": -193.014343,
+				"worldX": 4364935.5,
+				"worldY": 10611269
+			},
+			{
+				"controlPointsDistance": 381597.719,
+				"rotation": -141.22583,
+				"worldX": 1995089.38,
+				"worldY": 10755754
+			}
+		],
+		"PathId": 20,
+		"PathName": "Southwest Trade Route",
+		"autoSpawn": true,
+		"isLooping": false
+	},
+	{
+		"AutoSpawnEveryUTCInterval": 18000,
+		"AutoSpawnShipClass": "",
+		"Nodes": [
+			{
+				"controlPointsDistance": 168361.953,
+				"rotation": 239.707443,
+				"worldX": 6338415.5,
+				"worldY": 10200317
+			},
+			{
+				"controlPointsDistance": 479743,
+				"rotation": -5.02759171,
+				"worldX": 6462843.5,
+				"worldY": 9009049
+			},
+			{
+				"controlPointsDistance": 297154.1,
+				"rotation": -317.833435,
+				"worldX": 7583951.5,
+				"worldY": 9047900
+			},
+			{
+				"controlPointsDistance": 190849.734,
+				"rotation": 110.074287,
+				"worldX": 8043513,
+				"worldY": 10196420
+			}
+		],
+		"PathId": 21,
+		"PathName": "Small Center TradeRoute",
+		"autoSpawn": true,
+		"isLooping": false
+	}
+]
