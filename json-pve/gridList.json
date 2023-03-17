@@ -836,7 +836,7 @@
 			"Calcite",
 			"Chalcedony",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Cocoa",
 			"Coconut",
@@ -1073,7 +1073,7 @@
 				1
 			]
 		},
-		"forceServerRules": 1,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Mytroa",
 		"resources": [
@@ -1083,7 +1083,7 @@
 			"Bark",
 			"Basalt",
 			"Basil",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Fir",
@@ -1800,7 +1800,7 @@
 				1
 			]
 		},
-		"forceServerRules": 1,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Mytroa",
 		"resources": [
@@ -1921,7 +1921,7 @@
 			"Basalt",
 			"Cactus Seed",
 			"Cedar",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Cotton",
@@ -1935,6 +1935,7 @@
 			"Jute",
 			"Limestone",
 			"Maps",
+			"Marble",
 			"Nitre",
 			"Oak",
 			"Olives",
@@ -2244,9 +2245,6 @@
 			"Scorpion",
 			"Seagull",
 			"Sheep",
-			"ShipNPC Brig",
-			"ShipNPC Galleon",
-			"ShipNPC Schooner",
 			"Tiger",
 			"Turtle",
 			"Wolf"
@@ -2266,7 +2264,7 @@
 				1
 			]
 		},
-		"forceServerRules": 1,
+		"forceServerRules": 2,
 		"name": "",
 		"region": "Mytroa",
 		"resources": [
@@ -2663,6 +2661,7 @@
 			"Horse",
 			"Lion",
 			"Monkey",
+			"Parrot",
 			"Pig",
 			"Rabbit",
 			"Rattlesnake",
@@ -2675,10 +2674,10 @@
 		],
 		"biomes": [
 			"Eastern Temperate",
+			"Western Temperate",
 			"At Land",
 			"Ocean Water",
-			"Eastern Temperate Mountain Peak",
-			"Western Temperate"
+			"Eastern Temperate Mountain Peak"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -2688,11 +2687,12 @@
 				1
 			]
 		},
-		"forceServerRules": 1,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "Mytroa",
 		"resources": [
 			"Acerola",
+			"Agate",
 			"Anthracite",
 			"Ash",
 			"Bamboo",
@@ -2702,6 +2702,8 @@
 			"Calcite",
 			"Carrot Seed",
 			"Chamomile",
+			"Copper",
+			"Coquina",
 			"Elderberry",
 			"Emerald",
 			"Fir",
@@ -2735,7 +2737,6 @@
 			"Straw",
 			"Strawberry",
 			"Syrup",
-			"Tin",
 			"Twigs",
 			"Wild Carrot",
 			"Wild Onion",
@@ -2751,7 +2752,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		},
 		"sunktreasure": {
@@ -3001,40 +3002,33 @@
 			-1
 		],
 		"animals": [
-			"Ant",
 			"Bear",
-			"CaveBat",
+			"Catfish",
 			"Chicken",
 			"Cobra",
 			"Cow",
 			"Crocodile",
-			"Crow",
 			"Elephant",
 			"Giraffe",
 			"Horse",
 			"Lion",
 			"Monkey",
-			"Ostrich",
 			"Parrot",
 			"Pig",
 			"Rabbit",
 			"Rattlesnake",
-			"Scorpion",
 			"Seagull",
 			"Sheep",
-			"Spider",
 			"Tiger",
 			"Turtle",
-			"Vulture",
 			"Wolf"
 		],
 		"biomes": [
 			"Eastern Tropical",
 			"Western Tropics",
-			"Equator",
+			"Eastern Tropics",
 			"At Land",
-			"Ocean Water",
-			"Eastern Tropics"
+			"Ocean Water"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -3044,7 +3038,7 @@
 				1
 			]
 		},
-		"forceServerRules": 1,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "Mytroa",
 		"resources": [
@@ -3056,43 +3050,36 @@
 			"Bean Seed",
 			"Calcite",
 			"Cedar",
-			"Chalcedony",
-			"Chert",
 			"Cilantro",
 			"Cobalt",
-			"Cocoa",
 			"Coconut",
-			"Copper",
 			"Coquina",
+			"Crude Oil",
 			"Elderberry",
 			"Fir",
 			"FreshWater",
 			"Fronds",
 			"Geode",
-			"Graphite",
-			"Gum",
+			"Granite",
 			"Hemp",
 			"Honey",
-			"Iodine",
 			"Iron",
 			"Jute",
 			"Lime",
 			"Limestone",
 			"Maps",
+			"Nitre",
 			"Oak",
+			"Peat",
 			"Quartz",
 			"Radiolarite",
 			"Resin",
 			"Rice Seed",
+			"Sandstone",
 			"Sea Grapes",
-			"Sea Salt",
-			"Silver",
 			"Slate",
 			"Straw",
 			"Sugars",
-			"Sulfur",
-			"Thyme",
-			"Turmeric",
 			"Twigs",
 			"Wild Beans",
 			"Wild Rice"
@@ -3107,7 +3094,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		},
 		"sunktreasure": {
@@ -3188,7 +3175,7 @@
 			"Basil",
 			"Calcite",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Copper",
@@ -3263,6 +3250,8 @@
 		],
 		"animals": [
 			"Ant",
+			"Bear",
+			"Bee",
 			"Catfish",
 			"CaveBat",
 			"Chicken",
@@ -3271,14 +3260,15 @@
 			"Crocodile",
 			"Crow",
 			"Elephant",
-			"Grand Tortugar",
 			"Horse",
 			"Monkey",
 			"Parrot",
 			"Pig",
+			"Rabbit",
 			"Rattlesnake",
 			"Scorpion",
 			"Seagull",
+			"Sheep",
 			"Spider",
 			"Tiger",
 			"Turtle",
@@ -3288,6 +3278,7 @@
 		"biomes": [
 			"Equatorial",
 			"Equator",
+			"Eastern Temperate",
 			"At Land",
 			"Ocean Water"
 		],
@@ -3299,47 +3290,71 @@
 				1
 			]
 		},
-		"forceServerRules": 1,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "Mytroa",
 		"resources": [
+			"Acai",
 			"Acerola",
-			"Aloe",
+			"Ash",
+			"Bamboo",
 			"Bark",
 			"Basalt",
 			"Basil",
+			"Blackberry",
 			"Calcite",
+			"Carrot Seed",
 			"Chert",
-			"Chick Pea Seed",
-			"Cobalt",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Copper",
 			"Coquina",
+			"Elderberry",
 			"Fir",
 			"FreshWater",
 			"Fronds",
 			"Geode",
 			"Gum",
+			"Hemp",
+			"Honey",
 			"Iodine",
 			"Iron",
 			"Jute",
-			"Lime",
+			"Licorice",
 			"Limestone",
 			"Maps",
+			"Mint",
 			"Oak",
 			"Olives",
+			"Onion Seed",
+			"Opal",
+			"Oregano",
+			"Peat",
+			"Pepper Seed",
+			"Pine",
+			"Poplar",
+			"Quartz",
+			"Reeds",
 			"Resin",
+			"Roots",
 			"Rosemary",
+			"Sandstone",
+			"Schisandra",
 			"Sea Grapes",
 			"Sea Salt",
+			"Silk",
 			"Slate",
 			"Straw",
 			"Sugarcane",
 			"Sulfur",
+			"Syrup",
 			"Thyme",
 			"Twigs",
-			"Wild Chick Peas"
+			"Wild Carrot",
+			"Wild Chick Peas",
+			"Wild Onion",
+			"Wild Pepper"
 		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
@@ -3351,7 +3366,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		},
 		"sunktreasure": {
@@ -3986,8 +4001,7 @@
 			"Low Desert",
 			"Central Low Desert",
 			"At Land",
-			"Ocean Water",
-			"Central High Desert"
+			"Ocean Water"
 		],
 		"flotsam": {
 			"qualityMultiplier": 1,
@@ -3997,22 +4011,20 @@
 				1
 			]
 		},
-		"forceServerRules": 1,
+		"forceServerRules": 3,
 		"name": "",
 		"region": "Mytroa",
 		"resources": [
 			"Acerola",
 			"Bark",
 			"Basalt",
-			"Beet Seed",
-			"Bilberry",
-			"Cactus",
 			"Cactus Seed",
 			"Cedar",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
+			"Coquina",
 			"Cotton",
 			"Elderberry",
 			"Fir",
@@ -4022,38 +4034,31 @@
 			"Geode",
 			"Herkimer",
 			"Honey",
-			"Iodine",
 			"Iron",
 			"Jute",
-			"Lignite",
 			"Limestone",
-			"Maize Seed",
 			"Maps",
 			"Marble",
 			"Nitre",
 			"Oak",
 			"Olives",
 			"Oregano",
-			"Parsley",
 			"Pine",
 			"Poplar",
 			"Poppy",
 			"Reeds",
 			"Resin",
-			"Roots",
-			"Rushes",
+			"Rice Seed",
+			"Rock Salt",
 			"Schisandra",
 			"Slate",
 			"Straw",
 			"Strawberry",
 			"Sugars",
-			"Tin",
 			"Twigs",
-			"Wild Beet",
 			"Wild Cactus",
 			"Wild Chick Peas",
-			"Wild Maize",
-			"Yarrow"
+			"Wild Rice"
 		],
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
@@ -4065,7 +4070,7 @@
 			"spawnLimits": [
 				37,
 				5000,
-				140
+				1800
 			]
 		},
 		"sunktreasure": {

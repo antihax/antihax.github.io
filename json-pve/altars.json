@@ -40,9 +40,9 @@
 		"name": "Lava Vent"
 	},
 	{
-		"lat": -60.52805709838867,
-		"long": -26.971208572387695,
-		"name": "Sulfur Pit"
+		"lat": -57.51726150512695,
+		"long": -26.776927947998047,
+		"name": "Altar of the Damned"
 	},
 	{
 		"lat": 94.90409851074219,
@@ -60,18 +60,18 @@
 		"name": "Sulfur Pit"
 	},
 	{
-		"lat": 29.5540771484375,
-		"long": 41.3082275390625,
-		"name": "Sulfur Pit"
-	},
-	{
 		"lat": -4.905678749084473,
 		"long": 38.52458190917969,
 		"name": "Sulfur Pit"
 	},
 	{
-		"lat": -59.29352569580078,
-		"long": 60.25580596923828,
+		"lat": -60.94147491455078,
+		"long": 63.881309509277344,
+		"name": "Altar of the Damned"
+	},
+	{
+		"lat": -36.05167770385742,
+		"long": 43.53062057495117,
 		"name": "Altar of the Damned"
 	},
 	{
@@ -85,8 +85,8 @@
 		"name": "Altar of the Damned"
 	},
 	{
-		"lat": -54.18019104003906,
-		"long": 93.23493957519531,
-		"name": "Altar of the Damned"
+		"lat": -37.79669189453125,
+		"long": 76.78775024414062,
+		"name": "Sulfur Pit"
 	}
 ]

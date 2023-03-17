@@ -9,7 +9,7 @@ let islands = JSON.parse(rawdata);
 rawdata = fs.readFileSync('./json/resourceTypes.json');
 let types = JSON.parse(rawdata);
 
-var home = islands[1641];
+var home = islands[1076];
 
 for (var h in islands) {
 	var home = islands[h];
@@ -23,8 +23,8 @@ for (var h in islands) {
 
 		for (var type in types) {
 			if (hasType(i.resources, type)) {
-				if (types[type] == 'Metal' || types[type] == 'Stone') {
-					// if (types[type] != "Berry" && types[type] != "Vegetable" && types[type] != "BAD" && types[type] != "Base" && types[type] != "Herb" && types[type] != "Coal" && types[type] != "Ignore" && types[type] != "Coral") {
+				//if (types[type] == 'Metal' || types[type] == 'Stone') {
+					 if (types[type] != "Berry" && types[type] != "Vegetable" && types[type] != "BAD" && types[type] != "Base" && types[type] != "Herb" && types[type] != "Coal" && types[type] != "Salt" && types[type] != "Sugar" && types[type] != "Gem" && types[type] != "Crystal" && types[type] != "Flint" && types[type] != "Seed" && types[type] != "Ignore" && types[type] != "Coral") {
 					if (!home.types[type] || home.types[type].distance > dist) {
 						home.types[type] = {
 							distance: dist,

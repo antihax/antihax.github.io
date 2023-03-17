@@ -1650,7 +1650,7 @@
                     "Crude Oil",
                     "Fish Oil",
                     "Mineral Oil",
-                    "Naptha",
+                    "Naphtha",
                     "Shale Oil",
                     "Flake Salt",
                     "Iodine",
@@ -2117,12 +2117,12 @@
                 "ChanceForItem": 1.0,
                 "ForceBlueprint": 0,
                 "Items": [
-                    "Accordian: A Mockatoo Once Told Me",
-                    "Accordian: A Mockatoo Once Told Me",
-                    "Accordian: A Mockatoo Once Told Me",
-                    "Accordian: Of Sea and Sails",
-                    "Accordian: Of Sea and Sails",
-                    "Accordian: Of Sea and Sails",
+                    "Accordion: A Mockatoo Once Told Me",
+                    "Accordion: A Mockatoo Once Told Me",
+                    "Accordion: A Mockatoo Once Told Me",
+                    "Accordion: Of Sea and Sails",
+                    "Accordion: Of Sea and Sails",
+                    "Accordion: Of Sea and Sails",
                     "Accordion: She Heard the Siren's Call",
                     "Accordion: She Heard the Siren's Call",
                     "Accordion: She Heard the Siren's Call",
@@ -2151,12 +2151,12 @@
                 "ChanceForItem": 1.0,
                 "ForceBlueprint": 0,
                 "Items": [
-                    "Accordian: A Mockatoo Once Told Me",
-                    "Accordian: A Mockatoo Once Told Me",
-                    "Accordian: A Mockatoo Once Told Me",
-                    "Accordian: Of Sea and Sails",
-                    "Accordian: Of Sea and Sails",
-                    "Accordian: Of Sea and Sails",
+                    "Accordion: A Mockatoo Once Told Me",
+                    "Accordion: A Mockatoo Once Told Me",
+                    "Accordion: A Mockatoo Once Told Me",
+                    "Accordion: Of Sea and Sails",
+                    "Accordion: Of Sea and Sails",
+                    "Accordion: Of Sea and Sails",
                     "Accordion: She Heard the Siren's Call",
                     "Accordion: She Heard the Siren's Call",
                     "Accordion: She Heard the Siren's Call",
@@ -2177,6 +2177,23 @@
                 "QualityPower": 1.0,
                 "QuantityPower": 1.0,
                 "Weight": 1.0
+            }
+        ],
+        "LootItemSet_Mythos_Shipwreck_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 150.0,
+                "MinQuality": 1.0,
+                "MinQuantity": 15.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.659999966621399,
+                "Weight": 0.5
             }
         ],
         "LootItemSet_OffensiveStructures_Brigantine_C": [

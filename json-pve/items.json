@@ -68,16 +68,6 @@
             }
         }
     },
-    "Accordian: A Mockatoo Once Told Me": {
-        "ClassName": "Ammo_Song_A_Normal_C",
-        "Icon": "HUD_MusicSheet_Colorize_d",
-        "Name": "Accordian: A Mockatoo Once Told Me"
-    },
-    "Accordian: Of Sea and Sails": {
-        "ClassName": "Ammo_Song_B_Normal_C",
-        "Icon": "HUD_MusicSheet_Colorize_d",
-        "Name": "Accordian: Of Sea and Sails"
-    },
     "Accordion": {
         "ClassName": "Weapon_Music_Accordion_C",
         "Icon": "Item_Accordion_Icon",
@@ -88,6 +78,16 @@
             "Wood": 16.0
         },
         "Name": "Accordion"
+    },
+    "Accordion: A Mockatoo Once Told Me": {
+        "ClassName": "Ammo_Song_A_Normal_C",
+        "Icon": "HUD_MusicSheet_Colorize_d",
+        "Name": "Accordion: A Mockatoo Once Told Me"
+    },
+    "Accordion: Of Sea and Sails": {
+        "ClassName": "Ammo_Song_B_Normal_C",
+        "Icon": "HUD_MusicSheet_Colorize_d",
+        "Name": "Accordion: Of Sea and Sails"
     },
     "Accordion: She Heard the Siren's Call": {
         "ClassName": "Ammo_Song_C_Normal_C",
@@ -650,7 +650,7 @@
     },
     "Bark": {
         "ClassName": "Resource_Thatch_Bark_C",
-        "Icon": "Rushes_Icon",
+        "Icon": "Item_ThatchBark_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
             "Thatch": 50.0
@@ -670,6 +670,16 @@
             "Wood": 120.0
         },
         "Name": "Barn"
+    },
+    "Barracks": {
+        "ClassName": "Structure_Barracks_C",
+        "Icon": "House_Icon",
+        "Ingredients": {
+            "Fibers": 60.0,
+            "Thatch": 36.0,
+            "Wood": 60.0
+        },
+        "Name": "Barracks"
     },
     "Basalt": {
         "ClassName": "Resource_Flint_Basalt_C",
@@ -757,11 +767,11 @@
         "ClassName": "Consumable_BeefBuns_C",
         "Icon": "Item_JackBuns_Icon",
         "Ingredients": {
-            "Chili": 5.0,
+            "Chili": 2.0,
             "Cooked Meat": 3.0,
             "Cooking Herbs": 3.0,
             "Salt": 1.0,
-            "Wheat or Maize": 10.0
+            "Wheat or Maize": 8.0
         },
         "Name": "Beef Buns",
         "SpoilTime": 36000.0,
@@ -779,9 +789,9 @@
                 "addOverTimeSpeed": 3.0436202645135027e-42
             },
             "VitaminA": {
-                "add": 50.0,
+                "add": 20.0,
                 "addOverTime": true,
-                "addOverTimeSpeed": 360.0
+                "addOverTimeSpeed": 10.0
             }
         }
     },
@@ -862,7 +872,7 @@
                 "addOverTimeSpeed": 3.923635700109488e-44
             },
             "VitaminA": {
-                "add": 2.0,
+                "add": 10.0,
                 "addOverTime": true,
                 "addOverTimeSpeed": 6.0
             }
@@ -1167,7 +1177,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -1198,8 +1208,8 @@
         "Ingredients": {
             "Cooked Meat": 3.0,
             "Cooking Herbs": 3.0,
-            "Vegetable": 3.0,
-            "Wheat or Maize": 10.0
+            "Vegetable": 2.0,
+            "Wheat or Maize": 8.0
         },
         "Name": "Bubble N' Squeak",
         "SpoilTime": 36000.0,
@@ -1217,9 +1227,9 @@
                 "addOverTimeSpeed": 3.0436202645135027e-42
             },
             "VitaminA": {
-                "add": 65.0,
+                "add": 20.0,
                 "addOverTime": true,
-                "addOverTimeSpeed": 300.0
+                "addOverTimeSpeed": 10.0
             }
         }
     },
@@ -1241,6 +1251,11 @@
             "Gold Coin": 200.0
         },
         "Name": "Bunny Ears"
+    },
+    "Bunny Egg": {
+        "ClassName": "Structure_EasterEgg_C",
+        "Icon": "EasterEgg_Icon",
+        "Name": "Bunny Egg"
     },
     "Buoy": {
         "ClassName": "Structure_Buoy_C",
@@ -1619,7 +1634,7 @@
             "Celery": 3.0,
             "Cooked Fish": 3.0,
             "Salt": 1.0,
-            "Water": 2.0
+            "Water": 1.0
         },
         "Name": "Celery Soup",
         "SpoilTime": 36000.0,
@@ -1637,9 +1652,9 @@
                 "addOverTimeSpeed": 3.0436202645135027e-42
             },
             "VitaminB": {
-                "add": 10.0,
+                "add": 20.0,
                 "addOverTime": true,
-                "addOverTimeSpeed": 300.0
+                "addOverTimeSpeed": 10.0
             }
         }
     },
@@ -1707,17 +1722,12 @@
     },
     "Chert": {
         "ClassName": "Resource_Flint_Chert_C",
-        "Icon": "Item_Flint_Icon",
+        "Icon": "Item_Chert_Icon",
         "Ingredients": {
             "Flint": 40.0,
             "Gold Coin": 50.0
         },
         "Name": "Chert"
-    },
-    "Chick Pea Seed": {
-        "ClassName": "Consumable_Vegetable_ChickPeas_Seed_C",
-        "Icon": "Chickpeas_Seed_Icon",
-        "Name": "Chick Pea Seed"
     },
     "Chick Peas": {
         "ClassName": "Consumable_Vegetable_ChickPeas_C",
@@ -1750,7 +1760,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -1758,6 +1768,11 @@
                 "addOverTimeSpeed": 4.0
             }
         }
+    },
+    "Chickpea Seed": {
+        "ClassName": "Consumable_Vegetable_ChickPeas_Seed_C",
+        "Icon": "Chickpeas_Seed_Icon",
+        "Name": "Chickpea Seed"
     },
     "Chili": {
         "ClassName": "Consumable_Vegetable_Chilli_C",
@@ -1841,6 +1856,26 @@
                 "addOverTimeSpeed": 8.407790785948902e-44
             }
         }
+    },
+    "City Bar": {
+        "ClassName": "Structure_City_Bar_C",
+        "Icon": "House_Icon",
+        "Ingredients": {
+            "Fibers": 60.0,
+            "Thatch": 36.0,
+            "Wood": 60.0
+        },
+        "Name": "City Bar"
+    },
+    "City Restaurant": {
+        "ClassName": "Structure_City_Restaurant_C",
+        "Icon": "House_Icon",
+        "Ingredients": {
+            "Fibers": 60.0,
+            "Thatch": 36.0,
+            "Wood": 60.0
+        },
+        "Name": "City Restaurant"
     },
     "Claim Test Wooden Billboard": {
         "ClassName": "Structure_ClaimTestWoodSign_Large_C",
@@ -2028,8 +2063,8 @@
         "Name": "Cloth Shirt"
     },
     "Coal": {
-        "ClassName": "Resource_Coal_BASE_C",
-        "Icon": "Item_Coal_Icon",
+        "ClassName": "Resource_Coal_C",
+        "Icon": "Coal_Icon",
         "Name": "Coal"
     },
     "Cobalt": {
@@ -2088,6 +2123,31 @@
                 "add": 0.0,
                 "addOverTime": false,
                 "addOverTimeSpeed": 1.7376100957627732e-43
+            }
+        }
+    },
+    "Cod": {
+        "ClassName": "Consumable_Meat_Fish_Cod_C",
+        "Icon": "FishHead_Icon",
+        "Name": "Cod",
+        "SpoilTime": 600.0,
+        "Type": "Meat",
+        "Weight": 0.07000000029802322,
+        "stats": {
+            "Food": {
+                "add": 10.0,
+                "addOverTime": true,
+                "addOverTimeSpeed": 5.0
+            },
+            "Health": {
+                "add": 0.0,
+                "addOverTime": false,
+                "addOverTimeSpeed": 0.0
+            },
+            "Oxygen": {
+                "add": 0.0,
+                "addOverTime": false,
+                "addOverTimeSpeed": 3.923635700109488e-44
             }
         }
     },
@@ -2386,7 +2446,7 @@
         "ClassName": "Consumable_CremeBrulee_C",
         "Icon": "Item_Cremebrulee_Icon",
         "Ingredients": {
-            "Egg": 5.0,
+            "Egg": 3.0,
             "Elderberry": 3.0,
             "Milk": 1.0,
             "Salt": 1.0,
@@ -2413,6 +2473,14 @@
                 "addOverTimeSpeed": 3.0436202645135027e-42
             }
         }
+    },
+    "Crew Member": {
+        "ClassName": "Primaltem_RecruitCityCrew_C",
+        "Icon": "NPC_Recruit_Icon",
+        "Ingredients": {
+            "Gold Coin": 10000.0
+        },
+        "Name": "Crew Member"
     },
     "Crew Resources Silo": {
         "ClassName": "Structure_CrewResourcesSilo_C",
@@ -2474,7 +2542,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -2485,7 +2553,7 @@
     },
     "Crude Oil": {
         "ClassName": "Resource_Oil_Crude_C",
-        "Icon": "Item_Oil_Icon",
+        "Icon": "CrudeOil_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
             "Oil": 30.0
@@ -2585,7 +2653,7 @@
             "VitaminB": {
                 "add": 2.0,
                 "addOverTime": true,
-                "addOverTimeSpeed": 100.0
+                "addOverTimeSpeed": 10.0
             }
         }
     },
@@ -2691,7 +2759,7 @@
             "Mint": 5.0,
             "Saps": 5.0,
             "Water": 1.0,
-            "Wheat or Maize": 5.0
+            "Wheat or Maize": 2.0
         },
         "Name": "Dark Draught",
         "SpoilTime": 0.0,
@@ -2960,15 +3028,15 @@
         "ClassName": "Consumable_DragonsTongue_C",
         "Icon": "Item_DragonsTongueDelight_Icon",
         "Ingredients": {
-            "Beet": 5.0,
+            "Beet": 3.0,
             "Berry": 10.0,
-            "Chili": 5.0,
+            "Chili": 3.0,
             "Cooking Herbs": 20.0,
             "Lime": 5.0,
             "Marrow": 1.0,
             "Saps": 10.0,
             "Water": 1.0,
-            "Wheat or Maize": 20.0
+            "Wheat or Maize": 10.0
         },
         "Name": "Dragon's Tongue Delight",
         "SpoilTime": 0.0,
@@ -3071,6 +3139,14 @@
             }
         }
     },
+    "Easter Egg Cannon Skin": {
+        "ClassName": "CannonSkin_EasterEgg_C",
+        "Icon": "Item_Cannonskin_EasterEgg_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Easter Egg Cannon Skin"
+    },
     "Edible Greens": {
         "ClassName": "Consumable_Vegetable_EdibleGreens_C",
         "Icon": "EdibleGreens_Icon",
@@ -3107,7 +3183,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3346,7 +3422,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3366,7 +3442,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3386,7 +3462,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3486,7 +3562,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3526,7 +3602,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3566,7 +3642,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3606,7 +3682,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3646,7 +3722,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3686,7 +3762,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3706,7 +3782,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3726,7 +3802,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3806,7 +3882,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -3861,7 +3937,7 @@
     },
     "Fibers": {
         "ClassName": "Resource_Fibers_BASE_C",
-        "Icon": "Cotton_Icon",
+        "Icon": "Item_Fiber_Icon",
         "Name": "Fibers"
     },
     "Figure Head": {
@@ -3916,8 +3992,8 @@
             "Cooked Fish": 5.0,
             "Pepper": 1.0,
             "Salt": 5.0,
-            "Vegetable": 5.0,
-            "Wheat or Maize": 10.0
+            "Vegetable": 3.0,
+            "Wheat or Maize": 5.0
         },
         "Name": "Fish 'n Chips",
         "SpoilTime": 36000.0,
@@ -4570,6 +4646,14 @@
         },
         "Name": "Gold Coloring"
     },
+    "Gold Dragon Cannon Skin": {
+        "ClassName": "CannonSkin_GoldDragon_C",
+        "Icon": "Item_CannonSkin_GoldDragon_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Gold Dragon Cannon Skin"
+    },
     "Gold Figure Head": {
         "ClassName": "StructureBP_FigureHead_Gold_C",
         "Icon": "Item_FigureHeadMetalGold_Icon",
@@ -4577,6 +4661,14 @@
             "Gold Coin": 800.0
         },
         "Name": "Gold Figure Head"
+    },
+    "Gold Rabbit Statue": {
+        "ClassName": "Structure_GoldRabbitStatue_C",
+        "Icon": "Item_GoldRabbitStatue_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0
+        },
+        "Name": "Gold Rabbit Statue"
     },
     "Gold Stuffed Bear": {
         "ClassName": "Structure_GoldStuffedBear_C",
@@ -4633,7 +4725,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -4745,6 +4837,29 @@
             "Wood": 5000.0
         },
         "Name": "Great Temple"
+    },
+    "Green Ale": {
+        "ClassName": "Consumable_GreenAle_C",
+        "Icon": "ICON_GreenAle",
+        "Ingredients": {
+            "Gold Coin": 10.0
+        },
+        "Name": "Green Ale",
+        "SpoilTime": 0.0,
+        "Type": "Alcohol Based",
+        "Weight": 0.07000000029802322,
+        "stats": {
+            "Stamina": {
+                "add": 0.0,
+                "addOverTime": false,
+                "addOverTimeSpeed": 3.923635700109488e-44
+            },
+            "VitaminB": {
+                "add": 2.0,
+                "addOverTime": true,
+                "addOverTimeSpeed": 6.0
+            }
+        }
     },
     "Green Algae": {
         "ClassName": "Consumable_Herb_GreenAlgae_C",
@@ -4954,6 +5069,14 @@
         "ClassName": "Resource_Heart_C",
         "Icon": "ICON_Heart",
         "Name": "Heart"
+    },
+    "Heart Cannon Skin": {
+        "ClassName": "CannonSkin_Heart_C",
+        "Icon": "Item_CannonSkin_Heart_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Heart Cannon Skin"
     },
     "Heavy Atlantean Chestplate Skin": {
         "ClassName": "Skin_HeavyAtlantean_Shirt_C",
@@ -5904,7 +6027,7 @@
         "ClassName": "Resource_Wood_Ironwood_C",
         "Icon": "Ironwood_Icon",
         "Ingredients": {
-            "Gold Coin": 150.0,
+            "Gold Coin": 50.0,
             "Ironwood Bundle": 1.0,
             "Wood": 50.0
         },
@@ -5941,6 +6064,14 @@
             "Gold Coin": 200.0
         },
         "Name": "Jack O' Lantern Helmet"
+    },
+    "Jade Rabbit Statue": {
+        "ClassName": "Structure_JadeRabbitStatue_C",
+        "Icon": "Item_JadeRabbitStatue_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0
+        },
+        "Name": "Jade Rabbit Statue"
     },
     "Jade Tiger Statue": {
         "ClassName": "Structure_JadeTigerStatue_C",
@@ -7672,7 +7803,7 @@
     },
     "Mineral Oil": {
         "ClassName": "Resource_Oil_MineralOil_C",
-        "Icon": "CrudeOil_Icon",
+        "Icon": "Mineral_Oil_Icon",
         "Ingredients": {
             "Gold Coin": 150.0,
             "Oil": 30.0
@@ -7714,10 +7845,10 @@
         "Icon": "Item_MonarchCake_Icon",
         "Ingredients": {
             "Cooking Herbs": 1.0,
-            "Egg": 2.0,
-            "Potato": 3.0,
+            "Egg": 1.0,
+            "Potato": 2.0,
             "Saps": 3.0,
-            "Wheat or Maize": 15.0
+            "Wheat or Maize": 10.0
         },
         "Name": "Monarch's Cake",
         "SpoilTime": 36000.0,
@@ -7826,6 +7957,26 @@
         "Icon": "Item_MagicMarrow_Icon",
         "Name": "Mythos"
     },
+    "NPC Home": {
+        "ClassName": "Structure_City_NPCHome_C",
+        "Icon": "House_Icon",
+        "Ingredients": {
+            "Fibers": 60.0,
+            "Thatch": 36.0,
+            "Wood": 60.0
+        },
+        "Name": "NPC Home"
+    },
+    "NPC Shelter": {
+        "ClassName": "Structure_City_NPCShelter_C",
+        "Icon": "House_Icon",
+        "Ingredients": {
+            "Fibers": 60.0,
+            "Thatch": 36.0,
+            "Wood": 60.0
+        },
+        "Name": "NPC Shelter"
+    },
     "Napa Brown Coloring": {
         "ClassName": "Dye_NapaBrown_C",
         "Ingredients": {
@@ -7834,14 +7985,14 @@
         },
         "Name": "Napa Brown Coloring"
     },
-    "Naptha": {
+    "Naphtha": {
         "ClassName": "Resource_Oil_Naptha_C",
         "Icon": "Naptha_Icon",
         "Ingredients": {
             "Gold Coin": 50.0,
             "Oil": 30.0
         },
-        "Name": "Naptha"
+        "Name": "Naphtha"
     },
     "Narcoberry": {
         "ClassName": "Consumable_Berry_Narcoberry_C",
@@ -7967,8 +8118,8 @@
             "Medicinal Herb": 5.0,
             "Rodent": 1.0,
             "Salt": 1.0,
-            "Vegetable": 10.0,
-            "Water": 2.0
+            "Vegetable": 8.0,
+            "Water": 1.0
         },
         "Name": "Obara Stew",
         "SpoilTime": 36000.0,
@@ -7988,7 +8139,7 @@
             "VitaminA": {
                 "add": 10.0,
                 "addOverTime": true,
-                "addOverTimeSpeed": 300.0
+                "addOverTimeSpeed": 10.0
             }
         }
     },
@@ -8262,7 +8413,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -8374,7 +8525,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -8412,6 +8563,14 @@
             "Wood": 100.0
         },
         "Name": "Patch Kit"
+    },
+    "Pathfinder Respec": {
+        "ClassName": "ShopRespec_C",
+        "Icon": "Item_Respec_Icon",
+        "Ingredients": {
+            "Gold Coin": 250.0
+        },
+        "Name": "Pathfinder Respec"
     },
     "Pearl": {
         "ClassName": "Resource_Crystal_Pearl_C",
@@ -8511,7 +8670,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -8751,9 +8910,9 @@
         "Ingredients": {
             "Cooked Meat": 5.0,
             "Cooking Herbs": 3.0,
-            "Potato": 3.0,
+            "Potato": 2.0,
             "Salt": 1.0,
-            "Wheat or Maize": 10.0
+            "Wheat or Maize": 8.0
         },
         "Name": "Pork Pie",
         "SpoilTime": 36000.0,
@@ -8802,6 +8961,14 @@
             "Gold Coin": 50.0
         },
         "Name": "Pot of Gold"
+    },
+    "Pot of Gold Cannon Skin": {
+        "ClassName": "CannonSkin_PotOfGold_C",
+        "Icon": "Item_Cannonskin_PotOfGold_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Pot of Gold Cannon Skin"
     },
     "Potato": {
         "ClassName": "Consumable_Vegetable_Potato_C",
@@ -8963,9 +9130,9 @@
         "ClassName": "Consumable_Pudding_C",
         "Icon": "Item_Pudding_Icon",
         "Ingredients": {
-            "Egg": 3.0,
+            "Egg": 2.0,
             "Milk": 1.0,
-            "Rice": 3.0,
+            "Rice": 2.0,
             "Salt": 1.0,
             "Saps": 5.0,
             "Sea Grapes": 10.0
@@ -9066,6 +9233,14 @@
             }
         }
     },
+    "Rabbit Egg": {
+        "ClassName": "Resource_EggEaster_C",
+        "Icon": "EasterEgg_Icon",
+        "Ingredients": {
+            "Gold Coin": 100.0
+        },
+        "Name": "Rabbit Egg"
+    },
     "Radiolarite": {
         "ClassName": "Resource_Flint_Radiolarite_C",
         "Icon": "Radiolarite_Icon",
@@ -9151,7 +9326,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -9171,7 +9346,7 @@
             "Salt": 3.0,
             "Sea Grapes": 5.0,
             "Syrup": 3.0,
-            "Vegetable": 20.0,
+            "Vegetable": 15.0,
             "Water": 1.0
         },
         "Name": "Reaper's Regard",
@@ -9457,7 +9632,7 @@
         "ClassName": "Consumable_RosemaryChicken_C",
         "Icon": "Item_RosemaryChicken_Icon",
         "Ingredients": {
-            "Carrot": 3.0,
+            "Carrot": 2.0,
             "Cooked Meat": 3.0,
             "Cooking Herbs": 3.0,
             "Salt": 1.0
@@ -9496,6 +9671,11 @@
                 "add": 10.0,
                 "addOverTime": true,
                 "addOverTimeSpeed": 5.0
+            },
+            "Health": {
+                "add": 0.0,
+                "addOverTime": false,
+                "addOverTimeSpeed": 0.0
             },
             "Oxygen": {
                 "add": 0.0,
@@ -9881,7 +10061,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -9989,7 +10169,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -10187,7 +10367,7 @@
             "Rosemary": 10.0,
             "Salt": 1.0,
             "Saps": 3.0,
-            "Vegetable": 10.0
+            "Vegetable": 8.0
         },
         "Name": "Shrunken Head Stew",
         "SpoilTime": 36000.0,
@@ -10616,10 +10796,10 @@
         "Icon": "Item_SongOfTheSea_Icon",
         "Ingredients": {
             "Acai": 10.0,
-            "Beans": 10.0,
+            "Beans": 5.0,
             "Cooked Prime Fish Meat": 10.0,
             "Iodine": 5.0,
-            "Onion": 10.0,
+            "Onion": 5.0,
             "Poppy": 5.0,
             "Potato": 5.0
         },
@@ -10697,11 +10877,11 @@
         "ClassName": "Consumable_SpicedRum_C",
         "Icon": "Item_SpicyRum_Icon",
         "Ingredients": {
-            "Chili": 3.0,
+            "Chili": 2.0,
             "Cooking Herbs": 10.0,
             "Saps": 5.0,
             "Water": 1.0,
-            "Wheat": 10.0
+            "Wheat": 8.0
         },
         "Name": "Spiced Rum",
         "SpoilTime": 0.0,
@@ -10730,10 +10910,10 @@
         "Icon": "Item_SpicyRoll_Icon",
         "Ingredients": {
             "Cooked Meat": 5.0,
-            "Rice": 10.0,
+            "Rice": 8.0,
             "Salt": 1.0,
             "Turmeric": 3.0,
-            "Vegetable": 20.0
+            "Vegetable": 15.0
         },
         "Name": "Spicy Roll",
         "SpoilTime": 36000.0,
@@ -11028,6 +11208,14 @@
         },
         "Name": "Stone Pillar"
     },
+    "Stone Rabbit Statue": {
+        "ClassName": "Structure_StoneRabbitStatue_C",
+        "Icon": "Item_StoneRabbitStatue_Icon",
+        "Ingredients": {
+            "Gold Coin": 50.0
+        },
+        "Name": "Stone Rabbit Statue"
+    },
     "Stone Roof": {
         "ClassName": "Structure_Roof_Stone_C",
         "Icon": "Item_StoneRoof_Icon",
@@ -11150,9 +11338,9 @@
         "Ingredients": {
             "Cooked Fish": 5.0,
             "Cooking Herbs": 5.0,
-            "Pepper": 5.0,
+            "Pepper": 3.0,
             "Salt": 1.0,
-            "Wheat or Maize": 15.0
+            "Wheat or Maize": 12.0
         },
         "Name": "Stuffed & Baked Fish",
         "SpoilTime": 36000.0,
@@ -11494,13 +11682,13 @@
         "Icon": "Item_TaraNostriTreat_Icon",
         "Ingredients": {
             "Blackberry": 10.0,
-            "Egg": 5.0,
+            "Egg": 3.0,
             "Mint": 5.0,
             "Salt": 3.0,
             "Saps": 5.0,
             "Schisandra": 10.0,
             "Strawberry": 10.0,
-            "Wheat": 20.0
+            "Wheat": 15.0
         },
         "Name": "Tara'Nosti Treat",
         "SpoilTime": 36000.0,
@@ -11825,7 +12013,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
@@ -12178,6 +12366,14 @@
         },
         "Name": "Two-Handed Scythe"
     },
+    "Unicorn Costume Skin": {
+        "ClassName": "Skin_Unicorn_C",
+        "Icon": "Item_UnicornSkin_Icon",
+        "Ingredients": {
+            "Gold Coin": 1000.0
+        },
+        "Name": "Unicorn Costume"
+    },
     "Unthinkable Delicacy": {
         "ClassName": "Consumable_UnthinkableDelicacy_C",
         "Icon": "CookedPrimeMeat_Icon",
@@ -12189,8 +12385,8 @@
             "Mythos": 10.0,
             "Salt": 5.0,
             "Saps": 10.0,
-            "Vegetable": 50.0,
-            "Wheat or Maize": 50.0
+            "Vegetable": 30.0,
+            "Wheat or Maize": 30.0
         },
         "Name": "Unthinkable Delicacy",
         "SpoilTime": 36000.0,
@@ -12337,7 +12533,7 @@
             "Health": {
                 "add": 0.0,
                 "addOverTime": false,
-                "addOverTimeSpeed": 3.923635700109488e-44
+                "addOverTimeSpeed": 1.2891945871788317e-43
             },
             "VitaminA": {
                 "add": 3.0,
