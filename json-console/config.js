@@ -1,4 +1,5 @@
 {
+	"AtlasMapServer": false,
 	"GPSBounds": {
 		"max": [
 			100,
@@ -11,17 +12,16 @@
 	},
 	"GridOffset": 23333.333333333332,
 	"GridSize": 1400000,
+	"ItemLink": true,
+	"KofiLink": true,
 	"NodesPerAxis": 30,
+	"PathFinder": true,
+	"PinTool": true,
 	"ServersX": 3,
 	"ServersY": 3,
+	"WarehouseTool": false,
 	"XRange": 200,
 	"XScale": 1,
 	"YRange": 200,
-	"YScale": 1,
-	"AtlasMapServer": false,
-	"ItemLink": true,
-	"KofiLink": true,
-	"WarehouseTool": true,
-	"PathFinder": true,
-	"PinTool": true
+	"YScale": 1
 }

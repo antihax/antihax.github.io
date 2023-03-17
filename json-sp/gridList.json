@@ -1,20 +1,20 @@
 {
 	"A1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -101,20 +101,20 @@
 	},
 	"A10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -193,7 +193,7 @@
 			"Wild Pepper",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -219,20 +219,20 @@
 	},
 	"A11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -320,20 +320,20 @@
 	},
 	"A2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Anglerfish",
@@ -432,7 +432,7 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -458,20 +458,20 @@
 	},
 	"A3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -556,7 +556,7 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -582,20 +582,20 @@
 	},
 	"A4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -640,7 +640,7 @@
 			"Cactus Seed",
 			"Cedar",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Cotton",
@@ -674,8 +674,8 @@
 			"Wild Cactus",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -700,20 +700,20 @@
 	},
 	"A5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -766,7 +766,7 @@
 			"Basil",
 			"Calcite",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Copper",
@@ -801,8 +801,8 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -827,20 +827,20 @@
 	},
 	"A6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -963,20 +963,20 @@
 	},
 	"A7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -1085,20 +1085,20 @@
 	},
 	"A8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -1208,20 +1208,20 @@
 	},
 	"A9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -1321,20 +1321,20 @@
 	},
 	"B1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -1423,20 +1423,20 @@
 	},
 	"B10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -1528,7 +1528,7 @@
 			"Wild Pepper",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -1554,20 +1554,20 @@
 	},
 	"B11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -1662,20 +1662,20 @@
 	},
 	"B2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -1781,7 +1781,7 @@
 			"Wild Pepper",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -1807,20 +1807,20 @@
 	},
 	"B3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -1868,7 +1868,7 @@
 			"Cactus",
 			"Cactus Seed",
 			"Cedar",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Coquina",
 			"Cotton",
 			"Fir",
@@ -1902,8 +1902,8 @@
 			"Wild Onion",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -1928,20 +1928,20 @@
 	},
 	"B4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Anglerfish",
@@ -2002,7 +2002,7 @@
 			"Cactus",
 			"Cactus Seed",
 			"Cedar",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Coconut",
 			"Coquina",
 			"Cotton",
@@ -2044,8 +2044,8 @@
 			"Wild Onion",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -2070,20 +2070,20 @@
 	},
 	"B5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -2140,7 +2140,7 @@
 			"Basalt",
 			"Cedar",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Copper",
@@ -2177,8 +2177,8 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -2203,20 +2203,20 @@
 	},
 	"B6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -2273,7 +2273,7 @@
 			"Cedar",
 			"Chalcedony",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Copper",
@@ -2350,20 +2350,20 @@
 	},
 	"B7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -2465,20 +2465,20 @@
 	},
 	"B8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -2553,20 +2553,20 @@
 	},
 	"B9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -2682,20 +2682,20 @@
 	},
 	"C1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -2785,20 +2785,20 @@
 	},
 	"C10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -2885,7 +2885,7 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -2911,20 +2911,20 @@
 	},
 	"C11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -3029,20 +3029,20 @@
 	},
 	"C2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Anglerfish",
@@ -3139,7 +3139,7 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -3165,20 +3165,20 @@
 	},
 	"C3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -3226,7 +3226,7 @@
 			"Cactus Seed",
 			"Cedar",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Coquina",
@@ -3261,8 +3261,8 @@
 			"Wild Maize",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -3287,20 +3287,20 @@
 	},
 	"C4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -3348,7 +3348,7 @@
 			"Cactus",
 			"Cactus Seed",
 			"Cedar",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Coquina",
@@ -3390,8 +3390,8 @@
 			"Wild Onion",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -3416,20 +3416,20 @@
 	},
 	"C5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -3483,7 +3483,7 @@
 			"Basil",
 			"Calcite",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cobalt",
 			"Cocoa",
 			"Coconut",
@@ -3515,8 +3515,8 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -3541,20 +3541,20 @@
 	},
 	"C6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -3610,7 +3610,7 @@
 			"Cedar",
 			"Chalcedony",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Copper",
@@ -3680,20 +3680,20 @@
 	},
 	"C7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -3803,20 +3803,20 @@
 	},
 	"C8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -3929,20 +3929,20 @@
 	},
 	"C9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -4047,20 +4047,20 @@
 	},
 	"D1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -4160,20 +4160,20 @@
 	},
 	"D10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -4273,20 +4273,20 @@
 	},
 	"D11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -4373,20 +4373,20 @@
 	},
 	"D2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -4461,7 +4461,7 @@
 			"Wild Carrot",
 			"Wild Onion"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -4487,20 +4487,20 @@
 	},
 	"D3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -4581,7 +4581,7 @@
 			"Wild Carrot",
 			"Wild Onion"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1,1,0,1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Western Temperate",
@@ -4607,20 +4607,20 @@
 	},
 	"D4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -4708,7 +4708,7 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1,1,0,1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Western Temperate",
@@ -4734,20 +4734,20 @@
 	},
 	"D5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -4826,8 +4826,8 @@
 			"Sulfur",
 			"Twigs"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -4852,20 +4852,20 @@
 	},
 	"D6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -4975,23 +4975,24 @@
 	},
 	"D7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
+			"Catfish",
 			"Cobra",
 			"Cow",
 			"Crocodile",
@@ -5029,6 +5030,8 @@
 		"forceServerRules": 2,
 		"name": "",
 		"resources": [
+			"Acai",
+			"Acerola",
 			"Bark",
 			"Basalt",
 			"Beet Seed",
@@ -5044,6 +5047,7 @@
 			"Elderberry",
 			"Fir",
 			"Flake Salt",
+			"FreshWater",
 			"Geode",
 			"Granite",
 			"Herkimer",
@@ -5065,6 +5069,7 @@
 			"Reeds",
 			"Resin",
 			"Rice Seed",
+			"Roots",
 			"Rushes",
 			"Schisandra",
 			"Slate",
@@ -5072,6 +5077,7 @@
 			"Strawberry",
 			"Sugars",
 			"Tin",
+			"Turmeric",
 			"Twigs",
 			"Wild Beet",
 			"Wild Cactus",
@@ -5080,8 +5086,8 @@
 			"Wild Rice",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -5106,20 +5112,20 @@
 	},
 	"D8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -5171,7 +5177,7 @@
 			"Blackberry",
 			"Cactus",
 			"Cactus Seed",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cotton",
 			"Fir",
 			"FreshWater",
@@ -5204,8 +5210,8 @@
 			"Wild Onion",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,0.75,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,0.75",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Low Desert",
 		"sotd": {
@@ -5230,20 +5236,20 @@
 	},
 	"D9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -5345,20 +5351,20 @@
 	},
 	"E1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Anglerfish",
@@ -5456,20 +5462,20 @@
 	},
 	"E10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -5571,20 +5577,20 @@
 	},
 	"E11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -5682,20 +5688,20 @@
 	},
 	"E2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -5794,20 +5800,20 @@
 	},
 	"E3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -5885,20 +5891,20 @@
 	},
 	"E4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -5960,7 +5966,7 @@
 			"Syrup",
 			"Twigs"
 		],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -5986,20 +5992,20 @@
 	},
 	"E5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -6069,8 +6075,8 @@
 			"Straw",
 			"Twigs"
 		],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,RainIntervalMultiplier,RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,RainIntervalMultiplier,RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,0.36,0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -6095,20 +6101,20 @@
 	},
 	"E6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -6161,7 +6167,7 @@
 			"Basil",
 			"Calcite",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Copper",
@@ -6195,8 +6201,8 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -6221,20 +6227,20 @@
 	},
 	"E7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -6278,7 +6284,7 @@
 			"Cactus Seed",
 			"Cedar",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Coquina",
@@ -6314,8 +6320,8 @@
 			"Wild Chick Peas",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -6340,20 +6346,20 @@
 	},
 	"E8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -6397,7 +6403,7 @@
 			"Basalt",
 			"Blackberry",
 			"Cactus Seed",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Elderberry",
@@ -6427,8 +6433,8 @@
 			"Wild Chick Peas",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,0.75,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,0.75",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
 		"sotd": {
@@ -6453,20 +6459,20 @@
 	},
 	"E9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -6540,20 +6546,20 @@
 	},
 	"F1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -6626,20 +6632,20 @@
 	},
 	"F10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -6702,8 +6708,8 @@
 			"Wild Potato",
 			"Wild Turnip"
 		],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",0.36,0,0.5,0.5,0.5,",
+		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",0.36,0,0.5,0.5,0.5",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tundra",
 		"sotd": {
@@ -6728,20 +6734,20 @@
 	},
 	"F11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -6824,20 +6830,20 @@
 	},
 	"F2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -6937,20 +6943,20 @@
 	},
 	"F3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -7037,20 +7043,20 @@
 	},
 	"F4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [],
 		"biomes": [],
@@ -7065,8 +7071,8 @@
 		"forceServerRules": 5,
 		"name": "Central Maw",
 		"resources": [],
-		"serverCustomDatas1": ",DisableFog,DisableHeatCold,DisableRain,NPCShipNumMult,FloatsamEnabled,DisableClaimFlags,TreasureBottlesEnabled,RainIntervalMultiplier,",
-		"serverCustomDatas2": ",1,1,1,0,0,1,0,0.36,",
+		"serverCustomDatas1": ",DisableFog,DisableHeatCold,DisableRain,NPCShipNumMult,FloatsamEnabled,DisableClaimFlags,TreasureBottlesEnabled,RainIntervalMultiplier",
+		"serverCustomDatas2": ",1,1,1,0,0,1,0,0.36",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "EndBoss",
 		"sotd": {
@@ -7091,20 +7097,20 @@
 	},
 	"F5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Anglerfish",
@@ -7188,8 +7194,8 @@
 			"Twigs",
 			"Wild Cactus"
 		],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -7214,20 +7220,20 @@
 	},
 	"F6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -7279,7 +7285,7 @@
 			"Basil",
 			"Calcite",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Copper",
@@ -7314,8 +7320,8 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -7340,20 +7346,20 @@
 	},
 	"F7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -7396,7 +7402,7 @@
 			"Basalt",
 			"Blackberry",
 			"Cactus Seed",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Elderberry",
@@ -7424,8 +7430,8 @@
 			"Wild Cactus",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,0.75,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,0.75",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
 		"sotd": {
@@ -7450,20 +7456,20 @@
 	},
 	"F8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -7555,20 +7561,20 @@
 	},
 	"F9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -7670,20 +7676,20 @@
 	},
 	"G1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -7768,20 +7774,20 @@
 	},
 	"G10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -7850,20 +7856,20 @@
 	},
 	"G11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -7933,20 +7939,20 @@
 	},
 	"G2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Anglerfish",
@@ -8053,20 +8059,20 @@
 	},
 	"G3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -8139,7 +8145,7 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -8165,20 +8171,20 @@
 	},
 	"G4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -8286,20 +8292,20 @@
 	},
 	"G5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -8357,8 +8363,8 @@
 			"Sugars",
 			"Twigs"
 		],
-		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": "NPCShipDifficultyMult,NPCShipDifficultyLerp,NPCShipNumMult,FloatsamQualityMultiplier,TreasureBottlesEnabled,DisableClaimFlags,NPCShipSpawnIntervalMult,DisableFog,DisableRain,ChanceForCold,DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": "2.0,0.5,1.6,1.4,0.0,1,0.21,1,1,0,1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -8383,20 +8389,20 @@
 	},
 	"G6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -8441,7 +8447,7 @@
 			"Basalt",
 			"Calcite",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Copper",
@@ -8469,8 +8475,8 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -8495,20 +8501,20 @@
 	},
 	"G7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -8560,7 +8566,7 @@
 			"Blackberry",
 			"Cactus",
 			"Cactus Seed",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Elderberry",
@@ -8600,8 +8606,8 @@
 			"Wild Rice",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,0.75,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,0.75",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
 		"sotd": {
@@ -8626,20 +8632,20 @@
 	},
 	"G8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Cat",
@@ -8690,8 +8696,8 @@
 			"Thatch",
 			"Wood"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,0.75,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,0.75",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Low Desert",
 		"sotd": {
@@ -8716,20 +8722,20 @@
 	},
 	"G9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -8826,20 +8832,20 @@
 	},
 	"H1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -8940,20 +8946,20 @@
 	},
 	"H10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -9050,20 +9056,20 @@
 	},
 	"H11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -9136,20 +9142,20 @@
 	},
 	"H2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -9234,7 +9240,7 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Western Temperate",
@@ -9260,20 +9266,20 @@
 	},
 	"H3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -9385,20 +9391,20 @@
 	},
 	"H4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -9506,20 +9512,20 @@
 	},
 	"H5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -9567,7 +9573,7 @@
 			"Cactus Seed",
 			"Cedar",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Cotton",
@@ -9603,8 +9609,8 @@
 			"Wild Chick Peas",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -9629,20 +9635,20 @@
 	},
 	"H6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -9695,7 +9701,7 @@
 			"Basalt",
 			"Basil",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Copper",
@@ -9727,8 +9733,8 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -9753,20 +9759,20 @@
 	},
 	"H7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -9871,20 +9877,20 @@
 	},
 	"H8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -9983,20 +9989,20 @@
 	},
 	"H9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -10093,20 +10099,20 @@
 	},
 	"I1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -10200,20 +10206,20 @@
 	},
 	"I10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -10276,8 +10282,8 @@
 			"Wild Potato",
 			"Wild Turnip"
 		],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",0.36,0,0.5,0.5,0.5,",
+		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",0.36,0,0.5,0.5,0.5",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tundra",
 		"sotd": {
@@ -10302,20 +10308,20 @@
 	},
 	"I11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -10406,20 +10412,20 @@
 	},
 	"I2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Anglerfish",
@@ -10519,7 +10525,7 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -10545,20 +10551,20 @@
 	},
 	"I3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -10655,20 +10661,20 @@
 	},
 	"I4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -10780,20 +10786,20 @@
 	},
 	"I5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Anglerfish",
@@ -10851,7 +10857,7 @@
 			"Cactus Seed",
 			"Cedar",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Cotton",
@@ -10896,8 +10902,8 @@
 			"Wild Rice",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -10922,20 +10928,20 @@
 	},
 	"I6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -10981,7 +10987,7 @@
 			"Basil",
 			"Calcite",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Copper",
@@ -11009,8 +11015,8 @@
 			"Twigs",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -11035,20 +11041,20 @@
 	},
 	"I7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -11145,20 +11151,20 @@
 	},
 	"I8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -11260,20 +11266,20 @@
 	},
 	"I9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -11385,20 +11391,20 @@
 	},
 	"J1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -11498,20 +11504,20 @@
 	},
 	"J10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -11573,8 +11579,8 @@
 			"Wild Potato",
 			"Wild Turnip"
 		],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",0.36,0,0.5,0.5,0.5,",
+		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",0.36,0,0.5,0.5,0.5",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tundra",
 		"sotd": {
@@ -11599,20 +11605,20 @@
 	},
 	"J11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -11710,20 +11716,20 @@
 	},
 	"J2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -11798,7 +11804,7 @@
 			"Twigs",
 			"Wild Onion"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -11824,20 +11830,20 @@
 	},
 	"J3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -11965,20 +11971,20 @@
 	},
 	"J4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -12089,20 +12095,20 @@
 	},
 	"J5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -12151,7 +12157,7 @@
 			"Cactus Seed",
 			"Cedar",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Coconut",
 			"Cotton",
@@ -12195,8 +12201,8 @@
 			"Wild Rice",
 			"Yarrow"
 		],
-		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4,",
+		"serverCustomDatas1": ",DisableFog,DisableRain,ChanceForCold,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",1,1,0,1.4,0.33,1.4",
 		"serverIslandPointsMultiplier": 1.5,
 		"serverTemplate": "High Desert",
 		"sotd": {
@@ -12221,20 +12227,20 @@
 	},
 	"J6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -12292,7 +12298,7 @@
 			"Calcite",
 			"Chalcedony",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cocoa",
 			"Coconut",
 			"Copper",
@@ -12329,8 +12335,8 @@
 			"Wild Beans",
 			"Wild Chick Peas"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -12355,20 +12361,20 @@
 	},
 	"J7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -12482,20 +12488,20 @@
 	},
 	"J8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -12612,20 +12618,20 @@
 	},
 	"J9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -12675,8 +12681,8 @@
 			"Thatch",
 			"Wood"
 		],
-		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,",
-		"serverCustomDatas2": ",0.36,0,0.5,0.5,0.5,",
+		"serverCustomDatas1": ",FogIntervalMultiplier,RainChanceForSnow,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier",
+		"serverCustomDatas2": ",0.36,0,0.5,0.5,0.5",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Tundra",
 		"sotd": {
@@ -12701,20 +12707,20 @@
 	},
 	"K1": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -12800,20 +12806,20 @@
 	},
 	"K10": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -12914,20 +12920,20 @@
 	},
 	"K11": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Bear",
@@ -13024,20 +13030,20 @@
 	},
 	"K2": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -13127,7 +13133,7 @@
 			"Wild Pepper",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -13153,20 +13159,20 @@
 	},
 	"K3": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -13251,7 +13257,7 @@
 			"Wild Onion",
 			"Wild Pepper"
 		],
-		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones,",
+		"serverCustomDatas1": ",NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainIntervalMultiplier,RainChanceForCyclones",
 		"serverCustomDatas2": ",1.25,0.33,1.25,0.5,0.1",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Western Temperate",
@@ -13277,20 +13283,20 @@
 	},
 	"K4": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Anglerfish",
@@ -13408,20 +13414,20 @@
 	},
 	"K5": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -13526,20 +13532,20 @@
 	},
 	"K6": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -13591,7 +13597,7 @@
 			"Basil",
 			"Calcite",
 			"Chert",
-			"Chick Pea Seed",
+			"Chickpea Seed",
 			"Cilantro",
 			"Cobalt",
 			"Cocoa",
@@ -13632,8 +13638,8 @@
 			"Wild Chick Peas",
 			"Wild Rice"
 		],
-		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones,",
-		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4,",
+		"serverCustomDatas1": ",RainIntervalMultiplier,NPCShipDifficultyMult,NPCShipDifficultyLerp,FloatsamQualityMultiplier,RainChanceForCyclones",
+		"serverCustomDatas2": ",0.36,1.25,0.33,1.25,0.4",
 		"serverIslandPointsMultiplier": 1,
 		"serverTemplate": "Equatorial",
 		"sotd": {
@@ -13658,20 +13664,20 @@
 	},
 	"K7": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -13776,20 +13782,20 @@
 	},
 	"K8": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",
@@ -13892,20 +13898,20 @@
 	},
 	"K9": {
 		"DestEast": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestNorth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestSouth": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"DestWest": [
-			null,
-			null
+			-1,
+			-1
 		],
 		"animals": [
 			"Ant",

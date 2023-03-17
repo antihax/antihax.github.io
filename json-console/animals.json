@@ -2309,6 +2309,120 @@
             ],
             "tameConsumeInterval": 10.0
         },
+        "CityNPC Crew Base": {
+            "XP": 1.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "CityNPC_BP_Crew_Base_Child_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 5000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Gold Coin",
+                    "weight": 0.00699999975040555
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Meats",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Milk or Water",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Generic Consumable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
         "Cnidaria": {
             "XP": 1.0,
             "XPperHit": true,
