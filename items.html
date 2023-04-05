@@ -99,6 +99,15 @@
     </style>
 
     <script>
+        const params = new URLSearchParams(window.location.search);
+        var version = '';
+        if (params.has('v')) {
+            let v = params.get('v');
+            let versionReg = /^[a-z0-9]{1,10}$/;
+            if (versionReg.test(v)) {
+                version = '-' + v;
+            }
+        }
         var className = "";
         $(document).ready(function() {
             let bh = new Bloodhound({
@@ -111,7 +120,7 @@
                     return obj.Name;
                 },
                 prefetch: {
-                    url: '/json/items.json',
+                    url: '/json'+version+'/items.json',
                     filter: function(list) {
                         return $.map(list, function(v, k) {
                             if (!v.ClassName)
@@ -132,7 +141,7 @@
             }, {
                 name: 'bh',
                 source: bh,
-                limit: 100,
+                limit: 10,
                 display: function(data) {
                     return data.Name
                 },
