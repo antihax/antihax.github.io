@@ -845,6 +845,13 @@ ol.History {
     list-style-type: none
 }
 
+.resource-found {
+    color: '#ff0000';
+    opacity: 1;
+    fill-opacity: 0.7;
+    stroke: '#000000';
+}
+
 .leaflet-control-measure {
     font-size: 16px;
     font-weight: bold;
